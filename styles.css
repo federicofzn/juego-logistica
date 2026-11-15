@@ -1329,8 +1329,8 @@ button.match-item:not(:disabled):hover {
 .log-pallet .log-base { fill: #78471f; }
 .log-load ul { margin: 0; padding-left: 19px; color: #334155; font-size: 0.78rem; font-weight: 700; }
 .log-load li + li { margin-top: 6px; }
-.log-illustrations { display: flex; flex-wrap: wrap; gap: 10px; }
-.log-illustration { flex: 1 1 230px; min-width: 0; max-width: 320px; padding: 10px; border: 1px solid #d4e2e9; border-radius: 12px; background: #fff; }
+.log-illustrations { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.log-illustration { flex: 1 1 400px; min-width: 0; max-width: 520px; padding: 10px; border: 1px solid #bdd8e6; border-radius: 12px; background: #edf6fa; }
 .log-illustration strong { display: block; color: #173b55; font-size: 0.8rem; }
 .log-illustration img { display: block; width: 100%; height: auto; margin: 8px auto; }
 .log-illustration p { margin: 0; color: #334155; font-size: 0.75rem; line-height: 1.4; }
