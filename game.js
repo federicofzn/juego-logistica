@@ -93,8 +93,16 @@ const READ_DELAY = {
 // Logros: contadores que se acumulan entre partidas. Cada uno tiene 5 niveles (verde, azul, violeta, rojo y dorado).
 const TIER_NAMES = ["Verde", "Azul", "Violeta", "Rojo", "Dorado"];
 const ACHIEVEMENTS = [
-  ...["Introducción", "Planeamiento y servicio", "Almacén", "Unidad de carga", "Almacenaje y manipuleo", "Preparación de pedidos", "Transporte"].map((name, index) => ({
-    key: `unit:clase${index + 1}`, name, icon: "local_shipping", description: `Respondé bien casos o definiciones de ${name}.`, tiers: [5, 15, 40, 80, 150]
+  ...[
+    ["Introducción", "account_tree"],
+    ["Planeamiento y servicio", "event_note"],
+    ["Almacén", "warehouse"],
+    ["Unidad de carga", "inventory_2"],
+    ["Almacenaje y manipuleo", "precision_manufacturing"],
+    ["Preparación de pedidos", "fact_check"],
+    ["Transporte", "local_shipping"]
+  ].map(([name, icon], index) => ({
+    key: `unit:clase${index + 1}`, name, icon, description: `Respondé bien casos o definiciones de ${name}.`, tiers: [5, 15, 40, 80, 150]
   })),
   { key: "kind:case", name: "Casos situacionales", icon: "description", description: "Resolvé casos situacionales.", tiers: [5, 20, 50, 100, 200] },
   { key: "kind:timed", name: "Contrarreloj", icon: "timer", description: "Resolvé desafíos con reloj antes de que se termine el tiempo.", tiers: [5, 15, 30, 60, 100] },
