@@ -118,5 +118,13 @@
     "definicion": "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias.",
     "ejemplo": "Ventas consulta cobertura y stock antes de anunciar entregas.",
     "libro": "clase1_areas"
+  },
+  {
+    "id": "def-clase1-16",
+    "grupo": "servicio",
+    "termino": "Condiciones de entrega",
+    "definicion": "Requisitos acordados para recibir un pedido, como lugar, plazo, cantidad y estado.",
+    "ejemplo": "Un pedido llega completo al domicilio y en el horario acordados.",
+    "libro": "clase1_conceptos"
   }
 ]

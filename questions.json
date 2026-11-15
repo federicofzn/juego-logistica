@@ -8,11 +8,11 @@
     "pregunta": "¿Qué función integra estas actividades?",
     "respuestaCorrecta": "Logística",
     "respuestasIncorrectas": [
-      "Solo transporte",
-      "Solo compras",
-      "Solo marketing",
-      "Contabilidad financiera",
-      "Diseño de productos"
+      "Transporte de distribución solamente",
+      "Administración de compras solamente",
+      "Almacenamiento sin gestión de pedidos",
+      "Gestión comercial de ventas",
+      "Planificación de producción solamente"
     ],
     "pista": "Buscá el conjunto que incluye almacenamiento y movimiento.",
     "explicacion": "La logística integra estas actividades y la información asociada.",
@@ -31,11 +31,11 @@
     "pregunta": "¿Qué abarca mejor esa red?",
     "respuestaCorrecta": "Cadena de suministro",
     "respuestasIncorrectas": [
-      "Un único depósito",
-      "Solo distribución física",
-      "Solo logística inversa",
-      "Solo transporte",
-      "Una operación de embalaje"
+      "Red de distribución de productos terminados",
+      "Proceso de aprovisionamiento de una fábrica",
+      "Operación interna de almacenamiento",
+      "Servicio de transporte entre dos depósitos",
+      "Circuito de devoluciones de clientes"
     ],
     "pista": "Incluí actores y funciones desde el origen hasta el cliente.",
     "explicacion": "La cadena conecta organizaciones y procesos; la logística participa dentro de ella.",
@@ -54,11 +54,11 @@
     "pregunta": "¿Qué división tiene el foco principal?",
     "respuestaCorrecta": "Administración de materiales",
     "respuestasIncorrectas": [
-      "Distribución física",
-      "Ventas minoristas",
-      "Logística inversa",
-      "Servicio posventa",
-      "Publicidad"
+      "Distribución de productos terminados",
+      "Gestión de devoluciones de clientes",
+      "Despacho de pedidos a comercios",
+      "Transporte de ventas terminadas",
+      "Servicio de entrega al consumidor"
     ],
     "pista": "Seguí el flujo que entra hacia la producción.",
     "explicacion": "La administración de materiales asegura y mueve los insumos necesarios.",
@@ -77,11 +77,11 @@
     "pregunta": "¿Qué división predomina?",
     "respuestaCorrecta": "Distribución física",
     "respuestasIncorrectas": [
-      "Administración de materias primas",
-      "Selección de personal",
-      "Logística inversa",
-      "Compra de insumos productivos",
-      "Desarrollo publicitario"
+      "Administración de insumos para producción",
+      "Recepción de materias primas",
+      "Aprovisionamiento de componentes",
+      "Gestión de devoluciones de clientes",
+      "Compra de materiales para fabricación"
     ],
     "pista": "El producto ya está terminado y sale hacia clientes.",
     "explicacion": "La distribución física gestiona la salida de productos terminados.",
@@ -100,11 +100,11 @@
     "pregunta": "¿Qué proceso organiza ese retorno?",
     "respuestaCorrecta": "Logística inversa",
     "respuestasIncorrectas": [
-      "Distribución inicial",
-      "Aprovisionamiento de materias primas",
-      "Producción en línea",
-      "Promoción comercial",
-      "Venta directa"
+      "Distribución inicial al cliente",
+      "Recepción de materias primas para producir",
+      "Despacho de una venta nueva",
+      "Aprovisionamiento de componentes productivos",
+      "Transporte de productos terminados a tiendas"
     ],
     "pista": "Observá la dirección del movimiento desde el cliente.",
     "explicacion": "El retorno para reparación es un caso de logística inversa.",
@@ -123,11 +123,11 @@
     "pregunta": "¿Qué está evaluando principalmente?",
     "respuestaCorrecta": "Nivel de servicio",
     "respuestasIncorrectas": [
-      "Diseño del producto",
-      "Origen militar de la logística",
-      "Tipo de cadena industrial",
-      "Compra de maquinaria",
-      "Campaña publicitaria"
+      "Costo unitario de compra",
+      "Capacidad máxima de fabricación",
+      "Rotación de materias primas",
+      "Frecuencia de negociación con proveedores",
+      "Productividad de la línea de producción"
     ],
     "pista": "Pensá en las condiciones ofrecidas al cliente.",
     "explicacion": "Puntualidad y entrega completa son condiciones del servicio.",
@@ -146,11 +146,11 @@
     "pregunta": "¿Qué decisión mejora la coordinación?",
     "respuestaCorrecta": "Ajustar la promesa con ventas y coordinar reposición",
     "respuestasIncorrectas": [
-      "Publicar igual sin consultar",
-      "Comprar publicidad y omitir el stock",
-      "Despachar cantidades menores sin avisar",
-      "Eliminar el registro de inventario",
-      "Suponer que el proveedor ya entregó"
+      "Anunciar entrega inmediata y revisar stock después",
+      "Ofrecer entrega inmediata solo según el pronóstico de ventas",
+      "Aceptar pedidos completos sin confirmar reposición",
+      "Mantener la promesa y comunicar faltantes después de la compra",
+      "Promocionar el producto sin informar un plazo realista"
     ],
     "pista": "Relacioná la promesa comercial con la disponibilidad real.",
     "explicacion": "Ventas y logística deben alinear lo prometido con inventario y reposición.",
@@ -169,11 +169,11 @@
     "pregunta": "¿Qué dato necesita logística para organizar la recepción?",
     "respuestaCorrecta": "Cantidades y fecha acordadas de entrega",
     "respuestasIncorrectas": [
-      "Solo el color del logo del proveedor",
-      "Únicamente la publicidad del producto",
-      "El historial de vacaciones del vendedor",
-      "La fecha de cierre del local cliente",
-      "Solo el nombre de la campaña"
+      "Solo el precio unitario acordado",
+      "Solo el nombre del proveedor",
+      "Solo las condiciones de pago",
+      "Solo la fecha de emisión de la orden",
+      "Solo el destino de venta del producto final"
     ],
     "pista": "El depósito debe prever qué recibirá y cuándo.",
     "explicacion": "Con cantidades y fecha puede preparar recepción, espacio y flujo de materiales.",
@@ -192,11 +192,11 @@
     "pregunta": "¿Qué respuesta corrige esa idea?",
     "respuestaCorrecta": "La cadena integra más funciones y actores; la logística es parte de ella",
     "respuestasIncorrectas": [
-      "La logística incluye toda actividad empresarial y la cadena solo camiones",
-      "La cadena excluye proveedores",
-      "La logística solo funciona después de la venta",
-      "La cadena termina antes de la fabricación",
-      "Ambas expresiones designan únicamente el depósito"
+      "La cadena se limita al transporte entre depósitos",
+      "La logística abarca toda la cadena y excluye a los proveedores",
+      "La cadena comienza cuando se entrega el producto al cliente",
+      "La logística solo comprende la entrega final",
+      "La cadena y la logística se limitan al almacenamiento"
     ],
     "pista": "Compará la operación logística con la red de organizaciones.",
     "explicacion": "La cadena coordina un conjunto más amplio de procesos y participantes.",
@@ -215,11 +215,11 @@
     "pregunta": "¿Qué actividad reemplaza a la fabricación en su recorrido?",
     "respuestaCorrecta": "Almacenaje y consolidación de productos",
     "respuestasIncorrectas": [
-      "Extracción obligatoria de materias primas",
-      "Fabricación propia de cada artículo",
-      "Eliminación de toda existencia",
-      "Devolución obligatoria al proveedor",
-      "Diseño de maquinaria industrial"
+      "Producción de los artículos comprados",
+      "Extracción de las materias primas de cada artículo",
+      "Transformación industrial de todos los artículos",
+      "Fabricación de componentes para los proveedores",
+      "Ensamblaje obligatorio antes de vender"
     ],
     "pista": "La empresa trabaja con productos ya terminados.",
     "explicacion": "Una comercializadora puede almacenar y consolidar sin fabricar.",
@@ -238,11 +238,11 @@
     "pregunta": "¿Qué resultado busca esta operación?",
     "respuestaCorrecta": "Reutilizar materiales mediante un flujo de retorno",
     "respuestasIncorrectas": [
-      "Aumentar la fabricación de residuos",
-      "Eliminar toda inspección de entrada",
-      "Evitar cualquier costo de transporte",
-      "Transformar automáticamente cada envase en producto nuevo",
-      "Sustituir el servicio al cliente por publicidad"
+      "Despachar envases nuevos al cliente",
+      "Eliminar los envases sin revisar su estado",
+      "Transformar necesariamente todos los envases en materia prima",
+      "Almacenar envases nuevos antes de su venta",
+      "Enviar productos terminados a distribuidores"
     ],
     "pista": "Identificá qué ocurre con el envase después del consumo.",
     "explicacion": "La reutilización es un destino posible de la logística inversa, sujeto a control.",
@@ -261,11 +261,11 @@
     "pregunta": "¿Qué criterio respeta el enfoque de logística inversa?",
     "respuestaCorrecta": "Evaluar cada caso para reparar, reutilizar, reciclar o disponer adecuadamente",
     "respuestasIncorrectas": [
-      "Mandar todos al cliente sin revisarlos",
-      "Afirmar que todos pueden reutilizarse",
-      "Desechar todo sin considerar alternativas",
-      "Considerar que el retorno termina al recibirlo",
-      "Excluir productos defectuosos del proceso"
+      "Reutilizar todos los productos sin revisar su estado",
+      "Reciclar todos sin evaluar reparación o reutilización",
+      "Desechar todos sin evaluar recuperación",
+      "Reparar todos sin examinar su estado",
+      "Devolver todos al cliente sin considerar otro destino"
     ],
     "pista": "No todos los productos admiten el mismo tratamiento.",
     "explicacion": "El destino depende del estado del producto y de las alternativas disponibles.",
@@ -284,11 +284,11 @@
     "pregunta": "¿Qué función del almacén ayuda a conectar abastecimiento y pedidos?",
     "respuestaCorrecta": "Controlar existencias y preparar pedidos",
     "respuestasIncorrectas": [
-      "Reemplazar la elección de mercados",
-      "Suprimir toda información de entradas",
-      "Garantizar ventas sin productos",
-      "Eliminar la necesidad de recepción",
-      "Fijar por sí solo el precio de venta"
+      "Registrar solo las compras sin controlar existencias",
+      "Preparar pedidos sin revisar lo recibido",
+      "Almacenar sin actualizar entradas ni salidas",
+      "Recibir productos sin vincularlos con pedidos",
+      "Programar compras sin consultar el inventario"
     ],
     "pista": "Pensá cómo se pasa de la entrada al despacho.",
     "explicacion": "La recepción, el control de inventario y la preparación articulan entradas y salidas.",
@@ -307,11 +307,11 @@
     "pregunta": "¿Qué consecuencia es razonable considerar?",
     "respuestaCorrecta": "Una interrupción o demora de producción",
     "respuestasIncorrectas": [
-      "Una entrega puntual garantizada",
-      "Una reducción automática de todos los costos",
-      "La desaparición del inventario restante",
-      "La eliminación de la necesidad de comprar",
-      "Un aumento seguro de ventas"
+      "La continuidad garantizada de la producción",
+      "La entrega al cliente sin riesgo de demora",
+      "La reducción segura del inventario de productos terminados",
+      "La disponibilidad inmediata del componente faltante",
+      "La eliminación de la necesidad de reprogramar pedidos"
     ],
     "pista": "Considerá la dependencia entre abastecimiento y fabricación.",
     "explicacion": "La falta de insumos puede retrasar la producción y afectar pedidos posteriores.",
@@ -330,11 +330,11 @@
     "pregunta": "¿Qué dimensión se ve directamente favorecida?",
     "respuestaCorrecta": "Servicio al cliente",
     "respuestasIncorrectas": [
-      "Origen de las materias primas",
-      "Estructura salarial",
-      "Diseño de la marca",
-      "Tipo de cambio",
-      "Selección del personal"
+      "Negociación del precio de compra",
+      "Planificación del suministro de materias primas",
+      "Capacidad de producción instalada",
+      "Selección de proveedores de insumos",
+      "Programación de compras futuras"
     ],
     "pista": "Evaluá el cumplimiento de lo prometido.",
     "explicacion": "La entrega correcta y en condiciones contribuye a la satisfacción del cliente.",
@@ -353,11 +353,11 @@
     "pregunta": "¿Qué secuencia describe mejor el recorrido?",
     "respuestaCorrecta": "Aprovisionamiento, producción y distribución",
     "respuestasIncorrectas": [
-      "Distribución, consumo y extracción",
-      "Venta, devolución y publicidad",
-      "Reciclaje, compra y liquidación",
-      "Producción, aprovisionamiento y recepción",
-      "Promoción, transporte y contratación"
+      "Producción, aprovisionamiento y distribución",
+      "Distribución, aprovisionamiento y producción",
+      "Aprovisionamiento, distribución y producción",
+      "Producción, distribución y aprovisionamiento",
+      "Distribución, producción y aprovisionamiento"
     ],
     "pista": "Ordená los hechos desde la llegada de piezas hasta el envío.",
     "explicacion": "Las fases van del abastecimiento a la transformación y luego a la distribución.",
@@ -376,11 +376,11 @@
     "pregunta": "¿Qué evaluación es más prudente?",
     "respuestaCorrecta": "Comparar recuperación posible con costos y destino de los retornos",
     "respuestasIncorrectas": [
-      "Dar por seguro el beneficio de cada retorno",
-      "Excluir transporte y clasificación del análisis",
-      "Suponer que todos los productos tienen igual estado",
-      "Eliminar la revisión de calidad",
-      "Prometer reciclaje sin comprobar opciones"
+      "Contar la recuperación sin considerar costos de retorno",
+      "Comparar solo el precio de venta de productos nuevos",
+      "Suponer el mismo valor de recuperación para todos los estados",
+      "Evaluar únicamente el costo del transporte de ida",
+      "Considerar solo la cantidad recogida, sin examinar destino"
     ],
     "pista": "La recuperación tiene beneficios posibles y también obstáculos.",
     "explicacion": "La logística inversa puede recuperar valor, pero implica costos y resultados variables.",
@@ -399,11 +399,11 @@
     "pregunta": "¿Por qué la logística puede ser una ventaja competitiva?",
     "respuestaCorrecta": "Porque disponibilidad y cumplimiento pueden mejorar la experiencia del cliente",
     "respuestasIncorrectas": [
-      "Porque elimina toda competencia",
-      "Porque garantiza que nunca habrá reclamos",
-      "Porque reemplaza la calidad del producto",
-      "Porque hace innecesaria la coordinación con ventas",
-      "Porque toda entrega más rápida siempre cuesta menos"
+      "Porque la confiabilidad reemplaza toda calidad del producto",
+      "Porque un mejor servicio asegura cualquier venta futura",
+      "Porque los plazos dejan de importar cuando hay inventario",
+      "Porque las dos firmas ya no necesitan competir en precio",
+      "Porque el cumplimiento evita cualquier costo de distribución"
     ],
     "pista": "Pensá cómo percibe el cliente el cumplimiento.",
     "explicacion": "Un servicio confiable puede favorecer satisfacción y preferencia, sin garantizar ventas.",
@@ -411,6 +411,52 @@
       "tipo": "Fundamentos",
       "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-19",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Condiciones de entrega",
+    "situacion": "Un cliente recibe la cantidad solicitada, pero en una sucursal distinta de la acordada.",
+    "pregunta": "¿Qué debe revisar el equipo para evaluar el cumplimiento logístico?",
+    "respuestaCorrecta": "La cantidad y el lugar de entrega acordados",
+    "respuestasIncorrectas": [
+      "Solo la cantidad entregada",
+      "Solo el estado del embalaje",
+      "Solo el precio de compra",
+      "Solo la fecha de preparación",
+      "Solo la disponibilidad en el depósito"
+    ],
+    "pista": "Una entrega puede cumplir una condición y fallar en otra.",
+    "explicacion": "La cantidad correcta no compensa por sí sola una entrega en un lugar distinto del convenido.",
+    "referencia": {
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-20",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Elección de proveedor",
+    "situacion": "Compras compara dos proveedores de un insumo: uno ofrece menor precio, pero entrega con menos frecuencia.",
+    "pregunta": "¿Qué análisis conviene hacer con logística antes de elegir?",
+    "respuestaCorrecta": "Comparar precio, entregas y efectos sobre inventario y continuidad",
+    "respuestasIncorrectas": [
+      "Elegir solo por el precio unitario",
+      "Elegir solo por la frecuencia de entrega",
+      "Comparar solo la distancia de los proveedores",
+      "Priorizar solo el espacio disponible en depósito",
+      "Decidir solo por el tamaño de cada pedido"
+    ],
+    "pista": "El precio de compra es una parte de la decisión de abastecimiento.",
+    "explicacion": "El ahorro de compra debe evaluarse junto con la frecuencia, el inventario necesario y el riesgo de faltantes.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
     }
   },
   {
@@ -422,11 +468,11 @@
     "pregunta": "¿Qué perspectiva permite analizar ambas consecuencias?",
     "respuestaCorrecta": "Enfoque sistémico",
     "respuestasIncorrectas": [
-      "Análisis aislado de transporte",
-      "Revisión exclusiva de publicidad",
-      "Evaluación solo del precio de compra",
-      "Control únicamente contable",
-      "Análisis exclusivo de personal"
+      "Análisis aislado del costo de transporte",
+      "Evaluación exclusiva de la compra del insumo",
+      "Control de existencias sin revisar entregas",
+      "Revisión de la preparación sin considerar abastecimiento",
+      "Medición de ventas sin relacionarla con operaciones"
     ],
     "pista": "SeguÍ la relación entre actividades.",
     "explicacion": "El enfoque sistémico estudia cómo una etapa afecta a las demás y al resultado.",
@@ -445,11 +491,11 @@
     "pregunta": "¿Qué está haciendo?",
     "respuestaCorrecta": "Planeamiento logístico",
     "respuestasIncorrectas": [
-      "Solo registrando una entrega pasada",
-      "Solo evaluando publicidad",
-      "Eliminando la necesidad de proveedores",
-      "Realizando una devolución",
-      "Determinando el diseño del envase"
+      "Registro de entregas ya efectuadas",
+      "Control de calidad de un producto terminado",
+      "Atención de una devolución individual",
+      "Negociación aislada de un precio de compra",
+      "Facturación de pedidos ya despachados"
     ],
     "pista": "Se toman decisiones anticipadas sobre recursos y flujos.",
     "explicacion": "Planear coordina abastecimiento, almacenamiento y distribución con demanda y servicio.",
@@ -468,11 +514,11 @@
     "pregunta": "¿Qué aspecto atiende directamente?",
     "respuestaCorrecta": "Servicio al cliente",
     "respuestasIncorrectas": [
-      "Únicamente producción",
-      "Solo selección de proveedores",
-      "Diseño del producto",
-      "Solo compra de materias primas",
-      "Cierre del almacén"
+      "Selección de un proveedor de insumos",
+      "Control del costo de almacenamiento",
+      "Cálculo de capacidad de producción",
+      "Programación de compras futuras",
+      "Clasificación de inventario por referencia"
     ],
     "pista": "El servicio también incluye información y atención de problemas.",
     "explicacion": "Comunicar y responder ante una incidencia forma parte del servicio.",
@@ -491,11 +537,11 @@
     "pregunta": "¿Qué condición se cumple en ese momento?",
     "respuestaCorrecta": "Disponibilidad",
     "respuestasIncorrectas": [
-      "Entrega completa ya confirmada",
-      "Transporte finalizado",
-      "Devolución procesada",
-      "Promoción finalizada",
-      "Producción necesariamente propia"
+      "Entrega completa ya realizada",
+      "Despacho confirmado al cliente",
+      "Pedido recibido en destino",
+      "Devolución aceptada por el proveedor",
+      "Transporte al cliente completado"
     ],
     "pista": "Estar en stock y haber entregado son hechos distintos.",
     "explicacion": "La disponibilidad permite atender el pedido, aunque aún falta cumplir la entrega.",
@@ -514,11 +560,11 @@
     "pregunta": "¿Qué condición no se cumplió?",
     "respuestaCorrecta": "Entrega completa",
     "respuestasIncorrectas": [
-      "Puntualidad de la llegada",
-      "Recepción por el cliente",
-      "Existencia de una orden",
-      "Llegada en la fecha acordada",
-      "Comunicación del pedido inicial"
+      "Entrega en la fecha acordada",
+      "Recepción del pedido por el cliente",
+      "Comunicación de la orden inicial",
+      "Disponibilidad de las ocho unidades enviadas",
+      "Despacho de parte de la cantidad solicitada"
     ],
     "pista": "Compará la cantidad pedida con la recibida.",
     "explicacion": "La entrega llegó a tiempo, pero no incluyó todas las unidades solicitadas.",
@@ -537,11 +583,11 @@
     "pregunta": "¿Qué práctica muestra el ejemplo?",
     "respuestaCorrecta": "Coordinación entre áreas",
     "respuestasIncorrectas": [
-      "Aislamiento funcional",
-      "Reemplazo del inventario por publicidad",
-      "Eliminación del proveedor",
-      "Supresión del plan de ventas",
-      "Distribución inversa obligatoria"
+      "Planificación comercial sin compartir información",
+      "Compra de insumos sin considerar la promoción",
+      "Decisión de ventas sin consultar abastecimiento",
+      "Control de existencias sin previsión comercial",
+      "Programación de pedidos sin comunicar cambios"
     ],
     "pista": "Observá cómo se comparte información entre funciones.",
     "explicacion": "Coordinar permite ajustar el suministro a lo que ventas espera ofrecer.",
@@ -560,11 +606,11 @@
     "pregunta": "¿Cómo debería evaluarse la medida?",
     "respuestaCorrecta": "Comparando el ahorro con faltantes y efectos sobre el servicio",
     "respuestasIncorrectas": [
-      "Mirando solo la tarifa del transporte",
-      "Suponiendo que menos viajes siempre mejoran el servicio",
-      "Ignorando inventario y demanda",
-      "Comparando solo la publicidad",
-      "Tratando cada etapa como independiente"
+      "Comparando solamente las tarifas de transporte",
+      "Evaluando el costo de viajes sin medir faltantes",
+      "Midiendo solo el inventario promedio",
+      "Revisando únicamente la utilización de vehículos",
+      "Considerando el servicio sin incluir el cambio de costos"
     ],
     "pista": "Un ahorro local puede tener consecuencias en otros puntos.",
     "explicacion": "El enfoque sistémico considera costos y resultados conjuntos, incluido el servicio.",
@@ -583,11 +629,11 @@
     "pregunta": "¿Cuándo corresponde revisar el plan logístico?",
     "respuestaCorrecta": "Al detectar el cambio, considerando capacidad y abastecimiento",
     "respuestasIncorrectas": [
-      "Solo al terminar todos los contratos",
-      "Nunca, porque el plan inicial es definitivo",
-      "Solo después de perder todos los clientes",
-      "Únicamente si cambia el nombre del producto",
-      "Cuando ventas deje de compartir información"
+      "Solo cuando venza el presupuesto anual",
+      "Cuando ya se hayan agotado las existencias",
+      "Después de cerrar las ventas de la temporada",
+      "Únicamente al renovar el contrato de transporte",
+      "Cuando finalice el plan de producción vigente"
     ],
     "pista": "Relacioná la planificación continua con un cambio relevante.",
     "explicacion": "Una variación de demanda puede exigir ajustes de stock, compras y distribución.",
@@ -606,11 +652,11 @@
     "pregunta": "¿Qué combinación necesita revisar?",
     "respuestaCorrecta": "Cobertura, transporte, capacidad y servicio prometido",
     "respuestasIncorrectas": [
-      "Solo el color del uniforme",
-      "Únicamente las ventas del año anterior",
-      "Solo el número de proveedores actuales",
-      "Exclusivamente el nombre del depósito",
-      "Solo la cantidad de avisos publicados"
+      "Solo la capacidad de los proveedores actuales",
+      "Únicamente las ventas de la zona anterior",
+      "Solo el inventario disponible hoy",
+      "Únicamente el precio de venta previsto",
+      "Solo la frecuencia de compra a proveedores"
     ],
     "pista": "La zona nueva modifica destinos y requisitos de entrega.",
     "explicacion": "El alcance geográfico afecta recursos de distribución, costos y plazos posibles.",
@@ -629,11 +675,11 @@
     "pregunta": "¿Qué información debería compartir para apoyar el plan logístico?",
     "respuestaCorrecta": "Fechas, productos y demanda prevista de la promoción",
     "respuestasIncorrectas": [
-      "Solo el diseño del aviso",
-      "Únicamente el nombre del diseñador",
-      "Solo el horario de una reunión interna",
-      "El domicilio personal del vendedor",
-      "Exclusivamente el lema de la campaña"
+      "Solo el presupuesto de publicidad",
+      "Únicamente el precio de venta previsto",
+      "Solo los resultados de la campaña anterior",
+      "Únicamente el canal de difusión elegido",
+      "Solo la fecha de publicación del anuncio"
     ],
     "pista": "Compras y depósito necesitan anticipar qué se ofrecerá y cuándo.",
     "explicacion": "La previsión y las fechas permiten contrastar existencias y capacidad con la campaña.",
@@ -652,11 +698,11 @@
     "pregunta": "¿Qué respuesta coordina mejor el plan?",
     "respuestaCorrecta": "Revisar conjuntamente cantidades, fechas y compromisos posibles",
     "respuestasIncorrectas": [
-      "Prometer toda la demanda sin consultar",
-      "Descartar el dato de producción",
-      "Eliminar los registros de stock",
-      "Suponer capacidad infinita",
-      "Informar únicamente a publicidad"
+      "Confirmar todos los pedidos según la previsión de ventas",
+      "Ajustar las fechas sin consultar a producción",
+      "Reducir pedidos sin revisar existencias disponibles",
+      "Planificar las cantidades con la capacidad del período anterior",
+      "Tomar el pronóstico como capacidad de fabricación"
     ],
     "pista": "Confrontá la previsión comercial con la capacidad real.",
     "explicacion": "La coordinación permite definir compromisos factibles y necesidades de recursos.",
@@ -675,11 +721,11 @@
     "pregunta": "¿Qué herramienta mencionada en el material ayuda a planear necesidades de materiales?",
     "respuestaCorrecta": "MRP",
     "respuestasIncorrectas": [
-      "Diseño de marca",
-      "Control exclusivo de vehículos",
-      "Publicidad de temporada",
-      "Registro de reclamos de clientes",
-      "Encuesta de satisfacción aislada"
+      "Pronóstico de ventas",
+      "Plan comercial de ventas",
+      "Programa de despacho de pedidos",
+      "Registro de existencias terminadas",
+      "Evaluación de entregas al cliente"
     ],
     "pista": "Buscá la planificación vinculada con los materiales requeridos.",
     "explicacion": "El MRP conecta las necesidades de materiales con el plan de producción.",
@@ -698,11 +744,11 @@
     "pregunta": "¿Qué paso es coherente antes de comprometer el despacho completo?",
     "respuestaCorrecta": "Verificar disponibilidad y coordinar una respuesta con el cliente",
     "respuestasIncorrectas": [
-      "Confirmar despacho completo sin comprobar",
-      "Eliminar la orden del registro",
-      "Cargar artículos distintos sin aviso",
-      "Declarar entregado el pedido",
-      "Ignorar la falta hasta después de la entrega"
+      "Confirmar el despacho completo según la orden original",
+      "Programar el transporte sin revisar existencias",
+      "Ofrecer una fecha sin consultar la reposición",
+      "Enviar una referencia distinta sin acordarlo",
+      "Facturar el pedido completo antes de verificar disponibilidad"
     ],
     "pista": "El despacho depende de lo que realmente puede prepararse.",
     "explicacion": "Revisar existencias y comunicar la incidencia evita promesas incompatibles con la situación.",
@@ -744,11 +790,11 @@
     "pregunta": "¿Qué papel cumplen los reclamos en el análisis?",
     "respuestaCorrecta": "Retroalimentación para revisar y corregir el proceso",
     "respuestasIncorrectas": [
-      "Prueba de que el transporte es innecesario",
-      "Garantía de ventas futuras",
-      "Sustituto del control de preparación",
-      "Confirmación de que todas las entregas fueron perfectas",
-      "Dato irrelevante para la logística"
+      "Una previsión directa de la demanda futura",
+      "Una orden para reponer materias primas",
+      "Un registro del costo de compra inicial",
+      "Una medida exclusiva de capacidad de producción",
+      "Una instrucción de despacho al proveedor"
     ],
     "pista": "Pensá cómo una salida observada informa decisiones posteriores.",
     "explicacion": "Los reclamos aportan información para investigar causas y mejorar el proceso.",
@@ -767,11 +813,11 @@
     "pregunta": "¿Qué relación ilustra el caso?",
     "respuestaCorrecta": "El incumplimiento del servicio puede afectar ventas futuras",
     "respuestasIncorrectas": [
-      "La puntualidad no influye en la confianza",
-      "Los retrasos garantizan fidelidad",
-      "El servicio termina al emitir la factura",
-      "La publicidad elimina todos los faltantes",
-      "Las ventas nunca dependen de la disponibilidad"
+      "La venta futura depende solo del precio",
+      "La puntualidad afecta el costo pero no la decisión del cliente",
+      "El incumplimiento solo importa antes de la compra",
+      "La pérdida de ventas se explica necesariamente por el producto",
+      "La frecuencia de entrega no influye en la confianza"
     ],
     "pista": "Considerá la experiencia del cliente y su decisión posterior.",
     "explicacion": "Las demoras pueden deteriorar la confianza y provocar pérdida de ventas.",
@@ -790,11 +836,11 @@
     "pregunta": "¿Qué conclusión es correcta?",
     "respuestaCorrecta": "Cumple plazo y cantidad, pero falla la exactitud del producto",
     "respuestasIncorrectas": [
-      "Cumple todas las condiciones del pedido",
-      "Es necesariamente una devolución",
-      "No hubo transporte",
-      "La disponibilidad ya no importa",
-      "La cantidad recibida demuestra que la referencia es correcta"
+      "Cumple plazo y cantidad, por lo que el producto es correcto",
+      "Cumple la referencia, pero no la cantidad",
+      "Cumple el producto y la cantidad, pero llega tarde",
+      "Cumple la referencia y el plazo, pero faltan unidades",
+      "Cumple la cantidad, pero se desconoce el plazo"
     ],
     "pista": "Evaluá por separado plazo, cantidad y producto.",
     "explicacion": "El servicio incluye entregar la referencia acordada además de cumplir plazo y cantidad.",
@@ -813,11 +859,11 @@
     "pregunta": "¿Por qué debe intervenir finanzas en la planificación?",
     "respuestaCorrecta": "Para considerar recursos y costos de la alternativa",
     "respuestasIncorrectas": [
-      "Para sustituir toda previsión de ventas",
-      "Para garantizar demanda sin incertidumbre",
-      "Para despachar físicamente todos los pedidos",
-      "Para decidir sola las referencias de cada cliente",
-      "Para evitar evaluar otras áreas"
+      "Para calcular la demanda sin consultar a ventas",
+      "Para determinar la referencia exacta de cada pedido",
+      "Para sustituir la revisión de capacidad del almacén",
+      "Para fijar por sí sola los plazos de entrega",
+      "Para decidir el recorrido físico de cada despacho"
     ],
     "pista": "La propuesta compromete recursos de la empresa.",
     "explicacion": "Finanzas aporta información sobre recursos y costos para evaluar la viabilidad.",
@@ -825,6 +871,29 @@
       "tipo": "Coordinación",
       "titulo": "Planes y áreas vinculadas",
       "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "caso-clase2-19",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Consulta antes de comprar",
+    "situacion": "Un cliente consulta por la disponibilidad y el plazo de entrega antes de confirmar un pedido.",
+    "pregunta": "¿Qué respuesta aporta al servicio en esta etapa?",
+    "respuestaCorrecta": "Comprobar existencias y comunicar un plazo factible",
+    "respuestasIncorrectas": [
+      "Confirmar un plazo sin revisar capacidad",
+      "Informar solo el precio y dejar sin responder el plazo",
+      "Esperar al despacho para informar disponibilidad",
+      "Prometer existencias basándose solo en ventas anteriores",
+      "Derivar la consulta sin registrar el producto solicitado"
+    ],
+    "pista": "Antes de decidir, el cliente necesita información que pueda cumplirse.",
+    "explicacion": "El servicio previo a la compra incluye información confiable sobre disponibilidad y entrega.",
+    "referencia": {
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
@@ -1239,6 +1308,213 @@
       "tipo": "Clase 3",
       "titulo": "De la recepción a la salida",
       "entradaLibro": "clase3_operaciones"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-cinco",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Diseño por funciones",
+    "situacion": "Una empresa necesita identificar las cinco áreas básicas de su almacén.",
+    "pregunta": "¿Qué conjunto corresponde a esas áreas?",
+    "respuestaCorrecta": "Carga y descarga, recepción, almacenamiento, preparación de pedidos y expedición",
+    "respuestasIncorrectas": [
+      "Compras, ventas, finanzas, marketing y producción",
+      "Recepción, transporte aéreo, facturación, compras y ventas",
+      "Pallets, cajas, carretillas, grúas y cintas",
+      "Ventas, proveedores, clientes, bancos y almacén",
+      "Pronóstico, publicidad, finanzas, inventario y servicio"
+    ],
+    "pista": "Pensá en las etapas físicas desde el vehículo de entrada hasta la salida.",
+    "explicacion": "Las cinco áreas distinguen la conexión con vehículos, el ingreso controlado, la guarda, la preparación y la salida.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-descarga",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Vehículo en el muelle",
+    "situacion": "Un camión llegó y los pallets se bajan al sector conectado con el almacén.",
+    "pregunta": "¿Qué área interviene principalmente en esa transferencia?",
+    "respuestaCorrecta": "Carga y descarga",
+    "respuestasIncorrectas": [
+      "Preparación de pedidos",
+      "Expedición de pedidos ya terminados",
+      "Almacenamiento de reserva",
+      "Control de inventario anual",
+      "Planificación de compras"
+    ],
+    "pista": "El material todavía se está transfiriendo desde el vehículo.",
+    "explicacion": "Carga y descarga conecta el almacén con los vehículos. La recepción puede controlar después lo ingresado.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-recepcion",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Comprobación de ingreso",
+    "situacion": "Luego de descargar, el personal cuenta las cajas y verifica su identificación antes de guardarlas.",
+    "pregunta": "¿Qué área cumple esta función?",
+    "respuestaCorrecta": "Recepción",
+    "respuestasIncorrectas": [
+      "Expedición",
+      "Carga del pedido saliente",
+      "Preparación de pedidos",
+      "Almacenamiento de reserva",
+      "Distribución al cliente"
+    ],
+    "pista": "La mercadería entrante todavía debe controlarse.",
+    "explicacion": "Recepción identifica y comprueba los productos ingresados antes de su ubicación.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-reserva",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Guardar existencias",
+    "situacion": "La mercancía ya controlada se conserva en posiciones registradas hasta que se necesite.",
+    "pregunta": "¿Qué área cumple esa función?",
+    "respuestaCorrecta": "Almacenamiento",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Carga del vehículo entrante",
+      "Expedición",
+      "Facturación comercial",
+      "Preparación de rutas externas"
+    ],
+    "pista": "La tarea consiste en conservar y ordenar el stock.",
+    "explicacion": "El área de almacenamiento mantiene ordenadas las existencias.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-preparacion",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Orden de varias piezas",
+    "situacion": "Una orden solicita tres referencias distintas. El personal las localiza y reúne en las cantidades pedidas.",
+    "pregunta": "¿Qué área desarrolla principalmente esa tarea?",
+    "respuestaCorrecta": "Preparación de pedidos",
+    "respuestasIncorrectas": [
+      "Descarga del proveedor",
+      "Recepción de mercancía entrante",
+      "Reserva de existencias",
+      "Expedición de órdenes terminadas",
+      "Revisión de la factura del proveedor"
+    ],
+    "pista": "La orden aún debe completarse con sus artículos.",
+    "explicacion": "Preparación de pedidos selecciona y reúne las referencias y cantidades solicitadas.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-expedicion",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Pedido listo para salir",
+    "situacion": "Un pedido reunido se revisa y se organiza por destino antes de cargar el vehículo de salida.",
+    "pregunta": "¿Qué área coordina esta etapa?",
+    "respuestaCorrecta": "Expedición",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Reserva de materiales",
+      "Compra a proveedores",
+      "Descarga de ingreso",
+      "Ubicación de productos recibidos"
+    ],
+    "pista": "El pedido ya fue preparado y su salida está próxima.",
+    "explicacion": "Expedición organiza y controla la salida. Según el diseño, puede incluir embalaje o acumulación.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-diseno",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Diseñar una cámara",
+    "situacion": "Una empresa debe guardar productos sensibles a la temperatura con una demanda cambiante.",
+    "pregunta": "¿Qué combinación aporta mejores datos para proyectar el almacén?",
+    "respuestaCorrecta": "Conservación, dimensiones, rotación, espacio y equipos",
+    "respuestasIncorrectas": [
+      "Solo el nombre comercial de cada producto",
+      "Únicamente la cantidad de facturas emitidas",
+      "Solo el color de las estanterías",
+      "La ubicación de los escritorios sin revisar la carga",
+      "Una medida fija de pasillo sin considerar equipos"
+    ],
+    "pista": "El diseño debe responder a la mercancía y a la operación.",
+    "explicacion": "Las condiciones de conservación, la demanda y las características físicas afectan el espacio y los equipos necesarios.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-gestion",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Menos búsquedas",
+    "situacion": "Al registrar movimientos y posiciones, una empresa localiza los artículos más rápido y reduce diferencias entre registros y stock.",
+    "pregunta": "¿Qué beneficio muestra la mejora?",
+    "respuestaCorrecta": "Mayor control y disponibilidad de información para preparar pedidos",
+    "respuestasIncorrectas": [
+      "Eliminación automática de toda pérdida posible",
+      "Ausencia de necesidad de controlar existencias",
+      "Reducción garantizada de todos los plazos a cero",
+      "Sustitución de todo el trabajo de recepción",
+      "Eliminación de la necesidad de registrar traslados"
+    ],
+    "pista": "Los registros facilitan encontrar y controlar las existencias.",
+    "explicacion": "Conocer ubicaciones y movimientos ayuda a reducir búsquedas, errores y diferencias.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
+    }
+  },
+  {
+    "id": "caso-c3-cuestionario-flujo",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Ubicar los muelles",
+    "situacion": "Se comparan dos edificios. En uno, recepción y expedición están cercanas y en el otro se encuentran en extremos distintos.",
+    "pregunta": "¿Qué decisión debe adaptarse a cada edificio?",
+    "respuestaCorrecta": "La forma del flujo y los recorridos internos",
+    "respuestasIncorrectas": [
+      "La definición de logística inversa",
+      "El material de todas las etiquetas",
+      "La marca obligatoria de la carretilla",
+      "El número de clientes de cualquier empresa",
+      "El precio de compra de todos los productos"
+    ],
+    "pista": "La posición de entrada y salida cambia los trayectos.",
+    "explicacion": "Los flujos pueden organizarse de diferentes formas según edificio, muelles y operación.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
     }
   },
   {
@@ -3036,6 +3312,144 @@
     }
   },
   {
+    "id": "caso-clase5-43",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Preparación flexible",
+    "situacion": "Un depósito prepara pocos pedidos, sus recorridos son cortos y necesita flexibilidad con inversión inicial acotada.",
+    "pregunta": "¿Qué estrategia conviene evaluar primero?",
+    "respuestaCorrecta": "Persona a producto con estanterías accesibles",
+    "respuestasIncorrectas": [
+      "Producto a persona con miniload obligatorio",
+      "Producto a persona con carrusel para cada referencia",
+      "Automatización total sin evaluar la demanda",
+      "Almacenaje en bloques sin acceso para preparación",
+      "Transportador fijo como única ubicación de las cajas"
+    ],
+    "pista": "Considerá si el volumen y la distancia justifican automatizar.",
+    "explicacion": "Cuando los recorridos y el volumen son reducidos, el acceso manual puede ofrecer flexibilidad sin justificar una inversión automática.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "caso-clase5-44",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Muchos recorridos de preparación",
+    "situacion": "La preparación de cajas exige recorridos largos y frecuentes; la demanda y el espacio permiten evaluar inversión y mantenimiento.",
+    "pregunta": "¿Qué alternativa puede reducir los desplazamientos del preparador?",
+    "respuestaCorrecta": "Producto a persona, dimensionado según las líneas y tiempos requeridos",
+    "respuestasIncorrectas": [
+      "Persona a producto con ubicaciones más alejadas",
+      "Bloques profundos sin acceso a las cajas",
+      "Doble profundidad sin cambiar los recorridos de picking",
+      "Ampliar los recorridos entre ubicaciones manuales",
+      "Retirar la reposición de las zonas de trabajo"
+    ],
+    "pista": "Buscá la estrategia que acerca las cajas al puesto.",
+    "explicacion": "Un miniload o carrusel puede acercar cajas al puesto; su capacidad e inversión deben justificarse con los datos de la operación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "caso-clase5-45",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Familias distintas en un pedido",
+    "situacion": "Un depósito combina artículos de alto consumo con otras referencias pequeñas y prepara pedidos que pueden incluir ambas familias.",
+    "pregunta": "¿Qué solución se ajusta a esa diversidad?",
+    "respuestaCorrecta": "Combinar zonas adecuadas para cada familia y consolidar los pedidos",
+    "respuestasIncorrectas": [
+      "Usar una única calle LIFO para todas las referencias",
+      "Elegir un solo sistema sin considerar tamaños ni demanda",
+      "Separar las zonas e impedir que se reúnan las partes",
+      "Eliminar la reposición de las ubicaciones de picking",
+      "Asignar todas las cajas a un mismo puesto sin comprobar capacidad"
+    ],
+    "pista": "Las zonas pueden usar tecnologías distintas y reunir el pedido después.",
+    "explicacion": "Un sistema mixto adapta la preparación a las familias y coordina reposición y consolidación de las partes.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "caso-clase5-46",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Superficie en altura",
+    "situacion": "Un depósito estudia un entrepiso para preparar pedidos de productos pequeños.",
+    "pregunta": "¿Qué debe comprobar antes de adoptar la solución?",
+    "respuestaCorrecta": "La estructura, los accesos, la circulación y los medios de manipulación",
+    "respuestasIncorrectas": [
+      "Solo la cantidad de referencias almacenadas",
+      "Solo el color de las posiciones de picking",
+      "Que todos los productos puedan apilarse en el piso",
+      "Que la altura disponible elimine la necesidad de accesos",
+      "Que no haya tránsito entre niveles"
+    ],
+    "pista": "Además de ganar superficie, hay que poder usarla de forma segura.",
+    "explicacion": "Un entrepiso aprovecha la altura, pero debe dimensionarse junto con sus accesos, circulación y medios para mover mercancías.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "entradaLibro": "clase5_especiales"
+    }
+  },
+  {
+    "id": "caso-clase5-47",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Alcance del manejo de materiales",
+    "situacion": "En una planta se reciben materias primas, se trasladan productos en proceso y se ubican productos terminados para despacho.",
+    "pregunta": "¿Qué abarca el manejo de materiales en esta operación?",
+    "respuestaCorrecta": "Los movimientos, la elevación, el posicionamiento y la conservación necesarios dentro de la instalación",
+    "respuestasIncorrectas": [
+      "Solo el transporte externo hacia los clientes",
+      "Solo la compra de equipos para el depósito",
+      "Únicamente la elevación de productos terminados",
+      "Exclusivamente el conteo de materias primas",
+      "La preparación de pedidos sin movimientos internos"
+    ],
+    "pista": "Incluye más etapas y operaciones que un traslado aislado.",
+    "explicacion": "El manejo abarca materiales en distintas etapas y busca que lleguen en condiciones adecuadas, con seguridad y uso eficiente de recursos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "caso-clase5-48",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Dos criterios para un equipo",
+    "situacion": "Una transpaleta motorizada circula por rutas variables según las necesidades del depósito.",
+    "pregunta": "¿Cómo se puede clasificar?",
+    "respuestaCorrecta": "Por recorrido variable y por accionamiento motorizado",
+    "respuestasIncorrectas": [
+      "Por recorrido definido y accionamiento exclusivamente manual",
+      "Solo por recorrido, porque no tiene accionamiento",
+      "Solo por accionamiento, porque no tiene recorrido",
+      "Como transportador fijo de banda",
+      "Como estantería móvil de almacenamiento"
+    ],
+    "pista": "Los criterios de recorrido y accionamiento pueden combinarse.",
+    "explicacion": "El recorrido describe su trayectoria y el accionamiento cómo funciona; ambas clasificaciones se complementan.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
     "id": "caso-clase6-1",
     "unidad": "clase6",
     "tipo": "caso",
@@ -4643,6 +5057,75 @@
       "tipo": "Flota, documentación y transporte internacional",
       "titulo": "Flota, documentación y transporte internacional",
       "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "caso-c7-economia-mercados",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Llegar a otra región",
+    "situacion": "Una mejora de transporte permite que un fabricante venda en una región antes difícil de alcanzar, donde ya operan otros proveedores.",
+    "pregunta": "¿Qué efecto puede producir esta conexión?",
+    "respuestaCorrecta": "Ampliar el mercado y aumentar la competencia entre proveedores",
+    "respuestasIncorrectas": [
+      "Limitar las ventas a la región de origen",
+      "Eliminar la necesidad de comparar servicios",
+      "Garantizar el mismo precio en todas las regiones",
+      "Reducir necesariamente la cantidad de proveedores",
+      "Impedir que los compradores accedan a nuevas ofertas"
+    ],
+    "pista": "Considerá quiénes pueden ofrecer sus productos en el destino.",
+    "explicacion": "Conectar regiones puede ampliar el acceso al mercado y permitir que más proveedores compitan; no garantiza precios idénticos.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "caso-c7-economia-escala",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Producción concentrada",
+    "situacion": "Una empresa evalúa concentrar producción y distribuir un mayor volumen a varias regiones mediante una red de transporte adecuada.",
+    "pregunta": "¿Qué posible beneficio económico debe evaluar?",
+    "respuestaCorrecta": "Reducir el costo por unidad mediante economías de escala",
+    "respuestasIncorrectas": [
+      "Aumentar el costo por unidad en toda circunstancia",
+      "Eliminar todos los costos de distribución",
+      "Asegurar que cada envío llegue antes",
+      "Sustituir la comparación de costo y servicio",
+      "Garantizar que todos los clientes paguen igual"
+    ],
+    "pista": "Pensá cómo puede cambiar el costo unitario al crecer la escala.",
+    "explicacion": "Una mayor escala puede reducir costos unitarios y contribuir a precios menores, según los costos de producción y distribución.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "caso-c7-economia-opciones",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Dos necesidades de entrega",
+    "situacion": "Una empresa envía repuestos urgentes y también mercadería sin urgencia. Un operador ofrece alternativas con distintos plazos, frecuencias y precios.",
+    "pregunta": "¿Cómo puede aprovechar las opciones de servicio?",
+    "respuestaCorrecta": "Comparar las condiciones de cada alternativa con la necesidad de cada envío",
+    "respuestasIncorrectas": [
+      "Asignar el servicio más rápido a todos sin comparar costos",
+      "Elegir solo la tarifa menor para cualquier carga",
+      "Dar por igual la frecuencia de todas las opciones",
+      "Decidir sin considerar el plazo requerido",
+      "Suponer que el servicio más caro siempre evita daños"
+    ],
+    "pista": "Las dos cargas tienen necesidades distintas.",
+    "explicacion": "Las opciones permiten elegir distintas combinaciones de velocidad, frecuencia, capacidad y precio según la carga y la operación.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
     }
   }
 ]

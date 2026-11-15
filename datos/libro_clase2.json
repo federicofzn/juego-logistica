@@ -73,7 +73,8 @@
       "notas": [
         "Disponibilidad, información, plazo, cantidad, producto correcto y estado de entrega son dimensiones diferentes del servicio.",
         "Una entrega puntual puede estar incompleta; debe evaluarse más de una condición.",
-        "Cumplir lo pactado y responder a problemas favorece confianza y recompra; incumplir puede causar reclamos y pérdida de ventas."
+        "Cumplir lo pactado y responder a problemas favorece confianza y recompra; incumplir puede causar reclamos y pérdida de ventas.",
+        "Antes de la compra, informar disponibilidad y plazos orienta la decisión; después, atender devoluciones o reclamos ayuda a resolver incumplimientos."
       ],
       "ejemplos": [
         "Un pedido llega a horario pero con unidades faltantes: es puntual, aunque no completo."

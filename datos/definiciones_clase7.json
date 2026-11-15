@@ -238,5 +238,29 @@
     "definicion": "Precio que aumenta con la distancia, pero puede hacerlo a un ritmo menor.",
     "ejemplo": "Un trayecto del doble de kilómetros cuesta menos del doble.",
     "libro": "c7_tarifas"
+  },
+  {
+    "id": "def-c7-economia-1",
+    "grupo": "economia",
+    "termino": "Ampliación de mercados",
+    "definicion": "Acceso de productores y compradores a zonas que antes resultaban difíciles de conectar.",
+    "ejemplo": "Un productor puede ofrecer su mercancía en otra región cuando existe transporte adecuado.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "def-c7-economia-2",
+    "grupo": "economia",
+    "termino": "Economías de escala",
+    "definicion": "Reducción posible del costo por unidad al aumentar la escala de una operación.",
+    "ejemplo": "Una producción concentrada distribuye un mayor volumen y evalúa su costo por unidad.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "def-c7-economia-3",
+    "grupo": "economia",
+    "termino": "Opciones de servicio",
+    "definicion": "Alternativas de transporte que combinan diferentes condiciones de plazo, frecuencia, capacidad y precio.",
+    "ejemplo": "Un remitente compara un servicio rápido con otro más económico y lento.",
+    "libro": "c7_funcion"
   }
 ]

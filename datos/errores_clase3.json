@@ -62,5 +62,21 @@
     "pista": "Considerá qué sucede si cambia el lugar físico sin cambiar el registro.",
     "explicacion": "El sistema puede indicar una posición anterior y dificultar la búsqueda.",
     "libro": "clase3_informacion"
+  },
+  {
+    "id": "error-c3-areas",
+    "titulo": "Áreas del almacén",
+    "oraciones": [
+      "Carga y descarga conecta la instalación con los vehículos.",
+      "Recepción identifica y controla lo que ingresa.",
+      "Almacenamiento conserva y ordena existencias.",
+      "Preparación de pedidos reúne los artículos solicitados.",
+      "Expedición se dedica exclusivamente a recibir los productos del proveedor."
+    ],
+    "incorrecta": 4,
+    "correccion": "Expedición organiza y controla la salida de los pedidos.",
+    "pista": "Distinguí el ingreso desde proveedores de la salida hacia destinos.",
+    "explicacion": "La recepción controla el ingreso. Expedición organiza la salida de los pedidos preparados.",
+    "libro": "clase3_areas"
   }
 ]

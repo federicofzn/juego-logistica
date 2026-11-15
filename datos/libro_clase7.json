@@ -14,7 +14,10 @@
         "El tiempo de tránsito es el tiempo que tarda el traslado; su variabilidad afecta la previsibilidad de la entrega.",
         "La cobertura y la frecuencia determinan si el servicio llega al destino y con qué regularidad.",
         "El riesgo de pérdida o daño y las condiciones de la carga influyen en la elección.",
-        "La decisión puede afectar el inventario en tránsito y las necesidades de stock."
+        "La decisión puede afectar el inventario en tránsito y las necesidades de stock.",
+        "Un transporte eficaz vincula origen y destino con una combinación de costo, plazo, regularidad, cobertura y cuidado adecuada para la carga.",
+        "Al conectar mercados distantes, el transporte puede ampliar la competencia. También permite concentrar producción y distribuir volúmenes mayores, lo que puede favorecer economías de escala y precios menores.",
+        "Las alternativas de velocidad, frecuencia, capacidad y precio permiten adaptar el servicio a distintas necesidades; sus beneficios dependen de las condiciones de cada operación."
       ],
       "ejemplos": [
         "Una pieza urgente puede justificar un servicio más costoso si evita detener una operación."
@@ -32,7 +35,9 @@
         "Ferroviario: adecuado para consolidar grandes volúmenes; depende de vías y terminales.",
         "Aéreo: útil para cargas urgentes o de alto valor; suele tener mayor tarifa y restricciones.",
         "Marítimo o fluvial: transporta grandes cantidades, con dependencia de puertos o vías navegables.",
-        "Ductos: redes especializadas para productos adecuados, como determinados líquidos y gases."
+        "Ductos: redes especializadas para productos adecuados, como determinados líquidos y gases.",
+        "El camión puede verse afectado por congestión, combustible y utilización; el ferrocarril suele necesitar conexiones hasta el cliente.",
+        "El avión exige considerar traslados y procesamiento en aeropuertos; el barco suele tener tránsitos más largos y necesita operaciones de terminal y conexiones terrestres."
       ],
       "ejemplos": [
         "Para una gran carga sin urgencia puede compararse el barco con otros modos y sumar los tramos hasta el puerto."
@@ -49,7 +54,8 @@
         "Una operación puede combinar camión y ferrocarril mediante una terminal.",
         "Los horarios y la disponibilidad de terminales influyen en el plazo total.",
         "Las transferencias pueden agregar costos y tiempo, aun cuando el tramo principal sea económico.",
-        "La mensajería para paquetes pequeños agrupa envíos y ofrece distintas coberturas, plazos y seguimiento."
+        "La mensajería para paquetes pequeños agrupa envíos y ofrece distintas coberturas, plazos y seguimiento.",
+        "Una red de paquetes puede recoger, clasificar y entregar envíos de distintos remitentes; al elegirla también se comparan límites de peso y dimensiones y tarifas."
       ],
       "ejemplos": [
         "Un camión lleva un contenedor a una terminal ferroviaria y otro lo recoge cerca del destino."
@@ -109,7 +115,7 @@
         "La empresa puede operar una flota propia o contratar transporte. El análisis considera control, disponibilidad, utilización y todos los costos asociados."
       ],
       "notas": [
-        "La flota propia exige administrar vehículos, conductores y mantenimiento.",
+        "La flota propia exige administrar vehículos, conductores y mantenimiento; puede ofrecer más control sobre disponibilidad y servicio, según la utilización de la capacidad.",
         "La contratación externa requiere evaluar condiciones de servicio, cobertura, seguimiento y tarifas.",
         "El conocimiento de embarque documenta la recepción de la carga y las condiciones del transporte, según su modalidad.",
         "Las reclamaciones pueden relacionarse con pérdida, daño, retraso o sobrecargo.",

@@ -118,5 +118,13 @@
     "definicion": "Recursos disponibles que condicionan cuánto puede realizarse en una operación.",
     "ejemplo": "El almacén revisa si puede preparar los pedidos de una promoción.",
     "libro": "clase2_plan"
+  },
+  {
+    "id": "def-clase2-16",
+    "grupo": "servicio",
+    "termino": "Servicio previo a la compra",
+    "definicion": "Información y atención que ayudan al cliente a decidir antes de confirmar un pedido.",
+    "ejemplo": "La empresa informa disponibilidad y un plazo de entrega factible.",
+    "libro": "clase2_servicio"
   }
 ]

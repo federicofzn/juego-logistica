@@ -610,5 +610,59 @@
     "pista": "El control de una flota propia convive con recursos que deben administrarse.",
     "explicacion": "La utilización, el mantenimiento, los conductores y el servicio afectan la conveniencia de una flota propia.",
     "libro": "c7_gestion"
+  },
+  {
+    "id": "caso-c7-economia-mercados",
+    "tipo": "caso",
+    "titulo": "Llegar a otra región",
+    "situacion": "Una mejora de transporte permite que un fabricante venda en una región antes difícil de alcanzar, donde ya operan otros proveedores.",
+    "pregunta": "¿Qué efecto puede producir esta conexión?",
+    "correcta": "Ampliar el mercado y aumentar la competencia entre proveedores",
+    "incorrectas": [
+      "Limitar las ventas a la región de origen",
+      "Eliminar la necesidad de comparar servicios",
+      "Garantizar el mismo precio en todas las regiones",
+      "Reducir necesariamente la cantidad de proveedores",
+      "Impedir que los compradores accedan a nuevas ofertas"
+    ],
+    "pista": "Considerá quiénes pueden ofrecer sus productos en el destino.",
+    "explicacion": "Conectar regiones puede ampliar el acceso al mercado y permitir que más proveedores compitan; no garantiza precios idénticos.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "caso-c7-economia-escala",
+    "tipo": "caso",
+    "titulo": "Producción concentrada",
+    "situacion": "Una empresa evalúa concentrar producción y distribuir un mayor volumen a varias regiones mediante una red de transporte adecuada.",
+    "pregunta": "¿Qué posible beneficio económico debe evaluar?",
+    "correcta": "Reducir el costo por unidad mediante economías de escala",
+    "incorrectas": [
+      "Aumentar el costo por unidad en toda circunstancia",
+      "Eliminar todos los costos de distribución",
+      "Asegurar que cada envío llegue antes",
+      "Sustituir la comparación de costo y servicio",
+      "Garantizar que todos los clientes paguen igual"
+    ],
+    "pista": "Pensá cómo puede cambiar el costo unitario al crecer la escala.",
+    "explicacion": "Una mayor escala puede reducir costos unitarios y contribuir a precios menores, según los costos de producción y distribución.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "caso-c7-economia-opciones",
+    "tipo": "caso",
+    "titulo": "Dos necesidades de entrega",
+    "situacion": "Una empresa envía repuestos urgentes y también mercadería sin urgencia. Un operador ofrece alternativas con distintos plazos, frecuencias y precios.",
+    "pregunta": "¿Cómo puede aprovechar las opciones de servicio?",
+    "correcta": "Comparar las condiciones de cada alternativa con la necesidad de cada envío",
+    "incorrectas": [
+      "Asignar el servicio más rápido a todos sin comparar costos",
+      "Elegir solo la tarifa menor para cualquier carga",
+      "Dar por igual la frecuencia de todas las opciones",
+      "Decidir sin considerar el plazo requerido",
+      "Suponer que el servicio más caro siempre evita daños"
+    ],
+    "pista": "Las dos cargas tienen necesidades distintas.",
+    "explicacion": "Las opciones permiten elegir distintas combinaciones de velocidad, frecuencia, capacidad y precio según la carga y la operación.",
+    "libro": "c7_funcion"
   }
 ]

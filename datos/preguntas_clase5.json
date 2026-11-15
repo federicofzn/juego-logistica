@@ -754,5 +754,113 @@
     "pista": "El equipo desplaza cargas a baja altura.",
     "explicacion": "La transpaleta desplaza cargas a baja altura; apiladores y autoelevadores también permiten elevarlas.",
     "libro": "clase5_clasificacion"
+  },
+  {
+    "id": "caso-clase5-43",
+    "tipo": "caso",
+    "titulo": "Preparación flexible",
+    "situacion": "Un depósito prepara pocos pedidos, sus recorridos son cortos y necesita flexibilidad con inversión inicial acotada.",
+    "pregunta": "¿Qué estrategia conviene evaluar primero?",
+    "correcta": "Persona a producto con estanterías accesibles",
+    "incorrectas": [
+      "Producto a persona con miniload obligatorio",
+      "Producto a persona con carrusel para cada referencia",
+      "Automatización total sin evaluar la demanda",
+      "Almacenaje en bloques sin acceso para preparación",
+      "Transportador fijo como única ubicación de las cajas"
+    ],
+    "pista": "Considerá si el volumen y la distancia justifican automatizar.",
+    "explicacion": "Cuando los recorridos y el volumen son reducidos, el acceso manual puede ofrecer flexibilidad sin justificar una inversión automática.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "caso-clase5-44",
+    "tipo": "caso",
+    "titulo": "Muchos recorridos de preparación",
+    "situacion": "La preparación de cajas exige recorridos largos y frecuentes; la demanda y el espacio permiten evaluar inversión y mantenimiento.",
+    "pregunta": "¿Qué alternativa puede reducir los desplazamientos del preparador?",
+    "correcta": "Producto a persona, dimensionado según las líneas y tiempos requeridos",
+    "incorrectas": [
+      "Persona a producto con ubicaciones más alejadas",
+      "Bloques profundos sin acceso a las cajas",
+      "Doble profundidad sin cambiar los recorridos de picking",
+      "Ampliar los recorridos entre ubicaciones manuales",
+      "Retirar la reposición de las zonas de trabajo"
+    ],
+    "pista": "Buscá la estrategia que acerca las cajas al puesto.",
+    "explicacion": "Un miniload o carrusel puede acercar cajas al puesto; su capacidad e inversión deben justificarse con los datos de la operación.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "caso-clase5-45",
+    "tipo": "caso",
+    "titulo": "Familias distintas en un pedido",
+    "situacion": "Un depósito combina artículos de alto consumo con otras referencias pequeñas y prepara pedidos que pueden incluir ambas familias.",
+    "pregunta": "¿Qué solución se ajusta a esa diversidad?",
+    "correcta": "Combinar zonas adecuadas para cada familia y consolidar los pedidos",
+    "incorrectas": [
+      "Usar una única calle LIFO para todas las referencias",
+      "Elegir un solo sistema sin considerar tamaños ni demanda",
+      "Separar las zonas e impedir que se reúnan las partes",
+      "Eliminar la reposición de las ubicaciones de picking",
+      "Asignar todas las cajas a un mismo puesto sin comprobar capacidad"
+    ],
+    "pista": "Las zonas pueden usar tecnologías distintas y reunir el pedido después.",
+    "explicacion": "Un sistema mixto adapta la preparación a las familias y coordina reposición y consolidación de las partes.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "caso-clase5-46",
+    "tipo": "caso",
+    "titulo": "Superficie en altura",
+    "situacion": "Un depósito estudia un entrepiso para preparar pedidos de productos pequeños.",
+    "pregunta": "¿Qué debe comprobar antes de adoptar la solución?",
+    "correcta": "La estructura, los accesos, la circulación y los medios de manipulación",
+    "incorrectas": [
+      "Solo la cantidad de referencias almacenadas",
+      "Solo el color de las posiciones de picking",
+      "Que todos los productos puedan apilarse en el piso",
+      "Que la altura disponible elimine la necesidad de accesos",
+      "Que no haya tránsito entre niveles"
+    ],
+    "pista": "Además de ganar superficie, hay que poder usarla de forma segura.",
+    "explicacion": "Un entrepiso aprovecha la altura, pero debe dimensionarse junto con sus accesos, circulación y medios para mover mercancías.",
+    "libro": "clase5_especiales"
+  },
+  {
+    "id": "caso-clase5-47",
+    "tipo": "caso",
+    "titulo": "Alcance del manejo de materiales",
+    "situacion": "En una planta se reciben materias primas, se trasladan productos en proceso y se ubican productos terminados para despacho.",
+    "pregunta": "¿Qué abarca el manejo de materiales en esta operación?",
+    "correcta": "Los movimientos, la elevación, el posicionamiento y la conservación necesarios dentro de la instalación",
+    "incorrectas": [
+      "Solo el transporte externo hacia los clientes",
+      "Solo la compra de equipos para el depósito",
+      "Únicamente la elevación de productos terminados",
+      "Exclusivamente el conteo de materias primas",
+      "La preparación de pedidos sin movimientos internos"
+    ],
+    "pista": "Incluye más etapas y operaciones que un traslado aislado.",
+    "explicacion": "El manejo abarca materiales en distintas etapas y busca que lleguen en condiciones adecuadas, con seguridad y uso eficiente de recursos.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "caso-clase5-48",
+    "tipo": "caso",
+    "titulo": "Dos criterios para un equipo",
+    "situacion": "Una transpaleta motorizada circula por rutas variables según las necesidades del depósito.",
+    "pregunta": "¿Cómo se puede clasificar?",
+    "correcta": "Por recorrido variable y por accionamiento motorizado",
+    "incorrectas": [
+      "Por recorrido definido y accionamiento exclusivamente manual",
+      "Solo por recorrido, porque no tiene accionamiento",
+      "Solo por accionamiento, porque no tiene recorrido",
+      "Como transportador fijo de banda",
+      "Como estantería móvil de almacenamiento"
+    ],
+    "pista": "Los criterios de recorrido y accionamiento pueden combinarse.",
+    "explicacion": "El recorrido describe su trayectoria y el accionamiento cómo funciona; ambas clasificaciones se complementan.",
+    "libro": "clase5_clasificacion"
   }
 ]

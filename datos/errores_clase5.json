@@ -254,5 +254,37 @@
     "pista": "Las dos clasificaciones pueden aplicarse al mismo equipo.",
     "explicacion": "Un equipo manual también puede describirse por su recorrido y función.",
     "libro": "clase5_clasificacion"
+  },
+  {
+    "id": "error-clase5-17",
+    "titulo": "Elección de estrategia de picking",
+    "oraciones": [
+      "Persona a producto puede ser flexible cuando los recorridos son cortos.",
+      "Producto a persona acerca cajas o bandejas al puesto.",
+      "La inversión y la intensidad de preparación influyen en la elección.",
+      "Un sistema mixto puede necesitar consolidar partes del pedido.",
+      "La rotación por sí sola determina siempre la mejor estrategia."
+    ],
+    "incorrecta": 4,
+    "correccion": "También influyen recorridos, demanda, variedad, espacio, ergonomía y costos.",
+    "pista": "Revisá la afirmación que convierte un criterio en una regla única.",
+    "explicacion": "La rotación orienta la decisión junto con las características y restricciones de la operación.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "error-clase5-18",
+    "titulo": "Alcance del manejo de materiales",
+    "oraciones": [
+      "Puede incluir materias primas y productos en proceso.",
+      "Puede comprender elevación y posicionamiento de cargas.",
+      "Busca que las cargas lleguen en condiciones adecuadas.",
+      "Se limita al transporte externo y excluye los movimientos dentro de la instalación.",
+      "Reducir recorridos innecesarios puede mejorar el uso de recursos."
+    ],
+    "incorrecta": 3,
+    "correccion": "El manejo de materiales incluye movimientos y otras operaciones dentro de la instalación.",
+    "pista": "Pensá en la recepción, el almacenamiento y la reposición.",
+    "explicacion": "Mover, elevar, posicionar y conservar materiales en la instalación forman parte del manejo.",
+    "libro": "clase5_flujo"
   }
 ]

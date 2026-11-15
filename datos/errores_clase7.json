@@ -110,5 +110,21 @@
     "pista": "Distinguí el precio al cliente del costo del operador.",
     "explicacion": "La tarifa puede reflejar costos, demanda y competencia; no equivale necesariamente al costo.",
     "libro": "c7_tarifas"
+  },
+  {
+    "id": "error-c7-economia",
+    "titulo": "Transporte y actividad económica",
+    "oraciones": [
+      "Un transporte adecuado puede acercar productores a mercados distantes.",
+      "Al ampliar el acceso al mercado, pueden competir más proveedores.",
+      "Una escala mayor puede reducir el costo por unidad en determinadas condiciones.",
+      "Toda mejora de transporte garantiza por sí sola una baja de precios en todos los productos.",
+      "Las opciones de servicio pueden diferir en plazo, frecuencia y precio."
+    ],
+    "incorrecta": 3,
+    "correccion": "El transporte puede contribuir a precios menores, pero el resultado depende también de otros costos y condiciones.",
+    "pista": "Revisá la afirmación que presenta un resultado como inevitable.",
+    "explicacion": "La conexión de mercados y las economías de escala pueden favorecer precios menores; no los garantizan para todos los productos.",
+    "libro": "c7_funcion"
   }
 ]

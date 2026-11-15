@@ -326,5 +326,29 @@
     "definicion": "Equipo que almacena y recupera cargas mediante movimientos de traslado y elevación.",
     "ejemplo": "Un miniload lo utiliza para recuperar cajas.",
     "libro": "clase5_clasificacion"
+  },
+  {
+    "id": "def-clase5-42",
+    "grupo": "operaciones_manejo",
+    "termino": "Movimiento interno",
+    "definicion": "Traslado de materiales entre puntos de una instalación.",
+    "ejemplo": "Una carga pasa de recepción a almacenamiento.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "def-clase5-43",
+    "grupo": "operaciones_manejo",
+    "termino": "Elevación de carga",
+    "definicion": "Desplazamiento de la carga en altura para ubicarla o retirarla.",
+    "ejemplo": "Un apilador eleva un pallet hasta una posición compatible.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "def-clase5-44",
+    "grupo": "operaciones_manejo",
+    "termino": "Posicionamiento de carga",
+    "definicion": "Colocación de una carga en la ubicación y orientación requeridas para la operación.",
+    "ejemplo": "Un operario ubica una unidad en su posición de almacenamiento.",
+    "libro": "clase5_flujo"
   }
 ]

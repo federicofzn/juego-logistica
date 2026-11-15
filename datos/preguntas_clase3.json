@@ -322,5 +322,167 @@
     "pista": "Después de recoger hay que completar el pedido antes de su salida.",
     "explicacion": "La consolidación y el embalaje preceden al control de expedición.",
     "libro": "clase3_operaciones"
+  },
+  {
+    "id": "caso-c3-cuestionario-cinco",
+    "tipo": "caso",
+    "titulo": "Diseño por funciones",
+    "situacion": "Una empresa necesita identificar las cinco áreas básicas de su almacén.",
+    "pregunta": "¿Qué conjunto corresponde a esas áreas?",
+    "correcta": "Carga y descarga, recepción, almacenamiento, preparación de pedidos y expedición",
+    "incorrectas": [
+      "Compras, ventas, finanzas, marketing y producción",
+      "Recepción, transporte aéreo, facturación, compras y ventas",
+      "Pallets, cajas, carretillas, grúas y cintas",
+      "Ventas, proveedores, clientes, bancos y almacén",
+      "Pronóstico, publicidad, finanzas, inventario y servicio"
+    ],
+    "pista": "Pensá en las etapas físicas desde el vehículo de entrada hasta la salida.",
+    "explicacion": "Las cinco áreas distinguen la conexión con vehículos, el ingreso controlado, la guarda, la preparación y la salida.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "caso-c3-cuestionario-descarga",
+    "tipo": "caso",
+    "titulo": "Vehículo en el muelle",
+    "situacion": "Un camión llegó y los pallets se bajan al sector conectado con el almacén.",
+    "pregunta": "¿Qué área interviene principalmente en esa transferencia?",
+    "correcta": "Carga y descarga",
+    "incorrectas": [
+      "Preparación de pedidos",
+      "Expedición de pedidos ya terminados",
+      "Almacenamiento de reserva",
+      "Control de inventario anual",
+      "Planificación de compras"
+    ],
+    "pista": "El material todavía se está transfiriendo desde el vehículo.",
+    "explicacion": "Carga y descarga conecta el almacén con los vehículos. La recepción puede controlar después lo ingresado.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "caso-c3-cuestionario-recepcion",
+    "tipo": "caso",
+    "titulo": "Comprobación de ingreso",
+    "situacion": "Luego de descargar, el personal cuenta las cajas y verifica su identificación antes de guardarlas.",
+    "pregunta": "¿Qué área cumple esta función?",
+    "correcta": "Recepción",
+    "incorrectas": [
+      "Expedición",
+      "Carga del pedido saliente",
+      "Preparación de pedidos",
+      "Almacenamiento de reserva",
+      "Distribución al cliente"
+    ],
+    "pista": "La mercadería entrante todavía debe controlarse.",
+    "explicacion": "Recepción identifica y comprueba los productos ingresados antes de su ubicación.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "caso-c3-cuestionario-reserva",
+    "tipo": "caso",
+    "titulo": "Guardar existencias",
+    "situacion": "La mercancía ya controlada se conserva en posiciones registradas hasta que se necesite.",
+    "pregunta": "¿Qué área cumple esa función?",
+    "correcta": "Almacenamiento",
+    "incorrectas": [
+      "Recepción",
+      "Carga del vehículo entrante",
+      "Expedición",
+      "Facturación comercial",
+      "Preparación de rutas externas"
+    ],
+    "pista": "La tarea consiste en conservar y ordenar el stock.",
+    "explicacion": "El área de almacenamiento mantiene ordenadas las existencias.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "caso-c3-cuestionario-preparacion",
+    "tipo": "caso",
+    "titulo": "Orden de varias piezas",
+    "situacion": "Una orden solicita tres referencias distintas. El personal las localiza y reúne en las cantidades pedidas.",
+    "pregunta": "¿Qué área desarrolla principalmente esa tarea?",
+    "correcta": "Preparación de pedidos",
+    "incorrectas": [
+      "Descarga del proveedor",
+      "Recepción de mercancía entrante",
+      "Reserva de existencias",
+      "Expedición de órdenes terminadas",
+      "Revisión de la factura del proveedor"
+    ],
+    "pista": "La orden aún debe completarse con sus artículos.",
+    "explicacion": "Preparación de pedidos selecciona y reúne las referencias y cantidades solicitadas.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "caso-c3-cuestionario-expedicion",
+    "tipo": "caso",
+    "titulo": "Pedido listo para salir",
+    "situacion": "Un pedido reunido se revisa y se organiza por destino antes de cargar el vehículo de salida.",
+    "pregunta": "¿Qué área coordina esta etapa?",
+    "correcta": "Expedición",
+    "incorrectas": [
+      "Recepción",
+      "Reserva de materiales",
+      "Compra a proveedores",
+      "Descarga de ingreso",
+      "Ubicación de productos recibidos"
+    ],
+    "pista": "El pedido ya fue preparado y su salida está próxima.",
+    "explicacion": "Expedición organiza y controla la salida. Según el diseño, puede incluir embalaje o acumulación.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "caso-c3-cuestionario-diseno",
+    "tipo": "caso",
+    "titulo": "Diseñar una cámara",
+    "situacion": "Una empresa debe guardar productos sensibles a la temperatura con una demanda cambiante.",
+    "pregunta": "¿Qué combinación aporta mejores datos para proyectar el almacén?",
+    "correcta": "Conservación, dimensiones, rotación, espacio y equipos",
+    "incorrectas": [
+      "Solo el nombre comercial de cada producto",
+      "Únicamente la cantidad de facturas emitidas",
+      "Solo el color de las estanterías",
+      "La ubicación de los escritorios sin revisar la carga",
+      "Una medida fija de pasillo sin considerar equipos"
+    ],
+    "pista": "El diseño debe responder a la mercancía y a la operación.",
+    "explicacion": "Las condiciones de conservación, la demanda y las características físicas afectan el espacio y los equipos necesarios.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "caso-c3-cuestionario-gestion",
+    "tipo": "caso",
+    "titulo": "Menos búsquedas",
+    "situacion": "Al registrar movimientos y posiciones, una empresa localiza los artículos más rápido y reduce diferencias entre registros y stock.",
+    "pregunta": "¿Qué beneficio muestra la mejora?",
+    "correcta": "Mayor control y disponibilidad de información para preparar pedidos",
+    "incorrectas": [
+      "Eliminación automática de toda pérdida posible",
+      "Ausencia de necesidad de controlar existencias",
+      "Reducción garantizada de todos los plazos a cero",
+      "Sustitución de todo el trabajo de recepción",
+      "Eliminación de la necesidad de registrar traslados"
+    ],
+    "pista": "Los registros facilitan encontrar y controlar las existencias.",
+    "explicacion": "Conocer ubicaciones y movimientos ayuda a reducir búsquedas, errores y diferencias.",
+    "libro": "clase3_informacion"
+  },
+  {
+    "id": "caso-c3-cuestionario-flujo",
+    "tipo": "caso",
+    "titulo": "Ubicar los muelles",
+    "situacion": "Se comparan dos edificios. En uno, recepción y expedición están cercanas y en el otro se encuentran en extremos distintos.",
+    "pregunta": "¿Qué decisión debe adaptarse a cada edificio?",
+    "correcta": "La forma del flujo y los recorridos internos",
+    "incorrectas": [
+      "La definición de logística inversa",
+      "El material de todas las etiquetas",
+      "La marca obligatoria de la carretilla",
+      "El número de clientes de cualquier empresa",
+      "El precio de compra de todos los productos"
+    ],
+    "pista": "La posición de entrada y salida cambia los trayectos.",
+    "explicacion": "Los flujos pueden organizarse de diferentes formas según edificio, muelles y operación.",
+    "libro": "clase3_diseno"
   }
 ]

@@ -118,5 +118,45 @@
     "definicion": "Instalación que organiza mercancías para atender su distribución.",
     "ejemplo": "Se preparan pedidos para distintos destinos.",
     "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-c3-areas-carga",
+    "grupo": "areas del almacen",
+    "termino": "Carga y descarga",
+    "definicion": "Área donde la mercancía se transfiere entre el vehículo y el almacén.",
+    "ejemplo": "Se descargan pallets de un camión recién llegado.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "def-c3-areas-recepcion",
+    "grupo": "areas del almacen",
+    "termino": "Área de recepción",
+    "definicion": "Área que identifica, controla y registra los productos entrantes.",
+    "ejemplo": "Se revisa la cantidad recibida antes de almacenarla.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "def-c3-areas-reserva",
+    "grupo": "areas del almacen",
+    "termino": "Área de almacenamiento",
+    "definicion": "Área donde se ordenan y conservan las existencias.",
+    "ejemplo": "Las cajas controladas se guardan en posiciones de reserva.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "def-c3-areas-preparacion",
+    "grupo": "areas del almacen",
+    "termino": "Área de preparación de pedidos",
+    "definicion": "Área donde se reúnen referencias y cantidades solicitadas.",
+    "ejemplo": "El operario reúne artículos de una orden.",
+    "libro": "clase3_areas"
+  },
+  {
+    "id": "def-c3-areas-expedicion",
+    "grupo": "areas del almacen",
+    "termino": "Área de expedición",
+    "definicion": "Área que organiza y verifica la salida de los pedidos.",
+    "ejemplo": "Un pedido preparado se controla antes de enviarse.",
+    "libro": "clase3_areas"
   }
 ]

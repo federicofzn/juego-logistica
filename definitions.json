@@ -126,7 +126,8 @@
     "respuestasIncorrectas": [
       "Posibilidad de contar con el producto solicitado cuando se necesita.",
       "Ingreso y control de bienes que llegan al almacén u otra instalación.",
-      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias."
+      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias.",
+      "Requisitos acordados para recibir un pedido, como lugar, plazo, cantidad y estado."
     ],
     "pista": "Pensá en este ejemplo: Una empresa revisa si los pedidos llegan completos y a tiempo.",
     "explicacion": "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente. Ejemplo: Una empresa revisa si los pedidos llegan completos y a tiempo.",
@@ -287,7 +288,8 @@
     "respuestasIncorrectas": [
       "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
       "Ingreso y control de bienes que llegan al almacén u otra instalación.",
-      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias."
+      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias.",
+      "Requisitos acordados para recibir un pedido, como lugar, plazo, cantidad y estado."
     ],
     "pista": "Pensá en este ejemplo: Un comercio tiene stock de la referencia pedida.",
     "explicacion": "Disponibilidad: Posibilidad de contar con el producto solicitado cuando se necesita. Ejemplo: Un comercio tiene stock de la referencia pedida.",
@@ -310,7 +312,8 @@
     "respuestasIncorrectas": [
       "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
       "Posibilidad de contar con el producto solicitado cuando se necesita.",
-      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias."
+      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias.",
+      "Requisitos acordados para recibir un pedido, como lugar, plazo, cantidad y estado."
     ],
     "pista": "Pensá en este ejemplo: El depósito verifica cantidades al recibir un envío del proveedor.",
     "explicacion": "Recepción: Ingreso y control de bienes que llegan al almacén u otra instalación. Ejemplo: El depósito verifica cantidades al recibir un envío del proveedor.",
@@ -333,7 +336,8 @@
     "respuestasIncorrectas": [
       "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
       "Posibilidad de contar con el producto solicitado cuando se necesita.",
-      "Ingreso y control de bienes que llegan al almacén u otra instalación."
+      "Ingreso y control de bienes que llegan al almacén u otra instalación.",
+      "Requisitos acordados para recibir un pedido, como lugar, plazo, cantidad y estado."
     ],
     "pista": "Pensá en este ejemplo: Ventas consulta cobertura y stock antes de anunciar entregas.",
     "explicacion": "Coordinación con ventas: Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias. Ejemplo: Ventas consulta cobertura y stock antes de anunciar entregas.",
@@ -341,6 +345,30 @@
       "tipo": "Coordinación",
       "titulo": "Compras, ventas y servicio",
       "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "def-clase1-16",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "Un pedido llega completo al domicilio y en el horario acordados.",
+    "titulo": "Condiciones de entrega",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Condiciones de entrega»?",
+    "respuestaCorrecta": "Requisitos acordados para recibir un pedido, como lugar, plazo, cantidad y estado.",
+    "respuestasIncorrectas": [
+      "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
+      "Posibilidad de contar con el producto solicitado cuando se necesita.",
+      "Ingreso y control de bienes que llegan al almacén u otra instalación.",
+      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias."
+    ],
+    "pista": "Pensá en este ejemplo: Un pedido llega completo al domicilio y en el horario acordados.",
+    "explicacion": "Condiciones de entrega: Requisitos acordados para recibir un pedido, como lugar, plazo, cantidad y estado. Ejemplo: Un pedido llega completo al domicilio y en el horario acordados.",
+    "referencia": {
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
+      "entradaLibro": "clase1_conceptos"
     }
   },
   {
@@ -402,7 +430,8 @@
     "respuestaCorrecta": "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
     "respuestasIncorrectas": [
       "Posibilidad de contar con el producto requerido cuando se necesita.",
-      "Cumplimiento de las cantidades y referencias acordadas en un pedido."
+      "Cumplimiento de las cantidades y referencias acordadas en un pedido.",
+      "Información y atención que ayudan al cliente a decidir antes de confirmar un pedido."
     ],
     "pista": "Pensá en este ejemplo: La empresa informa una demora y atiende el reclamo.",
     "explicacion": "Servicio al cliente: Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar. Ejemplo: La empresa informa una demora y atiende el reclamo.",
@@ -424,7 +453,8 @@
     "respuestaCorrecta": "Posibilidad de contar con el producto requerido cuando se necesita.",
     "respuestasIncorrectas": [
       "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
-      "Cumplimiento de las cantidades y referencias acordadas en un pedido."
+      "Cumplimiento de las cantidades y referencias acordadas en un pedido.",
+      "Información y atención que ayudan al cliente a decidir antes de confirmar un pedido."
     ],
     "pista": "Pensá en este ejemplo: La referencia solicitada está en stock al recibir el pedido.",
     "explicacion": "Disponibilidad: Posibilidad de contar con el producto requerido cuando se necesita. Ejemplo: La referencia solicitada está en stock al recibir el pedido.",
@@ -446,7 +476,8 @@
     "respuestaCorrecta": "Cumplimiento de las cantidades y referencias acordadas en un pedido.",
     "respuestasIncorrectas": [
       "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
-      "Posibilidad de contar con el producto requerido cuando se necesita."
+      "Posibilidad de contar con el producto requerido cuando se necesita.",
+      "Información y atención que ayudan al cliente a decidir antes de confirmar un pedido."
     ],
     "pista": "Pensá en este ejemplo: El cliente recibe todos los artículos y unidades solicitados.",
     "explicacion": "Entrega completa: Cumplimiento de las cantidades y referencias acordadas en un pedido. Ejemplo: El cliente recibe todos los artículos y unidades solicitados.",
@@ -685,6 +716,29 @@
       "tipo": "Planificación",
       "titulo": "Planeamiento logístico",
       "entradaLibro": "clase2_plan"
+    }
+  },
+  {
+    "id": "def-clase2-16",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "La empresa informa disponibilidad y un plazo de entrega factible.",
+    "titulo": "Servicio previo a la compra",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Servicio previo a la compra»?",
+    "respuestaCorrecta": "Información y atención que ayudan al cliente a decidir antes de confirmar un pedido.",
+    "respuestasIncorrectas": [
+      "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
+      "Posibilidad de contar con el producto requerido cuando se necesita.",
+      "Cumplimiento de las cantidades y referencias acordadas en un pedido."
+    ],
+    "pista": "Pensá en este ejemplo: La empresa informa disponibilidad y un plazo de entrega factible.",
+    "explicacion": "Servicio previo a la compra: Información y atención que ayudan al cliente a decidir antes de confirmar un pedido. Ejemplo: La empresa informa disponibilidad y un plazo de entrega factible.",
+    "referencia": {
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
@@ -1033,6 +1087,126 @@
       "tipo": "Clase 3",
       "titulo": "Función y clases de almacén",
       "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "def-c3-areas-carga",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "areas del almacen",
+    "ejemplo": "Se descargan pallets de un camión recién llegado.",
+    "titulo": "Carga y descarga",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Carga y descarga»?",
+    "respuestaCorrecta": "Área donde la mercancía se transfiere entre el vehículo y el almacén.",
+    "respuestasIncorrectas": [
+      "Área que identifica, controla y registra los productos entrantes.",
+      "Área donde se ordenan y conservan las existencias.",
+      "Área donde se reúnen referencias y cantidades solicitadas.",
+      "Área que organiza y verifica la salida de los pedidos."
+    ],
+    "pista": "Pensá en este ejemplo: Se descargan pallets de un camión recién llegado.",
+    "explicacion": "Carga y descarga: Área donde la mercancía se transfiere entre el vehículo y el almacén. Ejemplo: Se descargan pallets de un camión recién llegado.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "def-c3-areas-recepcion",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "areas del almacen",
+    "ejemplo": "Se revisa la cantidad recibida antes de almacenarla.",
+    "titulo": "Área de recepción",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Área de recepción»?",
+    "respuestaCorrecta": "Área que identifica, controla y registra los productos entrantes.",
+    "respuestasIncorrectas": [
+      "Área donde la mercancía se transfiere entre el vehículo y el almacén.",
+      "Área donde se ordenan y conservan las existencias.",
+      "Área donde se reúnen referencias y cantidades solicitadas.",
+      "Área que organiza y verifica la salida de los pedidos."
+    ],
+    "pista": "Pensá en este ejemplo: Se revisa la cantidad recibida antes de almacenarla.",
+    "explicacion": "Área de recepción: Área que identifica, controla y registra los productos entrantes. Ejemplo: Se revisa la cantidad recibida antes de almacenarla.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "def-c3-areas-reserva",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "areas del almacen",
+    "ejemplo": "Las cajas controladas se guardan en posiciones de reserva.",
+    "titulo": "Área de almacenamiento",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Área de almacenamiento»?",
+    "respuestaCorrecta": "Área donde se ordenan y conservan las existencias.",
+    "respuestasIncorrectas": [
+      "Área donde la mercancía se transfiere entre el vehículo y el almacén.",
+      "Área que identifica, controla y registra los productos entrantes.",
+      "Área donde se reúnen referencias y cantidades solicitadas.",
+      "Área que organiza y verifica la salida de los pedidos."
+    ],
+    "pista": "Pensá en este ejemplo: Las cajas controladas se guardan en posiciones de reserva.",
+    "explicacion": "Área de almacenamiento: Área donde se ordenan y conservan las existencias. Ejemplo: Las cajas controladas se guardan en posiciones de reserva.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "def-c3-areas-preparacion",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "areas del almacen",
+    "ejemplo": "El operario reúne artículos de una orden.",
+    "titulo": "Área de preparación de pedidos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Área de preparación de pedidos»?",
+    "respuestaCorrecta": "Área donde se reúnen referencias y cantidades solicitadas.",
+    "respuestasIncorrectas": [
+      "Área donde la mercancía se transfiere entre el vehículo y el almacén.",
+      "Área que identifica, controla y registra los productos entrantes.",
+      "Área donde se ordenan y conservan las existencias.",
+      "Área que organiza y verifica la salida de los pedidos."
+    ],
+    "pista": "Pensá en este ejemplo: El operario reúne artículos de una orden.",
+    "explicacion": "Área de preparación de pedidos: Área donde se reúnen referencias y cantidades solicitadas. Ejemplo: El operario reúne artículos de una orden.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
+    "id": "def-c3-areas-expedicion",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "areas del almacen",
+    "ejemplo": "Un pedido preparado se controla antes de enviarse.",
+    "titulo": "Área de expedición",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Área de expedición»?",
+    "respuestaCorrecta": "Área que organiza y verifica la salida de los pedidos.",
+    "respuestasIncorrectas": [
+      "Área donde la mercancía se transfiere entre el vehículo y el almacén.",
+      "Área que identifica, controla y registra los productos entrantes.",
+      "Área donde se ordenan y conservan las existencias.",
+      "Área donde se reúnen referencias y cantidades solicitadas."
+    ],
+    "pista": "Pensá en este ejemplo: Un pedido preparado se controla antes de enviarse.",
+    "explicacion": "Área de expedición: Área que organiza y verifica la salida de los pedidos. Ejemplo: Un pedido preparado se controla antes de enviarse.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
     }
   },
   {
@@ -2638,6 +2812,72 @@
     }
   },
   {
+    "id": "def-clase5-42",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "operaciones_manejo",
+    "ejemplo": "Una carga pasa de recepción a almacenamiento.",
+    "titulo": "Movimiento interno",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Movimiento interno»?",
+    "respuestaCorrecta": "Traslado de materiales entre puntos de una instalación.",
+    "respuestasIncorrectas": [
+      "Desplazamiento de la carga en altura para ubicarla o retirarla.",
+      "Colocación de una carga en la ubicación y orientación requeridas para la operación."
+    ],
+    "pista": "Pensá en este ejemplo: Una carga pasa de recepción a almacenamiento.",
+    "explicacion": "Movimiento interno: Traslado de materiales entre puntos de una instalación. Ejemplo: Una carga pasa de recepción a almacenamiento.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "def-clase5-43",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "operaciones_manejo",
+    "ejemplo": "Un apilador eleva un pallet hasta una posición compatible.",
+    "titulo": "Elevación de carga",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Elevación de carga»?",
+    "respuestaCorrecta": "Desplazamiento de la carga en altura para ubicarla o retirarla.",
+    "respuestasIncorrectas": [
+      "Traslado de materiales entre puntos de una instalación.",
+      "Colocación de una carga en la ubicación y orientación requeridas para la operación."
+    ],
+    "pista": "Pensá en este ejemplo: Un apilador eleva un pallet hasta una posición compatible.",
+    "explicacion": "Elevación de carga: Desplazamiento de la carga en altura para ubicarla o retirarla. Ejemplo: Un apilador eleva un pallet hasta una posición compatible.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "def-clase5-44",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "operaciones_manejo",
+    "ejemplo": "Un operario ubica una unidad en su posición de almacenamiento.",
+    "titulo": "Posicionamiento de carga",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Posicionamiento de carga»?",
+    "respuestaCorrecta": "Colocación de una carga en la ubicación y orientación requeridas para la operación.",
+    "respuestasIncorrectas": [
+      "Traslado de materiales entre puntos de una instalación.",
+      "Desplazamiento de la carga en altura para ubicarla o retirarla."
+    ],
+    "pista": "Pensá en este ejemplo: Un operario ubica una unidad en su posición de almacenamiento.",
+    "explicacion": "Posicionamiento de carga: Colocación de una carga en la ubicación y orientación requeridas para la operación. Ejemplo: Un operario ubica una unidad en su posición de almacenamiento.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
     "id": "def-clase6-1",
     "unidad": "clase6",
     "tipo": "definicion",
@@ -3959,6 +4199,72 @@
       "tipo": "Perfiles de tarifas",
       "titulo": "Distancia, demanda y precio del servicio",
       "entradaLibro": "c7_tarifas"
+    }
+  },
+  {
+    "id": "def-c7-economia-1",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "economia",
+    "ejemplo": "Un productor puede ofrecer su mercancía en otra región cuando existe transporte adecuado.",
+    "titulo": "Ampliación de mercados",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Ampliación de mercados»?",
+    "respuestaCorrecta": "Acceso de productores y compradores a zonas que antes resultaban difíciles de conectar.",
+    "respuestasIncorrectas": [
+      "Reducción posible del costo por unidad al aumentar la escala de una operación.",
+      "Alternativas de transporte que combinan diferentes condiciones de plazo, frecuencia, capacidad y precio."
+    ],
+    "pista": "Pensá en este ejemplo: Un productor puede ofrecer su mercancía en otra región cuando existe transporte adecuado.",
+    "explicacion": "Ampliación de mercados: Acceso de productores y compradores a zonas que antes resultaban difíciles de conectar. Ejemplo: Un productor puede ofrecer su mercancía en otra región cuando existe transporte adecuado.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "def-c7-economia-2",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "economia",
+    "ejemplo": "Una producción concentrada distribuye un mayor volumen y evalúa su costo por unidad.",
+    "titulo": "Economías de escala",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Economías de escala»?",
+    "respuestaCorrecta": "Reducción posible del costo por unidad al aumentar la escala de una operación.",
+    "respuestasIncorrectas": [
+      "Acceso de productores y compradores a zonas que antes resultaban difíciles de conectar.",
+      "Alternativas de transporte que combinan diferentes condiciones de plazo, frecuencia, capacidad y precio."
+    ],
+    "pista": "Pensá en este ejemplo: Una producción concentrada distribuye un mayor volumen y evalúa su costo por unidad.",
+    "explicacion": "Economías de escala: Reducción posible del costo por unidad al aumentar la escala de una operación. Ejemplo: Una producción concentrada distribuye un mayor volumen y evalúa su costo por unidad.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "def-c7-economia-3",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "economia",
+    "ejemplo": "Un remitente compara un servicio rápido con otro más económico y lento.",
+    "titulo": "Opciones de servicio",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Opciones de servicio»?",
+    "respuestaCorrecta": "Alternativas de transporte que combinan diferentes condiciones de plazo, frecuencia, capacidad y precio.",
+    "respuestasIncorrectas": [
+      "Acceso de productores y compradores a zonas que antes resultaban difíciles de conectar.",
+      "Reducción posible del costo por unidad al aumentar la escala de una operación."
+    ],
+    "pista": "Pensá en este ejemplo: Un remitente compara un servicio rápido con otro más económico y lento.",
+    "explicacion": "Opciones de servicio: Alternativas de transporte que combinan diferentes condiciones de plazo, frecuencia, capacidad y precio. Ejemplo: Un remitente compara un servicio rápido con otro más económico y lento.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
     }
   }
 ]

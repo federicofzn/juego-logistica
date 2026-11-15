@@ -7,11 +7,11 @@
     "pregunta": "¿Qué perspectiva permite analizar ambas consecuencias?",
     "correcta": "Enfoque sistémico",
     "incorrectas": [
-      "Análisis aislado de transporte",
-      "Revisión exclusiva de publicidad",
-      "Evaluación solo del precio de compra",
-      "Control únicamente contable",
-      "Análisis exclusivo de personal"
+      "Análisis aislado del costo de transporte",
+      "Evaluación exclusiva de la compra del insumo",
+      "Control de existencias sin revisar entregas",
+      "Revisión de la preparación sin considerar abastecimiento",
+      "Medición de ventas sin relacionarla con operaciones"
     ],
     "pista": "SeguÍ la relación entre actividades.",
     "explicacion": "El enfoque sistémico estudia cómo una etapa afecta a las demás y al resultado.",
@@ -25,11 +25,11 @@
     "pregunta": "¿Qué está haciendo?",
     "correcta": "Planeamiento logístico",
     "incorrectas": [
-      "Solo registrando una entrega pasada",
-      "Solo evaluando publicidad",
-      "Eliminando la necesidad de proveedores",
-      "Realizando una devolución",
-      "Determinando el diseño del envase"
+      "Registro de entregas ya efectuadas",
+      "Control de calidad de un producto terminado",
+      "Atención de una devolución individual",
+      "Negociación aislada de un precio de compra",
+      "Facturación de pedidos ya despachados"
     ],
     "pista": "Se toman decisiones anticipadas sobre recursos y flujos.",
     "explicacion": "Planear coordina abastecimiento, almacenamiento y distribución con demanda y servicio.",
@@ -43,11 +43,11 @@
     "pregunta": "¿Qué aspecto atiende directamente?",
     "correcta": "Servicio al cliente",
     "incorrectas": [
-      "Únicamente producción",
-      "Solo selección de proveedores",
-      "Diseño del producto",
-      "Solo compra de materias primas",
-      "Cierre del almacén"
+      "Selección de un proveedor de insumos",
+      "Control del costo de almacenamiento",
+      "Cálculo de capacidad de producción",
+      "Programación de compras futuras",
+      "Clasificación de inventario por referencia"
     ],
     "pista": "El servicio también incluye información y atención de problemas.",
     "explicacion": "Comunicar y responder ante una incidencia forma parte del servicio.",
@@ -61,11 +61,11 @@
     "pregunta": "¿Qué condición se cumple en ese momento?",
     "correcta": "Disponibilidad",
     "incorrectas": [
-      "Entrega completa ya confirmada",
-      "Transporte finalizado",
-      "Devolución procesada",
-      "Promoción finalizada",
-      "Producción necesariamente propia"
+      "Entrega completa ya realizada",
+      "Despacho confirmado al cliente",
+      "Pedido recibido en destino",
+      "Devolución aceptada por el proveedor",
+      "Transporte al cliente completado"
     ],
     "pista": "Estar en stock y haber entregado son hechos distintos.",
     "explicacion": "La disponibilidad permite atender el pedido, aunque aún falta cumplir la entrega.",
@@ -79,11 +79,11 @@
     "pregunta": "¿Qué condición no se cumplió?",
     "correcta": "Entrega completa",
     "incorrectas": [
-      "Puntualidad de la llegada",
-      "Recepción por el cliente",
-      "Existencia de una orden",
-      "Llegada en la fecha acordada",
-      "Comunicación del pedido inicial"
+      "Entrega en la fecha acordada",
+      "Recepción del pedido por el cliente",
+      "Comunicación de la orden inicial",
+      "Disponibilidad de las ocho unidades enviadas",
+      "Despacho de parte de la cantidad solicitada"
     ],
     "pista": "Compará la cantidad pedida con la recibida.",
     "explicacion": "La entrega llegó a tiempo, pero no incluyó todas las unidades solicitadas.",
@@ -97,11 +97,11 @@
     "pregunta": "¿Qué práctica muestra el ejemplo?",
     "correcta": "Coordinación entre áreas",
     "incorrectas": [
-      "Aislamiento funcional",
-      "Reemplazo del inventario por publicidad",
-      "Eliminación del proveedor",
-      "Supresión del plan de ventas",
-      "Distribución inversa obligatoria"
+      "Planificación comercial sin compartir información",
+      "Compra de insumos sin considerar la promoción",
+      "Decisión de ventas sin consultar abastecimiento",
+      "Control de existencias sin previsión comercial",
+      "Programación de pedidos sin comunicar cambios"
     ],
     "pista": "Observá cómo se comparte información entre funciones.",
     "explicacion": "Coordinar permite ajustar el suministro a lo que ventas espera ofrecer.",
@@ -115,11 +115,11 @@
     "pregunta": "¿Cómo debería evaluarse la medida?",
     "correcta": "Comparando el ahorro con faltantes y efectos sobre el servicio",
     "incorrectas": [
-      "Mirando solo la tarifa del transporte",
-      "Suponiendo que menos viajes siempre mejoran el servicio",
-      "Ignorando inventario y demanda",
-      "Comparando solo la publicidad",
-      "Tratando cada etapa como independiente"
+      "Comparando solamente las tarifas de transporte",
+      "Evaluando el costo de viajes sin medir faltantes",
+      "Midiendo solo el inventario promedio",
+      "Revisando únicamente la utilización de vehículos",
+      "Considerando el servicio sin incluir el cambio de costos"
     ],
     "pista": "Un ahorro local puede tener consecuencias en otros puntos.",
     "explicacion": "El enfoque sistémico considera costos y resultados conjuntos, incluido el servicio.",
@@ -133,11 +133,11 @@
     "pregunta": "¿Cuándo corresponde revisar el plan logístico?",
     "correcta": "Al detectar el cambio, considerando capacidad y abastecimiento",
     "incorrectas": [
-      "Solo al terminar todos los contratos",
-      "Nunca, porque el plan inicial es definitivo",
-      "Solo después de perder todos los clientes",
-      "Únicamente si cambia el nombre del producto",
-      "Cuando ventas deje de compartir información"
+      "Solo cuando venza el presupuesto anual",
+      "Cuando ya se hayan agotado las existencias",
+      "Después de cerrar las ventas de la temporada",
+      "Únicamente al renovar el contrato de transporte",
+      "Cuando finalice el plan de producción vigente"
     ],
     "pista": "Relacioná la planificación continua con un cambio relevante.",
     "explicacion": "Una variación de demanda puede exigir ajustes de stock, compras y distribución.",
@@ -151,11 +151,11 @@
     "pregunta": "¿Qué combinación necesita revisar?",
     "correcta": "Cobertura, transporte, capacidad y servicio prometido",
     "incorrectas": [
-      "Solo el color del uniforme",
-      "Únicamente las ventas del año anterior",
-      "Solo el número de proveedores actuales",
-      "Exclusivamente el nombre del depósito",
-      "Solo la cantidad de avisos publicados"
+      "Solo la capacidad de los proveedores actuales",
+      "Únicamente las ventas de la zona anterior",
+      "Solo el inventario disponible hoy",
+      "Únicamente el precio de venta previsto",
+      "Solo la frecuencia de compra a proveedores"
     ],
     "pista": "La zona nueva modifica destinos y requisitos de entrega.",
     "explicacion": "El alcance geográfico afecta recursos de distribución, costos y plazos posibles.",
@@ -169,11 +169,11 @@
     "pregunta": "¿Qué información debería compartir para apoyar el plan logístico?",
     "correcta": "Fechas, productos y demanda prevista de la promoción",
     "incorrectas": [
-      "Solo el diseño del aviso",
-      "Únicamente el nombre del diseñador",
-      "Solo el horario de una reunión interna",
-      "El domicilio personal del vendedor",
-      "Exclusivamente el lema de la campaña"
+      "Solo el presupuesto de publicidad",
+      "Únicamente el precio de venta previsto",
+      "Solo los resultados de la campaña anterior",
+      "Únicamente el canal de difusión elegido",
+      "Solo la fecha de publicación del anuncio"
     ],
     "pista": "Compras y depósito necesitan anticipar qué se ofrecerá y cuándo.",
     "explicacion": "La previsión y las fechas permiten contrastar existencias y capacidad con la campaña.",
@@ -187,11 +187,11 @@
     "pregunta": "¿Qué respuesta coordina mejor el plan?",
     "correcta": "Revisar conjuntamente cantidades, fechas y compromisos posibles",
     "incorrectas": [
-      "Prometer toda la demanda sin consultar",
-      "Descartar el dato de producción",
-      "Eliminar los registros de stock",
-      "Suponer capacidad infinita",
-      "Informar únicamente a publicidad"
+      "Confirmar todos los pedidos según la previsión de ventas",
+      "Ajustar las fechas sin consultar a producción",
+      "Reducir pedidos sin revisar existencias disponibles",
+      "Planificar las cantidades con la capacidad del período anterior",
+      "Tomar el pronóstico como capacidad de fabricación"
     ],
     "pista": "Confrontá la previsión comercial con la capacidad real.",
     "explicacion": "La coordinación permite definir compromisos factibles y necesidades de recursos.",
@@ -205,11 +205,11 @@
     "pregunta": "¿Qué herramienta mencionada en el material ayuda a planear necesidades de materiales?",
     "correcta": "MRP",
     "incorrectas": [
-      "Diseño de marca",
-      "Control exclusivo de vehículos",
-      "Publicidad de temporada",
-      "Registro de reclamos de clientes",
-      "Encuesta de satisfacción aislada"
+      "Pronóstico de ventas",
+      "Plan comercial de ventas",
+      "Programa de despacho de pedidos",
+      "Registro de existencias terminadas",
+      "Evaluación de entregas al cliente"
     ],
     "pista": "Buscá la planificación vinculada con los materiales requeridos.",
     "explicacion": "El MRP conecta las necesidades de materiales con el plan de producción.",
@@ -223,11 +223,11 @@
     "pregunta": "¿Qué paso es coherente antes de comprometer el despacho completo?",
     "correcta": "Verificar disponibilidad y coordinar una respuesta con el cliente",
     "incorrectas": [
-      "Confirmar despacho completo sin comprobar",
-      "Eliminar la orden del registro",
-      "Cargar artículos distintos sin aviso",
-      "Declarar entregado el pedido",
-      "Ignorar la falta hasta después de la entrega"
+      "Confirmar el despacho completo según la orden original",
+      "Programar el transporte sin revisar existencias",
+      "Ofrecer una fecha sin consultar la reposición",
+      "Enviar una referencia distinta sin acordarlo",
+      "Facturar el pedido completo antes de verificar disponibilidad"
     ],
     "pista": "El despacho depende de lo que realmente puede prepararse.",
     "explicacion": "Revisar existencias y comunicar la incidencia evita promesas incompatibles con la situación.",
@@ -259,11 +259,11 @@
     "pregunta": "¿Qué papel cumplen los reclamos en el análisis?",
     "correcta": "Retroalimentación para revisar y corregir el proceso",
     "incorrectas": [
-      "Prueba de que el transporte es innecesario",
-      "Garantía de ventas futuras",
-      "Sustituto del control de preparación",
-      "Confirmación de que todas las entregas fueron perfectas",
-      "Dato irrelevante para la logística"
+      "Una previsión directa de la demanda futura",
+      "Una orden para reponer materias primas",
+      "Un registro del costo de compra inicial",
+      "Una medida exclusiva de capacidad de producción",
+      "Una instrucción de despacho al proveedor"
     ],
     "pista": "Pensá cómo una salida observada informa decisiones posteriores.",
     "explicacion": "Los reclamos aportan información para investigar causas y mejorar el proceso.",
@@ -277,11 +277,11 @@
     "pregunta": "¿Qué relación ilustra el caso?",
     "correcta": "El incumplimiento del servicio puede afectar ventas futuras",
     "incorrectas": [
-      "La puntualidad no influye en la confianza",
-      "Los retrasos garantizan fidelidad",
-      "El servicio termina al emitir la factura",
-      "La publicidad elimina todos los faltantes",
-      "Las ventas nunca dependen de la disponibilidad"
+      "La venta futura depende solo del precio",
+      "La puntualidad afecta el costo pero no la decisión del cliente",
+      "El incumplimiento solo importa antes de la compra",
+      "La pérdida de ventas se explica necesariamente por el producto",
+      "La frecuencia de entrega no influye en la confianza"
     ],
     "pista": "Considerá la experiencia del cliente y su decisión posterior.",
     "explicacion": "Las demoras pueden deteriorar la confianza y provocar pérdida de ventas.",
@@ -295,11 +295,11 @@
     "pregunta": "¿Qué conclusión es correcta?",
     "correcta": "Cumple plazo y cantidad, pero falla la exactitud del producto",
     "incorrectas": [
-      "Cumple todas las condiciones del pedido",
-      "Es necesariamente una devolución",
-      "No hubo transporte",
-      "La disponibilidad ya no importa",
-      "La cantidad recibida demuestra que la referencia es correcta"
+      "Cumple plazo y cantidad, por lo que el producto es correcto",
+      "Cumple la referencia, pero no la cantidad",
+      "Cumple el producto y la cantidad, pero llega tarde",
+      "Cumple la referencia y el plazo, pero faltan unidades",
+      "Cumple la cantidad, pero se desconoce el plazo"
     ],
     "pista": "Evaluá por separado plazo, cantidad y producto.",
     "explicacion": "El servicio incluye entregar la referencia acordada además de cumplir plazo y cantidad.",
@@ -313,14 +313,32 @@
     "pregunta": "¿Por qué debe intervenir finanzas en la planificación?",
     "correcta": "Para considerar recursos y costos de la alternativa",
     "incorrectas": [
-      "Para sustituir toda previsión de ventas",
-      "Para garantizar demanda sin incertidumbre",
-      "Para despachar físicamente todos los pedidos",
-      "Para decidir sola las referencias de cada cliente",
-      "Para evitar evaluar otras áreas"
+      "Para calcular la demanda sin consultar a ventas",
+      "Para determinar la referencia exacta de cada pedido",
+      "Para sustituir la revisión de capacidad del almacén",
+      "Para fijar por sí sola los plazos de entrega",
+      "Para decidir el recorrido físico de cada despacho"
     ],
     "pista": "La propuesta compromete recursos de la empresa.",
     "explicacion": "Finanzas aporta información sobre recursos y costos para evaluar la viabilidad.",
     "libro": "clase2_areas"
+  },
+  {
+    "id": "caso-clase2-19",
+    "tipo": "caso",
+    "titulo": "Consulta antes de comprar",
+    "situacion": "Un cliente consulta por la disponibilidad y el plazo de entrega antes de confirmar un pedido.",
+    "pregunta": "¿Qué respuesta aporta al servicio en esta etapa?",
+    "correcta": "Comprobar existencias y comunicar un plazo factible",
+    "incorrectas": [
+      "Confirmar un plazo sin revisar capacidad",
+      "Informar solo el precio y dejar sin responder el plazo",
+      "Esperar al despacho para informar disponibilidad",
+      "Prometer existencias basándose solo en ventas anteriores",
+      "Derivar la consulta sin registrar el producto solicitado"
+    ],
+    "pista": "Antes de decidir, el cliente necesita información que pueda cumplirse.",
+    "explicacion": "El servicio previo a la compra incluye información confiable sobre disponibilidad y entrega.",
+    "libro": "clase2_servicio"
   }
 ]

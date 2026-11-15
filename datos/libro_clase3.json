@@ -109,6 +109,24 @@
       "ejemplos": [
         "En el caso del depósito de repuestos, el sistema ayuda a localizar una pieza entre muchas referencias y preparar el pedido."
       ]
+    },
+    "clase3_areas": {
+      "categoria": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "intro": [
+        "Un almacén suele organizarse en cinco áreas funcionales. Sus límites físicos pueden variar según el edificio y la operación."
+      ],
+      "notas": [
+        "Carga y descarga conecta el almacén con los vehículos que traen o retiran mercancías.",
+        "Recepción identifica, controla y registra los productos que ingresan.",
+        "Almacenamiento conserva y ordena las existencias hasta que se necesitan.",
+        "Preparación de pedidos reúne las referencias y cantidades solicitadas.",
+        "Expedición verifica y organiza la salida de los pedidos, incluida su posible consolidación, embalaje y acumulación."
+      ],
+      "ejemplos": [
+        "Un envío se descarga, se controla, se guarda y más tarde se recoge para un pedido que expedición prepara para salir."
+      ],
+      "ojo": "Son áreas funcionales. Según la instalación, algunas tareas pueden compartir espacio o distribuirse en sectores."
     }
   }
 }

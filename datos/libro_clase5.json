@@ -68,13 +68,15 @@
       "categoria": "Contenidos de la clase",
       "titulo": "Movimientos y coordinación",
       "intro": [
-        "El manejo de materiales abarca los traslados internos desde recepción hasta despacho."
+        "El manejo de materiales abarca los traslados internos desde recepción hasta despacho.",
+        "El manejo de materiales comprende mover, elevar, posicionar y conservar materias primas, productos en proceso y productos terminados dentro de una instalación."
       ],
       "notas": [
         "Cada manipulación puede añadir tiempo, costo y errores; conviene evitar recorridos innecesarios.",
         "Ubicar, reponer y preparar pedidos requiere coordinar cargas, posiciones y equipos.",
         "El caso de Amazon España integra inventario, ubicaciones, preparación, clasificación, embalaje y despacho.",
-        "La información actualizada ayuda a coordinar etapas; el plazo no depende de una sola tarea."
+        "La información actualizada ayuda a coordinar etapas; el plazo no depende de una sola tarea.",
+        "Busca que la carga llegue al lugar y momento requeridos en condiciones adecuadas, con seguridad y uso eficiente de los recursos."
       ],
       "ejemplos": [
         "Si una carga vuelve varias veces al mismo sector, revisar el trazado puede eliminar recorridos evitables."
@@ -189,7 +191,10 @@
         "El miniload usa un transelevador para cajas; los almacenes verticales de bandejas y los carruseles verticales u horizontales son otras opciones de producto a persona.",
         "Los equipos pueden reducir recorridos y aprovechar espacio, pero requieren inversión, mantenimiento y capacidad acorde con la demanda.",
         "La selección también considera referencias, tamaño, líneas de pedido, costos, ergonomía y velocidad; no existe una asignación universal basada solo en rotación.",
-        "Un sistema mixto combina zonas para diferentes familias y reúne pedidos parciales en consolidación."
+        "Un sistema mixto combina zonas para diferentes familias y reúne pedidos parciales en consolidación.",
+        "Persona a producto puede resultar conveniente si la flexibilidad y una inversión inicial menor pesan más que los recorridos, o si el volumen no justifica automatizar.",
+        "Producto a persona puede justificarse cuando la intensidad de preparación, las distancias, la ergonomía o el espacio compensan la inversión; debe dimensionarse para la demanda.",
+        "La combinación de zonas es útil cuando las familias tienen distintas dimensiones, rotaciones o formas de preparación; requiere coordinar reposición y consolidación."
       ],
       "ejemplos": [
         "Una zona dinámica para artículos de alto consumo puede combinarse con un miniload para otras referencias pequeñas y una zona de consolidación."

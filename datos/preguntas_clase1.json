@@ -7,11 +7,11 @@
     "pregunta": "¿Qué función integra estas actividades?",
     "correcta": "Logística",
     "incorrectas": [
-      "Solo transporte",
-      "Solo compras",
-      "Solo marketing",
-      "Contabilidad financiera",
-      "Diseño de productos"
+      "Transporte de distribución solamente",
+      "Administración de compras solamente",
+      "Almacenamiento sin gestión de pedidos",
+      "Gestión comercial de ventas",
+      "Planificación de producción solamente"
     ],
     "pista": "Buscá el conjunto que incluye almacenamiento y movimiento.",
     "explicacion": "La logística integra estas actividades y la información asociada.",
@@ -25,11 +25,11 @@
     "pregunta": "¿Qué abarca mejor esa red?",
     "correcta": "Cadena de suministro",
     "incorrectas": [
-      "Un único depósito",
-      "Solo distribución física",
-      "Solo logística inversa",
-      "Solo transporte",
-      "Una operación de embalaje"
+      "Red de distribución de productos terminados",
+      "Proceso de aprovisionamiento de una fábrica",
+      "Operación interna de almacenamiento",
+      "Servicio de transporte entre dos depósitos",
+      "Circuito de devoluciones de clientes"
     ],
     "pista": "Incluí actores y funciones desde el origen hasta el cliente.",
     "explicacion": "La cadena conecta organizaciones y procesos; la logística participa dentro de ella.",
@@ -43,11 +43,11 @@
     "pregunta": "¿Qué división tiene el foco principal?",
     "correcta": "Administración de materiales",
     "incorrectas": [
-      "Distribución física",
-      "Ventas minoristas",
-      "Logística inversa",
-      "Servicio posventa",
-      "Publicidad"
+      "Distribución de productos terminados",
+      "Gestión de devoluciones de clientes",
+      "Despacho de pedidos a comercios",
+      "Transporte de ventas terminadas",
+      "Servicio de entrega al consumidor"
     ],
     "pista": "Seguí el flujo que entra hacia la producción.",
     "explicacion": "La administración de materiales asegura y mueve los insumos necesarios.",
@@ -61,11 +61,11 @@
     "pregunta": "¿Qué división predomina?",
     "correcta": "Distribución física",
     "incorrectas": [
-      "Administración de materias primas",
-      "Selección de personal",
-      "Logística inversa",
-      "Compra de insumos productivos",
-      "Desarrollo publicitario"
+      "Administración de insumos para producción",
+      "Recepción de materias primas",
+      "Aprovisionamiento de componentes",
+      "Gestión de devoluciones de clientes",
+      "Compra de materiales para fabricación"
     ],
     "pista": "El producto ya está terminado y sale hacia clientes.",
     "explicacion": "La distribución física gestiona la salida de productos terminados.",
@@ -79,11 +79,11 @@
     "pregunta": "¿Qué proceso organiza ese retorno?",
     "correcta": "Logística inversa",
     "incorrectas": [
-      "Distribución inicial",
-      "Aprovisionamiento de materias primas",
-      "Producción en línea",
-      "Promoción comercial",
-      "Venta directa"
+      "Distribución inicial al cliente",
+      "Recepción de materias primas para producir",
+      "Despacho de una venta nueva",
+      "Aprovisionamiento de componentes productivos",
+      "Transporte de productos terminados a tiendas"
     ],
     "pista": "Observá la dirección del movimiento desde el cliente.",
     "explicacion": "El retorno para reparación es un caso de logística inversa.",
@@ -97,11 +97,11 @@
     "pregunta": "¿Qué está evaluando principalmente?",
     "correcta": "Nivel de servicio",
     "incorrectas": [
-      "Diseño del producto",
-      "Origen militar de la logística",
-      "Tipo de cadena industrial",
-      "Compra de maquinaria",
-      "Campaña publicitaria"
+      "Costo unitario de compra",
+      "Capacidad máxima de fabricación",
+      "Rotación de materias primas",
+      "Frecuencia de negociación con proveedores",
+      "Productividad de la línea de producción"
     ],
     "pista": "Pensá en las condiciones ofrecidas al cliente.",
     "explicacion": "Puntualidad y entrega completa son condiciones del servicio.",
@@ -115,11 +115,11 @@
     "pregunta": "¿Qué decisión mejora la coordinación?",
     "correcta": "Ajustar la promesa con ventas y coordinar reposición",
     "incorrectas": [
-      "Publicar igual sin consultar",
-      "Comprar publicidad y omitir el stock",
-      "Despachar cantidades menores sin avisar",
-      "Eliminar el registro de inventario",
-      "Suponer que el proveedor ya entregó"
+      "Anunciar entrega inmediata y revisar stock después",
+      "Ofrecer entrega inmediata solo según el pronóstico de ventas",
+      "Aceptar pedidos completos sin confirmar reposición",
+      "Mantener la promesa y comunicar faltantes después de la compra",
+      "Promocionar el producto sin informar un plazo realista"
     ],
     "pista": "Relacioná la promesa comercial con la disponibilidad real.",
     "explicacion": "Ventas y logística deben alinear lo prometido con inventario y reposición.",
@@ -133,11 +133,11 @@
     "pregunta": "¿Qué dato necesita logística para organizar la recepción?",
     "correcta": "Cantidades y fecha acordadas de entrega",
     "incorrectas": [
-      "Solo el color del logo del proveedor",
-      "Únicamente la publicidad del producto",
-      "El historial de vacaciones del vendedor",
-      "La fecha de cierre del local cliente",
-      "Solo el nombre de la campaña"
+      "Solo el precio unitario acordado",
+      "Solo el nombre del proveedor",
+      "Solo las condiciones de pago",
+      "Solo la fecha de emisión de la orden",
+      "Solo el destino de venta del producto final"
     ],
     "pista": "El depósito debe prever qué recibirá y cuándo.",
     "explicacion": "Con cantidades y fecha puede preparar recepción, espacio y flujo de materiales.",
@@ -151,11 +151,11 @@
     "pregunta": "¿Qué respuesta corrige esa idea?",
     "correcta": "La cadena integra más funciones y actores; la logística es parte de ella",
     "incorrectas": [
-      "La logística incluye toda actividad empresarial y la cadena solo camiones",
-      "La cadena excluye proveedores",
-      "La logística solo funciona después de la venta",
-      "La cadena termina antes de la fabricación",
-      "Ambas expresiones designan únicamente el depósito"
+      "La cadena se limita al transporte entre depósitos",
+      "La logística abarca toda la cadena y excluye a los proveedores",
+      "La cadena comienza cuando se entrega el producto al cliente",
+      "La logística solo comprende la entrega final",
+      "La cadena y la logística se limitan al almacenamiento"
     ],
     "pista": "Compará la operación logística con la red de organizaciones.",
     "explicacion": "La cadena coordina un conjunto más amplio de procesos y participantes.",
@@ -169,11 +169,11 @@
     "pregunta": "¿Qué actividad reemplaza a la fabricación en su recorrido?",
     "correcta": "Almacenaje y consolidación de productos",
     "incorrectas": [
-      "Extracción obligatoria de materias primas",
-      "Fabricación propia de cada artículo",
-      "Eliminación de toda existencia",
-      "Devolución obligatoria al proveedor",
-      "Diseño de maquinaria industrial"
+      "Producción de los artículos comprados",
+      "Extracción de las materias primas de cada artículo",
+      "Transformación industrial de todos los artículos",
+      "Fabricación de componentes para los proveedores",
+      "Ensamblaje obligatorio antes de vender"
     ],
     "pista": "La empresa trabaja con productos ya terminados.",
     "explicacion": "Una comercializadora puede almacenar y consolidar sin fabricar.",
@@ -187,11 +187,11 @@
     "pregunta": "¿Qué resultado busca esta operación?",
     "correcta": "Reutilizar materiales mediante un flujo de retorno",
     "incorrectas": [
-      "Aumentar la fabricación de residuos",
-      "Eliminar toda inspección de entrada",
-      "Evitar cualquier costo de transporte",
-      "Transformar automáticamente cada envase en producto nuevo",
-      "Sustituir el servicio al cliente por publicidad"
+      "Despachar envases nuevos al cliente",
+      "Eliminar los envases sin revisar su estado",
+      "Transformar necesariamente todos los envases en materia prima",
+      "Almacenar envases nuevos antes de su venta",
+      "Enviar productos terminados a distribuidores"
     ],
     "pista": "Identificá qué ocurre con el envase después del consumo.",
     "explicacion": "La reutilización es un destino posible de la logística inversa, sujeto a control.",
@@ -205,11 +205,11 @@
     "pregunta": "¿Qué criterio respeta el enfoque de logística inversa?",
     "correcta": "Evaluar cada caso para reparar, reutilizar, reciclar o disponer adecuadamente",
     "incorrectas": [
-      "Mandar todos al cliente sin revisarlos",
-      "Afirmar que todos pueden reutilizarse",
-      "Desechar todo sin considerar alternativas",
-      "Considerar que el retorno termina al recibirlo",
-      "Excluir productos defectuosos del proceso"
+      "Reutilizar todos los productos sin revisar su estado",
+      "Reciclar todos sin evaluar reparación o reutilización",
+      "Desechar todos sin evaluar recuperación",
+      "Reparar todos sin examinar su estado",
+      "Devolver todos al cliente sin considerar otro destino"
     ],
     "pista": "No todos los productos admiten el mismo tratamiento.",
     "explicacion": "El destino depende del estado del producto y de las alternativas disponibles.",
@@ -223,11 +223,11 @@
     "pregunta": "¿Qué función del almacén ayuda a conectar abastecimiento y pedidos?",
     "correcta": "Controlar existencias y preparar pedidos",
     "incorrectas": [
-      "Reemplazar la elección de mercados",
-      "Suprimir toda información de entradas",
-      "Garantizar ventas sin productos",
-      "Eliminar la necesidad de recepción",
-      "Fijar por sí solo el precio de venta"
+      "Registrar solo las compras sin controlar existencias",
+      "Preparar pedidos sin revisar lo recibido",
+      "Almacenar sin actualizar entradas ni salidas",
+      "Recibir productos sin vincularlos con pedidos",
+      "Programar compras sin consultar el inventario"
     ],
     "pista": "Pensá cómo se pasa de la entrada al despacho.",
     "explicacion": "La recepción, el control de inventario y la preparación articulan entradas y salidas.",
@@ -241,11 +241,11 @@
     "pregunta": "¿Qué consecuencia es razonable considerar?",
     "correcta": "Una interrupción o demora de producción",
     "incorrectas": [
-      "Una entrega puntual garantizada",
-      "Una reducción automática de todos los costos",
-      "La desaparición del inventario restante",
-      "La eliminación de la necesidad de comprar",
-      "Un aumento seguro de ventas"
+      "La continuidad garantizada de la producción",
+      "La entrega al cliente sin riesgo de demora",
+      "La reducción segura del inventario de productos terminados",
+      "La disponibilidad inmediata del componente faltante",
+      "La eliminación de la necesidad de reprogramar pedidos"
     ],
     "pista": "Considerá la dependencia entre abastecimiento y fabricación.",
     "explicacion": "La falta de insumos puede retrasar la producción y afectar pedidos posteriores.",
@@ -259,11 +259,11 @@
     "pregunta": "¿Qué dimensión se ve directamente favorecida?",
     "correcta": "Servicio al cliente",
     "incorrectas": [
-      "Origen de las materias primas",
-      "Estructura salarial",
-      "Diseño de la marca",
-      "Tipo de cambio",
-      "Selección del personal"
+      "Negociación del precio de compra",
+      "Planificación del suministro de materias primas",
+      "Capacidad de producción instalada",
+      "Selección de proveedores de insumos",
+      "Programación de compras futuras"
     ],
     "pista": "Evaluá el cumplimiento de lo prometido.",
     "explicacion": "La entrega correcta y en condiciones contribuye a la satisfacción del cliente.",
@@ -277,11 +277,11 @@
     "pregunta": "¿Qué secuencia describe mejor el recorrido?",
     "correcta": "Aprovisionamiento, producción y distribución",
     "incorrectas": [
-      "Distribución, consumo y extracción",
-      "Venta, devolución y publicidad",
-      "Reciclaje, compra y liquidación",
-      "Producción, aprovisionamiento y recepción",
-      "Promoción, transporte y contratación"
+      "Producción, aprovisionamiento y distribución",
+      "Distribución, aprovisionamiento y producción",
+      "Aprovisionamiento, distribución y producción",
+      "Producción, distribución y aprovisionamiento",
+      "Distribución, producción y aprovisionamiento"
     ],
     "pista": "Ordená los hechos desde la llegada de piezas hasta el envío.",
     "explicacion": "Las fases van del abastecimiento a la transformación y luego a la distribución.",
@@ -295,11 +295,11 @@
     "pregunta": "¿Qué evaluación es más prudente?",
     "correcta": "Comparar recuperación posible con costos y destino de los retornos",
     "incorrectas": [
-      "Dar por seguro el beneficio de cada retorno",
-      "Excluir transporte y clasificación del análisis",
-      "Suponer que todos los productos tienen igual estado",
-      "Eliminar la revisión de calidad",
-      "Prometer reciclaje sin comprobar opciones"
+      "Contar la recuperación sin considerar costos de retorno",
+      "Comparar solo el precio de venta de productos nuevos",
+      "Suponer el mismo valor de recuperación para todos los estados",
+      "Evaluar únicamente el costo del transporte de ida",
+      "Considerar solo la cantidad recogida, sin examinar destino"
     ],
     "pista": "La recuperación tiene beneficios posibles y también obstáculos.",
     "explicacion": "La logística inversa puede recuperar valor, pero implica costos y resultados variables.",
@@ -313,14 +313,50 @@
     "pregunta": "¿Por qué la logística puede ser una ventaja competitiva?",
     "correcta": "Porque disponibilidad y cumplimiento pueden mejorar la experiencia del cliente",
     "incorrectas": [
-      "Porque elimina toda competencia",
-      "Porque garantiza que nunca habrá reclamos",
-      "Porque reemplaza la calidad del producto",
-      "Porque hace innecesaria la coordinación con ventas",
-      "Porque toda entrega más rápida siempre cuesta menos"
+      "Porque la confiabilidad reemplaza toda calidad del producto",
+      "Porque un mejor servicio asegura cualquier venta futura",
+      "Porque los plazos dejan de importar cuando hay inventario",
+      "Porque las dos firmas ya no necesitan competir en precio",
+      "Porque el cumplimiento evita cualquier costo de distribución"
     ],
     "pista": "Pensá cómo percibe el cliente el cumplimiento.",
     "explicacion": "Un servicio confiable puede favorecer satisfacción y preferencia, sin garantizar ventas.",
     "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-19",
+    "tipo": "caso",
+    "titulo": "Condiciones de entrega",
+    "situacion": "Un cliente recibe la cantidad solicitada, pero en una sucursal distinta de la acordada.",
+    "pregunta": "¿Qué debe revisar el equipo para evaluar el cumplimiento logístico?",
+    "correcta": "La cantidad y el lugar de entrega acordados",
+    "incorrectas": [
+      "Solo la cantidad entregada",
+      "Solo el estado del embalaje",
+      "Solo el precio de compra",
+      "Solo la fecha de preparación",
+      "Solo la disponibilidad en el depósito"
+    ],
+    "pista": "Una entrega puede cumplir una condición y fallar en otra.",
+    "explicacion": "La cantidad correcta no compensa por sí sola una entrega en un lugar distinto del convenido.",
+    "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-20",
+    "tipo": "caso",
+    "titulo": "Elección de proveedor",
+    "situacion": "Compras compara dos proveedores de un insumo: uno ofrece menor precio, pero entrega con menos frecuencia.",
+    "pregunta": "¿Qué análisis conviene hacer con logística antes de elegir?",
+    "correcta": "Comparar precio, entregas y efectos sobre inventario y continuidad",
+    "incorrectas": [
+      "Elegir solo por el precio unitario",
+      "Elegir solo por la frecuencia de entrega",
+      "Comparar solo la distancia de los proveedores",
+      "Priorizar solo el espacio disponible en depósito",
+      "Decidir solo por el tamaño de cada pedido"
+    ],
+    "pista": "El precio de compra es una parte de la decisión de abastecimiento.",
+    "explicacion": "El ahorro de compra debe evaluarse junto con la frecuencia, el inventario necesario y el riesgo de faltantes.",
+    "libro": "clase1_areas"
   }
 ]

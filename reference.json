@@ -40,7 +40,8 @@
       "notas": [
         "Incluye planificar, ejecutar y controlar movimiento, almacenamiento e información; no se limita al transporte.",
         "La cadena de suministro abarca además las relaciones y procesos de proveedores, fabricación, distribución, ventas y clientes.",
-        "La logística es parte de esa cadena más amplia y conecta la producción con el mercado."
+        "La logística es parte de esa cadena más amplia y conecta la producción con el mercado.",
+        "La disponibilidad buscada implica coordinar producto, cantidad, lugar, momento y condiciones acordadas, considerando los costos del servicio."
       ],
       "ejemplos": [
         "Una fábrica coordina inventario y transporte; su cadena también incluye proveedores y comercios."
@@ -133,7 +134,8 @@
       "notas": [
         "Compras acuerda proveedores, cantidades y condiciones; logística coordina recepción, transporte, inventario y almacenamiento.",
         "Ventas y marketing necesitan conocer disponibilidad, cobertura y plazos antes de prometer una entrega.",
-        "Un pedido correcto, completo y en condiciones favorece la satisfacción; faltantes o demoras pueden perjudicar ventas e imagen."
+        "Un pedido correcto, completo y en condiciones favorece la satisfacción; faltantes o demoras pueden perjudicar ventas e imagen.",
+        "Al comparar proveedores conviene considerar, además del precio, los plazos y sus efectos sobre transporte, inventario y continuidad del abastecimiento."
       ],
       "ejemplos": [
         "Antes de una promoción, ventas consulta el stock y compras coordina reposición y fechas con el proveedor."
@@ -213,7 +215,8 @@
       "notas": [
         "Disponibilidad, información, plazo, cantidad, producto correcto y estado de entrega son dimensiones diferentes del servicio.",
         "Una entrega puntual puede estar incompleta; debe evaluarse más de una condición.",
-        "Cumplir lo pactado y responder a problemas favorece confianza y recompra; incumplir puede causar reclamos y pérdida de ventas."
+        "Cumplir lo pactado y responder a problemas favorece confianza y recompra; incumplir puede causar reclamos y pérdida de ventas.",
+        "Antes de la compra, informar disponibilidad y plazos orienta la decisión; después, atender devoluciones o reclamos ayuda a resolver incumplimientos."
       ],
       "ejemplos": [
         "Un pedido llega a horario pero con unidades faltantes: es puntual, aunque no completo."
@@ -329,6 +332,25 @@
       "ejemplos": [
         "En el caso del depósito de repuestos, el sistema ayuda a localizar una pieza entre muchas referencias y preparar el pedido."
       ]
+    },
+    "clase3_areas": {
+      "unidad": "clase3",
+      "categoria": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "intro": [
+        "Un almacén suele organizarse en cinco áreas funcionales. Sus límites físicos pueden variar según el edificio y la operación."
+      ],
+      "notas": [
+        "Carga y descarga conecta el almacén con los vehículos que traen o retiran mercancías.",
+        "Recepción identifica, controla y registra los productos que ingresan.",
+        "Almacenamiento conserva y ordena las existencias hasta que se necesitan.",
+        "Preparación de pedidos reúne las referencias y cantidades solicitadas.",
+        "Expedición verifica y organiza la salida de los pedidos, incluida su posible consolidación, embalaje y acumulación."
+      ],
+      "ejemplos": [
+        "Un envío se descarga, se controla, se guarda y más tarde se recoge para un pedido que expedición prepara para salir."
+      ],
+      "ojo": "Son áreas funcionales. Según la instalación, algunas tareas pueden compartir espacio o distribuirse en sectores."
     },
     "clase4_conceptos": {
       "unidad": "clase4",
@@ -598,13 +620,15 @@
       "categoria": "Contenidos de la clase",
       "titulo": "Movimientos y coordinación",
       "intro": [
-        "El manejo de materiales abarca los traslados internos desde recepción hasta despacho."
+        "El manejo de materiales abarca los traslados internos desde recepción hasta despacho.",
+        "El manejo de materiales comprende mover, elevar, posicionar y conservar materias primas, productos en proceso y productos terminados dentro de una instalación."
       ],
       "notas": [
         "Cada manipulación puede añadir tiempo, costo y errores; conviene evitar recorridos innecesarios.",
         "Ubicar, reponer y preparar pedidos requiere coordinar cargas, posiciones y equipos.",
         "El caso de Amazon España integra inventario, ubicaciones, preparación, clasificación, embalaje y despacho.",
-        "La información actualizada ayuda a coordinar etapas; el plazo no depende de una sola tarea."
+        "La información actualizada ayuda a coordinar etapas; el plazo no depende de una sola tarea.",
+        "Busca que la carga llegue al lugar y momento requeridos en condiciones adecuadas, con seguridad y uso eficiente de los recursos."
       ],
       "ejemplos": [
         "Si una carga vuelve varias veces al mismo sector, revisar el trazado puede eliminar recorridos evitables."
@@ -725,7 +749,10 @@
         "El miniload usa un transelevador para cajas; los almacenes verticales de bandejas y los carruseles verticales u horizontales son otras opciones de producto a persona.",
         "Los equipos pueden reducir recorridos y aprovechar espacio, pero requieren inversión, mantenimiento y capacidad acorde con la demanda.",
         "La selección también considera referencias, tamaño, líneas de pedido, costos, ergonomía y velocidad; no existe una asignación universal basada solo en rotación.",
-        "Un sistema mixto combina zonas para diferentes familias y reúne pedidos parciales en consolidación."
+        "Un sistema mixto combina zonas para diferentes familias y reúne pedidos parciales en consolidación.",
+        "Persona a producto puede resultar conveniente si la flexibilidad y una inversión inicial menor pesan más que los recorridos, o si el volumen no justifica automatizar.",
+        "Producto a persona puede justificarse cuando la intensidad de preparación, las distancias, la ergonomía o el espacio compensan la inversión; debe dimensionarse para la demanda.",
+        "La combinación de zonas es útil cuando las familias tienen distintas dimensiones, rotaciones o formas de preparación; requiere coordinar reposición y consolidación."
       ],
       "ejemplos": [
         "Una zona dinámica para artículos de alto consumo puede combinarse con un miniload para otras referencias pequeñas y una zona de consolidación."
@@ -991,7 +1018,10 @@
         "El tiempo de tránsito es el tiempo que tarda el traslado; su variabilidad afecta la previsibilidad de la entrega.",
         "La cobertura y la frecuencia determinan si el servicio llega al destino y con qué regularidad.",
         "El riesgo de pérdida o daño y las condiciones de la carga influyen en la elección.",
-        "La decisión puede afectar el inventario en tránsito y las necesidades de stock."
+        "La decisión puede afectar el inventario en tránsito y las necesidades de stock.",
+        "Un transporte eficaz vincula origen y destino con una combinación de costo, plazo, regularidad, cobertura y cuidado adecuada para la carga.",
+        "Al conectar mercados distantes, el transporte puede ampliar la competencia. También permite concentrar producción y distribuir volúmenes mayores, lo que puede favorecer economías de escala y precios menores.",
+        "Las alternativas de velocidad, frecuencia, capacidad y precio permiten adaptar el servicio a distintas necesidades; sus beneficios dependen de las condiciones de cada operación."
       ],
       "ejemplos": [
         "Una pieza urgente puede justificar un servicio más costoso si evita detener una operación."
@@ -1010,7 +1040,9 @@
         "Ferroviario: adecuado para consolidar grandes volúmenes; depende de vías y terminales.",
         "Aéreo: útil para cargas urgentes o de alto valor; suele tener mayor tarifa y restricciones.",
         "Marítimo o fluvial: transporta grandes cantidades, con dependencia de puertos o vías navegables.",
-        "Ductos: redes especializadas para productos adecuados, como determinados líquidos y gases."
+        "Ductos: redes especializadas para productos adecuados, como determinados líquidos y gases.",
+        "El camión puede verse afectado por congestión, combustible y utilización; el ferrocarril suele necesitar conexiones hasta el cliente.",
+        "El avión exige considerar traslados y procesamiento en aeropuertos; el barco suele tener tránsitos más largos y necesita operaciones de terminal y conexiones terrestres."
       ],
       "ejemplos": [
         "Para una gran carga sin urgencia puede compararse el barco con otros modos y sumar los tramos hasta el puerto."
@@ -1028,7 +1060,8 @@
         "Una operación puede combinar camión y ferrocarril mediante una terminal.",
         "Los horarios y la disponibilidad de terminales influyen en el plazo total.",
         "Las transferencias pueden agregar costos y tiempo, aun cuando el tramo principal sea económico.",
-        "La mensajería para paquetes pequeños agrupa envíos y ofrece distintas coberturas, plazos y seguimiento."
+        "La mensajería para paquetes pequeños agrupa envíos y ofrece distintas coberturas, plazos y seguimiento.",
+        "Una red de paquetes puede recoger, clasificar y entregar envíos de distintos remitentes; al elegirla también se comparan límites de peso y dimensiones y tarifas."
       ],
       "ejemplos": [
         "Un camión lleva un contenedor a una terminal ferroviaria y otro lo recoge cerca del destino."
@@ -1090,7 +1123,7 @@
         "La empresa puede operar una flota propia o contratar transporte. El análisis considera control, disponibilidad, utilización y todos los costos asociados."
       ],
       "notas": [
-        "La flota propia exige administrar vehículos, conductores y mantenimiento.",
+        "La flota propia exige administrar vehículos, conductores y mantenimiento; puede ofrecer más control sobre disponibilidad y servicio, según la utilización de la capacidad.",
         "La contratación externa requiere evaluar condiciones de servicio, cobertura, seguimiento y tarifas.",
         "El conocimiento de embarque documenta la recepción de la carga y las condiciones del transporte, según su modalidad.",
         "Las reclamaciones pueden relacionarse con pérdida, daño, retraso o sobrecargo.",

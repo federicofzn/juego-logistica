@@ -434,6 +434,37 @@
     }
   },
   {
+    "id": "error-c3-areas",
+    "unidad": "clase3",
+    "tipo": "error",
+    "titulo": "Áreas del almacén",
+    "situacion": "Un colega te pasa este resumen sobre «Áreas del almacén» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Carga y descarga conecta la instalación con los vehículos.",
+      "Recepción identifica y controla lo que ingresa.",
+      "Almacenamiento conserva y ordena existencias.",
+      "Preparación de pedidos reúne los artículos solicitados.",
+      "Expedición se dedica exclusivamente a recibir los productos del proveedor."
+    ],
+    "incorrecta": 4,
+    "correccion": "Expedición organiza y controla la salida de los pedidos.",
+    "respuestaCorrecta": "Expedición se dedica exclusivamente a recibir los productos del proveedor.",
+    "respuestasIncorrectas": [
+      "Carga y descarga conecta la instalación con los vehículos.",
+      "Recepción identifica y controla lo que ingresa.",
+      "Almacenamiento conserva y ordena existencias.",
+      "Preparación de pedidos reúne los artículos solicitados."
+    ],
+    "pista": "Distinguí el ingreso desde proveedores de la salida hacia destinos.",
+    "explicacion": "Lo correcto es: «Expedición organiza y controla la salida de los pedidos.» La recepción controla el ingreso. Expedición organiza la salida de los pedidos preparados.",
+    "referencia": {
+      "tipo": "Organización del almacén",
+      "titulo": "Las cinco áreas básicas del almacén",
+      "entradaLibro": "clase3_areas"
+    }
+  },
+  {
     "id": "error-clase4",
     "unidad": "clase4",
     "tipo": "error",
@@ -1302,6 +1333,68 @@
     }
   },
   {
+    "id": "error-clase5-17",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Elección de estrategia de picking",
+    "situacion": "Un colega te pasa este resumen sobre «Elección de estrategia de picking» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Persona a producto puede ser flexible cuando los recorridos son cortos.",
+      "Producto a persona acerca cajas o bandejas al puesto.",
+      "La inversión y la intensidad de preparación influyen en la elección.",
+      "Un sistema mixto puede necesitar consolidar partes del pedido.",
+      "La rotación por sí sola determina siempre la mejor estrategia."
+    ],
+    "incorrecta": 4,
+    "correccion": "También influyen recorridos, demanda, variedad, espacio, ergonomía y costos.",
+    "respuestaCorrecta": "La rotación por sí sola determina siempre la mejor estrategia.",
+    "respuestasIncorrectas": [
+      "Persona a producto puede ser flexible cuando los recorridos son cortos.",
+      "Producto a persona acerca cajas o bandejas al puesto.",
+      "La inversión y la intensidad de preparación influyen en la elección.",
+      "Un sistema mixto puede necesitar consolidar partes del pedido."
+    ],
+    "pista": "Revisá la afirmación que convierte un criterio en una regla única.",
+    "explicacion": "Lo correcto es: «También influyen recorridos, demanda, variedad, espacio, ergonomía y costos.» La rotación orienta la decisión junto con las características y restricciones de la operación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "error-clase5-18",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Alcance del manejo de materiales",
+    "situacion": "Un colega te pasa este resumen sobre «Alcance del manejo de materiales» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Puede incluir materias primas y productos en proceso.",
+      "Puede comprender elevación y posicionamiento de cargas.",
+      "Busca que las cargas lleguen en condiciones adecuadas.",
+      "Se limita al transporte externo y excluye los movimientos dentro de la instalación.",
+      "Reducir recorridos innecesarios puede mejorar el uso de recursos."
+    ],
+    "incorrecta": 3,
+    "correccion": "El manejo de materiales incluye movimientos y otras operaciones dentro de la instalación.",
+    "respuestaCorrecta": "Se limita al transporte externo y excluye los movimientos dentro de la instalación.",
+    "respuestasIncorrectas": [
+      "Puede incluir materias primas y productos en proceso.",
+      "Puede comprender elevación y posicionamiento de cargas.",
+      "Busca que las cargas lleguen en condiciones adecuadas.",
+      "Reducir recorridos innecesarios puede mejorar el uso de recursos."
+    ],
+    "pista": "Pensá en la recepción, el almacenamiento y la reposición.",
+    "explicacion": "Lo correcto es: «El manejo de materiales incluye movimientos y otras operaciones dentro de la instalación.» Mover, elevar, posicionar y conservar materiales en la instalación forman parte del manejo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
     "id": "error-clase6",
     "unidad": "clase6",
     "tipo": "error",
@@ -1981,6 +2074,37 @@
       "tipo": "Perfiles de tarifas",
       "titulo": "Distancia, demanda y precio del servicio",
       "entradaLibro": "c7_tarifas"
+    }
+  },
+  {
+    "id": "error-c7-economia",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Transporte y actividad económica",
+    "situacion": "Un colega te pasa este resumen sobre «Transporte y actividad económica» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Un transporte adecuado puede acercar productores a mercados distantes.",
+      "Al ampliar el acceso al mercado, pueden competir más proveedores.",
+      "Una escala mayor puede reducir el costo por unidad en determinadas condiciones.",
+      "Toda mejora de transporte garantiza por sí sola una baja de precios en todos los productos.",
+      "Las opciones de servicio pueden diferir en plazo, frecuencia y precio."
+    ],
+    "incorrecta": 3,
+    "correccion": "El transporte puede contribuir a precios menores, pero el resultado depende también de otros costos y condiciones.",
+    "respuestaCorrecta": "Toda mejora de transporte garantiza por sí sola una baja de precios en todos los productos.",
+    "respuestasIncorrectas": [
+      "Un transporte adecuado puede acercar productores a mercados distantes.",
+      "Al ampliar el acceso al mercado, pueden competir más proveedores.",
+      "Una escala mayor puede reducir el costo por unidad en determinadas condiciones.",
+      "Las opciones de servicio pueden diferir en plazo, frecuencia y precio."
+    ],
+    "pista": "Revisá la afirmación que presenta un resultado como inevitable.",
+    "explicacion": "Lo correcto es: «El transporte puede contribuir a precios menores, pero el resultado depende también de otros costos y condiciones.» La conexión de mercados y las economías de escala pueden favorecer precios menores; no los garantizan para todos los productos.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
     }
   }
 ]
