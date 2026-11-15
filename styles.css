@@ -1,9 +1,9 @@
 :root {
   color-scheme: light;
   --ink: #0f172a;
-  --paper: #fdfcff;
+  --paper: #f8fbfc;
   --panel: rgba(255, 255, 255, 0.9);
-  --line: #d4cfe8;
+  --line: #c5d6e1;
 }
 
 * {
@@ -13,10 +13,10 @@
 body {
   font-family: "Nunito", system-ui, sans-serif;
   background:
-    linear-gradient(90deg, rgba(67, 56, 202, 0.08) 1px, transparent 1px),
-    linear-gradient(rgba(67, 56, 202, 0.08) 1px, transparent 1px),
-    radial-gradient(circle at top left, rgba(251, 146, 60, 0.2), transparent 34rem),
-    #e8e6f3;
+    linear-gradient(90deg, rgba(27, 83, 121, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(27, 83, 121, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at top left, rgba(234, 139, 57, 0.19), transparent 34rem),
+    #e3edf2;
   background-size: 34px 34px, 34px 34px, auto, auto;
 }
 
@@ -146,7 +146,7 @@ body {
   width: 34px;
   place-items: center;
   overflow: hidden;
-  border: 2px solid #d2cde6;
+  border: 2px solid #c9d9e3;
   border-radius: 999px;
   background: #f8f5ee;
   color: #b8ad97;
@@ -163,7 +163,7 @@ body {
 }
 
 .badge:focus-visible .badge-disc {
-  box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.35);
+  box-shadow: 0 0 0 3px rgba(27, 83, 121, 0.35);
 }
 
 /* Niveles: verde, azul, violeta, rojo y dorado. */
@@ -241,7 +241,7 @@ body {
 }
 
 .has-tooltip:focus-visible {
-  box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.35);
+  box-shadow: 0 0 0 3px rgba(27, 83, 121, 0.35);
 }
 
 /* Los que estan sobre el borde derecho abren el tooltip hacia la izquierda. */
@@ -279,7 +279,7 @@ body {
   font-weight: 900;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  color: #a5b4fc;
+  color: #a8ccdf;
 }
 
 /* Aviso al desbloquear un nivel. */
@@ -372,7 +372,7 @@ body {
   width: 17px;
   height: 17px;
   flex-shrink: 0;
-  accent-color: #4338ca;
+  accent-color: #1b5379;
 }
 
 .unit-picker-hint {
@@ -401,8 +401,8 @@ body {
 }
 
 .clock-mode-option:has(input:checked) {
-  border-color: #4338ca;
-  background: #eef2ff;
+  border-color: #1b5379;
+  background: #edf6fa;
 }
 
 .clock-mode-option input {
@@ -410,7 +410,7 @@ body {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
-  accent-color: #4338ca;
+  accent-color: #1b5379;
 }
 
 .clock-mode-option strong {
@@ -437,26 +437,26 @@ body {
 }
 
 .start-input:focus {
-  border-color: #4338ca;
-  box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.15);
+  border-color: #1b5379;
+  box-shadow: 0 0 0 3px rgba(27, 83, 121, 0.15);
 }
 
 .primary-btn {
   min-height: 48px;
   border-radius: 14px;
-  background: #4338ca;
+  background: #1b5379;
   padding: 0 18px;
   color: white;
-  box-shadow: 0 12px 24px rgba(67, 56, 202, 0.25);
+  box-shadow: 0 12px 24px rgba(27, 83, 121, 0.25);
 }
 
 .secondary-btn {
   min-height: 42px;
-  border: 1px solid #c7d2fe;
+  border: 1px solid #bed9e8;
   border-radius: 12px;
-  background: #eef2ff;
+  background: #edf6fa;
   padding: 0 14px;
-  color: #3730a3;
+  color: #174362;
 }
 
 /* "Siguiente" bloqueado unos segundos: una barra se llena hasta habilitarlo. */
@@ -510,7 +510,7 @@ body {
 
 .tool-btn strong {
   margin-left: auto;
-  color: #4338ca;
+  color: #1b5379;
 }
 
 .tool-btn:disabled,
@@ -595,14 +595,14 @@ body {
 .progress-track::before {
   left: calc((var(--first-slot, 0) + 0.5) * 100% / 7);
   right: calc(100% - (var(--current-slot, 1) + 0.5) * 100% / 7);
-  background: #4338ca;
+  background: #1b5379;
   transition: left 0.45s ease;
 }
 
 .progress-track::after {
   left: calc((var(--current-slot, 1) + 0.5) * 100% / 7);
   right: 0;
-  background: #d2cde6;
+  background: #c9d9e3;
 }
 
 .path-step {
@@ -629,9 +629,9 @@ body {
   width: 46px;
   margin-top: 6px;
   place-items: center;
-  border: 2px solid #d2cde6;
+  border: 2px solid #c9d9e3;
   border-radius: 999px;
-  background: #fdfcff;
+  background: #f8fbfc;
   color: #94a3b8;
   transition: all 0.3s ease;
 }
@@ -639,7 +639,7 @@ body {
 /* Pasos futuros: todos apagados, con el mismo color beige de la linea que los une,
    para que el paso actual (con el color de su tipo) se distinga enseguida. */
 .path-step.future .path-icon {
-  border-color: #d2cde6;
+  border-color: #c9d9e3;
   color: #c4b69c;
 }
 
@@ -649,14 +649,14 @@ body {
 
 
 .path-step.past .path-icon {
-  border-color: #4338ca;
-  background: #eef2ff;
-  color: #4338ca;
+  border-color: #1b5379;
+  background: #edf6fa;
+  color: #1b5379;
 }
 
 .path-step.current .path-icon {
-  border-color: #4338ca;
-  background: #4338ca;
+  border-color: #1b5379;
+  background: #1b5379;
   color: white;
 }
 
@@ -858,13 +858,13 @@ body {
   width: calc(100% - 32px);
   height: 3px;
   border-radius: 999px;
-  background: #d2cde6;
+  background: #c9d9e3;
 }
 
 /* Tramo ya recorrido: verde como en el mapa. */
 .boss-node.correct::after,
 .boss-node.wrong::after {
-  background: #4338ca;
+  background: #1b5379;
 }
 
 .boss-disc {
@@ -873,9 +873,9 @@ body {
   height: 32px;
   width: 32px;
   place-items: center;
-  border: 2px solid #d2cde6;
+  border: 2px solid #c9d9e3;
   border-radius: 999px;
-  background: #fdfcff;
+  background: #f8fbfc;
   color: #94a3b8;
 }
 
@@ -891,9 +891,9 @@ body {
 
 .boss-node.correct .boss-disc,
 .boss-node.wrong .boss-disc {
-  border-color: #4338ca;
-  background: #eef2ff;
-  color: #4338ca;
+  border-color: #1b5379;
+  background: #edf6fa;
+  color: #1b5379;
 }
 
 .boss-node.wrong .boss-disc {
@@ -984,13 +984,13 @@ button.match-item:not(:disabled):hover {
 }
 
 /* Termino elegido, esperando su definicion: se anticipa el color que tendra el par. */
-.match-item.selected.pending-0 { border-color: #a5b4fc; box-shadow: 0 0 0 3px rgba(94, 234, 212, 0.25); }
+.match-item.selected.pending-0 { border-color: #e4a864; box-shadow: 0 0 0 3px rgba(228, 168, 100, 0.25); }
 .match-item.selected.pending-1 { border-color: #7dd3fc; box-shadow: 0 0 0 3px rgba(125, 211, 252, 0.25); }
 .match-item.selected.pending-2 { border-color: #c4b5fd; box-shadow: 0 0 0 3px rgba(196, 181, 253, 0.3); }
 
 /* Pares unidos: termino y definicion con el mismo color, en tonos suaves como el recuadro «Por qué».
    El primero usa exactamente el verde menta de ese recuadro. */
-.match-item.pair-0 { border-color: #c7d2fe; background: #eef2ff; color: #312e81; }
+.match-item.pair-0 { border-color: #eac393; background: #fff5e8; color: #783d12; }
 .match-item.pair-1 { border-color: #bae6fd; background: #f0f9ff; color: #0c4a6e; }
 .match-item.pair-2 { border-color: #ddd6fe; background: #f5f3ff; color: #4c1d95; }
 
@@ -1071,14 +1071,14 @@ button.match-item:not(:disabled):hover {
 
 /* Glosario: palabra en cursiva con subrayado punteado, y su tooltip. */
 .gloss {
-  border-bottom: 1px dotted #4338ca;
+  border-bottom: 1px dotted #1b5379;
   font-style: italic;
   cursor: help;
 }
 
 .gloss:focus-visible {
   border-radius: 3px;
-  outline: 2px solid #4338ca;
+  outline: 2px solid #1b5379;
   outline-offset: 2px;
 }
 
@@ -1104,7 +1104,7 @@ button.match-item:not(:disabled):hover {
 .gloss-tip strong {
   display: block;
   margin-bottom: 2px;
-  color: #a5b4fc;
+  color: #a8ccdf;
 }
 
 /* Paso de repaso en el camino. */
@@ -1197,7 +1197,7 @@ button.match-item:not(:disabled):hover {
 
 .case-type-chip {
   border-radius: 999px;
-  background: #4338ca;
+  background: #1b5379;
   padding: 4px 8px;
   font-size: 0.72rem;
   font-weight: 900;
@@ -1220,13 +1220,13 @@ button.match-item:not(:disabled):hover {
 .explanation-box {
   display: flex;
   gap: 12px;
-  border: 1px solid #c7d2fe;
+  border: 1px solid #bed9e8;
   border-radius: 16px;
-  background: #eef2ff;
+  background: #edf6fa;
   padding: 14px 16px;
   font-weight: 700;
   line-height: 1.45;
-  color: #312e81;
+  color: #173b55;
 }
 
 .explanation-box.hidden {
@@ -1240,13 +1240,13 @@ button.match-item:not(:disabled):hover {
 }
 
 .book-intro {
-  border-left: 4px solid #4338ca;
+  border-left: 4px solid #1b5379;
   border-radius: 4px;
-  background: #eef2ff;
+  background: #edf6fa;
   padding: 8px 10px;
   font-weight: 700;
   line-height: 1.45;
-  color: #312e81;
+  color: #173b55;
 }
 
 .book-section-label {
@@ -1265,7 +1265,7 @@ button.match-item:not(:disabled):hover {
   margin: 12px 0 4px;
   border: 1px solid #e2e8f0;
   border-radius: 14px;
-  background: #fdfcff;
+  background: #f8fbfc;
   padding: 12px;
 }
 
@@ -1308,11 +1308,11 @@ button.match-item:not(:disabled):hover {
   vertical-align: -1px;
 }
 
-.k-procesos { --key: #4338ca; }
+.k-procesos { --key: #1b5379; }
 .k-personas { --key: #ea580c; }
 .k-intenso { --key: #475569; }
 .k-claro { --key: #f1f5f9; }
-.k-etapa { --key: #e0e7ff; }
+.k-etapa { --key: #d8eaf2; }
 .k-resultado { --key: #34d399; }
 .k-salida { --key: #fda4af; }
 .k-visible { --key: #bae6fd; }
@@ -1353,7 +1353,7 @@ button.match-item:not(:disabled):hover {
   text-align: center;
 }
 
-.fig-col.q-izquierda { background: #4338ca; }
+.fig-col.q-izquierda { background: #1b5379; }
 .fig-col.q-derecha { background: #ea580c; }
 
 .fig-quad {
@@ -1377,8 +1377,8 @@ button.match-item:not(:disabled):hover {
   list-style: disc;
 }
 
-.q-arriba.q-izquierda { border-color: #4338ca; background: #c7d2fe; color: #1e1b4b; }
-.q-abajo.q-izquierda { border-color: #c7d2fe; background: #eef2ff; color: #312e81; }
+.q-arriba.q-izquierda { border-color: #1b5379; background: #bed9e8; color: #12334a; }
+.q-abajo.q-izquierda { border-color: #bed9e8; background: #edf6fa; color: #173b55; }
 .q-arriba.q-derecha { border-color: #ea580c; background: #fed7aa; color: #431407; }
 .q-abajo.q-derecha { border-color: #fed7aa; background: #fff7ed; color: #7c2d12; }
 
@@ -1397,7 +1397,7 @@ button.match-item:not(:disabled):hover {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 999px;
-  background: #fdfcff;
+  background: #f8fbfc;
   padding: 1px 10px;
   color: #475569;
   font-size: 0.72rem;
@@ -1433,7 +1433,7 @@ button.match-item:not(:disabled):hover {
   text-align: center;
 }
 
-.fig-step { background: #e0e7ff; color: #312e81; }
+.fig-step { background: #d8eaf2; color: #173b55; }
 .fig-result { border: 1px solid #34d399; background: #d1fae5; color: #065f46; }
 .fig-step.is-exit-step { background: #ffe4e6; color: #9f1239; }
 
@@ -1564,7 +1564,7 @@ button.match-item:not(:disabled):hover {
   position: absolute;
   top: calc(50% - 7px);
   left: calc(50% - 7px);
-  background: #4338ca;
+  background: #1b5379;
   transform: rotate(var(--a)) translate(36px);
 }
 
@@ -1887,7 +1887,7 @@ button.match-item:not(:disabled):hover {
   border: 1px solid #cbd5e1;
   border-radius: 10px;
   background: white;
-  color: #4338ca;
+  color: #1b5379;
 }
 
 .match-nav-btn:disabled {
@@ -1910,8 +1910,8 @@ button.match-item:not(:disabled):hover {
 
 .unit-btn.active,
 .quick-btn:hover {
-  background: #e0e7ff;
-  color: #3730a3;
+  background: #d8eaf2;
+  color: #174362;
 }
 
 .unit-btn.has-search-match {
@@ -1956,7 +1956,7 @@ button.match-item:not(:disabled):hover {
 
 .book-empty .material-symbols-rounded {
   font-size: 40px;
-  color: #4338ca;
+  color: #1b5379;
 }
 
 .book-entry mark {
@@ -2011,7 +2011,7 @@ button.match-item:not(:disabled):hover {
 }
 
 .shop-card {
-  border-color: #c7d2fe;
+  border-color: #bed9e8;
 }
 
 .shop-btn {
@@ -2038,7 +2038,7 @@ button.match-item:not(:disabled):hover {
 }
 
 .shop-owned strong {
-  color: #4338ca;
+  color: #1b5379;
 }
 
 .shop-points {
