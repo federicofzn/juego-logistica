@@ -162,6 +162,7 @@ const state = {
   discardUsed: false,
   gameOver: false,
   selectedUnit: null,
+  bookAllUnits: false,
   bookSearchTerm: "",
   // -1 = todavia no se navego: el primer "abajo" va al primer resultado y el primer "arriba", al ultimo.
   searchHitIndex: -1
@@ -208,7 +209,7 @@ function bindElements() {
     "progressBar", "progressEmpty", "progressTrack", "toolsRow", "timerBox", "timerFill", "timerText", "timerBonus", "caseHeaderLabel",
     "deleteGameBtn", "deleteModal", "deleteMemoryCheck", "cancelDeleteBtn", "confirmDeleteBtn",
     "achievementsRow", "achievementToast", "glossTip", "deleteAchievementsCheck", "bossBar", "bossNodes",
-    "bookPanel", "bookLock", "bottomRow", "bookExpandBtn", "bossRewardBox", "bossRewardText"
+    "bookPanel", "bookLock", "bottomRow", "bookExpandBtn", "bookAllBtn", "bossRewardBox", "bossRewardText"
   ].forEach((id) => {
     els[id] = document.getElementById(id);
   });
@@ -224,6 +225,7 @@ function bindEvents() {
   els.discardBtn.addEventListener("click", useDiscard);
   els.swapBtn.addEventListener("click", useSwap);
   els.bookBackBtn.addEventListener("click", showBookIndex);
+  els.bookAllBtn.addEventListener("click", toggleBookView);
   els.bookExpandBtn.addEventListener("click", () => setBookExpanded(!els.bottomRow.classList.contains("book-expanded")));
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && els.bottomRow.classList.contains("book-expanded")) setBookExpanded(false);
@@ -631,8 +633,8 @@ function updateMemory(id, correct) {
 
 function proceedAfterAnswer() {
   if (els.nextBtn.disabled) return;
-  // Cada desafio nuevo arranca con el libro en el indice, para ver la entrada sugerida.
-  showBookIndex();
+  // En la vista por clase se vuelve al índice para mostrar la entrada sugerida.
+  if (!state.bookAllUnits) showBookIndex();
   if (state.mistakes >= MAX_MISTAKES) {
     gameOver();
     return;
@@ -1705,7 +1707,7 @@ function openBook(entryKey = null) {
   if (entryKey) {
     const entry = state.reference.entradas[entryKey];
     if (entry) {
-      openBookSection(entry.unidad, entryKey);
+      openBookSection(state.bookAllUnits ? null : entry.unidad, entryKey);
       return;
     }
   }
@@ -1713,10 +1715,13 @@ function openBook(entryKey = null) {
 }
 
 function showBookIndex() {
+  state.bookAllUnits = false;
   state.selectedUnit = null;
   state.searchHitIndex = -1;
   els.bookTitle.textContent = "Indice";
   els.bookBackBtn.classList.add("hidden");
+  els.bookAllBtn.setAttribute("aria-pressed", "false");
+  els.bookAllBtn.title = "Ver todas las clases";
   els.bookUnits.innerHTML = "";
   state.reference.unidades.forEach((unit) => {
     const matchCount = countUnitMatches(unit.key);
@@ -1735,17 +1740,31 @@ function renderBook(highlightKey = null) {
   showBookIndex();
 }
 
+function toggleBookView() {
+  if (state.bookAllUnits) {
+    showBookIndex();
+  } else {
+    openBookSection(null);
+  }
+  els.bookEntries.scrollTop = 0;
+}
+
 function openBookSection(unitKey, highlightKey = null) {
   const unit = findUnit(unitKey);
   state.selectedUnit = unitKey;
+  state.bookAllUnits = unitKey === null;
   state.searchHitIndex = -1;
-  els.bookTitle.textContent = unit ? unit.titulo : "Seccion";
-  els.bookBackBtn.classList.remove("hidden");
+  els.bookTitle.textContent = state.bookAllUnits ? "Todas las clases" : (unit ? unit.titulo : "Seccion");
+  els.bookBackBtn.classList.toggle("hidden", state.bookAllUnits);
+  els.bookAllBtn.setAttribute("aria-pressed", String(state.bookAllUnits));
+  els.bookAllBtn.title = state.bookAllUnits ? "Volver al índice" : "Ver todas las clases";
   els.bookUnits.innerHTML = "";
   els.suggestedEntryBtn.classList.add("hidden");
 
-  const entries = Object.entries(state.reference.entradas)
-    .filter(([, entry]) => entry.unidad === state.selectedUnit);
+  const entries = state.reference.unidades
+    .filter((item) => state.bookAllUnits || item.key === state.selectedUnit)
+    .flatMap((item) => Object.entries(state.reference.entradas)
+      .filter(([, entry]) => entry.unidad === item.key));
   // Glosario dentro del libro: cada palabra se marca una vez por entrada, salvo en la que ya la explica.
   // Sin foco de teclado, para no llenar el libro de paradas de Tab; se consulta con el mouse o tocando.
   const bookGloss = (key) => {
@@ -1755,7 +1774,15 @@ function openBookSection(unitKey, highlightKey = null) {
   };
 
   els.bookEntries.innerHTML = "";
+  let currentUnit = null;
   entries.forEach(([key, entry]) => {
+    if (state.bookAllUnits && entry.unidad !== currentUnit) {
+      currentUnit = entry.unidad;
+      const heading = document.createElement("h3");
+      heading.className = "book-unit-heading";
+      heading.textContent = findUnit(currentUnit)?.titulo || currentUnit;
+      els.bookEntries.appendChild(heading);
+    }
     const gloss = bookGloss(key);
     const article = document.createElement("article");
     article.className = "book-entry";
@@ -1988,7 +2015,7 @@ function labelEnd(note) {
 }
 
 function renderSuggestedEntry() {
-  if (state.selectedUnit || !state.activeQuestion?.referencia?.entradaLibro) {
+  if (state.selectedUnit || state.bookAllUnits || !state.activeQuestion?.referencia?.entradaLibro) {
     els.suggestedEntryBtn.classList.add("hidden");
     return;
   }
@@ -1999,7 +2026,9 @@ function renderSuggestedEntry() {
 function updateBookSearch() {
   state.bookSearchTerm = els.bookSearch.value.trim();
   state.searchHitIndex = -1;
-  if (state.selectedUnit) {
+  if (state.bookAllUnits) {
+    openBookSection(null);
+  } else if (state.selectedUnit) {
     openBookSection(state.selectedUnit);
   } else {
     showBookIndex();
@@ -2008,7 +2037,7 @@ function updateBookSearch() {
 
 function updateSearchControls() {
   const hits = getVisibleSearchHits();
-  const total = state.selectedUnit ? hits.length : countAllUnitMatches();
+  const total = state.selectedUnit || state.bookAllUnits ? hits.length : countAllUnitMatches();
   els.bookSearchCount.textContent = state.bookSearchTerm ? `${total} resultado${total === 1 ? "" : "s"}` : "0 resultados";
   els.bookPrevMatchBtn.disabled = hits.length === 0;
   els.bookNextMatchBtn.disabled = hits.length === 0;
@@ -2056,7 +2085,18 @@ function countEntryMatches(entry, term) {
 }
 
 function entryTexts(entry) {
-  return [entry.categoria, entry.titulo, ...asList(entry.intro), ...entry.notas, ...asList(entry.pasos), ...asList(entry.ejemplos), entry.ojo]
+  const figure = entry.figura;
+  const figureTexts = figure ? [
+    figure.titulo, figure.nota, figure.retorno,
+    ...(figure.leyenda || []).map((item) => item.texto),
+    ...(figure.pasos || []).map((item) => item.texto),
+    ...(figure.puntos || []),
+    ...(figure.paneles || []).flatMap((panel) => [panel.titulo, panel.descripcion]),
+    ...(figure.opciones || []).flatMap((option) => [
+      option.titulo, option.descripcion, ...(option.pasos || []).map((item) => item.texto)
+    ])
+  ] : [];
+  return [entry.categoria, entry.titulo, ...asList(entry.intro), ...entry.notas, ...asList(entry.pasos), ...asList(entry.ejemplos), entry.ojo, ...figureTexts]
     .filter(Boolean);
 }
 

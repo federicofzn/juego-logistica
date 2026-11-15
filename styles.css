@@ -1852,6 +1852,12 @@ button.match-item:not(:disabled):hover {
   background: white;
 }
 
+#bookAllBtn[aria-pressed="true"] {
+  border-color: #1b5379;
+  background: #e4f1f7;
+  color: #173b55;
+}
+
 /* Libro expandido: ocupa toda la pantalla; se ocultan el panel de juego y la fila de arriba. */
 .bottom-row.book-expanded {
   grid-template-columns: minmax(0, 1fr);
@@ -2006,6 +2012,16 @@ button.match-item:not(:disabled):hover {
   border-radius: 16px;
   background: white;
   padding: 14px;
+}
+
+.book-unit-heading {
+  margin: 12px 0 0;
+  border-bottom: 2px solid #bdd8e6;
+  padding: 6px 2px;
+  color: #173b55;
+  font-family: var(--font-display, inherit);
+  font-size: 1.1rem;
+  font-weight: 900;
 }
 
 .book-panel {
