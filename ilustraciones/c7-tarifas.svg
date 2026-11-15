@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" role="img">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8z" fill="#bd5e18"/></marker></defs>
+<rect x="1" y="1" width="518" height="248" rx="15" fill="#f4f9fb"/>
+<style>text{font:600 15px Arial,sans-serif;fill:#173b55}.small{font-size:13px}.box{fill:#e4f1f7;stroke:#1b5379;stroke-width:2}.warm{fill:#fff1df;stroke:#bd5e18;stroke-width:2}.wire{fill:none;stroke:#bd5e18;stroke-width:3;marker-end:url(#arrow)}.plain{fill:none;stroke:#1b5379;stroke-width:2}</style>
+<path d="M77 190V30M77 190h392" class="plain"/><path d="M78 146H435" fill="none" stroke="#1b5379" stroke-width="4"/>
+<path d="M78 186L435 53" fill="none" stroke="#bd5e18" stroke-width="4"/><path d="M78 184Q170 100 435 93" fill="none" stroke="#4b8767" stroke-width="4"/>
+<text class="small" x="42" y="25">Precio</text><text class="small" x="400" y="218">Distancia</text><text class="small" x="255" y="53" fill="#bd5e18">Proporcional</text>
+<text class="small" x="355" y="85" fill="#4b8767">Gradual</text><text class="small" x="360" y="164">Uniforme</text><text class="small" x="215" y="239" text-anchor="middle">Ejemplo conceptual, sin escala ni valores reales</text></svg>

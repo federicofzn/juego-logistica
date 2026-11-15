@@ -92,7 +92,20 @@
       ],
       "ejemplos": [
         "Un comercio recibe un equipo averiado y lo deriva a diagnóstico y reparación."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Retorno de productos",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c1-inversa.svg",
+            "titulo": "¿Qué ocurre con una devolución?",
+            "descripcion": "El producto vuelve desde el cliente y, según su estado, puede repararse, reutilizarse o reciclarse."
+          }
+        ],
+        "nota": "Esquema ilustrativo. El diseño concreto depende de cada operación."
+      }
     },
     "clase1_areas": {
       "categoria": "Coordinación",

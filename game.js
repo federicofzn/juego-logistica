@@ -1828,6 +1828,15 @@ function renderLogisticsFigure(figure, t) {
     ${index ? '<span class="log-arrow" aria-hidden="true">→</span>' : ""}
     <div class="log-step"><span class="material-symbols-rounded log-icon" aria-hidden="true">${escapeHtml(step.icono)}</span><span>${t(step.texto)}</span></div>
   `).join("")}</div>`;
+  if (figure.variante === "ilustraciones") {
+    const panels = (figure.paneles || []).filter((panel) => /^ilustraciones\/[a-z0-9-]+\.svg$/.test(panel.imagen));
+    return `<div class="log-illustrations">${panels.map((panel) => `
+      <div class="log-illustration">
+        <strong>${t(panel.titulo)}</strong>
+        <img src="${escapeHtml(panel.imagen)}" alt="${escapeHtml(panel.descripcion)}" loading="lazy">
+        <p>${t(panel.descripcion)}</p>
+      </div>`).join("")}</div>`;
+  }
   if (figure.variante === "comparacion") {
     return `<div class="log-compare">${figure.opciones.map((option) => `
       <div class="log-option"><strong>${t(option.titulo)}</strong>${flow(option.pasos)}<p>${t(option.descripcion)}</p></div>

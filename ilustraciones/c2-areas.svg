@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" role="img">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8z" fill="#bd5e18"/></marker></defs>
+<rect x="1" y="1" width="518" height="248" rx="15" fill="#f4f9fb"/>
+<style>text{font:600 15px Arial,sans-serif;fill:#173b55}.small{font-size:13px}.box{fill:#e4f1f7;stroke:#1b5379;stroke-width:2}.warm{fill:#fff1df;stroke:#bd5e18;stroke-width:2}.wire{fill:none;stroke:#bd5e18;stroke-width:3;marker-end:url(#arrow)}.plain{fill:none;stroke:#1b5379;stroke-width:2}</style>
+<circle cx="260" cy="125" r="58" fill="#e4f1f7" stroke="#1b5379" stroke-width="3"/><text x="260" y="130" text-anchor="middle">Logística</text>
+<rect class="warm" x="15" y="22" width="145" height="48" rx="10"/><text x="87" y="51" text-anchor="middle">Ventas</text>
+<rect class="box" x="15" y="180" width="145" height="48" rx="10"/><text x="87" y="209" text-anchor="middle">Compras</text>
+<rect class="box" x="360" y="22" width="145" height="48" rx="10"/><text x="432" y="51" text-anchor="middle">Producción</text>
+<rect class="warm" x="360" y="180" width="145" height="48" rx="10"/><text x="432" y="209" text-anchor="middle">Finanzas</text>
+<path class="wire" d="M160 49L210 96M160 202l50-48M360 49l-50 47M360 202l-50-48"/><text class="small" x="260" y="26" text-anchor="middle">Información y decisiones</text></svg>

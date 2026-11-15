@@ -126,7 +126,25 @@
       ],
       "ejemplos": [
         "Una paleta con medidas conocidas todavía requiere comprobar la forma de su base y la resistencia antes de usarla en una estantería."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Entradas para horquillas",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c4-pallet-dos-entradas.svg",
+            "titulo": "Dos entradas",
+            "descripcion": "Vista inferior de una paleta con patines continuos: las horquillas acceden desde dos lados opuestos, por los espacios entre los patines."
+          },
+          {
+            "imagen": "ilustraciones/c4-pallet-cuatro-entradas.svg",
+            "titulo": "Cuatro entradas",
+            "descripcion": "Vista inferior esquemática de una paleta de tacos: las flechas muestran el acceso de horquillas por los cuatro lados."
+          }
+        ],
+        "nota": "Los dibujos muestran construcciones esquemáticas; la compatibilidad depende también del equipo y de la base real."
+      }
     },
     "clase4_normalizacion": {
       "categoria": "Clase 4",
@@ -142,7 +160,20 @@
       ],
       "ejemplos": [
         "Dos cajas de 600 mm completan los 1.200 mm de largo y dos de 400 mm completan los 800 mm de ancho."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Modularidad sobre europaleta",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c4-modularidad-europaleta.svg",
+            "titulo": "Cuatro cajas en una capa",
+            "descripcion": "Vista superior de cuatro cajas de 600 × 400 mm, ordenadas en dos filas y dos columnas sobre una superficie de 1.200 × 800 mm, sin espacios ni salientes."
+          }
+        ],
+        "nota": "El ajuste supone dimensiones exteriores compatibles; las medidas por sí solas no acreditan una europaleta."
+      }
     },
     "clase4_contenedores": {
       "categoria": "Clase 4",
@@ -173,7 +204,25 @@
       ],
       "ejemplos": [
         "Antes de añadir un nivel se verifica que los bultos inferiores y el soporte resistan el peso acumulado."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Apilabilidad y estabilidad",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c4-apilado-seguro.svg",
+            "titulo": "Apilado estable",
+            "descripcion": "Cajas alineadas sobre una paleta: las resistentes están abajo y las livianas encima, con apoyo completo."
+          },
+          {
+            "imagen": "ilustraciones/c4-apilado-inseguro.svg",
+            "titulo": "Apilado inestable",
+            "descripcion": "Cajas pesadas sobre cajas frágiles; una caja superior sobresale y puede caer o aplastar las inferiores."
+          }
+        ],
+        "nota": "La disposición estable requiere verificar la resistencia de las cajas y del soporte, además del límite de carga aplicable."
+      }
     },
     "clase4_abc": {
       "categoria": "Clase 4",
@@ -190,7 +239,20 @@
       ],
       "ejemplos": [
         "Si unas pocas referencias concentran muchos movimientos, pueden priorizarse ubicaciones accesibles para ellas, tras revisar sus restricciones físicas."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Clasificación ABC ilustrativa",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c4-abc-curva.svg",
+            "titulo": "Contribución acumulada",
+            "descripcion": "Curva cualitativa de contribución acumulada frente a referencias ordenadas de mayor a menor contribución; las zonas A, B y C no indican porcentajes fijos."
+          }
+        ],
+        "nota": "Los cortes y la forma de la curva dependen de los datos y del indicador elegido; no se supone una proporción 80/20."
+      }
     }
   }
 }

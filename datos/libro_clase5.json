@@ -17,7 +17,20 @@
       ],
       "ejemplos": [
         "Un depósito compara posiciones y facilidad de acceso antes de elegir una disposición."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "El almacenaje conecta etapas",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-sistema.svg",
+            "titulo": "Sistema de almacenaje",
+            "descripcion": "Una unidad paletizada pasa de recepción a almacenaje y luego a despacho; las flechas indican la secuencia."
+          }
+        ],
+        "nota": "La capacidad y el acceso se evalúan junto con el flujo y el servicio."
+      }
     },
     "clase5_unidad": {
       "categoria": "Contenidos de la clase",
@@ -32,7 +45,20 @@
       ],
       "ejemplos": [
         "Cajas sobre un pallet se estabilizan y se identifican para moverlas juntas."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Unidad de carga y auxiliares",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-unidad.svg",
+            "titulo": "Unidad de carga",
+            "descripcion": "Cuatro cajas agrupadas sobre un pallet, con envoltura y etiqueta de identificación visible."
+          }
+        ],
+        "nota": "La estabilidad y compatibilidad con el equipo dependen de la carga."
+      }
     },
     "clase5_estanterias": {
       "categoria": "Contenidos de la clase",
@@ -47,7 +73,20 @@
       ],
       "ejemplos": [
         "Una empresa compara el acceso a cada referencia además de contar posiciones."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Posiciones en altura",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-estanteria.svg",
+            "titulo": "Estantería selectiva",
+            "descripcion": "Cuatro pallets individuales se apoyan en dos niveles de una estantería; las flechas desde el pasillo representan el acceso."
+          }
+        ],
+        "nota": "La altura y la capacidad dependen de la estructura y del equipo."
+      }
     },
     "clase5_equipos": {
       "categoria": "Contenidos de la clase",
@@ -62,7 +101,30 @@
       ],
       "ejemplos": [
         "Se verifica que el equipo alcance la altura y maniobre con su carga en los pasillos."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Equipos de manipuleo",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-transpaleta.svg",
+            "titulo": "Transpaleta",
+            "descripcion": "Una transpaleta manual con timón y horquillas bajo un pallet se desplaza horizontalmente a baja altura."
+          },
+          {
+            "imagen": "ilustraciones/c5-autoelevador.svg",
+            "titulo": "Autoelevador",
+            "descripcion": "Un autoelevador con ruedas, cabina, mástil y horquillas sostiene un pallet; flechas muestran elevación y desplazamiento."
+          },
+          {
+            "imagen": "ilustraciones/c5-transportador.svg",
+            "titulo": "Transportador de rodillos",
+            "descripcion": "Una carga paletizada avanza sobre rodillos de un transportador fijo; la flecha muestra el sentido del recorrido."
+          }
+        ],
+        "nota": "Las dimensiones y maniobras deben ser compatibles con la instalación."
+      }
     },
     "clase5_flujo": {
       "categoria": "Contenidos de la clase",
@@ -80,7 +142,20 @@
       ],
       "ejemplos": [
         "Si una carga vuelve varias veces al mismo sector, revisar el trazado puede eliminar recorridos evitables."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Movimientos y coordinación",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-flujo.svg",
+            "titulo": "Coordinación de movimientos",
+            "descripcion": "Un autoelevador traslada pallets entre recepción, estantería y despacho; las flechas muestran el flujo."
+          }
+        ],
+        "nota": "La coordinación ayuda a evitar recorridos repetidos."
+      }
     },
     "clase5_componentes": {
       "categoria": "Contenidos de la clase",
@@ -126,7 +201,20 @@
       ],
       "ejemplos": [
         "Si cajas resistentes de una sola referencia se acumulan temporalmente, puede evaluarse un bloque estable; si no soportan peso encima, conviene estudiar posiciones en estanterías."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Dos formas de almacenar pallets",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-bloques-estanteria.svg",
+            "titulo": "Bloques y estantería",
+            "descripcion": "Arriba, pallets apilados forman un bloque compacto; abajo, pallets separados descansan sobre largueros de una estantería."
+          }
+        ],
+        "nota": "El apilado en bloque requiere cargas y embalajes aptos."
+      }
     },
     "clase5_acceso": {
       "categoria": "Contenidos de la clase",
@@ -143,7 +231,25 @@
       ],
       "ejemplos": [
         "Con muchos operarios y movimientos simultáneos se comparan bases estáticas con el tiempo de espera y la capacidad de una solución móvil."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Acceso y bases de estantería",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-profundidad.svg",
+            "titulo": "Simple y doble profundidad",
+            "descripcion": "Arriba, cada pallet tiene acceso directo. Abajo, visto desde el frente indicado, el pallet B queda delante de A y puede requerir su retirada."
+          },
+          {
+            "imagen": "ilustraciones/c5-bases.svg",
+            "titulo": "Bases estáticas y móviles",
+            "descripcion": "Vista superior: las bases estáticas tienen varios pasillos abiertos; las móviles se agrupan sobre carriles y dejan un pasillo de acceso, con flechas de desplazamiento."
+          }
+        ],
+        "nota": "En bases móviles, la apertura del pasillo puede requerir espera."
+      }
     },
     "clase5_compactos": {
       "categoria": "Contenidos de la clase",
@@ -160,7 +266,25 @@
       ],
       "ejemplos": [
         "Si una calle recibe A y luego B por el mismo extremo de un drive-in, B sale primero. En drive-through, la secuencia FIFO requiere cargar y retirar por extremos opuestos."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Calles compactas",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-drive-in.svg",
+            "titulo": "Drive-in: LIFO",
+            "descripcion": "Una carretilla entra por el extremo derecho a un canal cerrado al fondo. Entran A y después B; B, más cerca de la entrada, sale primero. Flechas de entrada y salida apuntan en sentidos opuestos por el mismo extremo."
+          },
+          {
+            "imagen": "ilustraciones/c5-drive-through.svg",
+            "titulo": "Drive-through: FIFO",
+            "descripcion": "Canal abierto en ambos extremos: la carretilla carga por la izquierda y se retira por la derecha. A está más cerca de salida que B, por lo que A sale primero."
+          }
+        ],
+        "nota": "La secuencia depende de respetar los extremos de carga y extracción."
+      }
     },
     "clase5_dinamicos": {
       "categoria": "Contenidos de la clase",
@@ -177,7 +301,30 @@
       ],
       "ejemplos": [
         "Para perecederos con salida FIFO se estudia un dinámico de rodillos; un push-back por el mismo frente responde a otra secuencia."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Sistemas dinámicos y lanzadera",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-push-back.svg",
+            "titulo": "Push-back: LIFO",
+            "descripcion": "Pallets A y B están sobre carros en un carril inclinado hacia el frente izquierdo. Al cargar, B empuja A hacia el fondo; al retirar B, A vuelve por gravedad. La carga y descarga usan el mismo frente."
+          },
+          {
+            "imagen": "ilustraciones/c5-rodillos-fifo.svg",
+            "titulo": "Rodillos por gravedad: FIFO",
+            "descripcion": "El canal de rodillos desciende desde la entrada izquierda hacia la salida derecha. A está delante de B y sale primero; la flecha señala el avance por gravedad."
+          },
+          {
+            "imagen": "ilustraciones/c5-radio-shuttle.svg",
+            "titulo": "Radio-shuttle",
+            "descripcion": "Una lanzadera con ruedas transporta un pallet dentro del canal sobre carriles; el autoelevador permanece en la cabecera. La flecha indica el movimiento de la lanzadera."
+          }
+        ],
+        "nota": "El radio-shuttle puede operar por uno o dos extremos; su secuencia depende de la configuración."
+      }
     },
     "clase5_picking": {
       "categoria": "Contenidos de la clase",
@@ -198,7 +345,20 @@
       ],
       "ejemplos": [
         "Una zona dinámica para artículos de alto consumo puede combinarse con un miniload para otras referencias pequeñas y una zona de consolidación."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Acceso a cajas para picking",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-picking.svg",
+            "titulo": "Preparación de pedidos",
+            "descripcion": "A la izquierda, una persona se dirige hacia una estantería; a la derecha, una flecha lleva una caja desde la estantería a un puesto de preparación."
+          }
+        ],
+        "nota": "Los movimientos representados son esquemáticos y admiten distintas tecnologías."
+      }
     },
     "clase5_especiales": {
       "categoria": "Contenidos de la clase",
@@ -214,7 +374,30 @@
       ],
       "ejemplos": [
         "Una carga larga de perfiles puede evaluarse para cantiléver; una bobina debe contar con un soporte adecuado que impida rodar."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Soportes y superficies especiales",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-cantilever.svg",
+            "titulo": "Cantiléver",
+            "descripcion": "Una columna soporta brazos horizontales en voladizo con perfiles largos apoyados; una flecha lateral indica su extracción."
+          },
+          {
+            "imagen": "ilustraciones/c5-bobinas.svg",
+            "titulo": "Bobinas en cuna y en eje",
+            "descripcion": "A la izquierda una bobina circular descansa en una cuna que impide rodar; a la derecha una bobina cilíndrica está montada en un eje sostenido por dos apoyos y una flecha curva indica giro."
+          },
+          {
+            "imagen": "ilustraciones/c5-entrepiso.svg",
+            "titulo": "Entrepiso y accesos",
+            "descripcion": "Una plataforma elevada con baranda y columnas tiene acceso peatonal por escalera; un autoelevador en planta baja ilustra el acceso de cargas por elevación."
+          }
+        ],
+        "nota": "Los apoyos, accesos y medios de elevación se dimensionan para cada carga e instalación."
+      }
     },
     "clase5_clasificacion": {
       "categoria": "Contenidos de la clase",
@@ -232,7 +415,20 @@
       ],
       "ejemplos": [
         "Un transportador de banda conecta puntos de recorrido definido; una transpaleta ofrece circulación variable según las condiciones de la instalación."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Clasificación por recorrido",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c5-clasificacion.svg",
+            "titulo": "Recorridos de equipos",
+            "descripcion": "Arriba, una transpaleta y un autoelevador circulan por recorridos variables. Abajo, una línea de rodillos conduce la carga por un recorrido definido."
+          }
+        ],
+        "nota": "El recorrido y el accionamiento son criterios complementarios."
+      }
     }
   }
 }

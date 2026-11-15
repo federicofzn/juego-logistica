@@ -79,7 +79,20 @@
       ],
       "ejemplos": [
         "Si recepción y expedición están próximas, se puede evaluar un flujo en U teniendo en cuenta los muelles y el volumen."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Formas del flujo",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c3-flujos.svg",
+            "titulo": "Recorridos dentro del almacén",
+            "descripcion": "Los flujos pueden organizarse de forma lineal, en U, L o T según la posición de accesos y muelles."
+          }
+        ],
+        "nota": "Esquema ilustrativo. El diseño concreto depende de cada operación."
+      }
     },
     "clase3_picking": {
       "categoria": "Clase 3",
@@ -126,7 +139,20 @@
       "ejemplos": [
         "Un envío se descarga, se controla, se guarda y más tarde se recoge para un pedido que expedición prepara para salir."
       ],
-      "ojo": "Son áreas funcionales. Según la instalación, algunas tareas pueden compartir espacio o distribuirse en sectores."
+      "ojo": "Son áreas funcionales. Según la instalación, algunas tareas pueden compartir espacio o distribuirse en sectores.",
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Un almacén por dentro",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c3-areas.svg",
+            "titulo": "Las cinco áreas",
+            "descripcion": "Una distribución posible conecta carga y descarga, recepción, almacenamiento, preparación de pedidos y expedición."
+          }
+        ],
+        "nota": "Esquema ilustrativo. El diseño concreto depende de cada operación."
+      }
     }
   }
 }

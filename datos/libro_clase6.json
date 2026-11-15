@@ -73,6 +73,19 @@
         "Para evaluar una solución automática se comparan inversión y funcionamiento con ahorros, capacidad, servicio y tiempo de recuperación.",
         "Ubicar referencias considerando su rotación y planificar el reabastecimiento puede reducir recorridos y faltantes en el punto de extracción."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Organización del picking",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-recorrido.svg",
+            "titulo": "Recorrido y preparación",
+            "descripcion": "Una persona se desplaza hacia las ubicaciones y después lleva los artículos al contenedor del pedido. La reposición mantiene disponibles las posiciones de extracción."
+          }
+        ],
+        "nota": "La ubicación y la reposición influyen en el recorrido y en la continuidad del trabajo."
+      },
       "ejemplos": [
         "Varias órdenes se agrupan para recorrer una zona y luego separar los artículos por pedido.",
         "Si la reserva tiene unidades pero la posición de extracción está vacía, reponerla permite continuar; cambiar el embalaje no resuelve esa falta."
@@ -92,6 +105,24 @@
         "La voz utiliza auricular, micrófono y terminal; las confirmaciones orales dejan las manos libres, algo útil cuando se usan guantes.",
         "El put to light puede instalarse en puestos fijos o carros y facilitar la separación de varias órdenes; algunos sistemas luminosos usan colores para diferenciarlas."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Luces para extraer y distribuir",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-pick-to-light.svg",
+            "titulo": "Pick to light",
+            "descripcion": "Una luz con el número 2 está en una ubicación de la estantería. Una flecha va desde esa ubicación hacia la persona: indica que se retiran dos unidades."
+          },
+          {
+            "imagen": "ilustraciones/c6-put-to-light.svg",
+            "titulo": "Put to light",
+            "descripcion": "Una persona distribuye artículos en contenedores de pedidos. La flecha apunta a los contenedores y una luz con el número 2 identifica el destino y la cantidad a depositar."
+          }
+        ],
+        "nota": "La luz identifica la ubicación de extracción o el destino, según el sistema."
+      },
       "ejemplos": [
         "Una luz en la ubicación guía la extracción y otra en un contenedor puede guiar la distribución por pedido.",
         "Una terminal recibe la ubicación y, al confirmar el producto y la cantidad, comunica el movimiento al sistema de gestión."
@@ -111,6 +142,19 @@
         "En niveles medios, las posiciones intermedias llegan aproximadamente a 3,5 o 4 metros; se busca aprovechar altura y controlar los tiempos de elevación.",
         "La zona baja puede compartir estanterías con el almacenaje o ser exclusiva de picking. En este último caso se debe organizar su reposición desde la reserva."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Niveles de picking",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-niveles.svg",
+            "titulo": "Suelo, bajo, medio y alto",
+            "descripcion": "Una estantería de cuatro niveles muestra cajas desde el suelo hasta la parte alta. Las flechas señalan cada nivel: suelo, bajo, medio y alto."
+          }
+        ],
+        "nota": "El acceso a niveles elevados requiere equipos adecuados y movimientos adicionales; las alturas son esquemáticas."
+      },
       "ejemplos": [
         "Una ubicación baja se repone desde reserva para evitar que se interrumpa la preparación.",
         "Dos depósitos con igual superficie pueden aprovechar alturas distintas, pero el acceso elevado agrega movimientos que deben evaluarse."
@@ -131,6 +175,29 @@
         "En Clasimat una lanzadera lleva la bandeja solicitada a una abertura de trabajo; en Spinblock los módulos circulan horizontalmente por una guía de recorrido ovalado.",
         "El ancho de un pasillo estrecho depende de la carga, la máquina y las holguras. Entre los equipos posibles están carretillas trilaterales y preparadoras de alto nivel."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Sistemas para cajas y piezas",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-clasimat.svg",
+            "titulo": "Clasimat vertical",
+            "descripcion": "En un equipo cerrado, bandejas se almacenan a ambos lados de una lanzadera central. La lanzadera toma una bandeja y la desplaza verticalmente hacia la abertura de trabajo, donde espera una persona."
+          },
+          {
+            "imagen": "ilustraciones/c6-spinblock.svg",
+            "titulo": "Spinblock horizontal",
+            "descripcion": "Vista superior de módulos de almacenamiento que circulan horizontalmente por un recorrido ovalado. Las flechas indican el sentido de circulación y el puesto de trabajo está junto al carrusel."
+          },
+          {
+            "imagen": "ilustraciones/c6-miniload.svg",
+            "titulo": "Miniload con transelevador",
+            "descripcion": "Entre dos estanterías de cajas, un transelevador se desplaza y eleva una plataforma. Una flecha vertical indica elevación y otra señala la transferencia de la caja hacia una ubicación."
+          }
+        ],
+        "nota": "Los movimientos son esquemáticos: vertical para Clasimat, horizontal para Spinblock y almacenamiento de cajas con transelevador para miniload."
+      },
       "ejemplos": [
         "Para piezas pequeñas se comparan acceso manual, canales dinámicos y sistemas automáticos según espacio y rotación.",
         "Una estantería dinámica de cajas acerca la reserva al frente de extracción, mientras el operario sigue recogiendo las piezas."
@@ -151,6 +218,19 @@
         "El packaging puede contener, proteger, conservar, facilitar el transporte e informar; también contribuye a la venta.",
         "En la demostración se controlan identificación y cantidades, se prepara la carga en un pallet y se emplean elementos de protección."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Del pedido al despacho",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-despacho.svg",
+            "titulo": "Control, embalaje y salida",
+            "descripcion": "Un pedido pasa de control y embalaje a una caja identificada, después a clasificación por destino y finalmente a la salida. Las flechas muestran la secuencia."
+          }
+        ],
+        "nota": "La identificación y el control acompañan el pedido hasta su distribución."
+      },
       "ejemplos": [
         "Una caja con etiqueta ilegible se revisa y reetiqueta antes de asignarle una salida.",
         "En el caso de Mercado Libre mostrado en 2020, los productos se identifican, recogen y escanean; luego se embalan y clasifican por destino."
@@ -169,6 +249,19 @@
         "Para grandes volúmenes pueden utilizarse robots que manipulan cajas individuales o capas completas. Los antropomórficos tienen brazo articulado; los de pórtico se desplazan sobre dos o tres ejes.",
         "La elección depende de los ciclos requeridos y de la composición de los pedidos; una instalación puede combinar modalidades."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Almacén automático y puesto",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-cabecera.svg",
+            "titulo": "Pallet a puesto de preparación",
+            "descripcion": "Un pallet sale del área de reserva por un transportador hacia un puesto en cabecera, donde una persona extrae las unidades del pedido. Las flechas indican el movimiento hacia el puesto."
+          }
+        ],
+        "nota": "En otras configuraciones, el almacén automático puede reponer canales laterales o zonas anexas."
+      },
       "ejemplos": [
         "En una configuración lateral, el transelevador repone canales mientras una preparadora recoge las referencias de mayor consumo.",
         "Un puesto en cabecera recibe un pallet automáticamente y el operario retira las cajas que necesita el pedido."
@@ -187,6 +280,19 @@
         "Un SGA y terminales de radiofrecuencia pueden ordenar tareas y confirmar movimientos; preselectores de altura y posición pueden agilizar el acceso.",
         "Antes de definir la instalación se analizan entradas y salidas, dimensiones de carga y proporción de pedidos despachados en unidades completas."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Pasillo estrecho y equipo",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-pasillo-estrecho.svg",
+            "titulo": "Equipo compatible en pasillo estrecho",
+            "descripcion": "Vista esquemática de un pasillo entre dos estanterías. Una carretilla de mástil elevado ocupa el corredor y la flecha muestra la transferencia lateral de la carga hacia una ubicación. Se deben comprobar las dimensiones, el guiado y las holguras."
+          }
+        ],
+        "nota": "Se seleccionan equipos compatibles, por ejemplo trilaterales o preparadoras de alto nivel, según carga, maniobras y holguras. No se indica un ancho universal."
+      },
       "ejemplos": [
         "Antes de reducir un corredor, se comprueban la carga, la máquina elegida, las holguras y sus maniobras."
       ]
@@ -203,6 +309,19 @@
         "El informe de Mercado Libre muestra recepción y almacenaje, recolección y escaneo tras la compra, embalaje y separación de paquetes por destino; describe la operación mostrada en 2020.",
         "Una red de mensajería puede concentrar envíos en un nodo, ordenarlos por destino y enviarlos a centros regionales antes de la distribución final por carretera."
       ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Clasificación por destino",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c6-clasificacion.svg",
+            "titulo": "Lectura y derivación",
+            "descripcion": "Una caja llega al lector de etiquetas. Una flecha conduce al destino cuando se identifica el código; otra deriva las etiquetas ilegibles a revisión y reetiquetado."
+          }
+        ],
+        "nota": "La identificación permite asignar una salida; una etiqueta ilegible requiere revisión."
+      },
       "ejemplos": [
         "Un código ilegible se deriva a revisión: asignar una salida al azar no permite identificar de forma confiable el destino.",
         "El caso de FedEx en Memphis ilustra la concentración de envíos y la conexión entre transporte aéreo y distribución terrestre."

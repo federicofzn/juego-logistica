@@ -42,7 +42,20 @@
       "ejemplos": [
         "Para una gran carga sin urgencia puede compararse el barco con otros modos y sumar los tramos hasta el puerto."
       ],
-      "ojo": "La comparación depende del contexto; no hay un modo óptimo para todos los envíos."
+      "ojo": "La comparación depende del contexto; no hay un modo óptimo para todos los envíos.",
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Comparación de modos",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c7-modos.svg",
+            "titulo": "Vehículos y sus fortalezas",
+            "descripcion": "Camión, tren, avión y barco tienen distintas capacidades, velocidades y necesidades de infraestructura."
+          }
+        ],
+        "nota": "Esquema ilustrativo. El diseño concreto depende de cada operación."
+      }
     },
     "c7_intermodal": {
       "categoria": "Servicios combinados y envíos pequeños",
@@ -156,7 +169,20 @@
       "ejemplos": [
         "Si duplicar la distancia hace subir el precio menos del doble, el perfil puede ser gradual."
       ],
-      "ojo": "Son formas de describir tarifas: las condiciones reales dependen del operador y del contrato."
+      "ojo": "Son formas de describir tarifas: las condiciones reales dependen del operador y del contrato.",
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Tarifas y distancia",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c7-tarifas.svg",
+            "titulo": "Tres perfiles de precio",
+            "descripcion": "La línea uniforme permanece horizontal. La proporcional crece al mismo ritmo que la distancia y la gradual puede crecer más lentamente."
+          }
+        ],
+        "nota": "Esquema ilustrativo. El diseño concreto depende de cada operación."
+      }
     },
     "c7_documentacion": {
       "categoria": "Documentación y reclamos",

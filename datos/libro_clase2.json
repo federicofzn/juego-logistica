@@ -17,7 +17,20 @@
       ],
       "ejemplos": [
         "Un despacho más económico puede generar faltantes si su frecuencia no acompaña la demanda."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "La logística como sistema",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c2-sistema.svg",
+            "titulo": "Entradas, procesos y salidas",
+            "descripcion": "El pedido y los recursos ingresan al sistema, se procesan y generan una entrega. Los datos permiten corregir el proceso."
+          }
+        ],
+        "nota": "Esquema ilustrativo. El diseño concreto depende de cada operación."
+      }
     },
     "clase2_plan": {
       "categoria": "Planificación",
@@ -47,7 +60,20 @@
       ],
       "ejemplos": [
         "Una campaña se contrasta con existencias y capacidad antes de fijar compromisos de entrega."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "ilustraciones",
+        "titulo": "Áreas que coordinan decisiones",
+        "paneles": [
+          {
+            "imagen": "ilustraciones/c2-areas.svg",
+            "titulo": "Logística y otras áreas",
+            "descripcion": "Ventas aporta demanda, compras coordina suministros, producción comunica capacidad y finanzas considera recursos."
+          }
+        ],
+        "nota": "Esquema ilustrativo. El diseño concreto depende de cada operación."
+      }
     },
     "clase2_distribucion": {
       "categoria": "Distribución",

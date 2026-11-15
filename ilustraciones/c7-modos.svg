@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" role="img">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8z" fill="#bd5e18"/></marker></defs>
+<rect x="1" y="1" width="518" height="248" rx="15" fill="#f4f9fb"/>
+<style>text{font:600 15px Arial,sans-serif;fill:#173b55}.small{font-size:13px}.box{fill:#e4f1f7;stroke:#1b5379;stroke-width:2}.warm{fill:#fff1df;stroke:#bd5e18;stroke-width:2}.wire{fill:none;stroke:#bd5e18;stroke-width:3;marker-end:url(#arrow)}.plain{fill:none;stroke:#1b5379;stroke-width:2}</style>
+<g fill="#e4f1f7" stroke="#1b5379" stroke-width="3"><path d="M30 58h70v39H30zM100 72h25l13 14v11h-38z"/><circle cx="52" cy="102" r="9"/><circle cx="117" cy="102" r="9"/>
+<rect x="164" y="54" width="75" height="46" rx="8"/><circle cx="180" cy="104" r="8"/><circle cx="223" cy="104" r="8"/><path d="M272 85l88-14-35 21-5 15-9 1 1-15-30 6z"/><path d="M385 82h105l-19 23h-66zM415 80V52h42v28"/></g>
+<text class="small" x="82" y="143" text-anchor="middle">Camión</text><text class="small" x="200" y="143" text-anchor="middle">Tren</text><text class="small" x="315" y="143" text-anchor="middle">Avión</text><text class="small" x="437" y="143" text-anchor="middle">Barco</text>
+<text class="small" x="82" y="166" text-anchor="middle">Flexibilidad</text><text class="small" x="200" y="166" text-anchor="middle">Volumen</text><text class="small" x="315" y="166" text-anchor="middle">Rapidez</text><text class="small" x="437" y="166" text-anchor="middle">Volumen</text>
+<text class="small" x="260" y="219" text-anchor="middle">Comparar además plazos, costos y conexiones</text></svg>

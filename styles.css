@@ -1329,6 +1329,11 @@ button.match-item:not(:disabled):hover {
 .log-pallet .log-base { fill: #78471f; }
 .log-load ul { margin: 0; padding-left: 19px; color: #334155; font-size: 0.78rem; font-weight: 700; }
 .log-load li + li { margin-top: 6px; }
+.log-illustrations { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 10px; }
+.log-illustration { min-width: 0; padding: 10px; border: 1px solid #d4e2e9; border-radius: 12px; background: #fff; }
+.log-illustration strong { display: block; color: #173b55; font-size: 0.8rem; }
+.log-illustration img { display: block; width: 100%; height: auto; margin: 8px auto; }
+.log-illustration p { margin: 0; color: #334155; font-size: 0.75rem; line-height: 1.4; }
 .log-rack { display: flex; align-items: center; gap: 14px; }
 .log-rack svg { width: min(48%, 240px); flex: none; }
 .rack-frame { fill: none; stroke: #1b5379; stroke-width: 8; stroke-linejoin: round; }
