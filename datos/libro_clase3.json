@@ -32,7 +32,39 @@
       ],
       "ejemplos": [
         "Una caja pasa de recepción a reserva; luego se repone el sector de picking y se reúne con otros artículos de un pedido."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Del ingreso a la salida del almacén",
+        "variante": "flujo",
+        "pasos": [
+          {
+            "texto": "Recepción",
+            "icono": "input"
+          },
+          {
+            "texto": "Control",
+            "icono": "fact_check"
+          },
+          {
+            "texto": "Almacenamiento",
+            "icono": "warehouse"
+          },
+          {
+            "texto": "Picking",
+            "icono": "shopping_cart"
+          },
+          {
+            "texto": "Embalaje",
+            "icono": "inventory_2"
+          },
+          {
+            "texto": "Expedición",
+            "icono": "local_shipping"
+          }
+        ],
+        "nota": "La reposición abastece las ubicaciones de picking desde la reserva."
+      }
     },
     "clase3_diseno": {
       "categoria": "Clase 3",

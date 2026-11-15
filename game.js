@@ -1802,7 +1802,8 @@ const FIGURES = {
   flujo: renderFlow,
   capas: renderLayers,
   antesdespues: renderBeforeAfter,
-  grupos: renderGroups
+  grupos: renderGroups,
+  logistica: renderLogisticsFigure
 };
 
 function renderFigure(figure) {
@@ -1820,6 +1821,27 @@ function renderFigure(figure) {
 }
 
 const figureList = (items, t) => `<ul>${items.map((item) => `<li>${t(item)}</li>`).join("")}</ul>`;
+
+// Diagramas de logística: textos accesibles junto a los íconos y flechas decorativas.
+function renderLogisticsFigure(figure, t) {
+  const flow = (steps) => `<div class="log-steps">${steps.map((step, index) => `
+    ${index ? '<span class="log-arrow" aria-hidden="true">→</span>' : ""}
+    <div class="log-step"><span class="material-symbols-rounded log-icon" aria-hidden="true">${escapeHtml(step.icono)}</span><span>${t(step.texto)}</span></div>
+  `).join("")}</div>`;
+  if (figure.variante === "comparacion") {
+    return `<div class="log-compare">${figure.opciones.map((option) => `
+      <div class="log-option"><strong>${t(option.titulo)}</strong>${flow(option.pasos)}<p>${t(option.descripcion)}</p></div>
+    `).join("")}</div>`;
+  }
+  if (figure.variante === "carga") {
+    return `<div class="log-load"><svg class="log-pallet" viewBox="0 0 220 145" role="img" aria-label="Cajas apiladas y aseguradas sobre un pallet">
+      <rect x="40" y="25" width="65" height="45" rx="3"/><rect x="108" y="25" width="65" height="45" rx="3"/>
+      <rect x="40" y="73" width="65" height="42" rx="3"/><rect x="108" y="73" width="65" height="42" rx="3"/>
+      <path class="log-strap" d="M80 25v90M133 25v90"/><path class="log-base" d="M25 117h165v10H25zM35 128h30v8H35zM91 128h30v8H91zM150 128h30v8h-30z"/>
+    </svg><ul>${figure.puntos.map((point) => `<li>${t(point)}</li>`).join("")}</ul></div>`;
+  }
+  return `${flow(figure.pasos)}${figure.retorno ? `<div class="log-return"><span aria-hidden="true">←</span> ${t(figure.retorno)}</div>` : ""}`;
+}
 
 // Dos ejes y cuatro cuadrantes: el tono marca la columna y la intensidad, la fila.
 function renderQuadrants(figure, t) {

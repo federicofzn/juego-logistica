@@ -17,7 +17,36 @@
       ],
       "ejemplos": [
         "Una fábrica coordina inventario y transporte; su cadena también incluye proveedores y comercios."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "La cadena de suministro",
+        "variante": "flujo",
+        "pasos": [
+          {
+            "texto": "Proveedores",
+            "icono": "inventory_2"
+          },
+          {
+            "texto": "Producción",
+            "icono": "factory"
+          },
+          {
+            "texto": "Depósito",
+            "icono": "warehouse"
+          },
+          {
+            "texto": "Distribución",
+            "icono": "local_shipping"
+          },
+          {
+            "texto": "Cliente",
+            "icono": "person"
+          }
+        ],
+        "retorno": "Retorno: del cliente hacia la empresa para devolución, reparación o recuperación.",
+        "nota": "Los flujos de información conectan a los participantes en ambos sentidos."
+      }
     },
     "clase1_flujos": {
       "categoria": "Operaciones",

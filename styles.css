@@ -1278,6 +1278,68 @@ button.match-item:not(:disabled):hover {
   text-transform: uppercase;
 }
 
+/* Esquemas de procesos logísticos: tarjetas legibles también en pantallas angostas. */
+.book-figure.fig-logistica { container-type: inline-size; }
+.log-steps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 6px;
+}
+.log-step {
+  display: flex;
+  flex: 1 1 76px;
+  min-width: 76px;
+  max-width: 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 6px;
+  border: 1px solid #bdd8e6;
+  border-radius: 12px;
+  background: #edf6fa;
+  color: #173b55;
+  text-align: center;
+  font-size: 0.77rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.log-icon { color: #1b5379; font-size: 27px; }
+.log-arrow { align-self: center; color: #bd5e18; font-size: 1.2rem; font-weight: 900; }
+.log-return {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border-radius: 9px;
+  background: #fff2e4;
+  color: #85410e;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+.log-compare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.log-option { padding: 10px; border: 1px solid #d4e2e9; border-radius: 12px; background: #fff; }
+.log-option > strong { display: block; margin-bottom: 8px; color: #173b55; font-size: 0.8rem; }
+.log-option p { margin: 8px 0 0; color: #334155; font-size: 0.75rem; line-height: 1.35; }
+.log-load { display: flex; align-items: center; gap: 14px; }
+.log-pallet { width: min(45%, 180px); flex: none; }
+.log-pallet rect { fill: #e8a153; stroke: #9a4b13; stroke-width: 2; }
+.log-pallet .log-strap { fill: none; stroke: #174b6d; stroke-width: 5; }
+.log-pallet .log-base { fill: #78471f; }
+.log-load ul { margin: 0; padding-left: 19px; color: #334155; font-size: 0.78rem; font-weight: 700; }
+.log-load li + li { margin-top: 6px; }
+@media (max-width: 540px) {
+  .log-compare { grid-template-columns: 1fr; }
+  .log-step { min-width: 68px; }
+}
+@container (max-width: 380px) {
+  .log-steps { flex-direction: column; align-items: stretch; }
+  .log-step { flex-basis: auto; max-width: none; }
+  .log-arrow { transform: rotate(90deg); }
+  .log-compare { grid-template-columns: 1fr; }
+}
+
 .fig-note {
   margin-top: 8px;
   color: #475569;

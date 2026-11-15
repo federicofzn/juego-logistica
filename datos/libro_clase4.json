@@ -17,7 +17,18 @@
       ],
       "ejemplos": [
         "Varias cajas se agrupan sobre un pallet y se aseguran para trasladarlas juntas."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Cómo se forma una unidad de carga",
+        "variante": "carga",
+        "puntos": [
+          "Productos agrupados sobre una base compatible con el equipo.",
+          "Embalaje adecuado para proteger la mercadería.",
+          "Sujeción y distribución del peso para mantener la estabilidad."
+        ],
+        "nota": "La forma de agrupar y sujetar depende de la mercancía y del movimiento previsto."
+      }
     },
     "clase4_diseno": {
       "categoria": "Clase 4",

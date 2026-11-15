@@ -44,7 +44,36 @@
       ],
       "ejemplos": [
         "Una fábrica coordina inventario y transporte; su cadena también incluye proveedores y comercios."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "La cadena de suministro",
+        "variante": "flujo",
+        "pasos": [
+          {
+            "texto": "Proveedores",
+            "icono": "inventory_2"
+          },
+          {
+            "texto": "Producción",
+            "icono": "factory"
+          },
+          {
+            "texto": "Depósito",
+            "icono": "warehouse"
+          },
+          {
+            "texto": "Distribución",
+            "icono": "local_shipping"
+          },
+          {
+            "texto": "Cliente",
+            "icono": "person"
+          }
+        ],
+        "retorno": "Retorno: del cliente hacia la empresa para devolución, reparación o recuperación.",
+        "nota": "Los flujos de información conectan a los participantes en ambos sentidos."
+      }
     },
     "clase1_flujos": {
       "unidad": "clase1",
@@ -220,7 +249,39 @@
       ],
       "ejemplos": [
         "Una caja pasa de recepción a reserva; luego se repone el sector de picking y se reúne con otros artículos de un pedido."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Del ingreso a la salida del almacén",
+        "variante": "flujo",
+        "pasos": [
+          {
+            "texto": "Recepción",
+            "icono": "input"
+          },
+          {
+            "texto": "Control",
+            "icono": "fact_check"
+          },
+          {
+            "texto": "Almacenamiento",
+            "icono": "warehouse"
+          },
+          {
+            "texto": "Picking",
+            "icono": "shopping_cart"
+          },
+          {
+            "texto": "Embalaje",
+            "icono": "inventory_2"
+          },
+          {
+            "texto": "Expedición",
+            "icono": "local_shipping"
+          }
+        ],
+        "nota": "La reposición abastece las ubicaciones de picking desde la reserva."
+      }
     },
     "clase3_diseno": {
       "unidad": "clase3",
@@ -283,7 +344,18 @@
       ],
       "ejemplos": [
         "Varias cajas se agrupan sobre un pallet y se aseguran para trasladarlas juntas."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Cómo se forma una unidad de carga",
+        "variante": "carga",
+        "puntos": [
+          "Productos agrupados sobre una base compatible con el equipo.",
+          "Embalaje adecuado para proteger la mercadería.",
+          "Sujeción y distribución del peso para mantener la estabilidad."
+        ],
+        "nota": "La forma de agrupar y sujetar depende de la mercancía y del movimiento previsto."
+      }
     },
     "clase4_diseno": {
       "unidad": "clase4",
@@ -460,7 +532,43 @@
       ],
       "ejemplos": [
         "Un operario recorre ubicaciones; en otro diseño, un transportador lleva cajas a su puesto."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Dos formas de preparar un pedido",
+        "variante": "comparacion",
+        "opciones": [
+          {
+            "titulo": "Persona a producto",
+            "pasos": [
+              {
+                "texto": "Operario",
+                "icono": "person"
+              },
+              {
+                "texto": "Estantería",
+                "icono": "shelves"
+              }
+            ],
+            "descripcion": "La persona se desplaza hasta la ubicación y recoge los artículos."
+          },
+          {
+            "titulo": "Producto a persona",
+            "pasos": [
+              {
+                "texto": "Almacén",
+                "icono": "warehouse"
+              },
+              {
+                "texto": "Puesto",
+                "icono": "person"
+              }
+            ],
+            "descripcion": "El sistema acerca la mercancía al puesto donde trabaja el operario."
+          }
+        ],
+        "nota": "La elección depende de pedidos, referencias, espacio e inversión."
+      }
     },
     "clase6_organizacion": {
       "unidad": "clase6",
@@ -598,7 +706,35 @@
       "ejemplos": [
         "Un camión lleva un contenedor a una terminal ferroviaria y otro lo recoge cerca del destino."
       ],
-      "ojo": "El video presenta una distinción documental específica entre transporte combinado y multimodal; las definiciones dependen del marco aplicable."
+      "ojo": "El video presenta una distinción documental específica entre transporte combinado y multimodal; las definiciones dependen del marco aplicable.",
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Un recorrido con dos modos",
+        "variante": "flujo",
+        "pasos": [
+          {
+            "texto": "Origen",
+            "icono": "factory"
+          },
+          {
+            "texto": "Camión",
+            "icono": "local_shipping"
+          },
+          {
+            "texto": "Terminal",
+            "icono": "swap_horiz"
+          },
+          {
+            "texto": "Tren",
+            "icono": "train"
+          },
+          {
+            "texto": "Camión y destino",
+            "icono": "local_shipping"
+          }
+        ],
+        "nota": "Los tramos de conexión, las transferencias y sus tiempos forman parte de la operación."
+      }
     },
     "c7_costos": {
       "unidad": "clase7",

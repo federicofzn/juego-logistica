@@ -17,7 +17,43 @@
       ],
       "ejemplos": [
         "Un operario recorre ubicaciones; en otro diseño, un transportador lleva cajas a su puesto."
-      ]
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Dos formas de preparar un pedido",
+        "variante": "comparacion",
+        "opciones": [
+          {
+            "titulo": "Persona a producto",
+            "pasos": [
+              {
+                "texto": "Operario",
+                "icono": "person"
+              },
+              {
+                "texto": "Estantería",
+                "icono": "shelves"
+              }
+            ],
+            "descripcion": "La persona se desplaza hasta la ubicación y recoge los artículos."
+          },
+          {
+            "titulo": "Producto a persona",
+            "pasos": [
+              {
+                "texto": "Almacén",
+                "icono": "warehouse"
+              },
+              {
+                "texto": "Puesto",
+                "icono": "person"
+              }
+            ],
+            "descripcion": "El sistema acerca la mercancía al puesto donde trabaja el operario."
+          }
+        ],
+        "nota": "La elección depende de pedidos, referencias, espacio e inversión."
+      }
     },
     "clase6_organizacion": {
       "categoria": "Contenidos de la clase",

@@ -54,7 +54,35 @@
       "ejemplos": [
         "Un camión lleva un contenedor a una terminal ferroviaria y otro lo recoge cerca del destino."
       ],
-      "ojo": "El video presenta una distinción documental específica entre transporte combinado y multimodal; las definiciones dependen del marco aplicable."
+      "ojo": "El video presenta una distinción documental específica entre transporte combinado y multimodal; las definiciones dependen del marco aplicable.",
+      "figura": {
+        "tipo": "logistica",
+        "titulo": "Un recorrido con dos modos",
+        "variante": "flujo",
+        "pasos": [
+          {
+            "texto": "Origen",
+            "icono": "factory"
+          },
+          {
+            "texto": "Camión",
+            "icono": "local_shipping"
+          },
+          {
+            "texto": "Terminal",
+            "icono": "swap_horiz"
+          },
+          {
+            "texto": "Tren",
+            "icono": "train"
+          },
+          {
+            "texto": "Camión y destino",
+            "icono": "local_shipping"
+          }
+        ],
+        "nota": "Los tramos de conexión, las transferencias y sus tiempos forman parte de la operación."
+      }
     },
     "c7_costos": {
       "categoria": "Costos y tarifas del transporte",
