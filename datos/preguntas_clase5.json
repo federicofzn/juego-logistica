@@ -322,5 +322,437 @@
     "pista": "Seguí el recorrido completo desde la entrada hasta la entrega.",
     "explicacion": "El caso presenta etapas conectadas y coordinadas, no una tarea aislada.",
     "libro": "clase5_flujo"
+  },
+  {
+    "id": "caso-clase5-19",
+    "tipo": "caso",
+    "titulo": "Piezas de la estructura",
+    "situacion": "Un operario identifica las vigas horizontales sobre las que se apoyan los pallets.",
+    "pregunta": "¿Qué componentes está observando?",
+    "correcta": "Largueros",
+    "incorrectas": [
+      "Bastidores laterales",
+      "Protectores de puntal",
+      "Mallas anticaída",
+      "Placas de características",
+      "Carriles de bases móviles"
+    ],
+    "pista": "Buscá el elemento horizontal de soporte.",
+    "explicacion": "Los largueros son vigas horizontales; los bastidores son estructuras laterales verticales.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "caso-clase5-20",
+    "tipo": "caso",
+    "titulo": "Estructura lateral",
+    "situacion": "Se revisa la estructura vertical ubicada a un lado de una estantería.",
+    "pregunta": "¿Cómo se denomina ese conjunto?",
+    "correcta": "Bastidor",
+    "incorrectas": [
+      "Larguero",
+      "Pallet",
+      "Rodillo de picking",
+      "Bandeja de miniload",
+      "Placa de características"
+    ],
+    "pista": "Pensá en el soporte lateral vertical.",
+    "explicacion": "El bastidor constituye la estructura lateral vertical de la estantería.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "caso-clase5-21",
+    "tipo": "caso",
+    "titulo": "Golpes en maniobras",
+    "situacion": "Una carretilla circula cerca de una estructura expuesta a impactos.",
+    "pregunta": "¿Qué elementos ayudan a protegerla?",
+    "correcta": "Protecciones de puntal y protectores laterales",
+    "incorrectas": [
+      "Solo etiquetas de inventario",
+      "Solo rodillos de picking",
+      "Solamente una orden de despacho",
+      "Un carrusel horizontal",
+      "Una bandeja de preparación"
+    ],
+    "pista": "El manual muestra dos tipos de protección contra impactos.",
+    "explicacion": "Las protecciones de puntal y los protectores laterales ayudan frente a impactos, pero no reemplazan la inspección ni la circulación cuidadosa.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "caso-clase5-22",
+    "tipo": "caso",
+    "titulo": "Después de un impacto",
+    "situacion": "Una carretilla golpea una protección situada junto a una estantería.",
+    "pregunta": "¿Qué interpretación corresponde?",
+    "correcta": "Inspeccionar y atender posibles daños según los procedimientos",
+    "incorrectas": [
+      "Dar por seguro que la estructura no sufrió daños",
+      "Retirar la placa de características",
+      "Eliminar las inspecciones futuras",
+      "Aumentar la carga sin verificar límites",
+      "Suponer que el protector evita cualquier impacto"
+    ],
+    "pista": "La protección reduce exposición, no garantiza ausencia de daños.",
+    "explicacion": "Las protecciones no eliminan la necesidad de inspeccionar y atender daños.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "caso-clase5-23",
+    "tipo": "caso",
+    "titulo": "Datos de la instalación",
+    "situacion": "Antes de ubicar una carga se buscan los límites establecidos para la estantería.",
+    "pregunta": "¿Qué elemento permite consultarlos?",
+    "correcta": "La placa de características",
+    "incorrectas": [
+      "El protector lateral",
+      "La etiqueta comercial del producto",
+      "La orden de compra",
+      "La bandeja del carrusel",
+      "El indicador de picking"
+    ],
+    "pista": "Buscá la identificación de la propia instalación.",
+    "explicacion": "La placa informa datos y límites de la instalación, que deben respetarse junto con las indicaciones aplicables.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "caso-clase5-24",
+    "tipo": "caso",
+    "titulo": "Almacenaje temporal",
+    "situacion": "Se reciben muchas unidades homogéneas, estables y aptas para apilar, para una espera breve antes de expedición.",
+    "pregunta": "¿Qué alternativa merece evaluarse?",
+    "correcta": "Almacenaje en bloques",
+    "incorrectas": [
+      "Cantiléver para perfiles",
+      "Carrusel para cajas pequeñas",
+      "Miniload obligatorio",
+      "Una posición individual por unidad como única opción",
+      "Bandejas verticales obligatorias"
+    ],
+    "pista": "Pensá en pocas referencias y almacenamiento temporal.",
+    "explicacion": "Los bloques pueden servir como pulmón temporal si la carga, el embalaje, el piso y la estabilidad lo permiten.",
+    "libro": "clase5_bloques"
+  },
+  {
+    "id": "caso-clase5-25",
+    "tipo": "caso",
+    "titulo": "Apilado delicado",
+    "situacion": "La mercancía se deforma si otra unidad apoya encima y debe almacenarse en altura.",
+    "pregunta": "¿Qué solución conviene estudiar?",
+    "correcta": "Estanterías dimensionadas que soporten cada carga",
+    "incorrectas": [
+      "Apilar directamente sin límites",
+      "Aumentar la altura del bloque sin evaluar resistencia",
+      "Apoyar siempre las cargas más pesadas sobre las frágiles",
+      "Eliminar soportes para ahorrar espacio",
+      "Formar bloques inestables"
+    ],
+    "pista": "La estructura debe evitar transmitir otras cargas a la mercancía.",
+    "explicacion": "Las estanterías permiten organizar niveles sin exigir que una unidad soporte otras encima.",
+    "libro": "clase5_bloques"
+  },
+  {
+    "id": "caso-clase5-26",
+    "tipo": "caso",
+    "titulo": "Muchas referencias",
+    "situacion": "Se necesita retirar cada pallet individualmente y hay espacio para pasillos.",
+    "pregunta": "¿Qué configuración ofrece acceso directo?",
+    "correcta": "Estantería convencional de simple profundidad",
+    "incorrectas": [
+      "Drive-in con varias cargas por calle",
+      "Doble profundidad con un pallet delante de otro",
+      "Push-back con cargas detrás del frente",
+      "Bloque con unidades interiores",
+      "Calle compacta sin acceso individual permanente"
+    ],
+    "pista": "Cada posición debe estar accesible desde el pasillo.",
+    "explicacion": "En simple profundidad cada pallet tiene acceso directo, a costa de espacio destinado a pasillos.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "caso-clase5-27",
+    "tipo": "caso",
+    "titulo": "Pallet del fondo",
+    "situacion": "Una estantería tiene dos pallets uno detrás del otro.",
+    "pregunta": "¿Qué implica retirar el del fondo?",
+    "correcta": "Necesitar equipo adecuado y posiblemente reubicar el delantero",
+    "incorrectas": [
+      "Acceso idéntico al de simple profundidad en todos los casos",
+      "Retiro por gravedad garantizado",
+      "Entrada automática en FIFO",
+      "Ninguna condición sobre el equipo",
+      "Eliminar la necesidad de maniobrar"
+    ],
+    "pista": "El pallet delantero puede interponerse.",
+    "explicacion": "En doble profundidad el pallet frontal limita el acceso al fondo.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "caso-clase5-28",
+    "tipo": "caso",
+    "titulo": "Frigorífico con espacio costoso",
+    "situacion": "Una cámara necesita más posiciones y admite esperar a que se abra un pasillo.",
+    "pregunta": "¿Qué alternativa conviene comparar?",
+    "correcta": "Estanterías sobre bases móviles",
+    "incorrectas": [
+      "Solo bloques sin evaluar la carga",
+      "Únicamente pasillos permanentemente abiertos",
+      "Eliminar el acceso a todas las referencias",
+      "Sustituir las estanterías por una cinta de transporte",
+      "Elegir por el color de los carriles"
+    ],
+    "pista": "La solución reduce pasillos permanentes.",
+    "explicacion": "Las bases móviles aumentan capacidad reduciendo pasillos, con espera y restricciones de trabajo simultáneo.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "caso-clase5-29",
+    "tipo": "caso",
+    "titulo": "Muchos operarios",
+    "situacion": "Un depósito necesita trabajar simultáneamente en varios pasillos con movimientos frecuentes.",
+    "pregunta": "¿Qué opción responde mejor a esa prioridad?",
+    "correcta": "Bases estáticas con varios pasillos disponibles",
+    "incorrectas": [
+      "Una única calle móvil abierta como garantía de simultaneidad",
+      "Un bloque sin accesos",
+      "Una bobina sobre eje",
+      "Un carrusel sin evaluar capacidad",
+      "Un protector lateral en cada posición"
+    ],
+    "pista": "Compará la disponibilidad simultánea de pasillos.",
+    "explicacion": "Las bases estáticas permiten trabajar en varios pasillos a la vez, aunque ocupan más espacio de circulación.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "caso-clase5-30",
+    "tipo": "caso",
+    "titulo": "Un extremo de operación",
+    "situacion": "En una calle drive-in se cargan primero A y después B por el mismo extremo.",
+    "pregunta": "¿Qué pallet se retira primero en la secuencia habitual?",
+    "correcta": "B, el último que ingresó",
+    "incorrectas": [
+      "A, el primero que ingresó",
+      "Siempre ambos a la vez",
+      "El que indique la placa sin mirar la posición",
+      "El de mayor antigüedad sin mover otros",
+      "Ninguno, porque drive-in exige dos extremos"
+    ],
+    "pista": "Aplicá LIFO.",
+    "explicacion": "Drive-in utiliza un mismo extremo y normalmente sigue LIFO.",
+    "libro": "clase5_compactos"
+  },
+  {
+    "id": "caso-clase5-31",
+    "tipo": "caso",
+    "titulo": "Entrada y salida opuestas",
+    "situacion": "Una operación busca que el primer pallet cargado sea el primero en salir por el otro extremo.",
+    "pregunta": "¿Qué configuración permite esa secuencia?",
+    "correcta": "Drive-through operado respetando FIFO",
+    "incorrectas": [
+      "Drive-in por un solo extremo en LIFO",
+      "Push-back por el mismo frente",
+      "Bloque sin salida accesible",
+      "Doble profundidad sin evaluar acceso",
+      "Una protección de puntal"
+    ],
+    "pista": "La entrada y la salida están en extremos opuestos.",
+    "explicacion": "Drive-through permite FIFO si la secuencia de carga y retiro se respeta.",
+    "libro": "clase5_compactos"
+  },
+  {
+    "id": "caso-clase5-32",
+    "tipo": "caso",
+    "titulo": "Empuje desde el frente",
+    "situacion": "Cada pallet nuevo empuja a los anteriores y, al retirar el frontal, los demás avanzan.",
+    "pregunta": "¿Qué sistema funciona así?",
+    "correcta": "Push-back",
+    "incorrectas": [
+      "Cantiléver",
+      "Simple profundidad",
+      "Miniload",
+      "Entrepisos",
+      "Estantería fija para bobinas"
+    ],
+    "pista": "La carretilla opera desde el frente y la secuencia habitual es LIFO.",
+    "explicacion": "Push-back utiliza carros o rodillos y gravedad, sin que la carretilla ingrese en la calle.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "caso-clase5-33",
+    "tipo": "caso",
+    "titulo": "Perecederos por rodillos",
+    "situacion": "Una empresa quiere separar carga y descarga y facilitar FIFO para perecederos.",
+    "pregunta": "¿Qué sistema corresponde estudiar?",
+    "correcta": "Estantería dinámica de rodillos con extremos de entrada y salida",
+    "incorrectas": [
+      "Push-back habitual por el mismo frente",
+      "Drive-in por un solo extremo",
+      "Bloque sin acceso al fondo",
+      "Cantiléver para tubos",
+      "Protector lateral"
+    ],
+    "pista": "El pallet avanza por gravedad hacia el extremo opuesto.",
+    "explicacion": "El dinámico de rodillos facilita FIFO, siempre con pallets compatibles y una instalación adecuada.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "caso-clase5-34",
+    "tipo": "caso",
+    "titulo": "Lanzadera en el canal",
+    "situacion": "La carretilla deja un pallet en la cabecera y otro dispositivo lo traslada dentro de la calle.",
+    "pregunta": "¿Qué solución se describe?",
+    "correcta": "Radio-shuttle",
+    "incorrectas": [
+      "Estantería simple de acceso directo",
+      "Cantiléver",
+      "Bloque apilado en piso",
+      "Protector de puntal",
+      "Transpaleta manual como único dispositivo"
+    ],
+    "pista": "El transporte interior lo realiza una lanzadera.",
+    "explicacion": "En radio-shuttle la lanzadera mueve pallets dentro del canal y la carretilla opera en la cabecera.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "caso-clase5-35",
+    "tipo": "caso",
+    "titulo": "Recorridos de picking",
+    "situacion": "El operario camina hasta cada estante para recoger cajas.",
+    "pregunta": "¿Qué estrategia usa?",
+    "correcta": "Persona a producto",
+    "incorrectas": [
+      "Producto a persona",
+      "Radio-shuttle para pallets necesariamente",
+      "Clasificación por recorrido definido",
+      "Almacenaje en bloques necesariamente",
+      "Entrega directa al cliente"
+    ],
+    "pista": "Identificá quién se desplaza hasta la ubicación.",
+    "explicacion": "En persona a producto el operario se desplaza; en producto a persona un equipo acerca los artículos.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "caso-clase5-36",
+    "tipo": "caso",
+    "titulo": "Cajas al puesto",
+    "situacion": "Un transelevador lleva cajas almacenadas al puesto de preparación.",
+    "pregunta": "¿Qué solución se describe?",
+    "correcta": "Miniload de producto a persona",
+    "incorrectas": [
+      "Drive-in con carretilla dentro de la calle",
+      "Cantiléver para cargas largas",
+      "Bloque de pallets apilados",
+      "Estantería simple sin equipo de recuperación",
+      "Protección de puntal"
+    ],
+    "pista": "El sistema usa un transelevador para cajas.",
+    "explicacion": "El miniload es una solución de producto a persona que requiere inversión y mantenimiento.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "caso-clase5-37",
+    "tipo": "caso",
+    "titulo": "Reposición y extracción",
+    "situacion": "Las cajas avanzan por gravedad hacia el operario y se reponen por el lado opuesto.",
+    "pregunta": "¿Qué solución se describe?",
+    "correcta": "Estantería dinámica de picking",
+    "incorrectas": [
+      "Estantería cantiléver",
+      "Base estática sin rodillos",
+      "Cuna para bobinas",
+      "Drive-in de pallets con un extremo",
+      "Entrepisos sin sistema de flujo"
+    ],
+    "pista": "El producto pequeño se acerca al frente mediante rodillos.",
+    "explicacion": "El picking dinámico separa reposición y extracción y puede facilitar la rotación.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "caso-clase5-38",
+    "tipo": "caso",
+    "titulo": "Pedido de dos zonas",
+    "situacion": "Un pedido combina artículos de estantería dinámica y de miniload.",
+    "pregunta": "¿Qué etapa reúne sus partes?",
+    "correcta": "La consolidación del pedido",
+    "incorrectas": [
+      "La protección de puntal",
+      "El anclaje del bastidor",
+      "La apertura de un pasillo móvil",
+      "El apilado de bobinas",
+      "La selección de un larguero"
+    ],
+    "pista": "Las partes preparadas en zonas distintas deben reunirse.",
+    "explicacion": "Un sistema mixto coordina las zonas y consolida los pedidos parciales.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "caso-clase5-39",
+    "tipo": "caso",
+    "titulo": "Perfiles largos",
+    "situacion": "Un depósito debe almacenar perfiles de longitud variable en soportes accesibles.",
+    "pregunta": "¿Qué sistema está especialmente adaptado?",
+    "correcta": "Estantería cantiléver",
+    "incorrectas": [
+      "Miniload para cajas pequeñas",
+      "Cuna para impedir el rodamiento de bobinas",
+      "Carrusel de bandejas",
+      "Drive-in de pallets como única solución",
+      "Protección lateral de estantería"
+    ],
+    "pista": "Tiene columnas y brazos en voladizo.",
+    "explicacion": "El cantiléver sostiene cargas largas mediante brazos; el equipo depende del peso y la altura.",
+    "libro": "clase5_especiales"
+  },
+  {
+    "id": "caso-clase5-40",
+    "tipo": "caso",
+    "titulo": "Bobina que puede rodar",
+    "situacion": "Una bobina debe quedar estable y permitir, cuando el soporte lo admita, desenrollar material.",
+    "pregunta": "¿Qué alternativa es adecuada?",
+    "correcta": "Un soporte o cuna antirrodamiento, o un eje adecuado",
+    "incorrectas": [
+      "Apoyarla libremente en una pendiente",
+      "Colocarla sin revisar su peso",
+      "Sostenerla solo con una etiqueta",
+      "Usar un pasillo como soporte",
+      "Prescindir de la estabilidad"
+    ],
+    "pista": "Considerá la forma cilíndrica y su peso.",
+    "explicacion": "Soportes, cunas o ejes adecuados sostienen la bobina; algunos ejes permiten desenrollarla.",
+    "libro": "clase5_especiales"
+  },
+  {
+    "id": "caso-clase5-41",
+    "tipo": "caso",
+    "titulo": "Equipo de recorrido definido",
+    "situacion": "Se necesita conectar dos puntos con un flujo repetitivo de materiales.",
+    "pregunta": "¿Qué equipo pertenece a la categoría de recorrido definido?",
+    "correcta": "Transportador de banda",
+    "incorrectas": [
+      "Transpaleta de circulación variable",
+      "Apilador de recorrido variable",
+      "Autoelevador de recorrido variable",
+      "Protector de puntal",
+      "Bastidor vertical"
+    ],
+    "pista": "Su trayectoria entre puntos está definida.",
+    "explicacion": "Los transportadores de banda, rodillos o cadenas son ejemplos de recorrido definido.",
+    "libro": "clase5_clasificacion"
+  },
+  {
+    "id": "caso-clase5-42",
+    "tipo": "caso",
+    "titulo": "Elevar o trasladar",
+    "situacion": "Una carga debe desplazarse a baja altura sin ubicarla en niveles elevados.",
+    "pregunta": "¿Qué equipo responde directamente a esa tarea?",
+    "correcta": "Transpaleta compatible con la carga",
+    "incorrectas": [
+      "Cuna de bobina",
+      "Larguero fijo",
+      "Malla anticaída",
+      "Placa de características",
+      "Protector lateral"
+    ],
+    "pista": "El equipo desplaza cargas a baja altura.",
+    "explicacion": "La transpaleta desplaza cargas a baja altura; apiladores y autoelevadores también permiten elevarlas.",
+    "libro": "clase5_clasificacion"
   }
 ]

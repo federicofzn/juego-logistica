@@ -466,5 +466,149 @@
     "pista": "Cruzar una frontera agrega participantes y requisitos.",
     "explicacion": "Los requisitos dependen de la mercancía, el modo, la operación y las jurisdicciones.",
     "libro": "c7_gestion"
+  },
+  {
+    "id": "caso-c7-nuevo-tarifa-zona",
+    "tipo": "caso",
+    "titulo": "Tarifa por zona",
+    "situacion": "Un operador cobra el mismo precio a todos los destinos de una zona.",
+    "pregunta": "¿Qué perfil representa?",
+    "correcta": "Tarifa uniforme por zona",
+    "incorrectas": [
+      "Tarifa proporcional a cada kilómetro",
+      "Tarifa que crece gradualmente en cada destino",
+      "Costo fijo del depósito",
+      "Reclamo por daño",
+      "Tiempo variable de tránsito"
+    ],
+    "pista": "Observá si cambia el precio entre destinos de la misma zona.",
+    "explicacion": "La tarifa uniforme mantiene el precio dentro de la zona definida.",
+    "libro": "c7_tarifas"
+  },
+  {
+    "id": "caso-c7-nuevo-tarifa-gradual",
+    "tipo": "caso",
+    "titulo": "Distancias mayores",
+    "situacion": "Un precio aumenta cuando crece el recorrido, pero al duplicar kilómetros no llega a duplicarse.",
+    "pregunta": "¿Qué perfil es compatible con el ejemplo?",
+    "correcta": "Tarifa gradual",
+    "incorrectas": [
+      "Tarifa uniforme para toda distancia",
+      "Tarifa exactamente proporcional a los kilómetros",
+      "Costo común de administración",
+      "Certificado de origen",
+      "Flete sin distancia"
+    ],
+    "pista": "Compará el ritmo del aumento del precio con el de la distancia.",
+    "explicacion": "En una tarifa gradual el precio puede aumentar menos que proporcionalmente con la distancia.",
+    "libro": "c7_tarifas"
+  },
+  {
+    "id": "caso-c7-nuevo-tarifa-demanda",
+    "tipo": "caso",
+    "titulo": "Dos clientes",
+    "situacion": "Dos clientes reciben cotizaciones distintas para servicios comparables; uno tiene menos alternativas disponibles y valora más la rapidez.",
+    "pregunta": "¿Qué puede ayudar a entender la diferencia?",
+    "correcta": "La demanda y la competencia pueden influir en el precio",
+    "incorrectas": [
+      "El tiempo deja de afectar al cliente",
+      "La tarifa siempre debe coincidir con el costo interno",
+      "Ambos envíos necesariamente usan diferentes modos",
+      "El precio depende únicamente de la distancia",
+      "El operador no puede considerar la competencia"
+    ],
+    "pista": "La tarifa puede depender del valor que recibe el cliente y de sus alternativas.",
+    "explicacion": "Además de los costos, las condiciones de demanda y competencia pueden influir en una tarifa.",
+    "libro": "c7_tarifas"
+  },
+  {
+    "id": "caso-c7-nuevo-terminal-espera",
+    "tipo": "caso",
+    "titulo": "Conexión demorada",
+    "situacion": "Un tren tiene una tarifa baja, pero el contenedor debe esperar varios días en la terminal y necesita un camión adicional.",
+    "pregunta": "¿Cómo evaluarías la alternativa?",
+    "correcta": "Sumar transferencia, espera y conexión al costo y plazo totales",
+    "incorrectas": [
+      "Comparar únicamente la tarifa del tren",
+      "Excluir la espera porque no hay kilómetros recorridos",
+      "Suponer que el camión adicional es gratuito",
+      "Medir solo el peso del contenedor",
+      "Comparar solo el precio de la mercadería"
+    ],
+    "pista": "El trayecto principal es solo una parte de la operación.",
+    "explicacion": "La comparación intermodal debe incluir todos los tramos y sus tiempos.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "caso-c7-nuevo-costo-fijo",
+    "tipo": "caso",
+    "titulo": "Depósito sin viajes",
+    "situacion": "Una empresa conserva una instalación de transporte durante un mes con menos envíos; su alquiler mensual pactado no cambia.",
+    "pregunta": "¿Cómo se clasifica ese alquiler en este ejemplo?",
+    "correcta": "Costo fijo en el corto plazo",
+    "incorrectas": [
+      "Costo variable por kilómetro",
+      "Tarifa proporcional",
+      "Reclamación de carga",
+      "Costo por litro de combustible",
+      "Tiempo de tránsito"
+    ],
+    "pista": "El importe no cambia directamente con cada envío.",
+    "explicacion": "En este ejemplo el alquiler no varía directamente con la cantidad de viajes a corto plazo.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "caso-c7-nuevo-factura",
+    "tipo": "caso",
+    "titulo": "Cobro de transporte",
+    "situacion": "Un cliente quiere revisar los cargos cobrados por un servicio de traslado.",
+    "pregunta": "¿Qué documento consultaría primero?",
+    "correcta": "La factura de transporte",
+    "incorrectas": [
+      "Un certificado de origen para identificar el precio del producto",
+      "Una etiqueta de ubicación de estantería",
+      "Una ficha de mantenimiento del vehículo",
+      "Un plano del depósito",
+      "Un registro de inventario de seguridad"
+    ],
+    "pista": "Buscá el documento que detalla el cobro del servicio.",
+    "explicacion": "La factura de transporte detalla los cargos del servicio prestado.",
+    "libro": "c7_documentacion"
+  },
+  {
+    "id": "caso-c7-nuevo-reclamo",
+    "tipo": "caso",
+    "titulo": "Recepción con daños",
+    "situacion": "Al recibir un envío se observa daño en los bultos y se necesita tramitar el reclamo.",
+    "pregunta": "¿Qué acción aporta respaldo?",
+    "correcta": "Registrar el daño y conservar la documentación de entrega",
+    "incorrectas": [
+      "Descartar toda constancia antes de reclamar",
+      "Aceptar que ningún reclamo requiere evidencia",
+      "Modificar el destino en los registros sin constancia",
+      "Clasificar el daño como una reducción automática del flete",
+      "Sustituir el reclamo por una nueva orden de compra"
+    ],
+    "pista": "Una incidencia debe poder documentarse.",
+    "explicacion": "Registrar la incidencia y conservar constancias ayuda a respaldar el reclamo según las condiciones aplicables.",
+    "libro": "c7_documentacion"
+  },
+  {
+    "id": "caso-c7-nuevo-flota",
+    "tipo": "caso",
+    "titulo": "Camiones subutilizados",
+    "situacion": "Una empresa con entregas estacionales analiza incorporar una flota propia para todo el año.",
+    "pregunta": "¿Qué aspecto debería revisar?",
+    "correcta": "La utilización prevista junto con los costos completos y el nivel de servicio",
+    "incorrectas": [
+      "Solo el color de los vehículos",
+      "Suponer ocupación completa durante todo el año",
+      "Omitir conductores y mantenimiento",
+      "Comparar únicamente el combustible de un viaje",
+      "Suponer que la compra elimina toda gestión"
+    ],
+    "pista": "El control de una flota propia convive con recursos que deben administrarse.",
+    "explicacion": "La utilización, el mantenimiento, los conductores y el servicio afectan la conveniencia de una flota propia.",
+    "libro": "c7_gestion"
   }
 ]

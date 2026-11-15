@@ -118,5 +118,213 @@
     "definicion": "Etapa de salida de pedidos preparados hacia su distribución.",
     "ejemplo": "Los pedidos embalados se envían al sector de salida.",
     "libro": "clase5_flujo"
+  },
+  {
+    "id": "def-clase5-16",
+    "grupo": "estructura",
+    "termino": "Bastidor",
+    "definicion": "Estructura lateral vertical de una estantería.",
+    "ejemplo": "Se revisa el conjunto vertical de un lateral.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "def-clase5-17",
+    "grupo": "estructura",
+    "termino": "Larguero",
+    "definicion": "Viga horizontal que sostiene cargas o sus soportes en una estantería.",
+    "ejemplo": "Dos vigas delimitan un nivel de apoyo.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "def-clase5-18",
+    "grupo": "estructura",
+    "termino": "Placa de características",
+    "definicion": "Identificación que permite consultar datos y límites establecidos para la instalación.",
+    "ejemplo": "Antes de cargar se consultan los límites indicados en la estantería.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "def-clase5-19",
+    "grupo": "estructura",
+    "termino": "Protección de puntal",
+    "definicion": "Elemento que ayuda a proteger un puntal frente a impactos de maniobra.",
+    "ejemplo": "Se instala una defensa en un sector expuesto a golpes.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "def-clase5-20",
+    "grupo": "estructura",
+    "termino": "Protector lateral",
+    "definicion": "Elemento que ayuda a proteger el lateral de la estructura frente a impactos.",
+    "ejemplo": "Una defensa resguarda una zona lateral expuesta.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "def-clase5-21",
+    "grupo": "sistemas_pallets",
+    "termino": "Almacenaje en bloques",
+    "definicion": "Disposición de unidades juntas, generalmente en el piso y, cuando es viable, apiladas.",
+    "ejemplo": "Se agrupan unidades homogéneas para una espera temporal.",
+    "libro": "clase5_bloques"
+  },
+  {
+    "id": "def-clase5-22",
+    "grupo": "sistemas_pallets",
+    "termino": "Simple profundidad",
+    "definicion": "Estantería que permite acceder directamente a cada pallet desde un pasillo.",
+    "ejemplo": "Cada posición tiene acceso sin retirar un pallet delantero.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "def-clase5-23",
+    "grupo": "sistemas_pallets",
+    "termino": "Doble profundidad",
+    "definicion": "Configuración que ubica un pallet detrás de otro y limita el acceso al del fondo.",
+    "ejemplo": "Se requiere equipo adecuado y puede reubicarse la unidad delantera.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "def-clase5-24",
+    "grupo": "sistemas_pallets",
+    "termino": "Base móvil",
+    "definicion": "Base que desplaza estanterías sobre carriles para abrir el pasillo requerido.",
+    "ejemplo": "Una cámara reduce los pasillos permanentes y espera la apertura del necesario.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "def-clase5-25",
+    "grupo": "rotacion_pallets",
+    "termino": "Drive-in",
+    "definicion": "Estantería compacta con entrada y salida por un mismo extremo, habitualmente LIFO.",
+    "ejemplo": "La carretilla entra en la calle y retira primero el último pallet ingresado.",
+    "libro": "clase5_compactos"
+  },
+  {
+    "id": "def-clase5-26",
+    "grupo": "rotacion_pallets",
+    "termino": "Drive-through",
+    "definicion": "Estantería compacta con carga y descarga por extremos opuestos, que permite FIFO.",
+    "ejemplo": "Los pallets se cargan por un extremo y salen por el otro respetando el orden.",
+    "libro": "clase5_compactos"
+  },
+  {
+    "id": "def-clase5-27",
+    "grupo": "rotacion_pallets",
+    "termino": "Push-back",
+    "definicion": "Sistema en que cada pallet empuja a los anteriores y estos avanzan al retirarse el frontal, habitualmente LIFO.",
+    "ejemplo": "Los carros o rodillos permiten operar desde el frente sin entrar en la calle.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "def-clase5-28",
+    "grupo": "rotacion_pallets",
+    "termino": "Dinámico de rodillos",
+    "definicion": "Sistema donde los pallets avanzan por gravedad desde la entrada hacia la salida opuesta, en flujo FIFO.",
+    "ejemplo": "Los perecederos recorren rodillos hacia el extremo de extracción.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "def-clase5-29",
+    "grupo": "rotacion_pallets",
+    "termino": "Radio-shuttle",
+    "definicion": "Sistema con una lanzadera que transporta pallets dentro del canal mientras la carretilla opera en cabecera.",
+    "ejemplo": "Una lanzadera desplaza las cargas por una calle profunda.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "def-clase5-30",
+    "grupo": "picking_cajas",
+    "termino": "Persona a producto",
+    "definicion": "Estrategia en la que el operario se desplaza hasta la ubicación para extraer artículos.",
+    "ejemplo": "Una persona recorre estantes con su lista de pedidos.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "def-clase5-31",
+    "grupo": "picking_cajas",
+    "termino": "Producto a persona",
+    "definicion": "Estrategia en la que un equipo lleva cajas o bandejas al puesto de trabajo.",
+    "ejemplo": "Un equipo acerca los artículos al preparador.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "def-clase5-32",
+    "grupo": "picking_cajas",
+    "termino": "Miniload",
+    "definicion": "Sistema que utiliza un transelevador para almacenar y recuperar cajas.",
+    "ejemplo": "Un equipo automático busca una caja y la lleva al puesto.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "def-clase5-33",
+    "grupo": "picking_cajas",
+    "termino": "Picking dinámico",
+    "definicion": "Solución en la que las cajas avanzan por gravedad hacia el frente de extracción.",
+    "ejemplo": "Se reponen cajas por el lado opuesto al del operario.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "def-clase5-34",
+    "grupo": "picking_cajas",
+    "termino": "Consolidación de pedidos",
+    "definicion": "Reunión de las partes de un pedido preparadas en diferentes zonas.",
+    "ejemplo": "Se juntan artículos recogidos en dos sistemas antes del despacho.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "def-clase5-35",
+    "grupo": "cargas_especiales",
+    "termino": "Cantiléver",
+    "definicion": "Estantería de columnas y brazos en voladizo para cargas largas.",
+    "ejemplo": "Se apoyan perfiles de longitud variable sobre brazos.",
+    "libro": "clase5_especiales"
+  },
+  {
+    "id": "def-clase5-36",
+    "grupo": "cargas_especiales",
+    "termino": "Cuna para bobinas",
+    "definicion": "Soporte adaptado a una bobina o cilindro para impedir que ruede.",
+    "ejemplo": "Una bobina descansa inmovilizada sobre su soporte.",
+    "libro": "clase5_especiales"
+  },
+  {
+    "id": "def-clase5-37",
+    "grupo": "cargas_especiales",
+    "termino": "Entrepiso",
+    "definicion": "Superficie adicional dentro del edificio que aprovecha la altura para trabajo o almacenaje.",
+    "ejemplo": "Se agrega un nivel para preparar pedidos con accesos dimensionados.",
+    "libro": "clase5_especiales"
+  },
+  {
+    "id": "def-clase5-38",
+    "grupo": "recorrido_equipos",
+    "termino": "Equipo de recorrido variable",
+    "definicion": "Equipo cuyo trayecto puede variar dentro de los espacios de operación.",
+    "ejemplo": "Una transpaleta se desplaza entre diferentes sectores.",
+    "libro": "clase5_clasificacion"
+  },
+  {
+    "id": "def-clase5-39",
+    "grupo": "recorrido_equipos",
+    "termino": "Equipo de recorrido definido",
+    "definicion": "Equipo que transporta materiales por una trayectoria establecida.",
+    "ejemplo": "Una banda conecta puntos de un flujo repetitivo.",
+    "libro": "clase5_clasificacion"
+  },
+  {
+    "id": "def-clase5-40",
+    "grupo": "recorrido_equipos",
+    "termino": "Transpaleta",
+    "definicion": "Equipo que desplaza cargas a baja altura.",
+    "ejemplo": "Un pallet se traslada desde recepción hasta otra zona.",
+    "libro": "clase5_clasificacion"
+  },
+  {
+    "id": "def-clase5-41",
+    "grupo": "recorrido_equipos",
+    "termino": "Transelevador",
+    "definicion": "Equipo que almacena y recupera cargas mediante movimientos de traslado y elevación.",
+    "ejemplo": "Un miniload lo utiliza para recuperar cajas.",
+    "libro": "clase5_clasificacion"
   }
 ]

@@ -322,5 +322,329 @@
     "pista": "Las dos fuentes alimentan un mismo pedido.",
     "explicacion": "La consolidación y verificación relacionan los artículos con la orden antes de salir.",
     "libro": "clase4_cofan"
+  },
+  {
+    "id": "caso-clase4-19",
+    "tipo": "caso",
+    "titulo": "Tamaño de la unidad",
+    "situacion": "Un almacén recibe cargas grandes pero prepara pedidos de pocas unidades.",
+    "pregunta": "¿Qué dificultad puede aparecer?",
+    "correcta": "Que sea necesario fraccionar las cargas para preparar pedidos",
+    "incorrectas": [
+      "Que las unidades agrupadas dejen de necesitar soporte",
+      "Que cada pedido contenga obligatoriamente una carga completa",
+      "Que el embalaje pierda automáticamente su resistencia",
+      "Que la rotación determine por sí sola el tamaño de las cajas",
+      "Que la agrupación impida toda manipulación posterior"
+    ],
+    "pista": "Compará la cantidad agrupada con la cantidad pedida.",
+    "explicacion": "Una carga grande reduce movimientos, pero puede requerir fraccionamiento.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "caso-clase4-20",
+    "tipo": "caso",
+    "titulo": "Selección de material",
+    "situacion": "Se busca una paleta que facilite la limpieza en una operación.",
+    "pregunta": "¿Qué alternativa mencionada en el material conviene evaluar?",
+    "correcta": "Una paleta plástica, verificando también rigidez, resistencia y deslizamiento",
+    "incorrectas": [
+      "Una paleta de cualquier material sin revisar su estado",
+      "Una caja de cartón considerada automáticamente una paleta",
+      "Una paleta metálica sin verificar su compatibilidad",
+      "Una paleta de madera por ser siempre la única lavable",
+      "Una carga sin soporte porque no requiere manipulación"
+    ],
+    "pista": "El material facilita la limpieza, pero no elimina otras verificaciones.",
+    "explicacion": "El plástico facilita la limpieza; sus propiedades y compatibilidad deben evaluarse.",
+    "libro": "clase4_pallets"
+  },
+  {
+    "id": "caso-clase4-21",
+    "tipo": "caso",
+    "titulo": "Entradas para horquillas",
+    "situacion": "Se comparan dos diseños de paleta.",
+    "pregunta": "¿Qué característica distingue una clasificación por accesos del equipo?",
+    "correcta": "La cantidad de entradas para las horquillas: dos o cuatro",
+    "incorrectas": [
+      "El número de pedidos preparados por hora",
+      "La cantidad de categorías de la curva ABC",
+      "La frecuencia de renovación del inventario",
+      "La cantidad de líneas de una orden",
+      "El número de puestos de embalaje"
+    ],
+    "pista": "Considerá por dónde ingresa el equipo.",
+    "explicacion": "Las paletas pueden clasificarse por sus entradas para horquillas.",
+    "libro": "clase4_pallets"
+  },
+  {
+    "id": "caso-clase4-22",
+    "tipo": "caso",
+    "titulo": "Uso en estantería",
+    "situacion": "Una paleta tiene las medidas exteriores esperadas, pero se desconoce su base.",
+    "pregunta": "¿Qué corresponde antes de apoyarla directamente en una estantería?",
+    "correcta": "Comprobar base, orientación, estado y resistencia",
+    "incorrectas": [
+      "Aprobarla solo por sus dimensiones exteriores",
+      "Aprobarla si pertenece a la categoría A",
+      "Desestimar el peso de la mercancía",
+      "Elegirla solo por la cantidad de pedidos",
+      "Reemplazar la inspección por el color de la paleta"
+    ],
+    "pista": "La superficie exterior no describe todo el apoyo.",
+    "explicacion": "La medida por sí sola no garantiza compatibilidad con una estantería.",
+    "libro": "clase4_pallets"
+  },
+  {
+    "id": "caso-clase4-23",
+    "tipo": "caso",
+    "titulo": "Normalización",
+    "situacion": "Un proveedor ofrece pallets fabricados según especificaciones acordadas.",
+    "pregunta": "¿Qué expresa que estén normalizados?",
+    "correcta": "Que responden a dimensiones y características constructivas establecidas por un estándar",
+    "incorrectas": [
+      "Que son idénticos para todos los países y productos",
+      "Que resisten cualquier carga independientemente de su estado",
+      "Que siempre son plásticos y de un solo uso",
+      "Que pueden circular por cualquier transportador sin comprobación",
+      "Que tienen necesariamente cuatro cajas en cada capa"
+    ],
+    "pista": "Pensá en las especificaciones del estándar aplicable.",
+    "explicacion": "La normalización establece requisitos y favorece compatibilidad, sin eliminar verificaciones de uso.",
+    "libro": "clase4_normalizacion"
+  },
+  {
+    "id": "caso-clase4-24",
+    "tipo": "caso",
+    "titulo": "Europaleta",
+    "situacion": "Una plataforma mide 1.200 × 800 mm y no se conoce su construcción.",
+    "pregunta": "¿Qué conclusión está justificada?",
+    "correcta": "Tiene las dimensiones indicadas, pero falta verificar los demás requisitos de europaleta",
+    "incorrectas": [
+      "Su medida acredita por sí sola todos los requisitos de europaleta",
+      "No puede combinarse con cajas modulares de 600 × 400 mm",
+      "Su resistencia es suficiente para cualquier mercancía",
+      "Es obligatoria en todas las cadenas logísticas",
+      "Su base es compatible con cualquier sistema de rodillos"
+    ],
+    "pista": "Medidas y cumplimiento completo no son lo mismo.",
+    "explicacion": "Las dimensiones son una especificación, no una prueba de cumplimiento integral.",
+    "libro": "clase4_normalizacion"
+  },
+  {
+    "id": "caso-clase4-25",
+    "tipo": "caso",
+    "titulo": "Cajas modulares",
+    "situacion": "Una superficie de 1.200 × 800 mm recibe cajas de 600 × 400 mm.",
+    "pregunta": "¿Cuántas cajas entran en una capa si se acomodan sin espacios?",
+    "correcta": "Cuatro cajas",
+    "incorrectas": [
+      "Dos cajas",
+      "Tres cajas",
+      "Cinco cajas",
+      "Seis cajas",
+      "Ocho cajas"
+    ],
+    "pista": "Dividí cada dimensión de la paleta por la de la caja correspondiente.",
+    "explicacion": "Entran dos a lo largo y dos a lo ancho: 2 × 2 = 4.",
+    "libro": "clase4_normalizacion"
+  },
+  {
+    "id": "caso-clase4-26",
+    "tipo": "caso",
+    "titulo": "Plataforma y recipiente",
+    "situacion": "Una empresa debe elegir entre apoyar bultos sobre una base o reunir piezas dentro de un recipiente.",
+    "pregunta": "¿Cuál es la distinción adecuada?",
+    "correcta": "El pallet actúa principalmente como plataforma y el contenedor rodea o contiene la carga",
+    "incorrectas": [
+      "El pallet contiene la carga en su interior y el contenedor solo la apoya",
+      "Ambos son categorías de rotación de productos",
+      "El contenedor es siempre una máquina de picking",
+      "El pallet indica el número de líneas del pedido",
+      "La función del contenedor es reemplazar el inventario"
+    ],
+    "pista": "Identificá cuál rodea a los productos.",
+    "explicacion": "Los dos pueden contribuir a agrupar mercancía, pero cumplen funciones físicas distintas.",
+    "libro": "clase4_contenedores"
+  },
+  {
+    "id": "caso-clase4-27",
+    "tipo": "caso",
+    "titulo": "Base sin patines",
+    "situacion": "Se proyecta usar un contenedor sin patines en un circuito de rodillos.",
+    "pregunta": "¿Qué decisión es adecuada?",
+    "correcta": "Verificar su base y determinar si necesita apoyo compatible",
+    "incorrectas": [
+      "Suponer que todos los contenedores circulan sobre rodillos",
+      "Elegirlo solo por su material",
+      "Excluir cualquier comprobación de resistencia",
+      "Afirmar que su tamaño siempre garantiza compatibilidad",
+      "Cambiar la categoría ABC para asegurar el traslado"
+    ],
+    "pista": "La forma de la base importa para el recorrido.",
+    "explicacion": "Los modelos sin patines pueden requerir soportes y no son necesariamente compatibles con rodillos.",
+    "libro": "clase4_contenedores"
+  },
+  {
+    "id": "caso-clase4-28",
+    "tipo": "caso",
+    "titulo": "Piezas pequeñas",
+    "situacion": "Un sector agrupa piezas sueltas que deben mantenerse separadas.",
+    "pregunta": "¿Qué opción del material puede ayudar?",
+    "correcta": "Una caja con compartimentos apropiada para las piezas",
+    "incorrectas": [
+      "Una clasificación ABC usada como recipiente físico",
+      "Una horquilla sin caja ni soporte",
+      "Una paleta elegida solo por su color",
+      "Una etiqueta que sustituya la separación física",
+      "Una pila sin considerar la forma de los productos"
+    ],
+    "pista": "Buscá un recipiente que admita divisiones.",
+    "explicacion": "Las cajas pequeñas pueden incorporar compartimentos o tapa.",
+    "libro": "clase4_contenedores"
+  },
+  {
+    "id": "caso-clase4-29",
+    "tipo": "caso",
+    "titulo": "Colocar cargas en altura",
+    "situacion": "Se quiere agregar un nivel de cajas a una pila.",
+    "pregunta": "¿Qué debe revisarse primero?",
+    "correcta": "Resistencia de embalajes y soporte, peso, distribución y estabilidad",
+    "incorrectas": [
+      "Solo el número de referencias registradas",
+      "Solo la cercanía a expedición",
+      "La rotación de una referencia distinta",
+      "Únicamente el material de la etiqueta",
+      "La existencia de un sistema de gestión sin revisar la carga"
+    ],
+    "pista": "La carga inferior recibe el peso superior.",
+    "explicacion": "La apilabilidad depende de resistencia, peso, forma y condiciones de apoyo.",
+    "libro": "clase4_apilabilidad"
+  },
+  {
+    "id": "caso-clase4-30",
+    "tipo": "caso",
+    "titulo": "Orden de una pila",
+    "situacion": "Se agrupan productos resistentes y frágiles con indicaciones de apilado compatibles.",
+    "pregunta": "¿Qué disposición suele convenir?",
+    "correcta": "Más resistentes abajo y frágiles encima",
+    "incorrectas": [
+      "Frágiles abajo sin considerar el peso superior",
+      "Todos los bultos en cualquier posición",
+      "Los más pesados arriba sin revisar resistencia",
+      "Los embalajes dañados como apoyo inferior",
+      "La posición determinada exclusivamente por la rotación"
+    ],
+    "pista": "Considerá la carga soportada por los bultos inferiores.",
+    "explicacion": "Conviene ubicar abajo lo más resistente y respetar las instrucciones de cada carga.",
+    "libro": "clase4_apilabilidad"
+  },
+  {
+    "id": "caso-clase4-31",
+    "tipo": "caso",
+    "titulo": "Límite de niveles",
+    "situacion": "Dos productos tienen embalajes y pesos diferentes.",
+    "pregunta": "¿Cómo se fija la cantidad admisible de niveles?",
+    "correcta": "Evaluando cada carga, su embalaje, soporte y condiciones",
+    "incorrectas": [
+      "Usando un número universal válido para todas las cargas",
+      "Según el número de líneas del último pedido",
+      "Duplicando siempre el número indicado por el proveedor",
+      "A partir de la categoría ABC sin mirar el embalaje",
+      "A partir de las dimensiones del pasillo únicamente"
+    ],
+    "pista": "La resistencia de los conjuntos puede variar.",
+    "explicacion": "No existe un límite universal de apilado aplicable a toda mercancía.",
+    "libro": "clase4_apilabilidad"
+  },
+  {
+    "id": "caso-clase4-32",
+    "tipo": "caso",
+    "titulo": "Alta rotación",
+    "situacion": "Una referencia registra movimientos frecuentes durante el período analizado.",
+    "pregunta": "¿Qué ubicación puede reducir recorridos de preparación?",
+    "correcta": "Una posición accesible cerca de preparación, si las demás restricciones lo permiten",
+    "incorrectas": [
+      "Una posición inaccesible por definición",
+      "Cualquier posición sin considerar seguridad ni volumen",
+      "Una ubicación elegida solo por el color del embalaje",
+      "Una ubicación fuera del inventario registrado",
+      "La zona más alejada en todos los casos"
+    ],
+    "pista": "Pensá en la frecuencia de acceso.",
+    "explicacion": "La cercanía puede reducir recorridos, pero se consideran seguridad, volumen y espacio.",
+    "libro": "clase4_rotacion"
+  },
+  {
+    "id": "caso-clase4-33",
+    "tipo": "caso",
+    "titulo": "Construcción del ABC",
+    "situacion": "Un equipo analiza los movimientos de las referencias de un almacén.",
+    "pregunta": "¿Cómo prepara la curva ABC?",
+    "correcta": "Ordena por contribución descendente y compara porcentajes acumulados de referencias y movimientos",
+    "incorrectas": [
+      "Ordena al azar y compara dimensiones de pasillos",
+      "Agrupa por material del pallet sin medir movimientos",
+      "Suma solo referencias sin observar su contribución",
+      "Ordena por nombre y presume que la primera es A",
+      "Clasifica cada pedido por su cantidad de embalajes"
+    ],
+    "pista": "La curva relaciona dos porcentajes acumulados.",
+    "explicacion": "El orden descendente permite observar la concentración del indicador elegido.",
+    "libro": "clase4_abc"
+  },
+  {
+    "id": "caso-clase4-34",
+    "tipo": "caso",
+    "titulo": "Lectura de Pareto",
+    "situacion": "Un estudiante sostiene que el 20 % de los productos siempre genera exactamente el 80 % de la actividad.",
+    "pregunta": "¿Cómo debe interpretarse esa afirmación?",
+    "correcta": "Es una relación ilustrativa; los valores reales dependen de los datos",
+    "incorrectas": [
+      "Es una proporción obligatoria en cualquier almacén",
+      "Es la medida estándar de una europaleta",
+      "Es el límite de apilado de todas las cajas",
+      "Impide usar movimientos como indicador",
+      "Demuestra que todas las referencias tienen igual contribución"
+    ],
+    "pista": "La concentración puede variar según el caso.",
+    "explicacion": "El 80/20 orienta la interpretación, pero no garantiza esos porcentajes.",
+    "libro": "clase4_abc"
+  },
+  {
+    "id": "caso-clase4-35",
+    "tipo": "caso",
+    "titulo": "Cambio de demanda",
+    "situacion": "Las referencias más solicitadas cambiaron respecto del período anterior.",
+    "pregunta": "¿Qué conviene hacer con la clasificación ABC?",
+    "correcta": "Revisarla con los datos del período y criterio pertinentes",
+    "incorrectas": [
+      "Mantener los cortes sin volver a mirar los datos",
+      "Eliminar el registro de inventario",
+      "Suponer que las categorías son permanentes",
+      "Usar solo las dimensiones de las cajas",
+      "Asignar todas las referencias a C automáticamente"
+    ],
+    "pista": "El análisis depende de la actividad observada.",
+    "explicacion": "Los límites y categorías deben revisarse cuando cambian la demanda o el período.",
+    "libro": "clase4_abc"
+  },
+  {
+    "id": "caso-clase4-36",
+    "tipo": "caso",
+    "titulo": "Prioridad y restricciones",
+    "situacion": "Un artículo de categoría A es voluminoso y requiere condiciones específicas de seguridad.",
+    "pregunta": "¿Qué decisión de ubicación es más apropiada?",
+    "correcta": "Buscar accesibilidad considerando también volumen y seguridad",
+    "incorrectas": [
+      "Ubicarlo en cualquier lugar cercano sin evaluar restricciones",
+      "Tratarlo como C para evitar considerar su volumen",
+      "Ignorar su frecuencia de movimientos por completo",
+      "Eliminar su embalaje para que entre en cualquier hueco",
+      "Concluir que todas las referencias A tienen dimensiones idénticas"
+    ],
+    "pista": "La contribución al movimiento no describe todas las características físicas.",
+    "explicacion": "El ABC orienta decisiones, pero no reemplaza el análisis físico y de seguridad.",
+    "libro": "clase4_abc"
   }
 ]

@@ -13,7 +13,9 @@
       "notas": [
         "La unidad reúne producto, embalaje y medios para mantener el conjunto estable; debe ser compatible con el equipo que lo manipulará.",
         "Un pallet es una plataforma que puede servir de base para agrupar mercancías; no es sinónimo de toda la carga.",
-        "Una unidad mal conformada puede provocar daños, demoras y movimientos adicionales."
+        "Una unidad mal conformada puede provocar daños, demoras y movimientos adicionales.",
+        "Una caja, cajas sobre una paleta o mercancías agrupadas en un contenedor pueden constituir unidades de carga.",
+        "Agrupar reduce movimientos, pero una unidad demasiado grande puede exigir fraccionamiento para preparar pedidos pequeños."
       ],
       "ejemplos": [
         "Varias cajas se agrupan sobre un pallet y se aseguran para trasladarlas juntas."
@@ -39,7 +41,9 @@
       "notas": [
         "Dimensiones, peso y estabilidad condicionan estanterías, equipos y pasillos.",
         "El embalaje debe proteger el producto y la conformación de la unidad evitar desplazamientos durante el manejo.",
-        "El modo de acceso también importa: preparar unidades individuales no plantea exactamente la misma necesidad que mover una carga agrupada."
+        "El modo de acceso también importa: preparar unidades individuales no plantea exactamente la misma necesidad que mover una carga agrupada.",
+        "La distribución del peso, la resistencia del soporte y la disposición de los bultos influyen en la estabilidad.",
+        "La sujeción o envoltura se utiliza cuando hace falta para que el conjunto conserve su estabilidad."
       ],
       "ejemplos": [
         "Antes de elegir una estantería, se revisan las dimensiones de la carga y cómo podrá manipularla el equipo disponible."
@@ -54,7 +58,9 @@
       "notas": [
         "Rotación es la frecuencia con que un producto sale o se mueve en el almacén.",
         "El picking reúne las referencias y cantidades solicitadas; la reposición mantiene disponible la mercancía para prepararlas.",
-        "La consolidación reúne los artículos de una misma orden antes de la salida."
+        "La consolidación reúne los artículos de una misma orden antes de la salida.",
+        "La rotación se refiere a la frecuencia de movimiento o renovación durante un período; las referencias de baja rotación suelen permanecer más tiempo almacenadas.",
+        "Situar referencias solicitadas con frecuencia en posiciones accesibles puede reducir recorridos, considerando también volumen, seguridad y espacio disponible."
       ],
       "ejemplos": [
         "Una orden con artículos de distintas zonas necesita reunirlos antes de embalarla y expedirla."
@@ -103,6 +109,87 @@
       ],
       "ejemplos": [
         "Una caja recuperada por miniload todavía debe integrarse al pedido correcto y seguir el flujo hacia su salida."
+      ]
+    },
+    "clase4_pallets": {
+      "categoria": "Clase 4",
+      "titulo": "Pallets: tipos y elección",
+      "intro": [
+        "El pallet o paleta es una plataforma que sostiene mercancías para formar, almacenar y trasladar una unidad de carga."
+      ],
+      "notas": [
+        "Puede ser de madera, metal o plástico. La madera es de uso extendido; los metálicos se usan, entre otras actividades, en las industrias automotriz y metalúrgica.",
+        "Los plásticos facilitan la limpieza, pero deben evaluarse su rigidez, resistencia y posible deslizamiento.",
+        "Se clasifican también por dimensiones, capacidad, construcción, entradas para horquillas, caras y posibilidad de usarse por ambas caras; hay reutilizables y de un solo uso.",
+        "Las entradas pueden ser dos o cuatro. Las medias paletas sirven para cantidades menores.",
+        "La base, el estado, la orientación y la resistencia condicionan la compatibilidad con equipos, estanterías y rodillos. Las medidas exteriores por sí solas no la garantizan."
+      ],
+      "ejemplos": [
+        "Una paleta con medidas conocidas todavía requiere comprobar la forma de su base y la resistencia antes de usarla en una estantería."
+      ]
+    },
+    "clase4_normalizacion": {
+      "categoria": "Clase 4",
+      "titulo": "Normalización y modularidad",
+      "intro": [
+        "Un pallet normalizado se fabrica conforme a especificaciones acordadas de dimensiones y construcción."
+      ],
+      "notas": [
+        "Según el estándar, también pueden establecerse materiales, componentes y requisitos de calidad. Normalizar facilita la compatibilidad con embalajes, equipos y espacios.",
+        "La europaleta mide 1.200 × 800 mm. Un pallet con esas medidas no queda acreditado como europaleta si no cumple las demás especificaciones aplicables.",
+        "Las cajas modulares de 600 × 400 mm pueden combinarse sobre esa superficie: cuatro cajas cubren una capa si se acomodan sin espacios y sus dimensiones exteriores lo permiten.",
+        "La elección de una medida depende de la cadena logística: no existe una única medida obligatoria para todos los productos y países."
+      ],
+      "ejemplos": [
+        "Dos cajas de 600 mm completan los 1.200 mm de largo y dos de 400 mm completan los 800 mm de ancho."
+      ]
+    },
+    "clase4_contenedores": {
+      "categoria": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "intro": [
+        "Un contenedor logístico agrupa productos en su interior para protegerlos, almacenarlos y manipularlos como unidad."
+      ],
+      "notas": [
+        "El pallet funciona principalmente como plataforma; el contenedor rodea o contiene la carga.",
+        "Puede ser de madera, metal o plástico, y clasificarse por tamaño, forma, base y posibilidad de apilado. Las cajas pequeñas pueden llevar divisiones o tapa.",
+        "Hay modelos con y sin patines. Sin patines pueden requerirse apoyos adicionales; no se debe suponer compatibilidad con rodillos, automatización o estanterías.",
+        "Las cajas pueden manipularse a mano, sobre pallets, en transportadores o en miniload según el caso; es necesario controlar peso, estabilidad y rigidez de la base."
+      ],
+      "ejemplos": [
+        "Para piezas pequeñas se puede usar una caja con compartimentos y comprobar si su base es apta para el sistema elegido."
+      ]
+    },
+    "clase4_apilabilidad": {
+      "categoria": "Clase 4",
+      "titulo": "Apilabilidad y estabilidad",
+      "intro": [
+        "La apilabilidad es la capacidad de colocar cargas o embalajes unos sobre otros de forma estable y sin daños."
+      ],
+      "notas": [
+        "Aprovechar la altura exige revisar la resistencia a la compresión del embalaje y del soporte, además del peso, su distribución y la forma de los bultos.",
+        "Conviene colocar los productos más resistentes abajo y los frágiles encima, respetando las instrucciones particulares de cada carga.",
+        "No toda carga es apilable y no existe un número universal de niveles: el límite depende del producto, embalaje, soporte y condiciones de almacenamiento y transporte."
+      ],
+      "ejemplos": [
+        "Antes de añadir un nivel se verifica que los bultos inferiores y el soporte resistan el peso acumulado."
+      ]
+    },
+    "clase4_abc": {
+      "categoria": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "intro": [
+        "La clasificación ABC ordena referencias según su contribución a un indicador elegido, como consumo o movimientos."
+      ],
+      "notas": [
+        "Se ordenan de mayor a menor contribución y se comparan el porcentaje acumulado de referencias y el porcentaje acumulado del indicador.",
+        "Las referencias A concentran una parte importante de la actividad; las B tienen incidencia intermedia y las C, menor. Los cortes dependen de los datos y del criterio elegido.",
+        "Pareto expresa que una proporción relativamente pequeña de referencias puede concentrar gran parte de la actividad. El 80/20 es ilustrativo, no una proporción garantizada.",
+        "El ABC orienta ubicaciones, accesibilidad, reposición y control de inventario; debe revisarse cuando cambia la demanda o el período analizado.",
+        "Además de la rotación se consideran volumen, compatibilidad, seguridad y espacio al decidir una ubicación."
+      ],
+      "ejemplos": [
+        "Si unas pocas referencias concentran muchos movimientos, pueden priorizarse ubicaciones accesibles para ellas, tras revisar sus restricciones físicas."
       ]
     }
   }

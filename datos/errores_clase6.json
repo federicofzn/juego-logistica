@@ -78,5 +78,165 @@
     "pista": "Diferenciá inversión inicial y costo operativo.",
     "explicacion": "El costo operativo depende del caso; el sistema manual puede generar recorridos y manipulación costosos.",
     "libro": "clase6_organizacion"
+  },
+  {
+    "id": "error-clase6-6",
+    "titulo": "Cabecera y lateral",
+    "oraciones": [
+      "En cabecera un sistema puede llevar pallets a una estación.",
+      "En el lateral el operario puede recorrer canales de extracción.",
+      "Un transelevador puede reponer canales laterales desde reserva.",
+      "En cabecera siempre es el operario quien recorre todas las ubicaciones para buscar el pallet.",
+      "La elección de puestos depende de los pedidos y el rendimiento requerido."
+    ],
+    "incorrecta": 3,
+    "correccion": "En cabecera el sistema acerca el pallet al puesto de preparación.",
+    "pista": "Identificá qué se acerca al puesto.",
+    "explicacion": "El operario extrae unidades del pallet que llega a la estación.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "error-clase6-7",
+    "titulo": "Robots de preparación",
+    "oraciones": [
+      "Un robot antropomórfico tiene un brazo articulado.",
+      "Un robot de pórtico se desplaza sobre dos o tres ejes.",
+      "Los robots pueden manipular cajas individuales o capas completas.",
+      "La selección puede considerar ciclos y composición de pedidos.",
+      "Un robot de pórtico se define por desplazarse exclusivamente sobre una guía ovalada horizontal."
+    ],
+    "incorrecta": 4,
+    "correccion": "El robot de pórtico se desplaza sobre dos o tres ejes.",
+    "pista": "No confundas un robot con un carrusel.",
+    "explicacion": "La guía ovalada corresponde al recorrido de los módulos del carrusel Spinblock.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "error-clase6-8",
+    "titulo": "Diseño de corredores",
+    "oraciones": [
+      "El ancho de un pasillo depende de cargas, máquinas y holguras.",
+      "Los equipos y el guiado deben ser compatibles con el corredor.",
+      "Toda instalación debe usar exactamente el mismo ancho de pasillo.",
+      "La seguridad y la ergonomía forman parte del diseño.",
+      "El rendimiento también depende de desplazamientos y reposición."
+    ],
+    "incorrecta": 2,
+    "correccion": "El ancho se determina para cada instalación según sus condiciones.",
+    "pista": "Revisá la afirmación que prescribe una medida universal.",
+    "explicacion": "Una medida de referencia no reemplaza el análisis de la carga y del equipo.",
+    "libro": "clase6_pasillos"
+  },
+  {
+    "id": "error-clase6-9",
+    "titulo": "Información de la orden",
+    "oraciones": [
+      "Una orden puede incluir referencias y cantidades.",
+      "Las ubicaciones orientan al operario hacia los productos.",
+      "La zona de agrupación puede figurar entre las instrucciones.",
+      "Las instrucciones de embalaje ayudan a preparar el paquete.",
+      "Para localizar los productos nunca hace falta información sobre su ubicación."
+    ],
+    "incorrecta": 4,
+    "correccion": "La información sobre ubicación orienta la búsqueda de los productos.",
+    "pista": "Pensá cómo se encuentra una referencia en el depósito.",
+    "explicacion": "La ubicación es uno de los datos que pueden acompañar la orden.",
+    "libro": "clase6_expedicion"
+  },
+  {
+    "id": "error-clase6-10",
+    "titulo": "Clasificación de envíos",
+    "oraciones": [
+      "Un código legible puede ayudar a asignar una salida por destino.",
+      "En el caso de DHL los paquetes circulan por cintas transportadoras.",
+      "Un paquete con etiqueta ilegible se asigna al azar a cualquier ruta.",
+      "Los paquetes ilegibles pueden derivarse a revisión y reetiquetado.",
+      "Tras la clasificación los envíos pueden cargarse en vehículos."
+    ],
+    "incorrecta": 2,
+    "correccion": "El paquete ilegible se deriva a revisión y reetiquetado.",
+    "pista": "Revisá qué ocurre cuando el código no se puede leer.",
+    "explicacion": "En el caso mostrado se corrige la identificación antes de continuar.",
+    "libro": "clase6_clasificacion"
+  },
+  {
+    "id": "error-clase6-11",
+    "titulo": "Niveles de preparación",
+    "oraciones": [
+      "A nivel del suelo se pueden usar pallets apoyados en el piso.",
+      "En niveles bajos se puede acceder a pie o con una preparadora de bajo nivel.",
+      "Los niveles medios permiten aprovechar más altura.",
+      "En niveles altos la elevación y el descenso pueden consumir tiempo.",
+      "Los niveles medios se definen porque la mercancía permanece siempre sobre el piso."
+    ],
+    "incorrecta": 4,
+    "correccion": "Los niveles medios utilizan posiciones intermedias en estanterías.",
+    "pista": "Diferenciá el piso de los niveles intermedios.",
+    "explicacion": "Las posiciones intermedias pueden alcanzar aproximadamente 3,5 o 4 metros.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "error-clase6-12",
+    "titulo": "Flujo y registro",
+    "oraciones": [
+      "La radiofrecuencia puede transmitir instrucciones al preparador.",
+      "La confirmación de cantidades puede comunicar movimientos al sistema.",
+      "La voz permite recibir instrucciones y confirmar datos oralmente.",
+      "La actualización de existencias sustituye la extracción física del producto.",
+      "Un sistema de gestión puede ayudar a organizar recorridos."
+    ],
+    "incorrecta": 3,
+    "correccion": "La actualización registra el movimiento; la extracción física sigue siendo necesaria.",
+    "pista": "Separá el registro de la manipulación.",
+    "explicacion": "El sistema necesita información de una operación que también ocurre físicamente.",
+    "libro": "clase6_tecnologias"
+  },
+  {
+    "id": "error-clase6-13",
+    "titulo": "Piezas pequeñas",
+    "oraciones": [
+      "Las estanterías manuales pueden organizarse en una o varias plantas.",
+      "Las estanterías dinámicas pueden acercar cajas a la extracción.",
+      "Clasimat lleva bandejas almacenadas en altura al puesto.",
+      "Spinblock mueve módulos horizontalmente hacia el puesto.",
+      "Miniload es una técnica de embalaje que no almacena ni recupera cajas."
+    ],
+    "incorrecta": 4,
+    "correccion": "Miniload almacena y recupera cajas o bandejas mediante un transelevador.",
+    "pista": "Buscá el sistema que utiliza un transelevador.",
+    "explicacion": "Las cajas recuperadas pueden enviarse a un puesto de preparación.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "error-clase6-14",
+    "titulo": "Evaluación económica",
+    "oraciones": [
+      "Un método manual puede exigir menor inversión inicial.",
+      "Una operación manual puede tener costos de recorridos y manipulación.",
+      "Una solución automática puede reducir desplazamientos.",
+      "La conveniencia depende de inversión, funcionamiento y servicio esperado.",
+      "Una inversión inicial menor garantiza siempre el menor costo operativo."
+    ],
+    "incorrecta": 4,
+    "correccion": "Una inversión inicial menor no garantiza el menor costo operativo.",
+    "pista": "Distinguí adquisición de funcionamiento.",
+    "explicacion": "La comparación requiere evaluar ambos costos en el contexto de la operación.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "error-clase6-15",
+    "titulo": "Recorrido de un pedido",
+    "oraciones": [
+      "El picking reúne artículos para atender pedidos.",
+      "El embalaje puede proteger y contener los productos.",
+      "La clasificación puede separar paquetes por destino.",
+      "La distribución final puede realizarse por carretera.",
+      "El embalaje convierte automáticamente una etiqueta ilegible en una etiqueta legible."
+    ],
+    "incorrecta": 4,
+    "correccion": "Una etiqueta ilegible puede necesitar revisión y reetiquetado.",
+    "pista": "El material de embalaje no corrige por sí mismo la identificación.",
+    "explicacion": "En el caso de clasificación los paquetes ilegibles pasan a revisión.",
+    "libro": "clase6_clasificacion"
   }
 ]

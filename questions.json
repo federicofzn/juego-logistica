@@ -1656,6 +1656,420 @@
     }
   },
   {
+    "id": "caso-clase4-19",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Tamaño de la unidad",
+    "situacion": "Un almacén recibe cargas grandes pero prepara pedidos de pocas unidades.",
+    "pregunta": "¿Qué dificultad puede aparecer?",
+    "respuestaCorrecta": "Que sea necesario fraccionar las cargas para preparar pedidos",
+    "respuestasIncorrectas": [
+      "Que las unidades agrupadas dejen de necesitar soporte",
+      "Que cada pedido contenga obligatoriamente una carga completa",
+      "Que el embalaje pierda automáticamente su resistencia",
+      "Que la rotación determine por sí sola el tamaño de las cajas",
+      "Que la agrupación impida toda manipulación posterior"
+    ],
+    "pista": "Compará la cantidad agrupada con la cantidad pedida.",
+    "explicacion": "Una carga grande reduce movimientos, pero puede requerir fraccionamiento.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase4-20",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Selección de material",
+    "situacion": "Se busca una paleta que facilite la limpieza en una operación.",
+    "pregunta": "¿Qué alternativa mencionada en el material conviene evaluar?",
+    "respuestaCorrecta": "Una paleta plástica, verificando también rigidez, resistencia y deslizamiento",
+    "respuestasIncorrectas": [
+      "Una paleta de cualquier material sin revisar su estado",
+      "Una caja de cartón considerada automáticamente una paleta",
+      "Una paleta metálica sin verificar su compatibilidad",
+      "Una paleta de madera por ser siempre la única lavable",
+      "Una carga sin soporte porque no requiere manipulación"
+    ],
+    "pista": "El material facilita la limpieza, pero no elimina otras verificaciones.",
+    "explicacion": "El plástico facilita la limpieza; sus propiedades y compatibilidad deben evaluarse.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Pallets: tipos y elección",
+      "entradaLibro": "clase4_pallets"
+    }
+  },
+  {
+    "id": "caso-clase4-21",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Entradas para horquillas",
+    "situacion": "Se comparan dos diseños de paleta.",
+    "pregunta": "¿Qué característica distingue una clasificación por accesos del equipo?",
+    "respuestaCorrecta": "La cantidad de entradas para las horquillas: dos o cuatro",
+    "respuestasIncorrectas": [
+      "El número de pedidos preparados por hora",
+      "La cantidad de categorías de la curva ABC",
+      "La frecuencia de renovación del inventario",
+      "La cantidad de líneas de una orden",
+      "El número de puestos de embalaje"
+    ],
+    "pista": "Considerá por dónde ingresa el equipo.",
+    "explicacion": "Las paletas pueden clasificarse por sus entradas para horquillas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Pallets: tipos y elección",
+      "entradaLibro": "clase4_pallets"
+    }
+  },
+  {
+    "id": "caso-clase4-22",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Uso en estantería",
+    "situacion": "Una paleta tiene las medidas exteriores esperadas, pero se desconoce su base.",
+    "pregunta": "¿Qué corresponde antes de apoyarla directamente en una estantería?",
+    "respuestaCorrecta": "Comprobar base, orientación, estado y resistencia",
+    "respuestasIncorrectas": [
+      "Aprobarla solo por sus dimensiones exteriores",
+      "Aprobarla si pertenece a la categoría A",
+      "Desestimar el peso de la mercancía",
+      "Elegirla solo por la cantidad de pedidos",
+      "Reemplazar la inspección por el color de la paleta"
+    ],
+    "pista": "La superficie exterior no describe todo el apoyo.",
+    "explicacion": "La medida por sí sola no garantiza compatibilidad con una estantería.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Pallets: tipos y elección",
+      "entradaLibro": "clase4_pallets"
+    }
+  },
+  {
+    "id": "caso-clase4-23",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Normalización",
+    "situacion": "Un proveedor ofrece pallets fabricados según especificaciones acordadas.",
+    "pregunta": "¿Qué expresa que estén normalizados?",
+    "respuestaCorrecta": "Que responden a dimensiones y características constructivas establecidas por un estándar",
+    "respuestasIncorrectas": [
+      "Que son idénticos para todos los países y productos",
+      "Que resisten cualquier carga independientemente de su estado",
+      "Que siempre son plásticos y de un solo uso",
+      "Que pueden circular por cualquier transportador sin comprobación",
+      "Que tienen necesariamente cuatro cajas en cada capa"
+    ],
+    "pista": "Pensá en las especificaciones del estándar aplicable.",
+    "explicacion": "La normalización establece requisitos y favorece compatibilidad, sin eliminar verificaciones de uso.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Normalización y modularidad",
+      "entradaLibro": "clase4_normalizacion"
+    }
+  },
+  {
+    "id": "caso-clase4-24",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Europaleta",
+    "situacion": "Una plataforma mide 1.200 × 800 mm y no se conoce su construcción.",
+    "pregunta": "¿Qué conclusión está justificada?",
+    "respuestaCorrecta": "Tiene las dimensiones indicadas, pero falta verificar los demás requisitos de europaleta",
+    "respuestasIncorrectas": [
+      "Su medida acredita por sí sola todos los requisitos de europaleta",
+      "No puede combinarse con cajas modulares de 600 × 400 mm",
+      "Su resistencia es suficiente para cualquier mercancía",
+      "Es obligatoria en todas las cadenas logísticas",
+      "Su base es compatible con cualquier sistema de rodillos"
+    ],
+    "pista": "Medidas y cumplimiento completo no son lo mismo.",
+    "explicacion": "Las dimensiones son una especificación, no una prueba de cumplimiento integral.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Normalización y modularidad",
+      "entradaLibro": "clase4_normalizacion"
+    }
+  },
+  {
+    "id": "caso-clase4-25",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Cajas modulares",
+    "situacion": "Una superficie de 1.200 × 800 mm recibe cajas de 600 × 400 mm.",
+    "pregunta": "¿Cuántas cajas entran en una capa si se acomodan sin espacios?",
+    "respuestaCorrecta": "Cuatro cajas",
+    "respuestasIncorrectas": [
+      "Dos cajas",
+      "Tres cajas",
+      "Cinco cajas",
+      "Seis cajas",
+      "Ocho cajas"
+    ],
+    "pista": "Dividí cada dimensión de la paleta por la de la caja correspondiente.",
+    "explicacion": "Entran dos a lo largo y dos a lo ancho: 2 × 2 = 4.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Normalización y modularidad",
+      "entradaLibro": "clase4_normalizacion"
+    }
+  },
+  {
+    "id": "caso-clase4-26",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Plataforma y recipiente",
+    "situacion": "Una empresa debe elegir entre apoyar bultos sobre una base o reunir piezas dentro de un recipiente.",
+    "pregunta": "¿Cuál es la distinción adecuada?",
+    "respuestaCorrecta": "El pallet actúa principalmente como plataforma y el contenedor rodea o contiene la carga",
+    "respuestasIncorrectas": [
+      "El pallet contiene la carga en su interior y el contenedor solo la apoya",
+      "Ambos son categorías de rotación de productos",
+      "El contenedor es siempre una máquina de picking",
+      "El pallet indica el número de líneas del pedido",
+      "La función del contenedor es reemplazar el inventario"
+    ],
+    "pista": "Identificá cuál rodea a los productos.",
+    "explicacion": "Los dos pueden contribuir a agrupar mercancía, pero cumplen funciones físicas distintas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "entradaLibro": "clase4_contenedores"
+    }
+  },
+  {
+    "id": "caso-clase4-27",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Base sin patines",
+    "situacion": "Se proyecta usar un contenedor sin patines en un circuito de rodillos.",
+    "pregunta": "¿Qué decisión es adecuada?",
+    "respuestaCorrecta": "Verificar su base y determinar si necesita apoyo compatible",
+    "respuestasIncorrectas": [
+      "Suponer que todos los contenedores circulan sobre rodillos",
+      "Elegirlo solo por su material",
+      "Excluir cualquier comprobación de resistencia",
+      "Afirmar que su tamaño siempre garantiza compatibilidad",
+      "Cambiar la categoría ABC para asegurar el traslado"
+    ],
+    "pista": "La forma de la base importa para el recorrido.",
+    "explicacion": "Los modelos sin patines pueden requerir soportes y no son necesariamente compatibles con rodillos.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "entradaLibro": "clase4_contenedores"
+    }
+  },
+  {
+    "id": "caso-clase4-28",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Piezas pequeñas",
+    "situacion": "Un sector agrupa piezas sueltas que deben mantenerse separadas.",
+    "pregunta": "¿Qué opción del material puede ayudar?",
+    "respuestaCorrecta": "Una caja con compartimentos apropiada para las piezas",
+    "respuestasIncorrectas": [
+      "Una clasificación ABC usada como recipiente físico",
+      "Una horquilla sin caja ni soporte",
+      "Una paleta elegida solo por su color",
+      "Una etiqueta que sustituya la separación física",
+      "Una pila sin considerar la forma de los productos"
+    ],
+    "pista": "Buscá un recipiente que admita divisiones.",
+    "explicacion": "Las cajas pequeñas pueden incorporar compartimentos o tapa.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "entradaLibro": "clase4_contenedores"
+    }
+  },
+  {
+    "id": "caso-clase4-29",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Colocar cargas en altura",
+    "situacion": "Se quiere agregar un nivel de cajas a una pila.",
+    "pregunta": "¿Qué debe revisarse primero?",
+    "respuestaCorrecta": "Resistencia de embalajes y soporte, peso, distribución y estabilidad",
+    "respuestasIncorrectas": [
+      "Solo el número de referencias registradas",
+      "Solo la cercanía a expedición",
+      "La rotación de una referencia distinta",
+      "Únicamente el material de la etiqueta",
+      "La existencia de un sistema de gestión sin revisar la carga"
+    ],
+    "pista": "La carga inferior recibe el peso superior.",
+    "explicacion": "La apilabilidad depende de resistencia, peso, forma y condiciones de apoyo.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Apilabilidad y estabilidad",
+      "entradaLibro": "clase4_apilabilidad"
+    }
+  },
+  {
+    "id": "caso-clase4-30",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Orden de una pila",
+    "situacion": "Se agrupan productos resistentes y frágiles con indicaciones de apilado compatibles.",
+    "pregunta": "¿Qué disposición suele convenir?",
+    "respuestaCorrecta": "Más resistentes abajo y frágiles encima",
+    "respuestasIncorrectas": [
+      "Frágiles abajo sin considerar el peso superior",
+      "Todos los bultos en cualquier posición",
+      "Los más pesados arriba sin revisar resistencia",
+      "Los embalajes dañados como apoyo inferior",
+      "La posición determinada exclusivamente por la rotación"
+    ],
+    "pista": "Considerá la carga soportada por los bultos inferiores.",
+    "explicacion": "Conviene ubicar abajo lo más resistente y respetar las instrucciones de cada carga.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Apilabilidad y estabilidad",
+      "entradaLibro": "clase4_apilabilidad"
+    }
+  },
+  {
+    "id": "caso-clase4-31",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Límite de niveles",
+    "situacion": "Dos productos tienen embalajes y pesos diferentes.",
+    "pregunta": "¿Cómo se fija la cantidad admisible de niveles?",
+    "respuestaCorrecta": "Evaluando cada carga, su embalaje, soporte y condiciones",
+    "respuestasIncorrectas": [
+      "Usando un número universal válido para todas las cargas",
+      "Según el número de líneas del último pedido",
+      "Duplicando siempre el número indicado por el proveedor",
+      "A partir de la categoría ABC sin mirar el embalaje",
+      "A partir de las dimensiones del pasillo únicamente"
+    ],
+    "pista": "La resistencia de los conjuntos puede variar.",
+    "explicacion": "No existe un límite universal de apilado aplicable a toda mercancía.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Apilabilidad y estabilidad",
+      "entradaLibro": "clase4_apilabilidad"
+    }
+  },
+  {
+    "id": "caso-clase4-32",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Alta rotación",
+    "situacion": "Una referencia registra movimientos frecuentes durante el período analizado.",
+    "pregunta": "¿Qué ubicación puede reducir recorridos de preparación?",
+    "respuestaCorrecta": "Una posición accesible cerca de preparación, si las demás restricciones lo permiten",
+    "respuestasIncorrectas": [
+      "Una posición inaccesible por definición",
+      "Cualquier posición sin considerar seguridad ni volumen",
+      "Una ubicación elegida solo por el color del embalaje",
+      "Una ubicación fuera del inventario registrado",
+      "La zona más alejada en todos los casos"
+    ],
+    "pista": "Pensá en la frecuencia de acceso.",
+    "explicacion": "La cercanía puede reducir recorridos, pero se consideran seguridad, volumen y espacio.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
+    }
+  },
+  {
+    "id": "caso-clase4-33",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Construcción del ABC",
+    "situacion": "Un equipo analiza los movimientos de las referencias de un almacén.",
+    "pregunta": "¿Cómo prepara la curva ABC?",
+    "respuestaCorrecta": "Ordena por contribución descendente y compara porcentajes acumulados de referencias y movimientos",
+    "respuestasIncorrectas": [
+      "Ordena al azar y compara dimensiones de pasillos",
+      "Agrupa por material del pallet sin medir movimientos",
+      "Suma solo referencias sin observar su contribución",
+      "Ordena por nombre y presume que la primera es A",
+      "Clasifica cada pedido por su cantidad de embalajes"
+    ],
+    "pista": "La curva relaciona dos porcentajes acumulados.",
+    "explicacion": "El orden descendente permite observar la concentración del indicador elegido.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
+    "id": "caso-clase4-34",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Lectura de Pareto",
+    "situacion": "Un estudiante sostiene que el 20 % de los productos siempre genera exactamente el 80 % de la actividad.",
+    "pregunta": "¿Cómo debe interpretarse esa afirmación?",
+    "respuestaCorrecta": "Es una relación ilustrativa; los valores reales dependen de los datos",
+    "respuestasIncorrectas": [
+      "Es una proporción obligatoria en cualquier almacén",
+      "Es la medida estándar de una europaleta",
+      "Es el límite de apilado de todas las cajas",
+      "Impide usar movimientos como indicador",
+      "Demuestra que todas las referencias tienen igual contribución"
+    ],
+    "pista": "La concentración puede variar según el caso.",
+    "explicacion": "El 80/20 orienta la interpretación, pero no garantiza esos porcentajes.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
+    "id": "caso-clase4-35",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Cambio de demanda",
+    "situacion": "Las referencias más solicitadas cambiaron respecto del período anterior.",
+    "pregunta": "¿Qué conviene hacer con la clasificación ABC?",
+    "respuestaCorrecta": "Revisarla con los datos del período y criterio pertinentes",
+    "respuestasIncorrectas": [
+      "Mantener los cortes sin volver a mirar los datos",
+      "Eliminar el registro de inventario",
+      "Suponer que las categorías son permanentes",
+      "Usar solo las dimensiones de las cajas",
+      "Asignar todas las referencias a C automáticamente"
+    ],
+    "pista": "El análisis depende de la actividad observada.",
+    "explicacion": "Los límites y categorías deben revisarse cuando cambian la demanda o el período.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
+    "id": "caso-clase4-36",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Prioridad y restricciones",
+    "situacion": "Un artículo de categoría A es voluminoso y requiere condiciones específicas de seguridad.",
+    "pregunta": "¿Qué decisión de ubicación es más apropiada?",
+    "respuestaCorrecta": "Buscar accesibilidad considerando también volumen y seguridad",
+    "respuestasIncorrectas": [
+      "Ubicarlo en cualquier lugar cercano sin evaluar restricciones",
+      "Tratarlo como C para evitar considerar su volumen",
+      "Ignorar su frecuencia de movimientos por completo",
+      "Eliminar su embalaje para que entre en cualquier hueco",
+      "Concluir que todas las referencias A tienen dimensiones idénticas"
+    ],
+    "pista": "La contribución al movimiento no describe todas las características físicas.",
+    "explicacion": "El ABC orienta decisiones, pero no reemplaza el análisis físico y de seguridad.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
     "id": "caso-clase5-1",
     "unidad": "clase5",
     "tipo": "caso",
@@ -2070,6 +2484,558 @@
     }
   },
   {
+    "id": "caso-clase5-19",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Piezas de la estructura",
+    "situacion": "Un operario identifica las vigas horizontales sobre las que se apoyan los pallets.",
+    "pregunta": "¿Qué componentes está observando?",
+    "respuestaCorrecta": "Largueros",
+    "respuestasIncorrectas": [
+      "Bastidores laterales",
+      "Protectores de puntal",
+      "Mallas anticaída",
+      "Placas de características",
+      "Carriles de bases móviles"
+    ],
+    "pista": "Buscá el elemento horizontal de soporte.",
+    "explicacion": "Los largueros son vigas horizontales; los bastidores son estructuras laterales verticales.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "caso-clase5-20",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Estructura lateral",
+    "situacion": "Se revisa la estructura vertical ubicada a un lado de una estantería.",
+    "pregunta": "¿Cómo se denomina ese conjunto?",
+    "respuestaCorrecta": "Bastidor",
+    "respuestasIncorrectas": [
+      "Larguero",
+      "Pallet",
+      "Rodillo de picking",
+      "Bandeja de miniload",
+      "Placa de características"
+    ],
+    "pista": "Pensá en el soporte lateral vertical.",
+    "explicacion": "El bastidor constituye la estructura lateral vertical de la estantería.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "caso-clase5-21",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Golpes en maniobras",
+    "situacion": "Una carretilla circula cerca de una estructura expuesta a impactos.",
+    "pregunta": "¿Qué elementos ayudan a protegerla?",
+    "respuestaCorrecta": "Protecciones de puntal y protectores laterales",
+    "respuestasIncorrectas": [
+      "Solo etiquetas de inventario",
+      "Solo rodillos de picking",
+      "Solamente una orden de despacho",
+      "Un carrusel horizontal",
+      "Una bandeja de preparación"
+    ],
+    "pista": "El manual muestra dos tipos de protección contra impactos.",
+    "explicacion": "Las protecciones de puntal y los protectores laterales ayudan frente a impactos, pero no reemplazan la inspección ni la circulación cuidadosa.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "caso-clase5-22",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Después de un impacto",
+    "situacion": "Una carretilla golpea una protección situada junto a una estantería.",
+    "pregunta": "¿Qué interpretación corresponde?",
+    "respuestaCorrecta": "Inspeccionar y atender posibles daños según los procedimientos",
+    "respuestasIncorrectas": [
+      "Dar por seguro que la estructura no sufrió daños",
+      "Retirar la placa de características",
+      "Eliminar las inspecciones futuras",
+      "Aumentar la carga sin verificar límites",
+      "Suponer que el protector evita cualquier impacto"
+    ],
+    "pista": "La protección reduce exposición, no garantiza ausencia de daños.",
+    "explicacion": "Las protecciones no eliminan la necesidad de inspeccionar y atender daños.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "caso-clase5-23",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Datos de la instalación",
+    "situacion": "Antes de ubicar una carga se buscan los límites establecidos para la estantería.",
+    "pregunta": "¿Qué elemento permite consultarlos?",
+    "respuestaCorrecta": "La placa de características",
+    "respuestasIncorrectas": [
+      "El protector lateral",
+      "La etiqueta comercial del producto",
+      "La orden de compra",
+      "La bandeja del carrusel",
+      "El indicador de picking"
+    ],
+    "pista": "Buscá la identificación de la propia instalación.",
+    "explicacion": "La placa informa datos y límites de la instalación, que deben respetarse junto con las indicaciones aplicables.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "caso-clase5-24",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Almacenaje temporal",
+    "situacion": "Se reciben muchas unidades homogéneas, estables y aptas para apilar, para una espera breve antes de expedición.",
+    "pregunta": "¿Qué alternativa merece evaluarse?",
+    "respuestaCorrecta": "Almacenaje en bloques",
+    "respuestasIncorrectas": [
+      "Cantiléver para perfiles",
+      "Carrusel para cajas pequeñas",
+      "Miniload obligatorio",
+      "Una posición individual por unidad como única opción",
+      "Bandejas verticales obligatorias"
+    ],
+    "pista": "Pensá en pocas referencias y almacenamiento temporal.",
+    "explicacion": "Los bloques pueden servir como pulmón temporal si la carga, el embalaje, el piso y la estabilidad lo permiten.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Bloques y estanterías para pallets",
+      "entradaLibro": "clase5_bloques"
+    }
+  },
+  {
+    "id": "caso-clase5-25",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Apilado delicado",
+    "situacion": "La mercancía se deforma si otra unidad apoya encima y debe almacenarse en altura.",
+    "pregunta": "¿Qué solución conviene estudiar?",
+    "respuestaCorrecta": "Estanterías dimensionadas que soporten cada carga",
+    "respuestasIncorrectas": [
+      "Apilar directamente sin límites",
+      "Aumentar la altura del bloque sin evaluar resistencia",
+      "Apoyar siempre las cargas más pesadas sobre las frágiles",
+      "Eliminar soportes para ahorrar espacio",
+      "Formar bloques inestables"
+    ],
+    "pista": "La estructura debe evitar transmitir otras cargas a la mercancía.",
+    "explicacion": "Las estanterías permiten organizar niveles sin exigir que una unidad soporte otras encima.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Bloques y estanterías para pallets",
+      "entradaLibro": "clase5_bloques"
+    }
+  },
+  {
+    "id": "caso-clase5-26",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Muchas referencias",
+    "situacion": "Se necesita retirar cada pallet individualmente y hay espacio para pasillos.",
+    "pregunta": "¿Qué configuración ofrece acceso directo?",
+    "respuestaCorrecta": "Estantería convencional de simple profundidad",
+    "respuestasIncorrectas": [
+      "Drive-in con varias cargas por calle",
+      "Doble profundidad con un pallet delante de otro",
+      "Push-back con cargas detrás del frente",
+      "Bloque con unidades interiores",
+      "Calle compacta sin acceso individual permanente"
+    ],
+    "pista": "Cada posición debe estar accesible desde el pasillo.",
+    "explicacion": "En simple profundidad cada pallet tiene acceso directo, a costa de espacio destinado a pasillos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "caso-clase5-27",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Pallet del fondo",
+    "situacion": "Una estantería tiene dos pallets uno detrás del otro.",
+    "pregunta": "¿Qué implica retirar el del fondo?",
+    "respuestaCorrecta": "Necesitar equipo adecuado y posiblemente reubicar el delantero",
+    "respuestasIncorrectas": [
+      "Acceso idéntico al de simple profundidad en todos los casos",
+      "Retiro por gravedad garantizado",
+      "Entrada automática en FIFO",
+      "Ninguna condición sobre el equipo",
+      "Eliminar la necesidad de maniobrar"
+    ],
+    "pista": "El pallet delantero puede interponerse.",
+    "explicacion": "En doble profundidad el pallet frontal limita el acceso al fondo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "caso-clase5-28",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Frigorífico con espacio costoso",
+    "situacion": "Una cámara necesita más posiciones y admite esperar a que se abra un pasillo.",
+    "pregunta": "¿Qué alternativa conviene comparar?",
+    "respuestaCorrecta": "Estanterías sobre bases móviles",
+    "respuestasIncorrectas": [
+      "Solo bloques sin evaluar la carga",
+      "Únicamente pasillos permanentemente abiertos",
+      "Eliminar el acceso a todas las referencias",
+      "Sustituir las estanterías por una cinta de transporte",
+      "Elegir por el color de los carriles"
+    ],
+    "pista": "La solución reduce pasillos permanentes.",
+    "explicacion": "Las bases móviles aumentan capacidad reduciendo pasillos, con espera y restricciones de trabajo simultáneo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "caso-clase5-29",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Muchos operarios",
+    "situacion": "Un depósito necesita trabajar simultáneamente en varios pasillos con movimientos frecuentes.",
+    "pregunta": "¿Qué opción responde mejor a esa prioridad?",
+    "respuestaCorrecta": "Bases estáticas con varios pasillos disponibles",
+    "respuestasIncorrectas": [
+      "Una única calle móvil abierta como garantía de simultaneidad",
+      "Un bloque sin accesos",
+      "Una bobina sobre eje",
+      "Un carrusel sin evaluar capacidad",
+      "Un protector lateral en cada posición"
+    ],
+    "pista": "Compará la disponibilidad simultánea de pasillos.",
+    "explicacion": "Las bases estáticas permiten trabajar en varios pasillos a la vez, aunque ocupan más espacio de circulación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "caso-clase5-30",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Un extremo de operación",
+    "situacion": "En una calle drive-in se cargan primero A y después B por el mismo extremo.",
+    "pregunta": "¿Qué pallet se retira primero en la secuencia habitual?",
+    "respuestaCorrecta": "B, el último que ingresó",
+    "respuestasIncorrectas": [
+      "A, el primero que ingresó",
+      "Siempre ambos a la vez",
+      "El que indique la placa sin mirar la posición",
+      "El de mayor antigüedad sin mover otros",
+      "Ninguno, porque drive-in exige dos extremos"
+    ],
+    "pista": "Aplicá LIFO.",
+    "explicacion": "Drive-in utiliza un mismo extremo y normalmente sigue LIFO.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Compactación, drive-in y drive-through",
+      "entradaLibro": "clase5_compactos"
+    }
+  },
+  {
+    "id": "caso-clase5-31",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Entrada y salida opuestas",
+    "situacion": "Una operación busca que el primer pallet cargado sea el primero en salir por el otro extremo.",
+    "pregunta": "¿Qué configuración permite esa secuencia?",
+    "respuestaCorrecta": "Drive-through operado respetando FIFO",
+    "respuestasIncorrectas": [
+      "Drive-in por un solo extremo en LIFO",
+      "Push-back por el mismo frente",
+      "Bloque sin salida accesible",
+      "Doble profundidad sin evaluar acceso",
+      "Una protección de puntal"
+    ],
+    "pista": "La entrada y la salida están en extremos opuestos.",
+    "explicacion": "Drive-through permite FIFO si la secuencia de carga y retiro se respeta.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Compactación, drive-in y drive-through",
+      "entradaLibro": "clase5_compactos"
+    }
+  },
+  {
+    "id": "caso-clase5-32",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Empuje desde el frente",
+    "situacion": "Cada pallet nuevo empuja a los anteriores y, al retirar el frontal, los demás avanzan.",
+    "pregunta": "¿Qué sistema funciona así?",
+    "respuestaCorrecta": "Push-back",
+    "respuestasIncorrectas": [
+      "Cantiléver",
+      "Simple profundidad",
+      "Miniload",
+      "Entrepisos",
+      "Estantería fija para bobinas"
+    ],
+    "pista": "La carretilla opera desde el frente y la secuencia habitual es LIFO.",
+    "explicacion": "Push-back utiliza carros o rodillos y gravedad, sin que la carretilla ingrese en la calle.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "caso-clase5-33",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Perecederos por rodillos",
+    "situacion": "Una empresa quiere separar carga y descarga y facilitar FIFO para perecederos.",
+    "pregunta": "¿Qué sistema corresponde estudiar?",
+    "respuestaCorrecta": "Estantería dinámica de rodillos con extremos de entrada y salida",
+    "respuestasIncorrectas": [
+      "Push-back habitual por el mismo frente",
+      "Drive-in por un solo extremo",
+      "Bloque sin acceso al fondo",
+      "Cantiléver para tubos",
+      "Protector lateral"
+    ],
+    "pista": "El pallet avanza por gravedad hacia el extremo opuesto.",
+    "explicacion": "El dinámico de rodillos facilita FIFO, siempre con pallets compatibles y una instalación adecuada.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "caso-clase5-34",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Lanzadera en el canal",
+    "situacion": "La carretilla deja un pallet en la cabecera y otro dispositivo lo traslada dentro de la calle.",
+    "pregunta": "¿Qué solución se describe?",
+    "respuestaCorrecta": "Radio-shuttle",
+    "respuestasIncorrectas": [
+      "Estantería simple de acceso directo",
+      "Cantiléver",
+      "Bloque apilado en piso",
+      "Protector de puntal",
+      "Transpaleta manual como único dispositivo"
+    ],
+    "pista": "El transporte interior lo realiza una lanzadera.",
+    "explicacion": "En radio-shuttle la lanzadera mueve pallets dentro del canal y la carretilla opera en la cabecera.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "caso-clase5-35",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Recorridos de picking",
+    "situacion": "El operario camina hasta cada estante para recoger cajas.",
+    "pregunta": "¿Qué estrategia usa?",
+    "respuestaCorrecta": "Persona a producto",
+    "respuestasIncorrectas": [
+      "Producto a persona",
+      "Radio-shuttle para pallets necesariamente",
+      "Clasificación por recorrido definido",
+      "Almacenaje en bloques necesariamente",
+      "Entrega directa al cliente"
+    ],
+    "pista": "Identificá quién se desplaza hasta la ubicación.",
+    "explicacion": "En persona a producto el operario se desplaza; en producto a persona un equipo acerca los artículos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "caso-clase5-36",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Cajas al puesto",
+    "situacion": "Un transelevador lleva cajas almacenadas al puesto de preparación.",
+    "pregunta": "¿Qué solución se describe?",
+    "respuestaCorrecta": "Miniload de producto a persona",
+    "respuestasIncorrectas": [
+      "Drive-in con carretilla dentro de la calle",
+      "Cantiléver para cargas largas",
+      "Bloque de pallets apilados",
+      "Estantería simple sin equipo de recuperación",
+      "Protección de puntal"
+    ],
+    "pista": "El sistema usa un transelevador para cajas.",
+    "explicacion": "El miniload es una solución de producto a persona que requiere inversión y mantenimiento.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "caso-clase5-37",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Reposición y extracción",
+    "situacion": "Las cajas avanzan por gravedad hacia el operario y se reponen por el lado opuesto.",
+    "pregunta": "¿Qué solución se describe?",
+    "respuestaCorrecta": "Estantería dinámica de picking",
+    "respuestasIncorrectas": [
+      "Estantería cantiléver",
+      "Base estática sin rodillos",
+      "Cuna para bobinas",
+      "Drive-in de pallets con un extremo",
+      "Entrepisos sin sistema de flujo"
+    ],
+    "pista": "El producto pequeño se acerca al frente mediante rodillos.",
+    "explicacion": "El picking dinámico separa reposición y extracción y puede facilitar la rotación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "caso-clase5-38",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Pedido de dos zonas",
+    "situacion": "Un pedido combina artículos de estantería dinámica y de miniload.",
+    "pregunta": "¿Qué etapa reúne sus partes?",
+    "respuestaCorrecta": "La consolidación del pedido",
+    "respuestasIncorrectas": [
+      "La protección de puntal",
+      "El anclaje del bastidor",
+      "La apertura de un pasillo móvil",
+      "El apilado de bobinas",
+      "La selección de un larguero"
+    ],
+    "pista": "Las partes preparadas en zonas distintas deben reunirse.",
+    "explicacion": "Un sistema mixto coordina las zonas y consolida los pedidos parciales.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "caso-clase5-39",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Perfiles largos",
+    "situacion": "Un depósito debe almacenar perfiles de longitud variable en soportes accesibles.",
+    "pregunta": "¿Qué sistema está especialmente adaptado?",
+    "respuestaCorrecta": "Estantería cantiléver",
+    "respuestasIncorrectas": [
+      "Miniload para cajas pequeñas",
+      "Cuna para impedir el rodamiento de bobinas",
+      "Carrusel de bandejas",
+      "Drive-in de pallets como única solución",
+      "Protección lateral de estantería"
+    ],
+    "pista": "Tiene columnas y brazos en voladizo.",
+    "explicacion": "El cantiléver sostiene cargas largas mediante brazos; el equipo depende del peso y la altura.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "entradaLibro": "clase5_especiales"
+    }
+  },
+  {
+    "id": "caso-clase5-40",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Bobina que puede rodar",
+    "situacion": "Una bobina debe quedar estable y permitir, cuando el soporte lo admita, desenrollar material.",
+    "pregunta": "¿Qué alternativa es adecuada?",
+    "respuestaCorrecta": "Un soporte o cuna antirrodamiento, o un eje adecuado",
+    "respuestasIncorrectas": [
+      "Apoyarla libremente en una pendiente",
+      "Colocarla sin revisar su peso",
+      "Sostenerla solo con una etiqueta",
+      "Usar un pasillo como soporte",
+      "Prescindir de la estabilidad"
+    ],
+    "pista": "Considerá la forma cilíndrica y su peso.",
+    "explicacion": "Soportes, cunas o ejes adecuados sostienen la bobina; algunos ejes permiten desenrollarla.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "entradaLibro": "clase5_especiales"
+    }
+  },
+  {
+    "id": "caso-clase5-41",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Equipo de recorrido definido",
+    "situacion": "Se necesita conectar dos puntos con un flujo repetitivo de materiales.",
+    "pregunta": "¿Qué equipo pertenece a la categoría de recorrido definido?",
+    "respuestaCorrecta": "Transportador de banda",
+    "respuestasIncorrectas": [
+      "Transpaleta de circulación variable",
+      "Apilador de recorrido variable",
+      "Autoelevador de recorrido variable",
+      "Protector de puntal",
+      "Bastidor vertical"
+    ],
+    "pista": "Su trayectoria entre puntos está definida.",
+    "explicacion": "Los transportadores de banda, rodillos o cadenas son ejemplos de recorrido definido.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
+    "id": "caso-clase5-42",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Elevar o trasladar",
+    "situacion": "Una carga debe desplazarse a baja altura sin ubicarla en niveles elevados.",
+    "pregunta": "¿Qué equipo responde directamente a esa tarea?",
+    "respuestaCorrecta": "Transpaleta compatible con la carga",
+    "respuestasIncorrectas": [
+      "Cuna de bobina",
+      "Larguero fijo",
+      "Malla anticaída",
+      "Placa de características",
+      "Protector lateral"
+    ],
+    "pista": "El equipo desplaza cargas a baja altura.",
+    "explicacion": "La transpaleta desplaza cargas a baja altura; apiladores y autoelevadores también permiten elevarlas.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
     "id": "caso-clase6-1",
     "unidad": "clase6",
     "tipo": "caso",
@@ -2481,6 +3447,420 @@
       "tipo": "Contenidos de la clase",
       "titulo": "Del pedido al despacho",
       "entradaLibro": "clase6_expedicion"
+    }
+  },
+  {
+    "id": "caso-clase6-19",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Confirmación por radiofrecuencia",
+    "situacion": "Un operario recibe una ubicación en su terminal y confirma producto y cantidad.",
+    "pregunta": "¿Qué aporta este dispositivo?",
+    "respuestaCorrecta": "Transmitir instrucciones y registrar confirmaciones",
+    "respuestasIncorrectas": [
+      "Mover automáticamente los pallets",
+      "Sustituir toda la reposición",
+      "Determinar el ancho de los pasillos",
+      "Embalar las unidades sin intervención",
+      "Eliminar la necesidad de identificar artículos"
+    ],
+    "pista": "Pensá en el intercambio de información.",
+    "explicacion": "La terminal comunica instrucciones y confirmaciones al sistema de gestión.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
+    }
+  },
+  {
+    "id": "caso-clase6-20",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Puesto en cabecera",
+    "situacion": "El almacén automático envía un pallet a una estación, donde una persona extrae las cajas solicitadas.",
+    "pregunta": "¿Qué modalidad describe?",
+    "respuestaCorrecta": "Preparación en cabecera",
+    "respuestasIncorrectas": [
+      "Extracción en un pasillo lateral recorrido por el operario",
+      "Distribución final por carretera",
+      "Clasificación de etiquetas ilegibles",
+      "Recepción de un proveedor",
+      "Picking desde cargas apoyadas en el suelo necesariamente"
+    ],
+    "pista": "El pallet llega a una estación.",
+    "explicacion": "En cabecera el sistema acerca el pallet al puesto de extracción.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "caso-clase6-21",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Canales en el lateral",
+    "situacion": "Las referencias de mayor consumo están en canales junto al almacén automático. El operario recorre el pasillo y un transelevador repone los canales.",
+    "pregunta": "¿Cómo se organiza esta preparación?",
+    "respuestaCorrecta": "Picking lateral con reposición desde reserva",
+    "respuestasIncorrectas": [
+      "Picking exclusivamente en cabecera",
+      "Distribución de última milla",
+      "Embalaje en un centro regional",
+      "Extracción sin reposición",
+      "Carrusel horizontal de bandejas"
+    ],
+    "pista": "Prestá atención a quién repone y quién recorre el pasillo.",
+    "explicacion": "El transelevador abastece los canales y el operario recoge la mercancía en el lateral.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "caso-clase6-22",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Área anexa",
+    "situacion": "Un depósito conecta su reserva automática con una zona separada de canales de picking.",
+    "pregunta": "¿Qué medios pueden abastecer esa zona?",
+    "respuestaCorrecta": "Lanzaderas y transportadores conectados a la reserva",
+    "respuestasIncorrectas": [
+      "Solo etiquetas de papel",
+      "Exclusivamente auriculares",
+      "Luces sin movimiento de carga",
+      "Únicamente cajas vacías",
+      "Una ruta de reparto urbano"
+    ],
+    "pista": "Buscá equipos que trasladen mercancía entre áreas.",
+    "explicacion": "Una zona anexa puede recibir mercancía mediante lanzaderas y transportadores.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "caso-clase6-23",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Dos robots",
+    "situacion": "Una instalación compara un robot con brazo articulado y otro que se desplaza sobre dos o tres ejes.",
+    "pregunta": "¿Cuál es el segundo?",
+    "respuestaCorrecta": "Robot de pórtico",
+    "respuestasIncorrectas": [
+      "Robot antropomórfico",
+      "Carrusel Spinblock",
+      "Terminal de radiofrecuencia",
+      "Preparadora de bajo nivel",
+      "Sistema put to light"
+    ],
+    "pista": "Se desplaza sobre ejes.",
+    "explicacion": "El robot de pórtico se mueve sobre dos o tres ejes; el antropomórfico tiene brazo articulado.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "caso-clase6-24",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Nivel intermedio",
+    "situacion": "Una preparadora trabaja en posiciones intermedias de estantería, aproximadamente hasta 3,5 o 4 metros.",
+    "pregunta": "¿Qué modalidad se ilustra?",
+    "respuestaCorrecta": "Picking en niveles medios",
+    "respuestasIncorrectas": [
+      "Picking a nivel del suelo",
+      "Picking exclusivamente en niveles bajos",
+      "Clasificación de paquetes",
+      "Preparación por voz necesariamente",
+      "Despacho de pallets sin extracción"
+    ],
+    "pista": "La altura indicada corresponde a un nivel intermedio.",
+    "explicacion": "Los niveles medios aprovechan altura, con atención al tiempo de elevación y descenso.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "caso-clase6-25",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Definir un pasillo",
+    "situacion": "Un diseñador propone un único ancho para todos los depósitos sin conocer las cargas ni las máquinas.",
+    "pregunta": "¿Qué debería analizar antes?",
+    "respuestaCorrecta": "Dimensiones de carga y equipo, holguras y maniobras",
+    "respuestasIncorrectas": [
+      "Solo el color de las etiquetas",
+      "Únicamente la cantidad de auriculares",
+      "Solo el precio del embalaje",
+      "Exclusivamente el tamaño de la oficina",
+      "Únicamente el número de clientes"
+    ],
+    "pista": "El corredor debe admitir cargas y equipos con seguridad.",
+    "explicacion": "El ancho depende del equipo, las cargas y las holguras; una medida de referencia no es universal.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Diseño de pasillos estrechos",
+      "entradaLibro": "clase6_pasillos"
+    }
+  },
+  {
+    "id": "caso-clase6-26",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Crecimiento en altura",
+    "situacion": "Se comparan posiciones bajas con otras altas para aprovechar mejor el volumen.",
+    "pregunta": "¿Qué intercambio operativo debe evaluarse?",
+    "respuestaCorrecta": "Espacio aprovechado frente a tiempo de acceso y elevación",
+    "respuestasIncorrectas": [
+      "Color de estantería frente a número de facturas",
+      "Cantidad de camiones frente a uso de auriculares",
+      "Tamaño de oficina frente a etiquetas de cliente",
+      "Precio del embalaje frente a ruta aérea",
+      "Número de turnos frente a color de pallets"
+    ],
+    "pista": "El acceso vertical también consume tiempo.",
+    "explicacion": "El picking en altura aprovecha volumen, pero los movimientos verticales pueden disminuir la velocidad.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "caso-clase6-27",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Carga por pedido",
+    "situacion": "Una tanda reúne productos de dos clientes y una luz indica dónde colocar las unidades de cada uno.",
+    "pregunta": "¿Qué función cumple esa luz?",
+    "respuestaCorrecta": "Guiar el depósito por pedido mediante put to light",
+    "respuestasIncorrectas": [
+      "Indicar extracción mediante pick to light",
+      "Mover el pallet desde reserva",
+      "Medir el ancho del pasillo",
+      "Imprimir el albarán",
+      "Reemplazar la identificación del pedido"
+    ],
+    "pista": "La indicación aparece al colocar, no al retirar.",
+    "explicacion": "Put to light señala la posición y la cantidad que se deben depositar para cada orden.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
+    }
+  },
+  {
+    "id": "caso-clase6-28",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Plan de instrucciones",
+    "situacion": "Una orden muestra referencias y cantidades, pero el preparador no puede ubicar los artículos.",
+    "pregunta": "¿Qué dato falta para orientar la búsqueda?",
+    "respuestaCorrecta": "Las ubicaciones de los productos",
+    "respuestasIncorrectas": [
+      "El color de los camiones",
+      "El año de fabricación del edificio",
+      "El nombre del transportador extensible",
+      "La altura del centro regional",
+      "El tipo de avión de reparto"
+    ],
+    "pista": "Pensá en la posición de cada referencia.",
+    "explicacion": "La preparación necesita identificar los productos, sus cantidades y sus ubicaciones.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "entradaLibro": "clase6_expedicion"
+    }
+  },
+  {
+    "id": "caso-clase6-29",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Rotación y recorrido",
+    "situacion": "Una empresa revisa dónde ubicar los productos que se recogen con frecuencia.",
+    "pregunta": "¿Qué criterio ayuda a organizar las posiciones?",
+    "respuestaCorrecta": "Considerar la rotación al distribuir las referencias",
+    "respuestasIncorrectas": [
+      "Ordenar solo por el color del envase",
+      "Ignorar la frecuencia de extracción",
+      "Eliminar el registro de ubicaciones",
+      "Reponer únicamente después del despacho",
+      "Asignar cada pedido sin identificar productos"
+    ],
+    "pista": "La frecuencia de movimiento influye en los recorridos.",
+    "explicacion": "Ordenar ubicaciones según la rotación puede disminuir desplazamientos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "caso-clase6-30",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Bandeja solicitada",
+    "situacion": "Una lanzadera acerca una bandeja almacenada en altura a una abertura de trabajo.",
+    "pregunta": "¿Qué sistema corresponde a esta descripción?",
+    "respuestaCorrecta": "Clasimat",
+    "respuestasIncorrectas": [
+      "Spinblock",
+      "Canal de rodillos de piso",
+      "Transpaleta manual",
+      "Robot de pórtico",
+      "Carretilla trilateral"
+    ],
+    "pista": "La bandeja se guarda en una estructura vertical.",
+    "explicacion": "Clasimat almacena bandejas en altura y las lleva automáticamente al puesto.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase6-31",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Clasificación de paquetes",
+    "situacion": "Una cinta lleva un paquete con código legible a un equipo que determina su salida.",
+    "pregunta": "¿Qué dato orienta la separación en el caso de DHL?",
+    "respuestaCorrecta": "La ruta de destino identificada por el código",
+    "respuestasIncorrectas": [
+      "El color del uniforme del operario",
+      "La altura del edificio",
+      "El orden alfabético del fabricante de la cinta",
+      "La marca de la transpaleta",
+      "La posición del pallet en reserva"
+    ],
+    "pista": "El objetivo es dirigir cada paquete a su salida.",
+    "explicacion": "En el centro mostrado, la lectura del código permite clasificar por ruta de destino.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación y distribución",
+      "entradaLibro": "clase6_clasificacion"
+    }
+  },
+  {
+    "id": "caso-clase6-32",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Embalaje",
+    "situacion": "Después de recoger los artículos se prepara el paquete para su envío.",
+    "pregunta": "¿Qué función puede cumplir el packaging?",
+    "respuestaCorrecta": "Contener y proteger los productos durante su transporte",
+    "respuestasIncorrectas": [
+      "Sustituir el registro de la orden",
+      "Determinar por sí solo la rotación del depósito",
+      "Eliminar la necesidad de clasificar por destino",
+      "Reponer las ubicaciones de picking",
+      "Reemplazar el equipo de manipulación"
+    ],
+    "pista": "Pensá en lo que necesita la carga durante el traslado.",
+    "explicacion": "El packaging contiene, protege e informa, entre otras funciones.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "entradaLibro": "clase6_expedicion"
+    }
+  },
+  {
+    "id": "caso-clase6-33",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Comparar inversiones",
+    "situacion": "Una alternativa automática promete reducir recorridos pero requiere equipos y sistemas nuevos.",
+    "pregunta": "¿Qué comparación permite evaluar su conveniencia?",
+    "respuestaCorrecta": "Inversión y operación frente a ahorros y servicio esperados",
+    "respuestasIncorrectas": [
+      "Solo el precio de compra frente al color del equipo",
+      "Solo el costo del papel frente al número de clientes",
+      "La altura de la oficina frente al tamaño del pallet",
+      "Los recorridos actuales sin considerar implantación",
+      "La inversión inicial sin considerar funcionamiento"
+    ],
+    "pista": "Considerá costos y beneficios de la operación completa.",
+    "explicacion": "La conveniencia depende de inversión, funcionamiento, ahorros, capacidad y servicio.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "caso-clase6-34",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Red de mensajería",
+    "situacion": "Los envíos se concentran en un centro y, tras clasificarse, parten a centros regionales.",
+    "pregunta": "¿Qué papel cumple el nodo central en este esquema?",
+    "respuestaCorrecta": "Concentrar y ordenar envíos para su distribución posterior",
+    "respuestasIncorrectas": [
+      "Preparar siempre los productos de fábrica",
+      "Eliminar la necesidad de transporte regional",
+      "Reemplazar todas las entregas por carretera",
+      "Almacenar indefinidamente cada paquete",
+      "Convertir todos los pedidos en pallets completos"
+    ],
+    "pista": "El nodo reúne flujos y los separa por destino.",
+    "explicacion": "Una red puede concentrar grandes volúmenes en un nodo y encaminarlos a centros regionales.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación y distribución",
+      "entradaLibro": "clase6_clasificacion"
+    }
+  },
+  {
+    "id": "caso-clase6-35",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Piezas de distinta rotación",
+    "situacion": "Un depósito tiene piezas pequeñas con frecuencias de extracción diferentes.",
+    "pregunta": "¿Qué enfoque permite adaptar la preparación?",
+    "respuestaCorrecta": "Combinar soluciones según rotación, tamaño y operación",
+    "respuestasIncorrectas": [
+      "Usar un único sistema sin analizar las piezas",
+      "Eliminar la identificación de ubicaciones",
+      "Tratar toda pieza como pallet completo",
+      "Evitar cualquier planificación de reposición",
+      "Elegir solo por el color de las estanterías"
+    ],
+    "pista": "Las características de las piezas pueden variar.",
+    "explicacion": "Las estrategias manuales, dinámicas y automáticas pueden combinarse según las necesidades.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase6-36",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Registro y existencias",
+    "situacion": "En un caso, un dispositivo confirma lo recogido y el sistema actualiza existencias.",
+    "pregunta": "¿Qué relación existe entre ambas acciones?",
+    "respuestaCorrecta": "La confirmación comunica el movimiento para actualizar el registro",
+    "respuestasIncorrectas": [
+      "La confirmación embala automáticamente el pedido",
+      "El registro sustituye la extracción física",
+      "La actualización indica por sí sola el ancho del pasillo",
+      "El dispositivo transporta las cajas al camión",
+      "La confirmación elimina toda necesidad de control"
+    ],
+    "pista": "Una acción aporta información al sistema.",
+    "explicacion": "Registrar las cantidades extraídas permite mantener actualizado el sistema de gestión.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
     }
   },
   {
@@ -3075,6 +4455,190 @@
     ],
     "pista": "Cruzar una frontera agrega participantes y requisitos.",
     "explicacion": "Los requisitos dependen de la mercancía, el modo, la operación y las jurisdicciones.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-tarifa-zona",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Tarifa por zona",
+    "situacion": "Un operador cobra el mismo precio a todos los destinos de una zona.",
+    "pregunta": "¿Qué perfil representa?",
+    "respuestaCorrecta": "Tarifa uniforme por zona",
+    "respuestasIncorrectas": [
+      "Tarifa proporcional a cada kilómetro",
+      "Tarifa que crece gradualmente en cada destino",
+      "Costo fijo del depósito",
+      "Reclamo por daño",
+      "Tiempo variable de tránsito"
+    ],
+    "pista": "Observá si cambia el precio entre destinos de la misma zona.",
+    "explicacion": "La tarifa uniforme mantiene el precio dentro de la zona definida.",
+    "referencia": {
+      "tipo": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "entradaLibro": "c7_tarifas"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-tarifa-gradual",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Distancias mayores",
+    "situacion": "Un precio aumenta cuando crece el recorrido, pero al duplicar kilómetros no llega a duplicarse.",
+    "pregunta": "¿Qué perfil es compatible con el ejemplo?",
+    "respuestaCorrecta": "Tarifa gradual",
+    "respuestasIncorrectas": [
+      "Tarifa uniforme para toda distancia",
+      "Tarifa exactamente proporcional a los kilómetros",
+      "Costo común de administración",
+      "Certificado de origen",
+      "Flete sin distancia"
+    ],
+    "pista": "Compará el ritmo del aumento del precio con el de la distancia.",
+    "explicacion": "En una tarifa gradual el precio puede aumentar menos que proporcionalmente con la distancia.",
+    "referencia": {
+      "tipo": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "entradaLibro": "c7_tarifas"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-tarifa-demanda",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Dos clientes",
+    "situacion": "Dos clientes reciben cotizaciones distintas para servicios comparables; uno tiene menos alternativas disponibles y valora más la rapidez.",
+    "pregunta": "¿Qué puede ayudar a entender la diferencia?",
+    "respuestaCorrecta": "La demanda y la competencia pueden influir en el precio",
+    "respuestasIncorrectas": [
+      "El tiempo deja de afectar al cliente",
+      "La tarifa siempre debe coincidir con el costo interno",
+      "Ambos envíos necesariamente usan diferentes modos",
+      "El precio depende únicamente de la distancia",
+      "El operador no puede considerar la competencia"
+    ],
+    "pista": "La tarifa puede depender del valor que recibe el cliente y de sus alternativas.",
+    "explicacion": "Además de los costos, las condiciones de demanda y competencia pueden influir en una tarifa.",
+    "referencia": {
+      "tipo": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "entradaLibro": "c7_tarifas"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-terminal-espera",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Conexión demorada",
+    "situacion": "Un tren tiene una tarifa baja, pero el contenedor debe esperar varios días en la terminal y necesita un camión adicional.",
+    "pregunta": "¿Cómo evaluarías la alternativa?",
+    "respuestaCorrecta": "Sumar transferencia, espera y conexión al costo y plazo totales",
+    "respuestasIncorrectas": [
+      "Comparar únicamente la tarifa del tren",
+      "Excluir la espera porque no hay kilómetros recorridos",
+      "Suponer que el camión adicional es gratuito",
+      "Medir solo el peso del contenedor",
+      "Comparar solo el precio de la mercadería"
+    ],
+    "pista": "El trayecto principal es solo una parte de la operación.",
+    "explicacion": "La comparación intermodal debe incluir todos los tramos y sus tiempos.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-costo-fijo",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Depósito sin viajes",
+    "situacion": "Una empresa conserva una instalación de transporte durante un mes con menos envíos; su alquiler mensual pactado no cambia.",
+    "pregunta": "¿Cómo se clasifica ese alquiler en este ejemplo?",
+    "respuestaCorrecta": "Costo fijo en el corto plazo",
+    "respuestasIncorrectas": [
+      "Costo variable por kilómetro",
+      "Tarifa proporcional",
+      "Reclamación de carga",
+      "Costo por litro de combustible",
+      "Tiempo de tránsito"
+    ],
+    "pista": "El importe no cambia directamente con cada envío.",
+    "explicacion": "En este ejemplo el alquiler no varía directamente con la cantidad de viajes a corto plazo.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-factura",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Cobro de transporte",
+    "situacion": "Un cliente quiere revisar los cargos cobrados por un servicio de traslado.",
+    "pregunta": "¿Qué documento consultaría primero?",
+    "respuestaCorrecta": "La factura de transporte",
+    "respuestasIncorrectas": [
+      "Un certificado de origen para identificar el precio del producto",
+      "Una etiqueta de ubicación de estantería",
+      "Una ficha de mantenimiento del vehículo",
+      "Un plano del depósito",
+      "Un registro de inventario de seguridad"
+    ],
+    "pista": "Buscá el documento que detalla el cobro del servicio.",
+    "explicacion": "La factura de transporte detalla los cargos del servicio prestado.",
+    "referencia": {
+      "tipo": "Documentación y reclamos",
+      "titulo": "Documentar y respaldar el envío",
+      "entradaLibro": "c7_documentacion"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-reclamo",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Recepción con daños",
+    "situacion": "Al recibir un envío se observa daño en los bultos y se necesita tramitar el reclamo.",
+    "pregunta": "¿Qué acción aporta respaldo?",
+    "respuestaCorrecta": "Registrar el daño y conservar la documentación de entrega",
+    "respuestasIncorrectas": [
+      "Descartar toda constancia antes de reclamar",
+      "Aceptar que ningún reclamo requiere evidencia",
+      "Modificar el destino en los registros sin constancia",
+      "Clasificar el daño como una reducción automática del flete",
+      "Sustituir el reclamo por una nueva orden de compra"
+    ],
+    "pista": "Una incidencia debe poder documentarse.",
+    "explicacion": "Registrar la incidencia y conservar constancias ayuda a respaldar el reclamo según las condiciones aplicables.",
+    "referencia": {
+      "tipo": "Documentación y reclamos",
+      "titulo": "Documentar y respaldar el envío",
+      "entradaLibro": "c7_documentacion"
+    }
+  },
+  {
+    "id": "caso-c7-nuevo-flota",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Camiones subutilizados",
+    "situacion": "Una empresa con entregas estacionales analiza incorporar una flota propia para todo el año.",
+    "pregunta": "¿Qué aspecto debería revisar?",
+    "respuestaCorrecta": "La utilización prevista junto con los costos completos y el nivel de servicio",
+    "respuestasIncorrectas": [
+      "Solo el color de los vehículos",
+      "Suponer ocupación completa durante todo el año",
+      "Omitir conductores y mantenimiento",
+      "Comparar únicamente el combustible de un viaje",
+      "Suponer que la compra elimina toda gestión"
+    ],
+    "pista": "El control de una flota propia convive con recursos que deben administrarse.",
+    "explicacion": "La utilización, el mantenimiento, los conductores y el servicio afectan la conveniencia de una flota propia.",
     "referencia": {
       "tipo": "Flota, documentación y transporte internacional",
       "titulo": "Flota, documentación y transporte internacional",

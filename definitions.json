@@ -1396,6 +1396,296 @@
     }
   },
   {
+    "id": "def-clase4-16",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "soportes",
+    "ejemplo": "Un estándar fija las características de fabricación.",
+    "titulo": "Pallet normalizado",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Pallet normalizado»?",
+    "respuestaCorrecta": "Paleta fabricada conforme a especificaciones acordadas de dimensiones y construcción.",
+    "respuestasIncorrectas": [
+      "Ejemplo europeo de paleta normalizada de 1.200 × 800 mm que cumple las demás especificaciones correspondientes.",
+      "Paleta de tamaño menor adecuada para cantidades más pequeñas."
+    ],
+    "pista": "Pensá en este ejemplo: Un estándar fija las características de fabricación.",
+    "explicacion": "Pallet normalizado: Paleta fabricada conforme a especificaciones acordadas de dimensiones y construcción. Ejemplo: Un estándar fija las características de fabricación.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Normalización y modularidad",
+      "entradaLibro": "clase4_normalizacion"
+    }
+  },
+  {
+    "id": "def-clase4-17",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "soportes",
+    "ejemplo": "Sus dimensiones permiten combinar cajas modulares.",
+    "titulo": "Europaleta",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Europaleta»?",
+    "respuestaCorrecta": "Ejemplo europeo de paleta normalizada de 1.200 × 800 mm que cumple las demás especificaciones correspondientes.",
+    "respuestasIncorrectas": [
+      "Paleta fabricada conforme a especificaciones acordadas de dimensiones y construcción.",
+      "Paleta de tamaño menor adecuada para cantidades más pequeñas."
+    ],
+    "pista": "Pensá en este ejemplo: Sus dimensiones permiten combinar cajas modulares.",
+    "explicacion": "Europaleta: Ejemplo europeo de paleta normalizada de 1.200 × 800 mm que cumple las demás especificaciones correspondientes. Ejemplo: Sus dimensiones permiten combinar cajas modulares.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Normalización y modularidad",
+      "entradaLibro": "clase4_normalizacion"
+    }
+  },
+  {
+    "id": "def-clase4-18",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "soportes",
+    "ejemplo": "Se utiliza una plataforma más pequeña para una carga reducida.",
+    "titulo": "Media paleta",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Media paleta»?",
+    "respuestaCorrecta": "Paleta de tamaño menor adecuada para cantidades más pequeñas.",
+    "respuestasIncorrectas": [
+      "Paleta fabricada conforme a especificaciones acordadas de dimensiones y construcción.",
+      "Ejemplo europeo de paleta normalizada de 1.200 × 800 mm que cumple las demás especificaciones correspondientes."
+    ],
+    "pista": "Pensá en este ejemplo: Se utiliza una plataforma más pequeña para una carga reducida.",
+    "explicacion": "Media paleta: Paleta de tamaño menor adecuada para cantidades más pequeñas. Ejemplo: Se utiliza una plataforma más pequeña para una carga reducida.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Pallets: tipos y elección",
+      "entradaLibro": "clase4_pallets"
+    }
+  },
+  {
+    "id": "def-clase4-19",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "contenedores",
+    "ejemplo": "Una caja reúne piezas para almacenarlas.",
+    "titulo": "Contenedor logístico",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Contenedor logístico»?",
+    "respuestaCorrecta": "Recipiente o embalaje que agrupa productos en su interior para protegerlos y manipularlos como unidad.",
+    "respuestasIncorrectas": [
+      "División interior de un recipiente que permite separar productos.",
+      "Elementos de la base de algunos contenedores que forman parte de su diseño de apoyo."
+    ],
+    "pista": "Pensá en este ejemplo: Una caja reúne piezas para almacenarlas.",
+    "explicacion": "Contenedor logístico: Recipiente o embalaje que agrupa productos en su interior para protegerlos y manipularlos como unidad. Ejemplo: Una caja reúne piezas para almacenarlas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "entradaLibro": "clase4_contenedores"
+    }
+  },
+  {
+    "id": "def-clase4-20",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "contenedores",
+    "ejemplo": "Una caja dividida mantiene separadas piezas pequeñas.",
+    "titulo": "Compartimento",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Compartimento»?",
+    "respuestaCorrecta": "División interior de un recipiente que permite separar productos.",
+    "respuestasIncorrectas": [
+      "Recipiente o embalaje que agrupa productos en su interior para protegerlos y manipularlos como unidad.",
+      "Elementos de la base de algunos contenedores que forman parte de su diseño de apoyo."
+    ],
+    "pista": "Pensá en este ejemplo: Una caja dividida mantiene separadas piezas pequeñas.",
+    "explicacion": "Compartimento: División interior de un recipiente que permite separar productos. Ejemplo: Una caja dividida mantiene separadas piezas pequeñas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "entradaLibro": "clase4_contenedores"
+    }
+  },
+  {
+    "id": "def-clase4-21",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "contenedores",
+    "ejemplo": "Se revisa si el recipiente tiene patines antes de elegir el apoyo.",
+    "titulo": "Patines",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Patines»?",
+    "respuestaCorrecta": "Elementos de la base de algunos contenedores que forman parte de su diseño de apoyo.",
+    "respuestasIncorrectas": [
+      "Recipiente o embalaje que agrupa productos en su interior para protegerlos y manipularlos como unidad.",
+      "División interior de un recipiente que permite separar productos."
+    ],
+    "pista": "Pensá en este ejemplo: Se revisa si el recipiente tiene patines antes de elegir el apoyo.",
+    "explicacion": "Patines: Elementos de la base de algunos contenedores que forman parte de su diseño de apoyo. Ejemplo: Se revisa si el recipiente tiene patines antes de elegir el apoyo.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "entradaLibro": "clase4_contenedores"
+    }
+  },
+  {
+    "id": "def-clase4-22",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "estiba",
+    "ejemplo": "Se comprueba si los bultos inferiores resisten los niveles superiores.",
+    "titulo": "Apilabilidad",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Apilabilidad»?",
+    "respuestaCorrecta": "Capacidad de colocar cargas unas sobre otras de manera estable y sin daños.",
+    "respuestasIncorrectas": [
+      "Capacidad de un embalaje o soporte para resistir el peso que actúa sobre él.",
+      "Forma en que se reparte el peso de los productos dentro de una carga."
+    ],
+    "pista": "Pensá en este ejemplo: Se comprueba si los bultos inferiores resisten los niveles superiores.",
+    "explicacion": "Apilabilidad: Capacidad de colocar cargas unas sobre otras de manera estable y sin daños. Ejemplo: Se comprueba si los bultos inferiores resisten los niveles superiores.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Apilabilidad y estabilidad",
+      "entradaLibro": "clase4_apilabilidad"
+    }
+  },
+  {
+    "id": "def-clase4-23",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "estiba",
+    "ejemplo": "Se revisa si una caja inferior soporta la carga superior.",
+    "titulo": "Resistencia a la compresión",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Resistencia a la compresión»?",
+    "respuestaCorrecta": "Capacidad de un embalaje o soporte para resistir el peso que actúa sobre él.",
+    "respuestasIncorrectas": [
+      "Capacidad de colocar cargas unas sobre otras de manera estable y sin daños.",
+      "Forma en que se reparte el peso de los productos dentro de una carga."
+    ],
+    "pista": "Pensá en este ejemplo: Se revisa si una caja inferior soporta la carga superior.",
+    "explicacion": "Resistencia a la compresión: Capacidad de un embalaje o soporte para resistir el peso que actúa sobre él. Ejemplo: Se revisa si una caja inferior soporta la carga superior.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Apilabilidad y estabilidad",
+      "entradaLibro": "clase4_apilabilidad"
+    }
+  },
+  {
+    "id": "def-clase4-24",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "estiba",
+    "ejemplo": "Se ordenan los bultos para que el conjunto permanezca estable.",
+    "titulo": "Distribución del peso",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Distribución del peso»?",
+    "respuestaCorrecta": "Forma en que se reparte el peso de los productos dentro de una carga.",
+    "respuestasIncorrectas": [
+      "Capacidad de colocar cargas unas sobre otras de manera estable y sin daños.",
+      "Capacidad de un embalaje o soporte para resistir el peso que actúa sobre él."
+    ],
+    "pista": "Pensá en este ejemplo: Se ordenan los bultos para que el conjunto permanezca estable.",
+    "explicacion": "Distribución del peso: Forma en que se reparte el peso de los productos dentro de una carga. Ejemplo: Se ordenan los bultos para que el conjunto permanezca estable.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
+    }
+  },
+  {
+    "id": "def-clase4-25",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "abc",
+    "ejemplo": "Las referencias se separan en categorías según sus movimientos.",
+    "titulo": "Clasificación ABC",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Clasificación ABC»?",
+    "respuestaCorrecta": "Agrupación de referencias según su contribución acumulada al indicador elegido.",
+    "respuestasIncorrectas": [
+      "Idea de que una proporción relativamente pequeña de elementos puede concentrar gran parte de un resultado.",
+      "Suma progresiva de la participación de las referencias ordenadas en el indicador analizado.",
+      "Producto que registra movimientos o renovación frecuentes durante un período."
+    ],
+    "pista": "Pensá en este ejemplo: Las referencias se separan en categorías según sus movimientos.",
+    "explicacion": "Clasificación ABC: Agrupación de referencias según su contribución acumulada al indicador elegido. Ejemplo: Las referencias se separan en categorías según sus movimientos.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
+    "id": "def-clase4-26",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "abc",
+    "ejemplo": "Pocas referencias pueden concentrar muchos movimientos.",
+    "titulo": "Principio de Pareto",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Principio de Pareto»?",
+    "respuestaCorrecta": "Idea de que una proporción relativamente pequeña de elementos puede concentrar gran parte de un resultado.",
+    "respuestasIncorrectas": [
+      "Agrupación de referencias según su contribución acumulada al indicador elegido.",
+      "Suma progresiva de la participación de las referencias ordenadas en el indicador analizado.",
+      "Producto que registra movimientos o renovación frecuentes durante un período."
+    ],
+    "pista": "Pensá en este ejemplo: Pocas referencias pueden concentrar muchos movimientos.",
+    "explicacion": "Principio de Pareto: Idea de que una proporción relativamente pequeña de elementos puede concentrar gran parte de un resultado. Ejemplo: Pocas referencias pueden concentrar muchos movimientos.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
+    "id": "def-clase4-27",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "abc",
+    "ejemplo": "Se suman los movimientos de las referencias desde la de mayor aporte.",
+    "titulo": "Contribución acumulada",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Contribución acumulada»?",
+    "respuestaCorrecta": "Suma progresiva de la participación de las referencias ordenadas en el indicador analizado.",
+    "respuestasIncorrectas": [
+      "Agrupación de referencias según su contribución acumulada al indicador elegido.",
+      "Idea de que una proporción relativamente pequeña de elementos puede concentrar gran parte de un resultado.",
+      "Producto que registra movimientos o renovación frecuentes durante un período."
+    ],
+    "pista": "Pensá en este ejemplo: Se suman los movimientos de las referencias desde la de mayor aporte.",
+    "explicacion": "Contribución acumulada: Suma progresiva de la participación de las referencias ordenadas en el indicador analizado. Ejemplo: Se suman los movimientos de las referencias desde la de mayor aporte.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
+    "id": "def-clase4-28",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "abc",
+    "ejemplo": "Un artículo se solicita repetidamente en el período.",
+    "titulo": "Referencia de alta rotación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Referencia de alta rotación»?",
+    "respuestaCorrecta": "Producto que registra movimientos o renovación frecuentes durante un período.",
+    "respuestasIncorrectas": [
+      "Agrupación de referencias según su contribución acumulada al indicador elegido.",
+      "Idea de que una proporción relativamente pequeña de elementos puede concentrar gran parte de un resultado.",
+      "Suma progresiva de la participación de las referencias ordenadas en el indicador analizado."
+    ],
+    "pista": "Pensá en este ejemplo: Un artículo se solicita repetidamente en el período.",
+    "explicacion": "Referencia de alta rotación: Producto que registra movimientos o renovación frecuentes durante un período. Ejemplo: Un artículo se solicita repetidamente en el período.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
+    }
+  },
+  {
     "id": "def-clase5-1",
     "unidad": "clase5",
     "tipo": "definicion",
@@ -1738,6 +2028,616 @@
     }
   },
   {
+    "id": "def-clase5-16",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "estructura",
+    "ejemplo": "Se revisa el conjunto vertical de un lateral.",
+    "titulo": "Bastidor",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Bastidor»?",
+    "respuestaCorrecta": "Estructura lateral vertical de una estantería.",
+    "respuestasIncorrectas": [
+      "Viga horizontal que sostiene cargas o sus soportes en una estantería.",
+      "Identificación que permite consultar datos y límites establecidos para la instalación.",
+      "Elemento que ayuda a proteger un puntal frente a impactos de maniobra.",
+      "Elemento que ayuda a proteger el lateral de la estructura frente a impactos."
+    ],
+    "pista": "Pensá en este ejemplo: Se revisa el conjunto vertical de un lateral.",
+    "explicacion": "Bastidor: Estructura lateral vertical de una estantería. Ejemplo: Se revisa el conjunto vertical de un lateral.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "def-clase5-17",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "estructura",
+    "ejemplo": "Dos vigas delimitan un nivel de apoyo.",
+    "titulo": "Larguero",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Larguero»?",
+    "respuestaCorrecta": "Viga horizontal que sostiene cargas o sus soportes en una estantería.",
+    "respuestasIncorrectas": [
+      "Estructura lateral vertical de una estantería.",
+      "Identificación que permite consultar datos y límites establecidos para la instalación.",
+      "Elemento que ayuda a proteger un puntal frente a impactos de maniobra.",
+      "Elemento que ayuda a proteger el lateral de la estructura frente a impactos."
+    ],
+    "pista": "Pensá en este ejemplo: Dos vigas delimitan un nivel de apoyo.",
+    "explicacion": "Larguero: Viga horizontal que sostiene cargas o sus soportes en una estantería. Ejemplo: Dos vigas delimitan un nivel de apoyo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "def-clase5-18",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "estructura",
+    "ejemplo": "Antes de cargar se consultan los límites indicados en la estantería.",
+    "titulo": "Placa de características",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Placa de características»?",
+    "respuestaCorrecta": "Identificación que permite consultar datos y límites establecidos para la instalación.",
+    "respuestasIncorrectas": [
+      "Estructura lateral vertical de una estantería.",
+      "Viga horizontal que sostiene cargas o sus soportes en una estantería.",
+      "Elemento que ayuda a proteger un puntal frente a impactos de maniobra.",
+      "Elemento que ayuda a proteger el lateral de la estructura frente a impactos."
+    ],
+    "pista": "Pensá en este ejemplo: Antes de cargar se consultan los límites indicados en la estantería.",
+    "explicacion": "Placa de características: Identificación que permite consultar datos y límites establecidos para la instalación. Ejemplo: Antes de cargar se consultan los límites indicados en la estantería.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "def-clase5-19",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "estructura",
+    "ejemplo": "Se instala una defensa en un sector expuesto a golpes.",
+    "titulo": "Protección de puntal",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Protección de puntal»?",
+    "respuestaCorrecta": "Elemento que ayuda a proteger un puntal frente a impactos de maniobra.",
+    "respuestasIncorrectas": [
+      "Estructura lateral vertical de una estantería.",
+      "Viga horizontal que sostiene cargas o sus soportes en una estantería.",
+      "Identificación que permite consultar datos y límites establecidos para la instalación.",
+      "Elemento que ayuda a proteger el lateral de la estructura frente a impactos."
+    ],
+    "pista": "Pensá en este ejemplo: Se instala una defensa en un sector expuesto a golpes.",
+    "explicacion": "Protección de puntal: Elemento que ayuda a proteger un puntal frente a impactos de maniobra. Ejemplo: Se instala una defensa en un sector expuesto a golpes.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "def-clase5-20",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "estructura",
+    "ejemplo": "Una defensa resguarda una zona lateral expuesta.",
+    "titulo": "Protector lateral",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Protector lateral»?",
+    "respuestaCorrecta": "Elemento que ayuda a proteger el lateral de la estructura frente a impactos.",
+    "respuestasIncorrectas": [
+      "Estructura lateral vertical de una estantería.",
+      "Viga horizontal que sostiene cargas o sus soportes en una estantería.",
+      "Identificación que permite consultar datos y límites establecidos para la instalación.",
+      "Elemento que ayuda a proteger un puntal frente a impactos de maniobra."
+    ],
+    "pista": "Pensá en este ejemplo: Una defensa resguarda una zona lateral expuesta.",
+    "explicacion": "Protector lateral: Elemento que ayuda a proteger el lateral de la estructura frente a impactos. Ejemplo: Una defensa resguarda una zona lateral expuesta.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "def-clase5-21",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "sistemas_pallets",
+    "ejemplo": "Se agrupan unidades homogéneas para una espera temporal.",
+    "titulo": "Almacenaje en bloques",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Almacenaje en bloques»?",
+    "respuestaCorrecta": "Disposición de unidades juntas, generalmente en el piso y, cuando es viable, apiladas.",
+    "respuestasIncorrectas": [
+      "Estantería que permite acceder directamente a cada pallet desde un pasillo.",
+      "Configuración que ubica un pallet detrás de otro y limita el acceso al del fondo.",
+      "Base que desplaza estanterías sobre carriles para abrir el pasillo requerido."
+    ],
+    "pista": "Pensá en este ejemplo: Se agrupan unidades homogéneas para una espera temporal.",
+    "explicacion": "Almacenaje en bloques: Disposición de unidades juntas, generalmente en el piso y, cuando es viable, apiladas. Ejemplo: Se agrupan unidades homogéneas para una espera temporal.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Bloques y estanterías para pallets",
+      "entradaLibro": "clase5_bloques"
+    }
+  },
+  {
+    "id": "def-clase5-22",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "sistemas_pallets",
+    "ejemplo": "Cada posición tiene acceso sin retirar un pallet delantero.",
+    "titulo": "Simple profundidad",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Simple profundidad»?",
+    "respuestaCorrecta": "Estantería que permite acceder directamente a cada pallet desde un pasillo.",
+    "respuestasIncorrectas": [
+      "Disposición de unidades juntas, generalmente en el piso y, cuando es viable, apiladas.",
+      "Configuración que ubica un pallet detrás de otro y limita el acceso al del fondo.",
+      "Base que desplaza estanterías sobre carriles para abrir el pasillo requerido."
+    ],
+    "pista": "Pensá en este ejemplo: Cada posición tiene acceso sin retirar un pallet delantero.",
+    "explicacion": "Simple profundidad: Estantería que permite acceder directamente a cada pallet desde un pasillo. Ejemplo: Cada posición tiene acceso sin retirar un pallet delantero.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "def-clase5-23",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "sistemas_pallets",
+    "ejemplo": "Se requiere equipo adecuado y puede reubicarse la unidad delantera.",
+    "titulo": "Doble profundidad",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Doble profundidad»?",
+    "respuestaCorrecta": "Configuración que ubica un pallet detrás de otro y limita el acceso al del fondo.",
+    "respuestasIncorrectas": [
+      "Disposición de unidades juntas, generalmente en el piso y, cuando es viable, apiladas.",
+      "Estantería que permite acceder directamente a cada pallet desde un pasillo.",
+      "Base que desplaza estanterías sobre carriles para abrir el pasillo requerido."
+    ],
+    "pista": "Pensá en este ejemplo: Se requiere equipo adecuado y puede reubicarse la unidad delantera.",
+    "explicacion": "Doble profundidad: Configuración que ubica un pallet detrás de otro y limita el acceso al del fondo. Ejemplo: Se requiere equipo adecuado y puede reubicarse la unidad delantera.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "def-clase5-24",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "sistemas_pallets",
+    "ejemplo": "Una cámara reduce los pasillos permanentes y espera la apertura del necesario.",
+    "titulo": "Base móvil",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Base móvil»?",
+    "respuestaCorrecta": "Base que desplaza estanterías sobre carriles para abrir el pasillo requerido.",
+    "respuestasIncorrectas": [
+      "Disposición de unidades juntas, generalmente en el piso y, cuando es viable, apiladas.",
+      "Estantería que permite acceder directamente a cada pallet desde un pasillo.",
+      "Configuración que ubica un pallet detrás de otro y limita el acceso al del fondo."
+    ],
+    "pista": "Pensá en este ejemplo: Una cámara reduce los pasillos permanentes y espera la apertura del necesario.",
+    "explicacion": "Base móvil: Base que desplaza estanterías sobre carriles para abrir el pasillo requerido. Ejemplo: Una cámara reduce los pasillos permanentes y espera la apertura del necesario.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "def-clase5-25",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "rotacion_pallets",
+    "ejemplo": "La carretilla entra en la calle y retira primero el último pallet ingresado.",
+    "titulo": "Drive-in",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Drive-in»?",
+    "respuestaCorrecta": "Estantería compacta con entrada y salida por un mismo extremo, habitualmente LIFO.",
+    "respuestasIncorrectas": [
+      "Estantería compacta con carga y descarga por extremos opuestos, que permite FIFO.",
+      "Sistema en que cada pallet empuja a los anteriores y estos avanzan al retirarse el frontal, habitualmente LIFO.",
+      "Sistema donde los pallets avanzan por gravedad desde la entrada hacia la salida opuesta, en flujo FIFO.",
+      "Sistema con una lanzadera que transporta pallets dentro del canal mientras la carretilla opera en cabecera."
+    ],
+    "pista": "Pensá en este ejemplo: La carretilla entra en la calle y retira primero el último pallet ingresado.",
+    "explicacion": "Drive-in: Estantería compacta con entrada y salida por un mismo extremo, habitualmente LIFO. Ejemplo: La carretilla entra en la calle y retira primero el último pallet ingresado.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Compactación, drive-in y drive-through",
+      "entradaLibro": "clase5_compactos"
+    }
+  },
+  {
+    "id": "def-clase5-26",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "rotacion_pallets",
+    "ejemplo": "Los pallets se cargan por un extremo y salen por el otro respetando el orden.",
+    "titulo": "Drive-through",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Drive-through»?",
+    "respuestaCorrecta": "Estantería compacta con carga y descarga por extremos opuestos, que permite FIFO.",
+    "respuestasIncorrectas": [
+      "Estantería compacta con entrada y salida por un mismo extremo, habitualmente LIFO.",
+      "Sistema en que cada pallet empuja a los anteriores y estos avanzan al retirarse el frontal, habitualmente LIFO.",
+      "Sistema donde los pallets avanzan por gravedad desde la entrada hacia la salida opuesta, en flujo FIFO.",
+      "Sistema con una lanzadera que transporta pallets dentro del canal mientras la carretilla opera en cabecera."
+    ],
+    "pista": "Pensá en este ejemplo: Los pallets se cargan por un extremo y salen por el otro respetando el orden.",
+    "explicacion": "Drive-through: Estantería compacta con carga y descarga por extremos opuestos, que permite FIFO. Ejemplo: Los pallets se cargan por un extremo y salen por el otro respetando el orden.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Compactación, drive-in y drive-through",
+      "entradaLibro": "clase5_compactos"
+    }
+  },
+  {
+    "id": "def-clase5-27",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "rotacion_pallets",
+    "ejemplo": "Los carros o rodillos permiten operar desde el frente sin entrar en la calle.",
+    "titulo": "Push-back",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Push-back»?",
+    "respuestaCorrecta": "Sistema en que cada pallet empuja a los anteriores y estos avanzan al retirarse el frontal, habitualmente LIFO.",
+    "respuestasIncorrectas": [
+      "Estantería compacta con entrada y salida por un mismo extremo, habitualmente LIFO.",
+      "Estantería compacta con carga y descarga por extremos opuestos, que permite FIFO.",
+      "Sistema donde los pallets avanzan por gravedad desde la entrada hacia la salida opuesta, en flujo FIFO.",
+      "Sistema con una lanzadera que transporta pallets dentro del canal mientras la carretilla opera en cabecera."
+    ],
+    "pista": "Pensá en este ejemplo: Los carros o rodillos permiten operar desde el frente sin entrar en la calle.",
+    "explicacion": "Push-back: Sistema en que cada pallet empuja a los anteriores y estos avanzan al retirarse el frontal, habitualmente LIFO. Ejemplo: Los carros o rodillos permiten operar desde el frente sin entrar en la calle.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "def-clase5-28",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "rotacion_pallets",
+    "ejemplo": "Los perecederos recorren rodillos hacia el extremo de extracción.",
+    "titulo": "Dinámico de rodillos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Dinámico de rodillos»?",
+    "respuestaCorrecta": "Sistema donde los pallets avanzan por gravedad desde la entrada hacia la salida opuesta, en flujo FIFO.",
+    "respuestasIncorrectas": [
+      "Estantería compacta con entrada y salida por un mismo extremo, habitualmente LIFO.",
+      "Estantería compacta con carga y descarga por extremos opuestos, que permite FIFO.",
+      "Sistema en que cada pallet empuja a los anteriores y estos avanzan al retirarse el frontal, habitualmente LIFO.",
+      "Sistema con una lanzadera que transporta pallets dentro del canal mientras la carretilla opera en cabecera."
+    ],
+    "pista": "Pensá en este ejemplo: Los perecederos recorren rodillos hacia el extremo de extracción.",
+    "explicacion": "Dinámico de rodillos: Sistema donde los pallets avanzan por gravedad desde la entrada hacia la salida opuesta, en flujo FIFO. Ejemplo: Los perecederos recorren rodillos hacia el extremo de extracción.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "def-clase5-29",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "rotacion_pallets",
+    "ejemplo": "Una lanzadera desplaza las cargas por una calle profunda.",
+    "titulo": "Radio-shuttle",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Radio-shuttle»?",
+    "respuestaCorrecta": "Sistema con una lanzadera que transporta pallets dentro del canal mientras la carretilla opera en cabecera.",
+    "respuestasIncorrectas": [
+      "Estantería compacta con entrada y salida por un mismo extremo, habitualmente LIFO.",
+      "Estantería compacta con carga y descarga por extremos opuestos, que permite FIFO.",
+      "Sistema en que cada pallet empuja a los anteriores y estos avanzan al retirarse el frontal, habitualmente LIFO.",
+      "Sistema donde los pallets avanzan por gravedad desde la entrada hacia la salida opuesta, en flujo FIFO."
+    ],
+    "pista": "Pensá en este ejemplo: Una lanzadera desplaza las cargas por una calle profunda.",
+    "explicacion": "Radio-shuttle: Sistema con una lanzadera que transporta pallets dentro del canal mientras la carretilla opera en cabecera. Ejemplo: Una lanzadera desplaza las cargas por una calle profunda.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "def-clase5-30",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "picking_cajas",
+    "ejemplo": "Una persona recorre estantes con su lista de pedidos.",
+    "titulo": "Persona a producto",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Persona a producto»?",
+    "respuestaCorrecta": "Estrategia en la que el operario se desplaza hasta la ubicación para extraer artículos.",
+    "respuestasIncorrectas": [
+      "Estrategia en la que un equipo lleva cajas o bandejas al puesto de trabajo.",
+      "Sistema que utiliza un transelevador para almacenar y recuperar cajas.",
+      "Solución en la que las cajas avanzan por gravedad hacia el frente de extracción.",
+      "Reunión de las partes de un pedido preparadas en diferentes zonas."
+    ],
+    "pista": "Pensá en este ejemplo: Una persona recorre estantes con su lista de pedidos.",
+    "explicacion": "Persona a producto: Estrategia en la que el operario se desplaza hasta la ubicación para extraer artículos. Ejemplo: Una persona recorre estantes con su lista de pedidos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "def-clase5-31",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "picking_cajas",
+    "ejemplo": "Un equipo acerca los artículos al preparador.",
+    "titulo": "Producto a persona",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Producto a persona»?",
+    "respuestaCorrecta": "Estrategia en la que un equipo lleva cajas o bandejas al puesto de trabajo.",
+    "respuestasIncorrectas": [
+      "Estrategia en la que el operario se desplaza hasta la ubicación para extraer artículos.",
+      "Sistema que utiliza un transelevador para almacenar y recuperar cajas.",
+      "Solución en la que las cajas avanzan por gravedad hacia el frente de extracción.",
+      "Reunión de las partes de un pedido preparadas en diferentes zonas."
+    ],
+    "pista": "Pensá en este ejemplo: Un equipo acerca los artículos al preparador.",
+    "explicacion": "Producto a persona: Estrategia en la que un equipo lleva cajas o bandejas al puesto de trabajo. Ejemplo: Un equipo acerca los artículos al preparador.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "def-clase5-32",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "picking_cajas",
+    "ejemplo": "Un equipo automático busca una caja y la lleva al puesto.",
+    "titulo": "Miniload",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Miniload»?",
+    "respuestaCorrecta": "Sistema que utiliza un transelevador para almacenar y recuperar cajas.",
+    "respuestasIncorrectas": [
+      "Estrategia en la que el operario se desplaza hasta la ubicación para extraer artículos.",
+      "Estrategia en la que un equipo lleva cajas o bandejas al puesto de trabajo.",
+      "Solución en la que las cajas avanzan por gravedad hacia el frente de extracción.",
+      "Reunión de las partes de un pedido preparadas en diferentes zonas."
+    ],
+    "pista": "Pensá en este ejemplo: Un equipo automático busca una caja y la lleva al puesto.",
+    "explicacion": "Miniload: Sistema que utiliza un transelevador para almacenar y recuperar cajas. Ejemplo: Un equipo automático busca una caja y la lleva al puesto.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "def-clase5-33",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "picking_cajas",
+    "ejemplo": "Se reponen cajas por el lado opuesto al del operario.",
+    "titulo": "Picking dinámico",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking dinámico»?",
+    "respuestaCorrecta": "Solución en la que las cajas avanzan por gravedad hacia el frente de extracción.",
+    "respuestasIncorrectas": [
+      "Estrategia en la que el operario se desplaza hasta la ubicación para extraer artículos.",
+      "Estrategia en la que un equipo lleva cajas o bandejas al puesto de trabajo.",
+      "Sistema que utiliza un transelevador para almacenar y recuperar cajas.",
+      "Reunión de las partes de un pedido preparadas en diferentes zonas."
+    ],
+    "pista": "Pensá en este ejemplo: Se reponen cajas por el lado opuesto al del operario.",
+    "explicacion": "Picking dinámico: Solución en la que las cajas avanzan por gravedad hacia el frente de extracción. Ejemplo: Se reponen cajas por el lado opuesto al del operario.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "def-clase5-34",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "picking_cajas",
+    "ejemplo": "Se juntan artículos recogidos en dos sistemas antes del despacho.",
+    "titulo": "Consolidación de pedidos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Consolidación de pedidos»?",
+    "respuestaCorrecta": "Reunión de las partes de un pedido preparadas en diferentes zonas.",
+    "respuestasIncorrectas": [
+      "Estrategia en la que el operario se desplaza hasta la ubicación para extraer artículos.",
+      "Estrategia en la que un equipo lleva cajas o bandejas al puesto de trabajo.",
+      "Sistema que utiliza un transelevador para almacenar y recuperar cajas.",
+      "Solución en la que las cajas avanzan por gravedad hacia el frente de extracción."
+    ],
+    "pista": "Pensá en este ejemplo: Se juntan artículos recogidos en dos sistemas antes del despacho.",
+    "explicacion": "Consolidación de pedidos: Reunión de las partes de un pedido preparadas en diferentes zonas. Ejemplo: Se juntan artículos recogidos en dos sistemas antes del despacho.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "def-clase5-35",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "cargas_especiales",
+    "ejemplo": "Se apoyan perfiles de longitud variable sobre brazos.",
+    "titulo": "Cantiléver",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Cantiléver»?",
+    "respuestaCorrecta": "Estantería de columnas y brazos en voladizo para cargas largas.",
+    "respuestasIncorrectas": [
+      "Soporte adaptado a una bobina o cilindro para impedir que ruede.",
+      "Superficie adicional dentro del edificio que aprovecha la altura para trabajo o almacenaje."
+    ],
+    "pista": "Pensá en este ejemplo: Se apoyan perfiles de longitud variable sobre brazos.",
+    "explicacion": "Cantiléver: Estantería de columnas y brazos en voladizo para cargas largas. Ejemplo: Se apoyan perfiles de longitud variable sobre brazos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "entradaLibro": "clase5_especiales"
+    }
+  },
+  {
+    "id": "def-clase5-36",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "cargas_especiales",
+    "ejemplo": "Una bobina descansa inmovilizada sobre su soporte.",
+    "titulo": "Cuna para bobinas",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Cuna para bobinas»?",
+    "respuestaCorrecta": "Soporte adaptado a una bobina o cilindro para impedir que ruede.",
+    "respuestasIncorrectas": [
+      "Estantería de columnas y brazos en voladizo para cargas largas.",
+      "Superficie adicional dentro del edificio que aprovecha la altura para trabajo o almacenaje."
+    ],
+    "pista": "Pensá en este ejemplo: Una bobina descansa inmovilizada sobre su soporte.",
+    "explicacion": "Cuna para bobinas: Soporte adaptado a una bobina o cilindro para impedir que ruede. Ejemplo: Una bobina descansa inmovilizada sobre su soporte.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "entradaLibro": "clase5_especiales"
+    }
+  },
+  {
+    "id": "def-clase5-37",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "cargas_especiales",
+    "ejemplo": "Se agrega un nivel para preparar pedidos con accesos dimensionados.",
+    "titulo": "Entrepiso",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Entrepiso»?",
+    "respuestaCorrecta": "Superficie adicional dentro del edificio que aprovecha la altura para trabajo o almacenaje.",
+    "respuestasIncorrectas": [
+      "Estantería de columnas y brazos en voladizo para cargas largas.",
+      "Soporte adaptado a una bobina o cilindro para impedir que ruede."
+    ],
+    "pista": "Pensá en este ejemplo: Se agrega un nivel para preparar pedidos con accesos dimensionados.",
+    "explicacion": "Entrepiso: Superficie adicional dentro del edificio que aprovecha la altura para trabajo o almacenaje. Ejemplo: Se agrega un nivel para preparar pedidos con accesos dimensionados.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "entradaLibro": "clase5_especiales"
+    }
+  },
+  {
+    "id": "def-clase5-38",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "recorrido_equipos",
+    "ejemplo": "Una transpaleta se desplaza entre diferentes sectores.",
+    "titulo": "Equipo de recorrido variable",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Equipo de recorrido variable»?",
+    "respuestaCorrecta": "Equipo cuyo trayecto puede variar dentro de los espacios de operación.",
+    "respuestasIncorrectas": [
+      "Equipo que transporta materiales por una trayectoria establecida.",
+      "Equipo que desplaza cargas a baja altura.",
+      "Equipo que almacena y recupera cargas mediante movimientos de traslado y elevación."
+    ],
+    "pista": "Pensá en este ejemplo: Una transpaleta se desplaza entre diferentes sectores.",
+    "explicacion": "Equipo de recorrido variable: Equipo cuyo trayecto puede variar dentro de los espacios de operación. Ejemplo: Una transpaleta se desplaza entre diferentes sectores.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
+    "id": "def-clase5-39",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "recorrido_equipos",
+    "ejemplo": "Una banda conecta puntos de un flujo repetitivo.",
+    "titulo": "Equipo de recorrido definido",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Equipo de recorrido definido»?",
+    "respuestaCorrecta": "Equipo que transporta materiales por una trayectoria establecida.",
+    "respuestasIncorrectas": [
+      "Equipo cuyo trayecto puede variar dentro de los espacios de operación.",
+      "Equipo que desplaza cargas a baja altura.",
+      "Equipo que almacena y recupera cargas mediante movimientos de traslado y elevación."
+    ],
+    "pista": "Pensá en este ejemplo: Una banda conecta puntos de un flujo repetitivo.",
+    "explicacion": "Equipo de recorrido definido: Equipo que transporta materiales por una trayectoria establecida. Ejemplo: Una banda conecta puntos de un flujo repetitivo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
+    "id": "def-clase5-40",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "recorrido_equipos",
+    "ejemplo": "Un pallet se traslada desde recepción hasta otra zona.",
+    "titulo": "Transpaleta",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Transpaleta»?",
+    "respuestaCorrecta": "Equipo que desplaza cargas a baja altura.",
+    "respuestasIncorrectas": [
+      "Equipo cuyo trayecto puede variar dentro de los espacios de operación.",
+      "Equipo que transporta materiales por una trayectoria establecida.",
+      "Equipo que almacena y recupera cargas mediante movimientos de traslado y elevación."
+    ],
+    "pista": "Pensá en este ejemplo: Un pallet se traslada desde recepción hasta otra zona.",
+    "explicacion": "Transpaleta: Equipo que desplaza cargas a baja altura. Ejemplo: Un pallet se traslada desde recepción hasta otra zona.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
+    "id": "def-clase5-41",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "recorrido_equipos",
+    "ejemplo": "Un miniload lo utiliza para recuperar cajas.",
+    "titulo": "Transelevador",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Transelevador»?",
+    "respuestaCorrecta": "Equipo que almacena y recupera cargas mediante movimientos de traslado y elevación.",
+    "respuestasIncorrectas": [
+      "Equipo cuyo trayecto puede variar dentro de los espacios de operación.",
+      "Equipo que transporta materiales por una trayectoria establecida.",
+      "Equipo que desplaza cargas a baja altura."
+    ],
+    "pista": "Pensá en este ejemplo: Un miniload lo utiliza para recuperar cajas.",
+    "explicacion": "Transelevador: Equipo que almacena y recupera cargas mediante movimientos de traslado y elevación. Ejemplo: Un miniload lo utiliza para recuperar cajas.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
     "id": "def-clase6-1",
     "unidad": "clase6",
     "tipo": "definicion",
@@ -1947,7 +2847,8 @@
     "respuestaCorrecta": "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
     "respuestasIncorrectas": [
       "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel.",
-      "Preparación en altura mediante equipos que permiten acceder a la carga."
+      "Preparación en altura mediante equipos que permiten acceder a la carga.",
+      "Preparación en estanterías de altura intermedia con equipos adecuados para acceder a las posiciones."
     ],
     "pista": "Pensá en este ejemplo: Se retiran cajas de pallets apoyados en el piso.",
     "explicacion": "Picking a nivel del suelo: Extracción de unidades desde cargas completas colocadas sobre el suelo. Ejemplo: Se retiran cajas de pallets apoyados en el piso.",
@@ -1969,7 +2870,8 @@
     "respuestaCorrecta": "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel.",
     "respuestasIncorrectas": [
       "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
-      "Preparación en altura mediante equipos que permiten acceder a la carga."
+      "Preparación en altura mediante equipos que permiten acceder a la carga.",
+      "Preparación en estanterías de altura intermedia con equipos adecuados para acceder a las posiciones."
     ],
     "pista": "Pensá en este ejemplo: Se recogen piezas de una estantería baja.",
     "explicacion": "Picking en niveles bajos: Extracción en posiciones accesibles a pie o con preparadora de bajo nivel. Ejemplo: Se recogen piezas de una estantería baja.",
@@ -1991,7 +2893,8 @@
     "respuestaCorrecta": "Preparación en altura mediante equipos que permiten acceder a la carga.",
     "respuestasIncorrectas": [
       "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
-      "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel."
+      "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel.",
+      "Preparación en estanterías de altura intermedia con equipos adecuados para acceder a las posiciones."
     ],
     "pista": "Pensá en este ejemplo: Una máquina eleva al operario hasta una posición.",
     "explicacion": "Picking en niveles altos: Preparación en altura mediante equipos que permiten acceder a la carga. Ejemplo: Una máquina eleva al operario hasta una posición.",
@@ -2065,6 +2968,293 @@
       "tipo": "Contenidos de la clase",
       "titulo": "Cajas, piezas y automatización",
       "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "def-clase6-16",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "alturas",
+    "ejemplo": "Una preparadora recoge cajas en un nivel intermedio.",
+    "titulo": "Picking en niveles medios",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking en niveles medios»?",
+    "respuestaCorrecta": "Preparación en estanterías de altura intermedia con equipos adecuados para acceder a las posiciones.",
+    "respuestasIncorrectas": [
+      "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
+      "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel.",
+      "Preparación en altura mediante equipos que permiten acceder a la carga."
+    ],
+    "pista": "Pensá en este ejemplo: Una preparadora recoge cajas en un nivel intermedio.",
+    "explicacion": "Picking en niveles medios: Preparación en estanterías de altura intermedia con equipos adecuados para acceder a las posiciones. Ejemplo: Una preparadora recoge cajas en un nivel intermedio.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "def-clase6-17",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "dispositivos",
+    "ejemplo": "El preparador confirma la extracción con una terminal.",
+    "titulo": "Terminal de radiofrecuencia",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Terminal de radiofrecuencia»?",
+    "respuestaCorrecta": "Dispositivo que recibe instrucciones y permite confirmar movimientos, ubicaciones o cantidades al sistema.",
+    "respuestasIncorrectas": [
+      "Dispositivo que ayuda a acceder a una altura y posición de trabajo seleccionadas.",
+      "Equipo que desplaza mercancía entre puntos de una instalación."
+    ],
+    "pista": "Pensá en este ejemplo: El preparador confirma la extracción con una terminal.",
+    "explicacion": "Terminal de radiofrecuencia: Dispositivo que recibe instrucciones y permite confirmar movimientos, ubicaciones o cantidades al sistema. Ejemplo: El preparador confirma la extracción con una terminal.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
+    }
+  },
+  {
+    "id": "def-clase6-18",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "dispositivos",
+    "ejemplo": "Una preparadora utiliza la preselección para agilizar el acceso.",
+    "titulo": "Preselector de altura y posición",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Preselector de altura y posición»?",
+    "respuestaCorrecta": "Dispositivo que ayuda a acceder a una altura y posición de trabajo seleccionadas.",
+    "respuestasIncorrectas": [
+      "Dispositivo que recibe instrucciones y permite confirmar movimientos, ubicaciones o cantidades al sistema.",
+      "Equipo que desplaza mercancía entre puntos de una instalación."
+    ],
+    "pista": "Pensá en este ejemplo: Una preparadora utiliza la preselección para agilizar el acceso.",
+    "explicacion": "Preselector de altura y posición: Dispositivo que ayuda a acceder a una altura y posición de trabajo seleccionadas. Ejemplo: Una preparadora utiliza la preselección para agilizar el acceso.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Diseño de pasillos estrechos",
+      "entradaLibro": "clase6_pasillos"
+    }
+  },
+  {
+    "id": "def-clase6-19",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "dispositivos",
+    "ejemplo": "Una cinta lleva paquetes hacia la clasificación.",
+    "titulo": "Transportador",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Transportador»?",
+    "respuestaCorrecta": "Equipo que desplaza mercancía entre puntos de una instalación.",
+    "respuestasIncorrectas": [
+      "Dispositivo que recibe instrucciones y permite confirmar movimientos, ubicaciones o cantidades al sistema.",
+      "Dispositivo que ayuda a acceder a una altura y posición de trabajo seleccionadas."
+    ],
+    "pista": "Pensá en este ejemplo: Una cinta lleva paquetes hacia la clasificación.",
+    "explicacion": "Transportador: Equipo que desplaza mercancía entre puntos de una instalación. Ejemplo: Una cinta lleva paquetes hacia la clasificación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación y distribución",
+      "entradaLibro": "clase6_clasificacion"
+    }
+  },
+  {
+    "id": "def-clase6-20",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "modalidades",
+    "ejemplo": "Un pallet llega al puesto del preparador.",
+    "titulo": "Preparación en cabecera",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Preparación en cabecera»?",
+    "respuestaCorrecta": "Modalidad en la que el sistema acerca pallets a una estación para extraer las unidades solicitadas.",
+    "respuestasIncorrectas": [
+      "Preparación en canales situados junto al almacén, recorridos por el operario y abastecidos desde reserva.",
+      "Área de extracción separada de la reserva automática y abastecida desde ella mediante medios de conexión."
+    ],
+    "pista": "Pensá en este ejemplo: Un pallet llega al puesto del preparador.",
+    "explicacion": "Preparación en cabecera: Modalidad en la que el sistema acerca pallets a una estación para extraer las unidades solicitadas. Ejemplo: Un pallet llega al puesto del preparador.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "def-clase6-21",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "modalidades",
+    "ejemplo": "El transelevador repone canales de gran consumo.",
+    "titulo": "Picking lateral",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking lateral»?",
+    "respuestaCorrecta": "Preparación en canales situados junto al almacén, recorridos por el operario y abastecidos desde reserva.",
+    "respuestasIncorrectas": [
+      "Modalidad en la que el sistema acerca pallets a una estación para extraer las unidades solicitadas.",
+      "Área de extracción separada de la reserva automática y abastecida desde ella mediante medios de conexión."
+    ],
+    "pista": "Pensá en este ejemplo: El transelevador repone canales de gran consumo.",
+    "explicacion": "Picking lateral: Preparación en canales situados junto al almacén, recorridos por el operario y abastecidos desde reserva. Ejemplo: El transelevador repone canales de gran consumo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "def-clase6-22",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "modalidades",
+    "ejemplo": "Las lanzaderas llevan mercancía a canales de una zona anexa.",
+    "titulo": "Zona anexa de picking dinámico",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Zona anexa de picking dinámico»?",
+    "respuestaCorrecta": "Área de extracción separada de la reserva automática y abastecida desde ella mediante medios de conexión.",
+    "respuestasIncorrectas": [
+      "Modalidad en la que el sistema acerca pallets a una estación para extraer las unidades solicitadas.",
+      "Preparación en canales situados junto al almacén, recorridos por el operario y abastecidos desde reserva."
+    ],
+    "pista": "Pensá en este ejemplo: Las lanzaderas llevan mercancía a canales de una zona anexa.",
+    "explicacion": "Zona anexa de picking dinámico: Área de extracción separada de la reserva automática y abastecida desde ella mediante medios de conexión. Ejemplo: Las lanzaderas llevan mercancía a canales de una zona anexa.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "def-clase6-23",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "equipos",
+    "ejemplo": "Un brazo articulado manipula cajas para preparar una carga.",
+    "titulo": "Robot antropomórfico",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Robot antropomórfico»?",
+    "respuestaCorrecta": "Robot de manipulación con brazo articulado.",
+    "respuestasIncorrectas": [
+      "Robot que se desplaza sobre dos o tres ejes para manipular la carga.",
+      "Equipo que recorre un pasillo y almacena o recupera cajas, contenedores o bandejas."
+    ],
+    "pista": "Pensá en este ejemplo: Un brazo articulado manipula cajas para preparar una carga.",
+    "explicacion": "Robot antropomórfico: Robot de manipulación con brazo articulado. Ejemplo: Un brazo articulado manipula cajas para preparar una carga.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "def-clase6-24",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "equipos",
+    "ejemplo": "Un robot de pórtico mueve capas completas.",
+    "titulo": "Robot de pórtico",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Robot de pórtico»?",
+    "respuestaCorrecta": "Robot que se desplaza sobre dos o tres ejes para manipular la carga.",
+    "respuestasIncorrectas": [
+      "Robot de manipulación con brazo articulado.",
+      "Equipo que recorre un pasillo y almacena o recupera cajas, contenedores o bandejas."
+    ],
+    "pista": "Pensá en este ejemplo: Un robot de pórtico mueve capas completas.",
+    "explicacion": "Robot de pórtico: Robot que se desplaza sobre dos o tres ejes para manipular la carga. Ejemplo: Un robot de pórtico mueve capas completas.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "def-clase6-25",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "equipos",
+    "ejemplo": "El equipo recupera una caja para enviarla al puesto.",
+    "titulo": "Transelevador miniload",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Transelevador miniload»?",
+    "respuestaCorrecta": "Equipo que recorre un pasillo y almacena o recupera cajas, contenedores o bandejas.",
+    "respuestasIncorrectas": [
+      "Robot de manipulación con brazo articulado.",
+      "Robot que se desplaza sobre dos o tres ejes para manipular la carga."
+    ],
+    "pista": "Pensá en este ejemplo: El equipo recupera una caja para enviarla al puesto.",
+    "explicacion": "Transelevador miniload: Equipo que recorre un pasillo y almacena o recupera cajas, contenedores o bandejas. Ejemplo: El equipo recupera una caja para enviarla al puesto.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "def-clase6-26",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "despacho",
+    "ejemplo": "Se protege el pedido antes de enviarlo.",
+    "titulo": "Embalaje",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Embalaje»?",
+    "respuestaCorrecta": "Acondicionamiento de los artículos para protegerlos y facilitar su transporte.",
+    "respuestasIncorrectas": [
+      "Separación de envíos según la ruta o destino al que deben dirigirse.",
+      "Colocación de una nueva etiqueta tras revisar una identificación ilegible."
+    ],
+    "pista": "Pensá en este ejemplo: Se protege el pedido antes de enviarlo.",
+    "explicacion": "Embalaje: Acondicionamiento de los artículos para protegerlos y facilitar su transporte. Ejemplo: Se protege el pedido antes de enviarlo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "entradaLibro": "clase6_expedicion"
+    }
+  },
+  {
+    "id": "def-clase6-27",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "despacho",
+    "ejemplo": "Un lector orienta un paquete hacia su salida.",
+    "titulo": "Clasificación por destino",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Clasificación por destino»?",
+    "respuestaCorrecta": "Separación de envíos según la ruta o destino al que deben dirigirse.",
+    "respuestasIncorrectas": [
+      "Acondicionamiento de los artículos para protegerlos y facilitar su transporte.",
+      "Colocación de una nueva etiqueta tras revisar una identificación ilegible."
+    ],
+    "pista": "Pensá en este ejemplo: Un lector orienta un paquete hacia su salida.",
+    "explicacion": "Clasificación por destino: Separación de envíos según la ruta o destino al que deben dirigirse. Ejemplo: Un lector orienta un paquete hacia su salida.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación y distribución",
+      "entradaLibro": "clase6_clasificacion"
+    }
+  },
+  {
+    "id": "def-clase6-28",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "despacho",
+    "ejemplo": "Un paquete con código ilegible pasa a revisión.",
+    "titulo": "Reetiquetado",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Reetiquetado»?",
+    "respuestaCorrecta": "Colocación de una nueva etiqueta tras revisar una identificación ilegible.",
+    "respuestasIncorrectas": [
+      "Acondicionamiento de los artículos para protegerlos y facilitar su transporte.",
+      "Separación de envíos según la ruta o destino al que deben dirigirse."
+    ],
+    "pista": "Pensá en este ejemplo: Un paquete con código ilegible pasa a revisión.",
+    "explicacion": "Reetiquetado: Colocación de una nueva etiqueta tras revisar una identificación ilegible. Ejemplo: Un paquete con código ilegible pasa a revisión.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación y distribución",
+      "entradaLibro": "clase6_clasificacion"
     }
   },
   {
@@ -2703,6 +3893,72 @@
       "tipo": "Flota, documentación y transporte internacional",
       "titulo": "Flota, documentación y transporte internacional",
       "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "def-c7-tarifas-uniforme",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "perfiles de tarifa",
+    "ejemplo": "Un servicio cobra la misma tarifa para distintos destinos de la zona.",
+    "titulo": "Tarifa uniforme por zona",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Tarifa uniforme por zona»?",
+    "respuestaCorrecta": "Precio que se mantiene igual dentro de una zona definida.",
+    "respuestasIncorrectas": [
+      "Precio que aumenta en la misma proporción que la distancia.",
+      "Precio que aumenta con la distancia, pero puede hacerlo a un ritmo menor."
+    ],
+    "pista": "Pensá en este ejemplo: Un servicio cobra la misma tarifa para distintos destinos de la zona.",
+    "explicacion": "Tarifa uniforme por zona: Precio que se mantiene igual dentro de una zona definida. Ejemplo: Un servicio cobra la misma tarifa para distintos destinos de la zona.",
+    "referencia": {
+      "tipo": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "entradaLibro": "c7_tarifas"
+    }
+  },
+  {
+    "id": "def-c7-tarifas-proporcional",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "perfiles de tarifa",
+    "ejemplo": "Si se duplica la distancia, se duplica el precio bajo ese perfil.",
+    "titulo": "Tarifa proporcional",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Tarifa proporcional»?",
+    "respuestaCorrecta": "Precio que aumenta en la misma proporción que la distancia.",
+    "respuestasIncorrectas": [
+      "Precio que se mantiene igual dentro de una zona definida.",
+      "Precio que aumenta con la distancia, pero puede hacerlo a un ritmo menor."
+    ],
+    "pista": "Pensá en este ejemplo: Si se duplica la distancia, se duplica el precio bajo ese perfil.",
+    "explicacion": "Tarifa proporcional: Precio que aumenta en la misma proporción que la distancia. Ejemplo: Si se duplica la distancia, se duplica el precio bajo ese perfil.",
+    "referencia": {
+      "tipo": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "entradaLibro": "c7_tarifas"
+    }
+  },
+  {
+    "id": "def-c7-tarifas-gradual",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "perfiles de tarifa",
+    "ejemplo": "Un trayecto del doble de kilómetros cuesta menos del doble.",
+    "titulo": "Tarifa gradual",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Tarifa gradual»?",
+    "respuestaCorrecta": "Precio que aumenta con la distancia, pero puede hacerlo a un ritmo menor.",
+    "respuestasIncorrectas": [
+      "Precio que se mantiene igual dentro de una zona definida.",
+      "Precio que aumenta en la misma proporción que la distancia."
+    ],
+    "pista": "Pensá en este ejemplo: Un trayecto del doble de kilómetros cuesta menos del doble.",
+    "explicacion": "Tarifa gradual: Precio que aumenta con la distancia, pero puede hacerlo a un ritmo menor. Ejemplo: Un trayecto del doble de kilómetros cuesta menos del doble.",
+    "referencia": {
+      "tipo": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "entradaLibro": "c7_tarifas"
     }
   }
 ]

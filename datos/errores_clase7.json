@@ -94,5 +94,21 @@
     "pista": "Revisá qué recursos requiere operar vehículos propios.",
     "explicacion": "La empresa con flota propia debe gestionar también sus conductores.",
     "libro": "c7_gestion"
+  },
+  {
+    "id": "error-c7-perfiles",
+    "titulo": "Perfiles de tarifas",
+    "oraciones": [
+      "Una tarifa uniforme puede aplicarse dentro de una zona.",
+      "Una tarifa proporcional crece en la misma proporción que la distancia.",
+      "Una tarifa gradual puede crecer menos que proporcionalmente con la distancia.",
+      "El precio del transporte siempre es idéntico al costo interno del operador.",
+      "La competencia y la demanda pueden influir en el precio."
+    ],
+    "incorrecta": 3,
+    "correccion": "La tarifa cobrada y el costo interno son conceptos distintos.",
+    "pista": "Distinguí el precio al cliente del costo del operador.",
+    "explicacion": "La tarifa puede reflejar costos, demanda y competencia; no equivale necesariamente al costo.",
+    "libro": "c7_tarifas"
   }
 ]

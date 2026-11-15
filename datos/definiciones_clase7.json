@@ -214,5 +214,29 @@
     "definicion": "Conjunto de vehículos operados por la misma empresa que necesita el transporte.",
     "ejemplo": "Una empresa gestiona sus vehículos, conductores y mantenimiento.",
     "libro": "c7_gestion"
+  },
+  {
+    "id": "def-c7-tarifas-uniforme",
+    "grupo": "perfiles de tarifa",
+    "termino": "Tarifa uniforme por zona",
+    "definicion": "Precio que se mantiene igual dentro de una zona definida.",
+    "ejemplo": "Un servicio cobra la misma tarifa para distintos destinos de la zona.",
+    "libro": "c7_tarifas"
+  },
+  {
+    "id": "def-c7-tarifas-proporcional",
+    "grupo": "perfiles de tarifa",
+    "termino": "Tarifa proporcional",
+    "definicion": "Precio que aumenta en la misma proporción que la distancia.",
+    "ejemplo": "Si se duplica la distancia, se duplica el precio bajo ese perfil.",
+    "libro": "c7_tarifas"
+  },
+  {
+    "id": "def-c7-tarifas-gradual",
+    "grupo": "perfiles de tarifa",
+    "termino": "Tarifa gradual",
+    "definicion": "Precio que aumenta con la distancia, pero puede hacerlo a un ritmo menor.",
+    "ejemplo": "Un trayecto del doble de kilómetros cuesta menos del doble.",
+    "libro": "c7_tarifas"
   }
 ]

@@ -62,5 +62,133 @@
     "pista": "La máquina necesita información coherente con el flujo físico.",
     "explicacion": "El control de ubicaciones y la coordinación siguen siendo necesarios con sistemas automáticos.",
     "libro": "clase4_sistemas"
+  },
+  {
+    "id": "error-clase4-5",
+    "titulo": "Paletas y materiales",
+    "oraciones": [
+      "La madera es un material de uso extendido para pallets.",
+      "Los pallets metálicos se usan, entre otras actividades, en las industrias automotriz y metalúrgica.",
+      "Los pallets plásticos pueden facilitar la limpieza.",
+      "Todas las paletas plásticas son necesariamente aptas para cualquier carga y equipo.",
+      "La resistencia y el estado importan al elegir una paleta."
+    ],
+    "incorrecta": 3,
+    "correccion": "La aptitud de una paleta plástica debe evaluarse para la carga y el equipo concretos.",
+    "pista": "La facilidad de limpieza no garantiza compatibilidad.",
+    "explicacion": "También deben evaluarse rigidez, resistencia y posible deslizamiento.",
+    "libro": "clase4_pallets"
+  },
+  {
+    "id": "error-clase4-6",
+    "titulo": "Construcción de pallets",
+    "oraciones": [
+      "Las paletas pueden tener dos o cuatro entradas para horquillas.",
+      "Una media paleta puede utilizarse para cantidades menores.",
+      "Existen paletas reutilizables y de un solo uso.",
+      "Las dimensiones exteriores garantizan que cualquier base puede apoyarse en cualquier estantería.",
+      "La orientación y el diseño de la base influyen en la compatibilidad."
+    ],
+    "incorrecta": 3,
+    "correccion": "Las dimensiones exteriores no garantizan por sí solas la compatibilidad con una estantería.",
+    "pista": "Pensá en el apoyo real de la base.",
+    "explicacion": "Hay que revisar el diseño, la orientación, el estado y la resistencia.",
+    "libro": "clase4_pallets"
+  },
+  {
+    "id": "error-clase4-7",
+    "titulo": "Europaleta y módulos",
+    "oraciones": [
+      "La europaleta es un ejemplo de pallet normalizado europeo.",
+      "Sus dimensiones son 1.200 × 800 mm.",
+      "Un pallet de esas dimensiones cumple automáticamente todos los requisitos de la europaleta.",
+      "Las cajas de 600 × 400 mm pueden combinarse sobre esa superficie.",
+      "La normalización puede incluir requisitos de construcción y calidad."
+    ],
+    "incorrecta": 2,
+    "correccion": "Además de las dimensiones deben cumplirse los demás requisitos aplicables.",
+    "pista": "Medir no equivale a verificar todas las especificaciones.",
+    "explicacion": "La medida no acredita por sí sola la construcción ni la calidad requeridas.",
+    "libro": "clase4_normalizacion"
+  },
+  {
+    "id": "error-clase4-8",
+    "titulo": "Contenedores",
+    "oraciones": [
+      "Un contenedor logístico puede agrupar productos en su interior.",
+      "Los contenedores pueden clasificarse por material, tamaño y diseño de base.",
+      "Las cajas pequeñas pueden tener compartimentos o tapa.",
+      "Todo contenedor sin patines es compatible con cualquier transportador de rodillos.",
+      "Algunos modelos necesitan apoyos adicionales."
+    ],
+    "incorrecta": 3,
+    "correccion": "La compatibilidad con rodillos debe comprobarse para cada diseño de base.",
+    "pista": "Prestá atención al apoyo del contenedor.",
+    "explicacion": "Los modelos sin patines no son necesariamente compatibles y pueden requerir soportes.",
+    "libro": "clase4_contenedores"
+  },
+  {
+    "id": "error-clase4-9",
+    "titulo": "Apilado seguro",
+    "oraciones": [
+      "La apilabilidad permite aprovechar la altura cuando la carga lo admite.",
+      "La resistencia a la compresión del embalaje influye en el apilado.",
+      "Existe una cantidad universal de niveles segura para cualquier mercancía.",
+      "La distribución del peso afecta la estabilidad.",
+      "Es conveniente respetar las indicaciones de cada carga."
+    ],
+    "incorrecta": 2,
+    "correccion": "El número de niveles depende de la carga, embalaje, soporte y condiciones.",
+    "pista": "Compará productos y embalajes diferentes.",
+    "explicacion": "No toda carga es apilable y cada conjunto tiene límites propios.",
+    "libro": "clase4_apilabilidad"
+  },
+  {
+    "id": "error-clase4-10",
+    "titulo": "Rotación y ubicación",
+    "oraciones": [
+      "La rotación describe la frecuencia de movimiento o renovación durante un período.",
+      "Una referencia de alta rotación suele requerir accesos frecuentes.",
+      "Las referencias poco solicitadas pueden permanecer más tiempo almacenadas.",
+      "La ubicación de una referencia debe decidirse sin considerar seguridad ni volumen.",
+      "Las posiciones accesibles pueden reducir recorridos de preparación."
+    ],
+    "incorrecta": 3,
+    "correccion": "La ubicación también debe considerar seguridad, volumen y espacio disponible.",
+    "pista": "La frecuencia no es el único dato de diseño.",
+    "explicacion": "La rotación orienta el acceso, pero no sustituye las restricciones físicas.",
+    "libro": "clase4_rotacion"
+  },
+  {
+    "id": "error-clase4-11",
+    "titulo": "Curva ABC",
+    "oraciones": [
+      "La curva puede construirse usando movimientos como indicador.",
+      "Las referencias se ordenan de mayor a menor contribución.",
+      "La curva compara porcentajes acumulados de referencias y del indicador.",
+      "Las categorías A, B y C tienen cortes universales idénticos para todas las empresas.",
+      "La clasificación puede revisarse cuando cambia la demanda."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los límites de las categorías se establecen con datos y criterios del caso.",
+    "pista": "Los patrones de actividad varían entre almacenes.",
+    "explicacion": "La clasificación depende del indicador, el período y los datos observados.",
+    "libro": "clase4_abc"
+  },
+  {
+    "id": "error-clase4-12",
+    "titulo": "Principio de Pareto",
+    "oraciones": [
+      "Una parte pequeña de las referencias puede concentrar gran parte de la actividad.",
+      "El 80/20 es una relación ilustrativa de concentración.",
+      "Todos los almacenes registran necesariamente una proporción exacta de 80/20.",
+      "El indicador puede ser el consumo o los movimientos.",
+      "El análisis ABC puede orientar la reposición y el control."
+    ],
+    "incorrecta": 2,
+    "correccion": "Los porcentajes reales dependen de los datos del caso.",
+    "pista": "Una orientación no equivale a una garantía.",
+    "explicacion": "La concentración y los cortes varían según la empresa y el período.",
+    "libro": "clase4_abc"
   }
 ]

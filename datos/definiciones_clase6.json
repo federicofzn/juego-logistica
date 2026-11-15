@@ -118,5 +118,109 @@
     "definicion": "Sistema con transelevador para almacenar y recuperar cajas o bandejas.",
     "ejemplo": "Una caja recuperada se envía al puesto de picking.",
     "libro": "clase6_sistemas"
+  },
+  {
+    "id": "def-clase6-16",
+    "grupo": "alturas",
+    "termino": "Picking en niveles medios",
+    "definicion": "Preparación en estanterías de altura intermedia con equipos adecuados para acceder a las posiciones.",
+    "ejemplo": "Una preparadora recoge cajas en un nivel intermedio.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "def-clase6-17",
+    "grupo": "dispositivos",
+    "termino": "Terminal de radiofrecuencia",
+    "definicion": "Dispositivo que recibe instrucciones y permite confirmar movimientos, ubicaciones o cantidades al sistema.",
+    "ejemplo": "El preparador confirma la extracción con una terminal.",
+    "libro": "clase6_tecnologias"
+  },
+  {
+    "id": "def-clase6-18",
+    "grupo": "dispositivos",
+    "termino": "Preselector de altura y posición",
+    "definicion": "Dispositivo que ayuda a acceder a una altura y posición de trabajo seleccionadas.",
+    "ejemplo": "Una preparadora utiliza la preselección para agilizar el acceso.",
+    "libro": "clase6_pasillos"
+  },
+  {
+    "id": "def-clase6-19",
+    "grupo": "dispositivos",
+    "termino": "Transportador",
+    "definicion": "Equipo que desplaza mercancía entre puntos de una instalación.",
+    "ejemplo": "Una cinta lleva paquetes hacia la clasificación.",
+    "libro": "clase6_clasificacion"
+  },
+  {
+    "id": "def-clase6-20",
+    "grupo": "modalidades",
+    "termino": "Preparación en cabecera",
+    "definicion": "Modalidad en la que el sistema acerca pallets a una estación para extraer las unidades solicitadas.",
+    "ejemplo": "Un pallet llega al puesto del preparador.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "def-clase6-21",
+    "grupo": "modalidades",
+    "termino": "Picking lateral",
+    "definicion": "Preparación en canales situados junto al almacén, recorridos por el operario y abastecidos desde reserva.",
+    "ejemplo": "El transelevador repone canales de gran consumo.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "def-clase6-22",
+    "grupo": "modalidades",
+    "termino": "Zona anexa de picking dinámico",
+    "definicion": "Área de extracción separada de la reserva automática y abastecida desde ella mediante medios de conexión.",
+    "ejemplo": "Las lanzaderas llevan mercancía a canales de una zona anexa.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "def-clase6-23",
+    "grupo": "equipos",
+    "termino": "Robot antropomórfico",
+    "definicion": "Robot de manipulación con brazo articulado.",
+    "ejemplo": "Un brazo articulado manipula cajas para preparar una carga.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "def-clase6-24",
+    "grupo": "equipos",
+    "termino": "Robot de pórtico",
+    "definicion": "Robot que se desplaza sobre dos o tres ejes para manipular la carga.",
+    "ejemplo": "Un robot de pórtico mueve capas completas.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "def-clase6-25",
+    "grupo": "equipos",
+    "termino": "Transelevador miniload",
+    "definicion": "Equipo que recorre un pasillo y almacena o recupera cajas, contenedores o bandejas.",
+    "ejemplo": "El equipo recupera una caja para enviarla al puesto.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "def-clase6-26",
+    "grupo": "despacho",
+    "termino": "Embalaje",
+    "definicion": "Acondicionamiento de los artículos para protegerlos y facilitar su transporte.",
+    "ejemplo": "Se protege el pedido antes de enviarlo.",
+    "libro": "clase6_expedicion"
+  },
+  {
+    "id": "def-clase6-27",
+    "grupo": "despacho",
+    "termino": "Clasificación por destino",
+    "definicion": "Separación de envíos según la ruta o destino al que deben dirigirse.",
+    "ejemplo": "Un lector orienta un paquete hacia su salida.",
+    "libro": "clase6_clasificacion"
+  },
+  {
+    "id": "def-clase6-28",
+    "grupo": "despacho",
+    "termino": "Reetiquetado",
+    "definicion": "Colocación de una nueva etiqueta tras revisar una identificación ilegible.",
+    "ejemplo": "Un paquete con código ilegible pasa a revisión.",
+    "libro": "clase6_clasificacion"
   }
 ]

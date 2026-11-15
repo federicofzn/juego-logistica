@@ -1329,6 +1329,14 @@ button.match-item:not(:disabled):hover {
 .log-pallet .log-base { fill: #78471f; }
 .log-load ul { margin: 0; padding-left: 19px; color: #334155; font-size: 0.78rem; font-weight: 700; }
 .log-load li + li { margin-top: 6px; }
+.log-rack { display: flex; align-items: center; gap: 14px; }
+.log-rack svg { width: min(48%, 240px); flex: none; }
+.rack-frame { fill: none; stroke: #1b5379; stroke-width: 8; stroke-linejoin: round; }
+.rack-protection { fill: #f4bd53; stroke: #975216; stroke-width: 3; }
+.rack-cargo { fill: #efc398; stroke: #a6652f; stroke-width: 2; }
+.log-rack text { fill: #173b55; font-size: 16px; font-weight: 900; }
+.log-rack ol { margin: 0; padding-left: 22px; color: #334155; font-size: 0.78rem; font-weight: 700; }
+.log-rack li + li { margin-top: 8px; }
 @media (max-width: 540px) {
   .log-compare { grid-template-columns: 1fr; }
   .log-step { min-width: 68px; }

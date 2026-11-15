@@ -118,5 +118,109 @@
     "definicion": "Herramienta informática que coordina operaciones e información de almacén.",
     "ejemplo": "El sistema vincula tareas con ubicaciones e inventario.",
     "libro": "clase4_decasa"
+  },
+  {
+    "id": "def-clase4-16",
+    "grupo": "soportes",
+    "termino": "Pallet normalizado",
+    "definicion": "Paleta fabricada conforme a especificaciones acordadas de dimensiones y construcción.",
+    "ejemplo": "Un estándar fija las características de fabricación.",
+    "libro": "clase4_normalizacion"
+  },
+  {
+    "id": "def-clase4-17",
+    "grupo": "soportes",
+    "termino": "Europaleta",
+    "definicion": "Ejemplo europeo de paleta normalizada de 1.200 × 800 mm que cumple las demás especificaciones correspondientes.",
+    "ejemplo": "Sus dimensiones permiten combinar cajas modulares.",
+    "libro": "clase4_normalizacion"
+  },
+  {
+    "id": "def-clase4-18",
+    "grupo": "soportes",
+    "termino": "Media paleta",
+    "definicion": "Paleta de tamaño menor adecuada para cantidades más pequeñas.",
+    "ejemplo": "Se utiliza una plataforma más pequeña para una carga reducida.",
+    "libro": "clase4_pallets"
+  },
+  {
+    "id": "def-clase4-19",
+    "grupo": "contenedores",
+    "termino": "Contenedor logístico",
+    "definicion": "Recipiente o embalaje que agrupa productos en su interior para protegerlos y manipularlos como unidad.",
+    "ejemplo": "Una caja reúne piezas para almacenarlas.",
+    "libro": "clase4_contenedores"
+  },
+  {
+    "id": "def-clase4-20",
+    "grupo": "contenedores",
+    "termino": "Compartimento",
+    "definicion": "División interior de un recipiente que permite separar productos.",
+    "ejemplo": "Una caja dividida mantiene separadas piezas pequeñas.",
+    "libro": "clase4_contenedores"
+  },
+  {
+    "id": "def-clase4-21",
+    "grupo": "contenedores",
+    "termino": "Patines",
+    "definicion": "Elementos de la base de algunos contenedores que forman parte de su diseño de apoyo.",
+    "ejemplo": "Se revisa si el recipiente tiene patines antes de elegir el apoyo.",
+    "libro": "clase4_contenedores"
+  },
+  {
+    "id": "def-clase4-22",
+    "grupo": "estiba",
+    "termino": "Apilabilidad",
+    "definicion": "Capacidad de colocar cargas unas sobre otras de manera estable y sin daños.",
+    "ejemplo": "Se comprueba si los bultos inferiores resisten los niveles superiores.",
+    "libro": "clase4_apilabilidad"
+  },
+  {
+    "id": "def-clase4-23",
+    "grupo": "estiba",
+    "termino": "Resistencia a la compresión",
+    "definicion": "Capacidad de un embalaje o soporte para resistir el peso que actúa sobre él.",
+    "ejemplo": "Se revisa si una caja inferior soporta la carga superior.",
+    "libro": "clase4_apilabilidad"
+  },
+  {
+    "id": "def-clase4-24",
+    "grupo": "estiba",
+    "termino": "Distribución del peso",
+    "definicion": "Forma en que se reparte el peso de los productos dentro de una carga.",
+    "ejemplo": "Se ordenan los bultos para que el conjunto permanezca estable.",
+    "libro": "clase4_diseno"
+  },
+  {
+    "id": "def-clase4-25",
+    "grupo": "abc",
+    "termino": "Clasificación ABC",
+    "definicion": "Agrupación de referencias según su contribución acumulada al indicador elegido.",
+    "ejemplo": "Las referencias se separan en categorías según sus movimientos.",
+    "libro": "clase4_abc"
+  },
+  {
+    "id": "def-clase4-26",
+    "grupo": "abc",
+    "termino": "Principio de Pareto",
+    "definicion": "Idea de que una proporción relativamente pequeña de elementos puede concentrar gran parte de un resultado.",
+    "ejemplo": "Pocas referencias pueden concentrar muchos movimientos.",
+    "libro": "clase4_abc"
+  },
+  {
+    "id": "def-clase4-27",
+    "grupo": "abc",
+    "termino": "Contribución acumulada",
+    "definicion": "Suma progresiva de la participación de las referencias ordenadas en el indicador analizado.",
+    "ejemplo": "Se suman los movimientos de las referencias desde la de mayor aporte.",
+    "libro": "clase4_abc"
+  },
+  {
+    "id": "def-clase4-28",
+    "grupo": "abc",
+    "termino": "Referencia de alta rotación",
+    "definicion": "Producto que registra movimientos o renovación frecuentes durante un período.",
+    "ejemplo": "Un artículo se solicita repetidamente en el período.",
+    "libro": "clase4_rotacion"
   }
 ]

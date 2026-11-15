@@ -134,6 +134,40 @@
       "ejemplos": [
         "Un camión conecta un depósito con una terminal ferroviaria."
       ]
+    },
+    "c7_tarifas": {
+      "categoria": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "intro": [
+        "El perfil tarifario describe cómo cambia el precio según las características de un envío. La distancia es un factor, pero también importan el volumen y las condiciones de la demanda."
+      ],
+      "notas": [
+        "Una tarifa uniforme puede aplicar el mismo precio dentro de una zona definida.",
+        "Una tarifa proporcional aumenta en la misma proporción que la distancia; una gradual puede aumentar a un ritmo menor.",
+        "La competencia y el valor del servicio para el cliente pueden influir en el precio.",
+        "El costo interno y la tarifa cobrada son conceptos distintos."
+      ],
+      "ejemplos": [
+        "Si duplicar la distancia hace subir el precio menos del doble, el perfil puede ser gradual."
+      ],
+      "ojo": "Son formas de describir tarifas: las condiciones reales dependen del operador y del contrato."
+    },
+    "c7_documentacion": {
+      "categoria": "Documentación y reclamos",
+      "titulo": "Documentar y respaldar el envío",
+      "intro": [
+        "Los documentos permiten identificar una operación, registrar condiciones y respaldar el tratamiento de incidencias."
+      ],
+      "notas": [
+        "El conocimiento de embarque registra la recepción y condiciones del transporte, con efectos que dependen de la modalidad aplicable.",
+        "La factura de transporte identifica los cargos del servicio.",
+        "Un reclamo por daño, pérdida, demora o cobro discutido necesita documentación de respaldo.",
+        "En operaciones internacionales pueden intervenir factura comercial, certificado de origen, seguro y documentos aduaneros."
+      ],
+      "ejemplos": [
+        "Ante una caja dañada, se conserva la constancia de entrega y se reúne evidencia para presentar el reclamo."
+      ],
+      "ojo": "No todos los envíos requieren los mismos documentos: comprobá los requisitos de cada operación."
     }
   }
 }

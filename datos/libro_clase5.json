@@ -79,6 +79,155 @@
       "ejemplos": [
         "Si una carga vuelve varias veces al mismo sector, revisar el trazado puede eliminar recorridos evitables."
       ]
+    },
+    "clase5_componentes": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "intro": [
+        "En las estanterías para pallets, bastidores verticales y largueros horizontales forman la estructura de los niveles de carga."
+      ],
+      "notas": [
+        "Los bastidores son las estructuras laterales verticales; los largueros son vigas horizontales que sostienen las cargas o sus soportes.",
+        "Las uniones, los arriostramientos y los anclajes deben corresponder al diseño de la instalación.",
+        "Las protecciones de puntal y los protectores laterales ayudan a proteger la estructura en sectores expuestos a impactos durante las maniobras.",
+        "Los protectores no reemplazan la conducción cuidadosa ni las inspecciones y la atención de daños.",
+        "La placa de características permite consultar los datos y límites de la instalación; también deben respetarse las indicaciones del fabricante y los procedimientos aplicables.",
+        "Gatillos de seguridad y mallas anticaída son otros elementos que aparecen en el manual. Las holguras, los pasillos y la separación de recorridos se determinan para cada instalación; los ejemplos españoles no son automáticamente exigencias argentinas."
+      ],
+      "ejemplos": [
+        "Ante un impacto en una protección se inspecciona y atiende el posible daño según los procedimientos, sin presumir que la estructura quedó indemne."
+      ],
+      "figura": {
+        "tipo": "logistica",
+        "variante": "estanteria",
+        "titulo": "Partes de una estantería para pallets",
+        "puntos": [
+          "Puntal: elemento vertical del bastidor.",
+          "Larguero: viga horizontal que soporta la carga.",
+          "Protector de puntal: ayuda a proteger la base frente a impactos."
+        ],
+        "nota": "Esquema simplificado: la estructura y sus protecciones dependen de cada instalación."
+      }
+    },
+    "clase5_bloques": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Bloques y estanterías para pallets",
+      "intro": [
+        "En bloques las unidades se agrupan, generalmente en el piso y, si son aptas, apiladas; las estanterías organizan posiciones en niveles."
+      ],
+      "notas": [
+        "Los bloques sirven para grandes cantidades homogéneas y pocas referencias, o como pulmón temporal de expedición.",
+        "Si hay apilado, la resistencia del embalaje y de la carga inferior, la estabilidad y el piso limitan la altura.",
+        "Los bloques requieren poca infraestructura y aprovechan espacio, pero el acceso interior puede requerir movimientos adicionales.",
+        "Las estanterías son útiles con muchas referencias, acceso individual, aprovechamiento de altura o cargas que no deben soportar otras; requieren inversión y equipos compatibles.",
+        "La disposición de los bloques y sus accesos condicionan la secuencia de salida."
+      ],
+      "ejemplos": [
+        "Si cajas resistentes de una sola referencia se acumulan temporalmente, puede evaluarse un bloque estable; si no soportan peso encima, conviene estudiar posiciones en estanterías."
+      ]
+    },
+    "clase5_acceso": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "intro": [
+        "La accesibilidad, la capacidad y la posibilidad de trabajar simultáneamente cambian con la profundidad y la base de la estantería."
+      ],
+      "notas": [
+        "En simple profundidad cada pallet tiene acceso directo desde un pasillo; la flexibilidad exige superficie de circulación.",
+        "En doble profundidad el pallet del fondo queda detrás del delantero: aumenta la capacidad, pero hace falta equipo adecuado y puede ser necesario retirar o reubicar la carga frontal.",
+        "Las bases estáticas dejan abiertos varios pasillos y facilitan el trabajo simultáneo y frecuente.",
+        "Las bases móviles se desplazan sobre carriles para abrir el pasillo necesario; reducen pasillos permanentes manteniendo acceso individual, pero requieren espera y restringen la simultaneidad.",
+        "Una cámara frigorífica o una zona de cuarentena puede justificar estudiar bases móviles; también deben evaluarse inversión y cantidad de movimientos."
+      ],
+      "ejemplos": [
+        "Con muchos operarios y movimientos simultáneos se comparan bases estáticas con el tiempo de espera y la capacidad de una solución móvil."
+      ]
+    },
+    "clase5_compactos": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Compactación, drive-in y drive-through",
+      "intro": [
+        "La compactación agrupa unidades en profundidad y reduce pasillos, con menor acceso inmediato a cada pallet."
+      ],
+      "notas": [
+        "Es adecuada para varias unidades por referencia, organizadas en calles o niveles compatibles.",
+        "Las estanterías compactas usan carriles de apoyo y la carretilla entra en la calle para depositar o retirar pallets.",
+        "Drive-in usa un mismo extremo para entrada y salida: habitualmente sigue LIFO, último en entrar y primero en salir.",
+        "Drive-through carga y descarga por extremos opuestos; permite FIFO, primero en entrar y primero en salir, si se respeta la secuencia.",
+        "Más profundidad puede aumentar la capacidad, pero también las maniobras y la dificultad para acceder a unidades interiores."
+      ],
+      "ejemplos": [
+        "Si una calle recibe A y luego B por el mismo extremo de un drive-in, B sale primero. En drive-through, la secuencia FIFO requiere cargar y retirar por extremos opuestos."
+      ]
+    },
+    "clase5_dinamicos": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "intro": [
+        "Estos sistemas densos se distinguen por el movimiento de los pallets y la forma de entrada y salida."
+      ],
+      "notas": [
+        "En push-back la nueva carga empuja las anteriores sobre carros o rodillos; al retirar la del frente, las restantes avanzan por gravedad.",
+        "Push-back opera desde el frente sin que la carretilla entre en la calle y normalmente sigue LIFO; cada nivel puede asignarse a una referencia.",
+        "En el sistema dinámico de rodillos, los pallets entran por un extremo y avanzan por gravedad hasta el extremo de salida: el flujo FIFO favorece la rotación y separa entrada de salida.",
+        "Los rodillos requieren pallets compatibles y en buen estado, espacio para la inclinación e inversión apropiada.",
+        "En radio-shuttle una lanzadera mueve los pallets dentro del canal mientras la carretilla trabaja en la cabecera; puede haber uno o dos extremos y la secuencia depende de la configuración y la operación."
+      ],
+      "ejemplos": [
+        "Para perecederos con salida FIFO se estudia un dinámico de rodillos; un push-back por el mismo frente responde a otra secuencia."
+      ]
+    },
+    "clase5_picking": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "intro": [
+        "En persona a producto el operario va a la ubicación; en producto a persona un equipo lleva la caja o bandeja al puesto."
+      ],
+      "notas": [
+        "Las soluciones manuales incluyen estanterías livianas, de media carga, bases móviles y niveles inferiores para pallets.",
+        "El picking dinámico acerca cajas al frente por gravedad y separa reposición de extracción; puede incorporar indicadores luminosos.",
+        "El miniload usa un transelevador para cajas; los almacenes verticales de bandejas y los carruseles verticales u horizontales son otras opciones de producto a persona.",
+        "Los equipos pueden reducir recorridos y aprovechar espacio, pero requieren inversión, mantenimiento y capacidad acorde con la demanda.",
+        "La selección también considera referencias, tamaño, líneas de pedido, costos, ergonomía y velocidad; no existe una asignación universal basada solo en rotación.",
+        "Un sistema mixto combina zonas para diferentes familias y reúne pedidos parciales en consolidación."
+      ],
+      "ejemplos": [
+        "Una zona dinámica para artículos de alto consumo puede combinarse con un miniload para otras referencias pequeñas y una zona de consolidación."
+      ]
+    },
+    "clase5_especiales": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "intro": [
+        "Las formas y pesos especiales exigen soportes y equipos adaptados a la carga y a su extracción."
+      ],
+      "notas": [
+        "El cantiléver usa columnas y brazos en voladizo para tubos, perfiles, madera o tableros; según peso y altura se emplea manipulación manual o equipos de elevación, incluso laterales.",
+        "Las bobinas y los cilindros pueden apoyarse en ejes, soportes o cunas que impiden el rodamiento; un eje puede permitir desenrollar sin retirar la bobina completa.",
+        "Los entrepisos agregan superficies en altura y deben dimensionarse considerando estructura, accesos, circulación y medios de manipulación.",
+        "Para láminas, tubos y bobinas pesadas se consideran forma, dimensiones, peso, resistencia y estabilidad para evitar deformaciones, desplazamientos y caídas."
+      ],
+      "ejemplos": [
+        "Una carga larga de perfiles puede evaluarse para cantiléver; una bobina debe contar con un soporte adecuado que impida rodar."
+      ]
+    },
+    "clase5_clasificacion": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "intro": [
+        "Los equipos pueden clasificarse por su recorrido y también por su accionamiento o control; ambos criterios se complementan."
+      ],
+      "notas": [
+        "Las transpaletas, los apiladores y los autoelevadores son ejemplos de recorrido variable.",
+        "Los transportadores de rodillos, bandas o cadenas y los sistemas aéreos son ejemplos de recorrido definido, útiles para conectar puntos con flujo repetitivo.",
+        "También existen equipos manuales, motorizados y automáticos; describir un equipo por su accionamiento no elimina la clasificación por recorrido.",
+        "Las transpaletas desplazan cargas a baja altura; apiladores y autoelevadores también permiten elevarlas.",
+        "Transelevadores, vehículos autoguiados y transportadores automatizados pueden integrar movimientos y sistemas de control.",
+        "Peso, dimensiones, estabilidad, altura, piso, pasillos, frecuencia, trayectos, mantenimiento, ergonomía y seguridad intervienen en la elección."
+      ],
+      "ejemplos": [
+        "Un transportador de banda conecta puntos de recorrido definido; una transpaleta ofrece circulación variable según las condiciones de la instalación."
+      ]
     }
   }
 }

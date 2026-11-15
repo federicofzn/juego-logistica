@@ -1840,6 +1840,14 @@ function renderLogisticsFigure(figure, t) {
       <path class="log-strap" d="M80 25v90M133 25v90"/><path class="log-base" d="M25 117h165v10H25zM35 128h30v8H35zM91 128h30v8H91zM150 128h30v8h-30z"/>
     </svg><ul>${figure.puntos.map((point) => `<li>${t(point)}</li>`).join("")}</ul></div>`;
   }
+  if (figure.variante === "estanteria") {
+    return `<div class="log-rack"><svg viewBox="0 0 250 180" role="img" aria-label="Estantería con puntales verticales, largueros horizontales y protectores en la base">
+      <path class="rack-frame" d="M45 15v145M205 15v145M45 55h160M45 105h160M45 150h160"/>
+      <path class="rack-protection" d="M37 135v29h17v-29M196 135v29h17v-29"/>
+      <path class="rack-cargo" d="M65 27h45v27H65zM126 27h45v27h-45zM65 76h45v28H65zM126 76h45v28h-45z"/>
+      <text x="3" y="20">1</text><text x="111" y="51">2</text><text x="14" y="158">3</text>
+    </svg><ol>${figure.puntos.map((point) => `<li>${t(point)}</li>`).join("")}</ol></div>`;
+  }
   return `${flow(figure.pasos)}${figure.retorno ? `<div class="log-return"><span aria-hidden="true">←</span> ${t(figure.retorno)}</div>` : ""}`;
 }
 

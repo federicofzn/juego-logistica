@@ -322,5 +322,329 @@
     "pista": "Hay que identificar el destino antes de asignar la salida.",
     "explicacion": "El caso deriva los paquetes ilegibles a revisión y reetiquetado.",
     "libro": "clase6_expedicion"
+  },
+  {
+    "id": "caso-clase6-19",
+    "tipo": "caso",
+    "titulo": "Confirmación por radiofrecuencia",
+    "situacion": "Un operario recibe una ubicación en su terminal y confirma producto y cantidad.",
+    "pregunta": "¿Qué aporta este dispositivo?",
+    "correcta": "Transmitir instrucciones y registrar confirmaciones",
+    "incorrectas": [
+      "Mover automáticamente los pallets",
+      "Sustituir toda la reposición",
+      "Determinar el ancho de los pasillos",
+      "Embalar las unidades sin intervención",
+      "Eliminar la necesidad de identificar artículos"
+    ],
+    "pista": "Pensá en el intercambio de información.",
+    "explicacion": "La terminal comunica instrucciones y confirmaciones al sistema de gestión.",
+    "libro": "clase6_tecnologias"
+  },
+  {
+    "id": "caso-clase6-20",
+    "tipo": "caso",
+    "titulo": "Puesto en cabecera",
+    "situacion": "El almacén automático envía un pallet a una estación, donde una persona extrae las cajas solicitadas.",
+    "pregunta": "¿Qué modalidad describe?",
+    "correcta": "Preparación en cabecera",
+    "incorrectas": [
+      "Extracción en un pasillo lateral recorrido por el operario",
+      "Distribución final por carretera",
+      "Clasificación de etiquetas ilegibles",
+      "Recepción de un proveedor",
+      "Picking desde cargas apoyadas en el suelo necesariamente"
+    ],
+    "pista": "El pallet llega a una estación.",
+    "explicacion": "En cabecera el sistema acerca el pallet al puesto de extracción.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "caso-clase6-21",
+    "tipo": "caso",
+    "titulo": "Canales en el lateral",
+    "situacion": "Las referencias de mayor consumo están en canales junto al almacén automático. El operario recorre el pasillo y un transelevador repone los canales.",
+    "pregunta": "¿Cómo se organiza esta preparación?",
+    "correcta": "Picking lateral con reposición desde reserva",
+    "incorrectas": [
+      "Picking exclusivamente en cabecera",
+      "Distribución de última milla",
+      "Embalaje en un centro regional",
+      "Extracción sin reposición",
+      "Carrusel horizontal de bandejas"
+    ],
+    "pista": "Prestá atención a quién repone y quién recorre el pasillo.",
+    "explicacion": "El transelevador abastece los canales y el operario recoge la mercancía en el lateral.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "caso-clase6-22",
+    "tipo": "caso",
+    "titulo": "Área anexa",
+    "situacion": "Un depósito conecta su reserva automática con una zona separada de canales de picking.",
+    "pregunta": "¿Qué medios pueden abastecer esa zona?",
+    "correcta": "Lanzaderas y transportadores conectados a la reserva",
+    "incorrectas": [
+      "Solo etiquetas de papel",
+      "Exclusivamente auriculares",
+      "Luces sin movimiento de carga",
+      "Únicamente cajas vacías",
+      "Una ruta de reparto urbano"
+    ],
+    "pista": "Buscá equipos que trasladen mercancía entre áreas.",
+    "explicacion": "Una zona anexa puede recibir mercancía mediante lanzaderas y transportadores.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "caso-clase6-23",
+    "tipo": "caso",
+    "titulo": "Dos robots",
+    "situacion": "Una instalación compara un robot con brazo articulado y otro que se desplaza sobre dos o tres ejes.",
+    "pregunta": "¿Cuál es el segundo?",
+    "correcta": "Robot de pórtico",
+    "incorrectas": [
+      "Robot antropomórfico",
+      "Carrusel Spinblock",
+      "Terminal de radiofrecuencia",
+      "Preparadora de bajo nivel",
+      "Sistema put to light"
+    ],
+    "pista": "Se desplaza sobre ejes.",
+    "explicacion": "El robot de pórtico se mueve sobre dos o tres ejes; el antropomórfico tiene brazo articulado.",
+    "libro": "clase6_automaticos"
+  },
+  {
+    "id": "caso-clase6-24",
+    "tipo": "caso",
+    "titulo": "Nivel intermedio",
+    "situacion": "Una preparadora trabaja en posiciones intermedias de estantería, aproximadamente hasta 3,5 o 4 metros.",
+    "pregunta": "¿Qué modalidad se ilustra?",
+    "correcta": "Picking en niveles medios",
+    "incorrectas": [
+      "Picking a nivel del suelo",
+      "Picking exclusivamente en niveles bajos",
+      "Clasificación de paquetes",
+      "Preparación por voz necesariamente",
+      "Despacho de pallets sin extracción"
+    ],
+    "pista": "La altura indicada corresponde a un nivel intermedio.",
+    "explicacion": "Los niveles medios aprovechan altura, con atención al tiempo de elevación y descenso.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "caso-clase6-25",
+    "tipo": "caso",
+    "titulo": "Definir un pasillo",
+    "situacion": "Un diseñador propone un único ancho para todos los depósitos sin conocer las cargas ni las máquinas.",
+    "pregunta": "¿Qué debería analizar antes?",
+    "correcta": "Dimensiones de carga y equipo, holguras y maniobras",
+    "incorrectas": [
+      "Solo el color de las etiquetas",
+      "Únicamente la cantidad de auriculares",
+      "Solo el precio del embalaje",
+      "Exclusivamente el tamaño de la oficina",
+      "Únicamente el número de clientes"
+    ],
+    "pista": "El corredor debe admitir cargas y equipos con seguridad.",
+    "explicacion": "El ancho depende del equipo, las cargas y las holguras; una medida de referencia no es universal.",
+    "libro": "clase6_pasillos"
+  },
+  {
+    "id": "caso-clase6-26",
+    "tipo": "caso",
+    "titulo": "Crecimiento en altura",
+    "situacion": "Se comparan posiciones bajas con otras altas para aprovechar mejor el volumen.",
+    "pregunta": "¿Qué intercambio operativo debe evaluarse?",
+    "correcta": "Espacio aprovechado frente a tiempo de acceso y elevación",
+    "incorrectas": [
+      "Color de estantería frente a número de facturas",
+      "Cantidad de camiones frente a uso de auriculares",
+      "Tamaño de oficina frente a etiquetas de cliente",
+      "Precio del embalaje frente a ruta aérea",
+      "Número de turnos frente a color de pallets"
+    ],
+    "pista": "El acceso vertical también consume tiempo.",
+    "explicacion": "El picking en altura aprovecha volumen, pero los movimientos verticales pueden disminuir la velocidad.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "caso-clase6-27",
+    "tipo": "caso",
+    "titulo": "Carga por pedido",
+    "situacion": "Una tanda reúne productos de dos clientes y una luz indica dónde colocar las unidades de cada uno.",
+    "pregunta": "¿Qué función cumple esa luz?",
+    "correcta": "Guiar el depósito por pedido mediante put to light",
+    "incorrectas": [
+      "Indicar extracción mediante pick to light",
+      "Mover el pallet desde reserva",
+      "Medir el ancho del pasillo",
+      "Imprimir el albarán",
+      "Reemplazar la identificación del pedido"
+    ],
+    "pista": "La indicación aparece al colocar, no al retirar.",
+    "explicacion": "Put to light señala la posición y la cantidad que se deben depositar para cada orden.",
+    "libro": "clase6_tecnologias"
+  },
+  {
+    "id": "caso-clase6-28",
+    "tipo": "caso",
+    "titulo": "Plan de instrucciones",
+    "situacion": "Una orden muestra referencias y cantidades, pero el preparador no puede ubicar los artículos.",
+    "pregunta": "¿Qué dato falta para orientar la búsqueda?",
+    "correcta": "Las ubicaciones de los productos",
+    "incorrectas": [
+      "El color de los camiones",
+      "El año de fabricación del edificio",
+      "El nombre del transportador extensible",
+      "La altura del centro regional",
+      "El tipo de avión de reparto"
+    ],
+    "pista": "Pensá en la posición de cada referencia.",
+    "explicacion": "La preparación necesita identificar los productos, sus cantidades y sus ubicaciones.",
+    "libro": "clase6_expedicion"
+  },
+  {
+    "id": "caso-clase6-29",
+    "tipo": "caso",
+    "titulo": "Rotación y recorrido",
+    "situacion": "Una empresa revisa dónde ubicar los productos que se recogen con frecuencia.",
+    "pregunta": "¿Qué criterio ayuda a organizar las posiciones?",
+    "correcta": "Considerar la rotación al distribuir las referencias",
+    "incorrectas": [
+      "Ordenar solo por el color del envase",
+      "Ignorar la frecuencia de extracción",
+      "Eliminar el registro de ubicaciones",
+      "Reponer únicamente después del despacho",
+      "Asignar cada pedido sin identificar productos"
+    ],
+    "pista": "La frecuencia de movimiento influye en los recorridos.",
+    "explicacion": "Ordenar ubicaciones según la rotación puede disminuir desplazamientos.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "caso-clase6-30",
+    "tipo": "caso",
+    "titulo": "Bandeja solicitada",
+    "situacion": "Una lanzadera acerca una bandeja almacenada en altura a una abertura de trabajo.",
+    "pregunta": "¿Qué sistema corresponde a esta descripción?",
+    "correcta": "Clasimat",
+    "incorrectas": [
+      "Spinblock",
+      "Canal de rodillos de piso",
+      "Transpaleta manual",
+      "Robot de pórtico",
+      "Carretilla trilateral"
+    ],
+    "pista": "La bandeja se guarda en una estructura vertical.",
+    "explicacion": "Clasimat almacena bandejas en altura y las lleva automáticamente al puesto.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "caso-clase6-31",
+    "tipo": "caso",
+    "titulo": "Clasificación de paquetes",
+    "situacion": "Una cinta lleva un paquete con código legible a un equipo que determina su salida.",
+    "pregunta": "¿Qué dato orienta la separación en el caso de DHL?",
+    "correcta": "La ruta de destino identificada por el código",
+    "incorrectas": [
+      "El color del uniforme del operario",
+      "La altura del edificio",
+      "El orden alfabético del fabricante de la cinta",
+      "La marca de la transpaleta",
+      "La posición del pallet en reserva"
+    ],
+    "pista": "El objetivo es dirigir cada paquete a su salida.",
+    "explicacion": "En el centro mostrado, la lectura del código permite clasificar por ruta de destino.",
+    "libro": "clase6_clasificacion"
+  },
+  {
+    "id": "caso-clase6-32",
+    "tipo": "caso",
+    "titulo": "Embalaje",
+    "situacion": "Después de recoger los artículos se prepara el paquete para su envío.",
+    "pregunta": "¿Qué función puede cumplir el packaging?",
+    "correcta": "Contener y proteger los productos durante su transporte",
+    "incorrectas": [
+      "Sustituir el registro de la orden",
+      "Determinar por sí solo la rotación del depósito",
+      "Eliminar la necesidad de clasificar por destino",
+      "Reponer las ubicaciones de picking",
+      "Reemplazar el equipo de manipulación"
+    ],
+    "pista": "Pensá en lo que necesita la carga durante el traslado.",
+    "explicacion": "El packaging contiene, protege e informa, entre otras funciones.",
+    "libro": "clase6_expedicion"
+  },
+  {
+    "id": "caso-clase6-33",
+    "tipo": "caso",
+    "titulo": "Comparar inversiones",
+    "situacion": "Una alternativa automática promete reducir recorridos pero requiere equipos y sistemas nuevos.",
+    "pregunta": "¿Qué comparación permite evaluar su conveniencia?",
+    "correcta": "Inversión y operación frente a ahorros y servicio esperados",
+    "incorrectas": [
+      "Solo el precio de compra frente al color del equipo",
+      "Solo el costo del papel frente al número de clientes",
+      "La altura de la oficina frente al tamaño del pallet",
+      "Los recorridos actuales sin considerar implantación",
+      "La inversión inicial sin considerar funcionamiento"
+    ],
+    "pista": "Considerá costos y beneficios de la operación completa.",
+    "explicacion": "La conveniencia depende de inversión, funcionamiento, ahorros, capacidad y servicio.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "caso-clase6-34",
+    "tipo": "caso",
+    "titulo": "Red de mensajería",
+    "situacion": "Los envíos se concentran en un centro y, tras clasificarse, parten a centros regionales.",
+    "pregunta": "¿Qué papel cumple el nodo central en este esquema?",
+    "correcta": "Concentrar y ordenar envíos para su distribución posterior",
+    "incorrectas": [
+      "Preparar siempre los productos de fábrica",
+      "Eliminar la necesidad de transporte regional",
+      "Reemplazar todas las entregas por carretera",
+      "Almacenar indefinidamente cada paquete",
+      "Convertir todos los pedidos en pallets completos"
+    ],
+    "pista": "El nodo reúne flujos y los separa por destino.",
+    "explicacion": "Una red puede concentrar grandes volúmenes en un nodo y encaminarlos a centros regionales.",
+    "libro": "clase6_clasificacion"
+  },
+  {
+    "id": "caso-clase6-35",
+    "tipo": "caso",
+    "titulo": "Piezas de distinta rotación",
+    "situacion": "Un depósito tiene piezas pequeñas con frecuencias de extracción diferentes.",
+    "pregunta": "¿Qué enfoque permite adaptar la preparación?",
+    "correcta": "Combinar soluciones según rotación, tamaño y operación",
+    "incorrectas": [
+      "Usar un único sistema sin analizar las piezas",
+      "Eliminar la identificación de ubicaciones",
+      "Tratar toda pieza como pallet completo",
+      "Evitar cualquier planificación de reposición",
+      "Elegir solo por el color de las estanterías"
+    ],
+    "pista": "Las características de las piezas pueden variar.",
+    "explicacion": "Las estrategias manuales, dinámicas y automáticas pueden combinarse según las necesidades.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "caso-clase6-36",
+    "tipo": "caso",
+    "titulo": "Registro y existencias",
+    "situacion": "En un caso, un dispositivo confirma lo recogido y el sistema actualiza existencias.",
+    "pregunta": "¿Qué relación existe entre ambas acciones?",
+    "correcta": "La confirmación comunica el movimiento para actualizar el registro",
+    "incorrectas": [
+      "La confirmación embala automáticamente el pedido",
+      "El registro sustituye la extracción física",
+      "La actualización indica por sí sola el ancho del pasillo",
+      "El dispositivo transporta las cajas al camión",
+      "La confirmación elimina toda necesidad de control"
+    ],
+    "pista": "Una acción aporta información al sistema.",
+    "explicacion": "Registrar las cantidades extraídas permite mantener actualizado el sistema de gestión.",
+    "libro": "clase6_tecnologias"
   }
 ]

@@ -78,5 +78,181 @@
     "pista": "Recordá la secuencia completa del caso.",
     "explicacion": "El caso muestra varias etapas coordinadas e información actualizada.",
     "libro": "clase5_flujo"
+  },
+  {
+    "id": "error-clase5-6",
+    "titulo": "Componentes estructurales",
+    "oraciones": [
+      "Los bastidores forman estructuras laterales verticales.",
+      "Los largueros son vigas horizontales de apoyo.",
+      "La placa permite consultar datos y límites de la instalación.",
+      "Los protectores de puntal reemplazan la inspección después de un golpe.",
+      "Las uniones y anclajes deben corresponder al diseño."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los protectores ayudan frente a impactos, pero no reemplazan la inspección ni la atención de daños.",
+    "pista": "Buscá la afirmación que elimina una tarea de seguridad.",
+    "explicacion": "Los protectores ayudan frente a impactos, pero no reemplazan la inspección ni la atención de daños.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "error-clase5-7",
+    "titulo": "Protección de estanterías",
+    "oraciones": [
+      "Las protecciones de puntal ayudan frente a impactos.",
+      "Los protectores laterales ayudan a proteger sectores expuestos.",
+      "Una protección garantiza que nunca habrá daños en la estructura.",
+      "La circulación cuidadosa sigue siendo necesaria.",
+      "Los daños deben inspeccionarse y atenderse."
+    ],
+    "incorrecta": 2,
+    "correccion": "Una protección no garantiza la ausencia de daños y deben mantenerse las inspecciones.",
+    "pista": "Una defensa no asegura inmunidad ante todos los golpes.",
+    "explicacion": "Una protección no garantiza la ausencia de daños y deben mantenerse las inspecciones.",
+    "libro": "clase5_componentes"
+  },
+  {
+    "id": "error-clase5-8",
+    "titulo": "Bloques y carga",
+    "oraciones": [
+      "Los bloques pueden utilizarse como pulmón temporal.",
+      "El apilado exige considerar resistencia y estabilidad.",
+      "Las cargas interiores siempre tienen acceso individual inmediato.",
+      "Los bloques pueden aprovechar espacio con poca infraestructura.",
+      "La disposición de accesos condiciona la salida."
+    ],
+    "incorrecta": 2,
+    "correccion": "El acceso a cargas interiores puede ser limitado y requerir movimientos adicionales.",
+    "pista": "Pensá en las unidades rodeadas por otras.",
+    "explicacion": "El acceso a cargas interiores puede ser limitado y requerir movimientos adicionales.",
+    "libro": "clase5_bloques"
+  },
+  {
+    "id": "error-clase5-9",
+    "titulo": "Profundidad de las estanterías",
+    "oraciones": [
+      "En simple profundidad cada pallet tiene acceso directo desde el pasillo.",
+      "En doble profundidad la unidad del fondo queda detrás de otra.",
+      "La doble profundidad puede aumentar la capacidad.",
+      "En doble profundidad nunca se necesita equipo adecuado para acceder al fondo.",
+      "El acceso puede requerir reubicar el pallet delantero."
+    ],
+    "incorrecta": 3,
+    "correccion": "La doble profundidad requiere equipo adecuado y puede exigir reubicar el pallet frontal.",
+    "pista": "Revisá la condición sobre el equipo.",
+    "explicacion": "La doble profundidad requiere equipo adecuado y puede exigir reubicar el pallet frontal.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "error-clase5-10",
+    "titulo": "Bases estáticas y móviles",
+    "oraciones": [
+      "Las bases estáticas permiten trabajar en varios pasillos a la vez.",
+      "Las bases móviles reducen los pasillos permanentes.",
+      "Una base móvil abre el pasillo que se necesita.",
+      "Las bases móviles eliminan siempre la espera y permiten cualquier simultaneidad.",
+      "El volumen de movimientos influye en la selección."
+    ],
+    "incorrecta": 3,
+    "correccion": "Las bases móviles pueden requerir espera y restringir el trabajo simultáneo.",
+    "pista": "Revisá la afirmación absoluta sobre espera y simultaneidad.",
+    "explicacion": "Las bases móviles pueden requerir espera y restringir el trabajo simultáneo.",
+    "libro": "clase5_acceso"
+  },
+  {
+    "id": "error-clase5-11",
+    "titulo": "Drive-in y drive-through",
+    "oraciones": [
+      "Drive-in carga y descarga por el mismo extremo.",
+      "Drive-in habitualmente sigue LIFO.",
+      "Drive-through usa extremos opuestos para carga y descarga.",
+      "Drive-through permite FIFO si se respeta la secuencia.",
+      "Drive-in exige necesariamente entrada y salida por extremos opuestos."
+    ],
+    "incorrecta": 4,
+    "correccion": "Drive-in opera por un mismo extremo; drive-through utiliza extremos opuestos.",
+    "pista": "Compará los extremos utilizados por ambos sistemas.",
+    "explicacion": "Drive-in opera por un mismo extremo; drive-through utiliza extremos opuestos.",
+    "libro": "clase5_compactos"
+  },
+  {
+    "id": "error-clase5-12",
+    "titulo": "Push-back y rodillos",
+    "oraciones": [
+      "En push-back una carga nueva empuja a las anteriores.",
+      "En push-back la secuencia habitual es LIFO.",
+      "El dinámico de rodillos puede separar la entrada de la salida.",
+      "El dinámico de rodillos facilita FIFO.",
+      "En push-back la carretilla debe entrar en la calle para cada maniobra."
+    ],
+    "incorrecta": 4,
+    "correccion": "En push-back la carretilla trabaja desde el frente sin entrar en la calle.",
+    "pista": "Identificá dónde opera la carretilla.",
+    "explicacion": "En push-back la carretilla trabaja desde el frente sin entrar en la calle.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "error-clase5-13",
+    "titulo": "Lanzadera y rodillos",
+    "oraciones": [
+      "El radio-shuttle utiliza una lanzadera dentro del canal.",
+      "La carretilla del radio-shuttle opera en la cabecera.",
+      "La secuencia del radio-shuttle depende de su configuración y operación.",
+      "Las estanterías dinámicas necesitan pallets compatibles y en buen estado.",
+      "Todo radio-shuttle opera necesariamente en FIFO sin importar su configuración."
+    ],
+    "incorrecta": 4,
+    "correccion": "La secuencia del radio-shuttle depende de su configuración y de cómo se operen las calles.",
+    "pista": "Buscá una regla absoluta que ignore la configuración.",
+    "explicacion": "La secuencia del radio-shuttle depende de su configuración y de cómo se operen las calles.",
+    "libro": "clase5_dinamicos"
+  },
+  {
+    "id": "error-clase5-14",
+    "titulo": "Preparación de cajas",
+    "oraciones": [
+      "En persona a producto el operario se desplaza hasta los artículos.",
+      "En producto a persona un equipo acerca cajas o bandejas.",
+      "El miniload utiliza un transelevador para cajas.",
+      "La rotación es el único criterio para elegir entre las dos estrategias.",
+      "Un sistema mixto puede requerir consolidar pedidos parciales."
+    ],
+    "incorrecta": 3,
+    "correccion": "También intervienen referencias, dimensiones, volumen, costos, ergonomía y velocidad.",
+    "pista": "La decisión depende de más de una variable.",
+    "explicacion": "También intervienen referencias, dimensiones, volumen, costos, ergonomía y velocidad.",
+    "libro": "clase5_picking"
+  },
+  {
+    "id": "error-clase5-15",
+    "titulo": "Cargas especiales",
+    "oraciones": [
+      "El cantiléver usa brazos para cargas largas.",
+      "Las cunas pueden impedir el rodamiento de bobinas.",
+      "Un eje puede permitir desenrollar material de una bobina.",
+      "Un entrepiso agrega superficie aprovechando la altura.",
+      "Todos los productos especiales pueden almacenarse sin considerar su peso y forma."
+    ],
+    "incorrecta": 4,
+    "correccion": "Los soportes y equipos deben adecuarse a la forma, el peso y la estabilidad de cada carga.",
+    "pista": "Revisá la frase que ignora las características de la carga.",
+    "explicacion": "Los soportes y equipos deben adecuarse a la forma, el peso y la estabilidad de cada carga.",
+    "libro": "clase5_especiales"
+  },
+  {
+    "id": "error-clase5-16",
+    "titulo": "Equipos de transporte",
+    "oraciones": [
+      "Una transpaleta desplaza cargas a baja altura.",
+      "Un autoelevador puede elevar cargas.",
+      "Una banda transportadora es un ejemplo de recorrido definido.",
+      "Los equipos manuales no pueden clasificarse según su recorrido.",
+      "Las clasificaciones por recorrido y accionamiento se complementan."
+    ],
+    "incorrecta": 3,
+    "correccion": "Un equipo manual también puede describirse por su recorrido y función.",
+    "pista": "Las dos clasificaciones pueden aplicarse al mismo equipo.",
+    "explicacion": "Un equipo manual también puede describirse por su recorrido y función.",
+    "libro": "clase5_clasificacion"
   }
 ]

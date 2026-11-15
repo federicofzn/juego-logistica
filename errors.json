@@ -558,6 +558,254 @@
     }
   },
   {
+    "id": "error-clase4-5",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Paletas y materiales",
+    "situacion": "Un colega te pasa este resumen sobre «Paletas y materiales» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La madera es un material de uso extendido para pallets.",
+      "Los pallets metálicos se usan, entre otras actividades, en las industrias automotriz y metalúrgica.",
+      "Los pallets plásticos pueden facilitar la limpieza.",
+      "Todas las paletas plásticas son necesariamente aptas para cualquier carga y equipo.",
+      "La resistencia y el estado importan al elegir una paleta."
+    ],
+    "incorrecta": 3,
+    "correccion": "La aptitud de una paleta plástica debe evaluarse para la carga y el equipo concretos.",
+    "respuestaCorrecta": "Todas las paletas plásticas son necesariamente aptas para cualquier carga y equipo.",
+    "respuestasIncorrectas": [
+      "La madera es un material de uso extendido para pallets.",
+      "Los pallets metálicos se usan, entre otras actividades, en las industrias automotriz y metalúrgica.",
+      "Los pallets plásticos pueden facilitar la limpieza.",
+      "La resistencia y el estado importan al elegir una paleta."
+    ],
+    "pista": "La facilidad de limpieza no garantiza compatibilidad.",
+    "explicacion": "Lo correcto es: «La aptitud de una paleta plástica debe evaluarse para la carga y el equipo concretos.» También deben evaluarse rigidez, resistencia y posible deslizamiento.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Pallets: tipos y elección",
+      "entradaLibro": "clase4_pallets"
+    }
+  },
+  {
+    "id": "error-clase4-6",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Construcción de pallets",
+    "situacion": "Un colega te pasa este resumen sobre «Construcción de pallets» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Las paletas pueden tener dos o cuatro entradas para horquillas.",
+      "Una media paleta puede utilizarse para cantidades menores.",
+      "Existen paletas reutilizables y de un solo uso.",
+      "Las dimensiones exteriores garantizan que cualquier base puede apoyarse en cualquier estantería.",
+      "La orientación y el diseño de la base influyen en la compatibilidad."
+    ],
+    "incorrecta": 3,
+    "correccion": "Las dimensiones exteriores no garantizan por sí solas la compatibilidad con una estantería.",
+    "respuestaCorrecta": "Las dimensiones exteriores garantizan que cualquier base puede apoyarse en cualquier estantería.",
+    "respuestasIncorrectas": [
+      "Las paletas pueden tener dos o cuatro entradas para horquillas.",
+      "Una media paleta puede utilizarse para cantidades menores.",
+      "Existen paletas reutilizables y de un solo uso.",
+      "La orientación y el diseño de la base influyen en la compatibilidad."
+    ],
+    "pista": "Pensá en el apoyo real de la base.",
+    "explicacion": "Lo correcto es: «Las dimensiones exteriores no garantizan por sí solas la compatibilidad con una estantería.» Hay que revisar el diseño, la orientación, el estado y la resistencia.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Pallets: tipos y elección",
+      "entradaLibro": "clase4_pallets"
+    }
+  },
+  {
+    "id": "error-clase4-7",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Europaleta y módulos",
+    "situacion": "Un colega te pasa este resumen sobre «Europaleta y módulos» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La europaleta es un ejemplo de pallet normalizado europeo.",
+      "Sus dimensiones son 1.200 × 800 mm.",
+      "Un pallet de esas dimensiones cumple automáticamente todos los requisitos de la europaleta.",
+      "Las cajas de 600 × 400 mm pueden combinarse sobre esa superficie.",
+      "La normalización puede incluir requisitos de construcción y calidad."
+    ],
+    "incorrecta": 2,
+    "correccion": "Además de las dimensiones deben cumplirse los demás requisitos aplicables.",
+    "respuestaCorrecta": "Un pallet de esas dimensiones cumple automáticamente todos los requisitos de la europaleta.",
+    "respuestasIncorrectas": [
+      "La europaleta es un ejemplo de pallet normalizado europeo.",
+      "Sus dimensiones son 1.200 × 800 mm.",
+      "Las cajas de 600 × 400 mm pueden combinarse sobre esa superficie.",
+      "La normalización puede incluir requisitos de construcción y calidad."
+    ],
+    "pista": "Medir no equivale a verificar todas las especificaciones.",
+    "explicacion": "Lo correcto es: «Además de las dimensiones deben cumplirse los demás requisitos aplicables.» La medida no acredita por sí sola la construcción ni la calidad requeridas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Normalización y modularidad",
+      "entradaLibro": "clase4_normalizacion"
+    }
+  },
+  {
+    "id": "error-clase4-8",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Contenedores",
+    "situacion": "Un colega te pasa este resumen sobre «Contenedores» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Un contenedor logístico puede agrupar productos en su interior.",
+      "Los contenedores pueden clasificarse por material, tamaño y diseño de base.",
+      "Las cajas pequeñas pueden tener compartimentos o tapa.",
+      "Todo contenedor sin patines es compatible con cualquier transportador de rodillos.",
+      "Algunos modelos necesitan apoyos adicionales."
+    ],
+    "incorrecta": 3,
+    "correccion": "La compatibilidad con rodillos debe comprobarse para cada diseño de base.",
+    "respuestaCorrecta": "Todo contenedor sin patines es compatible con cualquier transportador de rodillos.",
+    "respuestasIncorrectas": [
+      "Un contenedor logístico puede agrupar productos en su interior.",
+      "Los contenedores pueden clasificarse por material, tamaño y diseño de base.",
+      "Las cajas pequeñas pueden tener compartimentos o tapa.",
+      "Algunos modelos necesitan apoyos adicionales."
+    ],
+    "pista": "Prestá atención al apoyo del contenedor.",
+    "explicacion": "Lo correcto es: «La compatibilidad con rodillos debe comprobarse para cada diseño de base.» Los modelos sin patines no son necesariamente compatibles y pueden requerir soportes.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Contenedores y cajas",
+      "entradaLibro": "clase4_contenedores"
+    }
+  },
+  {
+    "id": "error-clase4-9",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Apilado seguro",
+    "situacion": "Un colega te pasa este resumen sobre «Apilado seguro» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La apilabilidad permite aprovechar la altura cuando la carga lo admite.",
+      "La resistencia a la compresión del embalaje influye en el apilado.",
+      "Existe una cantidad universal de niveles segura para cualquier mercancía.",
+      "La distribución del peso afecta la estabilidad.",
+      "Es conveniente respetar las indicaciones de cada carga."
+    ],
+    "incorrecta": 2,
+    "correccion": "El número de niveles depende de la carga, embalaje, soporte y condiciones.",
+    "respuestaCorrecta": "Existe una cantidad universal de niveles segura para cualquier mercancía.",
+    "respuestasIncorrectas": [
+      "La apilabilidad permite aprovechar la altura cuando la carga lo admite.",
+      "La resistencia a la compresión del embalaje influye en el apilado.",
+      "La distribución del peso afecta la estabilidad.",
+      "Es conveniente respetar las indicaciones de cada carga."
+    ],
+    "pista": "Compará productos y embalajes diferentes.",
+    "explicacion": "Lo correcto es: «El número de niveles depende de la carga, embalaje, soporte y condiciones.» No toda carga es apilable y cada conjunto tiene límites propios.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Apilabilidad y estabilidad",
+      "entradaLibro": "clase4_apilabilidad"
+    }
+  },
+  {
+    "id": "error-clase4-10",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Rotación y ubicación",
+    "situacion": "Un colega te pasa este resumen sobre «Rotación y ubicación» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La rotación describe la frecuencia de movimiento o renovación durante un período.",
+      "Una referencia de alta rotación suele requerir accesos frecuentes.",
+      "Las referencias poco solicitadas pueden permanecer más tiempo almacenadas.",
+      "La ubicación de una referencia debe decidirse sin considerar seguridad ni volumen.",
+      "Las posiciones accesibles pueden reducir recorridos de preparación."
+    ],
+    "incorrecta": 3,
+    "correccion": "La ubicación también debe considerar seguridad, volumen y espacio disponible.",
+    "respuestaCorrecta": "La ubicación de una referencia debe decidirse sin considerar seguridad ni volumen.",
+    "respuestasIncorrectas": [
+      "La rotación describe la frecuencia de movimiento o renovación durante un período.",
+      "Una referencia de alta rotación suele requerir accesos frecuentes.",
+      "Las referencias poco solicitadas pueden permanecer más tiempo almacenadas.",
+      "Las posiciones accesibles pueden reducir recorridos de preparación."
+    ],
+    "pista": "La frecuencia no es el único dato de diseño.",
+    "explicacion": "Lo correcto es: «La ubicación también debe considerar seguridad, volumen y espacio disponible.» La rotación orienta el acceso, pero no sustituye las restricciones físicas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
+    }
+  },
+  {
+    "id": "error-clase4-11",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Curva ABC",
+    "situacion": "Un colega te pasa este resumen sobre «Curva ABC» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La curva puede construirse usando movimientos como indicador.",
+      "Las referencias se ordenan de mayor a menor contribución.",
+      "La curva compara porcentajes acumulados de referencias y del indicador.",
+      "Las categorías A, B y C tienen cortes universales idénticos para todas las empresas.",
+      "La clasificación puede revisarse cuando cambia la demanda."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los límites de las categorías se establecen con datos y criterios del caso.",
+    "respuestaCorrecta": "Las categorías A, B y C tienen cortes universales idénticos para todas las empresas.",
+    "respuestasIncorrectas": [
+      "La curva puede construirse usando movimientos como indicador.",
+      "Las referencias se ordenan de mayor a menor contribución.",
+      "La curva compara porcentajes acumulados de referencias y del indicador.",
+      "La clasificación puede revisarse cuando cambia la demanda."
+    ],
+    "pista": "Los patrones de actividad varían entre almacenes.",
+    "explicacion": "Lo correcto es: «Los límites de las categorías se establecen con datos y criterios del caso.» La clasificación depende del indicador, el período y los datos observados.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
+    "id": "error-clase4-12",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Principio de Pareto",
+    "situacion": "Un colega te pasa este resumen sobre «Principio de Pareto» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una parte pequeña de las referencias puede concentrar gran parte de la actividad.",
+      "El 80/20 es una relación ilustrativa de concentración.",
+      "Todos los almacenes registran necesariamente una proporción exacta de 80/20.",
+      "El indicador puede ser el consumo o los movimientos.",
+      "El análisis ABC puede orientar la reposición y el control."
+    ],
+    "incorrecta": 2,
+    "correccion": "Los porcentajes reales dependen de los datos del caso.",
+    "respuestaCorrecta": "Todos los almacenes registran necesariamente una proporción exacta de 80/20.",
+    "respuestasIncorrectas": [
+      "Una parte pequeña de las referencias puede concentrar gran parte de la actividad.",
+      "El 80/20 es una relación ilustrativa de concentración.",
+      "El indicador puede ser el consumo o los movimientos.",
+      "El análisis ABC puede orientar la reposición y el control."
+    ],
+    "pista": "Una orientación no equivale a una garantía.",
+    "explicacion": "Lo correcto es: «Los porcentajes reales dependen de los datos del caso.» La concentración y los cortes varían según la empresa y el período.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "ABC y principio de Pareto",
+      "entradaLibro": "clase4_abc"
+    }
+  },
+  {
     "id": "error-clase5",
     "unidad": "clase5",
     "tipo": "error",
@@ -713,6 +961,347 @@
     }
   },
   {
+    "id": "error-clase5-6",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Componentes estructurales",
+    "situacion": "Un colega te pasa este resumen sobre «Componentes estructurales» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Los bastidores forman estructuras laterales verticales.",
+      "Los largueros son vigas horizontales de apoyo.",
+      "La placa permite consultar datos y límites de la instalación.",
+      "Los protectores de puntal reemplazan la inspección después de un golpe.",
+      "Las uniones y anclajes deben corresponder al diseño."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los protectores ayudan frente a impactos, pero no reemplazan la inspección ni la atención de daños.",
+    "respuestaCorrecta": "Los protectores de puntal reemplazan la inspección después de un golpe.",
+    "respuestasIncorrectas": [
+      "Los bastidores forman estructuras laterales verticales.",
+      "Los largueros son vigas horizontales de apoyo.",
+      "La placa permite consultar datos y límites de la instalación.",
+      "Las uniones y anclajes deben corresponder al diseño."
+    ],
+    "pista": "Buscá la afirmación que elimina una tarea de seguridad.",
+    "explicacion": "Lo correcto es: «Los protectores ayudan frente a impactos, pero no reemplazan la inspección ni la atención de daños.» Los protectores ayudan frente a impactos, pero no reemplazan la inspección ni la atención de daños.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "error-clase5-7",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Protección de estanterías",
+    "situacion": "Un colega te pasa este resumen sobre «Protección de estanterías» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Las protecciones de puntal ayudan frente a impactos.",
+      "Los protectores laterales ayudan a proteger sectores expuestos.",
+      "Una protección garantiza que nunca habrá daños en la estructura.",
+      "La circulación cuidadosa sigue siendo necesaria.",
+      "Los daños deben inspeccionarse y atenderse."
+    ],
+    "incorrecta": 2,
+    "correccion": "Una protección no garantiza la ausencia de daños y deben mantenerse las inspecciones.",
+    "respuestaCorrecta": "Una protección garantiza que nunca habrá daños en la estructura.",
+    "respuestasIncorrectas": [
+      "Las protecciones de puntal ayudan frente a impactos.",
+      "Los protectores laterales ayudan a proteger sectores expuestos.",
+      "La circulación cuidadosa sigue siendo necesaria.",
+      "Los daños deben inspeccionarse y atenderse."
+    ],
+    "pista": "Una defensa no asegura inmunidad ante todos los golpes.",
+    "explicacion": "Lo correcto es: «Una protección no garantiza la ausencia de daños y deben mantenerse las inspecciones.» Una protección no garantiza la ausencia de daños y deben mantenerse las inspecciones.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Componentes y protección de estanterías",
+      "entradaLibro": "clase5_componentes"
+    }
+  },
+  {
+    "id": "error-clase5-8",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Bloques y carga",
+    "situacion": "Un colega te pasa este resumen sobre «Bloques y carga» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Los bloques pueden utilizarse como pulmón temporal.",
+      "El apilado exige considerar resistencia y estabilidad.",
+      "Las cargas interiores siempre tienen acceso individual inmediato.",
+      "Los bloques pueden aprovechar espacio con poca infraestructura.",
+      "La disposición de accesos condiciona la salida."
+    ],
+    "incorrecta": 2,
+    "correccion": "El acceso a cargas interiores puede ser limitado y requerir movimientos adicionales.",
+    "respuestaCorrecta": "Las cargas interiores siempre tienen acceso individual inmediato.",
+    "respuestasIncorrectas": [
+      "Los bloques pueden utilizarse como pulmón temporal.",
+      "El apilado exige considerar resistencia y estabilidad.",
+      "Los bloques pueden aprovechar espacio con poca infraestructura.",
+      "La disposición de accesos condiciona la salida."
+    ],
+    "pista": "Pensá en las unidades rodeadas por otras.",
+    "explicacion": "Lo correcto es: «El acceso a cargas interiores puede ser limitado y requerir movimientos adicionales.» El acceso a cargas interiores puede ser limitado y requerir movimientos adicionales.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Bloques y estanterías para pallets",
+      "entradaLibro": "clase5_bloques"
+    }
+  },
+  {
+    "id": "error-clase5-9",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Profundidad de las estanterías",
+    "situacion": "Un colega te pasa este resumen sobre «Profundidad de las estanterías» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "En simple profundidad cada pallet tiene acceso directo desde el pasillo.",
+      "En doble profundidad la unidad del fondo queda detrás de otra.",
+      "La doble profundidad puede aumentar la capacidad.",
+      "En doble profundidad nunca se necesita equipo adecuado para acceder al fondo.",
+      "El acceso puede requerir reubicar el pallet delantero."
+    ],
+    "incorrecta": 3,
+    "correccion": "La doble profundidad requiere equipo adecuado y puede exigir reubicar el pallet frontal.",
+    "respuestaCorrecta": "En doble profundidad nunca se necesita equipo adecuado para acceder al fondo.",
+    "respuestasIncorrectas": [
+      "En simple profundidad cada pallet tiene acceso directo desde el pasillo.",
+      "En doble profundidad la unidad del fondo queda detrás de otra.",
+      "La doble profundidad puede aumentar la capacidad.",
+      "El acceso puede requerir reubicar el pallet delantero."
+    ],
+    "pista": "Revisá la condición sobre el equipo.",
+    "explicacion": "Lo correcto es: «La doble profundidad requiere equipo adecuado y puede exigir reubicar el pallet frontal.» La doble profundidad requiere equipo adecuado y puede exigir reubicar el pallet frontal.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "error-clase5-10",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Bases estáticas y móviles",
+    "situacion": "Un colega te pasa este resumen sobre «Bases estáticas y móviles» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Las bases estáticas permiten trabajar en varios pasillos a la vez.",
+      "Las bases móviles reducen los pasillos permanentes.",
+      "Una base móvil abre el pasillo que se necesita.",
+      "Las bases móviles eliminan siempre la espera y permiten cualquier simultaneidad.",
+      "El volumen de movimientos influye en la selección."
+    ],
+    "incorrecta": 3,
+    "correccion": "Las bases móviles pueden requerir espera y restringir el trabajo simultáneo.",
+    "respuestaCorrecta": "Las bases móviles eliminan siempre la espera y permiten cualquier simultaneidad.",
+    "respuestasIncorrectas": [
+      "Las bases estáticas permiten trabajar en varios pasillos a la vez.",
+      "Las bases móviles reducen los pasillos permanentes.",
+      "Una base móvil abre el pasillo que se necesita.",
+      "El volumen de movimientos influye en la selección."
+    ],
+    "pista": "Revisá la afirmación absoluta sobre espera y simultaneidad.",
+    "explicacion": "Lo correcto es: «Las bases móviles pueden requerir espera y restringir el trabajo simultáneo.» Las bases móviles pueden requerir espera y restringir el trabajo simultáneo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Acceso directo y bases móviles",
+      "entradaLibro": "clase5_acceso"
+    }
+  },
+  {
+    "id": "error-clase5-11",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Drive-in y drive-through",
+    "situacion": "Un colega te pasa este resumen sobre «Drive-in y drive-through» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Drive-in carga y descarga por el mismo extremo.",
+      "Drive-in habitualmente sigue LIFO.",
+      "Drive-through usa extremos opuestos para carga y descarga.",
+      "Drive-through permite FIFO si se respeta la secuencia.",
+      "Drive-in exige necesariamente entrada y salida por extremos opuestos."
+    ],
+    "incorrecta": 4,
+    "correccion": "Drive-in opera por un mismo extremo; drive-through utiliza extremos opuestos.",
+    "respuestaCorrecta": "Drive-in exige necesariamente entrada y salida por extremos opuestos.",
+    "respuestasIncorrectas": [
+      "Drive-in carga y descarga por el mismo extremo.",
+      "Drive-in habitualmente sigue LIFO.",
+      "Drive-through usa extremos opuestos para carga y descarga.",
+      "Drive-through permite FIFO si se respeta la secuencia."
+    ],
+    "pista": "Compará los extremos utilizados por ambos sistemas.",
+    "explicacion": "Lo correcto es: «Drive-in opera por un mismo extremo; drive-through utiliza extremos opuestos.» Drive-in opera por un mismo extremo; drive-through utiliza extremos opuestos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Compactación, drive-in y drive-through",
+      "entradaLibro": "clase5_compactos"
+    }
+  },
+  {
+    "id": "error-clase5-12",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Push-back y rodillos",
+    "situacion": "Un colega te pasa este resumen sobre «Push-back y rodillos» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "En push-back una carga nueva empuja a las anteriores.",
+      "En push-back la secuencia habitual es LIFO.",
+      "El dinámico de rodillos puede separar la entrada de la salida.",
+      "El dinámico de rodillos facilita FIFO.",
+      "En push-back la carretilla debe entrar en la calle para cada maniobra."
+    ],
+    "incorrecta": 4,
+    "correccion": "En push-back la carretilla trabaja desde el frente sin entrar en la calle.",
+    "respuestaCorrecta": "En push-back la carretilla debe entrar en la calle para cada maniobra.",
+    "respuestasIncorrectas": [
+      "En push-back una carga nueva empuja a las anteriores.",
+      "En push-back la secuencia habitual es LIFO.",
+      "El dinámico de rodillos puede separar la entrada de la salida.",
+      "El dinámico de rodillos facilita FIFO."
+    ],
+    "pista": "Identificá dónde opera la carretilla.",
+    "explicacion": "Lo correcto es: «En push-back la carretilla trabaja desde el frente sin entrar en la calle.» En push-back la carretilla trabaja desde el frente sin entrar en la calle.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "error-clase5-13",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Lanzadera y rodillos",
+    "situacion": "Un colega te pasa este resumen sobre «Lanzadera y rodillos» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El radio-shuttle utiliza una lanzadera dentro del canal.",
+      "La carretilla del radio-shuttle opera en la cabecera.",
+      "La secuencia del radio-shuttle depende de su configuración y operación.",
+      "Las estanterías dinámicas necesitan pallets compatibles y en buen estado.",
+      "Todo radio-shuttle opera necesariamente en FIFO sin importar su configuración."
+    ],
+    "incorrecta": 4,
+    "correccion": "La secuencia del radio-shuttle depende de su configuración y de cómo se operen las calles.",
+    "respuestaCorrecta": "Todo radio-shuttle opera necesariamente en FIFO sin importar su configuración.",
+    "respuestasIncorrectas": [
+      "El radio-shuttle utiliza una lanzadera dentro del canal.",
+      "La carretilla del radio-shuttle opera en la cabecera.",
+      "La secuencia del radio-shuttle depende de su configuración y operación.",
+      "Las estanterías dinámicas necesitan pallets compatibles y en buen estado."
+    ],
+    "pista": "Buscá una regla absoluta que ignore la configuración.",
+    "explicacion": "Lo correcto es: «La secuencia del radio-shuttle depende de su configuración y de cómo se operen las calles.» La secuencia del radio-shuttle depende de su configuración y de cómo se operen las calles.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Push-back, rodillos y radio-shuttle",
+      "entradaLibro": "clase5_dinamicos"
+    }
+  },
+  {
+    "id": "error-clase5-14",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Preparación de cajas",
+    "situacion": "Un colega te pasa este resumen sobre «Preparación de cajas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "En persona a producto el operario se desplaza hasta los artículos.",
+      "En producto a persona un equipo acerca cajas o bandejas.",
+      "El miniload utiliza un transelevador para cajas.",
+      "La rotación es el único criterio para elegir entre las dos estrategias.",
+      "Un sistema mixto puede requerir consolidar pedidos parciales."
+    ],
+    "incorrecta": 3,
+    "correccion": "También intervienen referencias, dimensiones, volumen, costos, ergonomía y velocidad.",
+    "respuestaCorrecta": "La rotación es el único criterio para elegir entre las dos estrategias.",
+    "respuestasIncorrectas": [
+      "En persona a producto el operario se desplaza hasta los artículos.",
+      "En producto a persona un equipo acerca cajas o bandejas.",
+      "El miniload utiliza un transelevador para cajas.",
+      "Un sistema mixto puede requerir consolidar pedidos parciales."
+    ],
+    "pista": "La decisión depende de más de una variable.",
+    "explicacion": "Lo correcto es: «También intervienen referencias, dimensiones, volumen, costos, ergonomía y velocidad.» También intervienen referencias, dimensiones, volumen, costos, ergonomía y velocidad.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas pequeñas y preparación de pedidos",
+      "entradaLibro": "clase5_picking"
+    }
+  },
+  {
+    "id": "error-clase5-15",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Cargas especiales",
+    "situacion": "Un colega te pasa este resumen sobre «Cargas especiales» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El cantiléver usa brazos para cargas largas.",
+      "Las cunas pueden impedir el rodamiento de bobinas.",
+      "Un eje puede permitir desenrollar material de una bobina.",
+      "Un entrepiso agrega superficie aprovechando la altura.",
+      "Todos los productos especiales pueden almacenarse sin considerar su peso y forma."
+    ],
+    "incorrecta": 4,
+    "correccion": "Los soportes y equipos deben adecuarse a la forma, el peso y la estabilidad de cada carga.",
+    "respuestaCorrecta": "Todos los productos especiales pueden almacenarse sin considerar su peso y forma.",
+    "respuestasIncorrectas": [
+      "El cantiléver usa brazos para cargas largas.",
+      "Las cunas pueden impedir el rodamiento de bobinas.",
+      "Un eje puede permitir desenrollar material de una bobina.",
+      "Un entrepiso agrega superficie aprovechando la altura."
+    ],
+    "pista": "Revisá la frase que ignora las características de la carga.",
+    "explicacion": "Lo correcto es: «Los soportes y equipos deben adecuarse a la forma, el peso y la estabilidad de cada carga.» Los soportes y equipos deben adecuarse a la forma, el peso y la estabilidad de cada carga.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cargas largas, bobinas y entrepisos",
+      "entradaLibro": "clase5_especiales"
+    }
+  },
+  {
+    "id": "error-clase5-16",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Equipos de transporte",
+    "situacion": "Un colega te pasa este resumen sobre «Equipos de transporte» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una transpaleta desplaza cargas a baja altura.",
+      "Un autoelevador puede elevar cargas.",
+      "Una banda transportadora es un ejemplo de recorrido definido.",
+      "Los equipos manuales no pueden clasificarse según su recorrido.",
+      "Las clasificaciones por recorrido y accionamiento se complementan."
+    ],
+    "incorrecta": 3,
+    "correccion": "Un equipo manual también puede describirse por su recorrido y función.",
+    "respuestaCorrecta": "Los equipos manuales no pueden clasificarse según su recorrido.",
+    "respuestasIncorrectas": [
+      "Una transpaleta desplaza cargas a baja altura.",
+      "Un autoelevador puede elevar cargas.",
+      "Una banda transportadora es un ejemplo de recorrido definido.",
+      "Las clasificaciones por recorrido y accionamiento se complementan."
+    ],
+    "pista": "Las dos clasificaciones pueden aplicarse al mismo equipo.",
+    "explicacion": "Lo correcto es: «Un equipo manual también puede describirse por su recorrido y función.» Un equipo manual también puede describirse por su recorrido y función.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación de equipos de transporte",
+      "entradaLibro": "clase5_clasificacion"
+    }
+  },
+  {
     "id": "error-clase6",
     "unidad": "clase6",
     "tipo": "error",
@@ -865,6 +1454,316 @@
       "tipo": "Contenidos de la clase",
       "titulo": "Recorridos, información e inversión",
       "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "error-clase6-6",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Cabecera y lateral",
+    "situacion": "Un colega te pasa este resumen sobre «Cabecera y lateral» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "En cabecera un sistema puede llevar pallets a una estación.",
+      "En el lateral el operario puede recorrer canales de extracción.",
+      "Un transelevador puede reponer canales laterales desde reserva.",
+      "En cabecera siempre es el operario quien recorre todas las ubicaciones para buscar el pallet.",
+      "La elección de puestos depende de los pedidos y el rendimiento requerido."
+    ],
+    "incorrecta": 3,
+    "correccion": "En cabecera el sistema acerca el pallet al puesto de preparación.",
+    "respuestaCorrecta": "En cabecera siempre es el operario quien recorre todas las ubicaciones para buscar el pallet.",
+    "respuestasIncorrectas": [
+      "En cabecera un sistema puede llevar pallets a una estación.",
+      "En el lateral el operario puede recorrer canales de extracción.",
+      "Un transelevador puede reponer canales laterales desde reserva.",
+      "La elección de puestos depende de los pedidos y el rendimiento requerido."
+    ],
+    "pista": "Identificá qué se acerca al puesto.",
+    "explicacion": "Lo correcto es: «En cabecera el sistema acerca el pallet al puesto de preparación.» El operario extrae unidades del pallet que llega a la estación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "error-clase6-7",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Robots de preparación",
+    "situacion": "Un colega te pasa este resumen sobre «Robots de preparación» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Un robot antropomórfico tiene un brazo articulado.",
+      "Un robot de pórtico se desplaza sobre dos o tres ejes.",
+      "Los robots pueden manipular cajas individuales o capas completas.",
+      "La selección puede considerar ciclos y composición de pedidos.",
+      "Un robot de pórtico se define por desplazarse exclusivamente sobre una guía ovalada horizontal."
+    ],
+    "incorrecta": 4,
+    "correccion": "El robot de pórtico se desplaza sobre dos o tres ejes.",
+    "respuestaCorrecta": "Un robot de pórtico se define por desplazarse exclusivamente sobre una guía ovalada horizontal.",
+    "respuestasIncorrectas": [
+      "Un robot antropomórfico tiene un brazo articulado.",
+      "Un robot de pórtico se desplaza sobre dos o tres ejes.",
+      "Los robots pueden manipular cajas individuales o capas completas.",
+      "La selección puede considerar ciclos y composición de pedidos."
+    ],
+    "pista": "No confundas un robot con un carrusel.",
+    "explicacion": "Lo correcto es: «El robot de pórtico se desplaza sobre dos o tres ejes.» La guía ovalada corresponde al recorrido de los módulos del carrusel Spinblock.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación en almacenes automáticos",
+      "entradaLibro": "clase6_automaticos"
+    }
+  },
+  {
+    "id": "error-clase6-8",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Diseño de corredores",
+    "situacion": "Un colega te pasa este resumen sobre «Diseño de corredores» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El ancho de un pasillo depende de cargas, máquinas y holguras.",
+      "Los equipos y el guiado deben ser compatibles con el corredor.",
+      "Toda instalación debe usar exactamente el mismo ancho de pasillo.",
+      "La seguridad y la ergonomía forman parte del diseño.",
+      "El rendimiento también depende de desplazamientos y reposición."
+    ],
+    "incorrecta": 2,
+    "correccion": "El ancho se determina para cada instalación según sus condiciones.",
+    "respuestaCorrecta": "Toda instalación debe usar exactamente el mismo ancho de pasillo.",
+    "respuestasIncorrectas": [
+      "El ancho de un pasillo depende de cargas, máquinas y holguras.",
+      "Los equipos y el guiado deben ser compatibles con el corredor.",
+      "La seguridad y la ergonomía forman parte del diseño.",
+      "El rendimiento también depende de desplazamientos y reposición."
+    ],
+    "pista": "Revisá la afirmación que prescribe una medida universal.",
+    "explicacion": "Lo correcto es: «El ancho se determina para cada instalación según sus condiciones.» Una medida de referencia no reemplaza el análisis de la carga y del equipo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Diseño de pasillos estrechos",
+      "entradaLibro": "clase6_pasillos"
+    }
+  },
+  {
+    "id": "error-clase6-9",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Información de la orden",
+    "situacion": "Un colega te pasa este resumen sobre «Información de la orden» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una orden puede incluir referencias y cantidades.",
+      "Las ubicaciones orientan al operario hacia los productos.",
+      "La zona de agrupación puede figurar entre las instrucciones.",
+      "Las instrucciones de embalaje ayudan a preparar el paquete.",
+      "Para localizar los productos nunca hace falta información sobre su ubicación."
+    ],
+    "incorrecta": 4,
+    "correccion": "La información sobre ubicación orienta la búsqueda de los productos.",
+    "respuestaCorrecta": "Para localizar los productos nunca hace falta información sobre su ubicación.",
+    "respuestasIncorrectas": [
+      "Una orden puede incluir referencias y cantidades.",
+      "Las ubicaciones orientan al operario hacia los productos.",
+      "La zona de agrupación puede figurar entre las instrucciones.",
+      "Las instrucciones de embalaje ayudan a preparar el paquete."
+    ],
+    "pista": "Pensá cómo se encuentra una referencia en el depósito.",
+    "explicacion": "Lo correcto es: «La información sobre ubicación orienta la búsqueda de los productos.» La ubicación es uno de los datos que pueden acompañar la orden.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "entradaLibro": "clase6_expedicion"
+    }
+  },
+  {
+    "id": "error-clase6-10",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Clasificación de envíos",
+    "situacion": "Un colega te pasa este resumen sobre «Clasificación de envíos» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Un código legible puede ayudar a asignar una salida por destino.",
+      "En el caso de DHL los paquetes circulan por cintas transportadoras.",
+      "Un paquete con etiqueta ilegible se asigna al azar a cualquier ruta.",
+      "Los paquetes ilegibles pueden derivarse a revisión y reetiquetado.",
+      "Tras la clasificación los envíos pueden cargarse en vehículos."
+    ],
+    "incorrecta": 2,
+    "correccion": "El paquete ilegible se deriva a revisión y reetiquetado.",
+    "respuestaCorrecta": "Un paquete con etiqueta ilegible se asigna al azar a cualquier ruta.",
+    "respuestasIncorrectas": [
+      "Un código legible puede ayudar a asignar una salida por destino.",
+      "En el caso de DHL los paquetes circulan por cintas transportadoras.",
+      "Los paquetes ilegibles pueden derivarse a revisión y reetiquetado.",
+      "Tras la clasificación los envíos pueden cargarse en vehículos."
+    ],
+    "pista": "Revisá qué ocurre cuando el código no se puede leer.",
+    "explicacion": "Lo correcto es: «El paquete ilegible se deriva a revisión y reetiquetado.» En el caso mostrado se corrige la identificación antes de continuar.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación y distribución",
+      "entradaLibro": "clase6_clasificacion"
+    }
+  },
+  {
+    "id": "error-clase6-11",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Niveles de preparación",
+    "situacion": "Un colega te pasa este resumen sobre «Niveles de preparación» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "A nivel del suelo se pueden usar pallets apoyados en el piso.",
+      "En niveles bajos se puede acceder a pie o con una preparadora de bajo nivel.",
+      "Los niveles medios permiten aprovechar más altura.",
+      "En niveles altos la elevación y el descenso pueden consumir tiempo.",
+      "Los niveles medios se definen porque la mercancía permanece siempre sobre el piso."
+    ],
+    "incorrecta": 4,
+    "correccion": "Los niveles medios utilizan posiciones intermedias en estanterías.",
+    "respuestaCorrecta": "Los niveles medios se definen porque la mercancía permanece siempre sobre el piso.",
+    "respuestasIncorrectas": [
+      "A nivel del suelo se pueden usar pallets apoyados en el piso.",
+      "En niveles bajos se puede acceder a pie o con una preparadora de bajo nivel.",
+      "Los niveles medios permiten aprovechar más altura.",
+      "En niveles altos la elevación y el descenso pueden consumir tiempo."
+    ],
+    "pista": "Diferenciá el piso de los niveles intermedios.",
+    "explicacion": "Lo correcto es: «Los niveles medios utilizan posiciones intermedias en estanterías.» Las posiciones intermedias pueden alcanzar aproximadamente 3,5 o 4 metros.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "error-clase6-12",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Flujo y registro",
+    "situacion": "Un colega te pasa este resumen sobre «Flujo y registro» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La radiofrecuencia puede transmitir instrucciones al preparador.",
+      "La confirmación de cantidades puede comunicar movimientos al sistema.",
+      "La voz permite recibir instrucciones y confirmar datos oralmente.",
+      "La actualización de existencias sustituye la extracción física del producto.",
+      "Un sistema de gestión puede ayudar a organizar recorridos."
+    ],
+    "incorrecta": 3,
+    "correccion": "La actualización registra el movimiento; la extracción física sigue siendo necesaria.",
+    "respuestaCorrecta": "La actualización de existencias sustituye la extracción física del producto.",
+    "respuestasIncorrectas": [
+      "La radiofrecuencia puede transmitir instrucciones al preparador.",
+      "La confirmación de cantidades puede comunicar movimientos al sistema.",
+      "La voz permite recibir instrucciones y confirmar datos oralmente.",
+      "Un sistema de gestión puede ayudar a organizar recorridos."
+    ],
+    "pista": "Separá el registro de la manipulación.",
+    "explicacion": "Lo correcto es: «La actualización registra el movimiento; la extracción física sigue siendo necesaria.» El sistema necesita información de una operación que también ocurre físicamente.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
+    }
+  },
+  {
+    "id": "error-clase6-13",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Piezas pequeñas",
+    "situacion": "Un colega te pasa este resumen sobre «Piezas pequeñas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Las estanterías manuales pueden organizarse en una o varias plantas.",
+      "Las estanterías dinámicas pueden acercar cajas a la extracción.",
+      "Clasimat lleva bandejas almacenadas en altura al puesto.",
+      "Spinblock mueve módulos horizontalmente hacia el puesto.",
+      "Miniload es una técnica de embalaje que no almacena ni recupera cajas."
+    ],
+    "incorrecta": 4,
+    "correccion": "Miniload almacena y recupera cajas o bandejas mediante un transelevador.",
+    "respuestaCorrecta": "Miniload es una técnica de embalaje que no almacena ni recupera cajas.",
+    "respuestasIncorrectas": [
+      "Las estanterías manuales pueden organizarse en una o varias plantas.",
+      "Las estanterías dinámicas pueden acercar cajas a la extracción.",
+      "Clasimat lleva bandejas almacenadas en altura al puesto.",
+      "Spinblock mueve módulos horizontalmente hacia el puesto."
+    ],
+    "pista": "Buscá el sistema que utiliza un transelevador.",
+    "explicacion": "Lo correcto es: «Miniload almacena y recupera cajas o bandejas mediante un transelevador.» Las cajas recuperadas pueden enviarse a un puesto de preparación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "error-clase6-14",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Evaluación económica",
+    "situacion": "Un colega te pasa este resumen sobre «Evaluación económica» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Un método manual puede exigir menor inversión inicial.",
+      "Una operación manual puede tener costos de recorridos y manipulación.",
+      "Una solución automática puede reducir desplazamientos.",
+      "La conveniencia depende de inversión, funcionamiento y servicio esperado.",
+      "Una inversión inicial menor garantiza siempre el menor costo operativo."
+    ],
+    "incorrecta": 4,
+    "correccion": "Una inversión inicial menor no garantiza el menor costo operativo.",
+    "respuestaCorrecta": "Una inversión inicial menor garantiza siempre el menor costo operativo.",
+    "respuestasIncorrectas": [
+      "Un método manual puede exigir menor inversión inicial.",
+      "Una operación manual puede tener costos de recorridos y manipulación.",
+      "Una solución automática puede reducir desplazamientos.",
+      "La conveniencia depende de inversión, funcionamiento y servicio esperado."
+    ],
+    "pista": "Distinguí adquisición de funcionamiento.",
+    "explicacion": "Lo correcto es: «Una inversión inicial menor no garantiza el menor costo operativo.» La comparación requiere evaluar ambos costos en el contexto de la operación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "error-clase6-15",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Recorrido de un pedido",
+    "situacion": "Un colega te pasa este resumen sobre «Recorrido de un pedido» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El picking reúne artículos para atender pedidos.",
+      "El embalaje puede proteger y contener los productos.",
+      "La clasificación puede separar paquetes por destino.",
+      "La distribución final puede realizarse por carretera.",
+      "El embalaje convierte automáticamente una etiqueta ilegible en una etiqueta legible."
+    ],
+    "incorrecta": 4,
+    "correccion": "Una etiqueta ilegible puede necesitar revisión y reetiquetado.",
+    "respuestaCorrecta": "El embalaje convierte automáticamente una etiqueta ilegible en una etiqueta legible.",
+    "respuestasIncorrectas": [
+      "El picking reúne artículos para atender pedidos.",
+      "El embalaje puede proteger y contener los productos.",
+      "La clasificación puede separar paquetes por destino.",
+      "La distribución final puede realizarse por carretera."
+    ],
+    "pista": "El material de embalaje no corrige por sí mismo la identificación.",
+    "explicacion": "Lo correcto es: «Una etiqueta ilegible puede necesitar revisión y reetiquetado.» En el caso de clasificación los paquetes ilegibles pasan a revisión.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Clasificación y distribución",
+      "entradaLibro": "clase6_clasificacion"
     }
   },
   {
@@ -1051,6 +1950,37 @@
       "tipo": "Flota, documentación y transporte internacional",
       "titulo": "Flota, documentación y transporte internacional",
       "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "error-c7-perfiles",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Perfiles de tarifas",
+    "situacion": "Un colega te pasa este resumen sobre «Perfiles de tarifas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una tarifa uniforme puede aplicarse dentro de una zona.",
+      "Una tarifa proporcional crece en la misma proporción que la distancia.",
+      "Una tarifa gradual puede crecer menos que proporcionalmente con la distancia.",
+      "El precio del transporte siempre es idéntico al costo interno del operador.",
+      "La competencia y la demanda pueden influir en el precio."
+    ],
+    "incorrecta": 3,
+    "correccion": "La tarifa cobrada y el costo interno son conceptos distintos.",
+    "respuestaCorrecta": "El precio del transporte siempre es idéntico al costo interno del operador.",
+    "respuestasIncorrectas": [
+      "Una tarifa uniforme puede aplicarse dentro de una zona.",
+      "Una tarifa proporcional crece en la misma proporción que la distancia.",
+      "Una tarifa gradual puede crecer menos que proporcionalmente con la distancia.",
+      "La competencia y la demanda pueden influir en el precio."
+    ],
+    "pista": "Distinguí el precio al cliente del costo del operador.",
+    "explicacion": "Lo correcto es: «La tarifa cobrada y el costo interno son conceptos distintos.» La tarifa puede reflejar costos, demanda y competencia; no equivale necesariamente al costo.",
+    "referencia": {
+      "tipo": "Perfiles de tarifas",
+      "titulo": "Distancia, demanda y precio del servicio",
+      "entradaLibro": "c7_tarifas"
     }
   }
 ]
