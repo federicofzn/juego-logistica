@@ -1,0 +1,110 @@
+[
+  {
+    "id": "caso-clase5-1",
+    "tipo": "caso",
+    "titulo": "Estantería",
+    "situacion": "Un depósito guarda pallets en posiciones distribuidas en altura.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Estantería",
+    "incorrectas": [
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "caso-clase5-2",
+    "tipo": "caso",
+    "titulo": "Equipo de manipuleo",
+    "situacion": "Una transpaleta traslada un pallet entre dos sectores.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Equipo de manipuleo",
+    "incorrectas": [
+      "Estantería",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "caso-clase5-3",
+    "tipo": "caso",
+    "titulo": "Accesibilidad",
+    "situacion": "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Accesibilidad",
+    "incorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "caso-clase5-4",
+    "tipo": "caso",
+    "titulo": "Capacidad de almacenamiento",
+    "situacion": "El responsable calcula cuántos pallets caben en las estanterías.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Capacidad de almacenamiento",
+    "incorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "caso-clase5-5",
+    "tipo": "caso",
+    "titulo": "Manejo de materiales",
+    "situacion": "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Manejo de materiales",
+    "incorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "caso-clase5-6",
+    "tipo": "caso",
+    "titulo": "Pasillo de trabajo",
+    "situacion": "Se verifica que la máquina pueda maniobrar entre dos estanterías.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Pasillo de trabajo",
+    "incorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones.",
+    "libro": "clase5_conceptos"
+  }
+]

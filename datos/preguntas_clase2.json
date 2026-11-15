@@ -1,0 +1,110 @@
+[
+  {
+    "id": "caso-clase2-1",
+    "tipo": "caso",
+    "titulo": "Enfoque sistémico",
+    "situacion": "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Enfoque sistémico",
+    "incorrectas": [
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-2",
+    "tipo": "caso",
+    "titulo": "Planeamiento logístico",
+    "situacion": "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Planeamiento logístico",
+    "incorrectas": [
+      "Enfoque sistémico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-3",
+    "tipo": "caso",
+    "titulo": "Servicio al cliente",
+    "situacion": "La empresa informa el estado de un pedido y responde ante una demora.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Servicio al cliente",
+    "incorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Disponibilidad",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-4",
+    "tipo": "caso",
+    "titulo": "Disponibilidad",
+    "situacion": "El artículo solicitado está en stock cuando llega el pedido.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Disponibilidad",
+    "incorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-5",
+    "tipo": "caso",
+    "titulo": "Entrega completa",
+    "situacion": "El cliente recibe todas las unidades y referencias que había comprado.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Entrega completa",
+    "incorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-6",
+    "tipo": "caso",
+    "titulo": "Coordinación entre áreas",
+    "situacion": "Ventas informa una promoción y compras ajusta el abastecimiento.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Coordinación entre áreas",
+    "incorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Entrega completa"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones.",
+    "libro": "clase2_conceptos"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "error-clase1",
+    "titulo": "Clase 1: Introducción a la logística",
+    "oraciones": [
+      "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+      "La logística se limita al transporte y no incluye inventarios ni almacenamiento.",
+      "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+      "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+      "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente."
+    ],
+    "incorrecta": 1,
+    "correccion": "La logística también incluye inventarios, almacenamiento y otras actividades.",
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "La logística también incluye inventarios, almacenamiento y otras actividades.",
+    "libro": "clase1_conceptos"
+  }
+]

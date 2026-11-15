@@ -1,0 +1,31 @@
+{
+  "unidad": {
+    "key": "clase7",
+    "titulo": "Clase 7: Transporte"
+  },
+  "entradas": {
+    "clase7_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "intro": [
+        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+      ],
+      "notas": [
+        "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
+        "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
+        "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
+        "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones.",
+        "Transporte intermodal: Desplazamiento que combina dos o más modos coordinados.",
+        "Costo variable: Costo que cambia con la actividad o el recorrido realizado."
+      ],
+      "ejemplos": [
+        "Un camión entrega la mercadería directamente en un comercio.",
+        "Una carga consolidada recorre una larga distancia sobre rieles.",
+        "Una pieza urgente y de alto valor viaja en avión.",
+        "Una carga voluminosa viaja por barco entre puertos.",
+        "Un contenedor viaja en camión y continúa por ferrocarril.",
+        "El consumo de combustible aumenta al realizar más viajes."
+      ]
+    }
+  }
+}

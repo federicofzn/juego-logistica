@@ -1,0 +1,110 @@
+[
+  {
+    "id": "caso-clase6-1",
+    "tipo": "caso",
+    "titulo": "Persona a producto",
+    "situacion": "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Persona a producto",
+    "incorrectas": [
+      "Producto a persona",
+      "Picking por voz",
+      "Pick to light",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "caso-clase6-2",
+    "tipo": "caso",
+    "titulo": "Producto a persona",
+    "situacion": "Un transportador lleva una caja al puesto donde espera el operario.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Producto a persona",
+    "incorrectas": [
+      "Persona a producto",
+      "Picking por voz",
+      "Pick to light",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "caso-clase6-3",
+    "tipo": "caso",
+    "titulo": "Picking por voz",
+    "situacion": "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Picking por voz",
+    "incorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Pick to light",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "caso-clase6-4",
+    "tipo": "caso",
+    "titulo": "Pick to light",
+    "situacion": "Una señal luminosa guía la extracción en un estante.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Pick to light",
+    "incorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Picking por voz",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "caso-clase6-5",
+    "tipo": "caso",
+    "titulo": "Put to light",
+    "situacion": "Un indicador señala el contenedor donde colocar artículos para una orden.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Put to light",
+    "incorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Picking por voz",
+      "Pick to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "caso-clase6-6",
+    "tipo": "caso",
+    "titulo": "Preparación por olas",
+    "situacion": "Varias órdenes se agrupan en una tanda para coordinar recorridos.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Preparación por olas",
+    "incorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Picking por voz",
+      "Pick to light",
+      "Put to light"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación.",
+    "libro": "clase6_conceptos"
+  }
+]

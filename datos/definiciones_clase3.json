@@ -1,0 +1,50 @@
+[
+  {
+    "id": "def-clase3-1",
+    "grupo": "conceptos",
+    "termino": "Recepción",
+    "definicion": "Etapa en la que el depósito recibe y controla la mercancía entrante.",
+    "ejemplo": "Un operario verifica los artículos que acaban de llegar del proveedor.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-clase3-2",
+    "grupo": "conceptos",
+    "termino": "Ubicación",
+    "definicion": "Asignación y registro del lugar donde se guarda una mercancía.",
+    "ejemplo": "El sistema registra en qué estante se colocó una pieza.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-clase3-3",
+    "grupo": "conceptos",
+    "termino": "Reposición",
+    "definicion": "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+    "ejemplo": "Se lleva una caja desde la reserva a un estante de preparación.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-clase3-4",
+    "grupo": "conceptos",
+    "termino": "Picking",
+    "definicion": "Selección de los artículos necesarios para preparar un pedido.",
+    "ejemplo": "Un operario reúne las referencias y cantidades que solicitó un cliente.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-clase3-5",
+    "grupo": "conceptos",
+    "termino": "Expedición",
+    "definicion": "Etapa en que los pedidos preparados se organizan para su salida.",
+    "ejemplo": "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-clase3-6",
+    "grupo": "conceptos",
+    "termino": "Sistema de gestión de almacenes",
+    "definicion": "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito.",
+    "ejemplo": "Una aplicación indica dónde guardar y localizar cada artículo.",
+    "libro": "clase3_conceptos"
+  }
+]

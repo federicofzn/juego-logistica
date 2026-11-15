@@ -1,0 +1,968 @@
+[
+  {
+    "id": "caso-clase1-1",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Logística",
+    "situacion": "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Logística",
+    "respuestasIncorrectas": [
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Distribución física",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-2",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Cadena de suministro",
+    "situacion": "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Cadena de suministro",
+    "respuestasIncorrectas": [
+      "Logística",
+      "Administración de materiales",
+      "Distribución física",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-3",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Administración de materiales",
+    "situacion": "Se coordinan compras, recepción y almacenamiento de materias primas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Administración de materiales",
+    "respuestasIncorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Distribución física",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-4",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Distribución física",
+    "situacion": "Un depósito prepara productos terminados para enviarlos a los comercios.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Distribución física",
+    "respuestasIncorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-5",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Logística inversa",
+    "situacion": "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Logística inversa",
+    "respuestasIncorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Distribución física",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-6",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Nivel de servicio",
+    "situacion": "Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Nivel de servicio",
+    "respuestasIncorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Distribución física",
+      "Logística inversa"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-1",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Enfoque sistémico",
+    "situacion": "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Enfoque sistémico",
+    "respuestasIncorrectas": [
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-2",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Planeamiento logístico",
+    "situacion": "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Planeamiento logístico",
+    "respuestasIncorrectas": [
+      "Enfoque sistémico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-3",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Servicio al cliente",
+    "situacion": "La empresa informa el estado de un pedido y responde ante una demora.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Servicio al cliente",
+    "respuestasIncorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Disponibilidad",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-4",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Disponibilidad",
+    "situacion": "El artículo solicitado está en stock cuando llega el pedido.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Disponibilidad",
+    "respuestasIncorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Entrega completa",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-5",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Entrega completa",
+    "situacion": "El cliente recibe todas las unidades y referencias que había comprado.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Entrega completa",
+    "respuestasIncorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Coordinación entre áreas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-6",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Coordinación entre áreas",
+    "situacion": "Ventas informa una promoción y compras ajusta el abastecimiento.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Coordinación entre áreas",
+    "respuestasIncorrectas": [
+      "Enfoque sistémico",
+      "Planeamiento logístico",
+      "Servicio al cliente",
+      "Disponibilidad",
+      "Entrega completa"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-1",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Recepción",
+    "situacion": "Un operario verifica los artículos que acaban de llegar del proveedor.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Recepción",
+    "respuestasIncorrectas": [
+      "Ubicación",
+      "Reposición",
+      "Picking",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-2",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Ubicación",
+    "situacion": "El sistema registra en qué estante se colocó una pieza.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Ubicación",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Reposición",
+      "Picking",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-3",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Reposición",
+    "situacion": "Se lleva una caja desde la reserva a un estante de preparación.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Reposición",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Picking",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-4",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Picking",
+    "situacion": "Un operario reúne las referencias y cantidades que solicitó un cliente.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Picking",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Reposición",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Picking: Selección de los artículos necesarios para preparar un pedido.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-5",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Expedición",
+    "situacion": "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Expedición",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Reposición",
+      "Picking",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Expedición: Etapa en que los pedidos preparados se organizan para su salida.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-6",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Sistema de gestión de almacenes",
+    "situacion": "Una aplicación indica dónde guardar y localizar cada artículo.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Sistema de gestión de almacenes",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Reposición",
+      "Picking",
+      "Expedición"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase4-1",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Unidad de carga",
+    "situacion": "Varias cajas se agrupan de forma estable para moverlas juntas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Unidad de carga",
+    "respuestasIncorrectas": [
+      "Estabilidad de la carga",
+      "Pallet",
+      "Rotación",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase4-2",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Estabilidad de la carga",
+    "situacion": "Se asegura un pallet para evitar que las cajas se desplacen.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Estabilidad de la carga",
+    "respuestasIncorrectas": [
+      "Unidad de carga",
+      "Pallet",
+      "Rotación",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase4-3",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Pallet",
+    "situacion": "Un equipo eleva una plataforma cargada con cajas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Pallet",
+    "respuestasIncorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Rotación",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase4-4",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Rotación",
+    "situacion": "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Rotación",
+    "respuestasIncorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Pallet",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase4-5",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Consolidación",
+    "situacion": "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Consolidación",
+    "respuestasIncorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Pallet",
+      "Rotación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Consolidación: Reunión de productos para completar un pedido o envío.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase4-6",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Miniload",
+    "situacion": "Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Miniload",
+    "respuestasIncorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Pallet",
+      "Rotación",
+      "Consolidación"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase5-1",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Estantería",
+    "situacion": "Un depósito guarda pallets en posiciones distribuidas en altura.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Estantería",
+    "respuestasIncorrectas": [
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "entradaLibro": "clase5_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase5-2",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Equipo de manipuleo",
+    "situacion": "Una transpaleta traslada un pallet entre dos sectores.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Equipo de manipuleo",
+    "respuestasIncorrectas": [
+      "Estantería",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "entradaLibro": "clase5_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase5-3",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Accesibilidad",
+    "situacion": "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Accesibilidad",
+    "respuestasIncorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "entradaLibro": "clase5_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase5-4",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Capacidad de almacenamiento",
+    "situacion": "El responsable calcula cuántos pallets caben en las estanterías.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Capacidad de almacenamiento",
+    "respuestasIncorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Manejo de materiales",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "entradaLibro": "clase5_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase5-5",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Manejo de materiales",
+    "situacion": "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Manejo de materiales",
+    "respuestasIncorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Pasillo de trabajo"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "entradaLibro": "clase5_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase5-6",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Pasillo de trabajo",
+    "situacion": "Se verifica que la máquina pueda maniobrar entre dos estanterías.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Pasillo de trabajo",
+    "respuestasIncorrectas": [
+      "Estantería",
+      "Equipo de manipuleo",
+      "Accesibilidad",
+      "Capacidad de almacenamiento",
+      "Manejo de materiales"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "entradaLibro": "clase5_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase6-1",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Persona a producto",
+    "situacion": "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Persona a producto",
+    "respuestasIncorrectas": [
+      "Producto a persona",
+      "Picking por voz",
+      "Pick to light",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase6-2",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Producto a persona",
+    "situacion": "Un transportador lleva una caja al puesto donde espera el operario.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Producto a persona",
+    "respuestasIncorrectas": [
+      "Persona a producto",
+      "Picking por voz",
+      "Pick to light",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase6-3",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Picking por voz",
+    "situacion": "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Picking por voz",
+    "respuestasIncorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Pick to light",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase6-4",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Pick to light",
+    "situacion": "Una señal luminosa guía la extracción en un estante.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Pick to light",
+    "respuestasIncorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Picking por voz",
+      "Put to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase6-5",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Put to light",
+    "situacion": "Un indicador señala el contenedor donde colocar artículos para una orden.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Put to light",
+    "respuestasIncorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Picking por voz",
+      "Pick to light",
+      "Preparación por olas"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase6-6",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Preparación por olas",
+    "situacion": "Varias órdenes se agrupan en una tanda para coordinar recorridos.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Preparación por olas",
+    "respuestasIncorrectas": [
+      "Persona a producto",
+      "Producto a persona",
+      "Picking por voz",
+      "Pick to light",
+      "Put to light"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase7-1",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Transporte carretero",
+    "situacion": "Un camión entrega la mercadería directamente en un comercio.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Transporte carretero",
+    "respuestasIncorrectas": [
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase7-2",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Transporte ferroviario",
+    "situacion": "Una carga consolidada recorre una larga distancia sobre rieles.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Transporte ferroviario",
+    "respuestasIncorrectas": [
+      "Transporte carretero",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase7-3",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Transporte aéreo",
+    "situacion": "Una pieza urgente y de alto valor viaja en avión.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Transporte aéreo",
+    "respuestasIncorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte acuático",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase7-4",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Transporte acuático",
+    "situacion": "Una carga voluminosa viaja por barco entre puertos.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Transporte acuático",
+    "respuestasIncorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase7-5",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Transporte intermodal",
+    "situacion": "Un contenedor viaja en camión y continúa por ferrocarril.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Transporte intermodal",
+    "respuestasIncorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte intermodal: Desplazamiento que combina dos o más modos coordinados.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase7-6",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Costo variable",
+    "situacion": "El consumo de combustible aumenta al realizar más viajes.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "respuestaCorrecta": "Costo variable",
+    "respuestasIncorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Transporte intermodal"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Costo variable: Costo que cambia con la actividad o el recorrido realizado.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "entradaLibro": "clase7_conceptos"
+    }
+  }
+]

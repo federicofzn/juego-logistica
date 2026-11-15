@@ -1,0 +1,31 @@
+{
+  "unidad": {
+    "key": "clase3",
+    "titulo": "Clase 3: Almacén y depósito"
+  },
+  "entradas": {
+    "clase3_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "intro": [
+        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+      ],
+      "notas": [
+        "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
+        "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
+        "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+        "Picking: Selección de los artículos necesarios para preparar un pedido.",
+        "Expedición: Etapa en que los pedidos preparados se organizan para su salida.",
+        "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+      ],
+      "ejemplos": [
+        "Un operario verifica los artículos que acaban de llegar del proveedor.",
+        "El sistema registra en qué estante se colocó una pieza.",
+        "Se lleva una caja desde la reserva a un estante de preparación.",
+        "Un operario reúne las referencias y cantidades que solicitó un cliente.",
+        "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
+        "Una aplicación indica dónde guardar y localizar cada artículo."
+      ]
+    }
+  }
+}

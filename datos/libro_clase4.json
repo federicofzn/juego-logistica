@@ -1,0 +1,31 @@
+{
+  "unidad": {
+    "key": "clase4",
+    "titulo": "Clase 4: Unidad de carga"
+  },
+  "entradas": {
+    "clase4_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "intro": [
+        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+      ],
+      "notas": [
+        "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+        "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+        "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+        "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+        "Consolidación: Reunión de productos para completar un pedido o envío.",
+        "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas."
+      ],
+      "ejemplos": [
+        "Varias cajas se agrupan de forma estable para moverlas juntas.",
+        "Se asegura un pallet para evitar que las cajas se desplacen.",
+        "Un equipo eleva una plataforma cargada con cajas.",
+        "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
+        "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
+        "Un transelevador lleva cajas almacenadas hasta una zona de preparación."
+      ]
+    }
+  }
+}

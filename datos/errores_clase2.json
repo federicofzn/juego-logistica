@@ -1,0 +1,18 @@
+[
+  {
+    "id": "error-clase2",
+    "titulo": "Clase 2: Planeamiento y servicio",
+    "oraciones": [
+      "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+      "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+      "El planeamiento logístico se realiza una sola vez y no necesita actualizarse.",
+      "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+      "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita."
+    ],
+    "incorrecta": 2,
+    "correccion": "La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
+    "libro": "clase2_conceptos"
+  }
+]

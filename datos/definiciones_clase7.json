@@ -1,0 +1,50 @@
+[
+  {
+    "id": "def-clase7-1",
+    "grupo": "conceptos",
+    "termino": "Transporte carretero",
+    "definicion": "Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
+    "ejemplo": "Un camión entrega la mercadería directamente en un comercio.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "def-clase7-2",
+    "grupo": "conceptos",
+    "termino": "Transporte ferroviario",
+    "definicion": "Modo que utiliza trenes y depende de la red de vías y terminales.",
+    "ejemplo": "Una carga consolidada recorre una larga distancia sobre rieles.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "def-clase7-3",
+    "grupo": "conceptos",
+    "termino": "Transporte aéreo",
+    "definicion": "Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
+    "ejemplo": "Una pieza urgente y de alto valor viaja en avión.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "def-clase7-4",
+    "grupo": "conceptos",
+    "termino": "Transporte acuático",
+    "definicion": "Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones.",
+    "ejemplo": "Una carga voluminosa viaja por barco entre puertos.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "def-clase7-5",
+    "grupo": "conceptos",
+    "termino": "Transporte intermodal",
+    "definicion": "Desplazamiento que combina dos o más modos coordinados.",
+    "ejemplo": "Un contenedor viaja en camión y continúa por ferrocarril.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "def-clase7-6",
+    "grupo": "conceptos",
+    "termino": "Costo variable",
+    "definicion": "Costo que cambia con la actividad o el recorrido realizado.",
+    "ejemplo": "El consumo de combustible aumenta al realizar más viajes.",
+    "libro": "clase7_conceptos"
+  }
+]

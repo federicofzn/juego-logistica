@@ -1,0 +1,18 @@
+[
+  {
+    "id": "error-clase3",
+    "titulo": "Clase 3: Almacén y depósito",
+    "oraciones": [
+      "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
+      "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
+      "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+      "El almacén solo guarda mercancía y no participa de la preparación de pedidos.",
+      "Picking: Selección de los artículos necesarios para preparar un pedido."
+    ],
+    "incorrecta": 3,
+    "correccion": "El almacén también puede recibir, preparar y despachar pedidos.",
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "El almacén también puede recibir, preparar y despachar pedidos.",
+    "libro": "clase3_conceptos"
+  }
+]

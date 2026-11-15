@@ -1,0 +1,18 @@
+[
+  {
+    "id": "error-clase5",
+    "titulo": "Clase 5: Almacenaje y manipuleo",
+    "oraciones": [
+      "Para elegir un equipo de manipuleo alcanza con mirar su precio de compra.",
+      "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+      "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
+      "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+      "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar."
+    ],
+    "incorrecta": 0,
+    "correccion": "La elección también depende de la carga, la altura, los pasillos y la seguridad.",
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "La elección también depende de la carga, la altura, los pasillos y la seguridad.",
+    "libro": "clase5_conceptos"
+  }
+]

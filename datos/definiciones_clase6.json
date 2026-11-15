@@ -1,0 +1,50 @@
+[
+  {
+    "id": "def-clase6-1",
+    "grupo": "conceptos",
+    "termino": "Persona a producto",
+    "definicion": "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+    "ejemplo": "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "def-clase6-2",
+    "grupo": "conceptos",
+    "termino": "Producto a persona",
+    "definicion": "Método en que un equipo acerca la mercancía al puesto de preparación.",
+    "ejemplo": "Un transportador lleva una caja al puesto donde espera el operario.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "def-clase6-3",
+    "grupo": "conceptos",
+    "termino": "Picking por voz",
+    "definicion": "Método de preparación que transmite y confirma instrucciones mediante voz.",
+    "ejemplo": "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "def-clase6-4",
+    "grupo": "conceptos",
+    "termino": "Pick to light",
+    "definicion": "Sistema de luces que indica dónde y cuántas unidades retirar.",
+    "ejemplo": "Una señal luminosa guía la extracción en un estante.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "def-clase6-5",
+    "grupo": "conceptos",
+    "termino": "Put to light",
+    "definicion": "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
+    "ejemplo": "Un indicador señala el contenedor donde colocar artículos para una orden.",
+    "libro": "clase6_conceptos"
+  },
+  {
+    "id": "def-clase6-6",
+    "grupo": "conceptos",
+    "termino": "Preparación por olas",
+    "definicion": "Organización de grupos de pedidos para coordinar su preparación.",
+    "ejemplo": "Varias órdenes se agrupan en una tanda para coordinar recorridos.",
+    "libro": "clase6_conceptos"
+  }
+]

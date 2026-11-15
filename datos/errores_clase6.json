@@ -1,0 +1,18 @@
+[
+  {
+    "id": "error-clase6",
+    "titulo": "Clase 6: Preparación de pedidos",
+    "oraciones": [
+      "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+      "En producto a persona el operario debe recorrer todas las ubicaciones para buscar la carga.",
+      "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+      "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
+      "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar."
+    ],
+    "incorrecta": 1,
+    "correccion": "En producto a persona el sistema acerca la mercancía al puesto de preparación.",
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "En producto a persona el sistema acerca la mercancía al puesto de preparación.",
+    "libro": "clase6_conceptos"
+  }
+]

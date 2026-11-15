@@ -1,0 +1,31 @@
+{
+  "unidad": {
+    "key": "clase2",
+    "titulo": "Clase 2: Planeamiento y servicio"
+  },
+  "entradas": {
+    "clase2_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "intro": [
+        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+      ],
+      "notas": [
+        "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+        "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+        "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+        "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
+        "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden.",
+        "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+      ],
+      "ejemplos": [
+        "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
+        "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
+        "La empresa informa el estado de un pedido y responde ante una demora.",
+        "El artículo solicitado está en stock cuando llega el pedido.",
+        "El cliente recibe todas las unidades y referencias que había comprado.",
+        "Ventas informa una promoción y compras ajusta el abastecimiento."
+      ]
+    }
+  }
+}

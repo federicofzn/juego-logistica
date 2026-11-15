@@ -1,0 +1,110 @@
+[
+  {
+    "id": "caso-clase4-1",
+    "tipo": "caso",
+    "titulo": "Unidad de carga",
+    "situacion": "Varias cajas se agrupan de forma estable para moverlas juntas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Unidad de carga",
+    "incorrectas": [
+      "Estabilidad de la carga",
+      "Pallet",
+      "Rotación",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "caso-clase4-2",
+    "tipo": "caso",
+    "titulo": "Estabilidad de la carga",
+    "situacion": "Se asegura un pallet para evitar que las cajas se desplacen.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Estabilidad de la carga",
+    "incorrectas": [
+      "Unidad de carga",
+      "Pallet",
+      "Rotación",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "caso-clase4-3",
+    "tipo": "caso",
+    "titulo": "Pallet",
+    "situacion": "Un equipo eleva una plataforma cargada con cajas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Pallet",
+    "incorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Rotación",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "caso-clase4-4",
+    "tipo": "caso",
+    "titulo": "Rotación",
+    "situacion": "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Rotación",
+    "incorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Pallet",
+      "Consolidación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "caso-clase4-5",
+    "tipo": "caso",
+    "titulo": "Consolidación",
+    "situacion": "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Consolidación",
+    "incorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Pallet",
+      "Rotación",
+      "Miniload"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Consolidación: Reunión de productos para completar un pedido o envío.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "caso-clase4-6",
+    "tipo": "caso",
+    "titulo": "Miniload",
+    "situacion": "Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Miniload",
+    "incorrectas": [
+      "Unidad de carga",
+      "Estabilidad de la carga",
+      "Pallet",
+      "Rotación",
+      "Consolidación"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas.",
+    "libro": "clase4_conceptos"
+  }
+]

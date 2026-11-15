@@ -1,0 +1,110 @@
+[
+  {
+    "id": "caso-clase1-1",
+    "tipo": "caso",
+    "titulo": "Logística",
+    "situacion": "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Logística",
+    "incorrectas": [
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Distribución física",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+    "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-2",
+    "tipo": "caso",
+    "titulo": "Cadena de suministro",
+    "situacion": "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Cadena de suministro",
+    "incorrectas": [
+      "Logística",
+      "Administración de materiales",
+      "Distribución física",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+    "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-3",
+    "tipo": "caso",
+    "titulo": "Administración de materiales",
+    "situacion": "Se coordinan compras, recepción y almacenamiento de materias primas.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Administración de materiales",
+    "incorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Distribución física",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+    "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-4",
+    "tipo": "caso",
+    "titulo": "Distribución física",
+    "situacion": "Un depósito prepara productos terminados para enviarlos a los comercios.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Distribución física",
+    "incorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Logística inversa",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
+    "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-5",
+    "tipo": "caso",
+    "titulo": "Logística inversa",
+    "situacion": "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Logística inversa",
+    "incorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Distribución física",
+      "Nivel de servicio"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
+    "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-6",
+    "tipo": "caso",
+    "titulo": "Nivel de servicio",
+    "situacion": "Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Nivel de servicio",
+    "incorrectas": [
+      "Logística",
+      "Cadena de suministro",
+      "Administración de materiales",
+      "Distribución física",
+      "Logística inversa"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente.",
+    "libro": "clase1_conceptos"
+  }
+]

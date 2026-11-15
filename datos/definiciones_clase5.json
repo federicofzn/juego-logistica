@@ -1,0 +1,50 @@
+[
+  {
+    "id": "def-clase5-1",
+    "grupo": "conceptos",
+    "termino": "Estantería",
+    "definicion": "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+    "ejemplo": "Un depósito guarda pallets en posiciones distribuidas en altura.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "def-clase5-2",
+    "grupo": "conceptos",
+    "termino": "Equipo de manipuleo",
+    "definicion": "Equipo utilizado para elevar, mover o posicionar cargas.",
+    "ejemplo": "Una transpaleta traslada un pallet entre dos sectores.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "def-clase5-3",
+    "grupo": "conceptos",
+    "termino": "Accesibilidad",
+    "definicion": "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+    "ejemplo": "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "def-clase5-4",
+    "grupo": "conceptos",
+    "termino": "Capacidad de almacenamiento",
+    "definicion": "Cantidad de mercancía o posiciones que una instalación puede alojar.",
+    "ejemplo": "El responsable calcula cuántos pallets caben en las estanterías.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "def-clase5-5",
+    "grupo": "conceptos",
+    "termino": "Manejo de materiales",
+    "definicion": "Conjunto de movimientos internos de productos durante la operación.",
+    "ejemplo": "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
+    "libro": "clase5_conceptos"
+  },
+  {
+    "id": "def-clase5-6",
+    "grupo": "conceptos",
+    "termino": "Pasillo de trabajo",
+    "definicion": "Espacio de circulación necesario para personas o equipos entre ubicaciones.",
+    "ejemplo": "Se verifica que la máquina pueda maniobrar entre dos estanterías.",
+    "libro": "clase5_conceptos"
+  }
+]

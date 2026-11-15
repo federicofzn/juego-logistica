@@ -1,0 +1,110 @@
+[
+  {
+    "id": "caso-clase7-1",
+    "tipo": "caso",
+    "titulo": "Transporte carretero",
+    "situacion": "Un camión entrega la mercadería directamente en un comercio.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Transporte carretero",
+    "incorrectas": [
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "caso-clase7-2",
+    "tipo": "caso",
+    "titulo": "Transporte ferroviario",
+    "situacion": "Una carga consolidada recorre una larga distancia sobre rieles.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Transporte ferroviario",
+    "incorrectas": [
+      "Transporte carretero",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "caso-clase7-3",
+    "tipo": "caso",
+    "titulo": "Transporte aéreo",
+    "situacion": "Una pieza urgente y de alto valor viaja en avión.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Transporte aéreo",
+    "incorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte acuático",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "caso-clase7-4",
+    "tipo": "caso",
+    "titulo": "Transporte acuático",
+    "situacion": "Una carga voluminosa viaja por barco entre puertos.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Transporte acuático",
+    "incorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte intermodal",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "caso-clase7-5",
+    "tipo": "caso",
+    "titulo": "Transporte intermodal",
+    "situacion": "Un contenedor viaja en camión y continúa por ferrocarril.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Transporte intermodal",
+    "incorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Costo variable"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Transporte intermodal: Desplazamiento que combina dos o más modos coordinados.",
+    "libro": "clase7_conceptos"
+  },
+  {
+    "id": "caso-clase7-6",
+    "tipo": "caso",
+    "titulo": "Costo variable",
+    "situacion": "El consumo de combustible aumenta al realizar más viajes.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Costo variable",
+    "incorrectas": [
+      "Transporte carretero",
+      "Transporte ferroviario",
+      "Transporte aéreo",
+      "Transporte acuático",
+      "Transporte intermodal"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Costo variable: Costo que cambia con la actividad o el recorrido realizado.",
+    "libro": "clase7_conceptos"
+  }
+]

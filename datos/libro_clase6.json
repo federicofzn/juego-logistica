@@ -1,0 +1,31 @@
+{
+  "unidad": {
+    "key": "clase6",
+    "titulo": "Clase 6: Preparación de pedidos"
+  },
+  "entradas": {
+    "clase6_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "intro": [
+        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+      ],
+      "notas": [
+        "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+        "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+        "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
+        "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar.",
+        "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
+        "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación."
+      ],
+      "ejemplos": [
+        "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
+        "Un transportador lleva una caja al puesto donde espera el operario.",
+        "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
+        "Una señal luminosa guía la extracción en un estante.",
+        "Un indicador señala el contenedor donde colocar artículos para una orden.",
+        "Varias órdenes se agrupan en una tanda para coordinar recorridos."
+      ]
+    }
+  }
+}

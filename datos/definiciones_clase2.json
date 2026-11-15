@@ -1,0 +1,50 @@
+[
+  {
+    "id": "def-clase2-1",
+    "grupo": "conceptos",
+    "termino": "Enfoque sistémico",
+    "definicion": "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+    "ejemplo": "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-2",
+    "grupo": "conceptos",
+    "termino": "Planeamiento logístico",
+    "definicion": "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+    "ejemplo": "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-3",
+    "grupo": "conceptos",
+    "termino": "Servicio al cliente",
+    "definicion": "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+    "ejemplo": "La empresa informa el estado de un pedido y responde ante una demora.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-4",
+    "grupo": "conceptos",
+    "termino": "Disponibilidad",
+    "definicion": "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
+    "ejemplo": "El artículo solicitado está en stock cuando llega el pedido.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-5",
+    "grupo": "conceptos",
+    "termino": "Entrega completa",
+    "definicion": "Cumplimiento de las cantidades y productos solicitados en una orden.",
+    "ejemplo": "El cliente recibe todas las unidades y referencias que había comprado.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-6",
+    "grupo": "conceptos",
+    "termino": "Coordinación entre áreas",
+    "definicion": "Intercambio de información para alinear las decisiones de logística con las de otras funciones.",
+    "ejemplo": "Ventas informa una promoción y compras ajusta el abastecimiento.",
+    "libro": "clase2_conceptos"
+  }
+]

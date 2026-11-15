@@ -1,0 +1,18 @@
+[
+  {
+    "id": "error-clase4",
+    "titulo": "Clase 4: Unidad de carga",
+    "oraciones": [
+      "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+      "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+      "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+      "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+      "La unidad de carga se define sin considerar el peso, la estabilidad ni el equipo de manejo."
+    ],
+    "incorrecta": 4,
+    "correccion": "La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
+    "libro": "clase4_conceptos"
+  }
+]

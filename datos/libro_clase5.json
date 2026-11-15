@@ -1,0 +1,31 @@
+{
+  "unidad": {
+    "key": "clase5",
+    "titulo": "Clase 5: Almacenaje y manipuleo"
+  },
+  "entradas": {
+    "clase5_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "intro": [
+        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+      ],
+      "notas": [
+        "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+        "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
+        "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+        "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar.",
+        "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación.",
+        "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones."
+      ],
+      "ejemplos": [
+        "Un depósito guarda pallets en posiciones distribuidas en altura.",
+        "Una transpaleta traslada un pallet entre dos sectores.",
+        "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
+        "El responsable calcula cuántos pallets caben en las estanterías.",
+        "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
+        "Se verifica que la máquina pueda maniobrar entre dos estanterías."
+      ]
+    }
+  }
+}

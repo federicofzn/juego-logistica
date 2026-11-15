@@ -1,0 +1,219 @@
+[
+  {
+    "id": "error-clase1",
+    "unidad": "clase1",
+    "tipo": "error",
+    "titulo": "Clase 1: Introducción a la logística",
+    "situacion": "Un colega te pasa este resumen sobre «Clase 1: Introducción a la logística» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+      "La logística se limita al transporte y no incluye inventarios ni almacenamiento.",
+      "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+      "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+      "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente."
+    ],
+    "incorrecta": 1,
+    "correccion": "La logística también incluye inventarios, almacenamiento y otras actividades.",
+    "respuestaCorrecta": "La logística se limita al transporte y no incluye inventarios ni almacenamiento.",
+    "respuestasIncorrectas": [
+      "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+      "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+      "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+      "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente."
+    ],
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "Lo correcto es: «La logística también incluye inventarios, almacenamiento y otras actividades.» La logística también incluye inventarios, almacenamiento y otras actividades.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "error-clase2",
+    "unidad": "clase2",
+    "tipo": "error",
+    "titulo": "Clase 2: Planeamiento y servicio",
+    "situacion": "Un colega te pasa este resumen sobre «Clase 2: Planeamiento y servicio» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+      "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+      "El planeamiento logístico se realiza una sola vez y no necesita actualizarse.",
+      "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+      "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita."
+    ],
+    "incorrecta": 2,
+    "correccion": "La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
+    "respuestaCorrecta": "El planeamiento logístico se realiza una sola vez y no necesita actualizarse.",
+    "respuestasIncorrectas": [
+      "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+      "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+      "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+      "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita."
+    ],
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "Lo correcto es: «La planificación debe revisarse cuando cambian la demanda y otras condiciones.» La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 2: Planeamiento y servicio",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "error-clase3",
+    "unidad": "clase3",
+    "tipo": "error",
+    "titulo": "Clase 3: Almacén y depósito",
+    "situacion": "Un colega te pasa este resumen sobre «Clase 3: Almacén y depósito» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
+      "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
+      "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+      "El almacén solo guarda mercancía y no participa de la preparación de pedidos.",
+      "Picking: Selección de los artículos necesarios para preparar un pedido."
+    ],
+    "incorrecta": 3,
+    "correccion": "El almacén también puede recibir, preparar y despachar pedidos.",
+    "respuestaCorrecta": "El almacén solo guarda mercancía y no participa de la preparación de pedidos.",
+    "respuestasIncorrectas": [
+      "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
+      "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
+      "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+      "Picking: Selección de los artículos necesarios para preparar un pedido."
+    ],
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "Lo correcto es: «El almacén también puede recibir, preparar y despachar pedidos.» El almacén también puede recibir, preparar y despachar pedidos.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 3: Almacén y depósito",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "error-clase4",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Clase 4: Unidad de carga",
+    "situacion": "Un colega te pasa este resumen sobre «Clase 4: Unidad de carga» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+      "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+      "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+      "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+      "La unidad de carga se define sin considerar el peso, la estabilidad ni el equipo de manejo."
+    ],
+    "incorrecta": 4,
+    "correccion": "La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
+    "respuestaCorrecta": "La unidad de carga se define sin considerar el peso, la estabilidad ni el equipo de manejo.",
+    "respuestasIncorrectas": [
+      "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+      "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+      "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+      "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén."
+    ],
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "Lo correcto es: «La unidad de carga debe ser compatible con el producto y los equipos de manipulación.» La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 4: Unidad de carga",
+      "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "error-clase5",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Clase 5: Almacenaje y manipuleo",
+    "situacion": "Un colega te pasa este resumen sobre «Clase 5: Almacenaje y manipuleo» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Para elegir un equipo de manipuleo alcanza con mirar su precio de compra.",
+      "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+      "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
+      "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+      "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar."
+    ],
+    "incorrecta": 0,
+    "correccion": "La elección también depende de la carga, la altura, los pasillos y la seguridad.",
+    "respuestaCorrecta": "Para elegir un equipo de manipuleo alcanza con mirar su precio de compra.",
+    "respuestasIncorrectas": [
+      "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+      "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
+      "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+      "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar."
+    ],
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "Lo correcto es: «La elección también depende de la carga, la altura, los pasillos y la seguridad.» La elección también depende de la carga, la altura, los pasillos y la seguridad.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "entradaLibro": "clase5_conceptos"
+    }
+  },
+  {
+    "id": "error-clase6",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Clase 6: Preparación de pedidos",
+    "situacion": "Un colega te pasa este resumen sobre «Clase 6: Preparación de pedidos» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+      "En producto a persona el operario debe recorrer todas las ubicaciones para buscar la carga.",
+      "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+      "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
+      "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar."
+    ],
+    "incorrecta": 1,
+    "correccion": "En producto a persona el sistema acerca la mercancía al puesto de preparación.",
+    "respuestaCorrecta": "En producto a persona el operario debe recorrer todas las ubicaciones para buscar la carga.",
+    "respuestasIncorrectas": [
+      "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+      "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+      "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
+      "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar."
+    ],
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "Lo correcto es: «En producto a persona el sistema acerca la mercancía al puesto de preparación.» En producto a persona el sistema acerca la mercancía al puesto de preparación.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 6: Preparación de pedidos",
+      "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "error-clase7",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Clase 7: Transporte",
+    "situacion": "Un colega te pasa este resumen sobre «Clase 7: Transporte» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
+      "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
+      "La tarifa es el único criterio relevante para elegir un servicio de transporte.",
+      "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
+      "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones."
+    ],
+    "incorrecta": 2,
+    "correccion": "La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.",
+    "respuestaCorrecta": "La tarifa es el único criterio relevante para elegir un servicio de transporte.",
+    "respuestasIncorrectas": [
+      "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
+      "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
+      "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
+      "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones."
+    ],
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "Lo correcto es: «La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.» La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.",
+    "referencia": {
+      "tipo": "Conceptos principales",
+      "titulo": "Clase 7: Transporte",
+      "entradaLibro": "clase7_conceptos"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "error-clase7",
+    "titulo": "Clase 7: Transporte",
+    "oraciones": [
+      "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
+      "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
+      "La tarifa es el único criterio relevante para elegir un servicio de transporte.",
+      "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
+      "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones."
+    ],
+    "incorrecta": 2,
+    "correccion": "La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.",
+    "pista": "Revisá el alcance de cada afirmación.",
+    "explicacion": "La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.",
+    "libro": "clase7_conceptos"
+  }
+]

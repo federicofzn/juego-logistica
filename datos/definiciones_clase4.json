@@ -1,0 +1,50 @@
+[
+  {
+    "id": "def-clase4-1",
+    "grupo": "conceptos",
+    "termino": "Unidad de carga",
+    "definicion": "Agrupación de mercancías que se manipula como un conjunto.",
+    "ejemplo": "Varias cajas se agrupan de forma estable para moverlas juntas.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "def-clase4-2",
+    "grupo": "conceptos",
+    "termino": "Estabilidad de la carga",
+    "definicion": "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+    "ejemplo": "Se asegura un pallet para evitar que las cajas se desplacen.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "def-clase4-3",
+    "grupo": "conceptos",
+    "termino": "Pallet",
+    "definicion": "Plataforma que sirve de base para agrupar y manipular mercancías.",
+    "ejemplo": "Un equipo eleva una plataforma cargada con cajas.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "def-clase4-4",
+    "grupo": "conceptos",
+    "termino": "Rotación",
+    "definicion": "Frecuencia con la que un producto sale o se mueve en el almacén.",
+    "ejemplo": "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "def-clase4-5",
+    "grupo": "conceptos",
+    "termino": "Consolidación",
+    "definicion": "Reunión de productos para completar un pedido o envío.",
+    "ejemplo": "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
+    "libro": "clase4_conceptos"
+  },
+  {
+    "id": "def-clase4-6",
+    "grupo": "conceptos",
+    "termino": "Miniload",
+    "definicion": "Sistema automático para almacenar y recuperar cajas o bandejas.",
+    "ejemplo": "Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
+    "libro": "clase4_conceptos"
+  }
+]

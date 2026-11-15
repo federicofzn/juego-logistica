@@ -1,0 +1,110 @@
+[
+  {
+    "id": "caso-clase3-1",
+    "tipo": "caso",
+    "titulo": "Recepción",
+    "situacion": "Un operario verifica los artículos que acaban de llegar del proveedor.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Recepción",
+    "incorrectas": [
+      "Ubicación",
+      "Reposición",
+      "Picking",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "caso-clase3-2",
+    "tipo": "caso",
+    "titulo": "Ubicación",
+    "situacion": "El sistema registra en qué estante se colocó una pieza.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Ubicación",
+    "incorrectas": [
+      "Recepción",
+      "Reposición",
+      "Picking",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "caso-clase3-3",
+    "tipo": "caso",
+    "titulo": "Reposición",
+    "situacion": "Se lleva una caja desde la reserva a un estante de preparación.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Reposición",
+    "incorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Picking",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "caso-clase3-4",
+    "tipo": "caso",
+    "titulo": "Picking",
+    "situacion": "Un operario reúne las referencias y cantidades que solicitó un cliente.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Picking",
+    "incorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Reposición",
+      "Expedición",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Picking: Selección de los artículos necesarios para preparar un pedido.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "caso-clase3-5",
+    "tipo": "caso",
+    "titulo": "Expedición",
+    "situacion": "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Expedición",
+    "incorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Reposición",
+      "Picking",
+      "Sistema de gestión de almacenes"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Expedición: Etapa en que los pedidos preparados se organizan para su salida.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "caso-clase3-6",
+    "tipo": "caso",
+    "titulo": "Sistema de gestión de almacenes",
+    "situacion": "Una aplicación indica dónde guardar y localizar cada artículo.",
+    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "correcta": "Sistema de gestión de almacenes",
+    "incorrectas": [
+      "Recepción",
+      "Ubicación",
+      "Reposición",
+      "Picking",
+      "Expedición"
+    ],
+    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
+    "explicacion": "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito.",
+    "libro": "clase3_conceptos"
+  }
+]

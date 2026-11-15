@@ -1,0 +1,31 @@
+{
+  "unidad": {
+    "key": "clase1",
+    "titulo": "Clase 1: Introducción a la logística"
+  },
+  "entradas": {
+    "clase1_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Clase 1: Introducción a la logística",
+      "intro": [
+        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+      ],
+      "notas": [
+        "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+        "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+        "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+        "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
+        "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
+        "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+      ],
+      "ejemplos": [
+        "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
+        "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
+        "Se coordinan compras, recepción y almacenamiento de materias primas.",
+        "Un depósito prepara productos terminados para enviarlos a los comercios.",
+        "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
+        "Una empresa mide si entrega los pedidos completos y en el plazo prometido."
+      ]
+    }
+  }
+}
