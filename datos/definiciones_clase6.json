@@ -1,50 +1,122 @@
 [
   {
     "id": "def-clase6-1",
-    "grupo": "conceptos",
+    "grupo": "estrategias",
     "termino": "Persona a producto",
-    "definicion": "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-    "ejemplo": "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
+    "definicion": "Estrategia en que el operario se desplaza hasta la mercancía.",
+    "ejemplo": "El preparador recorre los pasillos.",
     "libro": "clase6_conceptos"
   },
   {
     "id": "def-clase6-2",
-    "grupo": "conceptos",
+    "grupo": "estrategias",
     "termino": "Producto a persona",
-    "definicion": "Método en que un equipo acerca la mercancía al puesto de preparación.",
-    "ejemplo": "Un transportador lleva una caja al puesto donde espera el operario.",
+    "definicion": "Estrategia en que un sistema acerca la mercancía al puesto.",
+    "ejemplo": "Una caja llega por transportador al operario.",
     "libro": "clase6_conceptos"
   },
   {
     "id": "def-clase6-3",
-    "grupo": "conceptos",
+    "grupo": "guias",
     "termino": "Picking por voz",
-    "definicion": "Método de preparación que transmite y confirma instrucciones mediante voz.",
-    "ejemplo": "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
-    "libro": "clase6_conceptos"
+    "definicion": "Preparación guiada y confirmada mediante instrucciones orales.",
+    "ejemplo": "El operario escucha la ubicación y confirma la cantidad.",
+    "libro": "clase6_tecnologias"
   },
   {
     "id": "def-clase6-4",
-    "grupo": "conceptos",
+    "grupo": "guias",
     "termino": "Pick to light",
-    "definicion": "Sistema de luces que indica dónde y cuántas unidades retirar.",
-    "ejemplo": "Una señal luminosa guía la extracción en un estante.",
-    "libro": "clase6_conceptos"
+    "definicion": "Guía luminosa que indica dónde y cuánto retirar.",
+    "ejemplo": "Una luz señala la posición de extracción.",
+    "libro": "clase6_tecnologias"
   },
   {
     "id": "def-clase6-5",
-    "grupo": "conceptos",
+    "grupo": "guias",
     "termino": "Put to light",
-    "definicion": "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-    "ejemplo": "Un indicador señala el contenedor donde colocar artículos para una orden.",
-    "libro": "clase6_conceptos"
+    "definicion": "Guía luminosa que indica dónde y cuánto depositar por pedido.",
+    "ejemplo": "Una luz identifica el contenedor de una orden.",
+    "libro": "clase6_tecnologias"
   },
   {
     "id": "def-clase6-6",
-    "grupo": "conceptos",
+    "grupo": "organizacion",
     "termino": "Preparación por olas",
-    "definicion": "Organización de grupos de pedidos para coordinar su preparación.",
-    "ejemplo": "Varias órdenes se agrupan en una tanda para coordinar recorridos.",
+    "definicion": "Organización de pedidos en grupos para coordinar su preparación.",
+    "ejemplo": "Se preparan varias órdenes en una tanda.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "def-clase6-7",
+    "grupo": "estrategias",
+    "termino": "Picking",
+    "definicion": "Recogida y combinación de artículos para formar pedidos.",
+    "ejemplo": "Se reúnen unidades de varias ubicaciones.",
     "libro": "clase6_conceptos"
+  },
+  {
+    "id": "def-clase6-8",
+    "grupo": "organizacion",
+    "termino": "Reposición de picking",
+    "definicion": "Abastecimiento de una ubicación de extracción desde reserva.",
+    "ejemplo": "Se repone una posición baja antes de que se agote.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "def-clase6-9",
+    "grupo": "organizacion",
+    "termino": "SGA",
+    "definicion": "Sistema de gestión de almacenes que puede ordenar ubicaciones y recorridos.",
+    "ejemplo": "El sistema indica una ruta de recolección.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "def-clase6-10",
+    "grupo": "alturas",
+    "termino": "Picking a nivel del suelo",
+    "definicion": "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
+    "ejemplo": "Se retiran cajas de pallets apoyados en el piso.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "def-clase6-11",
+    "grupo": "alturas",
+    "termino": "Picking en niveles bajos",
+    "definicion": "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel.",
+    "ejemplo": "Se recogen piezas de una estantería baja.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "def-clase6-12",
+    "grupo": "alturas",
+    "termino": "Picking en niveles altos",
+    "definicion": "Preparación en altura mediante equipos que permiten acceder a la carga.",
+    "ejemplo": "Una máquina eleva al operario hasta una posición.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "def-clase6-13",
+    "grupo": "sistemas",
+    "termino": "Clasimat",
+    "definicion": "Almacén vertical que acerca bandejas almacenadas en altura al puesto.",
+    "ejemplo": "Una bandeja de piezas llega al operario.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "def-clase6-14",
+    "grupo": "sistemas",
+    "termino": "Spinblock",
+    "definicion": "Carrusel horizontal que desplaza estanterías o contenedores hasta un puesto.",
+    "ejemplo": "El carrusel lleva una referencia al preparador.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "def-clase6-15",
+    "grupo": "sistemas",
+    "termino": "Miniload",
+    "definicion": "Sistema con transelevador para almacenar y recuperar cajas o bandejas.",
+    "ejemplo": "Una caja recuperada se envía al puesto de picking.",
+    "libro": "clase6_sistemas"
   }
 ]

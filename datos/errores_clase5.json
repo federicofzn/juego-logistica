@@ -1,18 +1,82 @@
 [
   {
     "id": "error-clase5",
-    "titulo": "Clase 5: Almacenaje y manipuleo",
+    "titulo": "Selección de equipos",
     "oraciones": [
-      "Para elegir un equipo de manipuleo alcanza con mirar su precio de compra.",
-      "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar."
+      "El precio de compra es suficiente para elegir cualquier equipo de manipuleo.",
+      "La altura de trabajo influye en la elección del equipo.",
+      "Las dimensiones de la carga importan para las maniobras.",
+      "El ancho del pasillo debe ser compatible con el equipo.",
+      "La seguridad es un criterio de selección."
     ],
     "incorrecta": 0,
-    "correccion": "La elección también depende de la carga, la altura, los pasillos y la seguridad.",
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "La elección también depende de la carga, la altura, los pasillos y la seguridad.",
-    "libro": "clase5_conceptos"
+    "correccion": "También deben evaluarse carga, altura, pasillos y seguridad.",
+    "pista": "Buscá la afirmación que reduce la elección a un único factor.",
+    "explicacion": "También deben evaluarse carga, altura, pasillos y seguridad.",
+    "libro": "clase5_equipos"
+  },
+  {
+    "id": "error-clase5-2",
+    "titulo": "Unidad de carga",
+    "oraciones": [
+      "Los auxiliares pueden estabilizar productos agrupados.",
+      "Una unidad de carga puede reunir productos para moverlos juntos.",
+      "La identificación debe poder reconocerse durante la operación.",
+      "Un auxiliar es adecuado aunque impida al equipo tomar la carga.",
+      "La elección del auxiliar depende de la mercadería."
+    ],
+    "incorrecta": 3,
+    "correccion": "El auxiliar debe ser compatible con la carga y el equipo que la manipula.",
+    "pista": "Pensá si proteger alcanza cuando la carga no puede tomarse.",
+    "explicacion": "El auxiliar debe ser compatible con la carga y el equipo que la manipula.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "error-clase5-3",
+    "titulo": "Capacidad y acceso",
+    "oraciones": [
+      "Una estantería puede organizar posiciones en altura.",
+      "La capacidad y la accesibilidad son aspectos diferentes.",
+      "La rotación interviene en la selección.",
+      "Toda propuesta con más posiciones garantiza una recuperación más rápida.",
+      "La estructura debe soportar las cargas previstas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Más posiciones pueden reducir el acceso; hay que evaluar ambos aspectos.",
+    "pista": "Revisá la garantía absoluta sobre la rapidez.",
+    "explicacion": "Más posiciones pueden reducir el acceso; hay que evaluar ambos aspectos.",
+    "libro": "clase5_estanterias"
+  },
+  {
+    "id": "error-clase5-4",
+    "titulo": "Flujo de materiales",
+    "oraciones": [
+      "La recepción está relacionada con movimientos internos.",
+      "La reposición puede trasladar productos hacia una ubicación de trabajo.",
+      "Todo movimiento adicional reduce necesariamente el tiempo y el riesgo de error.",
+      "La preparación de pedidos forma parte del flujo del depósito.",
+      "Revisar recorridos puede revelar desplazamientos innecesarios."
+    ],
+    "incorrecta": 2,
+    "correccion": "Cada traslado puede agregar tiempo, costo y riesgo de error.",
+    "pista": "Considerá qué ocurre cuando se multiplica la manipulación.",
+    "explicacion": "Cada traslado puede agregar tiempo, costo y riesgo de error.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "error-clase5-5",
+    "titulo": "Coordinación del pedido",
+    "oraciones": [
+      "La información de ubicación ayuda a localizar la mercancía.",
+      "La clasificación y el embalaje pueden preceder al despacho.",
+      "El inventario y la preparación necesitan coordinación.",
+      "El caso de Amazon España atribuye la rapidez exclusivamente a una tarea aislada.",
+      "El despacho conecta la operación interna con la salida del pedido."
+    ],
+    "incorrecta": 3,
+    "correccion": "El caso muestra varias etapas coordinadas e información actualizada.",
+    "pista": "Recordá la secuencia completa del caso.",
+    "explicacion": "El caso muestra varias etapas coordinadas e información actualizada.",
+    "libro": "clase5_flujo"
   }
 ]

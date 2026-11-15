@@ -3,22 +3,22 @@
     "id": "caso-clase1-1",
     "unidad": "clase1",
     "tipo": "caso",
-    "titulo": "Logística",
-    "situacion": "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Más que transporte",
+    "situacion": "Una empresa coordina depósito, inventarios, preparación de pedidos y envíos.",
+    "pregunta": "¿Qué función integra estas actividades?",
     "respuestaCorrecta": "Logística",
     "respuestasIncorrectas": [
-      "Cadena de suministro",
-      "Administración de materiales",
-      "Distribución física",
-      "Logística inversa",
-      "Nivel de servicio"
+      "Solo transporte",
+      "Solo compras",
+      "Solo marketing",
+      "Contabilidad financiera",
+      "Diseño de productos"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+    "pista": "Buscá el conjunto que incluye almacenamiento y movimiento.",
+    "explicacion": "La logística integra estas actividades y la información asociada.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
     }
   },
@@ -26,22 +26,22 @@
     "id": "caso-clase1-2",
     "unidad": "clase1",
     "tipo": "caso",
-    "titulo": "Cadena de suministro",
-    "situacion": "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Red completa",
+    "situacion": "Una fábrica coordina proveedores, producción, distribuidores y clientes.",
+    "pregunta": "¿Qué abarca mejor esa red?",
     "respuestaCorrecta": "Cadena de suministro",
     "respuestasIncorrectas": [
-      "Logística",
-      "Administración de materiales",
-      "Distribución física",
-      "Logística inversa",
-      "Nivel de servicio"
+      "Un único depósito",
+      "Solo distribución física",
+      "Solo logística inversa",
+      "Solo transporte",
+      "Una operación de embalaje"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+    "pista": "Incluí actores y funciones desde el origen hasta el cliente.",
+    "explicacion": "La cadena conecta organizaciones y procesos; la logística participa dentro de ella.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
     }
   },
@@ -49,91 +49,367 @@
     "id": "caso-clase1-3",
     "unidad": "clase1",
     "tipo": "caso",
-    "titulo": "Administración de materiales",
-    "situacion": "Se coordinan compras, recepción y almacenamiento de materias primas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Insumos para fabricar",
+    "situacion": "Una planta programa la recepción y el almacenamiento de materias primas.",
+    "pregunta": "¿Qué división tiene el foco principal?",
     "respuestaCorrecta": "Administración de materiales",
     "respuestasIncorrectas": [
-      "Logística",
-      "Cadena de suministro",
       "Distribución física",
+      "Ventas minoristas",
       "Logística inversa",
-      "Nivel de servicio"
+      "Servicio posventa",
+      "Publicidad"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+    "pista": "Seguí el flujo que entra hacia la producción.",
+    "explicacion": "La administración de materiales asegura y mueve los insumos necesarios.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
-      "entradaLibro": "clase1_conceptos"
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
     }
   },
   {
     "id": "caso-clase1-4",
     "unidad": "clase1",
     "tipo": "caso",
-    "titulo": "Distribución física",
-    "situacion": "Un depósito prepara productos terminados para enviarlos a los comercios.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Salida a comercios",
+    "situacion": "Un depósito prepara productos terminados para enviarlos a tiendas.",
+    "pregunta": "¿Qué división predomina?",
     "respuestaCorrecta": "Distribución física",
     "respuestasIncorrectas": [
-      "Logística",
-      "Cadena de suministro",
-      "Administración de materiales",
+      "Administración de materias primas",
+      "Selección de personal",
       "Logística inversa",
-      "Nivel de servicio"
+      "Compra de insumos productivos",
+      "Desarrollo publicitario"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
+    "pista": "El producto ya está terminado y sale hacia clientes.",
+    "explicacion": "La distribución física gestiona la salida de productos terminados.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
-      "entradaLibro": "clase1_conceptos"
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
     }
   },
   {
     "id": "caso-clase1-5",
     "unidad": "clase1",
     "tipo": "caso",
-    "titulo": "Logística inversa",
-    "situacion": "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Equipo devuelto",
+    "situacion": "Una tienda recibe un equipo con fallas y lo envía a reparar.",
+    "pregunta": "¿Qué proceso organiza ese retorno?",
     "respuestaCorrecta": "Logística inversa",
     "respuestasIncorrectas": [
-      "Logística",
-      "Cadena de suministro",
-      "Administración de materiales",
-      "Distribución física",
-      "Nivel de servicio"
+      "Distribución inicial",
+      "Aprovisionamiento de materias primas",
+      "Producción en línea",
+      "Promoción comercial",
+      "Venta directa"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
+    "pista": "Observá la dirección del movimiento desde el cliente.",
+    "explicacion": "El retorno para reparación es un caso de logística inversa.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
-      "entradaLibro": "clase1_conceptos"
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
     }
   },
   {
     "id": "caso-clase1-6",
     "unidad": "clase1",
     "tipo": "caso",
-    "titulo": "Nivel de servicio",
-    "situacion": "Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Compromiso cumplido",
+    "situacion": "Una firma revisa si sus pedidos llegan completos y a tiempo.",
+    "pregunta": "¿Qué está evaluando principalmente?",
     "respuestaCorrecta": "Nivel de servicio",
     "respuestasIncorrectas": [
-      "Logística",
-      "Cadena de suministro",
-      "Administración de materiales",
-      "Distribución física",
-      "Logística inversa"
+      "Diseño del producto",
+      "Origen militar de la logística",
+      "Tipo de cadena industrial",
+      "Compra de maquinaria",
+      "Campaña publicitaria"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente.",
+    "pista": "Pensá en las condiciones ofrecidas al cliente.",
+    "explicacion": "Puntualidad y entrega completa son condiciones del servicio.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "caso-clase1-7",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Campaña sin existencias",
+    "situacion": "Ventas quiere anunciar entrega inmediata, pero el depósito informa faltantes.",
+    "pregunta": "¿Qué decisión mejora la coordinación?",
+    "respuestaCorrecta": "Ajustar la promesa con ventas y coordinar reposición",
+    "respuestasIncorrectas": [
+      "Publicar igual sin consultar",
+      "Comprar publicidad y omitir el stock",
+      "Despachar cantidades menores sin avisar",
+      "Eliminar el registro de inventario",
+      "Suponer que el proveedor ya entregó"
+    ],
+    "pista": "Relacioná la promesa comercial con la disponibilidad real.",
+    "explicacion": "Ventas y logística deben alinear lo prometido con inventario y reposición.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "caso-clase1-8",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Proveedor y recepción",
+    "situacion": "Compras acuerda la fecha con un proveedor de insumos.",
+    "pregunta": "¿Qué dato necesita logística para organizar la recepción?",
+    "respuestaCorrecta": "Cantidades y fecha acordadas de entrega",
+    "respuestasIncorrectas": [
+      "Solo el color del logo del proveedor",
+      "Únicamente la publicidad del producto",
+      "El historial de vacaciones del vendedor",
+      "La fecha de cierre del local cliente",
+      "Solo el nombre de la campaña"
+    ],
+    "pista": "El depósito debe prever qué recibirá y cuándo.",
+    "explicacion": "Con cantidades y fecha puede preparar recepción, espacio y flujo de materiales.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "caso-clase1-9",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Dos alcances",
+    "situacion": "Una gerenta sostiene que logística y cadena de suministro son idénticas.",
+    "pregunta": "¿Qué respuesta corrige esa idea?",
+    "respuestaCorrecta": "La cadena integra más funciones y actores; la logística es parte de ella",
+    "respuestasIncorrectas": [
+      "La logística incluye toda actividad empresarial y la cadena solo camiones",
+      "La cadena excluye proveedores",
+      "La logística solo funciona después de la venta",
+      "La cadena termina antes de la fabricación",
+      "Ambas expresiones designan únicamente el depósito"
+    ],
+    "pista": "Compará la operación logística con la red de organizaciones.",
+    "explicacion": "La cadena coordina un conjunto más amplio de procesos y participantes.",
+    "referencia": {
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
+      "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase1-10",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Distribuidor sin fábrica",
+    "situacion": "Una empresa compra artículos terminados, los reúne y los vende a comercios.",
+    "pregunta": "¿Qué actividad reemplaza a la fabricación en su recorrido?",
+    "respuestaCorrecta": "Almacenaje y consolidación de productos",
+    "respuestasIncorrectas": [
+      "Extracción obligatoria de materias primas",
+      "Fabricación propia de cada artículo",
+      "Eliminación de toda existencia",
+      "Devolución obligatoria al proveedor",
+      "Diseño de maquinaria industrial"
+    ],
+    "pista": "La empresa trabaja con productos ya terminados.",
+    "explicacion": "Una comercializadora puede almacenar y consolidar sin fabricar.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Fases y tipos de organización",
+      "entradaLibro": "clase1_fases"
+    }
+  },
+  {
+    "id": "caso-clase1-11",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Recuperar un envase",
+    "situacion": "Una empresa recoge envases usados para volver a utilizarlos tras su control.",
+    "pregunta": "¿Qué resultado busca esta operación?",
+    "respuestaCorrecta": "Reutilizar materiales mediante un flujo de retorno",
+    "respuestasIncorrectas": [
+      "Aumentar la fabricación de residuos",
+      "Eliminar toda inspección de entrada",
+      "Evitar cualquier costo de transporte",
+      "Transformar automáticamente cada envase en producto nuevo",
+      "Sustituir el servicio al cliente por publicidad"
+    ],
+    "pista": "Identificá qué ocurre con el envase después del consumo.",
+    "explicacion": "La reutilización es un destino posible de la logística inversa, sujeto a control.",
+    "referencia": {
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
+    }
+  },
+  {
+    "id": "caso-clase1-12",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Elegir destino",
+    "situacion": "Llegan productos devueltos con estados diferentes.",
+    "pregunta": "¿Qué criterio respeta el enfoque de logística inversa?",
+    "respuestaCorrecta": "Evaluar cada caso para reparar, reutilizar, reciclar o disponer adecuadamente",
+    "respuestasIncorrectas": [
+      "Mandar todos al cliente sin revisarlos",
+      "Afirmar que todos pueden reutilizarse",
+      "Desechar todo sin considerar alternativas",
+      "Considerar que el retorno termina al recibirlo",
+      "Excluir productos defectuosos del proceso"
+    ],
+    "pista": "No todos los productos admiten el mismo tratamiento.",
+    "explicacion": "El destino depende del estado del producto y de las alternativas disponibles.",
+    "referencia": {
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
+    }
+  },
+  {
+    "id": "caso-clase1-13",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Depósito y demanda",
+    "situacion": "La demanda varía y el almacén recibe mercadería de varios proveedores.",
+    "pregunta": "¿Qué función del almacén ayuda a conectar abastecimiento y pedidos?",
+    "respuestaCorrecta": "Controlar existencias y preparar pedidos",
+    "respuestasIncorrectas": [
+      "Reemplazar la elección de mercados",
+      "Suprimir toda información de entradas",
+      "Garantizar ventas sin productos",
+      "Eliminar la necesidad de recepción",
+      "Fijar por sí solo el precio de venta"
+    ],
+    "pista": "Pensá cómo se pasa de la entrada al despacho.",
+    "explicacion": "La recepción, el control de inventario y la preparación articulan entradas y salidas.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
+    }
+  },
+  {
+    "id": "caso-clase1-14",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Faltante en planta",
+    "situacion": "El proveedor entrega tarde un componente indispensable.",
+    "pregunta": "¿Qué consecuencia es razonable considerar?",
+    "respuestaCorrecta": "Una interrupción o demora de producción",
+    "respuestasIncorrectas": [
+      "Una entrega puntual garantizada",
+      "Una reducción automática de todos los costos",
+      "La desaparición del inventario restante",
+      "La eliminación de la necesidad de comprar",
+      "Un aumento seguro de ventas"
+    ],
+    "pista": "Considerá la dependencia entre abastecimiento y fabricación.",
+    "explicacion": "La falta de insumos puede retrasar la producción y afectar pedidos posteriores.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "caso-clase1-15",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Pedido correcto",
+    "situacion": "Un cliente recibe el producto acordado, completo y en buenas condiciones.",
+    "pregunta": "¿Qué dimensión se ve directamente favorecida?",
+    "respuestaCorrecta": "Servicio al cliente",
+    "respuestasIncorrectas": [
+      "Origen de las materias primas",
+      "Estructura salarial",
+      "Diseño de la marca",
+      "Tipo de cambio",
+      "Selección del personal"
+    ],
+    "pista": "Evaluá el cumplimiento de lo prometido.",
+    "explicacion": "La entrega correcta y en condiciones contribuye a la satisfacción del cliente.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "caso-clase1-16",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Fases de una fabricante",
+    "situacion": "Una fábrica recibe piezas, ensambla equipos y los envía a distribuidores.",
+    "pregunta": "¿Qué secuencia describe mejor el recorrido?",
+    "respuestaCorrecta": "Aprovisionamiento, producción y distribución",
+    "respuestasIncorrectas": [
+      "Distribución, consumo y extracción",
+      "Venta, devolución y publicidad",
+      "Reciclaje, compra y liquidación",
+      "Producción, aprovisionamiento y recepción",
+      "Promoción, transporte y contratación"
+    ],
+    "pista": "Ordená los hechos desde la llegada de piezas hasta el envío.",
+    "explicacion": "Las fases van del abastecimiento a la transformación y luego a la distribución.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Fases y tipos de organización",
+      "entradaLibro": "clase1_fases"
+    }
+  },
+  {
+    "id": "caso-clase1-17",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Retorno con costos",
+    "situacion": "Un responsable propone recoger productos usados y afirma que toda devolución dará ganancias.",
+    "pregunta": "¿Qué evaluación es más prudente?",
+    "respuestaCorrecta": "Comparar recuperación posible con costos y destino de los retornos",
+    "respuestasIncorrectas": [
+      "Dar por seguro el beneficio de cada retorno",
+      "Excluir transporte y clasificación del análisis",
+      "Suponer que todos los productos tienen igual estado",
+      "Eliminar la revisión de calidad",
+      "Prometer reciclaje sin comprobar opciones"
+    ],
+    "pista": "La recuperación tiene beneficios posibles y también obstáculos.",
+    "explicacion": "La logística inversa puede recuperar valor, pero implica costos y resultados variables.",
+    "referencia": {
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
+    }
+  },
+  {
+    "id": "caso-clase1-18",
+    "unidad": "clase1",
+    "tipo": "caso",
+    "titulo": "Servicio y competitividad",
+    "situacion": "Dos firmas ofrecen productos semejantes, pero una entrega de manera más confiable.",
+    "pregunta": "¿Por qué la logística puede ser una ventaja competitiva?",
+    "respuestaCorrecta": "Porque disponibilidad y cumplimiento pueden mejorar la experiencia del cliente",
+    "respuestasIncorrectas": [
+      "Porque elimina toda competencia",
+      "Porque garantiza que nunca habrá reclamos",
+      "Porque reemplaza la calidad del producto",
+      "Porque hace innecesaria la coordinación con ventas",
+      "Porque toda entrega más rápida siempre cuesta menos"
+    ],
+    "pista": "Pensá cómo percibe el cliente el cumplimiento.",
+    "explicacion": "Un servicio confiable puede favorecer satisfacción y preferencia, sin garantizar ventas.",
+    "referencia": {
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
     }
   },
@@ -141,22 +417,22 @@
     "id": "caso-clase2-1",
     "unidad": "clase2",
     "tipo": "caso",
-    "titulo": "Enfoque sistémico",
-    "situacion": "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Efecto entre etapas",
+    "situacion": "Compras retrasa una entrega y el almacén no puede preparar un pedido completo.",
+    "pregunta": "¿Qué perspectiva permite analizar ambas consecuencias?",
     "respuestaCorrecta": "Enfoque sistémico",
     "respuestasIncorrectas": [
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Análisis aislado de transporte",
+      "Revisión exclusiva de publicidad",
+      "Evaluación solo del precio de compra",
+      "Control únicamente contable",
+      "Análisis exclusivo de personal"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+    "pista": "SeguÍ la relación entre actividades.",
+    "explicacion": "El enfoque sistémico estudia cómo una etapa afecta a las demás y al resultado.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
       "entradaLibro": "clase2_conceptos"
     }
   },
@@ -164,275 +440,827 @@
     "id": "caso-clase2-2",
     "unidad": "clase2",
     "tipo": "caso",
-    "titulo": "Planeamiento logístico",
-    "situacion": "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Antes de una campaña",
+    "situacion": "Un equipo calcula capacidad, existencias y distribución antes de una promoción.",
+    "pregunta": "¿Qué está haciendo?",
     "respuestaCorrecta": "Planeamiento logístico",
     "respuestasIncorrectas": [
-      "Enfoque sistémico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Solo registrando una entrega pasada",
+      "Solo evaluando publicidad",
+      "Eliminando la necesidad de proveedores",
+      "Realizando una devolución",
+      "Determinando el diseño del envase"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+    "pista": "Se toman decisiones anticipadas sobre recursos y flujos.",
+    "explicacion": "Planear coordina abastecimiento, almacenamiento y distribución con demanda y servicio.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "entradaLibro": "clase2_plan"
     }
   },
   {
     "id": "caso-clase2-3",
     "unidad": "clase2",
     "tipo": "caso",
-    "titulo": "Servicio al cliente",
-    "situacion": "La empresa informa el estado de un pedido y responde ante una demora.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Aviso de demora",
+    "situacion": "Un pedido se retrasa y la empresa informa al cliente y ofrece una respuesta.",
+    "pregunta": "¿Qué aspecto atiende directamente?",
     "respuestaCorrecta": "Servicio al cliente",
     "respuestasIncorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Disponibilidad",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Únicamente producción",
+      "Solo selección de proveedores",
+      "Diseño del producto",
+      "Solo compra de materias primas",
+      "Cierre del almacén"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+    "pista": "El servicio también incluye información y atención de problemas.",
+    "explicacion": "Comunicar y responder ante una incidencia forma parte del servicio.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
     "id": "caso-clase2-4",
     "unidad": "clase2",
     "tipo": "caso",
-    "titulo": "Disponibilidad",
-    "situacion": "El artículo solicitado está en stock cuando llega el pedido.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Artículo disponible",
+    "situacion": "Una tienda puede atender un pedido porque cuenta con la referencia solicitada.",
+    "pregunta": "¿Qué condición se cumple en ese momento?",
     "respuestaCorrecta": "Disponibilidad",
     "respuestasIncorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Entrega completa ya confirmada",
+      "Transporte finalizado",
+      "Devolución procesada",
+      "Promoción finalizada",
+      "Producción necesariamente propia"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
+    "pista": "Estar en stock y haber entregado son hechos distintos.",
+    "explicacion": "La disponibilidad permite atender el pedido, aunque aún falta cumplir la entrega.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
     "id": "caso-clase2-5",
     "unidad": "clase2",
     "tipo": "caso",
-    "titulo": "Entrega completa",
-    "situacion": "El cliente recibe todas las unidades y referencias que había comprado.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Faltan unidades",
+    "situacion": "Un cliente pidió diez unidades y recibe ocho en la fecha acordada.",
+    "pregunta": "¿Qué condición no se cumplió?",
     "respuestaCorrecta": "Entrega completa",
     "respuestasIncorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Coordinación entre áreas"
+      "Puntualidad de la llegada",
+      "Recepción por el cliente",
+      "Existencia de una orden",
+      "Llegada en la fecha acordada",
+      "Comunicación del pedido inicial"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden.",
+    "pista": "Compará la cantidad pedida con la recibida.",
+    "explicacion": "La entrega llegó a tiempo, pero no incluyó todas las unidades solicitadas.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
     "id": "caso-clase2-6",
     "unidad": "clase2",
     "tipo": "caso",
-    "titulo": "Coordinación entre áreas",
-    "situacion": "Ventas informa una promoción y compras ajusta el abastecimiento.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Promoción coordinada",
+    "situacion": "Ventas comunica una promoción y compras revisa el abastecimiento.",
+    "pregunta": "¿Qué práctica muestra el ejemplo?",
     "respuestaCorrecta": "Coordinación entre áreas",
     "respuestasIncorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Entrega completa"
+      "Aislamiento funcional",
+      "Reemplazo del inventario por publicidad",
+      "Eliminación del proveedor",
+      "Supresión del plan de ventas",
+      "Distribución inversa obligatoria"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones.",
+    "pista": "Observá cómo se comparte información entre funciones.",
+    "explicacion": "Coordinar permite ajustar el suministro a lo que ventas espera ofrecer.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "caso-clase2-7",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Costo trasladado",
+    "situacion": "Para ahorrar en transporte se despacha con menor frecuencia; aparecen faltantes.",
+    "pregunta": "¿Cómo debería evaluarse la medida?",
+    "respuestaCorrecta": "Comparando el ahorro con faltantes y efectos sobre el servicio",
+    "respuestasIncorrectas": [
+      "Mirando solo la tarifa del transporte",
+      "Suponiendo que menos viajes siempre mejoran el servicio",
+      "Ignorando inventario y demanda",
+      "Comparando solo la publicidad",
+      "Tratando cada etapa como independiente"
+    ],
+    "pista": "Un ahorro local puede tener consecuencias en otros puntos.",
+    "explicacion": "El enfoque sistémico considera costos y resultados conjuntos, incluido el servicio.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
       "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-8",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Cambio de demanda",
+    "situacion": "Un producto comienza a venderse mucho más de lo previsto.",
+    "pregunta": "¿Cuándo corresponde revisar el plan logístico?",
+    "respuestaCorrecta": "Al detectar el cambio, considerando capacidad y abastecimiento",
+    "respuestasIncorrectas": [
+      "Solo al terminar todos los contratos",
+      "Nunca, porque el plan inicial es definitivo",
+      "Solo después de perder todos los clientes",
+      "Únicamente si cambia el nombre del producto",
+      "Cuando ventas deje de compartir información"
+    ],
+    "pista": "Relacioná la planificación continua con un cambio relevante.",
+    "explicacion": "Una variación de demanda puede exigir ajustes de stock, compras y distribución.",
+    "referencia": {
+      "tipo": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "entradaLibro": "clase2_plan"
+    }
+  },
+  {
+    "id": "caso-clase2-9",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Nueva zona",
+    "situacion": "La empresa decide vender en una región que antes no atendía.",
+    "pregunta": "¿Qué combinación necesita revisar?",
+    "respuestaCorrecta": "Cobertura, transporte, capacidad y servicio prometido",
+    "respuestasIncorrectas": [
+      "Solo el color del uniforme",
+      "Únicamente las ventas del año anterior",
+      "Solo el número de proveedores actuales",
+      "Exclusivamente el nombre del depósito",
+      "Solo la cantidad de avisos publicados"
+    ],
+    "pista": "La zona nueva modifica destinos y requisitos de entrega.",
+    "explicacion": "El alcance geográfico afecta recursos de distribución, costos y plazos posibles.",
+    "referencia": {
+      "tipo": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "entradaLibro": "clase2_plan"
+    }
+  },
+  {
+    "id": "caso-clase2-10",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Información de campaña",
+    "situacion": "Marketing prepara una promoción de un producto estacional.",
+    "pregunta": "¿Qué información debería compartir para apoyar el plan logístico?",
+    "respuestaCorrecta": "Fechas, productos y demanda prevista de la promoción",
+    "respuestasIncorrectas": [
+      "Solo el diseño del aviso",
+      "Únicamente el nombre del diseñador",
+      "Solo el horario de una reunión interna",
+      "El domicilio personal del vendedor",
+      "Exclusivamente el lema de la campaña"
+    ],
+    "pista": "Compras y depósito necesitan anticipar qué se ofrecerá y cuándo.",
+    "explicacion": "La previsión y las fechas permiten contrastar existencias y capacidad con la campaña.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "caso-clase2-11",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Capacidad de producción",
+    "situacion": "Ventas prevé pedidos adicionales y producción informa capacidad limitada.",
+    "pregunta": "¿Qué respuesta coordina mejor el plan?",
+    "respuestaCorrecta": "Revisar conjuntamente cantidades, fechas y compromisos posibles",
+    "respuestasIncorrectas": [
+      "Prometer toda la demanda sin consultar",
+      "Descartar el dato de producción",
+      "Eliminar los registros de stock",
+      "Suponer capacidad infinita",
+      "Informar únicamente a publicidad"
+    ],
+    "pista": "Confrontá la previsión comercial con la capacidad real.",
+    "explicacion": "La coordinación permite definir compromisos factibles y necesidades de recursos.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "caso-clase2-12",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Del plan a materiales",
+    "situacion": "La empresa relaciona el pronóstico de ventas con su plan de producción.",
+    "pregunta": "¿Qué herramienta mencionada en el material ayuda a planear necesidades de materiales?",
+    "respuestaCorrecta": "MRP",
+    "respuestasIncorrectas": [
+      "Diseño de marca",
+      "Control exclusivo de vehículos",
+      "Publicidad de temporada",
+      "Registro de reclamos de clientes",
+      "Encuesta de satisfacción aislada"
+    ],
+    "pista": "Buscá la planificación vinculada con los materiales requeridos.",
+    "explicacion": "El MRP conecta las necesidades de materiales con el plan de producción.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "caso-clase2-13",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Pedido en preparación",
+    "situacion": "El proveedor recibió la orden, pero una referencia no está disponible.",
+    "pregunta": "¿Qué paso es coherente antes de comprometer el despacho completo?",
+    "respuestaCorrecta": "Verificar disponibilidad y coordinar una respuesta con el cliente",
+    "respuestasIncorrectas": [
+      "Confirmar despacho completo sin comprobar",
+      "Eliminar la orden del registro",
+      "Cargar artículos distintos sin aviso",
+      "Declarar entregado el pedido",
+      "Ignorar la falta hasta después de la entrega"
+    ],
+    "pista": "El despacho depende de lo que realmente puede prepararse.",
+    "explicacion": "Revisar existencias y comunicar la incidencia evita promesas incompatibles con la situación.",
+    "referencia": {
+      "tipo": "Distribución",
+      "titulo": "Del pedido a la entrega",
+      "entradaLibro": "clase2_distribucion"
+    }
+  },
+  {
+    "id": "caso-clase2-14",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Salida del sistema",
+    "situacion": "Una empresa analiza el recorrido desde pedidos y mercadería hasta la entrega.",
+    "pregunta": "En ese análisis, ¿qué puede considerarse una salida?",
+    "respuestaCorrecta": "El pedido entregado al cliente",
+    "respuestasIncorrectas": [
+      "La orden recibida como entrada",
+      "La mercadería recibida como entrada",
+      "La preparación interna del pedido",
+      "La carga previa al transporte",
+      "El control interno de existencias"
+    ],
+    "pista": "Identificá el resultado que llega al destinatario.",
+    "explicacion": "El pedido entregado es un resultado del proceso; orden y mercadería alimentan el sistema.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-15",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Aprender de reclamos",
+    "situacion": "Se repiten reclamos por cajas dañadas y el equipo investiga la carga.",
+    "pregunta": "¿Qué papel cumplen los reclamos en el análisis?",
+    "respuestaCorrecta": "Retroalimentación para revisar y corregir el proceso",
+    "respuestasIncorrectas": [
+      "Prueba de que el transporte es innecesario",
+      "Garantía de ventas futuras",
+      "Sustituto del control de preparación",
+      "Confirmación de que todas las entregas fueron perfectas",
+      "Dato irrelevante para la logística"
+    ],
+    "pista": "Pensá cómo una salida observada informa decisiones posteriores.",
+    "explicacion": "Los reclamos aportan información para investigar causas y mejorar el proceso.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase2-16",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Entrega y reputación",
+    "situacion": "Un comercio recibe pedidos tardíos repetidamente y empieza a comprar a otro proveedor.",
+    "pregunta": "¿Qué relación ilustra el caso?",
+    "respuestaCorrecta": "El incumplimiento del servicio puede afectar ventas futuras",
+    "respuestasIncorrectas": [
+      "La puntualidad no influye en la confianza",
+      "Los retrasos garantizan fidelidad",
+      "El servicio termina al emitir la factura",
+      "La publicidad elimina todos los faltantes",
+      "Las ventas nunca dependen de la disponibilidad"
+    ],
+    "pista": "Considerá la experiencia del cliente y su decisión posterior.",
+    "explicacion": "Las demoras pueden deteriorar la confianza y provocar pérdida de ventas.",
+    "referencia": {
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
+    }
+  },
+  {
+    "id": "caso-clase2-17",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Producto equivocado",
+    "situacion": "Un pedido llega puntual y completo en cantidad, pero contiene otra referencia.",
+    "pregunta": "¿Qué conclusión es correcta?",
+    "respuestaCorrecta": "Cumple plazo y cantidad, pero falla la exactitud del producto",
+    "respuestasIncorrectas": [
+      "Cumple todas las condiciones del pedido",
+      "Es necesariamente una devolución",
+      "No hubo transporte",
+      "La disponibilidad ya no importa",
+      "La cantidad recibida demuestra que la referencia es correcta"
+    ],
+    "pista": "Evaluá por separado plazo, cantidad y producto.",
+    "explicacion": "El servicio incluye entregar la referencia acordada además de cumplir plazo y cantidad.",
+    "referencia": {
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
+    }
+  },
+  {
+    "id": "caso-clase2-18",
+    "unidad": "clase2",
+    "tipo": "caso",
+    "titulo": "Costo y recursos",
+    "situacion": "Logística propone ampliar capacidad de almacenamiento para una campaña.",
+    "pregunta": "¿Por qué debe intervenir finanzas en la planificación?",
+    "respuestaCorrecta": "Para considerar recursos y costos de la alternativa",
+    "respuestasIncorrectas": [
+      "Para sustituir toda previsión de ventas",
+      "Para garantizar demanda sin incertidumbre",
+      "Para despachar físicamente todos los pedidos",
+      "Para decidir sola las referencias de cada cliente",
+      "Para evitar evaluar otras áreas"
+    ],
+    "pista": "La propuesta compromete recursos de la empresa.",
+    "explicacion": "Finanzas aporta información sobre recursos y costos para evaluar la viabilidad.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
     }
   },
   {
     "id": "caso-clase3-1",
     "unidad": "clase3",
     "tipo": "caso",
-    "titulo": "Recepción",
-    "situacion": "Un operario verifica los artículos que acaban de llegar del proveedor.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Control de ingreso",
+    "situacion": "Llegan cajas del proveedor y antes de guardarlas se contrastan los artículos recibidos.",
+    "pregunta": "¿Qué operación se está realizando?",
     "respuestaCorrecta": "Recepción",
     "respuestasIncorrectas": [
-      "Ubicación",
-      "Reposición",
       "Picking",
+      "Reposición",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Consolidación",
+      "Ubicación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
+    "pista": "La mercancía acaba de entrar y todavía no se asignó a una posición.",
+    "explicacion": "La recepción incluye verificar la mercancía que ingresa.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "caso-clase3-2",
     "unidad": "clase3",
     "tipo": "caso",
-    "titulo": "Ubicación",
-    "situacion": "El sistema registra en qué estante se colocó una pieza.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Ubicación registrada",
+    "situacion": "Una pieza ya controlada se coloca en un estante y se anota esa posición.",
+    "pregunta": "¿Qué operación permite volver a encontrarla?",
     "respuestaCorrecta": "Ubicación",
     "respuestasIncorrectas": [
       "Recepción",
       "Reposición",
       "Picking",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Consolidación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
+    "pista": "Buscá la actividad que vincula artículo y lugar.",
+    "explicacion": "La ubicación asigna y registra el lugar físico.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "caso-clase3-3",
     "unidad": "clase3",
     "tipo": "caso",
-    "titulo": "Reposición",
-    "situacion": "Se lleva una caja desde la reserva a un estante de preparación.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Estante vacío",
+    "situacion": "El sector de preparación agotó una referencia, pero hay cajas en reserva.",
+    "pregunta": "¿Qué tarea recupera disponibilidad en el punto de preparación?",
     "respuestaCorrecta": "Reposición",
     "respuestasIncorrectas": [
       "Recepción",
-      "Ubicación",
-      "Picking",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Consolidación",
+      "Picking",
+      "Control de destino"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+    "pista": "La mercancía ya está en el depósito y debe acercarse a donde se prepara.",
+    "explicacion": "La reposición mueve existencias de reserva al punto que las necesita.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "caso-clase3-4",
     "unidad": "clase3",
     "tipo": "caso",
-    "titulo": "Picking",
-    "situacion": "Un operario reúne las referencias y cantidades que solicitó un cliente.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Pedido de repuestos",
+    "situacion": "Un cliente solicita dos referencias y el operario las localiza y retira en las cantidades indicadas.",
+    "pregunta": "¿Qué actividad realiza?",
     "respuestaCorrecta": "Picking",
     "respuestasIncorrectas": [
       "Recepción",
-      "Ubicación",
       "Reposición",
+      "Ubicación",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Inventario"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Picking: Selección de los artículos necesarios para preparar un pedido.",
+    "pista": "Se seleccionan artículos para una orden concreta.",
+    "explicacion": "El picking reúne las referencias y cantidades de un pedido.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "Preparación y control del pedido",
+      "entradaLibro": "clase3_picking"
     }
   },
   {
     "id": "caso-clase3-5",
     "unidad": "clase3",
     "tipo": "caso",
-    "titulo": "Expedición",
-    "situacion": "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Salida al destino",
+    "situacion": "Una orden completa llega al sector donde se controla su destino y se organiza su carga.",
+    "pregunta": "¿Qué etapa corresponde?",
     "respuestaCorrecta": "Expedición",
     "respuestasIncorrectas": [
       "Recepción",
       "Ubicación",
       "Reposición",
       "Picking",
-      "Sistema de gestión de almacenes"
+      "Almacenamiento"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Expedición: Etapa en que los pedidos preparados se organizan para su salida.",
+    "pista": "La orden ya fue preparada y está por salir.",
+    "explicacion": "Expedición organiza y controla la salida.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "caso-clase3-6",
     "unidad": "clase3",
     "tipo": "caso",
-    "titulo": "Sistema de gestión de almacenes",
-    "situacion": "Una aplicación indica dónde guardar y localizar cada artículo.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Buscar entre referencias",
+    "situacion": "En un depósito con muchas piezas, una aplicación indica el estante y registra el traslado.",
+    "pregunta": "¿Qué recurso cumple esa función?",
     "respuestaCorrecta": "Sistema de gestión de almacenes",
     "respuestasIncorrectas": [
-      "Recepción",
-      "Ubicación",
-      "Reposición",
-      "Picking",
-      "Expedición"
+      "Flujo en U",
+      "Embalaje",
+      "Muelle de expedición",
+      "Unidad de carga",
+      "Consolidación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito.",
+    "pista": "Es una herramienta de información que guía y registra tareas.",
+    "explicacion": "El sistema vincula ubicaciones y movimientos con los artículos.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
+    }
+  },
+  {
+    "id": "caso-clase3-7",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Pedido incompleto",
+    "situacion": "Se recogieron artículos de dos sectores para una misma orden, pero todavía están separados.",
+    "pregunta": "¿Qué actividad permite reunirlos antes de embalar?",
+    "respuestaCorrecta": "Consolidación",
+    "respuestasIncorrectas": [
+      "Recepción",
+      "Reposición",
+      "Clasificación del almacén",
+      "Ubicación inicial",
+      "Control de ingreso"
+    ],
+    "pista": "La tarea une partes de un mismo pedido.",
+    "explicacion": "La consolidación reúne lo recogido para completar la orden.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
+    }
+  },
+  {
+    "id": "caso-clase3-8",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Existencia fantasma",
+    "situacion": "La aplicación muestra una pieza en un estante, pero fue trasladada sin registrar el cambio.",
+    "pregunta": "¿Cuál es la mejora más directa?",
+    "respuestaCorrecta": "Registrar cada traslado y actualizar la ubicación",
+    "respuestasIncorrectas": [
+      "Eliminar el control de ingresos",
+      "Preparar pedidos sin identificar referencias",
+      "Cambiar el destino de todos los pedidos",
+      "Reducir la cantidad de estantes sin revisar stock",
+      "Confundir reserva con expedición"
+    ],
+    "pista": "El problema está entre el movimiento físico y la información.",
+    "explicacion": "El registro oportuno mantiene coherencia entre ubicación física e inventario.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
+    }
+  },
+  {
+    "id": "caso-clase3-9",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Dos referencias parecidas",
+    "situacion": "Se encuentran piezas similares en estantes próximos y el pedido especifica solo una de ellas.",
+    "pregunta": "¿Qué control protege la exactitud?",
+    "respuestaCorrecta": "Comparar la referencia retirada con la solicitada",
+    "respuestasIncorrectas": [
+      "Retirar cualquiera con aspecto similar",
+      "Verificar únicamente el destino del camión",
+      "Omitir la cantidad si coincide el estante",
+      "Despachar antes de identificar la pieza",
+      "Contar solo cajas en recepción"
+    ],
+    "pista": "La apariencia similar no identifica necesariamente la referencia.",
+    "explicacion": "El picking exige verificar la referencia y la cantidad del pedido.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Preparación y control del pedido",
+      "entradaLibro": "clase3_picking"
+    }
+  },
+  {
+    "id": "caso-clase3-10",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Mercancía delicada",
+    "situacion": "Una empresa proyecta guardar artículos frágiles y pesados en el mismo depósito.",
+    "pregunta": "¿Qué información debe considerar al diseñarlo?",
+    "respuestaCorrecta": "Peso, dimensiones, conservación y equipos",
+    "respuestasIncorrectas": [
+      "Solo el color de las etiquetas",
+      "Solo la cantidad de oficinas",
+      "Únicamente el nombre del cliente",
+      "Solo la fecha de apertura",
+      "Únicamente el número de pedidos sin mirar productos"
+    ],
+    "pista": "Pensá en las características físicas y el manejo.",
+    "explicacion": "El diseño depende de las mercancías, condiciones de conservación, equipos y seguridad.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "caso-clase3-11",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Rutas cruzadas",
+    "situacion": "Los carros de entrada y de salida se cruzan repetidamente y esperan para pasar.",
+    "pregunta": "¿Qué aspecto conviene revisar?",
+    "respuestaCorrecta": "La disposición de áreas y los flujos internos",
+    "respuestasIncorrectas": [
+      "Solo el título del almacén",
+      "El nombre de cada proveedor",
+      "Únicamente el formato de la factura",
+      "La rotulación del cliente sin revisar recorridos",
+      "La frecuencia de inventario sin observar el tránsito"
+    ],
+    "pista": "El problema aparece en el recorrido físico.",
+    "explicacion": "Planificar flujos busca reducir cruces y esperas innecesarias.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "caso-clase3-12",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Muelles próximos",
+    "situacion": "Recepción y expedición se encuentran cerca una de otra y se estudia un recorrido acorde.",
+    "pregunta": "¿Qué forma de flujo merece evaluarse?",
+    "respuestaCorrecta": "En U",
+    "respuestasIncorrectas": [
+      "Siempre lineal, sin mirar el edificio",
+      "Solo en T, por la cantidad de productos",
+      "Solo en L, por el tipo de pedido",
+      "Una forma elegida sin observar muelles",
+      "Ningún flujo, porque existen dos muelles"
+    ],
+    "pista": "La entrada y la salida quedan próximas; la elección final depende de la operación.",
+    "explicacion": "Un flujo en U puede evaluarse cuando entrada y salida están próximas.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "caso-clase3-13",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Abastecer la fábrica",
+    "situacion": "Una instalación conserva insumos que se entregarán a producción.",
+    "pregunta": "¿Cómo se clasifica según su función?",
+    "respuestaCorrecta": "Almacén de materias primas",
+    "respuestasIncorrectas": [
+      "De productos terminados",
+      "De distribución al cliente final exclusivamente",
+      "Área de expedición",
+      "Sector de picking",
+      "Sistema de gestión"
+    ],
+    "pista": "Los artículos todavía son insumos para fabricar.",
+    "explicacion": "Un almacén de materias primas guarda insumos para producción.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Función y clases de almacén",
       "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-14",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Después de fabricar",
+    "situacion": "Los artículos ya elaborados esperan su distribución en una instalación separada.",
+    "pregunta": "¿Qué tipo de almacén describe mejor el caso?",
+    "respuestaCorrecta": "De productos terminados",
+    "respuestasIncorrectas": [
+      "De materias primas",
+      "De insumos sin procesar",
+      "Área de recepción exclusivamente",
+      "Zona de reposición exclusivamente",
+      "Sistema de picking"
+    ],
+    "pista": "La producción ya terminó.",
+    "explicacion": "El almacén de terminados conserva lo producido antes de distribuirlo.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Función y clases de almacén",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "caso-clase3-15",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Pedido rápido pero equivocado",
+    "situacion": "Un equipo reduce el tiempo de preparación, aunque entrega referencias incorrectas.",
+    "pregunta": "¿Cómo debe evaluarse el resultado?",
+    "respuestaCorrecta": "Es insuficiente: también debe medirse la exactitud",
+    "respuestasIncorrectas": [
+      "Es correcto porque solo importa la velocidad",
+      "Es correcto si no se registran errores",
+      "La exactitud se limita a recepción",
+      "La cantidad no importa si el embalaje cierra",
+      "El destino reemplaza la identificación de la referencia"
+    ],
+    "pista": "El servicio depende de que el cliente reciba lo pedido.",
+    "explicacion": "La calidad del picking combina tiempo, referencias, cantidades y condición del pedido.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Preparación y control del pedido",
+      "entradaLibro": "clase3_picking"
+    }
+  },
+  {
+    "id": "caso-clase3-16",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Diferencia de inventario",
+    "situacion": "El conteo físico no coincide con el registro de una referencia.",
+    "pregunta": "¿Qué investigación es más útil?",
+    "respuestaCorrecta": "Revisar los movimientos y ubicaciones registrados",
+    "respuestasIncorrectas": [
+      "Cambiar el nombre del producto sin contar",
+      "Dar por correcto el registro sin comprobar",
+      "Eliminar el pedido del cliente",
+      "Modificar el muelle de salida sin revisar stock",
+      "Medir solo el ancho del pasillo"
+    ],
+    "pista": "Buscá la conexión entre existencia física e información.",
+    "explicacion": "Los movimientos y ubicaciones permiten investigar la diferencia.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
+    }
+  },
+  {
+    "id": "caso-clase3-17",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Lugar para alta rotación",
+    "situacion": "Se revisa la ubicación de artículos pedidos con frecuencia para reducir desplazamientos.",
+    "pregunta": "¿Qué criterio se está usando?",
+    "respuestaCorrecta": "Rotación y recorridos de preparación",
+    "respuestasIncorrectas": [
+      "Solo color del embalaje",
+      "Orden alfabético del cliente sin considerar recorridos",
+      "Forma del comprobante",
+      "Fecha de pintura del edificio",
+      "Nombre del transportista"
+    ],
+    "pista": "Importa cuántas veces se necesita acceder al producto.",
+    "explicacion": "La rotación y los recorridos son criterios de diseño del almacén.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "caso-clase3-18",
+    "unidad": "clase3",
+    "tipo": "caso",
+    "titulo": "Pedido de varias zonas",
+    "situacion": "El operario retiró todos los artículos correctos, pero aún falta embalarlos y controlar su salida.",
+    "pregunta": "¿Qué secuencia es coherente?",
+    "respuestaCorrecta": "Consolidar o embalar y luego expedir",
+    "respuestasIncorrectas": [
+      "Expedir y después recibir el pedido",
+      "Reponer el proveedor y eliminar el control",
+      "Ubicar como ingreso y después recibir",
+      "Dar por entregado antes de reunir los artículos",
+      "Registrar una entrada en lugar de preparar la salida"
+    ],
+    "pista": "Después de recoger hay que completar el pedido antes de su salida.",
+    "explicacion": "La consolidación y el embalaje preceden al control de expedición.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "caso-clase4-1",
     "unidad": "clase4",
     "tipo": "caso",
-    "titulo": "Unidad de carga",
-    "situacion": "Varias cajas se agrupan de forma estable para moverlas juntas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Unidad de carga",
+    "titulo": "Cajas agrupadas",
+    "situacion": "Varias cajas se aseguran y se trasladan juntas como un solo conjunto.",
+    "pregunta": "¿Qué representa el conjunto?",
+    "respuestaCorrecta": "Una unidad de carga",
     "respuestasIncorrectas": [
-      "Estabilidad de la carga",
-      "Pallet",
-      "Rotación",
-      "Consolidación",
-      "Miniload"
+      "Una orden de compra",
+      "Una ubicación vacía",
+      "Una línea de pedido",
+      "Una zona de expedición",
+      "Una diferencia de inventario"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+    "pista": "Pensá en aquello que se manipula como conjunto.",
+    "explicacion": "La unidad de carga agrupa mercancías para manejarlas juntas.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
+      "tipo": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
       "entradaLibro": "clase4_conceptos"
     }
   },
@@ -440,45 +1268,45 @@
     "id": "caso-clase4-2",
     "unidad": "clase4",
     "tipo": "caso",
-    "titulo": "Estabilidad de la carga",
-    "situacion": "Se asegura un pallet para evitar que las cajas se desplacen.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Estabilidad de la carga",
+    "titulo": "Cajas que se desplazan",
+    "situacion": "Una carga agrupada se inclina y sus cajas se mueven cuando se la manipula.",
+    "pregunta": "¿Qué condición debe mejorarse?",
+    "respuestaCorrecta": "La estabilidad de la carga",
     "respuestasIncorrectas": [
-      "Unidad de carga",
-      "Pallet",
-      "Rotación",
-      "Consolidación",
-      "Miniload"
+      "La frecuencia de pedidos",
+      "La clasificación del cliente",
+      "El nombre del depósito",
+      "La cantidad de líneas de la orden",
+      "El registro de salida por sí solo"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+    "pista": "El problema es físico y ocurre dentro del conjunto.",
+    "explicacion": "Asegurar y conformar correctamente la carga ayuda a evitar desplazamientos.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
     }
   },
   {
     "id": "caso-clase4-3",
     "unidad": "clase4",
     "tipo": "caso",
-    "titulo": "Pallet",
-    "situacion": "Un equipo eleva una plataforma cargada con cajas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Base del conjunto",
+    "situacion": "Una plataforma sostiene varias cajas que un equipo debe elevar juntas.",
+    "pregunta": "¿Cómo se llama esa base?",
     "respuestaCorrecta": "Pallet",
     "respuestasIncorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
+      "Miniload",
+      "Picking",
       "Rotación",
       "Consolidación",
-      "Miniload"
+      "Clasificador de pedidos"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+    "pista": "Es la plataforma, no el conjunto completo ni una operación.",
+    "explicacion": "El pallet puede servir de base para agrupar y manipular mercancías.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
+      "tipo": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
       "entradaLibro": "clase4_conceptos"
     }
   },
@@ -486,229 +1314,781 @@
     "id": "caso-clase4-4",
     "unidad": "clase4",
     "tipo": "caso",
-    "titulo": "Rotación",
-    "situacion": "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Referencias con demandas distintas",
+    "situacion": "Un artículo se mueve frecuentemente y otro permanece más tiempo sin pedidos.",
+    "pregunta": "¿Qué característica los diferencia?",
     "respuestaCorrecta": "Rotación",
     "respuestasIncorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
-      "Pallet",
-      "Consolidación",
-      "Miniload"
+      "Estabilidad",
+      "Dimensión del pallet necesariamente",
+      "Tipo de embalaje necesariamente",
+      "Número de muelles necesariamente",
+      "Forma del transportador"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+    "pista": "Observá la frecuencia de movimiento.",
+    "explicacion": "La rotación expresa con qué frecuencia sale o se mueve un producto.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
     }
   },
   {
     "id": "caso-clase4-5",
     "unidad": "clase4",
     "tipo": "caso",
-    "titulo": "Consolidación",
-    "situacion": "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Orden de dos sectores",
+    "situacion": "Dos artículos de una misma orden llegan desde zonas distintas.",
+    "pregunta": "¿Qué operación los reúne?",
     "respuestaCorrecta": "Consolidación",
     "respuestasIncorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
-      "Pallet",
-      "Rotación",
-      "Miniload"
+      "Recepción",
+      "Reposición",
+      "Ubicación inicial",
+      "Pesaje de una caja aislada",
+      "Diseño de pasillos"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Consolidación: Reunión de productos para completar un pedido o envío.",
+    "pista": "Hay que completar una misma orden con partes separadas.",
+    "explicacion": "La consolidación reúne artículos para completar el pedido.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
     }
   },
   {
     "id": "caso-clase4-6",
     "unidad": "clase4",
     "tipo": "caso",
-    "titulo": "Miniload",
-    "situacion": "Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Cajas automáticas",
+    "situacion": "Un sistema almacena y recupera automáticamente cajas o bandejas para preparar órdenes.",
+    "pregunta": "¿Qué sistema corresponde?",
     "respuestaCorrecta": "Miniload",
     "respuestasIncorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
-      "Pallet",
-      "Rotación",
-      "Consolidación"
+      "Pallet como plataforma",
+      "Picking exclusivamente manual",
+      "Consolidación",
+      "Recepción",
+      "Embalaje"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas.",
+    "pista": "El recurso está destinado a cajas o bandejas y automatiza su almacenamiento.",
+    "explicacion": "El miniload automatiza almacenamiento y recuperación de cajas o bandejas.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Sistemas y coordinación",
+      "entradaLibro": "clase4_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase4-7",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Equipo incompatible",
+    "situacion": "Una empresa elige una unidad de carga sin comprobar que el equipo pueda manipularla.",
+    "pregunta": "¿Qué debería revisar antes de operar?",
+    "respuestaCorrecta": "Compatibilidad entre carga, dimensiones y equipo",
+    "respuestasIncorrectas": [
+      "Solo el color del producto",
+      "Únicamente el nombre del proveedor",
+      "Solo el destino comercial",
+      "La cantidad de facturas emitidas",
+      "La rotación sin revisar la carga"
+    ],
+    "pista": "Considerá la relación física entre el conjunto y el recurso que lo mueve.",
+    "explicacion": "Las dimensiones y el peso de la carga condicionan los equipos y el almacenaje.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
+    }
+  },
+  {
+    "id": "caso-clase4-8",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Una sola solución",
+    "situacion": "Un centro tiene artículos de dimensiones y demandas distintas y propone tratarlos todos igual sin analizarlos.",
+    "pregunta": "¿Qué enseñanza aporta DECASA?",
+    "respuestaCorrecta": "Evaluar una combinación de zonas y sistemas",
+    "respuestasIncorrectas": [
+      "La misma solución es obligatoria para todos",
+      "Eliminar la información de inventario",
+      "Usar solo preparación manual en todos los casos",
+      "Evitar clasificar pedidos",
+      "Diseñar sin considerar los productos"
+    ],
+    "pista": "El caso combina varios recursos para necesidades diferentes.",
+    "explicacion": "DECASA integra sistemas distintos para mercancías y demandas diversas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "entradaLibro": "clase4_decasa"
+    }
+  },
+  {
+    "id": "caso-clase4-9",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Pedidos pequeños",
+    "situacion": "Un centro atiende muchos pedidos de comercio electrónico con pocas líneas cada uno.",
+    "pregunta": "¿Qué organización ayuda a prepararlos?",
+    "respuestaCorrecta": "Acceso a referencias y coordinación entre picking, reposición y consolidación",
+    "respuestasIncorrectas": [
+      "Esperar al despacho para buscar los artículos",
+      "Eliminar la reposición de los sectores de picking",
+      "Guardar todo sin identificar ubicaciones",
+      "Consolidar antes de saber qué pide el cliente",
+      "Revisar solo el tamaño del edificio"
+    ],
+    "pista": "La frecuencia de acceso y el armado de cada orden importan.",
+    "explicacion": "En COFAN se destacan accesibilidad, reposición y coordinación para pedidos de pocas líneas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "entradaLibro": "clase4_cofan"
+    }
+  },
+  {
+    "id": "caso-clase4-10",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Recuperación automática",
+    "situacion": "Una caja sale del miniload, pero aún no se sabe a qué pedido pertenece.",
+    "pregunta": "¿Qué debe garantizar la operación?",
+    "respuestaCorrecta": "Vincular la caja y su contenido con el pedido correcto",
+    "respuestasIncorrectas": [
+      "Dar por entregada la orden automáticamente",
+      "Eliminar el control de inventario",
+      "Considerar terminada toda la expedición",
+      "Suponer que todas las cajas contienen lo mismo",
+      "Omitir la consolidación de órdenes con varias referencias"
+    ],
+    "pista": "La recuperación física es solo una parte del proceso.",
+    "explicacion": "El artículo recuperado debe identificarse e integrarse a la orden correcta.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Sistemas y coordinación",
+      "entradaLibro": "clase4_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase4-11",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Diseño de estantería",
+    "situacion": "Se elige una estantería antes de conocer el tamaño y peso de las cargas.",
+    "pregunta": "¿Qué información falta para una decisión fundamentada?",
+    "respuestaCorrecta": "Dimensiones y peso de las unidades, además del equipo y acceso",
+    "respuestasIncorrectas": [
+      "Solo el nombre del encargado",
+      "Únicamente el color de las cajas",
+      "Solo la razón social del cliente",
+      "El nombre del software sin datos físicos",
+      "La fecha de emisión de una orden aislada"
+    ],
+    "pista": "La estantería debe recibir y permitir manipular la carga real.",
+    "explicacion": "Unidad de carga, estantería y equipo se definen de manera relacionada.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
+    }
+  },
+  {
+    "id": "caso-clase4-12",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Pasillos y manipulación",
+    "situacion": "Una carga tiene dimensiones que dificultan el paso del equipo por los pasillos existentes.",
+    "pregunta": "¿Qué decisión corresponde evaluar?",
+    "respuestaCorrecta": "Adecuar conjuntamente unidad, equipo y circulación",
+    "respuestasIncorrectas": [
+      "Mantener todo igual porque solo importa el inventario",
+      "Eliminar el embalaje sin considerar protección",
+      "Cambiar solo el nombre de la referencia",
+      "Contar las órdenes y omitir el recorrido",
+      "Expedir sin manipular la mercancía"
+    ],
+    "pista": "El obstáculo relaciona carga, equipo y espacio disponible.",
+    "explicacion": "Las dimensiones de la unidad y el equipo condicionan la circulación y los pasillos.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
+    }
+  },
+  {
+    "id": "caso-clase4-13",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Automatización aislada",
+    "situacion": "Se instala un sistema automático sin actualizar ubicaciones ni coordinarlo con el resto del flujo.",
+    "pregunta": "¿Qué riesgo operativo permanece?",
+    "respuestaCorrecta": "Información y movimientos pueden quedar descoordinados",
+    "respuestasIncorrectas": [
+      "La automatización garantiza exactitud sin datos",
+      "La reposición deja de ser necesaria en cualquier sistema",
+      "Todas las órdenes pasan a tener una línea",
+      "Las cargas se estabilizan automáticamente por definición",
+      "La expedición ya no necesita conocer el pedido"
+    ],
+    "pista": "Un equipo automático necesita información y conexión con otras tareas.",
+    "explicacion": "La automatización requiere integración con ubicaciones, inventario y flujos.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Sistemas y coordinación",
+      "entradaLibro": "clase4_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase4-14",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Punto de picking vacío",
+    "situacion": "Una referencia con pedidos frecuentes se agotó en el área de preparación y existe stock en reserva.",
+    "pregunta": "¿Qué tarea corresponde?",
+    "respuestaCorrecta": "Reponer el punto de preparación",
+    "respuestasIncorrectas": [
+      "Expedir una orden incompleta sin control",
+      "Eliminar la referencia del sistema",
+      "Cambiar el embalaje de otra referencia",
+      "Registrar la salida del proveedor como una devolución",
+      "Clasificar pedidos que todavía no se prepararon"
+    ],
+    "pista": "Hay existencias disponibles en otra ubicación.",
+    "explicacion": "La reposición acerca stock al punto donde se preparan pedidos.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
+    }
+  },
+  {
+    "id": "caso-clase4-15",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Recorrido COFAN",
+    "situacion": "En un centro se conectan preparación, embalaje, pesaje y clasificación mediante un circuito.",
+    "pregunta": "¿Qué recurso cumple esa conexión en el caso COFAN?",
+    "respuestaCorrecta": "Transportadores",
+    "respuestasIncorrectas": [
+      "Pallet considerado como área",
+      "Rotación como equipo físico",
+      "Una orden de compra",
+      "Recepción como sistema automático",
+      "Una etiqueta sin circuito"
+    ],
+    "pista": "Se trata de un medio físico de traslado entre puestos.",
+    "explicacion": "COFAN incluye un circuito de transportadores que conecta esas etapas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "entradaLibro": "clase4_cofan"
+    }
+  },
+  {
+    "id": "caso-clase4-16",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Sistemas de DECASA",
+    "situacion": "Un estudiante afirma que DECASA combina soluciones de almacenaje y preparación.",
+    "pregunta": "¿Qué conjunto coincide con el caso?",
+    "respuestaCorrecta": "Almacén automático autoportante, Pallet Shuttle y torres de picking",
+    "respuestasIncorrectas": [
+      "Solo estantes manuales sin sistema de gestión",
+      "Solo embalaje y ningún almacenamiento",
+      "Exclusivamente transportadores de COFAN",
+      "Únicamente un pallet por pedido",
+      "Solo muelles sin áreas de preparación"
+    ],
+    "pista": "Buscá la combinación mencionada para el centro de productos de consumo.",
+    "explicacion": "DECASA combina esos recursos y también dispone de clasificación y gestión.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "entradaLibro": "clase4_decasa"
+    }
+  },
+  {
+    "id": "caso-clase4-17",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Protección y agrupación",
+    "situacion": "Un producto frágil llega dañado aunque las cajas se trasladaron juntas.",
+    "pregunta": "¿Qué conviene revisar además de agruparlas?",
+    "respuestaCorrecta": "El embalaje y la estabilidad durante el manejo",
+    "respuestasIncorrectas": [
+      "Solo la rotación del cliente",
+      "Únicamente la forma del pedido",
+      "Solo el nombre del centro",
+      "El número de líneas de otra orden",
+      "La clasificación del almacén por función"
+    ],
+    "pista": "Mover en conjunto no asegura por sí solo la protección del producto.",
+    "explicacion": "La unidad debe contemplar protección y estabilidad para evitar daños.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
+    }
+  },
+  {
+    "id": "caso-clase4-18",
+    "unidad": "clase4",
+    "tipo": "caso",
+    "titulo": "Pedido antes de la salida",
+    "situacion": "Una orden contiene artículos recogidos manualmente y otros recuperados del miniload.",
+    "pregunta": "¿Qué paso ayuda a evitar una salida incompleta?",
+    "respuestaCorrecta": "Reunir y verificar los artículos de la orden",
+    "respuestasIncorrectas": [
+      "Expedir cada artículo sin relacionarlo con la orden",
+      "Dar por completo el pedido al retirar el primer artículo",
+      "Reponer una referencia no solicitada",
+      "Registrar únicamente el peso del pallet vacío",
+      "Cambiar el destino sin verificar el contenido"
+    ],
+    "pista": "Las dos fuentes alimentan un mismo pedido.",
+    "explicacion": "La consolidación y verificación relacionan los artículos con la orden antes de salir.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "entradaLibro": "clase4_cofan"
     }
   },
   {
     "id": "caso-clase5-1",
     "unidad": "clase5",
     "tipo": "caso",
-    "titulo": "Estantería",
-    "situacion": "Un depósito guarda pallets en posiciones distribuidas en altura.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Estantería",
+    "titulo": "Posiciones en altura",
+    "situacion": "Un depósito necesita ordenar pallets en varios niveles de forma segura.",
+    "pregunta": "¿Qué recurso organiza esas posiciones?",
+    "respuestaCorrecta": "Una estantería dimensionada para las cargas",
     "respuestasIncorrectas": [
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "Una zona de despacho",
+      "Una etiqueta de producto",
+      "Una ruta de reparto",
+      "Una orden de compra",
+      "Un sistema de clasificación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+    "pista": "Pensá en la estructura que sostiene las cargas.",
+    "explicacion": "La estantería organiza posiciones y debe soportar las cargas previstas.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
     }
   },
   {
     "id": "caso-clase5-2",
     "unidad": "clase5",
     "tipo": "caso",
-    "titulo": "Equipo de manipuleo",
-    "situacion": "Una transpaleta traslada un pallet entre dos sectores.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Equipo de manipuleo",
+    "titulo": "Traslado entre sectores",
+    "situacion": "Un pallet estable debe moverse desde recepción hasta su ubicación.",
+    "pregunta": "¿Qué recurso cumple directamente ese movimiento?",
+    "respuestaCorrecta": "Un equipo de manipuleo compatible",
     "respuestasIncorrectas": [
-      "Estantería",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "Una estantería vacía",
+      "Una etiqueta de identificación",
+      "Una lista de referencias",
+      "Un cálculo de capacidad",
+      "Una zona de embalaje"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
+    "pista": "Distinguí el recurso móvil de la estructura fija.",
+    "explicacion": "El equipo transporta la unidad y debe ser compatible con carga y recorrido.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
     }
   },
   {
     "id": "caso-clase5-3",
     "unidad": "clase5",
     "tipo": "caso",
-    "titulo": "Accesibilidad",
-    "situacion": "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Accesibilidad",
+    "titulo": "Retiro de una referencia",
+    "situacion": "Se evalúa si cada artículo puede retirarse sin desplazar otros.",
+    "pregunta": "¿Qué propiedad se evalúa?",
+    "respuestaCorrecta": "La accesibilidad",
     "respuestasIncorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "La capacidad total únicamente",
+      "El precio del equipo",
+      "La cantidad de embalajes",
+      "El destino del transporte",
+      "La altura del camión"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+    "pista": "Importa la facilidad de llegar a cada producto.",
+    "explicacion": "La accesibilidad es la facilidad para alcanzar y recuperar una referencia.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
     }
   },
   {
     "id": "caso-clase5-4",
     "unidad": "clase5",
     "tipo": "caso",
-    "titulo": "Capacidad de almacenamiento",
-    "situacion": "El responsable calcula cuántos pallets caben en las estanterías.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Capacidad de almacenamiento",
+    "titulo": "Comparación de espacio",
+    "situacion": "Dos diseños ofrecen diferentes cantidades de posiciones para pallets.",
+    "pregunta": "¿Qué dimensión se compara al contar posiciones?",
+    "respuestaCorrecta": "La capacidad de almacenamiento",
     "respuestasIncorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "La identificación de carga",
+      "La velocidad de clasificación",
+      "El criterio de salida",
+      "La estabilidad del pallet",
+      "La ruta de reparto"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar.",
+    "pista": "La pregunta se refiere a cuánto puede alojarse.",
+    "explicacion": "El número de posiciones expresa capacidad; también deben evaluarse acceso y seguridad.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
     }
   },
   {
     "id": "caso-clase5-5",
     "unidad": "clase5",
     "tipo": "caso",
-    "titulo": "Manejo de materiales",
-    "situacion": "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Manejo de materiales",
+    "titulo": "Movimientos internos",
+    "situacion": "Una carga pasa por recepción, almacenamiento, reposición y preparación.",
+    "pregunta": "¿Qué actividad comprende esos traslados?",
+    "respuestaCorrecta": "El manejo de materiales",
     "respuestasIncorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Pasillo de trabajo"
+      "La venta al cliente",
+      "La facturación",
+      "La selección del proveedor",
+      "La publicidad",
+      "La fijación del precio"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación.",
+    "pista": "Considerá el movimiento dentro del depósito.",
+    "explicacion": "El manejo de materiales incluye los traslados internos entre etapas.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
     }
   },
   {
     "id": "caso-clase5-6",
     "unidad": "clase5",
     "tipo": "caso",
-    "titulo": "Pasillo de trabajo",
-    "situacion": "Se verifica que la máquina pueda maniobrar entre dos estanterías.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "respuestaCorrecta": "Pasillo de trabajo",
+    "titulo": "Maniobra con carga",
+    "situacion": "Una máquina alcanza la altura deseada, pero apenas puede girar entre estanterías.",
+    "pregunta": "¿Qué condición debe reevaluarse?",
+    "respuestaCorrecta": "La compatibilidad entre equipo y pasillo",
     "respuestasIncorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales"
+      "El color de las etiquetas",
+      "La secuencia de facturación",
+      "La cantidad de clientes",
+      "La forma de la factura",
+      "El horario de venta"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones.",
+    "pista": "El problema aparece al circular y maniobrar.",
+    "explicacion": "La máquina, la carga y el espacio deben permitir maniobras seguras.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
+    }
+  },
+  {
+    "id": "caso-clase5-7",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Cajas inestables",
+    "situacion": "Un pallet agrupa cajas que se desplazan cuando se mueve.",
+    "pregunta": "¿Qué acción atiende el problema?",
+    "respuestaCorrecta": "Estabilizar la unidad con auxiliares compatibles",
+    "respuestasIncorrectas": [
+      "Aumentar la altura de almacenamiento",
+      "Reducir la identificación visible",
+      "Ubicar más referencias en el pasillo",
+      "Enviar la carga sin control",
+      "Elegir el equipo solo por precio"
+    ],
+    "pista": "El conjunto debe mantenerse unido durante el traslado.",
+    "explicacion": "Los auxiliares ayudan a estabilizar la unidad sin perder compatibilidad con el equipo.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "caso-clase5-8",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Etiqueta cubierta",
+    "situacion": "Una sujeción mantiene firmes las cajas, pero tapa su identificación.",
+    "pregunta": "¿Qué ajuste conviene?",
+    "respuestaCorrecta": "Mantener la estabilidad y dejar visible la identificación",
+    "respuestasIncorrectas": [
+      "Retirar toda identificación",
+      "Agregar carga sin evaluar su peso",
+      "Reducir el ancho del pasillo",
+      "Cambiar el destino",
+      "Almacenar sin registrar la ubicación"
+    ],
+    "pista": "La estabilidad y el reconocimiento deben coexistir.",
+    "explicacion": "La unidad debe seguir identificable además de ser estable y manipulable.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "caso-clase5-9",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Más posiciones, menos acceso",
+    "situacion": "Una propuesta aumenta posiciones, pero obliga a desplazar cargas para llegar a artículos frecuentes.",
+    "pregunta": "¿Cómo debe evaluarse?",
+    "respuestaCorrecta": "Comparar capacidad adicional y pérdida de accesibilidad",
+    "respuestasIncorrectas": [
+      "Aceptar solo por las posiciones",
+      "Descartar la rotación",
+      "Medir solo el costo de etiquetas",
+      "Suponer que todos los pedidos son iguales",
+      "Ignorar el tiempo de recuperación"
+    ],
+    "pista": "No confundas espacio con facilidad de retiro.",
+    "explicacion": "Más posiciones pueden dificultar la recuperación; ambas dimensiones importan.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
+    }
+  },
+  {
+    "id": "caso-clase5-10",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Equipo económico",
+    "situacion": "La oferta más barata no alcanza el nivel donde se guardarán los pallets.",
+    "pregunta": "¿Qué decisión está mejor fundamentada?",
+    "respuestaCorrecta": "Buscar un equipo que alcance la altura y admita la carga",
+    "respuestasIncorrectas": [
+      "Comprar el más barato igualmente",
+      "Borrar la identificación",
+      "Aumentar el peso",
+      "Elegir por color",
+      "Reducir controles de seguridad"
+    ],
+    "pista": "La altura es una condición funcional.",
+    "explicacion": "El precio no reemplaza la comprobación de altura, carga, pasillos y seguridad.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
+    }
+  },
+  {
+    "id": "caso-clase5-11",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Carga sobresaliente",
+    "situacion": "Un equipo circula vacío por el pasillo, pero el pallet sobresale e impide maniobrar con seguridad.",
+    "pregunta": "¿Qué debe contemplar el análisis?",
+    "respuestaCorrecta": "Las dimensiones del equipo junto con su carga",
+    "respuestasIncorrectas": [
+      "Solo el equipo vacío",
+      "Solo los pedidos diarios",
+      "Solo la altura del edificio",
+      "Solo el precio del pallet",
+      "Solo la ubicación de la oficina"
+    ],
+    "pista": "La carga también ocupa espacio.",
+    "explicacion": "La compatibilidad del pasillo se evalúa con la carga real.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
+    }
+  },
+  {
+    "id": "caso-clase5-12",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Recorridos repetidos",
+    "situacion": "Un pallet vuelve dos veces al mismo sector sin que esas vueltas aporten una tarea necesaria.",
+    "pregunta": "¿Qué mejora corresponde estudiar?",
+    "respuestaCorrecta": "Reordenar el flujo para eliminar traslados innecesarios",
+    "respuestasIncorrectas": [
+      "Agregar una vuelta sin objetivo",
+      "Multiplicar manipulaciones",
+      "Cambiar nombres de referencias",
+      "Retirar información de ubicación",
+      "Elegir posiciones sin revisar recorridos"
+    ],
+    "pista": "Cada movimiento adicional consume recursos.",
+    "explicacion": "Revisar el flujo permite reducir recorridos y manipulaciones evitables.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "caso-clase5-13",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Rotación desigual",
+    "situacion": "Un depósito tiene referencias frecuentes y otras poco solicitadas.",
+    "pregunta": "¿Qué información debe intervenir en la asignación?",
+    "respuestaCorrecta": "La rotación y la facilidad de recuperación",
+    "respuestasIncorrectas": [
+      "Solo el orden alfabético de clientes",
+      "Solo el color de envases",
+      "Solo la fecha de compra de estantería",
+      "Solo la distancia a la oficina",
+      "Solo la cantidad de facturas"
+    ],
+    "pista": "La frecuencia de retiro afecta el acceso necesario.",
+    "explicacion": "La rotación ayuda a elegir ubicaciones coherentes con la demanda.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
+    }
+  },
+  {
+    "id": "caso-clase5-14",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Auxiliar incompatible",
+    "situacion": "Un auxiliar protege el producto, pero impide que el equipo tome la carga adecuadamente.",
+    "pregunta": "¿Qué corresponde revisar?",
+    "respuestaCorrecta": "La compatibilidad del auxiliar, la carga y el equipo",
+    "respuestasIncorrectas": [
+      "Solo la cantidad de etiquetas",
+      "Solo el destino de reparto",
+      "El precio de venta",
+      "El nombre del proveedor",
+      "La secuencia de facturación"
+    ],
+    "pista": "El conjunto debe poder tomarse y trasladarse.",
+    "explicacion": "La protección no basta si el equipo no puede manipular la unidad correctamente.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "caso-clase5-15",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Criterio de salida",
+    "situacion": "Se comparan estanterías para referencias con un criterio de salida definido.",
+    "pregunta": "¿Qué aspecto debe incluirse en la elección?",
+    "respuestaCorrecta": "Si el acceso permite aplicar el criterio de salida",
+    "respuestasIncorrectas": [
+      "Solo el aspecto visual",
+      "Solo el personal administrativo",
+      "Solo el tamaño de la factura",
+      "Solo el recorrido externo del vendedor",
+      "Solo el número de proveedores"
+    ],
+    "pista": "La disposición condiciona qué carga se puede recuperar.",
+    "explicacion": "El tipo de estantería debe acompañar el criterio de salida y el acceso requerido.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
+    }
+  },
+  {
+    "id": "caso-clase5-16",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Estructura y carga",
+    "situacion": "Se quiere colocar una unidad pesada en una posición cuya capacidad no fue verificada.",
+    "pregunta": "¿Qué se debe hacer primero?",
+    "respuestaCorrecta": "Comprobar que la estructura soporte la carga prevista",
+    "respuestasIncorrectas": [
+      "Ubicarla y revisar después",
+      "Eliminar su identificación",
+      "Aumentar la velocidad",
+      "Apilar otra carga sin evaluación",
+      "Cambiar solo la ruta de despacho"
+    ],
+    "pista": "La posición debe ser adecuada para el peso.",
+    "explicacion": "La estructura debe soportar la carga prevista para una operación segura.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
+    }
+  },
+  {
+    "id": "caso-clase5-17",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Información desactualizada",
+    "situacion": "El sistema indica una ubicación antigua y el preparador busca en el lugar equivocado.",
+    "pregunta": "¿Qué coordinación debe mejorarse?",
+    "respuestaCorrecta": "La actualización de ubicaciones e inventario",
+    "respuestasIncorrectas": [
+      "El color de los pasillos",
+      "La cantidad de carteles comerciales",
+      "La forma de la factura",
+      "La altura del vehículo de reparto",
+      "El precio de venta"
+    ],
+    "pista": "El registro debe reflejar dónde está la carga.",
+    "explicacion": "La información actualizada conecta inventario y preparación y evita búsquedas con datos viejos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "caso-clase5-18",
+    "unidad": "clase5",
+    "tipo": "caso",
+    "titulo": "Entrega rápida",
+    "situacion": "Al analizar el caso de Amazon España, un grupo atribuye la rapidez exclusivamente al embalaje.",
+    "pregunta": "¿Qué interpretación refleja mejor el caso?",
+    "respuestaCorrecta": "La rapidez depende de coordinar inventario, preparación, clasificación y despacho",
+    "respuestasIncorrectas": [
+      "Solo importa el embalaje",
+      "La ubicación no influye",
+      "La información deja de ser necesaria",
+      "Las etapas ocurren sin relación",
+      "El despacho reemplaza la preparación"
+    ],
+    "pista": "Seguí el recorrido completo desde la entrada hasta la entrega.",
+    "explicacion": "El caso presenta etapas conectadas y coordinadas, no una tarea aislada.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
     }
   },
   {
     "id": "caso-clase6-1",
     "unidad": "clase6",
     "tipo": "caso",
-    "titulo": "Persona a producto",
-    "situacion": "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Recorrido del preparador",
+    "situacion": "Una persona recorre el depósito y retira artículos de sus posiciones para una orden.",
+    "pregunta": "¿Qué estrategia utiliza?",
     "respuestaCorrecta": "Persona a producto",
     "respuestasIncorrectas": [
       "Producto a persona",
-      "Picking por voz",
-      "Pick to light",
-      "Put to light",
-      "Preparación por olas"
+      "Clasificación por destino",
+      "Reposición automática obligatoria",
+      "Put to light necesariamente",
+      "Despacho sin picking"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+    "pista": "Observá quién se desplaza.",
+    "explicacion": "En persona a producto el operario va a la mercancía; el soporte de instrucciones puede variar.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "entradaLibro": "clase6_conceptos"
     }
   },
@@ -716,22 +2096,22 @@
     "id": "caso-clase6-2",
     "unidad": "clase6",
     "tipo": "caso",
-    "titulo": "Producto a persona",
-    "situacion": "Un transportador lleva una caja al puesto donde espera el operario.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Caja al puesto",
+    "situacion": "Una caja llega por transportador a un operario que permanece en su puesto.",
+    "pregunta": "¿Qué estrategia representa?",
     "respuestaCorrecta": "Producto a persona",
     "respuestasIncorrectas": [
       "Persona a producto",
-      "Picking por voz",
-      "Pick to light",
-      "Put to light",
-      "Preparación por olas"
+      "Picking exclusivamente a nivel del suelo",
+      "Despacho sin preparación",
+      "Carga directa al camión",
+      "Reposición sin extracción"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+    "pista": "La mercancía se desplaza hasta el preparador.",
+    "explicacion": "En producto a persona el sistema acerca la mercancía al puesto.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "entradaLibro": "clase6_conceptos"
     }
   },
@@ -739,92 +2119,368 @@
     "id": "caso-clase6-3",
     "unidad": "clase6",
     "tipo": "caso",
-    "titulo": "Picking por voz",
-    "situacion": "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Instrucciones por auriculares",
+    "situacion": "Un preparador escucha una ubicación y confirma oralmente la cantidad extraída.",
+    "pregunta": "¿Qué método de guía emplea?",
     "respuestaCorrecta": "Picking por voz",
     "respuestasIncorrectas": [
-      "Persona a producto",
-      "Producto a persona",
       "Pick to light",
       "Put to light",
-      "Preparación por olas"
+      "Orden impresa exclusivamente",
+      "Clasificación por código de barras",
+      "Carrusel horizontal"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
+    "pista": "El canal de instrucción y confirmación es oral.",
+    "explicacion": "La voz transmite instrucciones y permite confirmaciones dejando las manos disponibles.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
-      "entradaLibro": "clase6_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
     }
   },
   {
     "id": "caso-clase6-4",
     "unidad": "clase6",
     "tipo": "caso",
-    "titulo": "Pick to light",
-    "situacion": "Una señal luminosa guía la extracción en un estante.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Luz en la ubicación",
+    "situacion": "Una luz señala una posición y la cantidad que debe retirarse.",
+    "pregunta": "¿Qué sistema describe?",
     "respuestaCorrecta": "Pick to light",
     "respuestasIncorrectas": [
-      "Persona a producto",
-      "Producto a persona",
-      "Picking por voz",
       "Put to light",
-      "Preparación por olas"
+      "Picking por voz",
+      "Clasificación por destino",
+      "Preparación por olas",
+      "Packing"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar.",
+    "pista": "La luz guía la extracción.",
+    "explicacion": "Pick to light indica dónde y cuánto retirar; put to light guía el depósito por pedido.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
-      "entradaLibro": "clase6_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
     }
   },
   {
     "id": "caso-clase6-5",
     "unidad": "clase6",
     "tipo": "caso",
-    "titulo": "Put to light",
-    "situacion": "Un indicador señala el contenedor donde colocar artículos para una orden.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Luz en el contenedor",
+    "situacion": "Tras recoger unidades, una luz indica en qué contenedor de pedido depositarlas.",
+    "pregunta": "¿Qué guía se usa?",
     "respuestaCorrecta": "Put to light",
     "respuestasIncorrectas": [
-      "Persona a producto",
-      "Producto a persona",
-      "Picking por voz",
       "Pick to light",
-      "Preparación por olas"
+      "Picking por voz",
+      "Miniload",
+      "Almacenaje a nivel del suelo",
+      "Reposición de reserva"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
+    "pista": "La acción indicada es colocar.",
+    "explicacion": "Put to light orienta el depósito de cantidades en destinos de pedidos.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
-      "entradaLibro": "clase6_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
     }
   },
   {
     "id": "caso-clase6-6",
     "unidad": "clase6",
     "tipo": "caso",
-    "titulo": "Preparación por olas",
-    "situacion": "Varias órdenes se agrupan en una tanda para coordinar recorridos.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Órdenes en una tanda",
+    "situacion": "El depósito agrupa órdenes para coordinar su preparación durante un período.",
+    "pregunta": "¿Qué organización utiliza?",
     "respuestaCorrecta": "Preparación por olas",
     "respuestasIncorrectas": [
-      "Persona a producto",
-      "Producto a persona",
+      "Despacho sin clasificación",
+      "Picking en altura necesariamente",
+      "Reposición exclusiva por voz",
+      "Almacenaje sin ubicaciones",
+      "Carga directa del proveedor al cliente"
+    ],
+    "pista": "Pensá en la agrupación temporal.",
+    "explicacion": "Las olas coordinan grupos de órdenes y pueden combinarse con distintos medios de extracción.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "caso-clase6-7",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Reposición tardía",
+    "situacion": "Una ubicación de picking queda vacía mientras hay existencias en reserva.",
+    "pregunta": "¿Qué mejora ataca la interrupción?",
+    "respuestaCorrecta": "Coordinar la reposición antes de su agotamiento",
+    "respuestasIncorrectas": [
+      "Eliminar la reserva del registro",
+      "Cambiar solo el embalaje",
+      "Agrupar pedidos sin controlar existencias",
+      "Apagar las confirmaciones",
+      "Reducir la identificación"
+    ],
+    "pista": "El producto existe, pero no está donde se extrae.",
+    "explicacion": "La reposición vincula reserva y extracción y ayuda a evitar interrupciones.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "caso-clase6-8",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Alcance de la inversión",
+    "situacion": "Un depósito pequeño considera automatizar toda su preparación solo porque otro lo hizo.",
+    "pregunta": "¿Qué análisis corresponde?",
+    "respuestaCorrecta": "Comparar inversión y operación con capacidad y servicio esperados",
+    "respuestasIncorrectas": [
+      "Suponer que siempre conviene",
+      "Comparar solo el precio del equipo",
+      "Ignorar variedad y volumen",
+      "Excluir la implantación",
+      "Suponer que lo manual no tiene costos"
+    ],
+    "pista": "Considerá costos y beneficios durante la operación.",
+    "explicacion": "La automatización debe justificarse según volumen, variedad, costos y servicio.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "caso-clase6-9",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Pallets en el suelo",
+    "situacion": "Las cajas se extraen de pallets apoyados en el piso y distribuidos en filas.",
+    "pregunta": "¿Qué modalidad describe?",
+    "respuestaCorrecta": "Picking a nivel del suelo",
+    "respuestasIncorrectas": [
+      "Picking en niveles altos",
+      "Producto a persona necesariamente",
+      "Miniload",
+      "Carrusel horizontal",
+      "Put to light necesariamente"
+    ],
+    "pista": "Mirá dónde se encuentra la carga completa.",
+    "explicacion": "A nivel del suelo se retira de cargas apoyadas en el piso; la superficie limita posiciones.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "caso-clase6-10",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Acceso a baja altura",
+    "situacion": "Una preparadora de bajo nivel permite retirar piezas de posiciones accesibles cerca del suelo.",
+    "pregunta": "¿Qué modalidad corresponde?",
+    "respuestaCorrecta": "Picking en niveles bajos",
+    "respuestasIncorrectas": [
+      "Picking en niveles altos",
+      "Clasificación por destino",
+      "Distribución final",
+      "Recepción de proveedores",
+      "Almacén vertical automático necesariamente"
+    ],
+    "pista": "La carga está accesible con equipo de bajo nivel.",
+    "explicacion": "Los niveles bajos permiten acceso a pie o con preparadora y pueden necesitar reposición.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "caso-clase6-11",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Aprovechar altura",
+    "situacion": "Una instalación usa niveles altos; el equipo debe elevar y descender al operario.",
+    "pregunta": "¿Qué efecto operativo debe considerarse?",
+    "respuestaCorrecta": "La elevación y el descenso pueden reducir la velocidad",
+    "respuestasIncorrectas": [
+      "La altura elimina las esperas",
+      "No se necesita equipo adecuado",
+      "La reposición deja de importar",
+      "Todo pedido se prepara al suelo",
+      "El equipo no ocupa espacio"
+    ],
+    "pista": "Considerá el tiempo de acceso además del espacio ganado.",
+    "explicacion": "Los niveles altos aprovechan volumen, pero los movimientos verticales pueden afectar la productividad.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "caso-clase6-12",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Canales de extracción",
+    "situacion": "Las cajas avanzan por canales de rodillos hacia el frente de extracción.",
+    "pregunta": "¿Qué solución se describe?",
+    "respuestaCorrecta": "Estantería dinámica",
+    "respuestasIncorrectas": [
+      "Estantería sin movimiento de carga",
+      "Carrusel horizontal Spinblock",
+      "Almacén vertical Clasimat",
+      "Pallet apoyado en el suelo",
+      "Embalaje de expedición"
+    ],
+    "pista": "La carga avanza por un canal hasta el punto de retiro.",
+    "explicacion": "Las estanterías dinámicas acercan mercancía por rodillos y pueden separar reposición y extracción.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase6-13",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Bandejas verticales",
+    "situacion": "Un sistema almacena bandejas en altura y entrega la requerida al puesto.",
+    "pregunta": "¿Qué solución coincide?",
+    "respuestaCorrecta": "Clasimat",
+    "respuestasIncorrectas": [
+      "Spinblock",
+      "Miniload exclusivamente para pallets",
+      "Picking solo sobre el suelo",
+      "Transpaleta manual",
+      "Zona de despacho"
+    ],
+    "pista": "La organización de las bandejas es vertical.",
+    "explicacion": "Clasimat concentra bandejas en altura y las acerca automáticamente al operario.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase6-14",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Carrusel de piezas",
+    "situacion": "Un conjunto de estanterías se desplaza horizontalmente hasta el puesto de extracción.",
+    "pregunta": "¿Qué sistema se describe?",
+    "respuestaCorrecta": "Spinblock",
+    "respuestasIncorrectas": [
+      "Clasimat",
       "Picking por voz",
       "Pick to light",
-      "Put to light"
+      "Pallet fijo en el suelo",
+      "Rampa de despacho"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación.",
+    "pista": "La pista es el movimiento horizontal.",
+    "explicacion": "Spinblock desplaza estanterías o contenedores horizontalmente hacia el puesto.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
-      "entradaLibro": "clase6_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase6-15",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Recuperar cajas",
+    "situacion": "Un transelevador guarda y recupera cajas o bandejas que pueden ir al puesto.",
+    "pregunta": "¿Qué sistema corresponde?",
+    "respuestaCorrecta": "Miniload",
+    "respuestasIncorrectas": [
+      "Clasimat necesariamente",
+      "Spinblock",
+      "Picking solo con papel",
+      "Transpaleta de bajo nivel",
+      "Estantería fija atendida a pie"
+    ],
+    "pista": "Buscá el sistema con transelevador de cajas.",
+    "explicacion": "El miniload almacena y recupera cajas o bandejas mediante un transelevador.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase6-16",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Pasillos ajustados",
+    "situacion": "Una empresa quiere estrechar corredores para aprovechar superficie.",
+    "pregunta": "¿Qué condición debe verificar?",
+    "respuestaCorrecta": "Compatibilidad de equipos, guiado, maniobras y seguridad",
+    "respuestasIncorrectas": [
+      "Que cualquier máquina circule sin comprobación",
+      "Que desaparezca la reposición",
+      "Que no haya tiempos de elevación",
+      "Que toda carga tenga igual peso",
+      "Que no se necesiten etiquetas"
+    ],
+    "pista": "El espacio reducido exige revisar la operación.",
+    "explicacion": "Los pasillos estrechos necesitan equipos y guiado adecuados, maniobras compatibles y seguridad.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "caso-clase6-17",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Artículos mezclados",
+    "situacion": "Un operario recoge juntos artículos de varios pedidos para reducir recorridos.",
+    "pregunta": "¿Qué control posterior es indispensable?",
+    "respuestaCorrecta": "Separar las cantidades correspondientes a cada pedido",
+    "respuestasIncorrectas": [
+      "Despachar todo al primer cliente",
+      "Borrar las cantidades recogidas",
+      "Mezclar etiquetas",
+      "Omitir identificación de contenedores",
+      "Dejar artículos sin registrar"
+    ],
+    "pista": "Agrupar la extracción no elimina la asignación por orden.",
+    "explicacion": "Tras recoger en grupo hay que distribuir correctamente los artículos entre pedidos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "entradaLibro": "clase6_expedicion"
+    }
+  },
+  {
+    "id": "caso-clase6-18",
+    "unidad": "clase6",
+    "tipo": "caso",
+    "titulo": "Etiqueta ilegible",
+    "situacion": "Un paquete llega a clasificación con un código que no puede leerse.",
+    "pregunta": "¿Qué tratamiento muestra el caso?",
+    "respuestaCorrecta": "Derivarlo a revisión y reetiquetado",
+    "respuestasIncorrectas": [
+      "Asignarlo al azar",
+      "Despacharlo sin identificar",
+      "Eliminar el pedido",
+      "Mezclarlo con cualquier destino",
+      "Ignorar el fallo"
+    ],
+    "pista": "Hay que identificar el destino antes de asignar la salida.",
+    "explicacion": "El caso deriva los paquetes ilegibles a revisión y reetiquetado.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "entradaLibro": "clase6_expedicion"
     }
   },
   {
@@ -846,7 +2502,7 @@
     "explicacion": "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -869,7 +2525,7 @@
     "explicacion": "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -892,7 +2548,7 @@
     "explicacion": "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -915,7 +2571,7 @@
     "explicacion": "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -938,7 +2594,7 @@
     "explicacion": "Transporte intermodal: Desplazamiento que combina dos o más modos coordinados.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -961,8 +2617,468 @@
     "explicacion": "Costo variable: Costo que cambia con la actividad o el recorrido realizado.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-01",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Tarifa o servicio",
+    "situacion": "Una empresa consigue un flete más barato, pero sus entregas tardan el doble y el stock en tránsito aumenta.",
+    "pregunta": "¿Qué análisis conviene hacer?",
+    "respuestaCorrecta": "Comparar el costo logístico total y el impacto en el servicio",
+    "respuestasIncorrectas": [
+      "Elegir solo por el valor del flete",
+      "Ignorar el inventario en tránsito",
+      "Suponer que el plazo no afecta al cliente",
+      "Comparar únicamente el precio de compra",
+      "Eliminar los controles de entrega"
+    ],
+    "pista": "Los costos y el servicio se afectan entre sí.",
+    "explicacion": "El flete menor puede compensarse con más inventario, faltantes o peor servicio.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-02",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Entregas variables",
+    "situacion": "Dos operadores tardan tres días en promedio. Uno suele cumplir el plazo; el otro tarda entre uno y cinco días.",
+    "pregunta": "¿Qué diferencia debe considerar la empresa?",
+    "respuestaCorrecta": "La variabilidad de los tiempos de tránsito",
+    "respuestasIncorrectas": [
+      "El color de los vehículos",
+      "Solo el peso del embalaje",
+      "La cantidad de proveedores de materias primas",
+      "La altura de las estanterías",
+      "El número de artículos en cada caja"
+    ],
+    "pista": "El promedio no describe toda la dispersión.",
+    "explicacion": "La variabilidad afecta la confiabilidad y la planificación del inventario.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-03",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Pieza urgente",
+    "situacion": "Una pieza de alto valor debe llegar rápidamente para evitar una parada de producción. El flete aéreo cuesta más.",
+    "pregunta": "¿Cuál es una razón válida para evaluarlo?",
+    "respuestaCorrecta": "El costo de la demora puede justificar la rapidez",
+    "respuestasIncorrectas": [
+      "El avión elimina cualquier restricción de carga",
+      "El flete aéreo es siempre el más barato",
+      "La urgencia no afecta el costo total",
+      "El transporte no influye en producción",
+      "El avión garantiza entrega inmediata en cualquier destino"
+    ],
+    "pista": "Considerá el costo que evita la entrega rápida.",
+    "explicacion": "Un mayor flete puede compensarse si reduce una pérdida mayor por interrupción.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-04",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Alcance de reparto",
+    "situacion": "Un operador ofrece buen precio, pero no llega a varias localidades de los clientes.",
+    "pregunta": "¿Qué atributo del servicio presenta una limitación?",
+    "respuestaCorrecta": "La cobertura geográfica",
+    "respuestasIncorrectas": [
+      "La altura de almacenamiento",
+      "El embalaje primario",
+      "El método FIFO",
+      "La vida útil del vehículo",
+      "El diseño del producto"
+    ],
+    "pista": "Pensá en los lugares atendidos.",
+    "explicacion": "La cobertura indica si un servicio puede atender los orígenes y destinos requeridos.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-05",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Servicio y ventas",
+    "situacion": "Ventas promete entregas al día siguiente, pero logística solo dispone de dos salidas semanales.",
+    "pregunta": "¿Qué debería hacerse primero?",
+    "respuestaCorrecta": "Coordinar la promesa comercial con la capacidad de distribución",
+    "respuestasIncorrectas": [
+      "Mantener la promesa sin revisar capacidad",
+      "Quitar el control de pedidos",
+      "Evaluar solo el costo de compra",
+      "Eliminar el inventario sin analizar demanda",
+      "Reemplazar las facturas por etiquetas"
+    ],
+    "pista": "La frecuencia disponible condiciona la promesa.",
+    "explicacion": "El compromiso comercial debe ser compatible con frecuencias, cobertura y recursos.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-06",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Gran volumen",
+    "situacion": "Una empresa debe mover carga consolidada en un recorrido largo con vías y terminales disponibles; no es urgente.",
+    "pregunta": "¿Qué alternativa merece comparación?",
+    "respuestaCorrecta": "Ferrocarril, incluyendo conexiones y transferencias",
+    "respuestasIncorrectas": [
+      "Elegir avión sin considerar el costo",
+      "Descartar cualquier modo de alta capacidad",
+      "Usar ductos para cualquier mercancía",
+      "Elegir solo por el color de los vagones",
+      "Suponer que la red ferroviaria llega a toda puerta"
+    ],
+    "pista": "Pensá en capacidad y dependencia de vías.",
+    "explicacion": "El ferrocarril puede ser conveniente con volumen y conexiones adecuadas, pero deben incluirse las transferencias.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-07",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Entrega al comercio",
+    "situacion": "Un negocio necesita recibir cajas en su puerta en una zona con acceso vial.",
+    "pregunta": "¿Qué modo ofrece flexibilidad para ese tramo?",
+    "respuestaCorrecta": "Transporte carretero",
+    "respuestasIncorrectas": [
+      "Ducto para cajas",
+      "Barco hasta la puerta sin vía navegable",
+      "Ferrocarril sin vías ni conexión",
+      "Ningún medio terrestre",
+      "Solo un avión sin reparto posterior"
+    ],
+    "pista": "El destino tiene acceso por carretera.",
+    "explicacion": "El camión puede prestar servicio puerta a puerta donde exista infraestructura vial.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-08",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Cargas acuáticas",
+    "situacion": "Una carga voluminosa puede viajar con plazo amplio entre puertos conectados.",
+    "pregunta": "¿Qué alternativa puede ser adecuada?",
+    "respuestaCorrecta": "Transporte acuático con conexiones terrestres coordinadas",
+    "respuestasIncorrectas": [
+      "Descartar el barco por su capacidad",
+      "Suponer que no hace falta un puerto",
+      "Tratar cualquier río como navegable todo el año",
+      "Elegir avión sin comparar costos",
+      "Omitir los tiempos de manipulación portuaria"
+    ],
+    "pista": "Considerá volumen, plazo y puertos.",
+    "explicacion": "El modo acuático puede mover grandes volúmenes; los puertos y conexiones también afectan el costo y el plazo.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-09",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Tramo de avión",
+    "situacion": "Una empresa compara flete aéreo con carretero para un envío. El aeropuerto está lejos del destino.",
+    "pregunta": "¿Qué debe incluir en la comparación aérea?",
+    "respuestaCorrecta": "Traslados al aeropuerto y desde él, además del vuelo",
+    "respuestasIncorrectas": [
+      "Solo el tiempo de vuelo",
+      "Solo el valor del producto",
+      "Ningún tiempo de procesamiento",
+      "Solo el número de pasajeros",
+      "Únicamente la capacidad del almacén"
+    ],
+    "pista": "El recorrido no empieza ni termina necesariamente en el aeropuerto.",
+    "explicacion": "El plazo total incluye acceso, procesamiento y conexiones, además del tramo aéreo.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-10",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Red de ductos",
+    "situacion": "Una empresa necesita trasladar un líquido compatible mediante una red fija existente.",
+    "pregunta": "¿Qué modo especializado puede evaluar?",
+    "respuestaCorrecta": "Transporte por ductos",
+    "respuestasIncorrectas": [
+      "Transporte de cajas por avión",
+      "Picking por voz",
+      "Un estante dinámico",
+      "Un carro de picking",
+      "Empaque manual"
+    ],
+    "pista": "Pensá en redes para fluidos adecuados.",
+    "explicacion": "Los ductos son especializados y sirven para determinadas cargas líquidas o gaseosas.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-11",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Dos modos",
+    "situacion": "Una carga viaja en camión hasta una terminal y continúa por tren.",
+    "pregunta": "¿Cómo se describe este esquema?",
+    "respuestaCorrecta": "Transporte intermodal",
+    "respuestasIncorrectas": [
+      "Almacenamiento estático",
+      "Picking por zonas",
+      "Logística inversa exclusivamente",
+      "Transporte aéreo directo",
+      "Fabricación por lotes"
+    ],
+    "pista": "Se coordinan dos medios distintos.",
+    "explicacion": "El transporte intermodal combina modos dentro de un desplazamiento coordinado.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-12",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Transbordos",
+    "situacion": "Un servicio combinado ofrece una tarifa baja en tren, pero exige dos transferencias costosas.",
+    "pregunta": "¿Cómo debería evaluarse?",
+    "respuestaCorrecta": "Sumar tramos, transferencias, tiempos y servicio",
+    "respuestasIncorrectas": [
+      "Comparar únicamente la tarifa ferroviaria",
+      "Ignorar las terminales",
+      "Excluir todos los tramos en camión",
+      "Suponer que cada transferencia es gratuita",
+      "Elegir sin verificar las conexiones"
+    ],
+    "pista": "Revisá la operación completa, no solo el tramo principal.",
+    "explicacion": "Las transferencias pueden reducir o anular las ventajas del modo principal.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-13",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Envíos pequeños",
+    "situacion": "Un comercio despacha pocos paquetes a muchas ciudades y no cuenta con flota.",
+    "pregunta": "¿Qué alternativa es razonable evaluar?",
+    "respuestaCorrecta": "Un servicio de mensajería que consolide envíos",
+    "respuestasIncorrectas": [
+      "Comprar un tren para cada paquete",
+      "Usar un ducto para cajas",
+      "Desestimar cobertura y seguimiento",
+      "Evitar toda clasificación",
+      "Suponer que todos los destinos cuestan igual"
+    ],
+    "pista": "Considerá un operador que agrupe envíos.",
+    "explicacion": "La mensajería integra recolección, clasificación y entrega según cobertura y condiciones.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-14",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Costo por kilómetro",
+    "situacion": "Un transportista realiza más kilómetros y aumenta su consumo de combustible.",
+    "pregunta": "¿Qué tipo de costo refleja ese consumo?",
+    "respuestaCorrecta": "Un costo variable asociado a la actividad",
+    "respuestasIncorrectas": [
+      "Un costo fijo que no cambia con el recorrido",
+      "Una venta de productos terminados",
+      "Una posición de almacenamiento",
+      "Una reclamación por daño",
+      "Un impuesto aduanero necesariamente"
+    ],
+    "pista": "Su valor cambia con la distancia recorrida.",
+    "explicacion": "El consumo de combustible es un ejemplo de costo variable del recorrido.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-15",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Oficina compartida",
+    "situacion": "La misma oficina administra varias rutas y sus gastos deben distribuirse.",
+    "pregunta": "¿Cómo se clasifica ese gasto compartido?",
+    "respuestaCorrecta": "Costo común",
+    "respuestasIncorrectas": [
+      "Costo exclusivo de una sola caja",
+      "Nivel de servicio",
+      "Tiempo de tránsito",
+      "Documento de embarque",
+      "Costo variable de combustible por kilómetro"
+    ],
+    "pista": "El recurso beneficia a más de un servicio.",
+    "explicacion": "Un costo común corresponde a recursos utilizados por varias actividades y requiere asignación.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-16",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Regreso del camión",
+    "situacion": "Para completar un reparto se necesita retornar el vehículo a su base.",
+    "pregunta": "¿Por qué debe analizarse el retorno?",
+    "respuestaCorrecta": "Porque puede generar costos asociados al servicio de ida",
+    "respuestasIncorrectas": [
+      "Porque automáticamente es gratuito",
+      "Porque elimina el consumo de combustible",
+      "Porque es una unidad de carga",
+      "Porque sustituye la documentación",
+      "Porque toda devolución es una venta"
+    ],
+    "pista": "El vehículo debe volver aun si no lleva otra carga.",
+    "explicacion": "Los costos del retorno forman parte de la evaluación de la operación.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-17",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Gran pedido",
+    "situacion": "Un cliente agrupa varias compras en un envío mayor y consulta si baja la tarifa por unidad.",
+    "pregunta": "¿Qué factor puede explicar una reducción?",
+    "respuestaCorrecta": "Mejor utilización de capacidad y reparto de costos",
+    "respuestasIncorrectas": [
+      "Que la distancia siempre sea cero",
+      "Que desaparezcan todos los costos fijos",
+      "Que el precio del producto deje de importar para el seguro",
+      "Que todo servicio use el mismo vehículo",
+      "Que nunca se deba medir el peso"
+    ],
+    "pista": "Pensá cómo se distribuyen los costos entre más unidades.",
+    "explicacion": "Un volumen mayor puede reducir costos unitarios, según capacidad, ruta y condiciones.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-18",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Vehículos propios",
+    "situacion": "Una firma estudia comprar camiones para controlar sus entregas.",
+    "pregunta": "¿Qué comparación debe realizar?",
+    "respuestaCorrecta": "Comparar control y servicio con vehículos, conductores, mantenimiento y utilización",
+    "respuestasIncorrectas": [
+      "Comparar solo el precio del primer camión",
+      "Ignorar mantenimiento y conductores",
+      "Suponer que la flota siempre estará llena",
+      "Contar solo los viajes de ida",
+      "Descartar el servicio al cliente"
+    ],
+    "pista": "Una flota supone administrar recursos y capacidad.",
+    "explicacion": "La flota propia ofrece control, pero requiere gestionar todos sus costos y disponibilidad.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-19",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Mercadería dañada",
+    "situacion": "Un envío llega con daños y el cliente necesita formalizar el reclamo.",
+    "pregunta": "¿Qué gestión corresponde analizar?",
+    "respuestaCorrecta": "Presentar una reclamación según las condiciones de la operación",
+    "respuestasIncorrectas": [
+      "Borrar los documentos del envío",
+      "Cambiar el modo de almacenamiento sin registrar el daño",
+      "Tratar el daño como un aumento de inventario",
+      "Emitir una orden de picking nueva sin revisión",
+      "Eliminar la evidencia de entrega"
+    ],
+    "pista": "Pensá en el procedimiento frente a pérdida o daño.",
+    "explicacion": "Una reclamación permite tratar daños o pérdidas con la documentación y condiciones aplicables.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "caso-c7-ampliado-20",
+    "unidad": "clase7",
+    "tipo": "caso",
+    "titulo": "Operación internacional",
+    "situacion": "Una empresa envía productos a otro país y solo calculó el costo del camión.",
+    "pregunta": "¿Qué aspecto adicional debe prever?",
+    "respuestaCorrecta": "Documentación, aduana y coordinación entre participantes",
+    "respuestasIncorrectas": [
+      "Suponer que no existen controles",
+      "Aplicar sin revisar una norma de otro país",
+      "Eliminar los datos del destinatario",
+      "Ignorar las condiciones de la carga",
+      "Contar solo los kilómetros de la primera etapa"
+    ],
+    "pista": "Cruzar una frontera agrega participantes y requisitos.",
+    "explicacion": "Los requisitos dependen de la mercancía, el modo, la operación y las jurisdicciones.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
     }
   }
 ]

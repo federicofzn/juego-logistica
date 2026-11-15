@@ -1,18 +1,82 @@
 [
   {
     "id": "error-clase1",
-    "titulo": "Clase 1: Introducción a la logística",
+    "titulo": "Alcance de la logística",
     "oraciones": [
-      "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "La logística se limita al transporte y no incluye inventarios ni almacenamiento.",
-      "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente."
+      "La logística coordina movimiento y almacenamiento de bienes.",
+      "La logística se limita al transporte y excluye inventarios.",
+      "La información acompaña los flujos físicos.",
+      "La logística busca atender requisitos del cliente.",
+      "La cadena de suministro involucra distintos actores."
     ],
     "incorrecta": 1,
-    "correccion": "La logística también incluye inventarios, almacenamiento y otras actividades.",
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "La logística también incluye inventarios, almacenamiento y otras actividades.",
+    "correccion": "La logística incluye inventarios y almacenamiento además del transporte.",
+    "pista": "Compará transporte con el alcance completo.",
+    "explicacion": "La gestión logística integra varias actividades y su información.",
     "libro": "clase1_conceptos"
+  },
+  {
+    "id": "error-clase1-2",
+    "titulo": "Entrada y salida",
+    "oraciones": [
+      "La administración de materiales atiende el flujo de insumos.",
+      "La distribución física comprende el envío de productos terminados.",
+      "Recepción y control ayudan a gestionar el almacén.",
+      "La distribución física se ocupa exclusivamente de comprar materias primas para producir.",
+      "Preparar pedidos puede anteceder al despacho."
+    ],
+    "incorrecta": 3,
+    "correccion": "La compra y el abastecimiento de insumos corresponden a la administración de materiales; la distribución física atiende la salida de productos terminados.",
+    "pista": "Diferenciá insumos entrantes de productos terminados.",
+    "explicacion": "Las dos divisiones enfocan momentos distintos del flujo.",
+    "libro": "clase1_flujos"
+  },
+  {
+    "id": "error-clase1-3",
+    "titulo": "Devoluciones y recuperación",
+    "oraciones": [
+      "Una devolución puede dirigirse a reparación.",
+      "Reutilizar envases es un destino posible del retorno.",
+      "Todo producto devuelto puede recuperarse y siempre genera beneficios.",
+      "La logística inversa puede incluir reciclaje.",
+      "Organizar retornos también puede generar costos."
+    ],
+    "incorrecta": 2,
+    "correccion": "El destino y el resultado económico dependen del estado del producto y de los costos.",
+    "pista": "Revisá la afirmación que promete un resultado universal.",
+    "explicacion": "Recuperar valor es posible, pero no está garantizado.",
+    "libro": "clase1_inversa"
+  },
+  {
+    "id": "error-clase1-4",
+    "titulo": "Fabricante y comercializadora",
+    "oraciones": [
+      "Una fabricante puede recibir insumos y transformarlos.",
+      "Una comercializadora puede comprar productos terminados.",
+      "El almacenamiento puede formar parte de una comercializadora.",
+      "Todas las cadenas tienen idénticas etapas y organizaciones.",
+      "Una cadena de servicios puede depender especialmente de personas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Las cadenas varían según producto o servicio, organización y mercado.",
+    "pista": "Compará actividades entre una fábrica y una comercializadora.",
+    "explicacion": "No todas las organizaciones fabrican ni estructuran igual sus flujos.",
+    "libro": "clase1_fases"
+  },
+  {
+    "id": "error-clase1-5",
+    "titulo": "Ventas, compras y logística",
+    "oraciones": [
+      "Ventas puede consultar plazos y disponibilidad antes de prometer.",
+      "Compras acuerda condiciones con proveedores.",
+      "La recepción debe coordinarse con las entregas previstas.",
+      "Un faltante puede perjudicar la atención del cliente.",
+      "La información comercial es irrelevante para planificar el abastecimiento."
+    ],
+    "incorrecta": 4,
+    "correccion": "Las previsiones y promociones comerciales ayudan a coordinar compras y logística.",
+    "pista": "Pensá qué cambia en el abastecimiento cuando hay una promoción.",
+    "explicacion": "El intercambio de información ayuda a ajustar disponibilidad y promesas.",
+    "libro": "clase1_areas"
   }
 ]

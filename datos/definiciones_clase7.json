@@ -46,5 +46,173 @@
     "definicion": "Costo que cambia con la actividad o el recorrido realizado.",
     "ejemplo": "El consumo de combustible aumenta al realizar más viajes.",
     "libro": "clase7_conceptos"
+  },
+  {
+    "id": "def-c7-modos-1",
+    "grupo": "modos",
+    "termino": "Carretero",
+    "definicion": "Modo que circula por carreteras y puede ofrecer entrega puerta a puerta.",
+    "ejemplo": "Un camión reparte productos a comercios con acceso vial.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "def-c7-modos-2",
+    "grupo": "modos",
+    "termino": "Ferroviario",
+    "definicion": "Modo que utiliza trenes y depende de una red de vías y terminales.",
+    "ejemplo": "Un tren traslada carga consolidada entre terminales.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "def-c7-modos-3",
+    "grupo": "modos",
+    "termino": "Aéreo",
+    "definicion": "Modo que utiliza aeronaves y destaca por su rapidez en trayectos largos.",
+    "ejemplo": "Una pieza urgente viaja en avión.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "def-c7-modos-4",
+    "grupo": "modos",
+    "termino": "Acuático",
+    "definicion": "Modo que utiliza embarcaciones marítimas o fluviales.",
+    "ejemplo": "Un barco lleva carga voluminosa entre puertos.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "def-c7-modos-5",
+    "grupo": "modos",
+    "termino": "Ductos",
+    "definicion": "Red especializada para desplazar productos adecuados como determinados líquidos o gases.",
+    "ejemplo": "Una red de tuberías traslada combustible.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "def-c7-servicio-1",
+    "grupo": "servicio",
+    "termino": "Tiempo de tránsito",
+    "definicion": "Duración del desplazamiento de un envío entre origen y destino.",
+    "ejemplo": "Un recorrido tarda dos días desde el retiro hasta la entrega.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "def-c7-servicio-2",
+    "grupo": "servicio",
+    "termino": "Variabilidad del tránsito",
+    "definicion": "Diferencia entre los tiempos que tardan envíos realizados en condiciones comparables.",
+    "ejemplo": "Una ruta suele tardar entre dos y cuatro días.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "def-c7-servicio-3",
+    "grupo": "servicio",
+    "termino": "Frecuencia del servicio",
+    "definicion": "Regularidad con que un operador ofrece salidas o entregas.",
+    "ejemplo": "Una terminal despacha una salida diaria.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "def-c7-servicio-4",
+    "grupo": "servicio",
+    "termino": "Cobertura",
+    "definicion": "Alcance geográfico de los destinos que un servicio puede atender.",
+    "ejemplo": "Un operador atiende varias provincias.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "def-c7-costos-1",
+    "grupo": "costos",
+    "termino": "Costo fijo",
+    "definicion": "Costo que en el corto plazo no cambia directamente con cada envío.",
+    "ejemplo": "Una instalación se mantiene aun cuando haya menos envíos.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "def-c7-costos-2",
+    "grupo": "costos",
+    "termino": "Costo variable",
+    "definicion": "Costo que cambia con el nivel de actividad o el recorrido.",
+    "ejemplo": "El combustible consumido aumenta con más kilómetros recorridos.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "def-c7-costos-3",
+    "grupo": "costos",
+    "termino": "Costo común",
+    "definicion": "Costo de recursos compartidos por varios servicios.",
+    "ejemplo": "Una oficina administrativa atiende varias rutas.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "def-c7-costos-4",
+    "grupo": "costos",
+    "termino": "Costo conjunto",
+    "definicion": "Costo vinculado a servicios que se producen necesariamente de manera conjunta.",
+    "ejemplo": "La ida de un vehículo puede implicar su retorno.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "def-c7-operacion-1",
+    "grupo": "operacion",
+    "termino": "Transporte intermodal",
+    "definicion": "Traslado coordinado que combina dos o más modos de transporte.",
+    "ejemplo": "Un contenedor viaja primero en camión y luego en tren.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "def-c7-operacion-2",
+    "grupo": "operacion",
+    "termino": "Consolidación",
+    "definicion": "Agrupación de cargas o envíos para coordinar su movimiento.",
+    "ejemplo": "Un operador reúne envíos pequeños para un tramo común.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "def-c7-operacion-3",
+    "grupo": "operacion",
+    "termino": "Terminal de transferencia",
+    "definicion": "Instalación donde se conectan operaciones o modos de transporte.",
+    "ejemplo": "Una carga pasa del ferrocarril al camión en una instalación.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "def-c7-operacion-4",
+    "grupo": "operacion",
+    "termino": "Distribución de última milla",
+    "definicion": "Tramo de entrega que acerca el envío hasta su destino final.",
+    "ejemplo": "Una furgoneta entrega paquetes a destinatarios en una ciudad.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "def-c7-documentos-1",
+    "grupo": "documentos",
+    "termino": "Conocimiento de embarque",
+    "definicion": "Documento que acredita la recepción de una carga y establece condiciones de transporte según su modalidad.",
+    "ejemplo": "El transportista recibe mercancía amparada por un documento de transporte.",
+    "libro": "c7_gestion"
+  },
+  {
+    "id": "def-c7-documentos-2",
+    "grupo": "documentos",
+    "termino": "Factura de transporte",
+    "definicion": "Documento que detalla el cobro del servicio de transporte.",
+    "ejemplo": "El operador factura el servicio prestado al cliente.",
+    "libro": "c7_gestion"
+  },
+  {
+    "id": "def-c7-documentos-3",
+    "grupo": "documentos",
+    "termino": "Reclamación",
+    "definicion": "Solicitud para tratar un incumplimiento, pérdida, daño o cobro discutido.",
+    "ejemplo": "El cliente reclama por productos dañados durante el traslado.",
+    "libro": "c7_gestion"
+  },
+  {
+    "id": "def-c7-documentos-4",
+    "grupo": "documentos",
+    "termino": "Flota propia",
+    "definicion": "Conjunto de vehículos operados por la misma empresa que necesita el transporte.",
+    "ejemplo": "Una empresa gestiona sus vehículos, conductores y mantenimiento.",
+    "libro": "c7_gestion"
   }
 ]

@@ -1,50 +1,122 @@
 [
   {
     "id": "def-clase3-1",
-    "grupo": "conceptos",
+    "grupo": "operaciones",
     "termino": "Recepción",
-    "definicion": "Etapa en la que el depósito recibe y controla la mercancía entrante.",
-    "ejemplo": "Un operario verifica los artículos que acaban de llegar del proveedor.",
-    "libro": "clase3_conceptos"
+    "definicion": "Ingreso y control de la mercancía recibida.",
+    "ejemplo": "Se comparan los artículos llegados con lo esperado.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "def-clase3-2",
-    "grupo": "conceptos",
+    "grupo": "operaciones",
     "termino": "Ubicación",
-    "definicion": "Asignación y registro del lugar donde se guarda una mercancía.",
-    "ejemplo": "El sistema registra en qué estante se colocó una pieza.",
-    "libro": "clase3_conceptos"
+    "definicion": "Asignación y registro del lugar donde se guarda un artículo.",
+    "ejemplo": "Se registra el estante de un repuesto.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "def-clase3-3",
-    "grupo": "conceptos",
+    "grupo": "operaciones",
     "termino": "Reposición",
-    "definicion": "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-    "ejemplo": "Se lleva una caja desde la reserva a un estante de preparación.",
-    "libro": "clase3_conceptos"
+    "definicion": "Traslado de existencias hacia una ubicación que necesita recuperarlas.",
+    "ejemplo": "Se lleva una caja de reserva al sector de preparación.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "def-clase3-4",
-    "grupo": "conceptos",
+    "grupo": "operaciones",
     "termino": "Picking",
-    "definicion": "Selección de los artículos necesarios para preparar un pedido.",
-    "ejemplo": "Un operario reúne las referencias y cantidades que solicitó un cliente.",
-    "libro": "clase3_conceptos"
+    "definicion": "Selección de referencias y cantidades para un pedido.",
+    "ejemplo": "Se recogen dos artículos solicitados.",
+    "libro": "clase3_picking"
   },
   {
     "id": "def-clase3-5",
-    "grupo": "conceptos",
+    "grupo": "operaciones",
     "termino": "Expedición",
-    "definicion": "Etapa en que los pedidos preparados se organizan para su salida.",
-    "ejemplo": "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
-    "libro": "clase3_conceptos"
+    "definicion": "Control y organización de la salida de pedidos.",
+    "ejemplo": "Se verifica el destino de una orden preparada.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "def-clase3-6",
-    "grupo": "conceptos",
+    "grupo": "informacion",
     "termino": "Sistema de gestión de almacenes",
-    "definicion": "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito.",
-    "ejemplo": "Una aplicación indica dónde guardar y localizar cada artículo.",
+    "definicion": "Herramienta informática que ayuda a controlar ubicaciones y movimientos.",
+    "ejemplo": "La aplicación indica dónde buscar una pieza.",
+    "libro": "clase3_informacion"
+  },
+  {
+    "id": "def-clase3-7",
+    "grupo": "operaciones",
+    "termino": "Consolidación",
+    "definicion": "Reunión de artículos recogidos para completar un pedido.",
+    "ejemplo": "Se juntan productos de distintos sectores.",
+    "libro": "clase3_operaciones"
+  },
+  {
+    "id": "def-clase3-8",
+    "grupo": "informacion",
+    "termino": "Inventario",
+    "definicion": "Registro de las existencias que se controlan en el depósito.",
+    "ejemplo": "Se contrasta la cantidad registrada con la disponible.",
+    "libro": "clase3_informacion"
+  },
+  {
+    "id": "def-clase3-9",
+    "grupo": "informacion",
+    "termino": "Trazabilidad",
+    "definicion": "Posibilidad de relacionar el producto con su ubicación, cantidad, estado y movimientos.",
+    "ejemplo": "Se consulta dónde quedó una partida recibida.",
+    "libro": "clase3_informacion"
+  },
+  {
+    "id": "def-clase3-10",
+    "grupo": "diseno",
+    "termino": "Flujo de materiales",
+    "definicion": "Recorrido de las mercancías dentro del almacén desde la entrada hasta la salida.",
+    "ejemplo": "Se analiza el trayecto entre recepción y expedición.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "def-clase3-11",
+    "grupo": "diseno",
+    "termino": "Rotación",
+    "definicion": "Frecuencia con que un producto sale o se mueve en el almacén.",
+    "ejemplo": "Un artículo solicitado a menudo tiene mayor rotación que otro poco pedido.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "def-clase3-12",
+    "grupo": "diseno",
+    "termino": "Flujo en U",
+    "definicion": "Organización del recorrido con recepción y expedición próximas, según la disposición del edificio.",
+    "ejemplo": "Se evalúa un recorrido en U cuando los muelles están próximos.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "def-clase3-13",
+    "grupo": "tipos",
+    "termino": "Almacén de materias primas",
+    "definicion": "Instalación que recibe y conserva insumos destinados a la producción.",
+    "ejemplo": "Se guardan insumos antes de abastecer la fábrica.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-clase3-14",
+    "grupo": "tipos",
+    "termino": "Almacén de productos terminados",
+    "definicion": "Instalación que conserva productos ya elaborados antes de su distribución.",
+    "ejemplo": "Se guardan artículos terminados antes del despacho.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "def-clase3-15",
+    "grupo": "tipos",
+    "termino": "Almacén de distribución",
+    "definicion": "Instalación que organiza mercancías para atender su distribución.",
+    "ejemplo": "Se preparan pedidos para distintos destinos.",
     "libro": "clase3_conceptos"
   }
 ]

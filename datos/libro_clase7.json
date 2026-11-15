@@ -4,27 +4,107 @@
     "titulo": "Clase 7: Transporte"
   },
   "entradas": {
-    "clase7_conceptos": {
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+    "c7_funcion": {
+      "categoria": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "El transporte conecta a proveedores, plantas, depósitos y clientes. Su contribución se evalúa en conjunto con el inventario y el servicio: una tarifa menor no garantiza el menor costo logístico total."
       ],
       "notas": [
-        "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
-        "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
-        "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
-        "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones.",
-        "Transporte intermodal: Desplazamiento que combina dos o más modos coordinados.",
-        "Costo variable: Costo que cambia con la actividad o el recorrido realizado."
+        "El tiempo de tránsito es el tiempo que tarda el traslado; su variabilidad afecta la previsibilidad de la entrega.",
+        "La cobertura y la frecuencia determinan si el servicio llega al destino y con qué regularidad.",
+        "El riesgo de pérdida o daño y las condiciones de la carga influyen en la elección.",
+        "La decisión puede afectar el inventario en tránsito y las necesidades de stock."
       ],
       "ejemplos": [
-        "Un camión entrega la mercadería directamente en un comercio.",
-        "Una carga consolidada recorre una larga distancia sobre rieles.",
-        "Una pieza urgente y de alto valor viaja en avión.",
-        "Una carga voluminosa viaja por barco entre puertos.",
-        "Un contenedor viaja en camión y continúa por ferrocarril.",
-        "El consumo de combustible aumenta al realizar más viajes."
+        "Una pieza urgente puede justificar un servicio más costoso si evita detener una operación."
+      ],
+      "ojo": "Compará costo total y nivel de servicio antes de elegir exclusivamente por precio."
+    },
+    "c7_modos": {
+      "categoria": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "intro": [
+        "Cada modo combina capacidad, velocidad, cobertura, infraestructura y costos diferentes. La conveniencia depende de la mercancía y de la ruta concreta."
+      ],
+      "notas": [
+        "Carretero: flexibilidad y posibilidad de entrega puerta a puerta en lugares con acceso vial.",
+        "Ferroviario: adecuado para consolidar grandes volúmenes; depende de vías y terminales.",
+        "Aéreo: útil para cargas urgentes o de alto valor; suele tener mayor tarifa y restricciones.",
+        "Marítimo o fluvial: transporta grandes cantidades, con dependencia de puertos o vías navegables.",
+        "Ductos: redes especializadas para productos adecuados, como determinados líquidos y gases."
+      ],
+      "ejemplos": [
+        "Para una gran carga sin urgencia puede compararse el barco con otros modos y sumar los tramos hasta el puerto."
+      ],
+      "ojo": "La comparación depende del contexto; no hay un modo óptimo para todos los envíos."
+    },
+    "c7_intermodal": {
+      "categoria": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "intro": [
+        "El transporte intermodal combina modos para aprovechar sus ventajas en diferentes tramos. La conexión entre servicios añade transferencias que también deben planificarse."
+      ],
+      "notas": [
+        "Una operación puede combinar camión y ferrocarril mediante una terminal.",
+        "Los horarios y la disponibilidad de terminales influyen en el plazo total.",
+        "Las transferencias pueden agregar costos y tiempo, aun cuando el tramo principal sea económico.",
+        "La mensajería para paquetes pequeños agrupa envíos y ofrece distintas coberturas, plazos y seguimiento."
+      ],
+      "ejemplos": [
+        "Un camión lleva un contenedor a una terminal ferroviaria y otro lo recoge cerca del destino."
+      ],
+      "ojo": "El video presenta una distinción documental específica entre transporte combinado y multimodal; las definiciones dependen del marco aplicable."
+    },
+    "c7_costos": {
+      "categoria": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "intro": [
+        "El costo de transporte depende de la estructura del servicio y de la utilización de su capacidad. La tarifa que paga un cliente no siempre equivale al costo interno del transportista."
+      ],
+      "notas": [
+        "Los costos fijos no varían directamente con cada envío en el corto plazo.",
+        "Los costos variables cambian con la actividad; el combustible es un ejemplo relacionado con el recorrido.",
+        "Los costos comunes corresponden a recursos compartidos por varios servicios.",
+        "Los costos conjuntos pueden surgir cuando producir un servicio implica necesariamente otro.",
+        "El tamaño del envío, la distancia y las condiciones del servicio influyen en las tarifas."
+      ],
+      "ejemplos": [
+        "Una ruta de ida puede requerir un retorno del vehículo, que debe considerarse al evaluar la operación."
+      ],
+      "ojo": "El costo unitario puede cambiar con la ocupación y el volumen: evitá extrapolar una tarifa sin conocer las condiciones."
+    },
+    "c7_gestion": {
+      "categoria": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "intro": [
+        "La empresa puede operar una flota propia o contratar transporte. El análisis considera control, disponibilidad, utilización y todos los costos asociados."
+      ],
+      "notas": [
+        "La flota propia exige administrar vehículos, conductores y mantenimiento.",
+        "La contratación externa requiere evaluar condiciones de servicio, cobertura, seguimiento y tarifas.",
+        "El conocimiento de embarque documenta la recepción de la carga y las condiciones del transporte, según su modalidad.",
+        "Las reclamaciones pueden relacionarse con pérdida, daño, retraso o sobrecargo.",
+        "El transporte internacional puede requerir documentación y coordinación aduanera adicionales."
+      ],
+      "ejemplos": [
+        "Una empresa compara sus rutas habituales y el costo integral de su flota con la propuesta de un operador."
+      ],
+      "ojo": "Los documentos y sus efectos concretos dependen de la operación, la jurisdicción y el modo de transporte."
+    },
+    "clase7_conceptos": {
+      "categoria": "Conceptos principales",
+      "titulo": "Conceptos principales de transporte",
+      "intro": [
+        "El transporte vincula las etapas de la cadena logística mediante servicios con distintas características."
+      ],
+      "notas": [
+        "Compará los modos y sus requisitos.",
+        "Considerá el costo total y el servicio.",
+        "Revisá las condiciones de la operación."
+      ],
+      "ejemplos": [
+        "Un camión conecta un depósito con una terminal ferroviaria."
       ]
     }
   }

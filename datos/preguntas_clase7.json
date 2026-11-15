@@ -106,5 +106,365 @@
     "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
     "explicacion": "Costo variable: Costo que cambia con la actividad o el recorrido realizado.",
     "libro": "clase7_conceptos"
+  },
+  {
+    "id": "caso-c7-ampliado-01",
+    "tipo": "caso",
+    "titulo": "Tarifa o servicio",
+    "situacion": "Una empresa consigue un flete más barato, pero sus entregas tardan el doble y el stock en tránsito aumenta.",
+    "pregunta": "¿Qué análisis conviene hacer?",
+    "correcta": "Comparar el costo logístico total y el impacto en el servicio",
+    "incorrectas": [
+      "Elegir solo por el valor del flete",
+      "Ignorar el inventario en tránsito",
+      "Suponer que el plazo no afecta al cliente",
+      "Comparar únicamente el precio de compra",
+      "Eliminar los controles de entrega"
+    ],
+    "pista": "Los costos y el servicio se afectan entre sí.",
+    "explicacion": "El flete menor puede compensarse con más inventario, faltantes o peor servicio.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "caso-c7-ampliado-02",
+    "tipo": "caso",
+    "titulo": "Entregas variables",
+    "situacion": "Dos operadores tardan tres días en promedio. Uno suele cumplir el plazo; el otro tarda entre uno y cinco días.",
+    "pregunta": "¿Qué diferencia debe considerar la empresa?",
+    "correcta": "La variabilidad de los tiempos de tránsito",
+    "incorrectas": [
+      "El color de los vehículos",
+      "Solo el peso del embalaje",
+      "La cantidad de proveedores de materias primas",
+      "La altura de las estanterías",
+      "El número de artículos en cada caja"
+    ],
+    "pista": "El promedio no describe toda la dispersión.",
+    "explicacion": "La variabilidad afecta la confiabilidad y la planificación del inventario.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "caso-c7-ampliado-03",
+    "tipo": "caso",
+    "titulo": "Pieza urgente",
+    "situacion": "Una pieza de alto valor debe llegar rápidamente para evitar una parada de producción. El flete aéreo cuesta más.",
+    "pregunta": "¿Cuál es una razón válida para evaluarlo?",
+    "correcta": "El costo de la demora puede justificar la rapidez",
+    "incorrectas": [
+      "El avión elimina cualquier restricción de carga",
+      "El flete aéreo es siempre el más barato",
+      "La urgencia no afecta el costo total",
+      "El transporte no influye en producción",
+      "El avión garantiza entrega inmediata en cualquier destino"
+    ],
+    "pista": "Considerá el costo que evita la entrega rápida.",
+    "explicacion": "Un mayor flete puede compensarse si reduce una pérdida mayor por interrupción.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "caso-c7-ampliado-04",
+    "tipo": "caso",
+    "titulo": "Alcance de reparto",
+    "situacion": "Un operador ofrece buen precio, pero no llega a varias localidades de los clientes.",
+    "pregunta": "¿Qué atributo del servicio presenta una limitación?",
+    "correcta": "La cobertura geográfica",
+    "incorrectas": [
+      "La altura de almacenamiento",
+      "El embalaje primario",
+      "El método FIFO",
+      "La vida útil del vehículo",
+      "El diseño del producto"
+    ],
+    "pista": "Pensá en los lugares atendidos.",
+    "explicacion": "La cobertura indica si un servicio puede atender los orígenes y destinos requeridos.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "caso-c7-ampliado-05",
+    "tipo": "caso",
+    "titulo": "Servicio y ventas",
+    "situacion": "Ventas promete entregas al día siguiente, pero logística solo dispone de dos salidas semanales.",
+    "pregunta": "¿Qué debería hacerse primero?",
+    "correcta": "Coordinar la promesa comercial con la capacidad de distribución",
+    "incorrectas": [
+      "Mantener la promesa sin revisar capacidad",
+      "Quitar el control de pedidos",
+      "Evaluar solo el costo de compra",
+      "Eliminar el inventario sin analizar demanda",
+      "Reemplazar las facturas por etiquetas"
+    ],
+    "pista": "La frecuencia disponible condiciona la promesa.",
+    "explicacion": "El compromiso comercial debe ser compatible con frecuencias, cobertura y recursos.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "caso-c7-ampliado-06",
+    "tipo": "caso",
+    "titulo": "Gran volumen",
+    "situacion": "Una empresa debe mover carga consolidada en un recorrido largo con vías y terminales disponibles; no es urgente.",
+    "pregunta": "¿Qué alternativa merece comparación?",
+    "correcta": "Ferrocarril, incluyendo conexiones y transferencias",
+    "incorrectas": [
+      "Elegir avión sin considerar el costo",
+      "Descartar cualquier modo de alta capacidad",
+      "Usar ductos para cualquier mercancía",
+      "Elegir solo por el color de los vagones",
+      "Suponer que la red ferroviaria llega a toda puerta"
+    ],
+    "pista": "Pensá en capacidad y dependencia de vías.",
+    "explicacion": "El ferrocarril puede ser conveniente con volumen y conexiones adecuadas, pero deben incluirse las transferencias.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "caso-c7-ampliado-07",
+    "tipo": "caso",
+    "titulo": "Entrega al comercio",
+    "situacion": "Un negocio necesita recibir cajas en su puerta en una zona con acceso vial.",
+    "pregunta": "¿Qué modo ofrece flexibilidad para ese tramo?",
+    "correcta": "Transporte carretero",
+    "incorrectas": [
+      "Ducto para cajas",
+      "Barco hasta la puerta sin vía navegable",
+      "Ferrocarril sin vías ni conexión",
+      "Ningún medio terrestre",
+      "Solo un avión sin reparto posterior"
+    ],
+    "pista": "El destino tiene acceso por carretera.",
+    "explicacion": "El camión puede prestar servicio puerta a puerta donde exista infraestructura vial.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "caso-c7-ampliado-08",
+    "tipo": "caso",
+    "titulo": "Cargas acuáticas",
+    "situacion": "Una carga voluminosa puede viajar con plazo amplio entre puertos conectados.",
+    "pregunta": "¿Qué alternativa puede ser adecuada?",
+    "correcta": "Transporte acuático con conexiones terrestres coordinadas",
+    "incorrectas": [
+      "Descartar el barco por su capacidad",
+      "Suponer que no hace falta un puerto",
+      "Tratar cualquier río como navegable todo el año",
+      "Elegir avión sin comparar costos",
+      "Omitir los tiempos de manipulación portuaria"
+    ],
+    "pista": "Considerá volumen, plazo y puertos.",
+    "explicacion": "El modo acuático puede mover grandes volúmenes; los puertos y conexiones también afectan el costo y el plazo.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "caso-c7-ampliado-09",
+    "tipo": "caso",
+    "titulo": "Tramo de avión",
+    "situacion": "Una empresa compara flete aéreo con carretero para un envío. El aeropuerto está lejos del destino.",
+    "pregunta": "¿Qué debe incluir en la comparación aérea?",
+    "correcta": "Traslados al aeropuerto y desde él, además del vuelo",
+    "incorrectas": [
+      "Solo el tiempo de vuelo",
+      "Solo el valor del producto",
+      "Ningún tiempo de procesamiento",
+      "Solo el número de pasajeros",
+      "Únicamente la capacidad del almacén"
+    ],
+    "pista": "El recorrido no empieza ni termina necesariamente en el aeropuerto.",
+    "explicacion": "El plazo total incluye acceso, procesamiento y conexiones, además del tramo aéreo.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "caso-c7-ampliado-10",
+    "tipo": "caso",
+    "titulo": "Red de ductos",
+    "situacion": "Una empresa necesita trasladar un líquido compatible mediante una red fija existente.",
+    "pregunta": "¿Qué modo especializado puede evaluar?",
+    "correcta": "Transporte por ductos",
+    "incorrectas": [
+      "Transporte de cajas por avión",
+      "Picking por voz",
+      "Un estante dinámico",
+      "Un carro de picking",
+      "Empaque manual"
+    ],
+    "pista": "Pensá en redes para fluidos adecuados.",
+    "explicacion": "Los ductos son especializados y sirven para determinadas cargas líquidas o gaseosas.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "caso-c7-ampliado-11",
+    "tipo": "caso",
+    "titulo": "Dos modos",
+    "situacion": "Una carga viaja en camión hasta una terminal y continúa por tren.",
+    "pregunta": "¿Cómo se describe este esquema?",
+    "correcta": "Transporte intermodal",
+    "incorrectas": [
+      "Almacenamiento estático",
+      "Picking por zonas",
+      "Logística inversa exclusivamente",
+      "Transporte aéreo directo",
+      "Fabricación por lotes"
+    ],
+    "pista": "Se coordinan dos medios distintos.",
+    "explicacion": "El transporte intermodal combina modos dentro de un desplazamiento coordinado.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "caso-c7-ampliado-12",
+    "tipo": "caso",
+    "titulo": "Transbordos",
+    "situacion": "Un servicio combinado ofrece una tarifa baja en tren, pero exige dos transferencias costosas.",
+    "pregunta": "¿Cómo debería evaluarse?",
+    "correcta": "Sumar tramos, transferencias, tiempos y servicio",
+    "incorrectas": [
+      "Comparar únicamente la tarifa ferroviaria",
+      "Ignorar las terminales",
+      "Excluir todos los tramos en camión",
+      "Suponer que cada transferencia es gratuita",
+      "Elegir sin verificar las conexiones"
+    ],
+    "pista": "Revisá la operación completa, no solo el tramo principal.",
+    "explicacion": "Las transferencias pueden reducir o anular las ventajas del modo principal.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "caso-c7-ampliado-13",
+    "tipo": "caso",
+    "titulo": "Envíos pequeños",
+    "situacion": "Un comercio despacha pocos paquetes a muchas ciudades y no cuenta con flota.",
+    "pregunta": "¿Qué alternativa es razonable evaluar?",
+    "correcta": "Un servicio de mensajería que consolide envíos",
+    "incorrectas": [
+      "Comprar un tren para cada paquete",
+      "Usar un ducto para cajas",
+      "Desestimar cobertura y seguimiento",
+      "Evitar toda clasificación",
+      "Suponer que todos los destinos cuestan igual"
+    ],
+    "pista": "Considerá un operador que agrupe envíos.",
+    "explicacion": "La mensajería integra recolección, clasificación y entrega según cobertura y condiciones.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "caso-c7-ampliado-14",
+    "tipo": "caso",
+    "titulo": "Costo por kilómetro",
+    "situacion": "Un transportista realiza más kilómetros y aumenta su consumo de combustible.",
+    "pregunta": "¿Qué tipo de costo refleja ese consumo?",
+    "correcta": "Un costo variable asociado a la actividad",
+    "incorrectas": [
+      "Un costo fijo que no cambia con el recorrido",
+      "Una venta de productos terminados",
+      "Una posición de almacenamiento",
+      "Una reclamación por daño",
+      "Un impuesto aduanero necesariamente"
+    ],
+    "pista": "Su valor cambia con la distancia recorrida.",
+    "explicacion": "El consumo de combustible es un ejemplo de costo variable del recorrido.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "caso-c7-ampliado-15",
+    "tipo": "caso",
+    "titulo": "Oficina compartida",
+    "situacion": "La misma oficina administra varias rutas y sus gastos deben distribuirse.",
+    "pregunta": "¿Cómo se clasifica ese gasto compartido?",
+    "correcta": "Costo común",
+    "incorrectas": [
+      "Costo exclusivo de una sola caja",
+      "Nivel de servicio",
+      "Tiempo de tránsito",
+      "Documento de embarque",
+      "Costo variable de combustible por kilómetro"
+    ],
+    "pista": "El recurso beneficia a más de un servicio.",
+    "explicacion": "Un costo común corresponde a recursos utilizados por varias actividades y requiere asignación.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "caso-c7-ampliado-16",
+    "tipo": "caso",
+    "titulo": "Regreso del camión",
+    "situacion": "Para completar un reparto se necesita retornar el vehículo a su base.",
+    "pregunta": "¿Por qué debe analizarse el retorno?",
+    "correcta": "Porque puede generar costos asociados al servicio de ida",
+    "incorrectas": [
+      "Porque automáticamente es gratuito",
+      "Porque elimina el consumo de combustible",
+      "Porque es una unidad de carga",
+      "Porque sustituye la documentación",
+      "Porque toda devolución es una venta"
+    ],
+    "pista": "El vehículo debe volver aun si no lleva otra carga.",
+    "explicacion": "Los costos del retorno forman parte de la evaluación de la operación.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "caso-c7-ampliado-17",
+    "tipo": "caso",
+    "titulo": "Gran pedido",
+    "situacion": "Un cliente agrupa varias compras en un envío mayor y consulta si baja la tarifa por unidad.",
+    "pregunta": "¿Qué factor puede explicar una reducción?",
+    "correcta": "Mejor utilización de capacidad y reparto de costos",
+    "incorrectas": [
+      "Que la distancia siempre sea cero",
+      "Que desaparezcan todos los costos fijos",
+      "Que el precio del producto deje de importar para el seguro",
+      "Que todo servicio use el mismo vehículo",
+      "Que nunca se deba medir el peso"
+    ],
+    "pista": "Pensá cómo se distribuyen los costos entre más unidades.",
+    "explicacion": "Un volumen mayor puede reducir costos unitarios, según capacidad, ruta y condiciones.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "caso-c7-ampliado-18",
+    "tipo": "caso",
+    "titulo": "Vehículos propios",
+    "situacion": "Una firma estudia comprar camiones para controlar sus entregas.",
+    "pregunta": "¿Qué comparación debe realizar?",
+    "correcta": "Comparar control y servicio con vehículos, conductores, mantenimiento y utilización",
+    "incorrectas": [
+      "Comparar solo el precio del primer camión",
+      "Ignorar mantenimiento y conductores",
+      "Suponer que la flota siempre estará llena",
+      "Contar solo los viajes de ida",
+      "Descartar el servicio al cliente"
+    ],
+    "pista": "Una flota supone administrar recursos y capacidad.",
+    "explicacion": "La flota propia ofrece control, pero requiere gestionar todos sus costos y disponibilidad.",
+    "libro": "c7_gestion"
+  },
+  {
+    "id": "caso-c7-ampliado-19",
+    "tipo": "caso",
+    "titulo": "Mercadería dañada",
+    "situacion": "Un envío llega con daños y el cliente necesita formalizar el reclamo.",
+    "pregunta": "¿Qué gestión corresponde analizar?",
+    "correcta": "Presentar una reclamación según las condiciones de la operación",
+    "incorrectas": [
+      "Borrar los documentos del envío",
+      "Cambiar el modo de almacenamiento sin registrar el daño",
+      "Tratar el daño como un aumento de inventario",
+      "Emitir una orden de picking nueva sin revisión",
+      "Eliminar la evidencia de entrega"
+    ],
+    "pista": "Pensá en el procedimiento frente a pérdida o daño.",
+    "explicacion": "Una reclamación permite tratar daños o pérdidas con la documentación y condiciones aplicables.",
+    "libro": "c7_gestion"
+  },
+  {
+    "id": "caso-c7-ampliado-20",
+    "tipo": "caso",
+    "titulo": "Operación internacional",
+    "situacion": "Una empresa envía productos a otro país y solo calculó el costo del camión.",
+    "pregunta": "¿Qué aspecto adicional debe prever?",
+    "correcta": "Documentación, aduana y coordinación entre participantes",
+    "incorrectas": [
+      "Suponer que no existen controles",
+      "Aplicar sin revisar una norma de otro país",
+      "Eliminar los datos del destinatario",
+      "Ignorar las condiciones de la carga",
+      "Contar solo los kilómetros de la primera etapa"
+    ],
+    "pista": "Cruzar una frontera agrega participantes y requisitos.",
+    "explicacion": "Los requisitos dependen de la mercancía, el modo, la operación y las jurisdicciones.",
+    "libro": "c7_gestion"
   }
 ]

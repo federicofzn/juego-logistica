@@ -14,5 +14,85 @@
     "pista": "Revisá el alcance de cada afirmación.",
     "explicacion": "La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.",
     "libro": "clase7_conceptos"
+  },
+  {
+    "id": "error-c7-ampliado-01",
+    "titulo": "Servicio de transporte",
+    "oraciones": [
+      "La cobertura indica qué lugares puede atender un servicio.",
+      "Un menor flete siempre asegura el menor costo logístico total.",
+      "La variabilidad del tránsito afecta la previsibilidad.",
+      "El daño de la carga puede afectar el servicio.",
+      "La frecuencia influye en las opciones de despacho."
+    ],
+    "incorrecta": 1,
+    "correccion": "El costo total incluye otros efectos, como inventarios y servicio.",
+    "pista": "Revisá si la tarifa es el único costo relevante.",
+    "explicacion": "El costo total incluye otros efectos, como inventarios y servicio.",
+    "libro": "c7_funcion"
+  },
+  {
+    "id": "error-c7-ampliado-02",
+    "titulo": "Modos de transporte",
+    "oraciones": [
+      "El camión puede ofrecer servicio puerta a puerta donde existe acceso vial.",
+      "El transporte aéreo suele ser rápido en distancias largas.",
+      "El ferrocarril depende de vías y terminales.",
+      "Los ductos sirven indistintamente para transportar cualquier mercancía embalada.",
+      "El transporte acuático requiere infraestructura y vías adecuadas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los ductos son redes especializadas para productos adecuados, como ciertos líquidos y gases.",
+    "pista": "Buscá una afirmación que atribuya al modo una capacidad universal.",
+    "explicacion": "Los ductos son redes especializadas para productos adecuados, como ciertos líquidos y gases.",
+    "libro": "c7_modos"
+  },
+  {
+    "id": "error-c7-ampliado-03",
+    "titulo": "Intermodalidad",
+    "oraciones": [
+      "El transporte intermodal combina dos o más modos.",
+      "Las terminales conectan tramos de la operación.",
+      "Las transferencias pueden agregar tiempo y costos.",
+      "La coordinación de horarios influye en el plazo total.",
+      "En una operación intermodal no es necesario considerar los tramos de conexión."
+    ],
+    "incorrecta": 4,
+    "correccion": "Los tramos de conexión deben incluirse al evaluar costo y servicio.",
+    "pista": "Compará el tramo principal con la operación completa.",
+    "explicacion": "Los tramos de conexión deben incluirse al evaluar costo y servicio.",
+    "libro": "c7_intermodal"
+  },
+  {
+    "id": "error-c7-ampliado-04",
+    "titulo": "Costos y tarifas",
+    "oraciones": [
+      "El combustible puede variar con la distancia recorrida.",
+      "Un costo común se comparte entre servicios.",
+      "La tarifa cobrada siempre coincide exactamente con el costo interno del transportista.",
+      "La utilización de capacidad influye en el costo unitario.",
+      "Un costo fijo no cambia directamente con cada envío en el corto plazo."
+    ],
+    "incorrecta": 2,
+    "correccion": "La tarifa cobrada y el costo interno son conceptos distintos.",
+    "pista": "Distinguí lo que se cobra de lo que cuesta operar.",
+    "explicacion": "La tarifa cobrada y el costo interno son conceptos distintos.",
+    "libro": "c7_costos"
+  },
+  {
+    "id": "error-c7-ampliado-05",
+    "titulo": "Flota y documentos",
+    "oraciones": [
+      "Una flota propia requiere mantenimiento y administración.",
+      "Una empresa puede comparar flota propia y transporte contratado.",
+      "Los requisitos internacionales dependen de la operación.",
+      "Un reclamo puede referirse a una pérdida o un daño.",
+      "El uso de flota propia elimina la necesidad de gestionar conductores."
+    ],
+    "incorrecta": 4,
+    "correccion": "La empresa con flota propia debe gestionar también sus conductores.",
+    "pista": "Revisá qué recursos requiere operar vehículos propios.",
+    "explicacion": "La empresa con flota propia debe gestionar también sus conductores.",
+    "libro": "c7_gestion"
   }
 ]

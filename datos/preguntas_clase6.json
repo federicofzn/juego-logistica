@@ -2,109 +2,325 @@
   {
     "id": "caso-clase6-1",
     "tipo": "caso",
-    "titulo": "Persona a producto",
-    "situacion": "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Recorrido del preparador",
+    "situacion": "Una persona recorre el depósito y retira artículos de sus posiciones para una orden.",
+    "pregunta": "¿Qué estrategia utiliza?",
     "correcta": "Persona a producto",
     "incorrectas": [
       "Producto a persona",
-      "Picking por voz",
-      "Pick to light",
-      "Put to light",
-      "Preparación por olas"
+      "Clasificación por destino",
+      "Reposición automática obligatoria",
+      "Put to light necesariamente",
+      "Despacho sin picking"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+    "pista": "Observá quién se desplaza.",
+    "explicacion": "En persona a producto el operario va a la mercancía; el soporte de instrucciones puede variar.",
     "libro": "clase6_conceptos"
   },
   {
     "id": "caso-clase6-2",
     "tipo": "caso",
-    "titulo": "Producto a persona",
-    "situacion": "Un transportador lleva una caja al puesto donde espera el operario.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Caja al puesto",
+    "situacion": "Una caja llega por transportador a un operario que permanece en su puesto.",
+    "pregunta": "¿Qué estrategia representa?",
     "correcta": "Producto a persona",
     "incorrectas": [
       "Persona a producto",
-      "Picking por voz",
-      "Pick to light",
-      "Put to light",
-      "Preparación por olas"
+      "Picking exclusivamente a nivel del suelo",
+      "Despacho sin preparación",
+      "Carga directa al camión",
+      "Reposición sin extracción"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
+    "pista": "La mercancía se desplaza hasta el preparador.",
+    "explicacion": "En producto a persona el sistema acerca la mercancía al puesto.",
     "libro": "clase6_conceptos"
   },
   {
     "id": "caso-clase6-3",
     "tipo": "caso",
-    "titulo": "Picking por voz",
-    "situacion": "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Instrucciones por auriculares",
+    "situacion": "Un preparador escucha una ubicación y confirma oralmente la cantidad extraída.",
+    "pregunta": "¿Qué método de guía emplea?",
     "correcta": "Picking por voz",
     "incorrectas": [
-      "Persona a producto",
-      "Producto a persona",
       "Pick to light",
       "Put to light",
-      "Preparación por olas"
+      "Orden impresa exclusivamente",
+      "Clasificación por código de barras",
+      "Carrusel horizontal"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
-    "libro": "clase6_conceptos"
+    "pista": "El canal de instrucción y confirmación es oral.",
+    "explicacion": "La voz transmite instrucciones y permite confirmaciones dejando las manos disponibles.",
+    "libro": "clase6_tecnologias"
   },
   {
     "id": "caso-clase6-4",
     "tipo": "caso",
-    "titulo": "Pick to light",
-    "situacion": "Una señal luminosa guía la extracción en un estante.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Luz en la ubicación",
+    "situacion": "Una luz señala una posición y la cantidad que debe retirarse.",
+    "pregunta": "¿Qué sistema describe?",
     "correcta": "Pick to light",
     "incorrectas": [
-      "Persona a producto",
-      "Producto a persona",
-      "Picking por voz",
       "Put to light",
-      "Preparación por olas"
+      "Picking por voz",
+      "Clasificación por destino",
+      "Preparación por olas",
+      "Packing"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar.",
-    "libro": "clase6_conceptos"
+    "pista": "La luz guía la extracción.",
+    "explicacion": "Pick to light indica dónde y cuánto retirar; put to light guía el depósito por pedido.",
+    "libro": "clase6_tecnologias"
   },
   {
     "id": "caso-clase6-5",
     "tipo": "caso",
-    "titulo": "Put to light",
-    "situacion": "Un indicador señala el contenedor donde colocar artículos para una orden.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Luz en el contenedor",
+    "situacion": "Tras recoger unidades, una luz indica en qué contenedor de pedido depositarlas.",
+    "pregunta": "¿Qué guía se usa?",
     "correcta": "Put to light",
     "incorrectas": [
-      "Persona a producto",
-      "Producto a persona",
-      "Picking por voz",
       "Pick to light",
-      "Preparación por olas"
+      "Picking por voz",
+      "Miniload",
+      "Almacenaje a nivel del suelo",
+      "Reposición de reserva"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-    "libro": "clase6_conceptos"
+    "pista": "La acción indicada es colocar.",
+    "explicacion": "Put to light orienta el depósito de cantidades en destinos de pedidos.",
+    "libro": "clase6_tecnologias"
   },
   {
     "id": "caso-clase6-6",
     "tipo": "caso",
-    "titulo": "Preparación por olas",
-    "situacion": "Varias órdenes se agrupan en una tanda para coordinar recorridos.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Órdenes en una tanda",
+    "situacion": "El depósito agrupa órdenes para coordinar su preparación durante un período.",
+    "pregunta": "¿Qué organización utiliza?",
     "correcta": "Preparación por olas",
     "incorrectas": [
-      "Persona a producto",
-      "Producto a persona",
+      "Despacho sin clasificación",
+      "Picking en altura necesariamente",
+      "Reposición exclusiva por voz",
+      "Almacenaje sin ubicaciones",
+      "Carga directa del proveedor al cliente"
+    ],
+    "pista": "Pensá en la agrupación temporal.",
+    "explicacion": "Las olas coordinan grupos de órdenes y pueden combinarse con distintos medios de extracción.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "caso-clase6-7",
+    "tipo": "caso",
+    "titulo": "Reposición tardía",
+    "situacion": "Una ubicación de picking queda vacía mientras hay existencias en reserva.",
+    "pregunta": "¿Qué mejora ataca la interrupción?",
+    "correcta": "Coordinar la reposición antes de su agotamiento",
+    "incorrectas": [
+      "Eliminar la reserva del registro",
+      "Cambiar solo el embalaje",
+      "Agrupar pedidos sin controlar existencias",
+      "Apagar las confirmaciones",
+      "Reducir la identificación"
+    ],
+    "pista": "El producto existe, pero no está donde se extrae.",
+    "explicacion": "La reposición vincula reserva y extracción y ayuda a evitar interrupciones.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "caso-clase6-8",
+    "tipo": "caso",
+    "titulo": "Alcance de la inversión",
+    "situacion": "Un depósito pequeño considera automatizar toda su preparación solo porque otro lo hizo.",
+    "pregunta": "¿Qué análisis corresponde?",
+    "correcta": "Comparar inversión y operación con capacidad y servicio esperados",
+    "incorrectas": [
+      "Suponer que siempre conviene",
+      "Comparar solo el precio del equipo",
+      "Ignorar variedad y volumen",
+      "Excluir la implantación",
+      "Suponer que lo manual no tiene costos"
+    ],
+    "pista": "Considerá costos y beneficios durante la operación.",
+    "explicacion": "La automatización debe justificarse según volumen, variedad, costos y servicio.",
+    "libro": "clase6_organizacion"
+  },
+  {
+    "id": "caso-clase6-9",
+    "tipo": "caso",
+    "titulo": "Pallets en el suelo",
+    "situacion": "Las cajas se extraen de pallets apoyados en el piso y distribuidos en filas.",
+    "pregunta": "¿Qué modalidad describe?",
+    "correcta": "Picking a nivel del suelo",
+    "incorrectas": [
+      "Picking en niveles altos",
+      "Producto a persona necesariamente",
+      "Miniload",
+      "Carrusel horizontal",
+      "Put to light necesariamente"
+    ],
+    "pista": "Mirá dónde se encuentra la carga completa.",
+    "explicacion": "A nivel del suelo se retira de cargas apoyadas en el piso; la superficie limita posiciones.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "caso-clase6-10",
+    "tipo": "caso",
+    "titulo": "Acceso a baja altura",
+    "situacion": "Una preparadora de bajo nivel permite retirar piezas de posiciones accesibles cerca del suelo.",
+    "pregunta": "¿Qué modalidad corresponde?",
+    "correcta": "Picking en niveles bajos",
+    "incorrectas": [
+      "Picking en niveles altos",
+      "Clasificación por destino",
+      "Distribución final",
+      "Recepción de proveedores",
+      "Almacén vertical automático necesariamente"
+    ],
+    "pista": "La carga está accesible con equipo de bajo nivel.",
+    "explicacion": "Los niveles bajos permiten acceso a pie o con preparadora y pueden necesitar reposición.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "caso-clase6-11",
+    "tipo": "caso",
+    "titulo": "Aprovechar altura",
+    "situacion": "Una instalación usa niveles altos; el equipo debe elevar y descender al operario.",
+    "pregunta": "¿Qué efecto operativo debe considerarse?",
+    "correcta": "La elevación y el descenso pueden reducir la velocidad",
+    "incorrectas": [
+      "La altura elimina las esperas",
+      "No se necesita equipo adecuado",
+      "La reposición deja de importar",
+      "Todo pedido se prepara al suelo",
+      "El equipo no ocupa espacio"
+    ],
+    "pista": "Considerá el tiempo de acceso además del espacio ganado.",
+    "explicacion": "Los niveles altos aprovechan volumen, pero los movimientos verticales pueden afectar la productividad.",
+    "libro": "clase6_alturas"
+  },
+  {
+    "id": "caso-clase6-12",
+    "tipo": "caso",
+    "titulo": "Canales de extracción",
+    "situacion": "Las cajas avanzan por canales de rodillos hacia el frente de extracción.",
+    "pregunta": "¿Qué solución se describe?",
+    "correcta": "Estantería dinámica",
+    "incorrectas": [
+      "Estantería sin movimiento de carga",
+      "Carrusel horizontal Spinblock",
+      "Almacén vertical Clasimat",
+      "Pallet apoyado en el suelo",
+      "Embalaje de expedición"
+    ],
+    "pista": "La carga avanza por un canal hasta el punto de retiro.",
+    "explicacion": "Las estanterías dinámicas acercan mercancía por rodillos y pueden separar reposición y extracción.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "caso-clase6-13",
+    "tipo": "caso",
+    "titulo": "Bandejas verticales",
+    "situacion": "Un sistema almacena bandejas en altura y entrega la requerida al puesto.",
+    "pregunta": "¿Qué solución coincide?",
+    "correcta": "Clasimat",
+    "incorrectas": [
+      "Spinblock",
+      "Miniload exclusivamente para pallets",
+      "Picking solo sobre el suelo",
+      "Transpaleta manual",
+      "Zona de despacho"
+    ],
+    "pista": "La organización de las bandejas es vertical.",
+    "explicacion": "Clasimat concentra bandejas en altura y las acerca automáticamente al operario.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "caso-clase6-14",
+    "tipo": "caso",
+    "titulo": "Carrusel de piezas",
+    "situacion": "Un conjunto de estanterías se desplaza horizontalmente hasta el puesto de extracción.",
+    "pregunta": "¿Qué sistema se describe?",
+    "correcta": "Spinblock",
+    "incorrectas": [
+      "Clasimat",
       "Picking por voz",
       "Pick to light",
-      "Put to light"
+      "Pallet fijo en el suelo",
+      "Rampa de despacho"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación.",
-    "libro": "clase6_conceptos"
+    "pista": "La pista es el movimiento horizontal.",
+    "explicacion": "Spinblock desplaza estanterías o contenedores horizontalmente hacia el puesto.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "caso-clase6-15",
+    "tipo": "caso",
+    "titulo": "Recuperar cajas",
+    "situacion": "Un transelevador guarda y recupera cajas o bandejas que pueden ir al puesto.",
+    "pregunta": "¿Qué sistema corresponde?",
+    "correcta": "Miniload",
+    "incorrectas": [
+      "Clasimat necesariamente",
+      "Spinblock",
+      "Picking solo con papel",
+      "Transpaleta de bajo nivel",
+      "Estantería fija atendida a pie"
+    ],
+    "pista": "Buscá el sistema con transelevador de cajas.",
+    "explicacion": "El miniload almacena y recupera cajas o bandejas mediante un transelevador.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "caso-clase6-16",
+    "tipo": "caso",
+    "titulo": "Pasillos ajustados",
+    "situacion": "Una empresa quiere estrechar corredores para aprovechar superficie.",
+    "pregunta": "¿Qué condición debe verificar?",
+    "correcta": "Compatibilidad de equipos, guiado, maniobras y seguridad",
+    "incorrectas": [
+      "Que cualquier máquina circule sin comprobación",
+      "Que desaparezca la reposición",
+      "Que no haya tiempos de elevación",
+      "Que toda carga tenga igual peso",
+      "Que no se necesiten etiquetas"
+    ],
+    "pista": "El espacio reducido exige revisar la operación.",
+    "explicacion": "Los pasillos estrechos necesitan equipos y guiado adecuados, maniobras compatibles y seguridad.",
+    "libro": "clase6_sistemas"
+  },
+  {
+    "id": "caso-clase6-17",
+    "tipo": "caso",
+    "titulo": "Artículos mezclados",
+    "situacion": "Un operario recoge juntos artículos de varios pedidos para reducir recorridos.",
+    "pregunta": "¿Qué control posterior es indispensable?",
+    "correcta": "Separar las cantidades correspondientes a cada pedido",
+    "incorrectas": [
+      "Despachar todo al primer cliente",
+      "Borrar las cantidades recogidas",
+      "Mezclar etiquetas",
+      "Omitir identificación de contenedores",
+      "Dejar artículos sin registrar"
+    ],
+    "pista": "Agrupar la extracción no elimina la asignación por orden.",
+    "explicacion": "Tras recoger en grupo hay que distribuir correctamente los artículos entre pedidos.",
+    "libro": "clase6_expedicion"
+  },
+  {
+    "id": "caso-clase6-18",
+    "tipo": "caso",
+    "titulo": "Etiqueta ilegible",
+    "situacion": "Un paquete llega a clasificación con un código que no puede leerse.",
+    "pregunta": "¿Qué tratamiento muestra el caso?",
+    "correcta": "Derivarlo a revisión y reetiquetado",
+    "incorrectas": [
+      "Asignarlo al azar",
+      "Despacharlo sin identificar",
+      "Eliminar el pedido",
+      "Mezclarlo con cualquier destino",
+      "Ignorar el fallo"
+    ],
+    "pista": "Hay que identificar el destino antes de asignar la salida.",
+    "explicacion": "El caso deriva los paquetes ilegibles a revisión y reetiquetado.",
+    "libro": "clase6_expedicion"
   }
 ]

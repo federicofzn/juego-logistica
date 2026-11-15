@@ -2,109 +2,325 @@
   {
     "id": "caso-clase4-1",
     "tipo": "caso",
-    "titulo": "Unidad de carga",
-    "situacion": "Varias cajas se agrupan de forma estable para moverlas juntas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Unidad de carga",
+    "titulo": "Cajas agrupadas",
+    "situacion": "Varias cajas se aseguran y se trasladan juntas como un solo conjunto.",
+    "pregunta": "¿Qué representa el conjunto?",
+    "correcta": "Una unidad de carga",
     "incorrectas": [
-      "Estabilidad de la carga",
-      "Pallet",
-      "Rotación",
-      "Consolidación",
-      "Miniload"
+      "Una orden de compra",
+      "Una ubicación vacía",
+      "Una línea de pedido",
+      "Una zona de expedición",
+      "Una diferencia de inventario"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
+    "pista": "Pensá en aquello que se manipula como conjunto.",
+    "explicacion": "La unidad de carga agrupa mercancías para manejarlas juntas.",
     "libro": "clase4_conceptos"
   },
   {
     "id": "caso-clase4-2",
     "tipo": "caso",
-    "titulo": "Estabilidad de la carga",
-    "situacion": "Se asegura un pallet para evitar que las cajas se desplacen.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Estabilidad de la carga",
+    "titulo": "Cajas que se desplazan",
+    "situacion": "Una carga agrupada se inclina y sus cajas se mueven cuando se la manipula.",
+    "pregunta": "¿Qué condición debe mejorarse?",
+    "correcta": "La estabilidad de la carga",
     "incorrectas": [
-      "Unidad de carga",
-      "Pallet",
-      "Rotación",
-      "Consolidación",
-      "Miniload"
+      "La frecuencia de pedidos",
+      "La clasificación del cliente",
+      "El nombre del depósito",
+      "La cantidad de líneas de la orden",
+      "El registro de salida por sí solo"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-    "libro": "clase4_conceptos"
+    "pista": "El problema es físico y ocurre dentro del conjunto.",
+    "explicacion": "Asegurar y conformar correctamente la carga ayuda a evitar desplazamientos.",
+    "libro": "clase4_diseno"
   },
   {
     "id": "caso-clase4-3",
     "tipo": "caso",
-    "titulo": "Pallet",
-    "situacion": "Un equipo eleva una plataforma cargada con cajas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Base del conjunto",
+    "situacion": "Una plataforma sostiene varias cajas que un equipo debe elevar juntas.",
+    "pregunta": "¿Cómo se llama esa base?",
     "correcta": "Pallet",
     "incorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
+      "Miniload",
+      "Picking",
       "Rotación",
       "Consolidación",
-      "Miniload"
+      "Clasificador de pedidos"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
+    "pista": "Es la plataforma, no el conjunto completo ni una operación.",
+    "explicacion": "El pallet puede servir de base para agrupar y manipular mercancías.",
     "libro": "clase4_conceptos"
   },
   {
     "id": "caso-clase4-4",
     "tipo": "caso",
-    "titulo": "Rotación",
-    "situacion": "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Referencias con demandas distintas",
+    "situacion": "Un artículo se mueve frecuentemente y otro permanece más tiempo sin pedidos.",
+    "pregunta": "¿Qué característica los diferencia?",
     "correcta": "Rotación",
     "incorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
-      "Pallet",
-      "Consolidación",
-      "Miniload"
+      "Estabilidad",
+      "Dimensión del pallet necesariamente",
+      "Tipo de embalaje necesariamente",
+      "Número de muelles necesariamente",
+      "Forma del transportador"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
-    "libro": "clase4_conceptos"
+    "pista": "Observá la frecuencia de movimiento.",
+    "explicacion": "La rotación expresa con qué frecuencia sale o se mueve un producto.",
+    "libro": "clase4_rotacion"
   },
   {
     "id": "caso-clase4-5",
     "tipo": "caso",
-    "titulo": "Consolidación",
-    "situacion": "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Orden de dos sectores",
+    "situacion": "Dos artículos de una misma orden llegan desde zonas distintas.",
+    "pregunta": "¿Qué operación los reúne?",
     "correcta": "Consolidación",
     "incorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
-      "Pallet",
-      "Rotación",
-      "Miniload"
+      "Recepción",
+      "Reposición",
+      "Ubicación inicial",
+      "Pesaje de una caja aislada",
+      "Diseño de pasillos"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Consolidación: Reunión de productos para completar un pedido o envío.",
-    "libro": "clase4_conceptos"
+    "pista": "Hay que completar una misma orden con partes separadas.",
+    "explicacion": "La consolidación reúne artículos para completar el pedido.",
+    "libro": "clase4_rotacion"
   },
   {
     "id": "caso-clase4-6",
     "tipo": "caso",
-    "titulo": "Miniload",
-    "situacion": "Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Cajas automáticas",
+    "situacion": "Un sistema almacena y recupera automáticamente cajas o bandejas para preparar órdenes.",
+    "pregunta": "¿Qué sistema corresponde?",
     "correcta": "Miniload",
     "incorrectas": [
-      "Unidad de carga",
-      "Estabilidad de la carga",
-      "Pallet",
-      "Rotación",
-      "Consolidación"
+      "Pallet como plataforma",
+      "Picking exclusivamente manual",
+      "Consolidación",
+      "Recepción",
+      "Embalaje"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas.",
-    "libro": "clase4_conceptos"
+    "pista": "El recurso está destinado a cajas o bandejas y automatiza su almacenamiento.",
+    "explicacion": "El miniload automatiza almacenamiento y recuperación de cajas o bandejas.",
+    "libro": "clase4_sistemas"
+  },
+  {
+    "id": "caso-clase4-7",
+    "tipo": "caso",
+    "titulo": "Equipo incompatible",
+    "situacion": "Una empresa elige una unidad de carga sin comprobar que el equipo pueda manipularla.",
+    "pregunta": "¿Qué debería revisar antes de operar?",
+    "correcta": "Compatibilidad entre carga, dimensiones y equipo",
+    "incorrectas": [
+      "Solo el color del producto",
+      "Únicamente el nombre del proveedor",
+      "Solo el destino comercial",
+      "La cantidad de facturas emitidas",
+      "La rotación sin revisar la carga"
+    ],
+    "pista": "Considerá la relación física entre el conjunto y el recurso que lo mueve.",
+    "explicacion": "Las dimensiones y el peso de la carga condicionan los equipos y el almacenaje.",
+    "libro": "clase4_diseno"
+  },
+  {
+    "id": "caso-clase4-8",
+    "tipo": "caso",
+    "titulo": "Una sola solución",
+    "situacion": "Un centro tiene artículos de dimensiones y demandas distintas y propone tratarlos todos igual sin analizarlos.",
+    "pregunta": "¿Qué enseñanza aporta DECASA?",
+    "correcta": "Evaluar una combinación de zonas y sistemas",
+    "incorrectas": [
+      "La misma solución es obligatoria para todos",
+      "Eliminar la información de inventario",
+      "Usar solo preparación manual en todos los casos",
+      "Evitar clasificar pedidos",
+      "Diseñar sin considerar los productos"
+    ],
+    "pista": "El caso combina varios recursos para necesidades diferentes.",
+    "explicacion": "DECASA integra sistemas distintos para mercancías y demandas diversas.",
+    "libro": "clase4_decasa"
+  },
+  {
+    "id": "caso-clase4-9",
+    "tipo": "caso",
+    "titulo": "Pedidos pequeños",
+    "situacion": "Un centro atiende muchos pedidos de comercio electrónico con pocas líneas cada uno.",
+    "pregunta": "¿Qué organización ayuda a prepararlos?",
+    "correcta": "Acceso a referencias y coordinación entre picking, reposición y consolidación",
+    "incorrectas": [
+      "Esperar al despacho para buscar los artículos",
+      "Eliminar la reposición de los sectores de picking",
+      "Guardar todo sin identificar ubicaciones",
+      "Consolidar antes de saber qué pide el cliente",
+      "Revisar solo el tamaño del edificio"
+    ],
+    "pista": "La frecuencia de acceso y el armado de cada orden importan.",
+    "explicacion": "En COFAN se destacan accesibilidad, reposición y coordinación para pedidos de pocas líneas.",
+    "libro": "clase4_cofan"
+  },
+  {
+    "id": "caso-clase4-10",
+    "tipo": "caso",
+    "titulo": "Recuperación automática",
+    "situacion": "Una caja sale del miniload, pero aún no se sabe a qué pedido pertenece.",
+    "pregunta": "¿Qué debe garantizar la operación?",
+    "correcta": "Vincular la caja y su contenido con el pedido correcto",
+    "incorrectas": [
+      "Dar por entregada la orden automáticamente",
+      "Eliminar el control de inventario",
+      "Considerar terminada toda la expedición",
+      "Suponer que todas las cajas contienen lo mismo",
+      "Omitir la consolidación de órdenes con varias referencias"
+    ],
+    "pista": "La recuperación física es solo una parte del proceso.",
+    "explicacion": "El artículo recuperado debe identificarse e integrarse a la orden correcta.",
+    "libro": "clase4_sistemas"
+  },
+  {
+    "id": "caso-clase4-11",
+    "tipo": "caso",
+    "titulo": "Diseño de estantería",
+    "situacion": "Se elige una estantería antes de conocer el tamaño y peso de las cargas.",
+    "pregunta": "¿Qué información falta para una decisión fundamentada?",
+    "correcta": "Dimensiones y peso de las unidades, además del equipo y acceso",
+    "incorrectas": [
+      "Solo el nombre del encargado",
+      "Únicamente el color de las cajas",
+      "Solo la razón social del cliente",
+      "El nombre del software sin datos físicos",
+      "La fecha de emisión de una orden aislada"
+    ],
+    "pista": "La estantería debe recibir y permitir manipular la carga real.",
+    "explicacion": "Unidad de carga, estantería y equipo se definen de manera relacionada.",
+    "libro": "clase4_diseno"
+  },
+  {
+    "id": "caso-clase4-12",
+    "tipo": "caso",
+    "titulo": "Pasillos y manipulación",
+    "situacion": "Una carga tiene dimensiones que dificultan el paso del equipo por los pasillos existentes.",
+    "pregunta": "¿Qué decisión corresponde evaluar?",
+    "correcta": "Adecuar conjuntamente unidad, equipo y circulación",
+    "incorrectas": [
+      "Mantener todo igual porque solo importa el inventario",
+      "Eliminar el embalaje sin considerar protección",
+      "Cambiar solo el nombre de la referencia",
+      "Contar las órdenes y omitir el recorrido",
+      "Expedir sin manipular la mercancía"
+    ],
+    "pista": "El obstáculo relaciona carga, equipo y espacio disponible.",
+    "explicacion": "Las dimensiones de la unidad y el equipo condicionan la circulación y los pasillos.",
+    "libro": "clase4_diseno"
+  },
+  {
+    "id": "caso-clase4-13",
+    "tipo": "caso",
+    "titulo": "Automatización aislada",
+    "situacion": "Se instala un sistema automático sin actualizar ubicaciones ni coordinarlo con el resto del flujo.",
+    "pregunta": "¿Qué riesgo operativo permanece?",
+    "correcta": "Información y movimientos pueden quedar descoordinados",
+    "incorrectas": [
+      "La automatización garantiza exactitud sin datos",
+      "La reposición deja de ser necesaria en cualquier sistema",
+      "Todas las órdenes pasan a tener una línea",
+      "Las cargas se estabilizan automáticamente por definición",
+      "La expedición ya no necesita conocer el pedido"
+    ],
+    "pista": "Un equipo automático necesita información y conexión con otras tareas.",
+    "explicacion": "La automatización requiere integración con ubicaciones, inventario y flujos.",
+    "libro": "clase4_sistemas"
+  },
+  {
+    "id": "caso-clase4-14",
+    "tipo": "caso",
+    "titulo": "Punto de picking vacío",
+    "situacion": "Una referencia con pedidos frecuentes se agotó en el área de preparación y existe stock en reserva.",
+    "pregunta": "¿Qué tarea corresponde?",
+    "correcta": "Reponer el punto de preparación",
+    "incorrectas": [
+      "Expedir una orden incompleta sin control",
+      "Eliminar la referencia del sistema",
+      "Cambiar el embalaje de otra referencia",
+      "Registrar la salida del proveedor como una devolución",
+      "Clasificar pedidos que todavía no se prepararon"
+    ],
+    "pista": "Hay existencias disponibles en otra ubicación.",
+    "explicacion": "La reposición acerca stock al punto donde se preparan pedidos.",
+    "libro": "clase4_rotacion"
+  },
+  {
+    "id": "caso-clase4-15",
+    "tipo": "caso",
+    "titulo": "Recorrido COFAN",
+    "situacion": "En un centro se conectan preparación, embalaje, pesaje y clasificación mediante un circuito.",
+    "pregunta": "¿Qué recurso cumple esa conexión en el caso COFAN?",
+    "correcta": "Transportadores",
+    "incorrectas": [
+      "Pallet considerado como área",
+      "Rotación como equipo físico",
+      "Una orden de compra",
+      "Recepción como sistema automático",
+      "Una etiqueta sin circuito"
+    ],
+    "pista": "Se trata de un medio físico de traslado entre puestos.",
+    "explicacion": "COFAN incluye un circuito de transportadores que conecta esas etapas.",
+    "libro": "clase4_cofan"
+  },
+  {
+    "id": "caso-clase4-16",
+    "tipo": "caso",
+    "titulo": "Sistemas de DECASA",
+    "situacion": "Un estudiante afirma que DECASA combina soluciones de almacenaje y preparación.",
+    "pregunta": "¿Qué conjunto coincide con el caso?",
+    "correcta": "Almacén automático autoportante, Pallet Shuttle y torres de picking",
+    "incorrectas": [
+      "Solo estantes manuales sin sistema de gestión",
+      "Solo embalaje y ningún almacenamiento",
+      "Exclusivamente transportadores de COFAN",
+      "Únicamente un pallet por pedido",
+      "Solo muelles sin áreas de preparación"
+    ],
+    "pista": "Buscá la combinación mencionada para el centro de productos de consumo.",
+    "explicacion": "DECASA combina esos recursos y también dispone de clasificación y gestión.",
+    "libro": "clase4_decasa"
+  },
+  {
+    "id": "caso-clase4-17",
+    "tipo": "caso",
+    "titulo": "Protección y agrupación",
+    "situacion": "Un producto frágil llega dañado aunque las cajas se trasladaron juntas.",
+    "pregunta": "¿Qué conviene revisar además de agruparlas?",
+    "correcta": "El embalaje y la estabilidad durante el manejo",
+    "incorrectas": [
+      "Solo la rotación del cliente",
+      "Únicamente la forma del pedido",
+      "Solo el nombre del centro",
+      "El número de líneas de otra orden",
+      "La clasificación del almacén por función"
+    ],
+    "pista": "Mover en conjunto no asegura por sí solo la protección del producto.",
+    "explicacion": "La unidad debe contemplar protección y estabilidad para evitar daños.",
+    "libro": "clase4_diseno"
+  },
+  {
+    "id": "caso-clase4-18",
+    "tipo": "caso",
+    "titulo": "Pedido antes de la salida",
+    "situacion": "Una orden contiene artículos recogidos manualmente y otros recuperados del miniload.",
+    "pregunta": "¿Qué paso ayuda a evitar una salida incompleta?",
+    "correcta": "Reunir y verificar los artículos de la orden",
+    "incorrectas": [
+      "Expedir cada artículo sin relacionarlo con la orden",
+      "Dar por completo el pedido al retirar el primer artículo",
+      "Reponer una referencia no solicitada",
+      "Registrar únicamente el peso del pallet vacío",
+      "Cambiar el destino sin verificar el contenido"
+    ],
+    "pista": "Las dos fuentes alimentan un mismo pedido.",
+    "explicacion": "La consolidación y verificación relacionan los artículos con la orden antes de salir.",
+    "libro": "clase4_cofan"
   }
 ]

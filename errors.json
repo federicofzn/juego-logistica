@@ -3,186 +3,868 @@
     "id": "error-clase1",
     "unidad": "clase1",
     "tipo": "error",
-    "titulo": "Clase 1: Introducción a la logística",
-    "situacion": "Un colega te pasa este resumen sobre «Clase 1: Introducción a la logística» para que lo revises. Una de las oraciones tiene un error.",
+    "titulo": "Alcance de la logística",
+    "situacion": "Un colega te pasa este resumen sobre «Alcance de la logística» para que lo revises. Una de las oraciones tiene un error.",
     "pregunta": "¿Cuál es la oración incorrecta?",
     "oraciones": [
-      "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "La logística se limita al transporte y no incluye inventarios ni almacenamiento.",
-      "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente."
+      "La logística coordina movimiento y almacenamiento de bienes.",
+      "La logística se limita al transporte y excluye inventarios.",
+      "La información acompaña los flujos físicos.",
+      "La logística busca atender requisitos del cliente.",
+      "La cadena de suministro involucra distintos actores."
     ],
     "incorrecta": 1,
-    "correccion": "La logística también incluye inventarios, almacenamiento y otras actividades.",
-    "respuestaCorrecta": "La logística se limita al transporte y no incluye inventarios ni almacenamiento.",
+    "correccion": "La logística incluye inventarios y almacenamiento además del transporte.",
+    "respuestaCorrecta": "La logística se limita al transporte y excluye inventarios.",
     "respuestasIncorrectas": [
-      "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente."
+      "La logística coordina movimiento y almacenamiento de bienes.",
+      "La información acompaña los flujos físicos.",
+      "La logística busca atender requisitos del cliente.",
+      "La cadena de suministro involucra distintos actores."
     ],
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "Lo correcto es: «La logística también incluye inventarios, almacenamiento y otras actividades.» La logística también incluye inventarios, almacenamiento y otras actividades.",
+    "pista": "Compará transporte con el alcance completo.",
+    "explicacion": "Lo correcto es: «La logística incluye inventarios y almacenamiento además del transporte.» La gestión logística integra varias actividades y su información.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "error-clase1-2",
+    "unidad": "clase1",
+    "tipo": "error",
+    "titulo": "Entrada y salida",
+    "situacion": "Un colega te pasa este resumen sobre «Entrada y salida» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La administración de materiales atiende el flujo de insumos.",
+      "La distribución física comprende el envío de productos terminados.",
+      "Recepción y control ayudan a gestionar el almacén.",
+      "La distribución física se ocupa exclusivamente de comprar materias primas para producir.",
+      "Preparar pedidos puede anteceder al despacho."
+    ],
+    "incorrecta": 3,
+    "correccion": "La compra y el abastecimiento de insumos corresponden a la administración de materiales; la distribución física atiende la salida de productos terminados.",
+    "respuestaCorrecta": "La distribución física se ocupa exclusivamente de comprar materias primas para producir.",
+    "respuestasIncorrectas": [
+      "La administración de materiales atiende el flujo de insumos.",
+      "La distribución física comprende el envío de productos terminados.",
+      "Recepción y control ayudan a gestionar el almacén.",
+      "Preparar pedidos puede anteceder al despacho."
+    ],
+    "pista": "Diferenciá insumos entrantes de productos terminados.",
+    "explicacion": "Lo correcto es: «La compra y el abastecimiento de insumos corresponden a la administración de materiales; la distribución física atiende la salida de productos terminados.» Las dos divisiones enfocan momentos distintos del flujo.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
+    }
+  },
+  {
+    "id": "error-clase1-3",
+    "unidad": "clase1",
+    "tipo": "error",
+    "titulo": "Devoluciones y recuperación",
+    "situacion": "Un colega te pasa este resumen sobre «Devoluciones y recuperación» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una devolución puede dirigirse a reparación.",
+      "Reutilizar envases es un destino posible del retorno.",
+      "Todo producto devuelto puede recuperarse y siempre genera beneficios.",
+      "La logística inversa puede incluir reciclaje.",
+      "Organizar retornos también puede generar costos."
+    ],
+    "incorrecta": 2,
+    "correccion": "El destino y el resultado económico dependen del estado del producto y de los costos.",
+    "respuestaCorrecta": "Todo producto devuelto puede recuperarse y siempre genera beneficios.",
+    "respuestasIncorrectas": [
+      "Una devolución puede dirigirse a reparación.",
+      "Reutilizar envases es un destino posible del retorno.",
+      "La logística inversa puede incluir reciclaje.",
+      "Organizar retornos también puede generar costos."
+    ],
+    "pista": "Revisá la afirmación que promete un resultado universal.",
+    "explicacion": "Lo correcto es: «El destino y el resultado económico dependen del estado del producto y de los costos.» Recuperar valor es posible, pero no está garantizado.",
+    "referencia": {
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
+    }
+  },
+  {
+    "id": "error-clase1-4",
+    "unidad": "clase1",
+    "tipo": "error",
+    "titulo": "Fabricante y comercializadora",
+    "situacion": "Un colega te pasa este resumen sobre «Fabricante y comercializadora» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una fabricante puede recibir insumos y transformarlos.",
+      "Una comercializadora puede comprar productos terminados.",
+      "El almacenamiento puede formar parte de una comercializadora.",
+      "Todas las cadenas tienen idénticas etapas y organizaciones.",
+      "Una cadena de servicios puede depender especialmente de personas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Las cadenas varían según producto o servicio, organización y mercado.",
+    "respuestaCorrecta": "Todas las cadenas tienen idénticas etapas y organizaciones.",
+    "respuestasIncorrectas": [
+      "Una fabricante puede recibir insumos y transformarlos.",
+      "Una comercializadora puede comprar productos terminados.",
+      "El almacenamiento puede formar parte de una comercializadora.",
+      "Una cadena de servicios puede depender especialmente de personas."
+    ],
+    "pista": "Compará actividades entre una fábrica y una comercializadora.",
+    "explicacion": "Lo correcto es: «Las cadenas varían según producto o servicio, organización y mercado.» No todas las organizaciones fabrican ni estructuran igual sus flujos.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Fases y tipos de organización",
+      "entradaLibro": "clase1_fases"
+    }
+  },
+  {
+    "id": "error-clase1-5",
+    "unidad": "clase1",
+    "tipo": "error",
+    "titulo": "Ventas, compras y logística",
+    "situacion": "Un colega te pasa este resumen sobre «Ventas, compras y logística» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Ventas puede consultar plazos y disponibilidad antes de prometer.",
+      "Compras acuerda condiciones con proveedores.",
+      "La recepción debe coordinarse con las entregas previstas.",
+      "Un faltante puede perjudicar la atención del cliente.",
+      "La información comercial es irrelevante para planificar el abastecimiento."
+    ],
+    "incorrecta": 4,
+    "correccion": "Las previsiones y promociones comerciales ayudan a coordinar compras y logística.",
+    "respuestaCorrecta": "La información comercial es irrelevante para planificar el abastecimiento.",
+    "respuestasIncorrectas": [
+      "Ventas puede consultar plazos y disponibilidad antes de prometer.",
+      "Compras acuerda condiciones con proveedores.",
+      "La recepción debe coordinarse con las entregas previstas.",
+      "Un faltante puede perjudicar la atención del cliente."
+    ],
+    "pista": "Pensá qué cambia en el abastecimiento cuando hay una promoción.",
+    "explicacion": "Lo correcto es: «Las previsiones y promociones comerciales ayudan a coordinar compras y logística.» El intercambio de información ayuda a ajustar disponibilidad y promesas.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
     }
   },
   {
     "id": "error-clase2",
     "unidad": "clase2",
     "tipo": "error",
-    "titulo": "Clase 2: Planeamiento y servicio",
-    "situacion": "Un colega te pasa este resumen sobre «Clase 2: Planeamiento y servicio» para que lo revises. Una de las oraciones tiene un error.",
+    "titulo": "Planificación continua",
+    "situacion": "Un colega te pasa este resumen sobre «Planificación continua» para que lo revises. Una de las oraciones tiene un error.",
     "pregunta": "¿Cuál es la oración incorrecta?",
     "oraciones": [
-      "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "El planeamiento logístico se realiza una sola vez y no necesita actualizarse.",
-      "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita."
+      "El enfoque sistémico considera relaciones entre actividades.",
+      "El plan logístico contempla recursos, costos y servicio.",
+      "El planeamiento se hace una sola vez y nunca necesita revisión.",
+      "Los cambios de demanda pueden exigir ajustes.",
+      "Compras y transporte intervienen en el flujo logístico."
     ],
     "incorrecta": 2,
-    "correccion": "La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
-    "respuestaCorrecta": "El planeamiento logístico se realiza una sola vez y no necesita actualizarse.",
+    "correccion": "El plan debe revisarse ante cambios relevantes de demanda, capacidad u otras condiciones.",
+    "respuestaCorrecta": "El planeamiento se hace una sola vez y nunca necesita revisión.",
     "respuestasIncorrectas": [
-      "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita."
+      "El enfoque sistémico considera relaciones entre actividades.",
+      "El plan logístico contempla recursos, costos y servicio.",
+      "Los cambios de demanda pueden exigir ajustes.",
+      "Compras y transporte intervienen en el flujo logístico."
     ],
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "Lo correcto es: «La planificación debe revisarse cuando cambian la demanda y otras condiciones.» La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
+    "pista": "Buscá una afirmación que impida responder a cambios.",
+    "explicacion": "Lo correcto es: «El plan debe revisarse ante cambios relevantes de demanda, capacidad u otras condiciones.» La planificación es continua y se adapta al entorno.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
+      "tipo": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "entradaLibro": "clase2_plan"
+    }
+  },
+  {
+    "id": "error-clase2-2",
+    "unidad": "clase2",
+    "tipo": "error",
+    "titulo": "Efectos entre etapas",
+    "situacion": "Un colega te pasa este resumen sobre «Efectos entre etapas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una demora de suministro puede afectar preparación de pedidos.",
+      "El transporte y el inventario pueden influir en el servicio.",
+      "Reducir un costo aislado garantiza el mejor resultado global.",
+      "Los reclamos pueden aportar información para corregir procesos.",
+      "El resultado depende de la coordinación entre etapas."
+    ],
+    "incorrecta": 2,
+    "correccion": "Una reducción local debe evaluarse junto con sus efectos en otras actividades y en el servicio.",
+    "respuestaCorrecta": "Reducir un costo aislado garantiza el mejor resultado global.",
+    "respuestasIncorrectas": [
+      "Una demora de suministro puede afectar preparación de pedidos.",
+      "El transporte y el inventario pueden influir en el servicio.",
+      "Los reclamos pueden aportar información para corregir procesos.",
+      "El resultado depende de la coordinación entre etapas."
+    ],
+    "pista": "Un ahorro en una etapa puede generar costos en otra.",
+    "explicacion": "Lo correcto es: «Una reducción local debe evaluarse junto con sus efectos en otras actividades y en el servicio.» El enfoque sistémico considera el conjunto y sus interdependencias.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
       "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "error-clase2-3",
+    "unidad": "clase2",
+    "tipo": "error",
+    "titulo": "Servicio al cliente",
+    "situacion": "Un colega te pasa este resumen sobre «Servicio al cliente» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una entrega puntual puede llegar incompleta.",
+      "La información del pedido forma parte del servicio.",
+      "El servicio incluye atender problemas posteriores a la compra.",
+      "Recibir una referencia equivocada puede incumplir lo acordado.",
+      "Si el pedido llegó puntual, todas las demás condiciones de servicio se cumplen necesariamente."
+    ],
+    "incorrecta": 4,
+    "correccion": "El plazo es solo una condición; también importan cantidad, referencia y estado.",
+    "respuestaCorrecta": "Si el pedido llegó puntual, todas las demás condiciones de servicio se cumplen necesariamente.",
+    "respuestasIncorrectas": [
+      "Una entrega puntual puede llegar incompleta.",
+      "La información del pedido forma parte del servicio.",
+      "El servicio incluye atender problemas posteriores a la compra.",
+      "Recibir una referencia equivocada puede incumplir lo acordado."
+    ],
+    "pista": "Diferenciá puntualidad de exactitud y cantidad.",
+    "explicacion": "Lo correcto es: «El plazo es solo una condición; también importan cantidad, referencia y estado.» Una dimensión cumplida no prueba que el pedido completo sea correcto.",
+    "referencia": {
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
+    }
+  },
+  {
+    "id": "error-clase2-4",
+    "unidad": "clase2",
+    "tipo": "error",
+    "titulo": "Áreas y planificación",
+    "situacion": "Un colega te pasa este resumen sobre «Áreas y planificación» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Ventas puede aportar previsiones de demanda.",
+      "Compras coordina fuentes y condiciones de suministro.",
+      "Producción puede informar su capacidad.",
+      "Finanzas puede evaluar recursos y costos.",
+      "El plan comercial debe mantenerse oculto a logística para evitar ajustes."
+    ],
+    "incorrecta": 4,
+    "correccion": "Compartir el plan comercial ayuda a coordinar inventario, capacidad y distribución.",
+    "respuestaCorrecta": "El plan comercial debe mantenerse oculto a logística para evitar ajustes.",
+    "respuestasIncorrectas": [
+      "Ventas puede aportar previsiones de demanda.",
+      "Compras coordina fuentes y condiciones de suministro.",
+      "Producción puede informar su capacidad.",
+      "Finanzas puede evaluar recursos y costos."
+    ],
+    "pista": "Pensá qué necesita logística antes de una campaña.",
+    "explicacion": "Lo correcto es: «Compartir el plan comercial ayuda a coordinar inventario, capacidad y distribución.» La planificación requiere intercambio de información entre áreas.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "error-clase2-5",
+    "unidad": "clase2",
+    "tipo": "error",
+    "titulo": "Del pedido a la entrega",
+    "situacion": "Un colega te pasa este resumen sobre «Del pedido a la entrega» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El proveedor recibe una orden antes de programar el despacho.",
+      "La disponibilidad influye en lo que puede despacharse.",
+      "Preparación, carga y transporte requieren coordinación.",
+      "El cliente recibe el resultado de varias etapas.",
+      "La preparación de pedidos ocurre necesariamente después de entregar al cliente."
+    ],
+    "incorrecta": 4,
+    "correccion": "La preparación antecede a la carga y a la entrega del pedido.",
+    "respuestaCorrecta": "La preparación de pedidos ocurre necesariamente después de entregar al cliente.",
+    "respuestasIncorrectas": [
+      "El proveedor recibe una orden antes de programar el despacho.",
+      "La disponibilidad influye en lo que puede despacharse.",
+      "Preparación, carga y transporte requieren coordinación.",
+      "El cliente recibe el resultado de varias etapas."
+    ],
+    "pista": "Ordená las actividades desde la orden hasta la recepción.",
+    "explicacion": "Lo correcto es: «La preparación antecede a la carga y a la entrega del pedido.» El pedido debe prepararse antes de su traslado y entrega.",
+    "referencia": {
+      "tipo": "Distribución",
+      "titulo": "Del pedido a la entrega",
+      "entradaLibro": "clase2_distribucion"
     }
   },
   {
     "id": "error-clase3",
     "unidad": "clase3",
     "tipo": "error",
-    "titulo": "Clase 3: Almacén y depósito",
-    "situacion": "Un colega te pasa este resumen sobre «Clase 3: Almacén y depósito» para que lo revises. Una de las oraciones tiene un error.",
+    "titulo": "Funciones del almacén",
+    "situacion": "Un colega te pasa este resumen sobre «Funciones del almacén» para que lo revises. Una de las oraciones tiene un error.",
     "pregunta": "¿Cuál es la oración incorrecta?",
     "oraciones": [
-      "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
-      "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "El almacén solo guarda mercancía y no participa de la preparación de pedidos.",
-      "Picking: Selección de los artículos necesarios para preparar un pedido."
+      "El depósito puede recibir y controlar mercancía.",
+      "La ubicación identifica dónde se guarda un artículo.",
+      "La reposición lleva existencias al punto que las necesita.",
+      "El almacén solo guarda mercancía y no participa en la preparación de pedidos.",
+      "La expedición organiza la salida de pedidos."
     ],
     "incorrecta": 3,
-    "correccion": "El almacén también puede recibir, preparar y despachar pedidos.",
-    "respuestaCorrecta": "El almacén solo guarda mercancía y no participa de la preparación de pedidos.",
+    "correccion": "El almacén también puede preparar pedidos.",
+    "respuestaCorrecta": "El almacén solo guarda mercancía y no participa en la preparación de pedidos.",
     "respuestasIncorrectas": [
-      "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
-      "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "Picking: Selección de los artículos necesarios para preparar un pedido."
+      "El depósito puede recibir y controlar mercancía.",
+      "La ubicación identifica dónde se guarda un artículo.",
+      "La reposición lleva existencias al punto que las necesita.",
+      "La expedición organiza la salida de pedidos."
     ],
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "Lo correcto es: «El almacén también puede recibir, preparar y despachar pedidos.» El almacén también puede recibir, preparar y despachar pedidos.",
+    "pista": "Revisá si la operación termina al guardar.",
+    "explicacion": "Lo correcto es: «El almacén también puede preparar pedidos.» El picking y la consolidación son actividades del almacén.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
+      "tipo": "Clase 3",
+      "titulo": "Función y clases de almacén",
       "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "error-clase3-2",
+    "unidad": "clase3",
+    "tipo": "error",
+    "titulo": "Diseño del recorrido",
+    "situacion": "Un colega te pasa este resumen sobre «Diseño del recorrido» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El peso y las dimensiones influyen en el diseño.",
+      "La rotación puede orientar la ubicación de productos.",
+      "Todo edificio exige un flujo lineal, cualquiera sea la posición de sus muelles.",
+      "Reducir cruces innecesarios ayuda a ordenar los movimientos.",
+      "La elección del flujo depende del edificio y del volumen."
+    ],
+    "incorrecta": 2,
+    "correccion": "El flujo se elige según el edificio y la operación.",
+    "respuestaCorrecta": "Todo edificio exige un flujo lineal, cualquiera sea la posición de sus muelles.",
+    "respuestasIncorrectas": [
+      "El peso y las dimensiones influyen en el diseño.",
+      "La rotación puede orientar la ubicación de productos.",
+      "Reducir cruces innecesarios ayuda a ordenar los movimientos.",
+      "La elección del flujo depende del edificio y del volumen."
+    ],
+    "pista": "Compará las alternativas de forma de flujo.",
+    "explicacion": "Lo correcto es: «El flujo se elige según el edificio y la operación.» Existen disposiciones lineales, en U, L o T; ninguna sirve obligatoriamente para todos los edificios.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "error-clase3-3",
+    "unidad": "clase3",
+    "tipo": "error",
+    "titulo": "Preparación correcta",
+    "situacion": "Un colega te pasa este resumen sobre «Preparación correcta» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Picking selecciona referencias y cantidades solicitadas.",
+      "Un pedido rápido puede ser incorrecto si contiene otra referencia.",
+      "La reposición puede abastecer el lugar de preparación.",
+      "La consolidación reúne artículos para completar una orden.",
+      "En picking basta con acertar la cantidad, aunque la referencia sea otra."
+    ],
+    "incorrecta": 4,
+    "correccion": "Deben coincidir tanto referencia como cantidad.",
+    "respuestaCorrecta": "En picking basta con acertar la cantidad, aunque la referencia sea otra.",
+    "respuestasIncorrectas": [
+      "Picking selecciona referencias y cantidades solicitadas.",
+      "Un pedido rápido puede ser incorrecto si contiene otra referencia.",
+      "La reposición puede abastecer el lugar de preparación.",
+      "La consolidación reúne artículos para completar una orden."
+    ],
+    "pista": "La cantidad no identifica por sí sola el producto.",
+    "explicacion": "Lo correcto es: «Deben coincidir tanto referencia como cantidad.» La exactitud requiere retirar el artículo pedido en la cantidad pedida.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Preparación y control del pedido",
+      "entradaLibro": "clase3_picking"
+    }
+  },
+  {
+    "id": "error-clase3-4",
+    "unidad": "clase3",
+    "tipo": "error",
+    "titulo": "Información y control",
+    "situacion": "Un colega te pasa este resumen sobre «Información y control» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una ubicación identificada ayuda a encontrar mercancía.",
+      "Un sistema puede registrar los movimientos del depósito.",
+      "La trazabilidad relaciona el producto con información como ubicación y estado.",
+      "Mover una caja sin actualizar su ubicación garantiza que el inventario siga reflejando la realidad.",
+      "Una diferencia entre conteo físico y registro merece revisión."
+    ],
+    "incorrecta": 3,
+    "correccion": "El traslado debe registrarse para mantener actualizada la ubicación.",
+    "respuestaCorrecta": "Mover una caja sin actualizar su ubicación garantiza que el inventario siga reflejando la realidad.",
+    "respuestasIncorrectas": [
+      "Una ubicación identificada ayuda a encontrar mercancía.",
+      "Un sistema puede registrar los movimientos del depósito.",
+      "La trazabilidad relaciona el producto con información como ubicación y estado.",
+      "Una diferencia entre conteo físico y registro merece revisión."
+    ],
+    "pista": "Considerá qué sucede si cambia el lugar físico sin cambiar el registro.",
+    "explicacion": "Lo correcto es: «El traslado debe registrarse para mantener actualizada la ubicación.» El sistema puede indicar una posición anterior y dificultar la búsqueda.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
     }
   },
   {
     "id": "error-clase4",
     "unidad": "clase4",
     "tipo": "error",
-    "titulo": "Clase 4: Unidad de carga",
-    "situacion": "Un colega te pasa este resumen sobre «Clase 4: Unidad de carga» para que lo revises. Una de las oraciones tiene un error.",
+    "titulo": "Unidad de carga",
+    "situacion": "Un colega te pasa este resumen sobre «Unidad de carga» para que lo revises. Una de las oraciones tiene un error.",
     "pregunta": "¿Cuál es la oración incorrecta?",
     "oraciones": [
-      "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
-      "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
-      "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+      "Una unidad de carga agrupa mercancías para manipularlas como conjunto.",
+      "La estabilidad ayuda a evitar desplazamientos durante el manejo.",
+      "Un pallet puede servir de base para agrupar mercancías.",
+      "El embalaje y el producto influyen en la conformación de la carga.",
       "La unidad de carga se define sin considerar el peso, la estabilidad ni el equipo de manejo."
     ],
     "incorrecta": 4,
-    "correccion": "La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
+    "correccion": "La unidad debe contemplar peso, estabilidad y equipo de manipulación.",
     "respuestaCorrecta": "La unidad de carga se define sin considerar el peso, la estabilidad ni el equipo de manejo.",
     "respuestasIncorrectas": [
-      "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
-      "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
-      "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén."
+      "Una unidad de carga agrupa mercancías para manipularlas como conjunto.",
+      "La estabilidad ayuda a evitar desplazamientos durante el manejo.",
+      "Un pallet puede servir de base para agrupar mercancías.",
+      "El embalaje y el producto influyen en la conformación de la carga."
     ],
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "Lo correcto es: «La unidad de carga debe ser compatible con el producto y los equipos de manipulación.» La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
+    "pista": "Revisá qué factores condicionan el manejo físico.",
+    "explicacion": "Lo correcto es: «La unidad debe contemplar peso, estabilidad y equipo de manipulación.» Diseñar la unidad exige compatibilidad con el producto y los equipos.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
+      "tipo": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
       "entradaLibro": "clase4_conceptos"
+    }
+  },
+  {
+    "id": "error-clase4-2",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "DECASA y sistemas",
+    "situacion": "Un colega te pasa este resumen sobre «DECASA y sistemas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "DECASA combina distintas soluciones de almacenaje.",
+      "El caso incluye Pallet Shuttle y torres de picking.",
+      "El sistema de gestión ayuda a coordinar operaciones.",
+      "El caso demuestra que todos los productos requieren exactamente el mismo sistema.",
+      "Las dimensiones y la demanda pueden orientar la elección de zonas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los productos pueden requerir soluciones diferentes.",
+    "respuestaCorrecta": "El caso demuestra que todos los productos requieren exactamente el mismo sistema.",
+    "respuestasIncorrectas": [
+      "DECASA combina distintas soluciones de almacenaje.",
+      "El caso incluye Pallet Shuttle y torres de picking.",
+      "El sistema de gestión ayuda a coordinar operaciones.",
+      "Las dimensiones y la demanda pueden orientar la elección de zonas."
+    ],
+    "pista": "Compará las necesidades de referencias distintas.",
+    "explicacion": "Lo correcto es: «Los productos pueden requerir soluciones diferentes.» El caso combina sistemas para mercancías de diferentes características y demandas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "entradaLibro": "clase4_decasa"
+    }
+  },
+  {
+    "id": "error-clase4-3",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "COFAN y pedidos",
+    "situacion": "Un colega te pasa este resumen sobre «COFAN y pedidos» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "COFAN dispone de zonas con almacenamiento convencional y picking manual.",
+      "El caso incluye un almacén automático miniload.",
+      "Los transportadores conectan etapas de preparación y otras operaciones.",
+      "Muchos pedidos de pocas líneas hacen irrelevante la accesibilidad de las referencias.",
+      "La reposición y la consolidación contribuyen a preparar pedidos."
+    ],
+    "incorrecta": 3,
+    "correccion": "La accesibilidad de las referencias es relevante para preparar esos pedidos.",
+    "respuestaCorrecta": "Muchos pedidos de pocas líneas hacen irrelevante la accesibilidad de las referencias.",
+    "respuestasIncorrectas": [
+      "COFAN dispone de zonas con almacenamiento convencional y picking manual.",
+      "El caso incluye un almacén automático miniload.",
+      "Los transportadores conectan etapas de preparación y otras operaciones.",
+      "La reposición y la consolidación contribuyen a preparar pedidos."
+    ],
+    "pista": "Pensá en la frecuencia con la que hay que buscar artículos.",
+    "explicacion": "Lo correcto es: «La accesibilidad de las referencias es relevante para preparar esos pedidos.» Para muchos pedidos pequeños importa localizar y acceder a los artículos con facilidad.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "entradaLibro": "clase4_cofan"
+    }
+  },
+  {
+    "id": "error-clase4-4",
+    "unidad": "clase4",
+    "tipo": "error",
+    "titulo": "Control de la operación",
+    "situacion": "Un colega te pasa este resumen sobre «Control de la operación» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Un miniload automatiza el almacenamiento y la recuperación de cajas o bandejas.",
+      "La consolidación puede reunir artículos recogidos en diferentes zonas.",
+      "Una carga inestable puede causar daños o demoras.",
+      "Automatizar un sector elimina la necesidad de integrar inventario y movimientos.",
+      "El diseño de pasillos depende, entre otros factores, de la carga y el equipo."
+    ],
+    "incorrecta": 3,
+    "correccion": "La automatización debe integrarse con inventario y movimientos.",
+    "respuestaCorrecta": "Automatizar un sector elimina la necesidad de integrar inventario y movimientos.",
+    "respuestasIncorrectas": [
+      "Un miniload automatiza el almacenamiento y la recuperación de cajas o bandejas.",
+      "La consolidación puede reunir artículos recogidos en diferentes zonas.",
+      "Una carga inestable puede causar daños o demoras.",
+      "El diseño de pasillos depende, entre otros factores, de la carga y el equipo."
+    ],
+    "pista": "La máquina necesita información coherente con el flujo físico.",
+    "explicacion": "Lo correcto es: «La automatización debe integrarse con inventario y movimientos.» El control de ubicaciones y la coordinación siguen siendo necesarios con sistemas automáticos.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Sistemas y coordinación",
+      "entradaLibro": "clase4_sistemas"
     }
   },
   {
     "id": "error-clase5",
     "unidad": "clase5",
     "tipo": "error",
-    "titulo": "Clase 5: Almacenaje y manipuleo",
-    "situacion": "Un colega te pasa este resumen sobre «Clase 5: Almacenaje y manipuleo» para que lo revises. Una de las oraciones tiene un error.",
+    "titulo": "Selección de equipos",
+    "situacion": "Un colega te pasa este resumen sobre «Selección de equipos» para que lo revises. Una de las oraciones tiene un error.",
     "pregunta": "¿Cuál es la oración incorrecta?",
     "oraciones": [
-      "Para elegir un equipo de manipuleo alcanza con mirar su precio de compra.",
-      "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar."
+      "El precio de compra es suficiente para elegir cualquier equipo de manipuleo.",
+      "La altura de trabajo influye en la elección del equipo.",
+      "Las dimensiones de la carga importan para las maniobras.",
+      "El ancho del pasillo debe ser compatible con el equipo.",
+      "La seguridad es un criterio de selección."
     ],
     "incorrecta": 0,
-    "correccion": "La elección también depende de la carga, la altura, los pasillos y la seguridad.",
-    "respuestaCorrecta": "Para elegir un equipo de manipuleo alcanza con mirar su precio de compra.",
+    "correccion": "También deben evaluarse carga, altura, pasillos y seguridad.",
+    "respuestaCorrecta": "El precio de compra es suficiente para elegir cualquier equipo de manipuleo.",
     "respuestasIncorrectas": [
-      "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar."
+      "La altura de trabajo influye en la elección del equipo.",
+      "Las dimensiones de la carga importan para las maniobras.",
+      "El ancho del pasillo debe ser compatible con el equipo.",
+      "La seguridad es un criterio de selección."
     ],
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "Lo correcto es: «La elección también depende de la carga, la altura, los pasillos y la seguridad.» La elección también depende de la carga, la altura, los pasillos y la seguridad.",
+    "pista": "Buscá la afirmación que reduce la elección a un único factor.",
+    "explicacion": "Lo correcto es: «También deben evaluarse carga, altura, pasillos y seguridad.» También deben evaluarse carga, altura, pasillos y seguridad.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
+    }
+  },
+  {
+    "id": "error-clase5-2",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Unidad de carga",
+    "situacion": "Un colega te pasa este resumen sobre «Unidad de carga» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Los auxiliares pueden estabilizar productos agrupados.",
+      "Una unidad de carga puede reunir productos para moverlos juntos.",
+      "La identificación debe poder reconocerse durante la operación.",
+      "Un auxiliar es adecuado aunque impida al equipo tomar la carga.",
+      "La elección del auxiliar depende de la mercadería."
+    ],
+    "incorrecta": 3,
+    "correccion": "El auxiliar debe ser compatible con la carga y el equipo que la manipula.",
+    "respuestaCorrecta": "Un auxiliar es adecuado aunque impida al equipo tomar la carga.",
+    "respuestasIncorrectas": [
+      "Los auxiliares pueden estabilizar productos agrupados.",
+      "Una unidad de carga puede reunir productos para moverlos juntos.",
+      "La identificación debe poder reconocerse durante la operación.",
+      "La elección del auxiliar depende de la mercadería."
+    ],
+    "pista": "Pensá si proteger alcanza cuando la carga no puede tomarse.",
+    "explicacion": "Lo correcto es: «El auxiliar debe ser compatible con la carga y el equipo que la manipula.» El auxiliar debe ser compatible con la carga y el equipo que la manipula.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "error-clase5-3",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Capacidad y acceso",
+    "situacion": "Un colega te pasa este resumen sobre «Capacidad y acceso» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una estantería puede organizar posiciones en altura.",
+      "La capacidad y la accesibilidad son aspectos diferentes.",
+      "La rotación interviene en la selección.",
+      "Toda propuesta con más posiciones garantiza una recuperación más rápida.",
+      "La estructura debe soportar las cargas previstas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Más posiciones pueden reducir el acceso; hay que evaluar ambos aspectos.",
+    "respuestaCorrecta": "Toda propuesta con más posiciones garantiza una recuperación más rápida.",
+    "respuestasIncorrectas": [
+      "Una estantería puede organizar posiciones en altura.",
+      "La capacidad y la accesibilidad son aspectos diferentes.",
+      "La rotación interviene en la selección.",
+      "La estructura debe soportar las cargas previstas."
+    ],
+    "pista": "Revisá la garantía absoluta sobre la rapidez.",
+    "explicacion": "Lo correcto es: «Más posiciones pueden reducir el acceso; hay que evaluar ambos aspectos.» Más posiciones pueden reducir el acceso; hay que evaluar ambos aspectos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
+    }
+  },
+  {
+    "id": "error-clase5-4",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Flujo de materiales",
+    "situacion": "Un colega te pasa este resumen sobre «Flujo de materiales» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La recepción está relacionada con movimientos internos.",
+      "La reposición puede trasladar productos hacia una ubicación de trabajo.",
+      "Todo movimiento adicional reduce necesariamente el tiempo y el riesgo de error.",
+      "La preparación de pedidos forma parte del flujo del depósito.",
+      "Revisar recorridos puede revelar desplazamientos innecesarios."
+    ],
+    "incorrecta": 2,
+    "correccion": "Cada traslado puede agregar tiempo, costo y riesgo de error.",
+    "respuestaCorrecta": "Todo movimiento adicional reduce necesariamente el tiempo y el riesgo de error.",
+    "respuestasIncorrectas": [
+      "La recepción está relacionada con movimientos internos.",
+      "La reposición puede trasladar productos hacia una ubicación de trabajo.",
+      "La preparación de pedidos forma parte del flujo del depósito.",
+      "Revisar recorridos puede revelar desplazamientos innecesarios."
+    ],
+    "pista": "Considerá qué ocurre cuando se multiplica la manipulación.",
+    "explicacion": "Lo correcto es: «Cada traslado puede agregar tiempo, costo y riesgo de error.» Cada traslado puede agregar tiempo, costo y riesgo de error.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "error-clase5-5",
+    "unidad": "clase5",
+    "tipo": "error",
+    "titulo": "Coordinación del pedido",
+    "situacion": "Un colega te pasa este resumen sobre «Coordinación del pedido» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La información de ubicación ayuda a localizar la mercancía.",
+      "La clasificación y el embalaje pueden preceder al despacho.",
+      "El inventario y la preparación necesitan coordinación.",
+      "El caso de Amazon España atribuye la rapidez exclusivamente a una tarea aislada.",
+      "El despacho conecta la operación interna con la salida del pedido."
+    ],
+    "incorrecta": 3,
+    "correccion": "El caso muestra varias etapas coordinadas e información actualizada.",
+    "respuestaCorrecta": "El caso de Amazon España atribuye la rapidez exclusivamente a una tarea aislada.",
+    "respuestasIncorrectas": [
+      "La información de ubicación ayuda a localizar la mercancía.",
+      "La clasificación y el embalaje pueden preceder al despacho.",
+      "El inventario y la preparación necesitan coordinación.",
+      "El despacho conecta la operación interna con la salida del pedido."
+    ],
+    "pista": "Recordá la secuencia completa del caso.",
+    "explicacion": "Lo correcto es: «El caso muestra varias etapas coordinadas e información actualizada.» El caso muestra varias etapas coordinadas e información actualizada.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
     }
   },
   {
     "id": "error-clase6",
     "unidad": "clase6",
     "tipo": "error",
-    "titulo": "Clase 6: Preparación de pedidos",
-    "situacion": "Un colega te pasa este resumen sobre «Clase 6: Preparación de pedidos» para que lo revises. Una de las oraciones tiene un error.",
+    "titulo": "Estrategias de picking",
+    "situacion": "Un colega te pasa este resumen sobre «Estrategias de picking» para que lo revises. Una de las oraciones tiene un error.",
     "pregunta": "¿Cuál es la oración incorrecta?",
     "oraciones": [
-      "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-      "En producto a persona el operario debe recorrer todas las ubicaciones para buscar la carga.",
-      "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
-      "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
-      "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar."
+      "En persona a producto el operario se dirige a la mercancía.",
+      "En producto a persona el operario debe recorrer todas las ubicaciones.",
+      "Un transportador puede acercar una caja al puesto.",
+      "La preparación reúne artículos para atender pedidos.",
+      "La elección depende, entre otros factores, del volumen y las referencias."
     ],
     "incorrecta": 1,
-    "correccion": "En producto a persona el sistema acerca la mercancía al puesto de preparación.",
-    "respuestaCorrecta": "En producto a persona el operario debe recorrer todas las ubicaciones para buscar la carga.",
+    "correccion": "En producto a persona un sistema acerca la mercancía al puesto.",
+    "respuestaCorrecta": "En producto a persona el operario debe recorrer todas las ubicaciones.",
     "respuestasIncorrectas": [
-      "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-      "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
-      "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
-      "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar."
+      "En persona a producto el operario se dirige a la mercancía.",
+      "Un transportador puede acercar una caja al puesto.",
+      "La preparación reúne artículos para atender pedidos.",
+      "La elección depende, entre otros factores, del volumen y las referencias."
     ],
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "Lo correcto es: «En producto a persona el sistema acerca la mercancía al puesto de preparación.» En producto a persona el sistema acerca la mercancía al puesto de preparación.",
+    "pista": "Identificá quién se desplaza en cada estrategia.",
+    "explicacion": "Lo correcto es: «En producto a persona un sistema acerca la mercancía al puesto.» En producto a persona un sistema acerca la mercancía al puesto.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "error-clase6-2",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Indicaciones luminosas",
+    "situacion": "Un colega te pasa este resumen sobre «Indicaciones luminosas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Pick to light indica dónde y cuánto retirar.",
+      "Put to light puede indicar dónde depositar unidades de una orden.",
+      "La voz permite transmitir instrucciones al preparador.",
+      "Put to light y pick to light indican siempre la misma acción de extracción.",
+      "Confirmar cantidades ayuda a controlar la preparación."
+    ],
+    "incorrecta": 3,
+    "correccion": "Pick to light guía la extracción; put to light guía el depósito por pedido.",
+    "respuestaCorrecta": "Put to light y pick to light indican siempre la misma acción de extracción.",
+    "respuestasIncorrectas": [
+      "Pick to light indica dónde y cuánto retirar.",
+      "Put to light puede indicar dónde depositar unidades de una orden.",
+      "La voz permite transmitir instrucciones al preparador.",
+      "Confirmar cantidades ayuda a controlar la preparación."
+    ],
+    "pista": "Compará retirar con colocar.",
+    "explicacion": "Lo correcto es: «Pick to light guía la extracción; put to light guía el depósito por pedido.» Pick to light guía la extracción; put to light guía el depósito por pedido.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
+    }
+  },
+  {
+    "id": "error-clase6-3",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Altura y operación",
+    "situacion": "Un colega te pasa este resumen sobre «Altura y operación» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "A nivel del suelo se pueden retirar unidades de pallets apoyados en el piso.",
+      "En niveles bajos puede trabajar un operario a pie o con preparadora de bajo nivel.",
+      "En niveles altos el acceso puede requerir elevar al operario.",
+      "La elevación y el descenso nunca afectan la velocidad de preparación.",
+      "Una zona exclusiva de picking puede requerir reposición desde reserva."
+    ],
+    "incorrecta": 3,
+    "correccion": "La elevación y el descenso pueden consumir tiempo y reducir la velocidad.",
+    "respuestaCorrecta": "La elevación y el descenso nunca afectan la velocidad de preparación.",
+    "respuestasIncorrectas": [
+      "A nivel del suelo se pueden retirar unidades de pallets apoyados en el piso.",
+      "En niveles bajos puede trabajar un operario a pie o con preparadora de bajo nivel.",
+      "En niveles altos el acceso puede requerir elevar al operario.",
+      "Una zona exclusiva de picking puede requerir reposición desde reserva."
+    ],
+    "pista": "Desconfiá de la afirmación que elimina un tiempo operativo.",
+    "explicacion": "Lo correcto es: «La elevación y el descenso pueden consumir tiempo y reducir la velocidad.» La elevación y el descenso pueden consumir tiempo y reducir la velocidad.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "error-clase6-4",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Sistemas para piezas",
+    "situacion": "Un colega te pasa este resumen sobre «Sistemas para piezas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Clasimat acerca bandejas almacenadas en altura.",
+      "Spinblock desplaza horizontalmente estanterías o contenedores.",
+      "Miniload recupera cajas o bandejas mediante un transelevador.",
+      "Los canales dinámicos pueden acercar mercancía a la extracción.",
+      "Spinblock necesariamente eleva bandejas verticales como Clasimat."
+    ],
+    "incorrecta": 4,
+    "correccion": "Spinblock es un carrusel horizontal; Clasimat utiliza almacenamiento vertical de bandejas.",
+    "respuestaCorrecta": "Spinblock necesariamente eleva bandejas verticales como Clasimat.",
+    "respuestasIncorrectas": [
+      "Clasimat acerca bandejas almacenadas en altura.",
+      "Spinblock desplaza horizontalmente estanterías o contenedores.",
+      "Miniload recupera cajas o bandejas mediante un transelevador.",
+      "Los canales dinámicos pueden acercar mercancía a la extracción."
+    ],
+    "pista": "Compará la dirección del movimiento de cada sistema.",
+    "explicacion": "Lo correcto es: «Spinblock es un carrusel horizontal; Clasimat utiliza almacenamiento vertical de bandejas.» Spinblock es un carrusel horizontal; Clasimat utiliza almacenamiento vertical de bandejas.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "error-clase6-5",
+    "unidad": "clase6",
+    "tipo": "error",
+    "titulo": "Organización e inversión",
+    "situacion": "Un colega te pasa este resumen sobre «Organización e inversión» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Un SGA puede ayudar a ordenar ubicaciones y recorridos.",
+      "Agrupar pedidos puede reducir recorridos repetidos.",
+      "La automatización debe evaluarse frente a su inversión y costos de operación.",
+      "Un sistema manual siempre tiene menor costo operativo que uno automático.",
+      "La reposición coordinada puede evitar interrupciones."
+    ],
+    "incorrecta": 3,
+    "correccion": "El costo operativo depende del caso; el sistema manual puede generar recorridos y manipulación costosos.",
+    "respuestaCorrecta": "Un sistema manual siempre tiene menor costo operativo que uno automático.",
+    "respuestasIncorrectas": [
+      "Un SGA puede ayudar a ordenar ubicaciones y recorridos.",
+      "Agrupar pedidos puede reducir recorridos repetidos.",
+      "La automatización debe evaluarse frente a su inversión y costos de operación.",
+      "La reposición coordinada puede evitar interrupciones."
+    ],
+    "pista": "Diferenciá inversión inicial y costo operativo.",
+    "explicacion": "Lo correcto es: «El costo operativo depende del caso; el sistema manual puede generar recorridos y manipulación costosos.» El costo operativo depende del caso; el sistema manual puede generar recorridos y manipulación costosos.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
     }
   },
   {
@@ -212,8 +894,163 @@
     "explicacion": "Lo correcto es: «La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.» La elección también debe considerar plazo, confiabilidad, carga y costo logístico total.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "error-c7-ampliado-01",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Servicio de transporte",
+    "situacion": "Un colega te pasa este resumen sobre «Servicio de transporte» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "La cobertura indica qué lugares puede atender un servicio.",
+      "Un menor flete siempre asegura el menor costo logístico total.",
+      "La variabilidad del tránsito afecta la previsibilidad.",
+      "El daño de la carga puede afectar el servicio.",
+      "La frecuencia influye en las opciones de despacho."
+    ],
+    "incorrecta": 1,
+    "correccion": "El costo total incluye otros efectos, como inventarios y servicio.",
+    "respuestaCorrecta": "Un menor flete siempre asegura el menor costo logístico total.",
+    "respuestasIncorrectas": [
+      "La cobertura indica qué lugares puede atender un servicio.",
+      "La variabilidad del tránsito afecta la previsibilidad.",
+      "El daño de la carga puede afectar el servicio.",
+      "La frecuencia influye en las opciones de despacho."
+    ],
+    "pista": "Revisá si la tarifa es el único costo relevante.",
+    "explicacion": "Lo correcto es: «El costo total incluye otros efectos, como inventarios y servicio.» El costo total incluye otros efectos, como inventarios y servicio.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "error-c7-ampliado-02",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Modos de transporte",
+    "situacion": "Un colega te pasa este resumen sobre «Modos de transporte» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El camión puede ofrecer servicio puerta a puerta donde existe acceso vial.",
+      "El transporte aéreo suele ser rápido en distancias largas.",
+      "El ferrocarril depende de vías y terminales.",
+      "Los ductos sirven indistintamente para transportar cualquier mercancía embalada.",
+      "El transporte acuático requiere infraestructura y vías adecuadas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los ductos son redes especializadas para productos adecuados, como ciertos líquidos y gases.",
+    "respuestaCorrecta": "Los ductos sirven indistintamente para transportar cualquier mercancía embalada.",
+    "respuestasIncorrectas": [
+      "El camión puede ofrecer servicio puerta a puerta donde existe acceso vial.",
+      "El transporte aéreo suele ser rápido en distancias largas.",
+      "El ferrocarril depende de vías y terminales.",
+      "El transporte acuático requiere infraestructura y vías adecuadas."
+    ],
+    "pista": "Buscá una afirmación que atribuya al modo una capacidad universal.",
+    "explicacion": "Lo correcto es: «Los ductos son redes especializadas para productos adecuados, como ciertos líquidos y gases.» Los ductos son redes especializadas para productos adecuados, como ciertos líquidos y gases.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "error-c7-ampliado-03",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Intermodalidad",
+    "situacion": "Un colega te pasa este resumen sobre «Intermodalidad» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El transporte intermodal combina dos o más modos.",
+      "Las terminales conectan tramos de la operación.",
+      "Las transferencias pueden agregar tiempo y costos.",
+      "La coordinación de horarios influye en el plazo total.",
+      "En una operación intermodal no es necesario considerar los tramos de conexión."
+    ],
+    "incorrecta": 4,
+    "correccion": "Los tramos de conexión deben incluirse al evaluar costo y servicio.",
+    "respuestaCorrecta": "En una operación intermodal no es necesario considerar los tramos de conexión.",
+    "respuestasIncorrectas": [
+      "El transporte intermodal combina dos o más modos.",
+      "Las terminales conectan tramos de la operación.",
+      "Las transferencias pueden agregar tiempo y costos.",
+      "La coordinación de horarios influye en el plazo total."
+    ],
+    "pista": "Compará el tramo principal con la operación completa.",
+    "explicacion": "Lo correcto es: «Los tramos de conexión deben incluirse al evaluar costo y servicio.» Los tramos de conexión deben incluirse al evaluar costo y servicio.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "error-c7-ampliado-04",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Costos y tarifas",
+    "situacion": "Un colega te pasa este resumen sobre «Costos y tarifas» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "El combustible puede variar con la distancia recorrida.",
+      "Un costo común se comparte entre servicios.",
+      "La tarifa cobrada siempre coincide exactamente con el costo interno del transportista.",
+      "La utilización de capacidad influye en el costo unitario.",
+      "Un costo fijo no cambia directamente con cada envío en el corto plazo."
+    ],
+    "incorrecta": 2,
+    "correccion": "La tarifa cobrada y el costo interno son conceptos distintos.",
+    "respuestaCorrecta": "La tarifa cobrada siempre coincide exactamente con el costo interno del transportista.",
+    "respuestasIncorrectas": [
+      "El combustible puede variar con la distancia recorrida.",
+      "Un costo común se comparte entre servicios.",
+      "La utilización de capacidad influye en el costo unitario.",
+      "Un costo fijo no cambia directamente con cada envío en el corto plazo."
+    ],
+    "pista": "Distinguí lo que se cobra de lo que cuesta operar.",
+    "explicacion": "Lo correcto es: «La tarifa cobrada y el costo interno son conceptos distintos.» La tarifa cobrada y el costo interno son conceptos distintos.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "error-c7-ampliado-05",
+    "unidad": "clase7",
+    "tipo": "error",
+    "titulo": "Flota y documentos",
+    "situacion": "Un colega te pasa este resumen sobre «Flota y documentos» para que lo revises. Una de las oraciones tiene un error.",
+    "pregunta": "¿Cuál es la oración incorrecta?",
+    "oraciones": [
+      "Una flota propia requiere mantenimiento y administración.",
+      "Una empresa puede comparar flota propia y transporte contratado.",
+      "Los requisitos internacionales dependen de la operación.",
+      "Un reclamo puede referirse a una pérdida o un daño.",
+      "El uso de flota propia elimina la necesidad de gestionar conductores."
+    ],
+    "incorrecta": 4,
+    "correccion": "La empresa con flota propia debe gestionar también sus conductores.",
+    "respuestaCorrecta": "El uso de flota propia elimina la necesidad de gestionar conductores.",
+    "respuestasIncorrectas": [
+      "Una flota propia requiere mantenimiento y administración.",
+      "Una empresa puede comparar flota propia y transporte contratado.",
+      "Los requisitos internacionales dependen de la operación.",
+      "Un reclamo puede referirse a una pérdida o un daño."
+    ],
+    "pista": "Revisá qué recursos requiere operar vehículos propios.",
+    "explicacion": "Lo correcto es: «La empresa con flota propia debe gestionar también sus conductores.» La empresa con flota propia debe gestionar también sus conductores.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
     }
   }
 ]

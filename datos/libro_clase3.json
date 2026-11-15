@@ -5,26 +5,77 @@
   },
   "entradas": {
     "clase3_conceptos": {
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
+      "categoria": "Clase 3",
+      "titulo": "Función y clases de almacén",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "El almacén es un nodo que recibe, controla, conserva y entrega mercancías, conectando proveedores, producción, distribución y clientes.",
+        "Puede clasificarse por función, tipo de mercancía, sistema de almacenamiento o grado de automatización."
       ],
       "notas": [
-        "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
-        "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
-        "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-        "Picking: Selección de los artículos necesarios para preparar un pedido.",
-        "Expedición: Etapa en que los pedidos preparados se organizan para su salida.",
-        "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+        "Un depósito de materias primas abastece producción; uno de terminados conserva lo producido antes de su distribución.",
+        "Uno de tránsito participa en el movimiento de mercancías, mientras uno de distribución organiza su entrega."
       ],
       "ejemplos": [
-        "Un operario verifica los artículos que acaban de llegar del proveedor.",
-        "El sistema registra en qué estante se colocó una pieza.",
-        "Se lleva una caja desde la reserva a un estante de preparación.",
-        "Un operario reúne las referencias y cantidades que solicitó un cliente.",
-        "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
-        "Una aplicación indica dónde guardar y localizar cada artículo."
+        "Una fábrica separa los insumos que recibe de los productos terminados listos para distribuir."
+      ]
+    },
+    "clase3_operaciones": {
+      "categoria": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "intro": [
+        "Las actividades del depósito forman una secuencia coordinada: el control de entrada precede a la ubicación, y la preparación de pedidos a la expedición."
+      ],
+      "notas": [
+        "Recepción verifica la mercancía que llega; ubicación asigna y registra dónde queda.",
+        "Reposición lleva existencias hacia el punto de preparación; consolidación reúne lo recogido para completar una orden.",
+        "Expedición controla y organiza la salida hacia el destino correspondiente."
+      ],
+      "ejemplos": [
+        "Una caja pasa de recepción a reserva; luego se repone el sector de picking y se reúne con otros artículos de un pedido."
+      ]
+    },
+    "clase3_diseno": {
+      "categoria": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "intro": [
+        "Proyectar un almacén implica relacionar características de la mercancía y demanda con espacio, equipos, seguridad y circulación."
+      ],
+      "notas": [
+        "Importan volumen, peso, dimensiones, rotación y condiciones de conservación.",
+        "Los flujos pueden ser lineales, en U, L o T, según la disposición de las áreas; la elección depende del edificio y la operación.",
+        "Reducir cruces, retrocesos, esperas y manipulaciones innecesarias favorece recorridos ordenados."
+      ],
+      "ejemplos": [
+        "Si recepción y expedición están próximas, se puede evaluar un flujo en U teniendo en cuenta los muelles y el volumen."
+      ]
+    },
+    "clase3_picking": {
+      "categoria": "Clase 3",
+      "titulo": "Preparación y control del pedido",
+      "intro": [
+        "Picking es localizar y retirar las referencias y cantidades solicitadas, para llevarlas a consolidación o embalaje."
+      ],
+      "notas": [
+        "La exactitud de referencias y cantidades importa tanto como el tiempo de preparación y el estado de la mercancía.",
+        "Una ubicación identificada y una reposición oportuna ayudan a que el operario encuentre lo solicitado."
+      ],
+      "ejemplos": [
+        "Un pedido requiere dos referencias: se localizan, se comprueban las cantidades y se reúnen antes de expedir."
+      ]
+    },
+    "clase3_informacion": {
+      "categoria": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "intro": [
+        "El control físico necesita información confiable: no alcanza con saber que existe una pieza si se desconoce dónde está o qué movimiento tuvo."
+      ],
+      "notas": [
+        "Se gestionan existencias, ubicaciones, movimientos, pedidos y recursos de trabajo.",
+        "Un sistema de gestión de almacenes puede guiar tareas y registrar movimientos; la trazabilidad relaciona producto, ubicación, cantidad y estado.",
+        "Registrar cambios de ubicación ayuda a evitar diferencias entre el inventario y la realidad."
+      ],
+      "ejemplos": [
+        "En el caso del depósito de repuestos, el sistema ayuda a localizar una pieza entre muchas referencias y preparar el pedido."
       ]
     }
   }

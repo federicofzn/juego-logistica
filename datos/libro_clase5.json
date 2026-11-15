@@ -5,26 +5,79 @@
   },
   "entradas": {
     "clase5_conceptos": {
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Almacenaje como sistema",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "La solución de almacenaje vincula productos, unidades de carga, espacio, equipos y servicio."
       ],
       "notas": [
-        "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-        "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
-        "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-        "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar.",
-        "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación.",
-        "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones."
+        "La elección depende de las referencias, su rotación y la forma en que se las recupera.",
+        "La capacidad debe analizarse junto con la accesibilidad y la seguridad.",
+        "Recepción, ubicación, reposición, preparación y despacho forman un flujo conectado."
       ],
       "ejemplos": [
-        "Un depósito guarda pallets en posiciones distribuidas en altura.",
-        "Una transpaleta traslada un pallet entre dos sectores.",
-        "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
-        "El responsable calcula cuántos pallets caben en las estanterías.",
-        "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
-        "Se verifica que la máquina pueda maniobrar entre dos estanterías."
+        "Un depósito compara posiciones y facilidad de acceso antes de elegir una disposición."
+      ]
+    },
+    "clase5_unidad": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "intro": [
+        "Agrupar productos facilita su manipulación conjunta cuando el conjunto es estable y compatible con los equipos."
+      ],
+      "notas": [
+        "Los auxiliares ayudan a conformar, proteger y estabilizar la unidad.",
+        "La elección depende de la mercadería y de cómo se tomará y trasladará.",
+        "La identificación debe permanecer visible y el uso del espacio no debe impedir el acceso."
+      ],
+      "ejemplos": [
+        "Cajas sobre un pallet se estabilizan y se identifican para moverlas juntas."
+      ]
+    },
+    "clase5_estanterias": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "intro": [
+        "Las estanterías organizan posiciones en altura y condicionan el acceso a las referencias."
+      ],
+      "notas": [
+        "La estructura debe soportar la carga prevista y permitir tareas seguras.",
+        "Cantidad de referencias, rotación, unidad de carga y criterio de salida orientan la elección.",
+        "La ocupación y la rapidez de recuperación deben evaluarse juntas."
+      ],
+      "ejemplos": [
+        "Una empresa compara el acceso a cada referencia además de contar posiciones."
+      ]
+    },
+    "clase5_equipos": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "intro": [
+        "El equipo de manipuleo eleva, transporta o posiciona cargas dentro de límites compatibles con la instalación."
+      ],
+      "notas": [
+        "Peso y dimensiones de la carga, altura y volumen operado intervienen en la elección.",
+        "El ancho de pasillo y las maniobras deben ser compatibles con la máquina y la seguridad.",
+        "El precio de compra por sí solo no demuestra que un equipo sea adecuado."
+      ],
+      "ejemplos": [
+        "Se verifica que el equipo alcance la altura y maniobre con su carga en los pasillos."
+      ]
+    },
+    "clase5_flujo": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "intro": [
+        "El manejo de materiales abarca los traslados internos desde recepción hasta despacho."
+      ],
+      "notas": [
+        "Cada manipulación puede añadir tiempo, costo y errores; conviene evitar recorridos innecesarios.",
+        "Ubicar, reponer y preparar pedidos requiere coordinar cargas, posiciones y equipos.",
+        "El caso de Amazon España integra inventario, ubicaciones, preparación, clasificación, embalaje y despacho.",
+        "La información actualizada ayuda a coordinar etapas; el plazo no depende de una sola tarea."
+      ],
+      "ejemplos": [
+        "Si una carga vuelve varias veces al mismo sector, revisar el trazado puede eliminar recorridos evitables."
       ]
     }
   }

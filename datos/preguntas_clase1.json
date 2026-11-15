@@ -2,109 +2,325 @@
   {
     "id": "caso-clase1-1",
     "tipo": "caso",
-    "titulo": "Logística",
-    "situacion": "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Más que transporte",
+    "situacion": "Una empresa coordina depósito, inventarios, preparación de pedidos y envíos.",
+    "pregunta": "¿Qué función integra estas actividades?",
     "correcta": "Logística",
     "incorrectas": [
-      "Cadena de suministro",
-      "Administración de materiales",
-      "Distribución física",
-      "Logística inversa",
-      "Nivel de servicio"
+      "Solo transporte",
+      "Solo compras",
+      "Solo marketing",
+      "Contabilidad financiera",
+      "Diseño de productos"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+    "pista": "Buscá el conjunto que incluye almacenamiento y movimiento.",
+    "explicacion": "La logística integra estas actividades y la información asociada.",
     "libro": "clase1_conceptos"
   },
   {
     "id": "caso-clase1-2",
     "tipo": "caso",
-    "titulo": "Cadena de suministro",
-    "situacion": "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Red completa",
+    "situacion": "Una fábrica coordina proveedores, producción, distribuidores y clientes.",
+    "pregunta": "¿Qué abarca mejor esa red?",
     "correcta": "Cadena de suministro",
     "incorrectas": [
-      "Logística",
-      "Administración de materiales",
-      "Distribución física",
-      "Logística inversa",
-      "Nivel de servicio"
+      "Un único depósito",
+      "Solo distribución física",
+      "Solo logística inversa",
+      "Solo transporte",
+      "Una operación de embalaje"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+    "pista": "Incluí actores y funciones desde el origen hasta el cliente.",
+    "explicacion": "La cadena conecta organizaciones y procesos; la logística participa dentro de ella.",
     "libro": "clase1_conceptos"
   },
   {
     "id": "caso-clase1-3",
     "tipo": "caso",
-    "titulo": "Administración de materiales",
-    "situacion": "Se coordinan compras, recepción y almacenamiento de materias primas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Insumos para fabricar",
+    "situacion": "Una planta programa la recepción y el almacenamiento de materias primas.",
+    "pregunta": "¿Qué división tiene el foco principal?",
     "correcta": "Administración de materiales",
     "incorrectas": [
-      "Logística",
-      "Cadena de suministro",
       "Distribución física",
+      "Ventas minoristas",
       "Logística inversa",
-      "Nivel de servicio"
+      "Servicio posventa",
+      "Publicidad"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-    "libro": "clase1_conceptos"
+    "pista": "Seguí el flujo que entra hacia la producción.",
+    "explicacion": "La administración de materiales asegura y mueve los insumos necesarios.",
+    "libro": "clase1_flujos"
   },
   {
     "id": "caso-clase1-4",
     "tipo": "caso",
-    "titulo": "Distribución física",
-    "situacion": "Un depósito prepara productos terminados para enviarlos a los comercios.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Salida a comercios",
+    "situacion": "Un depósito prepara productos terminados para enviarlos a tiendas.",
+    "pregunta": "¿Qué división predomina?",
     "correcta": "Distribución física",
     "incorrectas": [
-      "Logística",
-      "Cadena de suministro",
-      "Administración de materiales",
+      "Administración de materias primas",
+      "Selección de personal",
       "Logística inversa",
-      "Nivel de servicio"
+      "Compra de insumos productivos",
+      "Desarrollo publicitario"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-    "libro": "clase1_conceptos"
+    "pista": "El producto ya está terminado y sale hacia clientes.",
+    "explicacion": "La distribución física gestiona la salida de productos terminados.",
+    "libro": "clase1_flujos"
   },
   {
     "id": "caso-clase1-5",
     "tipo": "caso",
-    "titulo": "Logística inversa",
-    "situacion": "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Equipo devuelto",
+    "situacion": "Una tienda recibe un equipo con fallas y lo envía a reparar.",
+    "pregunta": "¿Qué proceso organiza ese retorno?",
     "correcta": "Logística inversa",
     "incorrectas": [
-      "Logística",
-      "Cadena de suministro",
-      "Administración de materiales",
-      "Distribución física",
-      "Nivel de servicio"
+      "Distribución inicial",
+      "Aprovisionamiento de materias primas",
+      "Producción en línea",
+      "Promoción comercial",
+      "Venta directa"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-    "libro": "clase1_conceptos"
+    "pista": "Observá la dirección del movimiento desde el cliente.",
+    "explicacion": "El retorno para reparación es un caso de logística inversa.",
+    "libro": "clase1_inversa"
   },
   {
     "id": "caso-clase1-6",
     "tipo": "caso",
-    "titulo": "Nivel de servicio",
-    "situacion": "Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Compromiso cumplido",
+    "situacion": "Una firma revisa si sus pedidos llegan completos y a tiempo.",
+    "pregunta": "¿Qué está evaluando principalmente?",
     "correcta": "Nivel de servicio",
     "incorrectas": [
-      "Logística",
-      "Cadena de suministro",
-      "Administración de materiales",
-      "Distribución física",
-      "Logística inversa"
+      "Diseño del producto",
+      "Origen militar de la logística",
+      "Tipo de cadena industrial",
+      "Compra de maquinaria",
+      "Campaña publicitaria"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente.",
+    "pista": "Pensá en las condiciones ofrecidas al cliente.",
+    "explicacion": "Puntualidad y entrega completa son condiciones del servicio.",
+    "libro": "clase1_areas"
+  },
+  {
+    "id": "caso-clase1-7",
+    "tipo": "caso",
+    "titulo": "Campaña sin existencias",
+    "situacion": "Ventas quiere anunciar entrega inmediata, pero el depósito informa faltantes.",
+    "pregunta": "¿Qué decisión mejora la coordinación?",
+    "correcta": "Ajustar la promesa con ventas y coordinar reposición",
+    "incorrectas": [
+      "Publicar igual sin consultar",
+      "Comprar publicidad y omitir el stock",
+      "Despachar cantidades menores sin avisar",
+      "Eliminar el registro de inventario",
+      "Suponer que el proveedor ya entregó"
+    ],
+    "pista": "Relacioná la promesa comercial con la disponibilidad real.",
+    "explicacion": "Ventas y logística deben alinear lo prometido con inventario y reposición.",
+    "libro": "clase1_areas"
+  },
+  {
+    "id": "caso-clase1-8",
+    "tipo": "caso",
+    "titulo": "Proveedor y recepción",
+    "situacion": "Compras acuerda la fecha con un proveedor de insumos.",
+    "pregunta": "¿Qué dato necesita logística para organizar la recepción?",
+    "correcta": "Cantidades y fecha acordadas de entrega",
+    "incorrectas": [
+      "Solo el color del logo del proveedor",
+      "Únicamente la publicidad del producto",
+      "El historial de vacaciones del vendedor",
+      "La fecha de cierre del local cliente",
+      "Solo el nombre de la campaña"
+    ],
+    "pista": "El depósito debe prever qué recibirá y cuándo.",
+    "explicacion": "Con cantidades y fecha puede preparar recepción, espacio y flujo de materiales.",
+    "libro": "clase1_areas"
+  },
+  {
+    "id": "caso-clase1-9",
+    "tipo": "caso",
+    "titulo": "Dos alcances",
+    "situacion": "Una gerenta sostiene que logística y cadena de suministro son idénticas.",
+    "pregunta": "¿Qué respuesta corrige esa idea?",
+    "correcta": "La cadena integra más funciones y actores; la logística es parte de ella",
+    "incorrectas": [
+      "La logística incluye toda actividad empresarial y la cadena solo camiones",
+      "La cadena excluye proveedores",
+      "La logística solo funciona después de la venta",
+      "La cadena termina antes de la fabricación",
+      "Ambas expresiones designan únicamente el depósito"
+    ],
+    "pista": "Compará la operación logística con la red de organizaciones.",
+    "explicacion": "La cadena coordina un conjunto más amplio de procesos y participantes.",
+    "libro": "clase1_conceptos"
+  },
+  {
+    "id": "caso-clase1-10",
+    "tipo": "caso",
+    "titulo": "Distribuidor sin fábrica",
+    "situacion": "Una empresa compra artículos terminados, los reúne y los vende a comercios.",
+    "pregunta": "¿Qué actividad reemplaza a la fabricación en su recorrido?",
+    "correcta": "Almacenaje y consolidación de productos",
+    "incorrectas": [
+      "Extracción obligatoria de materias primas",
+      "Fabricación propia de cada artículo",
+      "Eliminación de toda existencia",
+      "Devolución obligatoria al proveedor",
+      "Diseño de maquinaria industrial"
+    ],
+    "pista": "La empresa trabaja con productos ya terminados.",
+    "explicacion": "Una comercializadora puede almacenar y consolidar sin fabricar.",
+    "libro": "clase1_fases"
+  },
+  {
+    "id": "caso-clase1-11",
+    "tipo": "caso",
+    "titulo": "Recuperar un envase",
+    "situacion": "Una empresa recoge envases usados para volver a utilizarlos tras su control.",
+    "pregunta": "¿Qué resultado busca esta operación?",
+    "correcta": "Reutilizar materiales mediante un flujo de retorno",
+    "incorrectas": [
+      "Aumentar la fabricación de residuos",
+      "Eliminar toda inspección de entrada",
+      "Evitar cualquier costo de transporte",
+      "Transformar automáticamente cada envase en producto nuevo",
+      "Sustituir el servicio al cliente por publicidad"
+    ],
+    "pista": "Identificá qué ocurre con el envase después del consumo.",
+    "explicacion": "La reutilización es un destino posible de la logística inversa, sujeto a control.",
+    "libro": "clase1_inversa"
+  },
+  {
+    "id": "caso-clase1-12",
+    "tipo": "caso",
+    "titulo": "Elegir destino",
+    "situacion": "Llegan productos devueltos con estados diferentes.",
+    "pregunta": "¿Qué criterio respeta el enfoque de logística inversa?",
+    "correcta": "Evaluar cada caso para reparar, reutilizar, reciclar o disponer adecuadamente",
+    "incorrectas": [
+      "Mandar todos al cliente sin revisarlos",
+      "Afirmar que todos pueden reutilizarse",
+      "Desechar todo sin considerar alternativas",
+      "Considerar que el retorno termina al recibirlo",
+      "Excluir productos defectuosos del proceso"
+    ],
+    "pista": "No todos los productos admiten el mismo tratamiento.",
+    "explicacion": "El destino depende del estado del producto y de las alternativas disponibles.",
+    "libro": "clase1_inversa"
+  },
+  {
+    "id": "caso-clase1-13",
+    "tipo": "caso",
+    "titulo": "Depósito y demanda",
+    "situacion": "La demanda varía y el almacén recibe mercadería de varios proveedores.",
+    "pregunta": "¿Qué función del almacén ayuda a conectar abastecimiento y pedidos?",
+    "correcta": "Controlar existencias y preparar pedidos",
+    "incorrectas": [
+      "Reemplazar la elección de mercados",
+      "Suprimir toda información de entradas",
+      "Garantizar ventas sin productos",
+      "Eliminar la necesidad de recepción",
+      "Fijar por sí solo el precio de venta"
+    ],
+    "pista": "Pensá cómo se pasa de la entrada al despacho.",
+    "explicacion": "La recepción, el control de inventario y la preparación articulan entradas y salidas.",
+    "libro": "clase1_flujos"
+  },
+  {
+    "id": "caso-clase1-14",
+    "tipo": "caso",
+    "titulo": "Faltante en planta",
+    "situacion": "El proveedor entrega tarde un componente indispensable.",
+    "pregunta": "¿Qué consecuencia es razonable considerar?",
+    "correcta": "Una interrupción o demora de producción",
+    "incorrectas": [
+      "Una entrega puntual garantizada",
+      "Una reducción automática de todos los costos",
+      "La desaparición del inventario restante",
+      "La eliminación de la necesidad de comprar",
+      "Un aumento seguro de ventas"
+    ],
+    "pista": "Considerá la dependencia entre abastecimiento y fabricación.",
+    "explicacion": "La falta de insumos puede retrasar la producción y afectar pedidos posteriores.",
+    "libro": "clase1_areas"
+  },
+  {
+    "id": "caso-clase1-15",
+    "tipo": "caso",
+    "titulo": "Pedido correcto",
+    "situacion": "Un cliente recibe el producto acordado, completo y en buenas condiciones.",
+    "pregunta": "¿Qué dimensión se ve directamente favorecida?",
+    "correcta": "Servicio al cliente",
+    "incorrectas": [
+      "Origen de las materias primas",
+      "Estructura salarial",
+      "Diseño de la marca",
+      "Tipo de cambio",
+      "Selección del personal"
+    ],
+    "pista": "Evaluá el cumplimiento de lo prometido.",
+    "explicacion": "La entrega correcta y en condiciones contribuye a la satisfacción del cliente.",
+    "libro": "clase1_areas"
+  },
+  {
+    "id": "caso-clase1-16",
+    "tipo": "caso",
+    "titulo": "Fases de una fabricante",
+    "situacion": "Una fábrica recibe piezas, ensambla equipos y los envía a distribuidores.",
+    "pregunta": "¿Qué secuencia describe mejor el recorrido?",
+    "correcta": "Aprovisionamiento, producción y distribución",
+    "incorrectas": [
+      "Distribución, consumo y extracción",
+      "Venta, devolución y publicidad",
+      "Reciclaje, compra y liquidación",
+      "Producción, aprovisionamiento y recepción",
+      "Promoción, transporte y contratación"
+    ],
+    "pista": "Ordená los hechos desde la llegada de piezas hasta el envío.",
+    "explicacion": "Las fases van del abastecimiento a la transformación y luego a la distribución.",
+    "libro": "clase1_fases"
+  },
+  {
+    "id": "caso-clase1-17",
+    "tipo": "caso",
+    "titulo": "Retorno con costos",
+    "situacion": "Un responsable propone recoger productos usados y afirma que toda devolución dará ganancias.",
+    "pregunta": "¿Qué evaluación es más prudente?",
+    "correcta": "Comparar recuperación posible con costos y destino de los retornos",
+    "incorrectas": [
+      "Dar por seguro el beneficio de cada retorno",
+      "Excluir transporte y clasificación del análisis",
+      "Suponer que todos los productos tienen igual estado",
+      "Eliminar la revisión de calidad",
+      "Prometer reciclaje sin comprobar opciones"
+    ],
+    "pista": "La recuperación tiene beneficios posibles y también obstáculos.",
+    "explicacion": "La logística inversa puede recuperar valor, pero implica costos y resultados variables.",
+    "libro": "clase1_inversa"
+  },
+  {
+    "id": "caso-clase1-18",
+    "tipo": "caso",
+    "titulo": "Servicio y competitividad",
+    "situacion": "Dos firmas ofrecen productos semejantes, pero una entrega de manera más confiable.",
+    "pregunta": "¿Por qué la logística puede ser una ventaja competitiva?",
+    "correcta": "Porque disponibilidad y cumplimiento pueden mejorar la experiencia del cliente",
+    "incorrectas": [
+      "Porque elimina toda competencia",
+      "Porque garantiza que nunca habrá reclamos",
+      "Porque reemplaza la calidad del producto",
+      "Porque hace innecesaria la coordinación con ventas",
+      "Porque toda entrega más rápida siempre cuesta menos"
+    ],
+    "pista": "Pensá cómo percibe el cliente el cumplimiento.",
+    "explicacion": "Un servicio confiable puede favorecer satisfacción y preferencia, sin garantizar ventas.",
     "libro": "clase1_conceptos"
   }
 ]

@@ -1,18 +1,82 @@
 [
   {
     "id": "error-clase2",
-    "titulo": "Clase 2: Planeamiento y servicio",
+    "titulo": "Planificación continua",
     "oraciones": [
-      "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "El planeamiento logístico se realiza una sola vez y no necesita actualizarse.",
-      "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita."
+      "El enfoque sistémico considera relaciones entre actividades.",
+      "El plan logístico contempla recursos, costos y servicio.",
+      "El planeamiento se hace una sola vez y nunca necesita revisión.",
+      "Los cambios de demanda pueden exigir ajustes.",
+      "Compras y transporte intervienen en el flujo logístico."
     ],
     "incorrecta": 2,
-    "correccion": "La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "La planificación debe revisarse cuando cambian la demanda y otras condiciones.",
+    "correccion": "El plan debe revisarse ante cambios relevantes de demanda, capacidad u otras condiciones.",
+    "pista": "Buscá una afirmación que impida responder a cambios.",
+    "explicacion": "La planificación es continua y se adapta al entorno.",
+    "libro": "clase2_plan"
+  },
+  {
+    "id": "error-clase2-2",
+    "titulo": "Efectos entre etapas",
+    "oraciones": [
+      "Una demora de suministro puede afectar preparación de pedidos.",
+      "El transporte y el inventario pueden influir en el servicio.",
+      "Reducir un costo aislado garantiza el mejor resultado global.",
+      "Los reclamos pueden aportar información para corregir procesos.",
+      "El resultado depende de la coordinación entre etapas."
+    ],
+    "incorrecta": 2,
+    "correccion": "Una reducción local debe evaluarse junto con sus efectos en otras actividades y en el servicio.",
+    "pista": "Un ahorro en una etapa puede generar costos en otra.",
+    "explicacion": "El enfoque sistémico considera el conjunto y sus interdependencias.",
     "libro": "clase2_conceptos"
+  },
+  {
+    "id": "error-clase2-3",
+    "titulo": "Servicio al cliente",
+    "oraciones": [
+      "Una entrega puntual puede llegar incompleta.",
+      "La información del pedido forma parte del servicio.",
+      "El servicio incluye atender problemas posteriores a la compra.",
+      "Recibir una referencia equivocada puede incumplir lo acordado.",
+      "Si el pedido llegó puntual, todas las demás condiciones de servicio se cumplen necesariamente."
+    ],
+    "incorrecta": 4,
+    "correccion": "El plazo es solo una condición; también importan cantidad, referencia y estado.",
+    "pista": "Diferenciá puntualidad de exactitud y cantidad.",
+    "explicacion": "Una dimensión cumplida no prueba que el pedido completo sea correcto.",
+    "libro": "clase2_servicio"
+  },
+  {
+    "id": "error-clase2-4",
+    "titulo": "Áreas y planificación",
+    "oraciones": [
+      "Ventas puede aportar previsiones de demanda.",
+      "Compras coordina fuentes y condiciones de suministro.",
+      "Producción puede informar su capacidad.",
+      "Finanzas puede evaluar recursos y costos.",
+      "El plan comercial debe mantenerse oculto a logística para evitar ajustes."
+    ],
+    "incorrecta": 4,
+    "correccion": "Compartir el plan comercial ayuda a coordinar inventario, capacidad y distribución.",
+    "pista": "Pensá qué necesita logística antes de una campaña.",
+    "explicacion": "La planificación requiere intercambio de información entre áreas.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "error-clase2-5",
+    "titulo": "Del pedido a la entrega",
+    "oraciones": [
+      "El proveedor recibe una orden antes de programar el despacho.",
+      "La disponibilidad influye en lo que puede despacharse.",
+      "Preparación, carga y transporte requieren coordinación.",
+      "El cliente recibe el resultado de varias etapas.",
+      "La preparación de pedidos ocurre necesariamente después de entregar al cliente."
+    ],
+    "incorrecta": 4,
+    "correccion": "La preparación antecede a la carga y a la entrega del pedido.",
+    "pista": "Ordená las actividades desde la orden hasta la recepción.",
+    "explicacion": "El pedido debe prepararse antes de su traslado y entrega.",
+    "libro": "clase2_distribucion"
   }
 ]

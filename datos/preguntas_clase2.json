@@ -2,109 +2,325 @@
   {
     "id": "caso-clase2-1",
     "tipo": "caso",
-    "titulo": "Enfoque sistémico",
-    "situacion": "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Efecto entre etapas",
+    "situacion": "Compras retrasa una entrega y el almacén no puede preparar un pedido completo.",
+    "pregunta": "¿Qué perspectiva permite analizar ambas consecuencias?",
     "correcta": "Enfoque sistémico",
     "incorrectas": [
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Análisis aislado de transporte",
+      "Revisión exclusiva de publicidad",
+      "Evaluación solo del precio de compra",
+      "Control únicamente contable",
+      "Análisis exclusivo de personal"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+    "pista": "SeguÍ la relación entre actividades.",
+    "explicacion": "El enfoque sistémico estudia cómo una etapa afecta a las demás y al resultado.",
     "libro": "clase2_conceptos"
   },
   {
     "id": "caso-clase2-2",
     "tipo": "caso",
-    "titulo": "Planeamiento logístico",
-    "situacion": "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Antes de una campaña",
+    "situacion": "Un equipo calcula capacidad, existencias y distribución antes de una promoción.",
+    "pregunta": "¿Qué está haciendo?",
     "correcta": "Planeamiento logístico",
     "incorrectas": [
-      "Enfoque sistémico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Solo registrando una entrega pasada",
+      "Solo evaluando publicidad",
+      "Eliminando la necesidad de proveedores",
+      "Realizando una devolución",
+      "Determinando el diseño del envase"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-    "libro": "clase2_conceptos"
+    "pista": "Se toman decisiones anticipadas sobre recursos y flujos.",
+    "explicacion": "Planear coordina abastecimiento, almacenamiento y distribución con demanda y servicio.",
+    "libro": "clase2_plan"
   },
   {
     "id": "caso-clase2-3",
     "tipo": "caso",
-    "titulo": "Servicio al cliente",
-    "situacion": "La empresa informa el estado de un pedido y responde ante una demora.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Aviso de demora",
+    "situacion": "Un pedido se retrasa y la empresa informa al cliente y ofrece una respuesta.",
+    "pregunta": "¿Qué aspecto atiende directamente?",
     "correcta": "Servicio al cliente",
     "incorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Disponibilidad",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Únicamente producción",
+      "Solo selección de proveedores",
+      "Diseño del producto",
+      "Solo compra de materias primas",
+      "Cierre del almacén"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-    "libro": "clase2_conceptos"
+    "pista": "El servicio también incluye información y atención de problemas.",
+    "explicacion": "Comunicar y responder ante una incidencia forma parte del servicio.",
+    "libro": "clase2_servicio"
   },
   {
     "id": "caso-clase2-4",
     "tipo": "caso",
-    "titulo": "Disponibilidad",
-    "situacion": "El artículo solicitado está en stock cuando llega el pedido.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Artículo disponible",
+    "situacion": "Una tienda puede atender un pedido porque cuenta con la referencia solicitada.",
+    "pregunta": "¿Qué condición se cumple en ese momento?",
     "correcta": "Disponibilidad",
     "incorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Entrega completa",
-      "Coordinación entre áreas"
+      "Entrega completa ya confirmada",
+      "Transporte finalizado",
+      "Devolución procesada",
+      "Promoción finalizada",
+      "Producción necesariamente propia"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-    "libro": "clase2_conceptos"
+    "pista": "Estar en stock y haber entregado son hechos distintos.",
+    "explicacion": "La disponibilidad permite atender el pedido, aunque aún falta cumplir la entrega.",
+    "libro": "clase2_servicio"
   },
   {
     "id": "caso-clase2-5",
     "tipo": "caso",
-    "titulo": "Entrega completa",
-    "situacion": "El cliente recibe todas las unidades y referencias que había comprado.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Faltan unidades",
+    "situacion": "Un cliente pidió diez unidades y recibe ocho en la fecha acordada.",
+    "pregunta": "¿Qué condición no se cumplió?",
     "correcta": "Entrega completa",
     "incorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Coordinación entre áreas"
+      "Puntualidad de la llegada",
+      "Recepción por el cliente",
+      "Existencia de una orden",
+      "Llegada en la fecha acordada",
+      "Comunicación del pedido inicial"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden.",
-    "libro": "clase2_conceptos"
+    "pista": "Compará la cantidad pedida con la recibida.",
+    "explicacion": "La entrega llegó a tiempo, pero no incluyó todas las unidades solicitadas.",
+    "libro": "clase2_servicio"
   },
   {
     "id": "caso-clase2-6",
     "tipo": "caso",
-    "titulo": "Coordinación entre áreas",
-    "situacion": "Ventas informa una promoción y compras ajusta el abastecimiento.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Promoción coordinada",
+    "situacion": "Ventas comunica una promoción y compras revisa el abastecimiento.",
+    "pregunta": "¿Qué práctica muestra el ejemplo?",
     "correcta": "Coordinación entre áreas",
     "incorrectas": [
-      "Enfoque sistémico",
-      "Planeamiento logístico",
-      "Servicio al cliente",
-      "Disponibilidad",
-      "Entrega completa"
+      "Aislamiento funcional",
+      "Reemplazo del inventario por publicidad",
+      "Eliminación del proveedor",
+      "Supresión del plan de ventas",
+      "Distribución inversa obligatoria"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones.",
+    "pista": "Observá cómo se comparte información entre funciones.",
+    "explicacion": "Coordinar permite ajustar el suministro a lo que ventas espera ofrecer.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "caso-clase2-7",
+    "tipo": "caso",
+    "titulo": "Costo trasladado",
+    "situacion": "Para ahorrar en transporte se despacha con menor frecuencia; aparecen faltantes.",
+    "pregunta": "¿Cómo debería evaluarse la medida?",
+    "correcta": "Comparando el ahorro con faltantes y efectos sobre el servicio",
+    "incorrectas": [
+      "Mirando solo la tarifa del transporte",
+      "Suponiendo que menos viajes siempre mejoran el servicio",
+      "Ignorando inventario y demanda",
+      "Comparando solo la publicidad",
+      "Tratando cada etapa como independiente"
+    ],
+    "pista": "Un ahorro local puede tener consecuencias en otros puntos.",
+    "explicacion": "El enfoque sistémico considera costos y resultados conjuntos, incluido el servicio.",
     "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-8",
+    "tipo": "caso",
+    "titulo": "Cambio de demanda",
+    "situacion": "Un producto comienza a venderse mucho más de lo previsto.",
+    "pregunta": "¿Cuándo corresponde revisar el plan logístico?",
+    "correcta": "Al detectar el cambio, considerando capacidad y abastecimiento",
+    "incorrectas": [
+      "Solo al terminar todos los contratos",
+      "Nunca, porque el plan inicial es definitivo",
+      "Solo después de perder todos los clientes",
+      "Únicamente si cambia el nombre del producto",
+      "Cuando ventas deje de compartir información"
+    ],
+    "pista": "Relacioná la planificación continua con un cambio relevante.",
+    "explicacion": "Una variación de demanda puede exigir ajustes de stock, compras y distribución.",
+    "libro": "clase2_plan"
+  },
+  {
+    "id": "caso-clase2-9",
+    "tipo": "caso",
+    "titulo": "Nueva zona",
+    "situacion": "La empresa decide vender en una región que antes no atendía.",
+    "pregunta": "¿Qué combinación necesita revisar?",
+    "correcta": "Cobertura, transporte, capacidad y servicio prometido",
+    "incorrectas": [
+      "Solo el color del uniforme",
+      "Únicamente las ventas del año anterior",
+      "Solo el número de proveedores actuales",
+      "Exclusivamente el nombre del depósito",
+      "Solo la cantidad de avisos publicados"
+    ],
+    "pista": "La zona nueva modifica destinos y requisitos de entrega.",
+    "explicacion": "El alcance geográfico afecta recursos de distribución, costos y plazos posibles.",
+    "libro": "clase2_plan"
+  },
+  {
+    "id": "caso-clase2-10",
+    "tipo": "caso",
+    "titulo": "Información de campaña",
+    "situacion": "Marketing prepara una promoción de un producto estacional.",
+    "pregunta": "¿Qué información debería compartir para apoyar el plan logístico?",
+    "correcta": "Fechas, productos y demanda prevista de la promoción",
+    "incorrectas": [
+      "Solo el diseño del aviso",
+      "Únicamente el nombre del diseñador",
+      "Solo el horario de una reunión interna",
+      "El domicilio personal del vendedor",
+      "Exclusivamente el lema de la campaña"
+    ],
+    "pista": "Compras y depósito necesitan anticipar qué se ofrecerá y cuándo.",
+    "explicacion": "La previsión y las fechas permiten contrastar existencias y capacidad con la campaña.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "caso-clase2-11",
+    "tipo": "caso",
+    "titulo": "Capacidad de producción",
+    "situacion": "Ventas prevé pedidos adicionales y producción informa capacidad limitada.",
+    "pregunta": "¿Qué respuesta coordina mejor el plan?",
+    "correcta": "Revisar conjuntamente cantidades, fechas y compromisos posibles",
+    "incorrectas": [
+      "Prometer toda la demanda sin consultar",
+      "Descartar el dato de producción",
+      "Eliminar los registros de stock",
+      "Suponer capacidad infinita",
+      "Informar únicamente a publicidad"
+    ],
+    "pista": "Confrontá la previsión comercial con la capacidad real.",
+    "explicacion": "La coordinación permite definir compromisos factibles y necesidades de recursos.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "caso-clase2-12",
+    "tipo": "caso",
+    "titulo": "Del plan a materiales",
+    "situacion": "La empresa relaciona el pronóstico de ventas con su plan de producción.",
+    "pregunta": "¿Qué herramienta mencionada en el material ayuda a planear necesidades de materiales?",
+    "correcta": "MRP",
+    "incorrectas": [
+      "Diseño de marca",
+      "Control exclusivo de vehículos",
+      "Publicidad de temporada",
+      "Registro de reclamos de clientes",
+      "Encuesta de satisfacción aislada"
+    ],
+    "pista": "Buscá la planificación vinculada con los materiales requeridos.",
+    "explicacion": "El MRP conecta las necesidades de materiales con el plan de producción.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "caso-clase2-13",
+    "tipo": "caso",
+    "titulo": "Pedido en preparación",
+    "situacion": "El proveedor recibió la orden, pero una referencia no está disponible.",
+    "pregunta": "¿Qué paso es coherente antes de comprometer el despacho completo?",
+    "correcta": "Verificar disponibilidad y coordinar una respuesta con el cliente",
+    "incorrectas": [
+      "Confirmar despacho completo sin comprobar",
+      "Eliminar la orden del registro",
+      "Cargar artículos distintos sin aviso",
+      "Declarar entregado el pedido",
+      "Ignorar la falta hasta después de la entrega"
+    ],
+    "pista": "El despacho depende de lo que realmente puede prepararse.",
+    "explicacion": "Revisar existencias y comunicar la incidencia evita promesas incompatibles con la situación.",
+    "libro": "clase2_distribucion"
+  },
+  {
+    "id": "caso-clase2-14",
+    "tipo": "caso",
+    "titulo": "Salida del sistema",
+    "situacion": "Una empresa analiza el recorrido desde pedidos y mercadería hasta la entrega.",
+    "pregunta": "En ese análisis, ¿qué puede considerarse una salida?",
+    "correcta": "El pedido entregado al cliente",
+    "incorrectas": [
+      "La orden recibida como entrada",
+      "La mercadería recibida como entrada",
+      "La preparación interna del pedido",
+      "La carga previa al transporte",
+      "El control interno de existencias"
+    ],
+    "pista": "Identificá el resultado que llega al destinatario.",
+    "explicacion": "El pedido entregado es un resultado del proceso; orden y mercadería alimentan el sistema.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-15",
+    "tipo": "caso",
+    "titulo": "Aprender de reclamos",
+    "situacion": "Se repiten reclamos por cajas dañadas y el equipo investiga la carga.",
+    "pregunta": "¿Qué papel cumplen los reclamos en el análisis?",
+    "correcta": "Retroalimentación para revisar y corregir el proceso",
+    "incorrectas": [
+      "Prueba de que el transporte es innecesario",
+      "Garantía de ventas futuras",
+      "Sustituto del control de preparación",
+      "Confirmación de que todas las entregas fueron perfectas",
+      "Dato irrelevante para la logística"
+    ],
+    "pista": "Pensá cómo una salida observada informa decisiones posteriores.",
+    "explicacion": "Los reclamos aportan información para investigar causas y mejorar el proceso.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "caso-clase2-16",
+    "tipo": "caso",
+    "titulo": "Entrega y reputación",
+    "situacion": "Un comercio recibe pedidos tardíos repetidamente y empieza a comprar a otro proveedor.",
+    "pregunta": "¿Qué relación ilustra el caso?",
+    "correcta": "El incumplimiento del servicio puede afectar ventas futuras",
+    "incorrectas": [
+      "La puntualidad no influye en la confianza",
+      "Los retrasos garantizan fidelidad",
+      "El servicio termina al emitir la factura",
+      "La publicidad elimina todos los faltantes",
+      "Las ventas nunca dependen de la disponibilidad"
+    ],
+    "pista": "Considerá la experiencia del cliente y su decisión posterior.",
+    "explicacion": "Las demoras pueden deteriorar la confianza y provocar pérdida de ventas.",
+    "libro": "clase2_servicio"
+  },
+  {
+    "id": "caso-clase2-17",
+    "tipo": "caso",
+    "titulo": "Producto equivocado",
+    "situacion": "Un pedido llega puntual y completo en cantidad, pero contiene otra referencia.",
+    "pregunta": "¿Qué conclusión es correcta?",
+    "correcta": "Cumple plazo y cantidad, pero falla la exactitud del producto",
+    "incorrectas": [
+      "Cumple todas las condiciones del pedido",
+      "Es necesariamente una devolución",
+      "No hubo transporte",
+      "La disponibilidad ya no importa",
+      "La cantidad recibida demuestra que la referencia es correcta"
+    ],
+    "pista": "Evaluá por separado plazo, cantidad y producto.",
+    "explicacion": "El servicio incluye entregar la referencia acordada además de cumplir plazo y cantidad.",
+    "libro": "clase2_servicio"
+  },
+  {
+    "id": "caso-clase2-18",
+    "tipo": "caso",
+    "titulo": "Costo y recursos",
+    "situacion": "Logística propone ampliar capacidad de almacenamiento para una campaña.",
+    "pregunta": "¿Por qué debe intervenir finanzas en la planificación?",
+    "correcta": "Para considerar recursos y costos de la alternativa",
+    "incorrectas": [
+      "Para sustituir toda previsión de ventas",
+      "Para garantizar demanda sin incertidumbre",
+      "Para despachar físicamente todos los pedidos",
+      "Para decidir sola las referencias de cada cliente",
+      "Para evitar evaluar otras áreas"
+    ],
+    "pista": "La propuesta compromete recursos de la empresa.",
+    "explicacion": "Finanzas aporta información sobre recursos y costos para evaluar la viabilidad.",
+    "libro": "clase2_areas"
   }
 ]

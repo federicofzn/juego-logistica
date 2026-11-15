@@ -1,50 +1,122 @@
 [
   {
     "id": "def-clase5-1",
-    "grupo": "conceptos",
+    "grupo": "almacenaje",
     "termino": "Estantería",
-    "definicion": "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-    "ejemplo": "Un depósito guarda pallets en posiciones distribuidas en altura.",
-    "libro": "clase5_conceptos"
+    "definicion": "Estructura que organiza mercancías en posiciones y niveles.",
+    "ejemplo": "Se asignan posiciones en altura a pallets.",
+    "libro": "clase5_estanterias"
   },
   {
     "id": "def-clase5-2",
-    "grupo": "conceptos",
+    "grupo": "manipuleo",
     "termino": "Equipo de manipuleo",
-    "definicion": "Equipo utilizado para elevar, mover o posicionar cargas.",
-    "ejemplo": "Una transpaleta traslada un pallet entre dos sectores.",
-    "libro": "clase5_conceptos"
+    "definicion": "Equipo para elevar, transportar o posicionar cargas.",
+    "ejemplo": "Una transpaleta traslada un pallet.",
+    "libro": "clase5_equipos"
   },
   {
     "id": "def-clase5-3",
-    "grupo": "conceptos",
+    "grupo": "almacenaje",
     "termino": "Accesibilidad",
-    "definicion": "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-    "ejemplo": "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
-    "libro": "clase5_conceptos"
+    "definicion": "Facilidad para alcanzar y recuperar una referencia almacenada.",
+    "ejemplo": "Se comprueba si puede retirarse una caja sin mover otras.",
+    "libro": "clase5_estanterias"
   },
   {
     "id": "def-clase5-4",
-    "grupo": "conceptos",
+    "grupo": "almacenaje",
     "termino": "Capacidad de almacenamiento",
-    "definicion": "Cantidad de mercancía o posiciones que una instalación puede alojar.",
-    "ejemplo": "El responsable calcula cuántos pallets caben en las estanterías.",
-    "libro": "clase5_conceptos"
+    "definicion": "Cantidad de mercancía o posiciones que puede alojar una instalación.",
+    "ejemplo": "Se cuentan las posiciones disponibles para pallets.",
+    "libro": "clase5_estanterias"
   },
   {
     "id": "def-clase5-5",
-    "grupo": "conceptos",
+    "grupo": "flujo",
     "termino": "Manejo de materiales",
-    "definicion": "Conjunto de movimientos internos de productos durante la operación.",
-    "ejemplo": "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
-    "libro": "clase5_conceptos"
+    "definicion": "Conjunto de movimientos internos de productos.",
+    "ejemplo": "Una carga pasa de recepción a su ubicación.",
+    "libro": "clase5_flujo"
   },
   {
     "id": "def-clase5-6",
-    "grupo": "conceptos",
+    "grupo": "manipuleo",
     "termino": "Pasillo de trabajo",
-    "definicion": "Espacio de circulación necesario para personas o equipos entre ubicaciones.",
-    "ejemplo": "Se verifica que la máquina pueda maniobrar entre dos estanterías.",
-    "libro": "clase5_conceptos"
+    "definicion": "Espacio de circulación y maniobra entre ubicaciones.",
+    "ejemplo": "Se verifica que el equipo pueda girar con su carga.",
+    "libro": "clase5_equipos"
+  },
+  {
+    "id": "def-clase5-7",
+    "grupo": "carga",
+    "termino": "Unidad de carga",
+    "definicion": "Productos dispuestos para ser manipulados como una unidad.",
+    "ejemplo": "Varias cajas se agrupan sobre un pallet.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "def-clase5-8",
+    "grupo": "carga",
+    "termino": "Elemento auxiliar de carga",
+    "definicion": "Recurso que ayuda a conformar, proteger o estabilizar una unidad.",
+    "ejemplo": "Un elemento de sujeción mantiene juntas las cajas.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "def-clase5-9",
+    "grupo": "carga",
+    "termino": "Estabilidad de carga",
+    "definicion": "Condición por la que los productos agrupados se mantienen seguros al manipularlos.",
+    "ejemplo": "Las cajas no se desplazan al trasladar el pallet.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "def-clase5-10",
+    "grupo": "almacenaje",
+    "termino": "Rotación",
+    "definicion": "Frecuencia con que una referencia se mueve o renueva.",
+    "ejemplo": "Se considera la frecuencia de salida al asignar una ubicación.",
+    "libro": "clase5_estanterias"
+  },
+  {
+    "id": "def-clase5-11",
+    "grupo": "flujo",
+    "termino": "Reposición",
+    "definicion": "Traslado de mercancía para abastecer una ubicación de trabajo.",
+    "ejemplo": "Se lleva producto a una posición de preparación.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "def-clase5-12",
+    "grupo": "flujo",
+    "termino": "Preparación de pedidos",
+    "definicion": "Recolección y agrupación de artículos para atender órdenes.",
+    "ejemplo": "Se reúnen las cajas solicitadas antes del embalaje.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "def-clase5-13",
+    "grupo": "manipuleo",
+    "termino": "Altura de trabajo",
+    "definicion": "Altura a la que el equipo debe ubicar o recuperar la carga.",
+    "ejemplo": "Se comprueba el alcance frente a la estantería.",
+    "libro": "clase5_equipos"
+  },
+  {
+    "id": "def-clase5-14",
+    "grupo": "carga",
+    "termino": "Identificación de carga",
+    "definicion": "Información que permite reconocer una unidad y su contenido.",
+    "ejemplo": "Una etiqueta visible distingue un pallet de otro.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "def-clase5-15",
+    "grupo": "flujo",
+    "termino": "Despacho",
+    "definicion": "Etapa de salida de pedidos preparados hacia su distribución.",
+    "ejemplo": "Los pedidos embalados se envían al sector de salida.",
+    "libro": "clase5_flujo"
   }
 ]

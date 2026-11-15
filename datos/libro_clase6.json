@@ -5,26 +5,96 @@
   },
   "entradas": {
     "clase6_conceptos": {
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "El picking recoge y combina productos para pedidos de clientes o necesidades de producción."
       ],
       "notas": [
-        "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-        "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
-        "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
-        "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar.",
-        "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-        "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación."
+        "En persona a producto el operario se desplaza; en producto a persona el sistema acerca la mercancía.",
+        "La preparación se relaciona con la reposición, el embalaje y la expedición.",
+        "La elección depende de referencias, rotación, pedidos, producto, espacio y servicio."
       ],
       "ejemplos": [
-        "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
-        "Un transportador lleva una caja al puesto donde espera el operario.",
-        "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
-        "Una señal luminosa guía la extracción en un estante.",
-        "Un indicador señala el contenedor donde colocar artículos para una orden.",
-        "Varias órdenes se agrupan en una tanda para coordinar recorridos."
+        "Un operario recorre ubicaciones; en otro diseño, un transportador lleva cajas a su puesto."
+      ]
+    },
+    "clase6_organizacion": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "intro": [
+        "Organizar el picking exige evaluar operación, servicio e inversión."
+      ],
+      "notas": [
+        "Un SGA puede ordenar ubicaciones y recorridos; agrupar pedidos por olas ayuda a coordinar la preparación.",
+        "Las ubicaciones y la reposición influyen en búsquedas, desplazamientos e interrupciones.",
+        "Un método manual puede exigir menos inversión inicial, pero generar recorridos y manipulación costosos.",
+        "La automatización exige comparar adquisición, implantación y operación con la capacidad y el servicio esperados."
+      ],
+      "ejemplos": [
+        "Varias órdenes se agrupan para recorrer una zona y luego separar los artículos por pedido."
+      ]
+    },
+    "clase6_tecnologias": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "intro": [
+        "Los soportes de información guían ubicación, cantidad y destino de los artículos."
+      ],
+      "notas": [
+        "Papel, pantalla, radiofrecuencia y voz pueden transmitir instrucciones; la voz permite confirmar datos oralmente.",
+        "Pick to light señala dónde y cuánto retirar; put to light indica dónde y cuánto depositar para cada pedido.",
+        "Identificación, cantidades y confirmaciones mantienen coherentes la orden y las existencias."
+      ],
+      "ejemplos": [
+        "Una luz en la ubicación guía la extracción y otra en un contenedor puede guiar la distribución por pedido."
+      ]
+    },
+    "clase6_alturas": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "intro": [
+        "La altura modifica el uso del espacio, los equipos necesarios y el tiempo de acceso."
+      ],
+      "notas": [
+        "A nivel del suelo se extrae de cargas completas; la superficie limita las referencias disponibles.",
+        "En niveles bajos el operario accede a pie o con preparadora de bajo nivel; una zona exclusiva necesita reposición desde reserva.",
+        "Los niveles medios aprovechan más altura con equipos adecuados; en niveles altos la elevación y el descenso pueden reducir la velocidad."
+      ],
+      "ejemplos": [
+        "Una ubicación baja se repone desde reserva para evitar que se interrumpa la preparación."
+      ]
+    },
+    "clase6_sistemas": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "intro": [
+        "La unidad a extraer y la variedad de artículos orientan el sistema de almacenamiento y preparación."
+      ],
+      "notas": [
+        "Las estanterías dinámicas acercan pallets o cajas por canales de rodillos y pueden separar reposición y picking.",
+        "Clasimat acerca bandejas almacenadas en altura; Spinblock mueve horizontalmente estanterías o contenedores al puesto.",
+        "Un miniload usa un transelevador para almacenar y recuperar cajas o bandejas que pueden enviarse a preparación.",
+        "Los pasillos estrechos requieren equipos, guiado y maniobras compatibles y seguros."
+      ],
+      "ejemplos": [
+        "Para piezas pequeñas se comparan acceso manual, canales dinámicos y sistemas automáticos según espacio y rotación."
+      ]
+    },
+    "clase6_expedicion": {
+      "categoria": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "intro": [
+        "La preparación continúa con controles, embalaje, clasificación y entrega a la distribución."
+      ],
+      "notas": [
+        "La orden necesita referencias, cantidades y ubicaciones; el embalaje protege e identifica la carga.",
+        "Al agrupar pedidos, separar los artículos evita asignaciones equivocadas.",
+        "En el caso de clasificación, las etiquetas ilegibles se derivan a revisión y reetiquetado.",
+        "La clasificación por destino y la información actualizada conectan almacén y transporte."
+      ],
+      "ejemplos": [
+        "Una caja con etiqueta ilegible se revisa y reetiqueta antes de asignarle una salida."
       ]
     }
   }

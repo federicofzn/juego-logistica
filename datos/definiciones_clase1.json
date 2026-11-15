@@ -1,50 +1,122 @@
 [
   {
     "id": "def-clase1-1",
-    "grupo": "conceptos",
+    "grupo": "fundamentos",
     "termino": "Logística",
-    "definicion": "Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-    "ejemplo": "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
+    "definicion": "Planificación, ejecución y control del flujo y almacenamiento de bienes e información para atender requisitos del cliente.",
+    "ejemplo": "Una firma coordina stock, depósito y transporte.",
     "libro": "clase1_conceptos"
   },
   {
     "id": "def-clase1-2",
-    "grupo": "conceptos",
+    "grupo": "fundamentos",
     "termino": "Cadena de suministro",
-    "definicion": "Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-    "ejemplo": "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
+    "definicion": "Conjunto de actores y procesos vinculados desde los insumos hasta el cliente final.",
+    "ejemplo": "Un fabricante coordina proveedores, producción y distribuidores.",
     "libro": "clase1_conceptos"
   },
   {
     "id": "def-clase1-3",
-    "grupo": "conceptos",
+    "grupo": "operaciones",
     "termino": "Administración de materiales",
-    "definicion": "Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-    "ejemplo": "Se coordinan compras, recepción y almacenamiento de materias primas.",
-    "libro": "clase1_conceptos"
+    "definicion": "Gestión del abastecimiento, recepción y movimiento de materiales necesarios para producir o prestar servicios.",
+    "ejemplo": "Una planta recibe y almacena harina para elaborar pan.",
+    "libro": "clase1_flujos"
   },
   {
     "id": "def-clase1-4",
-    "grupo": "conceptos",
+    "grupo": "operaciones",
     "termino": "Distribución física",
-    "definicion": "Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-    "ejemplo": "Un depósito prepara productos terminados para enviarlos a los comercios.",
-    "libro": "clase1_conceptos"
+    "definicion": "Gestión del almacenamiento y movimiento de productos terminados hacia los clientes.",
+    "ejemplo": "Un depósito prepara y despacha productos a comercios.",
+    "libro": "clase1_flujos"
   },
   {
     "id": "def-clase1-5",
-    "grupo": "conceptos",
+    "grupo": "retornos",
     "termino": "Logística inversa",
-    "definicion": "Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-    "ejemplo": "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
-    "libro": "clase1_conceptos"
+    "definicion": "Gestión del retorno de productos, envases o materiales para su tratamiento o destino adecuado.",
+    "ejemplo": "Un comercio recibe equipos defectuosos y los envía a reparar.",
+    "libro": "clase1_inversa"
   },
   {
     "id": "def-clase1-6",
-    "grupo": "conceptos",
+    "grupo": "servicio",
     "termino": "Nivel de servicio",
-    "definicion": "Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente.",
-    "ejemplo": "Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
+    "definicion": "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
+    "ejemplo": "Una empresa revisa si los pedidos llegan completos y a tiempo.",
+    "libro": "clase1_areas"
+  },
+  {
+    "id": "def-clase1-7",
+    "grupo": "fundamentos",
+    "termino": "Flujo de información",
+    "definicion": "Circulación de datos que permite coordinar decisiones y operaciones de la cadena.",
+    "ejemplo": "Ventas comunica una promoción al equipo de abastecimiento.",
     "libro": "clase1_conceptos"
+  },
+  {
+    "id": "def-clase1-8",
+    "grupo": "operaciones",
+    "termino": "Aprovisionamiento",
+    "definicion": "Actividades orientadas a obtener los bienes y recursos necesarios para operar.",
+    "ejemplo": "Compras y logística acuerdan y reciben componentes para la fábrica.",
+    "libro": "clase1_fases"
+  },
+  {
+    "id": "def-clase1-9",
+    "grupo": "operaciones",
+    "termino": "Almacenamiento",
+    "definicion": "Conservación y organización de bienes en un espacio para atender necesidades posteriores.",
+    "ejemplo": "Un almacén guarda productos terminados hasta preparar pedidos.",
+    "libro": "clase1_flujos"
+  },
+  {
+    "id": "def-clase1-10",
+    "grupo": "operaciones",
+    "termino": "Preparación de pedidos",
+    "definicion": "Selección y acondicionamiento de los artículos requeridos por cada orden.",
+    "ejemplo": "El depósito reúne las referencias solicitadas por una tienda.",
+    "libro": "clase1_flujos"
+  },
+  {
+    "id": "def-clase1-11",
+    "grupo": "retornos",
+    "termino": "Reutilización",
+    "definicion": "Nuevo uso de un producto o material recuperado cuando su estado lo permite.",
+    "ejemplo": "Una empresa controla y vuelve a usar envases retornados.",
+    "libro": "clase1_inversa"
+  },
+  {
+    "id": "def-clase1-12",
+    "grupo": "retornos",
+    "termino": "Reciclaje",
+    "definicion": "Tratamiento de materiales recuperados para que puedan emplearse nuevamente como materia.",
+    "ejemplo": "Una firma separa materiales devueltos y los deriva a reciclaje.",
+    "libro": "clase1_inversa"
+  },
+  {
+    "id": "def-clase1-13",
+    "grupo": "servicio",
+    "termino": "Disponibilidad",
+    "definicion": "Posibilidad de contar con el producto solicitado cuando se necesita.",
+    "ejemplo": "Un comercio tiene stock de la referencia pedida.",
+    "libro": "clase1_areas"
+  },
+  {
+    "id": "def-clase1-14",
+    "grupo": "servicio",
+    "termino": "Recepción",
+    "definicion": "Ingreso y control de bienes que llegan al almacén u otra instalación.",
+    "ejemplo": "El depósito verifica cantidades al recibir un envío del proveedor.",
+    "libro": "clase1_flujos"
+  },
+  {
+    "id": "def-clase1-15",
+    "grupo": "servicio",
+    "termino": "Coordinación con ventas",
+    "definicion": "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias.",
+    "ejemplo": "Ventas consulta cobertura y stock antes de anunciar entregas.",
+    "libro": "clase1_areas"
   }
 ]

@@ -32,170 +32,626 @@
   "entradas": {
     "clase1_conceptos": {
       "unidad": "clase1",
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "categoria": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "La logística coordina flujos para satisfacer los requisitos del cliente, desde el origen hasta el consumo."
       ],
       "notas": [
-        "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-        "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-        "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-        "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-        "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-        "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+        "Incluye planificar, ejecutar y controlar movimiento, almacenamiento e información; no se limita al transporte.",
+        "La cadena de suministro abarca además las relaciones y procesos de proveedores, fabricación, distribución, ventas y clientes.",
+        "La logística es parte de esa cadena más amplia y conecta la producción con el mercado."
       ],
       "ejemplos": [
-        "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
-        "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
-        "Se coordinan compras, recepción y almacenamiento de materias primas.",
-        "Un depósito prepara productos terminados para enviarlos a los comercios.",
-        "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
-        "Una empresa mide si entrega los pedidos completos y en el plazo prometido."
+        "Una fábrica coordina inventario y transporte; su cadena también incluye proveedores y comercios."
+      ]
+    },
+    "clase1_flujos": {
+      "unidad": "clase1",
+      "categoria": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "intro": [
+        "Dos grandes divisiones permiten analizar distintos momentos del flujo."
+      ],
+      "notas": [
+        "La administración de materiales comprende abastecimiento, recepción, inventario y movimiento de insumos hacia la producción o el servicio.",
+        "La distribución física organiza almacenamiento, preparación y transporte de productos terminados hacia los clientes.",
+        "El almacén recibe y controla mercadería, conserva existencias y prepara y despacha pedidos."
+      ],
+      "ejemplos": [
+        "Una panificadora recibe harina para elaborar y después despacha pan a comercios."
+      ]
+    },
+    "clase1_fases": {
+      "unidad": "clase1",
+      "categoria": "Operaciones",
+      "titulo": "Fases y tipos de organización",
+      "intro": [
+        "Las actividades concretas dependen de lo que hace cada organización."
+      ],
+      "notas": [
+        "En una fabricante se distinguen aprovisionamiento, producción y distribución.",
+        "Una comercializadora compra productos terminados y puede almacenarlos y consolidarlos antes de distribuirlos; no necesita fabricarlos.",
+        "Las cadenas de servicios dependen especialmente de las personas y pueden organizarse de modo diferente de las industriales."
+      ],
+      "ejemplos": [
+        "Un distribuidor reúne productos terminados de varios proveedores antes de enviarlos a tiendas."
+      ]
+    },
+    "clase1_inversa": {
+      "unidad": "clase1",
+      "categoria": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "intro": [
+        "El flujo también puede partir del consumo y dirigirse hacia una recuperación o destino adecuado."
+      ],
+      "notas": [
+        "Una devolución puede llevar a reparación, reutilización, reciclaje, refabricación o eliminación adecuada según el caso.",
+        "Recuperar componentes o envases puede conservar valor y reducir residuos, pero exige organizar y costear el retorno.",
+        "La logística ambiental busca disminuir impactos; la inversa es una vía posible, no una garantía de recuperación en todos los casos."
+      ],
+      "ejemplos": [
+        "Un comercio recibe un equipo averiado y lo deriva a diagnóstico y reparación."
+      ]
+    },
+    "clase1_areas": {
+      "unidad": "clase1",
+      "categoria": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "intro": [
+        "Las decisiones comerciales y de abastecimiento deben coordinarse con las capacidades logísticas."
+      ],
+      "notas": [
+        "Compras acuerda proveedores, cantidades y condiciones; logística coordina recepción, transporte, inventario y almacenamiento.",
+        "Ventas y marketing necesitan conocer disponibilidad, cobertura y plazos antes de prometer una entrega.",
+        "Un pedido correcto, completo y en condiciones favorece la satisfacción; faltantes o demoras pueden perjudicar ventas e imagen."
+      ],
+      "ejemplos": [
+        "Antes de una promoción, ventas consulta el stock y compras coordina reposición y fechas con el proveedor."
       ]
     },
     "clase2_conceptos": {
       "unidad": "clase2",
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
+      "categoria": "Sistema",
+      "titulo": "La logística como sistema",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "Un sistema logístico reúne actividades relacionadas que persiguen un resultado común."
       ],
       "notas": [
-        "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-        "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-        "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-        "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-        "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden.",
-        "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+        "Compras, inventario, almacenamiento, transporte y distribución se afectan mutuamente.",
+        "Pueden analizarse entradas, procesos, salidas, entorno y retroalimentación para comprender el conjunto.",
+        "Reducir un costo aislado no asegura el mejor resultado si provoca faltantes, demoras o costos en otra etapa."
       ],
       "ejemplos": [
-        "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
-        "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
-        "La empresa informa el estado de un pedido y responde ante una demora.",
-        "El artículo solicitado está en stock cuando llega el pedido.",
-        "El cliente recibe todas las unidades y referencias que había comprado.",
-        "Ventas informa una promoción y compras ajusta el abastecimiento."
+        "Un despacho más económico puede generar faltantes si su frecuencia no acompaña la demanda."
+      ]
+    },
+    "clase2_plan": {
+      "unidad": "clase2",
+      "categoria": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "intro": [
+        "Planear es decidir cómo abastecer, almacenar y distribuir en función de la demanda y del servicio buscado."
+      ],
+      "notas": [
+        "Se consideran recursos, capacidad, costos, plazos y alternativas de distribución.",
+        "El plan debe revisarse cuando cambian demanda, productos, proveedores, capacidad, costos, mercado o expectativas de servicio.",
+        "Planificar conecta los objetivos de la empresa con decisiones operativas realizables."
+      ],
+      "ejemplos": [
+        "Ante una nueva zona de ventas, el equipo revisa cobertura, transporte y capacidad de entrega."
+      ]
+    },
+    "clase2_areas": {
+      "unidad": "clase2",
+      "categoria": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "intro": [
+        "La planificación requiere información compartida y decisiones compatibles entre funciones."
+      ],
+      "notas": [
+        "Ventas y marketing aportan previsiones, promociones y necesidades de los clientes; compras coordina fuentes y fechas de suministro.",
+        "Producción, inventarios, almacén y transporte informan capacidades y restricciones; finanzas considera recursos y costos.",
+        "El material relaciona pronóstico y plan de ventas con el plan maestro de producción y la planificación de necesidades de materiales (MRP)."
+      ],
+      "ejemplos": [
+        "Una campaña se contrasta con existencias y capacidad antes de fijar compromisos de entrega."
+      ]
+    },
+    "clase2_distribucion": {
+      "unidad": "clase2",
+      "categoria": "Distribución",
+      "titulo": "Del pedido a la entrega",
+      "intro": [
+        "El recorrido de distribución debe coordinarse desde la orden y la disponibilidad hasta la entrega."
+      ],
+      "notas": [
+        "El proveedor recibe la orden y programa el despacho según disponibilidad.",
+        "Preparación, carga, transporte y entrega se enlazan: una falla temprana puede afectar el resultado final.",
+        "La información sobre incidencias permite corregir el proceso y comunicar al cliente."
+      ],
+      "ejemplos": [
+        "Si falta una referencia al preparar el pedido, el equipo revisa el abastecimiento y avisa el cambio."
+      ]
+    },
+    "clase2_servicio": {
+      "unidad": "clase2",
+      "categoria": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "intro": [
+        "El servicio comprende lo que ocurre antes, durante y después de la compra."
+      ],
+      "notas": [
+        "Disponibilidad, información, plazo, cantidad, producto correcto y estado de entrega son dimensiones diferentes del servicio.",
+        "Una entrega puntual puede estar incompleta; debe evaluarse más de una condición.",
+        "Cumplir lo pactado y responder a problemas favorece confianza y recompra; incumplir puede causar reclamos y pérdida de ventas."
+      ],
+      "ejemplos": [
+        "Un pedido llega a horario pero con unidades faltantes: es puntual, aunque no completo."
       ]
     },
     "clase3_conceptos": {
       "unidad": "clase3",
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
+      "categoria": "Clase 3",
+      "titulo": "Función y clases de almacén",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "El almacén es un nodo que recibe, controla, conserva y entrega mercancías, conectando proveedores, producción, distribución y clientes.",
+        "Puede clasificarse por función, tipo de mercancía, sistema de almacenamiento o grado de automatización."
       ],
       "notas": [
-        "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
-        "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
-        "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-        "Picking: Selección de los artículos necesarios para preparar un pedido.",
-        "Expedición: Etapa en que los pedidos preparados se organizan para su salida.",
-        "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+        "Un depósito de materias primas abastece producción; uno de terminados conserva lo producido antes de su distribución.",
+        "Uno de tránsito participa en el movimiento de mercancías, mientras uno de distribución organiza su entrega."
       ],
       "ejemplos": [
-        "Un operario verifica los artículos que acaban de llegar del proveedor.",
-        "El sistema registra en qué estante se colocó una pieza.",
-        "Se lleva una caja desde la reserva a un estante de preparación.",
-        "Un operario reúne las referencias y cantidades que solicitó un cliente.",
-        "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
-        "Una aplicación indica dónde guardar y localizar cada artículo."
+        "Una fábrica separa los insumos que recibe de los productos terminados listos para distribuir."
+      ]
+    },
+    "clase3_operaciones": {
+      "unidad": "clase3",
+      "categoria": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "intro": [
+        "Las actividades del depósito forman una secuencia coordinada: el control de entrada precede a la ubicación, y la preparación de pedidos a la expedición."
+      ],
+      "notas": [
+        "Recepción verifica la mercancía que llega; ubicación asigna y registra dónde queda.",
+        "Reposición lleva existencias hacia el punto de preparación; consolidación reúne lo recogido para completar una orden.",
+        "Expedición controla y organiza la salida hacia el destino correspondiente."
+      ],
+      "ejemplos": [
+        "Una caja pasa de recepción a reserva; luego se repone el sector de picking y se reúne con otros artículos de un pedido."
+      ]
+    },
+    "clase3_diseno": {
+      "unidad": "clase3",
+      "categoria": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "intro": [
+        "Proyectar un almacén implica relacionar características de la mercancía y demanda con espacio, equipos, seguridad y circulación."
+      ],
+      "notas": [
+        "Importan volumen, peso, dimensiones, rotación y condiciones de conservación.",
+        "Los flujos pueden ser lineales, en U, L o T, según la disposición de las áreas; la elección depende del edificio y la operación.",
+        "Reducir cruces, retrocesos, esperas y manipulaciones innecesarias favorece recorridos ordenados."
+      ],
+      "ejemplos": [
+        "Si recepción y expedición están próximas, se puede evaluar un flujo en U teniendo en cuenta los muelles y el volumen."
+      ]
+    },
+    "clase3_picking": {
+      "unidad": "clase3",
+      "categoria": "Clase 3",
+      "titulo": "Preparación y control del pedido",
+      "intro": [
+        "Picking es localizar y retirar las referencias y cantidades solicitadas, para llevarlas a consolidación o embalaje."
+      ],
+      "notas": [
+        "La exactitud de referencias y cantidades importa tanto como el tiempo de preparación y el estado de la mercancía.",
+        "Una ubicación identificada y una reposición oportuna ayudan a que el operario encuentre lo solicitado."
+      ],
+      "ejemplos": [
+        "Un pedido requiere dos referencias: se localizan, se comprueban las cantidades y se reúnen antes de expedir."
+      ]
+    },
+    "clase3_informacion": {
+      "unidad": "clase3",
+      "categoria": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "intro": [
+        "El control físico necesita información confiable: no alcanza con saber que existe una pieza si se desconoce dónde está o qué movimiento tuvo."
+      ],
+      "notas": [
+        "Se gestionan existencias, ubicaciones, movimientos, pedidos y recursos de trabajo.",
+        "Un sistema de gestión de almacenes puede guiar tareas y registrar movimientos; la trazabilidad relaciona producto, ubicación, cantidad y estado.",
+        "Registrar cambios de ubicación ayuda a evitar diferencias entre el inventario y la realidad."
+      ],
+      "ejemplos": [
+        "En el caso del depósito de repuestos, el sistema ayuda a localizar una pieza entre muchas referencias y preparar el pedido."
       ]
     },
     "clase4_conceptos": {
       "unidad": "clase4",
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
+      "categoria": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "Una unidad de carga agrupa mercancías para manipularlas como un conjunto en almacenamiento, carga, transporte y descarga."
       ],
       "notas": [
-        "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
-        "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-        "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
-        "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
-        "Consolidación: Reunión de productos para completar un pedido o envío.",
-        "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas."
+        "La unidad reúne producto, embalaje y medios para mantener el conjunto estable; debe ser compatible con el equipo que lo manipulará.",
+        "Un pallet es una plataforma que puede servir de base para agrupar mercancías; no es sinónimo de toda la carga.",
+        "Una unidad mal conformada puede provocar daños, demoras y movimientos adicionales."
       ],
       "ejemplos": [
-        "Varias cajas se agrupan de forma estable para moverlas juntas.",
-        "Se asegura un pallet para evitar que las cajas se desplacen.",
-        "Un equipo eleva una plataforma cargada con cajas.",
-        "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
-        "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
-        "Un transelevador lleva cajas almacenadas hasta una zona de preparación."
+        "Varias cajas se agrupan sobre un pallet y se aseguran para trasladarlas juntas."
+      ]
+    },
+    "clase4_diseno": {
+      "unidad": "clase4",
+      "categoria": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "intro": [
+        "La elección de la unidad de carga y la del sistema de almacenamiento están relacionadas."
+      ],
+      "notas": [
+        "Dimensiones, peso y estabilidad condicionan estanterías, equipos y pasillos.",
+        "El embalaje debe proteger el producto y la conformación de la unidad evitar desplazamientos durante el manejo.",
+        "El modo de acceso también importa: preparar unidades individuales no plantea exactamente la misma necesidad que mover una carga agrupada."
+      ],
+      "ejemplos": [
+        "Antes de elegir una estantería, se revisan las dimensiones de la carga y cómo podrá manipularla el equipo disponible."
+      ]
+    },
+    "clase4_rotacion": {
+      "unidad": "clase4",
+      "categoria": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "intro": [
+        "La frecuencia de movimiento de cada referencia y el tipo de pedido ayudan a organizar las zonas de trabajo."
+      ],
+      "notas": [
+        "Rotación es la frecuencia con que un producto sale o se mueve en el almacén.",
+        "El picking reúne las referencias y cantidades solicitadas; la reposición mantiene disponible la mercancía para prepararlas.",
+        "La consolidación reúne los artículos de una misma orden antes de la salida."
+      ],
+      "ejemplos": [
+        "Una orden con artículos de distintas zonas necesita reunirlos antes de embalarla y expedirla."
+      ]
+    },
+    "clase4_decasa": {
+      "unidad": "clase4",
+      "categoria": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "intro": [
+        "El caso DECASA presenta un centro de distribución de productos de consumo que combina sistemas para distintas necesidades."
+      ],
+      "notas": [
+        "Incluye un almacén automático autoportante, Pallet Shuttle, torres de picking y clasificador de pedidos.",
+        "Un sistema de gestión coordina las operaciones; combinar zonas y equipos permite atender mercancías de distintas dimensiones y demandas.",
+        "La automatización necesita integrarse con ubicaciones, flujos e inventario."
+      ],
+      "ejemplos": [
+        "En lugar de asignar todas las referencias a un único tratamiento, el centro combina sectores de almacenamiento y preparación."
+      ]
+    },
+    "clase4_cofan": {
+      "unidad": "clase4",
+      "categoria": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "intro": [
+        "El centro de COFAN organiza áreas según características y rotación de los productos y atiende pedidos de comercio electrónico."
+      ],
+      "notas": [
+        "El caso incluye almacenamiento convencional, picking manual y un almacén automático miniload.",
+        "Un circuito de transportadores conecta puestos de preparación, embalaje, pesaje y clasificación.",
+        "Muchos pedidos con pocas líneas exigen accesibilidad, reposición y coordinación entre preparación, consolidación y expedición."
+      ],
+      "ejemplos": [
+        "Artículos preparados en diferentes sectores se reúnen para completar una orden antes de su salida."
+      ]
+    },
+    "clase4_sistemas": {
+      "unidad": "clase4",
+      "categoria": "Clase 4",
+      "titulo": "Sistemas y coordinación",
+      "intro": [
+        "Los sistemas de almacenaje y preparación responden a necesidades diferentes; su elección debe acompañar el diseño de la operación."
+      ],
+      "notas": [
+        "Un miniload automatiza el almacenamiento y la recuperación de cajas o bandejas.",
+        "Pallet Shuttle, torres de picking, transportadores y clasificación aparecen combinados con otros recursos en los casos estudiados.",
+        "La información y las ubicaciones deben acompañar el movimiento físico: automatizar un sector no elimina la necesidad de control."
+      ],
+      "ejemplos": [
+        "Una caja recuperada por miniload todavía debe integrarse al pedido correcto y seguir el flujo hacia su salida."
       ]
     },
     "clase5_conceptos": {
       "unidad": "clase5",
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Almacenaje como sistema",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "La solución de almacenaje vincula productos, unidades de carga, espacio, equipos y servicio."
       ],
       "notas": [
-        "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-        "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
-        "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-        "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar.",
-        "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación.",
-        "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones."
+        "La elección depende de las referencias, su rotación y la forma en que se las recupera.",
+        "La capacidad debe analizarse junto con la accesibilidad y la seguridad.",
+        "Recepción, ubicación, reposición, preparación y despacho forman un flujo conectado."
       ],
       "ejemplos": [
-        "Un depósito guarda pallets en posiciones distribuidas en altura.",
-        "Una transpaleta traslada un pallet entre dos sectores.",
-        "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
-        "El responsable calcula cuántos pallets caben en las estanterías.",
-        "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
-        "Se verifica que la máquina pueda maniobrar entre dos estanterías."
+        "Un depósito compara posiciones y facilidad de acceso antes de elegir una disposición."
+      ]
+    },
+    "clase5_unidad": {
+      "unidad": "clase5",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "intro": [
+        "Agrupar productos facilita su manipulación conjunta cuando el conjunto es estable y compatible con los equipos."
+      ],
+      "notas": [
+        "Los auxiliares ayudan a conformar, proteger y estabilizar la unidad.",
+        "La elección depende de la mercadería y de cómo se tomará y trasladará.",
+        "La identificación debe permanecer visible y el uso del espacio no debe impedir el acceso."
+      ],
+      "ejemplos": [
+        "Cajas sobre un pallet se estabilizan y se identifican para moverlas juntas."
+      ]
+    },
+    "clase5_estanterias": {
+      "unidad": "clase5",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "intro": [
+        "Las estanterías organizan posiciones en altura y condicionan el acceso a las referencias."
+      ],
+      "notas": [
+        "La estructura debe soportar la carga prevista y permitir tareas seguras.",
+        "Cantidad de referencias, rotación, unidad de carga y criterio de salida orientan la elección.",
+        "La ocupación y la rapidez de recuperación deben evaluarse juntas."
+      ],
+      "ejemplos": [
+        "Una empresa compara el acceso a cada referencia además de contar posiciones."
+      ]
+    },
+    "clase5_equipos": {
+      "unidad": "clase5",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "intro": [
+        "El equipo de manipuleo eleva, transporta o posiciona cargas dentro de límites compatibles con la instalación."
+      ],
+      "notas": [
+        "Peso y dimensiones de la carga, altura y volumen operado intervienen en la elección.",
+        "El ancho de pasillo y las maniobras deben ser compatibles con la máquina y la seguridad.",
+        "El precio de compra por sí solo no demuestra que un equipo sea adecuado."
+      ],
+      "ejemplos": [
+        "Se verifica que el equipo alcance la altura y maniobre con su carga en los pasillos."
+      ]
+    },
+    "clase5_flujo": {
+      "unidad": "clase5",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "intro": [
+        "El manejo de materiales abarca los traslados internos desde recepción hasta despacho."
+      ],
+      "notas": [
+        "Cada manipulación puede añadir tiempo, costo y errores; conviene evitar recorridos innecesarios.",
+        "Ubicar, reponer y preparar pedidos requiere coordinar cargas, posiciones y equipos.",
+        "El caso de Amazon España integra inventario, ubicaciones, preparación, clasificación, embalaje y despacho.",
+        "La información actualizada ayuda a coordinar etapas; el plazo no depende de una sola tarea."
+      ],
+      "ejemplos": [
+        "Si una carga vuelve varias veces al mismo sector, revisar el trazado puede eliminar recorridos evitables."
       ]
     },
     "clase6_conceptos": {
       "unidad": "clase6",
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "El picking recoge y combina productos para pedidos de clientes o necesidades de producción."
       ],
       "notas": [
-        "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-        "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación.",
-        "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz.",
-        "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar.",
-        "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-        "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación."
+        "En persona a producto el operario se desplaza; en producto a persona el sistema acerca la mercancía.",
+        "La preparación se relaciona con la reposición, el embalaje y la expedición.",
+        "La elección depende de referencias, rotación, pedidos, producto, espacio y servicio."
       ],
       "ejemplos": [
-        "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
-        "Un transportador lleva una caja al puesto donde espera el operario.",
-        "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
-        "Una señal luminosa guía la extracción en un estante.",
-        "Un indicador señala el contenedor donde colocar artículos para una orden.",
-        "Varias órdenes se agrupan en una tanda para coordinar recorridos."
+        "Un operario recorre ubicaciones; en otro diseño, un transportador lleva cajas a su puesto."
       ]
+    },
+    "clase6_organizacion": {
+      "unidad": "clase6",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "intro": [
+        "Organizar el picking exige evaluar operación, servicio e inversión."
+      ],
+      "notas": [
+        "Un SGA puede ordenar ubicaciones y recorridos; agrupar pedidos por olas ayuda a coordinar la preparación.",
+        "Las ubicaciones y la reposición influyen en búsquedas, desplazamientos e interrupciones.",
+        "Un método manual puede exigir menos inversión inicial, pero generar recorridos y manipulación costosos.",
+        "La automatización exige comparar adquisición, implantación y operación con la capacidad y el servicio esperados."
+      ],
+      "ejemplos": [
+        "Varias órdenes se agrupan para recorrer una zona y luego separar los artículos por pedido."
+      ]
+    },
+    "clase6_tecnologias": {
+      "unidad": "clase6",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "intro": [
+        "Los soportes de información guían ubicación, cantidad y destino de los artículos."
+      ],
+      "notas": [
+        "Papel, pantalla, radiofrecuencia y voz pueden transmitir instrucciones; la voz permite confirmar datos oralmente.",
+        "Pick to light señala dónde y cuánto retirar; put to light indica dónde y cuánto depositar para cada pedido.",
+        "Identificación, cantidades y confirmaciones mantienen coherentes la orden y las existencias."
+      ],
+      "ejemplos": [
+        "Una luz en la ubicación guía la extracción y otra en un contenedor puede guiar la distribución por pedido."
+      ]
+    },
+    "clase6_alturas": {
+      "unidad": "clase6",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "intro": [
+        "La altura modifica el uso del espacio, los equipos necesarios y el tiempo de acceso."
+      ],
+      "notas": [
+        "A nivel del suelo se extrae de cargas completas; la superficie limita las referencias disponibles.",
+        "En niveles bajos el operario accede a pie o con preparadora de bajo nivel; una zona exclusiva necesita reposición desde reserva.",
+        "Los niveles medios aprovechan más altura con equipos adecuados; en niveles altos la elevación y el descenso pueden reducir la velocidad."
+      ],
+      "ejemplos": [
+        "Una ubicación baja se repone desde reserva para evitar que se interrumpa la preparación."
+      ]
+    },
+    "clase6_sistemas": {
+      "unidad": "clase6",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "intro": [
+        "La unidad a extraer y la variedad de artículos orientan el sistema de almacenamiento y preparación."
+      ],
+      "notas": [
+        "Las estanterías dinámicas acercan pallets o cajas por canales de rodillos y pueden separar reposición y picking.",
+        "Clasimat acerca bandejas almacenadas en altura; Spinblock mueve horizontalmente estanterías o contenedores al puesto.",
+        "Un miniload usa un transelevador para almacenar y recuperar cajas o bandejas que pueden enviarse a preparación.",
+        "Los pasillos estrechos requieren equipos, guiado y maniobras compatibles y seguros."
+      ],
+      "ejemplos": [
+        "Para piezas pequeñas se comparan acceso manual, canales dinámicos y sistemas automáticos según espacio y rotación."
+      ]
+    },
+    "clase6_expedicion": {
+      "unidad": "clase6",
+      "categoria": "Contenidos de la clase",
+      "titulo": "Del pedido al despacho",
+      "intro": [
+        "La preparación continúa con controles, embalaje, clasificación y entrega a la distribución."
+      ],
+      "notas": [
+        "La orden necesita referencias, cantidades y ubicaciones; el embalaje protege e identifica la carga.",
+        "Al agrupar pedidos, separar los artículos evita asignaciones equivocadas.",
+        "En el caso de clasificación, las etiquetas ilegibles se derivan a revisión y reetiquetado.",
+        "La clasificación por destino y la información actualizada conectan almacén y transporte."
+      ],
+      "ejemplos": [
+        "Una caja con etiqueta ilegible se revisa y reetiqueta antes de asignarle una salida."
+      ]
+    },
+    "c7_funcion": {
+      "unidad": "clase7",
+      "categoria": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "intro": [
+        "El transporte conecta a proveedores, plantas, depósitos y clientes. Su contribución se evalúa en conjunto con el inventario y el servicio: una tarifa menor no garantiza el menor costo logístico total."
+      ],
+      "notas": [
+        "El tiempo de tránsito es el tiempo que tarda el traslado; su variabilidad afecta la previsibilidad de la entrega.",
+        "La cobertura y la frecuencia determinan si el servicio llega al destino y con qué regularidad.",
+        "El riesgo de pérdida o daño y las condiciones de la carga influyen en la elección.",
+        "La decisión puede afectar el inventario en tránsito y las necesidades de stock."
+      ],
+      "ejemplos": [
+        "Una pieza urgente puede justificar un servicio más costoso si evita detener una operación."
+      ],
+      "ojo": "Compará costo total y nivel de servicio antes de elegir exclusivamente por precio."
+    },
+    "c7_modos": {
+      "unidad": "clase7",
+      "categoria": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "intro": [
+        "Cada modo combina capacidad, velocidad, cobertura, infraestructura y costos diferentes. La conveniencia depende de la mercancía y de la ruta concreta."
+      ],
+      "notas": [
+        "Carretero: flexibilidad y posibilidad de entrega puerta a puerta en lugares con acceso vial.",
+        "Ferroviario: adecuado para consolidar grandes volúmenes; depende de vías y terminales.",
+        "Aéreo: útil para cargas urgentes o de alto valor; suele tener mayor tarifa y restricciones.",
+        "Marítimo o fluvial: transporta grandes cantidades, con dependencia de puertos o vías navegables.",
+        "Ductos: redes especializadas para productos adecuados, como determinados líquidos y gases."
+      ],
+      "ejemplos": [
+        "Para una gran carga sin urgencia puede compararse el barco con otros modos y sumar los tramos hasta el puerto."
+      ],
+      "ojo": "La comparación depende del contexto; no hay un modo óptimo para todos los envíos."
+    },
+    "c7_intermodal": {
+      "unidad": "clase7",
+      "categoria": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "intro": [
+        "El transporte intermodal combina modos para aprovechar sus ventajas en diferentes tramos. La conexión entre servicios añade transferencias que también deben planificarse."
+      ],
+      "notas": [
+        "Una operación puede combinar camión y ferrocarril mediante una terminal.",
+        "Los horarios y la disponibilidad de terminales influyen en el plazo total.",
+        "Las transferencias pueden agregar costos y tiempo, aun cuando el tramo principal sea económico.",
+        "La mensajería para paquetes pequeños agrupa envíos y ofrece distintas coberturas, plazos y seguimiento."
+      ],
+      "ejemplos": [
+        "Un camión lleva un contenedor a una terminal ferroviaria y otro lo recoge cerca del destino."
+      ],
+      "ojo": "El video presenta una distinción documental específica entre transporte combinado y multimodal; las definiciones dependen del marco aplicable."
+    },
+    "c7_costos": {
+      "unidad": "clase7",
+      "categoria": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "intro": [
+        "El costo de transporte depende de la estructura del servicio y de la utilización de su capacidad. La tarifa que paga un cliente no siempre equivale al costo interno del transportista."
+      ],
+      "notas": [
+        "Los costos fijos no varían directamente con cada envío en el corto plazo.",
+        "Los costos variables cambian con la actividad; el combustible es un ejemplo relacionado con el recorrido.",
+        "Los costos comunes corresponden a recursos compartidos por varios servicios.",
+        "Los costos conjuntos pueden surgir cuando producir un servicio implica necesariamente otro.",
+        "El tamaño del envío, la distancia y las condiciones del servicio influyen en las tarifas."
+      ],
+      "ejemplos": [
+        "Una ruta de ida puede requerir un retorno del vehículo, que debe considerarse al evaluar la operación."
+      ],
+      "ojo": "El costo unitario puede cambiar con la ocupación y el volumen: evitá extrapolar una tarifa sin conocer las condiciones."
+    },
+    "c7_gestion": {
+      "unidad": "clase7",
+      "categoria": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "intro": [
+        "La empresa puede operar una flota propia o contratar transporte. El análisis considera control, disponibilidad, utilización y todos los costos asociados."
+      ],
+      "notas": [
+        "La flota propia exige administrar vehículos, conductores y mantenimiento.",
+        "La contratación externa requiere evaluar condiciones de servicio, cobertura, seguimiento y tarifas.",
+        "El conocimiento de embarque documenta la recepción de la carga y las condiciones del transporte, según su modalidad.",
+        "Las reclamaciones pueden relacionarse con pérdida, daño, retraso o sobrecargo.",
+        "El transporte internacional puede requerir documentación y coordinación aduanera adicionales."
+      ],
+      "ejemplos": [
+        "Una empresa compara sus rutas habituales y el costo integral de su flota con la propuesta de un operador."
+      ],
+      "ojo": "Los documentos y sus efectos concretos dependen de la operación, la jurisdicción y el modo de transporte."
     },
     "clase7_conceptos": {
       "unidad": "clase7",
       "categoria": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "El transporte vincula las etapas de la cadena logística mediante servicios con distintas características."
       ],
       "notas": [
-        "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta.",
-        "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales.",
-        "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga.",
-        "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones.",
-        "Transporte intermodal: Desplazamiento que combina dos o más modos coordinados.",
-        "Costo variable: Costo que cambia con la actividad o el recorrido realizado."
+        "Compará los modos y sus requisitos.",
+        "Considerá el costo total y el servicio.",
+        "Revisá las condiciones de la operación."
       ],
       "ejemplos": [
-        "Un camión entrega la mercadería directamente en un comercio.",
-        "Una carga consolidada recorre una larga distancia sobre rieles.",
-        "Una pieza urgente y de alto valor viaja en avión.",
-        "Una carga voluminosa viaja por barco entre puertos.",
-        "Un contenedor viaja en camión y continúa por ferrocarril.",
-        "El consumo de combustible aumenta al realizar más viajes."
+        "Un camión conecta un depósito con una terminal ferroviaria."
       ]
     }
   }

@@ -1,50 +1,122 @@
 [
   {
     "id": "def-clase2-1",
-    "grupo": "conceptos",
+    "grupo": "sistema",
     "termino": "Enfoque sistémico",
-    "definicion": "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-    "ejemplo": "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
+    "definicion": "Análisis de actividades relacionadas y de sus efectos sobre el resultado común.",
+    "ejemplo": "Un equipo evalúa conjuntamente compras, inventario y entregas.",
     "libro": "clase2_conceptos"
   },
   {
     "id": "def-clase2-2",
-    "grupo": "conceptos",
+    "grupo": "planificacion",
     "termino": "Planeamiento logístico",
-    "definicion": "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-    "ejemplo": "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
-    "libro": "clase2_conceptos"
+    "definicion": "Decisión anticipada sobre abastecimiento, almacenamiento y distribución considerando demanda, recursos, costos y servicio.",
+    "ejemplo": "La firma revisa capacidad e inventario antes de una campaña.",
+    "libro": "clase2_plan"
   },
   {
     "id": "def-clase2-3",
-    "grupo": "conceptos",
+    "grupo": "servicio",
     "termino": "Servicio al cliente",
-    "definicion": "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-    "ejemplo": "La empresa informa el estado de un pedido y responde ante una demora.",
-    "libro": "clase2_conceptos"
+    "definicion": "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
+    "ejemplo": "La empresa informa una demora y atiende el reclamo.",
+    "libro": "clase2_servicio"
   },
   {
     "id": "def-clase2-4",
-    "grupo": "conceptos",
+    "grupo": "servicio",
     "termino": "Disponibilidad",
-    "definicion": "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-    "ejemplo": "El artículo solicitado está en stock cuando llega el pedido.",
-    "libro": "clase2_conceptos"
+    "definicion": "Posibilidad de contar con el producto requerido cuando se necesita.",
+    "ejemplo": "La referencia solicitada está en stock al recibir el pedido.",
+    "libro": "clase2_servicio"
   },
   {
     "id": "def-clase2-5",
-    "grupo": "conceptos",
+    "grupo": "servicio",
     "termino": "Entrega completa",
-    "definicion": "Cumplimiento de las cantidades y productos solicitados en una orden.",
-    "ejemplo": "El cliente recibe todas las unidades y referencias que había comprado.",
-    "libro": "clase2_conceptos"
+    "definicion": "Cumplimiento de las cantidades y referencias acordadas en un pedido.",
+    "ejemplo": "El cliente recibe todos los artículos y unidades solicitados.",
+    "libro": "clase2_servicio"
   },
   {
     "id": "def-clase2-6",
-    "grupo": "conceptos",
+    "grupo": "coordinacion",
     "termino": "Coordinación entre áreas",
-    "definicion": "Intercambio de información para alinear las decisiones de logística con las de otras funciones.",
-    "ejemplo": "Ventas informa una promoción y compras ajusta el abastecimiento.",
+    "definicion": "Intercambio de información y decisiones para compatibilizar funciones de la empresa.",
+    "ejemplo": "Ventas comparte una promoción y compras revisa el abastecimiento.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "def-clase2-7",
+    "grupo": "sistema",
+    "termino": "Entrada",
+    "definicion": "Recurso o información que ingresa al sistema y alimenta sus procesos.",
+    "ejemplo": "Una orden de compra llega al proveedor.",
     "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-8",
+    "grupo": "sistema",
+    "termino": "Proceso",
+    "definicion": "Conjunto de actividades que transforma o mueve entradas para producir resultados.",
+    "ejemplo": "El depósito prepara y carga un pedido.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-9",
+    "grupo": "sistema",
+    "termino": "Salida",
+    "definicion": "Resultado que surge del funcionamiento del sistema.",
+    "ejemplo": "Un pedido preparado se entrega al cliente.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-10",
+    "grupo": "sistema",
+    "termino": "Retroalimentación",
+    "definicion": "Información sobre resultados que ayuda a revisar y corregir el funcionamiento.",
+    "ejemplo": "Los reclamos por daños llevan a revisar la carga.",
+    "libro": "clase2_conceptos"
+  },
+  {
+    "id": "def-clase2-11",
+    "grupo": "planificacion",
+    "termino": "Pronóstico de ventas",
+    "definicion": "Estimación de ventas futuras utilizada como insumo para planificar.",
+    "ejemplo": "Ventas estima la demanda esperada durante una campaña.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "def-clase2-12",
+    "grupo": "planificacion",
+    "termino": "Plan maestro de producción",
+    "definicion": "Plan que orienta qué producción se prevé y sirve de base para coordinar materiales.",
+    "ejemplo": "Producción revisa su plan frente a las ventas previstas.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "def-clase2-13",
+    "grupo": "planificacion",
+    "termino": "MRP",
+    "definicion": "Planificación de necesidades de materiales vinculada con el plan de producción.",
+    "ejemplo": "El equipo determina materiales necesarios para el plan previsto.",
+    "libro": "clase2_areas"
+  },
+  {
+    "id": "def-clase2-14",
+    "grupo": "coordinacion",
+    "termino": "Despacho",
+    "definicion": "Preparación y salida de mercadería para su traslado hacia el destino.",
+    "ejemplo": "El proveedor programa la salida después de verificar disponibilidad.",
+    "libro": "clase2_distribucion"
+  },
+  {
+    "id": "def-clase2-15",
+    "grupo": "coordinacion",
+    "termino": "Capacidad",
+    "definicion": "Recursos disponibles que condicionan cuánto puede realizarse en una operación.",
+    "ejemplo": "El almacén revisa si puede preparar los pedidos de una promoción.",
+    "libro": "clase2_plan"
   }
 ]

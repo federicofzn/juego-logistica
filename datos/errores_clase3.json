@@ -1,18 +1,66 @@
 [
   {
     "id": "error-clase3",
-    "titulo": "Clase 3: Almacén y depósito",
+    "titulo": "Funciones del almacén",
     "oraciones": [
-      "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
-      "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "El almacén solo guarda mercancía y no participa de la preparación de pedidos.",
-      "Picking: Selección de los artículos necesarios para preparar un pedido."
+      "El depósito puede recibir y controlar mercancía.",
+      "La ubicación identifica dónde se guarda un artículo.",
+      "La reposición lleva existencias al punto que las necesita.",
+      "El almacén solo guarda mercancía y no participa en la preparación de pedidos.",
+      "La expedición organiza la salida de pedidos."
     ],
     "incorrecta": 3,
-    "correccion": "El almacén también puede recibir, preparar y despachar pedidos.",
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "El almacén también puede recibir, preparar y despachar pedidos.",
+    "correccion": "El almacén también puede preparar pedidos.",
+    "pista": "Revisá si la operación termina al guardar.",
+    "explicacion": "El picking y la consolidación son actividades del almacén.",
     "libro": "clase3_conceptos"
+  },
+  {
+    "id": "error-clase3-2",
+    "titulo": "Diseño del recorrido",
+    "oraciones": [
+      "El peso y las dimensiones influyen en el diseño.",
+      "La rotación puede orientar la ubicación de productos.",
+      "Todo edificio exige un flujo lineal, cualquiera sea la posición de sus muelles.",
+      "Reducir cruces innecesarios ayuda a ordenar los movimientos.",
+      "La elección del flujo depende del edificio y del volumen."
+    ],
+    "incorrecta": 2,
+    "correccion": "El flujo se elige según el edificio y la operación.",
+    "pista": "Compará las alternativas de forma de flujo.",
+    "explicacion": "Existen disposiciones lineales, en U, L o T; ninguna sirve obligatoriamente para todos los edificios.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "error-clase3-3",
+    "titulo": "Preparación correcta",
+    "oraciones": [
+      "Picking selecciona referencias y cantidades solicitadas.",
+      "Un pedido rápido puede ser incorrecto si contiene otra referencia.",
+      "La reposición puede abastecer el lugar de preparación.",
+      "La consolidación reúne artículos para completar una orden.",
+      "En picking basta con acertar la cantidad, aunque la referencia sea otra."
+    ],
+    "incorrecta": 4,
+    "correccion": "Deben coincidir tanto referencia como cantidad.",
+    "pista": "La cantidad no identifica por sí sola el producto.",
+    "explicacion": "La exactitud requiere retirar el artículo pedido en la cantidad pedida.",
+    "libro": "clase3_picking"
+  },
+  {
+    "id": "error-clase3-4",
+    "titulo": "Información y control",
+    "oraciones": [
+      "Una ubicación identificada ayuda a encontrar mercancía.",
+      "Un sistema puede registrar los movimientos del depósito.",
+      "La trazabilidad relaciona el producto con información como ubicación y estado.",
+      "Mover una caja sin actualizar su ubicación garantiza que el inventario siga reflejando la realidad.",
+      "Una diferencia entre conteo físico y registro merece revisión."
+    ],
+    "incorrecta": 3,
+    "correccion": "El traslado debe registrarse para mantener actualizada la ubicación.",
+    "pista": "Considerá qué sucede si cambia el lugar físico sin cambiar el registro.",
+    "explicacion": "El sistema puede indicar una posición anterior y dificultar la búsqueda.",
+    "libro": "clase3_informacion"
   }
 ]

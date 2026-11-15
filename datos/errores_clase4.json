@@ -1,18 +1,66 @@
 [
   {
     "id": "error-clase4",
-    "titulo": "Clase 4: Unidad de carga",
+    "titulo": "Unidad de carga",
     "oraciones": [
-      "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
-      "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
-      "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
+      "Una unidad de carga agrupa mercancías para manipularlas como conjunto.",
+      "La estabilidad ayuda a evitar desplazamientos durante el manejo.",
+      "Un pallet puede servir de base para agrupar mercancías.",
+      "El embalaje y el producto influyen en la conformación de la carga.",
       "La unidad de carga se define sin considerar el peso, la estabilidad ni el equipo de manejo."
     ],
     "incorrecta": 4,
-    "correccion": "La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
-    "pista": "Revisá el alcance de cada afirmación.",
-    "explicacion": "La unidad de carga debe ser compatible con el producto y los equipos de manipulación.",
+    "correccion": "La unidad debe contemplar peso, estabilidad y equipo de manipulación.",
+    "pista": "Revisá qué factores condicionan el manejo físico.",
+    "explicacion": "Diseñar la unidad exige compatibilidad con el producto y los equipos.",
     "libro": "clase4_conceptos"
+  },
+  {
+    "id": "error-clase4-2",
+    "titulo": "DECASA y sistemas",
+    "oraciones": [
+      "DECASA combina distintas soluciones de almacenaje.",
+      "El caso incluye Pallet Shuttle y torres de picking.",
+      "El sistema de gestión ayuda a coordinar operaciones.",
+      "El caso demuestra que todos los productos requieren exactamente el mismo sistema.",
+      "Las dimensiones y la demanda pueden orientar la elección de zonas."
+    ],
+    "incorrecta": 3,
+    "correccion": "Los productos pueden requerir soluciones diferentes.",
+    "pista": "Compará las necesidades de referencias distintas.",
+    "explicacion": "El caso combina sistemas para mercancías de diferentes características y demandas.",
+    "libro": "clase4_decasa"
+  },
+  {
+    "id": "error-clase4-3",
+    "titulo": "COFAN y pedidos",
+    "oraciones": [
+      "COFAN dispone de zonas con almacenamiento convencional y picking manual.",
+      "El caso incluye un almacén automático miniload.",
+      "Los transportadores conectan etapas de preparación y otras operaciones.",
+      "Muchos pedidos de pocas líneas hacen irrelevante la accesibilidad de las referencias.",
+      "La reposición y la consolidación contribuyen a preparar pedidos."
+    ],
+    "incorrecta": 3,
+    "correccion": "La accesibilidad de las referencias es relevante para preparar esos pedidos.",
+    "pista": "Pensá en la frecuencia con la que hay que buscar artículos.",
+    "explicacion": "Para muchos pedidos pequeños importa localizar y acceder a los artículos con facilidad.",
+    "libro": "clase4_cofan"
+  },
+  {
+    "id": "error-clase4-4",
+    "titulo": "Control de la operación",
+    "oraciones": [
+      "Un miniload automatiza el almacenamiento y la recuperación de cajas o bandejas.",
+      "La consolidación puede reunir artículos recogidos en diferentes zonas.",
+      "Una carga inestable puede causar daños o demoras.",
+      "Automatizar un sector elimina la necesidad de integrar inventario y movimientos.",
+      "El diseño de pasillos depende, entre otros factores, de la carga y el equipo."
+    ],
+    "incorrecta": 3,
+    "correccion": "La automatización debe integrarse con inventario y movimientos.",
+    "pista": "La máquina necesita información coherente con el flujo físico.",
+    "explicacion": "El control de ubicaciones y la coordinación siguen siendo necesarios con sistemas automáticos.",
+    "libro": "clase4_sistemas"
   }
 ]

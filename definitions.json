@@ -3,24 +3,21 @@
     "id": "def-clase1-1",
     "unidad": "clase1",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
+    "grupo": "fundamentos",
+    "ejemplo": "Una firma coordina stock, depósito y transporte.",
     "titulo": "Logística",
     "situacion": "",
     "pregunta": "¿Qué significa «Logística»?",
-    "respuestaCorrecta": "Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
+    "respuestaCorrecta": "Planificación, ejecución y control del flujo y almacenamiento de bienes e información para atender requisitos del cliente.",
     "respuestasIncorrectas": [
-      "Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-      "Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-      "Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+      "Conjunto de actores y procesos vinculados desde los insumos hasta el cliente final.",
+      "Circulación de datos que permite coordinar decisiones y operaciones de la cadena."
     ],
-    "pista": "Pensá en este ejemplo: Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
-    "explicacion": "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada. Ejemplo: Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
+    "pista": "Pensá en este ejemplo: Una firma coordina stock, depósito y transporte.",
+    "explicacion": "Logística: Planificación, ejecución y control del flujo y almacenamiento de bienes e información para atender requisitos del cliente. Ejemplo: Una firma coordina stock, depósito y transporte.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
     }
   },
@@ -28,24 +25,21 @@
     "id": "def-clase1-2",
     "unidad": "clase1",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
+    "grupo": "fundamentos",
+    "ejemplo": "Un fabricante coordina proveedores, producción y distribuidores.",
     "titulo": "Cadena de suministro",
     "situacion": "",
     "pregunta": "¿Qué significa «Cadena de suministro»?",
-    "respuestaCorrecta": "Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
+    "respuestaCorrecta": "Conjunto de actores y procesos vinculados desde los insumos hasta el cliente final.",
     "respuestasIncorrectas": [
-      "Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-      "Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-      "Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+      "Planificación, ejecución y control del flujo y almacenamiento de bienes e información para atender requisitos del cliente.",
+      "Circulación de datos que permite coordinar decisiones y operaciones de la cadena."
     ],
-    "pista": "Pensá en este ejemplo: Un fabricante coordina proveedores, producción, distribuidores y clientes.",
-    "explicacion": "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final. Ejemplo: Un fabricante coordina proveedores, producción, distribuidores y clientes.",
+    "pista": "Pensá en este ejemplo: Un fabricante coordina proveedores, producción y distribuidores.",
+    "explicacion": "Cadena de suministro: Conjunto de actores y procesos vinculados desde los insumos hasta el cliente final. Ejemplo: Un fabricante coordina proveedores, producción y distribuidores.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
     }
   },
@@ -53,124 +47,323 @@
     "id": "def-clase1-3",
     "unidad": "clase1",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Se coordinan compras, recepción y almacenamiento de materias primas.",
+    "grupo": "operaciones",
+    "ejemplo": "Una planta recibe y almacena harina para elaborar pan.",
     "titulo": "Administración de materiales",
     "situacion": "",
     "pregunta": "¿Qué significa «Administración de materiales»?",
-    "respuestaCorrecta": "Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
+    "respuestaCorrecta": "Gestión del abastecimiento, recepción y movimiento de materiales necesarios para producir o prestar servicios.",
     "respuestasIncorrectas": [
-      "Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-      "Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-      "Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+      "Gestión del almacenamiento y movimiento de productos terminados hacia los clientes.",
+      "Actividades orientadas a obtener los bienes y recursos necesarios para operar.",
+      "Conservación y organización de bienes en un espacio para atender necesidades posteriores.",
+      "Selección y acondicionamiento de los artículos requeridos por cada orden."
     ],
-    "pista": "Pensá en este ejemplo: Se coordinan compras, recepción y almacenamiento de materias primas.",
-    "explicacion": "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio. Ejemplo: Se coordinan compras, recepción y almacenamiento de materias primas.",
+    "pista": "Pensá en este ejemplo: Una planta recibe y almacena harina para elaborar pan.",
+    "explicacion": "Administración de materiales: Gestión del abastecimiento, recepción y movimiento de materiales necesarios para producir o prestar servicios. Ejemplo: Una planta recibe y almacena harina para elaborar pan.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
-      "entradaLibro": "clase1_conceptos"
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
     }
   },
   {
     "id": "def-clase1-4",
     "unidad": "clase1",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un depósito prepara productos terminados para enviarlos a los comercios.",
+    "grupo": "operaciones",
+    "ejemplo": "Un depósito prepara y despacha productos a comercios.",
     "titulo": "Distribución física",
     "situacion": "",
     "pregunta": "¿Qué significa «Distribución física»?",
-    "respuestaCorrecta": "Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
+    "respuestaCorrecta": "Gestión del almacenamiento y movimiento de productos terminados hacia los clientes.",
     "respuestasIncorrectas": [
-      "Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-      "Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+      "Gestión del abastecimiento, recepción y movimiento de materiales necesarios para producir o prestar servicios.",
+      "Actividades orientadas a obtener los bienes y recursos necesarios para operar.",
+      "Conservación y organización de bienes en un espacio para atender necesidades posteriores.",
+      "Selección y acondicionamiento de los artículos requeridos por cada orden."
     ],
-    "pista": "Pensá en este ejemplo: Un depósito prepara productos terminados para enviarlos a los comercios.",
-    "explicacion": "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente. Ejemplo: Un depósito prepara productos terminados para enviarlos a los comercios.",
+    "pista": "Pensá en este ejemplo: Un depósito prepara y despacha productos a comercios.",
+    "explicacion": "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia los clientes. Ejemplo: Un depósito prepara y despacha productos a comercios.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
-      "entradaLibro": "clase1_conceptos"
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
     }
   },
   {
     "id": "def-clase1-5",
     "unidad": "clase1",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
+    "grupo": "retornos",
+    "ejemplo": "Un comercio recibe equipos defectuosos y los envía a reparar.",
     "titulo": "Logística inversa",
     "situacion": "",
     "pregunta": "¿Qué significa «Logística inversa»?",
-    "respuestaCorrecta": "Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
+    "respuestaCorrecta": "Gestión del retorno de productos, envases o materiales para su tratamiento o destino adecuado.",
     "respuestasIncorrectas": [
-      "Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-      "Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+      "Nuevo uso de un producto o material recuperado cuando su estado lo permite.",
+      "Tratamiento de materiales recuperados para que puedan emplearse nuevamente como materia."
     ],
-    "pista": "Pensá en este ejemplo: Un comercio organiza la devolución de artículos defectuosos para su reparación.",
-    "explicacion": "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino. Ejemplo: Un comercio organiza la devolución de artículos defectuosos para su reparación.",
+    "pista": "Pensá en este ejemplo: Un comercio recibe equipos defectuosos y los envía a reparar.",
+    "explicacion": "Logística inversa: Gestión del retorno de productos, envases o materiales para su tratamiento o destino adecuado. Ejemplo: Un comercio recibe equipos defectuosos y los envía a reparar.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
-      "entradaLibro": "clase1_conceptos"
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
     }
   },
   {
     "id": "def-clase1-6",
     "unidad": "clase1",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
+    "grupo": "servicio",
+    "ejemplo": "Una empresa revisa si los pedidos llegan completos y a tiempo.",
     "titulo": "Nivel de servicio",
     "situacion": "",
     "pregunta": "¿Qué significa «Nivel de servicio»?",
-    "respuestaCorrecta": "Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente.",
+    "respuestaCorrecta": "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
     "respuestasIncorrectas": [
-      "Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-      "Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-      "Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-      "Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-      "Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino."
+      "Posibilidad de contar con el producto solicitado cuando se necesita.",
+      "Ingreso y control de bienes que llegan al almacén u otra instalación.",
+      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias."
     ],
-    "pista": "Pensá en este ejemplo: Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
-    "explicacion": "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente. Ejemplo: Una empresa mide si entrega los pedidos completos y en el plazo prometido.",
+    "pista": "Pensá en este ejemplo: Una empresa revisa si los pedidos llegan completos y a tiempo.",
+    "explicacion": "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente. Ejemplo: Una empresa revisa si los pedidos llegan completos y a tiempo.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "def-clase1-7",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "fundamentos",
+    "ejemplo": "Ventas comunica una promoción al equipo de abastecimiento.",
+    "titulo": "Flujo de información",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Flujo de información»?",
+    "respuestaCorrecta": "Circulación de datos que permite coordinar decisiones y operaciones de la cadena.",
+    "respuestasIncorrectas": [
+      "Planificación, ejecución y control del flujo y almacenamiento de bienes e información para atender requisitos del cliente.",
+      "Conjunto de actores y procesos vinculados desde los insumos hasta el cliente final."
+    ],
+    "pista": "Pensá en este ejemplo: Ventas comunica una promoción al equipo de abastecimiento.",
+    "explicacion": "Flujo de información: Circulación de datos que permite coordinar decisiones y operaciones de la cadena. Ejemplo: Ventas comunica una promoción al equipo de abastecimiento.",
+    "referencia": {
+      "tipo": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "entradaLibro": "clase1_conceptos"
+    }
+  },
+  {
+    "id": "def-clase1-8",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "operaciones",
+    "ejemplo": "Compras y logística acuerdan y reciben componentes para la fábrica.",
+    "titulo": "Aprovisionamiento",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Aprovisionamiento»?",
+    "respuestaCorrecta": "Actividades orientadas a obtener los bienes y recursos necesarios para operar.",
+    "respuestasIncorrectas": [
+      "Gestión del abastecimiento, recepción y movimiento de materiales necesarios para producir o prestar servicios.",
+      "Gestión del almacenamiento y movimiento de productos terminados hacia los clientes.",
+      "Conservación y organización de bienes en un espacio para atender necesidades posteriores.",
+      "Selección y acondicionamiento de los artículos requeridos por cada orden."
+    ],
+    "pista": "Pensá en este ejemplo: Compras y logística acuerdan y reciben componentes para la fábrica.",
+    "explicacion": "Aprovisionamiento: Actividades orientadas a obtener los bienes y recursos necesarios para operar. Ejemplo: Compras y logística acuerdan y reciben componentes para la fábrica.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Fases y tipos de organización",
+      "entradaLibro": "clase1_fases"
+    }
+  },
+  {
+    "id": "def-clase1-9",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "operaciones",
+    "ejemplo": "Un almacén guarda productos terminados hasta preparar pedidos.",
+    "titulo": "Almacenamiento",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Almacenamiento»?",
+    "respuestaCorrecta": "Conservación y organización de bienes en un espacio para atender necesidades posteriores.",
+    "respuestasIncorrectas": [
+      "Gestión del abastecimiento, recepción y movimiento de materiales necesarios para producir o prestar servicios.",
+      "Gestión del almacenamiento y movimiento de productos terminados hacia los clientes.",
+      "Actividades orientadas a obtener los bienes y recursos necesarios para operar.",
+      "Selección y acondicionamiento de los artículos requeridos por cada orden."
+    ],
+    "pista": "Pensá en este ejemplo: Un almacén guarda productos terminados hasta preparar pedidos.",
+    "explicacion": "Almacenamiento: Conservación y organización de bienes en un espacio para atender necesidades posteriores. Ejemplo: Un almacén guarda productos terminados hasta preparar pedidos.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
+    }
+  },
+  {
+    "id": "def-clase1-10",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "operaciones",
+    "ejemplo": "El depósito reúne las referencias solicitadas por una tienda.",
+    "titulo": "Preparación de pedidos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Preparación de pedidos»?",
+    "respuestaCorrecta": "Selección y acondicionamiento de los artículos requeridos por cada orden.",
+    "respuestasIncorrectas": [
+      "Gestión del abastecimiento, recepción y movimiento de materiales necesarios para producir o prestar servicios.",
+      "Gestión del almacenamiento y movimiento de productos terminados hacia los clientes.",
+      "Actividades orientadas a obtener los bienes y recursos necesarios para operar.",
+      "Conservación y organización de bienes en un espacio para atender necesidades posteriores."
+    ],
+    "pista": "Pensá en este ejemplo: El depósito reúne las referencias solicitadas por una tienda.",
+    "explicacion": "Preparación de pedidos: Selección y acondicionamiento de los artículos requeridos por cada orden. Ejemplo: El depósito reúne las referencias solicitadas por una tienda.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
+    }
+  },
+  {
+    "id": "def-clase1-11",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "retornos",
+    "ejemplo": "Una empresa controla y vuelve a usar envases retornados.",
+    "titulo": "Reutilización",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Reutilización»?",
+    "respuestaCorrecta": "Nuevo uso de un producto o material recuperado cuando su estado lo permite.",
+    "respuestasIncorrectas": [
+      "Gestión del retorno de productos, envases o materiales para su tratamiento o destino adecuado.",
+      "Tratamiento de materiales recuperados para que puedan emplearse nuevamente como materia."
+    ],
+    "pista": "Pensá en este ejemplo: Una empresa controla y vuelve a usar envases retornados.",
+    "explicacion": "Reutilización: Nuevo uso de un producto o material recuperado cuando su estado lo permite. Ejemplo: Una empresa controla y vuelve a usar envases retornados.",
+    "referencia": {
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
+    }
+  },
+  {
+    "id": "def-clase1-12",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "retornos",
+    "ejemplo": "Una firma separa materiales devueltos y los deriva a reciclaje.",
+    "titulo": "Reciclaje",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Reciclaje»?",
+    "respuestaCorrecta": "Tratamiento de materiales recuperados para que puedan emplearse nuevamente como materia.",
+    "respuestasIncorrectas": [
+      "Gestión del retorno de productos, envases o materiales para su tratamiento o destino adecuado.",
+      "Nuevo uso de un producto o material recuperado cuando su estado lo permite."
+    ],
+    "pista": "Pensá en este ejemplo: Una firma separa materiales devueltos y los deriva a reciclaje.",
+    "explicacion": "Reciclaje: Tratamiento de materiales recuperados para que puedan emplearse nuevamente como materia. Ejemplo: Una firma separa materiales devueltos y los deriva a reciclaje.",
+    "referencia": {
+      "tipo": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "entradaLibro": "clase1_inversa"
+    }
+  },
+  {
+    "id": "def-clase1-13",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "Un comercio tiene stock de la referencia pedida.",
+    "titulo": "Disponibilidad",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Disponibilidad»?",
+    "respuestaCorrecta": "Posibilidad de contar con el producto solicitado cuando se necesita.",
+    "respuestasIncorrectas": [
+      "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
+      "Ingreso y control de bienes que llegan al almacén u otra instalación.",
+      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias."
+    ],
+    "pista": "Pensá en este ejemplo: Un comercio tiene stock de la referencia pedida.",
+    "explicacion": "Disponibilidad: Posibilidad de contar con el producto solicitado cuando se necesita. Ejemplo: Un comercio tiene stock de la referencia pedida.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
+    }
+  },
+  {
+    "id": "def-clase1-14",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "El depósito verifica cantidades al recibir un envío del proveedor.",
+    "titulo": "Recepción",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Recepción»?",
+    "respuestaCorrecta": "Ingreso y control de bienes que llegan al almacén u otra instalación.",
+    "respuestasIncorrectas": [
+      "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
+      "Posibilidad de contar con el producto solicitado cuando se necesita.",
+      "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias."
+    ],
+    "pista": "Pensá en este ejemplo: El depósito verifica cantidades al recibir un envío del proveedor.",
+    "explicacion": "Recepción: Ingreso y control de bienes que llegan al almacén u otra instalación. Ejemplo: El depósito verifica cantidades al recibir un envío del proveedor.",
+    "referencia": {
+      "tipo": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "entradaLibro": "clase1_flujos"
+    }
+  },
+  {
+    "id": "def-clase1-15",
+    "unidad": "clase1",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "Ventas consulta cobertura y stock antes de anunciar entregas.",
+    "titulo": "Coordinación con ventas",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Coordinación con ventas»?",
+    "respuestaCorrecta": "Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias.",
+    "respuestasIncorrectas": [
+      "Condiciones de disponibilidad, cumplimiento y respuesta que se ofrecen al cliente.",
+      "Posibilidad de contar con el producto solicitado cuando se necesita.",
+      "Ingreso y control de bienes que llegan al almacén u otra instalación."
+    ],
+    "pista": "Pensá en este ejemplo: Ventas consulta cobertura y stock antes de anunciar entregas.",
+    "explicacion": "Coordinación con ventas: Intercambio entre logística y el área comercial para alinear promesas con capacidad y existencias. Ejemplo: Ventas consulta cobertura y stock antes de anunciar entregas.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "entradaLibro": "clase1_areas"
     }
   },
   {
     "id": "def-clase2-1",
     "unidad": "clase2",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
+    "grupo": "sistema",
+    "ejemplo": "Un equipo evalúa conjuntamente compras, inventario y entregas.",
     "titulo": "Enfoque sistémico",
     "situacion": "",
     "pregunta": "¿Qué significa «Enfoque sistémico»?",
-    "respuestaCorrecta": "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
+    "respuestaCorrecta": "Análisis de actividades relacionadas y de sus efectos sobre el resultado común.",
     "respuestasIncorrectas": [
-      "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-      "Cumplimiento de las cantidades y productos solicitados en una orden.",
-      "Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+      "Recurso o información que ingresa al sistema y alimenta sus procesos.",
+      "Conjunto de actividades que transforma o mueve entradas para producir resultados.",
+      "Resultado que surge del funcionamiento del sistema.",
+      "Información sobre resultados que ayuda a revisar y corregir el funcionamiento."
     ],
-    "pista": "Pensá en este ejemplo: La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
-    "explicacion": "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras. Ejemplo: La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
+    "pista": "Pensá en este ejemplo: Un equipo evalúa conjuntamente compras, inventario y entregas.",
+    "explicacion": "Enfoque sistémico: Análisis de actividades relacionadas y de sus efectos sobre el resultado común. Ejemplo: Un equipo evalúa conjuntamente compras, inventario y entregas.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
       "entradaLibro": "clase2_conceptos"
     }
   },
@@ -178,274 +371,667 @@
     "id": "def-clase2-2",
     "unidad": "clase2",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
+    "grupo": "planificacion",
+    "ejemplo": "La firma revisa capacidad e inventario antes de una campaña.",
     "titulo": "Planeamiento logístico",
     "situacion": "",
     "pregunta": "¿Qué significa «Planeamiento logístico»?",
-    "respuestaCorrecta": "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
+    "respuestaCorrecta": "Decisión anticipada sobre abastecimiento, almacenamiento y distribución considerando demanda, recursos, costos y servicio.",
     "respuestasIncorrectas": [
-      "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-      "Cumplimiento de las cantidades y productos solicitados en una orden.",
-      "Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+      "Estimación de ventas futuras utilizada como insumo para planificar.",
+      "Plan que orienta qué producción se prevé y sirve de base para coordinar materiales.",
+      "Planificación de necesidades de materiales vinculada con el plan de producción."
     ],
-    "pista": "Pensá en este ejemplo: Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
-    "explicacion": "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio. Ejemplo: Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
+    "pista": "Pensá en este ejemplo: La firma revisa capacidad e inventario antes de una campaña.",
+    "explicacion": "Planeamiento logístico: Decisión anticipada sobre abastecimiento, almacenamiento y distribución considerando demanda, recursos, costos y servicio. Ejemplo: La firma revisa capacidad e inventario antes de una campaña.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "entradaLibro": "clase2_plan"
     }
   },
   {
     "id": "def-clase2-3",
     "unidad": "clase2",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "La empresa informa el estado de un pedido y responde ante una demora.",
+    "grupo": "servicio",
+    "ejemplo": "La empresa informa una demora y atiende el reclamo.",
     "titulo": "Servicio al cliente",
     "situacion": "",
     "pregunta": "¿Qué significa «Servicio al cliente»?",
-    "respuestaCorrecta": "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
+    "respuestaCorrecta": "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
     "respuestasIncorrectas": [
-      "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-      "Cumplimiento de las cantidades y productos solicitados en una orden.",
-      "Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+      "Posibilidad de contar con el producto requerido cuando se necesita.",
+      "Cumplimiento de las cantidades y referencias acordadas en un pedido."
     ],
-    "pista": "Pensá en este ejemplo: La empresa informa el estado de un pedido y responde ante una demora.",
-    "explicacion": "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra. Ejemplo: La empresa informa el estado de un pedido y responde ante una demora.",
+    "pista": "Pensá en este ejemplo: La empresa informa una demora y atiende el reclamo.",
+    "explicacion": "Servicio al cliente: Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar. Ejemplo: La empresa informa una demora y atiende el reclamo.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
     "id": "def-clase2-4",
     "unidad": "clase2",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "El artículo solicitado está en stock cuando llega el pedido.",
+    "grupo": "servicio",
+    "ejemplo": "La referencia solicitada está en stock al recibir el pedido.",
     "titulo": "Disponibilidad",
     "situacion": "",
     "pregunta": "¿Qué significa «Disponibilidad»?",
-    "respuestaCorrecta": "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
+    "respuestaCorrecta": "Posibilidad de contar con el producto requerido cuando se necesita.",
     "respuestasIncorrectas": [
-      "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Cumplimiento de las cantidades y productos solicitados en una orden.",
-      "Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+      "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
+      "Cumplimiento de las cantidades y referencias acordadas en un pedido."
     ],
-    "pista": "Pensá en este ejemplo: El artículo solicitado está en stock cuando llega el pedido.",
-    "explicacion": "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita. Ejemplo: El artículo solicitado está en stock cuando llega el pedido.",
+    "pista": "Pensá en este ejemplo: La referencia solicitada está en stock al recibir el pedido.",
+    "explicacion": "Disponibilidad: Posibilidad de contar con el producto requerido cuando se necesita. Ejemplo: La referencia solicitada está en stock al recibir el pedido.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
     "id": "def-clase2-5",
     "unidad": "clase2",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "El cliente recibe todas las unidades y referencias que había comprado.",
+    "grupo": "servicio",
+    "ejemplo": "El cliente recibe todos los artículos y unidades solicitados.",
     "titulo": "Entrega completa",
     "situacion": "",
     "pregunta": "¿Qué significa «Entrega completa»?",
-    "respuestaCorrecta": "Cumplimiento de las cantidades y productos solicitados en una orden.",
+    "respuestaCorrecta": "Cumplimiento de las cantidades y referencias acordadas en un pedido.",
     "respuestasIncorrectas": [
-      "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-      "Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+      "Condiciones y acciones que responden a necesidades del cliente antes, durante y después de comprar.",
+      "Posibilidad de contar con el producto requerido cuando se necesita."
     ],
-    "pista": "Pensá en este ejemplo: El cliente recibe todas las unidades y referencias que había comprado.",
-    "explicacion": "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden. Ejemplo: El cliente recibe todas las unidades y referencias que había comprado.",
+    "pista": "Pensá en este ejemplo: El cliente recibe todos los artículos y unidades solicitados.",
+    "explicacion": "Entrega completa: Cumplimiento de las cantidades y referencias acordadas en un pedido. Ejemplo: El cliente recibe todos los artículos y unidades solicitados.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
-      "entradaLibro": "clase2_conceptos"
+      "tipo": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "entradaLibro": "clase2_servicio"
     }
   },
   {
     "id": "def-clase2-6",
     "unidad": "clase2",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Ventas informa una promoción y compras ajusta el abastecimiento.",
+    "grupo": "coordinacion",
+    "ejemplo": "Ventas comparte una promoción y compras revisa el abastecimiento.",
     "titulo": "Coordinación entre áreas",
     "situacion": "",
     "pregunta": "¿Qué significa «Coordinación entre áreas»?",
-    "respuestaCorrecta": "Intercambio de información para alinear las decisiones de logística con las de otras funciones.",
+    "respuestaCorrecta": "Intercambio de información y decisiones para compatibilizar funciones de la empresa.",
     "respuestasIncorrectas": [
-      "Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-      "Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-      "Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-      "Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-      "Cumplimiento de las cantidades y productos solicitados en una orden."
+      "Preparación y salida de mercadería para su traslado hacia el destino.",
+      "Recursos disponibles que condicionan cuánto puede realizarse en una operación."
     ],
-    "pista": "Pensá en este ejemplo: Ventas informa una promoción y compras ajusta el abastecimiento.",
-    "explicacion": "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones. Ejemplo: Ventas informa una promoción y compras ajusta el abastecimiento.",
+    "pista": "Pensá en este ejemplo: Ventas comparte una promoción y compras revisa el abastecimiento.",
+    "explicacion": "Coordinación entre áreas: Intercambio de información y decisiones para compatibilizar funciones de la empresa. Ejemplo: Ventas comparte una promoción y compras revisa el abastecimiento.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "def-clase2-7",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "sistema",
+    "ejemplo": "Una orden de compra llega al proveedor.",
+    "titulo": "Entrada",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Entrada»?",
+    "respuestaCorrecta": "Recurso o información que ingresa al sistema y alimenta sus procesos.",
+    "respuestasIncorrectas": [
+      "Análisis de actividades relacionadas y de sus efectos sobre el resultado común.",
+      "Conjunto de actividades que transforma o mueve entradas para producir resultados.",
+      "Resultado que surge del funcionamiento del sistema.",
+      "Información sobre resultados que ayuda a revisar y corregir el funcionamiento."
+    ],
+    "pista": "Pensá en este ejemplo: Una orden de compra llega al proveedor.",
+    "explicacion": "Entrada: Recurso o información que ingresa al sistema y alimenta sus procesos. Ejemplo: Una orden de compra llega al proveedor.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
       "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "def-clase2-8",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "sistema",
+    "ejemplo": "El depósito prepara y carga un pedido.",
+    "titulo": "Proceso",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Proceso»?",
+    "respuestaCorrecta": "Conjunto de actividades que transforma o mueve entradas para producir resultados.",
+    "respuestasIncorrectas": [
+      "Análisis de actividades relacionadas y de sus efectos sobre el resultado común.",
+      "Recurso o información que ingresa al sistema y alimenta sus procesos.",
+      "Resultado que surge del funcionamiento del sistema.",
+      "Información sobre resultados que ayuda a revisar y corregir el funcionamiento."
+    ],
+    "pista": "Pensá en este ejemplo: El depósito prepara y carga un pedido.",
+    "explicacion": "Proceso: Conjunto de actividades que transforma o mueve entradas para producir resultados. Ejemplo: El depósito prepara y carga un pedido.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "def-clase2-9",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "sistema",
+    "ejemplo": "Un pedido preparado se entrega al cliente.",
+    "titulo": "Salida",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Salida»?",
+    "respuestaCorrecta": "Resultado que surge del funcionamiento del sistema.",
+    "respuestasIncorrectas": [
+      "Análisis de actividades relacionadas y de sus efectos sobre el resultado común.",
+      "Recurso o información que ingresa al sistema y alimenta sus procesos.",
+      "Conjunto de actividades que transforma o mueve entradas para producir resultados.",
+      "Información sobre resultados que ayuda a revisar y corregir el funcionamiento."
+    ],
+    "pista": "Pensá en este ejemplo: Un pedido preparado se entrega al cliente.",
+    "explicacion": "Salida: Resultado que surge del funcionamiento del sistema. Ejemplo: Un pedido preparado se entrega al cliente.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "def-clase2-10",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "sistema",
+    "ejemplo": "Los reclamos por daños llevan a revisar la carga.",
+    "titulo": "Retroalimentación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Retroalimentación»?",
+    "respuestaCorrecta": "Información sobre resultados que ayuda a revisar y corregir el funcionamiento.",
+    "respuestasIncorrectas": [
+      "Análisis de actividades relacionadas y de sus efectos sobre el resultado común.",
+      "Recurso o información que ingresa al sistema y alimenta sus procesos.",
+      "Conjunto de actividades que transforma o mueve entradas para producir resultados.",
+      "Resultado que surge del funcionamiento del sistema."
+    ],
+    "pista": "Pensá en este ejemplo: Los reclamos por daños llevan a revisar la carga.",
+    "explicacion": "Retroalimentación: Información sobre resultados que ayuda a revisar y corregir el funcionamiento. Ejemplo: Los reclamos por daños llevan a revisar la carga.",
+    "referencia": {
+      "tipo": "Sistema",
+      "titulo": "La logística como sistema",
+      "entradaLibro": "clase2_conceptos"
+    }
+  },
+  {
+    "id": "def-clase2-11",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "planificacion",
+    "ejemplo": "Ventas estima la demanda esperada durante una campaña.",
+    "titulo": "Pronóstico de ventas",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Pronóstico de ventas»?",
+    "respuestaCorrecta": "Estimación de ventas futuras utilizada como insumo para planificar.",
+    "respuestasIncorrectas": [
+      "Decisión anticipada sobre abastecimiento, almacenamiento y distribución considerando demanda, recursos, costos y servicio.",
+      "Plan que orienta qué producción se prevé y sirve de base para coordinar materiales.",
+      "Planificación de necesidades de materiales vinculada con el plan de producción."
+    ],
+    "pista": "Pensá en este ejemplo: Ventas estima la demanda esperada durante una campaña.",
+    "explicacion": "Pronóstico de ventas: Estimación de ventas futuras utilizada como insumo para planificar. Ejemplo: Ventas estima la demanda esperada durante una campaña.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "def-clase2-12",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "planificacion",
+    "ejemplo": "Producción revisa su plan frente a las ventas previstas.",
+    "titulo": "Plan maestro de producción",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Plan maestro de producción»?",
+    "respuestaCorrecta": "Plan que orienta qué producción se prevé y sirve de base para coordinar materiales.",
+    "respuestasIncorrectas": [
+      "Decisión anticipada sobre abastecimiento, almacenamiento y distribución considerando demanda, recursos, costos y servicio.",
+      "Estimación de ventas futuras utilizada como insumo para planificar.",
+      "Planificación de necesidades de materiales vinculada con el plan de producción."
+    ],
+    "pista": "Pensá en este ejemplo: Producción revisa su plan frente a las ventas previstas.",
+    "explicacion": "Plan maestro de producción: Plan que orienta qué producción se prevé y sirve de base para coordinar materiales. Ejemplo: Producción revisa su plan frente a las ventas previstas.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "def-clase2-13",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "planificacion",
+    "ejemplo": "El equipo determina materiales necesarios para el plan previsto.",
+    "titulo": "MRP",
+    "situacion": "",
+    "pregunta": "¿Qué significa «MRP»?",
+    "respuestaCorrecta": "Planificación de necesidades de materiales vinculada con el plan de producción.",
+    "respuestasIncorrectas": [
+      "Decisión anticipada sobre abastecimiento, almacenamiento y distribución considerando demanda, recursos, costos y servicio.",
+      "Estimación de ventas futuras utilizada como insumo para planificar.",
+      "Plan que orienta qué producción se prevé y sirve de base para coordinar materiales."
+    ],
+    "pista": "Pensá en este ejemplo: El equipo determina materiales necesarios para el plan previsto.",
+    "explicacion": "MRP: Planificación de necesidades de materiales vinculada con el plan de producción. Ejemplo: El equipo determina materiales necesarios para el plan previsto.",
+    "referencia": {
+      "tipo": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "entradaLibro": "clase2_areas"
+    }
+  },
+  {
+    "id": "def-clase2-14",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "coordinacion",
+    "ejemplo": "El proveedor programa la salida después de verificar disponibilidad.",
+    "titulo": "Despacho",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Despacho»?",
+    "respuestaCorrecta": "Preparación y salida de mercadería para su traslado hacia el destino.",
+    "respuestasIncorrectas": [
+      "Intercambio de información y decisiones para compatibilizar funciones de la empresa.",
+      "Recursos disponibles que condicionan cuánto puede realizarse en una operación."
+    ],
+    "pista": "Pensá en este ejemplo: El proveedor programa la salida después de verificar disponibilidad.",
+    "explicacion": "Despacho: Preparación y salida de mercadería para su traslado hacia el destino. Ejemplo: El proveedor programa la salida después de verificar disponibilidad.",
+    "referencia": {
+      "tipo": "Distribución",
+      "titulo": "Del pedido a la entrega",
+      "entradaLibro": "clase2_distribucion"
+    }
+  },
+  {
+    "id": "def-clase2-15",
+    "unidad": "clase2",
+    "tipo": "definicion",
+    "grupo": "coordinacion",
+    "ejemplo": "El almacén revisa si puede preparar los pedidos de una promoción.",
+    "titulo": "Capacidad",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Capacidad»?",
+    "respuestaCorrecta": "Recursos disponibles que condicionan cuánto puede realizarse en una operación.",
+    "respuestasIncorrectas": [
+      "Intercambio de información y decisiones para compatibilizar funciones de la empresa.",
+      "Preparación y salida de mercadería para su traslado hacia el destino."
+    ],
+    "pista": "Pensá en este ejemplo: El almacén revisa si puede preparar los pedidos de una promoción.",
+    "explicacion": "Capacidad: Recursos disponibles que condicionan cuánto puede realizarse en una operación. Ejemplo: El almacén revisa si puede preparar los pedidos de una promoción.",
+    "referencia": {
+      "tipo": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "entradaLibro": "clase2_plan"
     }
   },
   {
     "id": "def-clase3-1",
     "unidad": "clase3",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un operario verifica los artículos que acaban de llegar del proveedor.",
+    "grupo": "operaciones",
+    "ejemplo": "Se comparan los artículos llegados con lo esperado.",
     "titulo": "Recepción",
     "situacion": "",
     "pregunta": "¿Qué significa «Recepción»?",
-    "respuestaCorrecta": "Etapa en la que el depósito recibe y controla la mercancía entrante.",
+    "respuestaCorrecta": "Ingreso y control de la mercancía recibida.",
     "respuestasIncorrectas": [
-      "Asignación y registro del lugar donde se guarda una mercancía.",
-      "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "Selección de los artículos necesarios para preparar un pedido.",
-      "Etapa en que los pedidos preparados se organizan para su salida.",
-      "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+      "Asignación y registro del lugar donde se guarda un artículo.",
+      "Traslado de existencias hacia una ubicación que necesita recuperarlas.",
+      "Selección de referencias y cantidades para un pedido.",
+      "Control y organización de la salida de pedidos.",
+      "Reunión de artículos recogidos para completar un pedido."
     ],
-    "pista": "Pensá en este ejemplo: Un operario verifica los artículos que acaban de llegar del proveedor.",
-    "explicacion": "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante. Ejemplo: Un operario verifica los artículos que acaban de llegar del proveedor.",
+    "pista": "Pensá en este ejemplo: Se comparan los artículos llegados con lo esperado.",
+    "explicacion": "Recepción: Ingreso y control de la mercancía recibida. Ejemplo: Se comparan los artículos llegados con lo esperado.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "def-clase3-2",
     "unidad": "clase3",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "El sistema registra en qué estante se colocó una pieza.",
+    "grupo": "operaciones",
+    "ejemplo": "Se registra el estante de un repuesto.",
     "titulo": "Ubicación",
     "situacion": "",
     "pregunta": "¿Qué significa «Ubicación»?",
-    "respuestaCorrecta": "Asignación y registro del lugar donde se guarda una mercancía.",
+    "respuestaCorrecta": "Asignación y registro del lugar donde se guarda un artículo.",
     "respuestasIncorrectas": [
-      "Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "Selección de los artículos necesarios para preparar un pedido.",
-      "Etapa en que los pedidos preparados se organizan para su salida.",
-      "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+      "Ingreso y control de la mercancía recibida.",
+      "Traslado de existencias hacia una ubicación que necesita recuperarlas.",
+      "Selección de referencias y cantidades para un pedido.",
+      "Control y organización de la salida de pedidos.",
+      "Reunión de artículos recogidos para completar un pedido."
     ],
-    "pista": "Pensá en este ejemplo: El sistema registra en qué estante se colocó una pieza.",
-    "explicacion": "Ubicación: Asignación y registro del lugar donde se guarda una mercancía. Ejemplo: El sistema registra en qué estante se colocó una pieza.",
+    "pista": "Pensá en este ejemplo: Se registra el estante de un repuesto.",
+    "explicacion": "Ubicación: Asignación y registro del lugar donde se guarda un artículo. Ejemplo: Se registra el estante de un repuesto.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "def-clase3-3",
     "unidad": "clase3",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Se lleva una caja desde la reserva a un estante de preparación.",
+    "grupo": "operaciones",
+    "ejemplo": "Se lleva una caja de reserva al sector de preparación.",
     "titulo": "Reposición",
     "situacion": "",
     "pregunta": "¿Qué significa «Reposición»?",
-    "respuestaCorrecta": "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
+    "respuestaCorrecta": "Traslado de existencias hacia una ubicación que necesita recuperarlas.",
     "respuestasIncorrectas": [
-      "Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Asignación y registro del lugar donde se guarda una mercancía.",
-      "Selección de los artículos necesarios para preparar un pedido.",
-      "Etapa en que los pedidos preparados se organizan para su salida.",
-      "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+      "Ingreso y control de la mercancía recibida.",
+      "Asignación y registro del lugar donde se guarda un artículo.",
+      "Selección de referencias y cantidades para un pedido.",
+      "Control y organización de la salida de pedidos.",
+      "Reunión de artículos recogidos para completar un pedido."
     ],
-    "pista": "Pensá en este ejemplo: Se lleva una caja desde la reserva a un estante de preparación.",
-    "explicacion": "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias. Ejemplo: Se lleva una caja desde la reserva a un estante de preparación.",
+    "pista": "Pensá en este ejemplo: Se lleva una caja de reserva al sector de preparación.",
+    "explicacion": "Reposición: Traslado de existencias hacia una ubicación que necesita recuperarlas. Ejemplo: Se lleva una caja de reserva al sector de preparación.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "def-clase3-4",
     "unidad": "clase3",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un operario reúne las referencias y cantidades que solicitó un cliente.",
+    "grupo": "operaciones",
+    "ejemplo": "Se recogen dos artículos solicitados.",
     "titulo": "Picking",
     "situacion": "",
     "pregunta": "¿Qué significa «Picking»?",
-    "respuestaCorrecta": "Selección de los artículos necesarios para preparar un pedido.",
+    "respuestaCorrecta": "Selección de referencias y cantidades para un pedido.",
     "respuestasIncorrectas": [
-      "Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Asignación y registro del lugar donde se guarda una mercancía.",
-      "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "Etapa en que los pedidos preparados se organizan para su salida.",
-      "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+      "Ingreso y control de la mercancía recibida.",
+      "Asignación y registro del lugar donde se guarda un artículo.",
+      "Traslado de existencias hacia una ubicación que necesita recuperarlas.",
+      "Control y organización de la salida de pedidos.",
+      "Reunión de artículos recogidos para completar un pedido."
     ],
-    "pista": "Pensá en este ejemplo: Un operario reúne las referencias y cantidades que solicitó un cliente.",
-    "explicacion": "Picking: Selección de los artículos necesarios para preparar un pedido. Ejemplo: Un operario reúne las referencias y cantidades que solicitó un cliente.",
+    "pista": "Pensá en este ejemplo: Se recogen dos artículos solicitados.",
+    "explicacion": "Picking: Selección de referencias y cantidades para un pedido. Ejemplo: Se recogen dos artículos solicitados.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "Preparación y control del pedido",
+      "entradaLibro": "clase3_picking"
     }
   },
   {
     "id": "def-clase3-5",
     "unidad": "clase3",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
+    "grupo": "operaciones",
+    "ejemplo": "Se verifica el destino de una orden preparada.",
     "titulo": "Expedición",
     "situacion": "",
     "pregunta": "¿Qué significa «Expedición»?",
-    "respuestaCorrecta": "Etapa en que los pedidos preparados se organizan para su salida.",
+    "respuestaCorrecta": "Control y organización de la salida de pedidos.",
     "respuestasIncorrectas": [
-      "Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Asignación y registro del lugar donde se guarda una mercancía.",
-      "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "Selección de los artículos necesarios para preparar un pedido.",
-      "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito."
+      "Ingreso y control de la mercancía recibida.",
+      "Asignación y registro del lugar donde se guarda un artículo.",
+      "Traslado de existencias hacia una ubicación que necesita recuperarlas.",
+      "Selección de referencias y cantidades para un pedido.",
+      "Reunión de artículos recogidos para completar un pedido."
     ],
-    "pista": "Pensá en este ejemplo: Los pedidos terminados esperan en el muelle al vehículo de reparto.",
-    "explicacion": "Expedición: Etapa en que los pedidos preparados se organizan para su salida. Ejemplo: Los pedidos terminados esperan en el muelle al vehículo de reparto.",
+    "pista": "Pensá en este ejemplo: Se verifica el destino de una orden preparada.",
+    "explicacion": "Expedición: Control y organización de la salida de pedidos. Ejemplo: Se verifica el destino de una orden preparada.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
-      "entradaLibro": "clase3_conceptos"
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
     }
   },
   {
     "id": "def-clase3-6",
     "unidad": "clase3",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Una aplicación indica dónde guardar y localizar cada artículo.",
+    "grupo": "informacion",
+    "ejemplo": "La aplicación indica dónde buscar una pieza.",
     "titulo": "Sistema de gestión de almacenes",
     "situacion": "",
     "pregunta": "¿Qué significa «Sistema de gestión de almacenes»?",
-    "respuestaCorrecta": "Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito.",
+    "respuestaCorrecta": "Herramienta informática que ayuda a controlar ubicaciones y movimientos.",
     "respuestasIncorrectas": [
-      "Etapa en la que el depósito recibe y controla la mercancía entrante.",
-      "Asignación y registro del lugar donde se guarda una mercancía.",
-      "Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-      "Selección de los artículos necesarios para preparar un pedido.",
-      "Etapa en que los pedidos preparados se organizan para su salida."
+      "Registro de las existencias que se controlan en el depósito.",
+      "Posibilidad de relacionar el producto con su ubicación, cantidad, estado y movimientos."
     ],
-    "pista": "Pensá en este ejemplo: Una aplicación indica dónde guardar y localizar cada artículo.",
-    "explicacion": "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito. Ejemplo: Una aplicación indica dónde guardar y localizar cada artículo.",
+    "pista": "Pensá en este ejemplo: La aplicación indica dónde buscar una pieza.",
+    "explicacion": "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos. Ejemplo: La aplicación indica dónde buscar una pieza.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 3: Almacén y depósito",
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
+    }
+  },
+  {
+    "id": "def-clase3-7",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "operaciones",
+    "ejemplo": "Se juntan productos de distintos sectores.",
+    "titulo": "Consolidación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Consolidación»?",
+    "respuestaCorrecta": "Reunión de artículos recogidos para completar un pedido.",
+    "respuestasIncorrectas": [
+      "Ingreso y control de la mercancía recibida.",
+      "Asignación y registro del lugar donde se guarda un artículo.",
+      "Traslado de existencias hacia una ubicación que necesita recuperarlas.",
+      "Selección de referencias y cantidades para un pedido.",
+      "Control y organización de la salida de pedidos."
+    ],
+    "pista": "Pensá en este ejemplo: Se juntan productos de distintos sectores.",
+    "explicacion": "Consolidación: Reunión de artículos recogidos para completar un pedido. Ejemplo: Se juntan productos de distintos sectores.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "De la recepción a la salida",
+      "entradaLibro": "clase3_operaciones"
+    }
+  },
+  {
+    "id": "def-clase3-8",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "informacion",
+    "ejemplo": "Se contrasta la cantidad registrada con la disponible.",
+    "titulo": "Inventario",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Inventario»?",
+    "respuestaCorrecta": "Registro de las existencias que se controlan en el depósito.",
+    "respuestasIncorrectas": [
+      "Herramienta informática que ayuda a controlar ubicaciones y movimientos.",
+      "Posibilidad de relacionar el producto con su ubicación, cantidad, estado y movimientos."
+    ],
+    "pista": "Pensá en este ejemplo: Se contrasta la cantidad registrada con la disponible.",
+    "explicacion": "Inventario: Registro de las existencias que se controlan en el depósito. Ejemplo: Se contrasta la cantidad registrada con la disponible.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
+    }
+  },
+  {
+    "id": "def-clase3-9",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "informacion",
+    "ejemplo": "Se consulta dónde quedó una partida recibida.",
+    "titulo": "Trazabilidad",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Trazabilidad»?",
+    "respuestaCorrecta": "Posibilidad de relacionar el producto con su ubicación, cantidad, estado y movimientos.",
+    "respuestasIncorrectas": [
+      "Herramienta informática que ayuda a controlar ubicaciones y movimientos.",
+      "Registro de las existencias que se controlan en el depósito."
+    ],
+    "pista": "Pensá en este ejemplo: Se consulta dónde quedó una partida recibida.",
+    "explicacion": "Trazabilidad: Posibilidad de relacionar el producto con su ubicación, cantidad, estado y movimientos. Ejemplo: Se consulta dónde quedó una partida recibida.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Inventario y sistema de gestión",
+      "entradaLibro": "clase3_informacion"
+    }
+  },
+  {
+    "id": "def-clase3-10",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "diseno",
+    "ejemplo": "Se analiza el trayecto entre recepción y expedición.",
+    "titulo": "Flujo de materiales",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Flujo de materiales»?",
+    "respuestaCorrecta": "Recorrido de las mercancías dentro del almacén desde la entrada hasta la salida.",
+    "respuestasIncorrectas": [
+      "Frecuencia con que un producto sale o se mueve en el almacén.",
+      "Organización del recorrido con recepción y expedición próximas, según la disposición del edificio."
+    ],
+    "pista": "Pensá en este ejemplo: Se analiza el trayecto entre recepción y expedición.",
+    "explicacion": "Flujo de materiales: Recorrido de las mercancías dentro del almacén desde la entrada hasta la salida. Ejemplo: Se analiza el trayecto entre recepción y expedición.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "def-clase3-11",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "diseno",
+    "ejemplo": "Un artículo solicitado a menudo tiene mayor rotación que otro poco pedido.",
+    "titulo": "Rotación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Rotación»?",
+    "respuestaCorrecta": "Frecuencia con que un producto sale o se mueve en el almacén.",
+    "respuestasIncorrectas": [
+      "Recorrido de las mercancías dentro del almacén desde la entrada hasta la salida.",
+      "Organización del recorrido con recepción y expedición próximas, según la disposición del edificio."
+    ],
+    "pista": "Pensá en este ejemplo: Un artículo solicitado a menudo tiene mayor rotación que otro poco pedido.",
+    "explicacion": "Rotación: Frecuencia con que un producto sale o se mueve en el almacén. Ejemplo: Un artículo solicitado a menudo tiene mayor rotación que otro poco pedido.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "def-clase3-12",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "diseno",
+    "ejemplo": "Se evalúa un recorrido en U cuando los muelles están próximos.",
+    "titulo": "Flujo en U",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Flujo en U»?",
+    "respuestaCorrecta": "Organización del recorrido con recepción y expedición próximas, según la disposición del edificio.",
+    "respuestasIncorrectas": [
+      "Recorrido de las mercancías dentro del almacén desde la entrada hasta la salida.",
+      "Frecuencia con que un producto sale o se mueve en el almacén."
+    ],
+    "pista": "Pensá en este ejemplo: Se evalúa un recorrido en U cuando los muelles están próximos.",
+    "explicacion": "Flujo en U: Organización del recorrido con recepción y expedición próximas, según la disposición del edificio. Ejemplo: Se evalúa un recorrido en U cuando los muelles están próximos.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Diseño y flujos internos",
+      "entradaLibro": "clase3_diseno"
+    }
+  },
+  {
+    "id": "def-clase3-13",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "tipos",
+    "ejemplo": "Se guardan insumos antes de abastecer la fábrica.",
+    "titulo": "Almacén de materias primas",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Almacén de materias primas»?",
+    "respuestaCorrecta": "Instalación que recibe y conserva insumos destinados a la producción.",
+    "respuestasIncorrectas": [
+      "Instalación que conserva productos ya elaborados antes de su distribución.",
+      "Instalación que organiza mercancías para atender su distribución."
+    ],
+    "pista": "Pensá en este ejemplo: Se guardan insumos antes de abastecer la fábrica.",
+    "explicacion": "Almacén de materias primas: Instalación que recibe y conserva insumos destinados a la producción. Ejemplo: Se guardan insumos antes de abastecer la fábrica.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Función y clases de almacén",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "def-clase3-14",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "tipos",
+    "ejemplo": "Se guardan artículos terminados antes del despacho.",
+    "titulo": "Almacén de productos terminados",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Almacén de productos terminados»?",
+    "respuestaCorrecta": "Instalación que conserva productos ya elaborados antes de su distribución.",
+    "respuestasIncorrectas": [
+      "Instalación que recibe y conserva insumos destinados a la producción.",
+      "Instalación que organiza mercancías para atender su distribución."
+    ],
+    "pista": "Pensá en este ejemplo: Se guardan artículos terminados antes del despacho.",
+    "explicacion": "Almacén de productos terminados: Instalación que conserva productos ya elaborados antes de su distribución. Ejemplo: Se guardan artículos terminados antes del despacho.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Función y clases de almacén",
+      "entradaLibro": "clase3_conceptos"
+    }
+  },
+  {
+    "id": "def-clase3-15",
+    "unidad": "clase3",
+    "tipo": "definicion",
+    "grupo": "tipos",
+    "ejemplo": "Se preparan pedidos para distintos destinos.",
+    "titulo": "Almacén de distribución",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Almacén de distribución»?",
+    "respuestaCorrecta": "Instalación que organiza mercancías para atender su distribución.",
+    "respuestasIncorrectas": [
+      "Instalación que recibe y conserva insumos destinados a la producción.",
+      "Instalación que conserva productos ya elaborados antes de su distribución."
+    ],
+    "pista": "Pensá en este ejemplo: Se preparan pedidos para distintos destinos.",
+    "explicacion": "Almacén de distribución: Instalación que organiza mercancías para atender su distribución. Ejemplo: Se preparan pedidos para distintos destinos.",
+    "referencia": {
+      "tipo": "Clase 3",
+      "titulo": "Función y clases de almacén",
       "entradaLibro": "clase3_conceptos"
     }
   },
@@ -453,24 +1039,23 @@
     "id": "def-clase4-1",
     "unidad": "clase4",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Varias cajas se agrupan de forma estable para moverlas juntas.",
+    "grupo": "carga",
+    "ejemplo": "Varias cajas aseguradas se trasladan juntas.",
     "titulo": "Unidad de carga",
     "situacion": "",
     "pregunta": "¿Qué significa «Unidad de carga»?",
     "respuestaCorrecta": "Agrupación de mercancías que se manipula como un conjunto.",
     "respuestasIncorrectas": [
-      "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Plataforma que sirve de base para agrupar y manipular mercancías.",
-      "Frecuencia con la que un producto sale o se mueve en el almacén.",
-      "Reunión de productos para completar un pedido o envío.",
-      "Sistema automático para almacenar y recuperar cajas o bandejas."
+      "Condición que ayuda a que los productos agrupados se mantengan seguros durante el manejo.",
+      "Plataforma que puede servir de base para agrupar y manipular mercancías.",
+      "Protección que acompaña al producto durante su manejo y distribución.",
+      "Recurso empleado para mover o manejar mercancías y unidades de carga."
     ],
-    "pista": "Pensá en este ejemplo: Varias cajas se agrupan de forma estable para moverlas juntas.",
-    "explicacion": "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto. Ejemplo: Varias cajas se agrupan de forma estable para moverlas juntas.",
+    "pista": "Pensá en este ejemplo: Varias cajas aseguradas se trasladan juntas.",
+    "explicacion": "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto. Ejemplo: Varias cajas aseguradas se trasladan juntas.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
+      "tipo": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
       "entradaLibro": "clase4_conceptos"
     }
   },
@@ -478,49 +1063,47 @@
     "id": "def-clase4-2",
     "unidad": "clase4",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Se asegura un pallet para evitar que las cajas se desplacen.",
+    "grupo": "carga",
+    "ejemplo": "Se asegura la carga para evitar desplazamientos.",
     "titulo": "Estabilidad de la carga",
     "situacion": "",
     "pregunta": "¿Qué significa «Estabilidad de la carga»?",
-    "respuestaCorrecta": "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
+    "respuestaCorrecta": "Condición que ayuda a que los productos agrupados se mantengan seguros durante el manejo.",
     "respuestasIncorrectas": [
       "Agrupación de mercancías que se manipula como un conjunto.",
-      "Plataforma que sirve de base para agrupar y manipular mercancías.",
-      "Frecuencia con la que un producto sale o se mueve en el almacén.",
-      "Reunión de productos para completar un pedido o envío.",
-      "Sistema automático para almacenar y recuperar cajas o bandejas."
+      "Plataforma que puede servir de base para agrupar y manipular mercancías.",
+      "Protección que acompaña al producto durante su manejo y distribución.",
+      "Recurso empleado para mover o manejar mercancías y unidades de carga."
     ],
-    "pista": "Pensá en este ejemplo: Se asegura un pallet para evitar que las cajas se desplacen.",
-    "explicacion": "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo. Ejemplo: Se asegura un pallet para evitar que las cajas se desplacen.",
+    "pista": "Pensá en este ejemplo: Se asegura la carga para evitar desplazamientos.",
+    "explicacion": "Estabilidad de la carga: Condición que ayuda a que los productos agrupados se mantengan seguros durante el manejo. Ejemplo: Se asegura la carga para evitar desplazamientos.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
     }
   },
   {
     "id": "def-clase4-3",
     "unidad": "clase4",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un equipo eleva una plataforma cargada con cajas.",
+    "grupo": "carga",
+    "ejemplo": "Una plataforma sostiene cajas para su traslado.",
     "titulo": "Pallet",
     "situacion": "",
     "pregunta": "¿Qué significa «Pallet»?",
-    "respuestaCorrecta": "Plataforma que sirve de base para agrupar y manipular mercancías.",
+    "respuestaCorrecta": "Plataforma que puede servir de base para agrupar y manipular mercancías.",
     "respuestasIncorrectas": [
       "Agrupación de mercancías que se manipula como un conjunto.",
-      "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Frecuencia con la que un producto sale o se mueve en el almacén.",
-      "Reunión de productos para completar un pedido o envío.",
-      "Sistema automático para almacenar y recuperar cajas o bandejas."
+      "Condición que ayuda a que los productos agrupados se mantengan seguros durante el manejo.",
+      "Protección que acompaña al producto durante su manejo y distribución.",
+      "Recurso empleado para mover o manejar mercancías y unidades de carga."
     ],
-    "pista": "Pensá en este ejemplo: Un equipo eleva una plataforma cargada con cajas.",
-    "explicacion": "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías. Ejemplo: Un equipo eleva una plataforma cargada con cajas.",
+    "pista": "Pensá en este ejemplo: Una plataforma sostiene cajas para su traslado.",
+    "explicacion": "Pallet: Plataforma que puede servir de base para agrupar y manipular mercancías. Ejemplo: Una plataforma sostiene cajas para su traslado.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
+      "tipo": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
       "entradaLibro": "clase4_conceptos"
     }
   },
@@ -528,249 +1111,651 @@
     "id": "def-clase4-4",
     "unidad": "clase4",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
+    "grupo": "operacion",
+    "ejemplo": "Una referencia solicitada frecuentemente tiene mayor rotación que otra poco pedida.",
     "titulo": "Rotación",
     "situacion": "",
     "pregunta": "¿Qué significa «Rotación»?",
     "respuestaCorrecta": "Frecuencia con la que un producto sale o se mueve en el almacén.",
     "respuestasIncorrectas": [
-      "Agrupación de mercancías que se manipula como un conjunto.",
-      "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Plataforma que sirve de base para agrupar y manipular mercancías.",
-      "Reunión de productos para completar un pedido o envío.",
-      "Sistema automático para almacenar y recuperar cajas o bandejas."
+      "Reunión de artículos para completar un pedido o envío.",
+      "Selección de las referencias y cantidades necesarias para una orden.",
+      "Traslado de existencias para recuperar disponibilidad en el punto de preparación.",
+      "Separación u organización de pedidos según el flujo de salida."
     ],
-    "pista": "Pensá en este ejemplo: Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
-    "explicacion": "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén. Ejemplo: Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
+    "pista": "Pensá en este ejemplo: Una referencia solicitada frecuentemente tiene mayor rotación que otra poco pedida.",
+    "explicacion": "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén. Ejemplo: Una referencia solicitada frecuentemente tiene mayor rotación que otra poco pedida.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
     }
   },
   {
     "id": "def-clase4-5",
     "unidad": "clase4",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
+    "grupo": "operacion",
+    "ejemplo": "Se juntan productos recogidos en sectores diferentes.",
     "titulo": "Consolidación",
     "situacion": "",
     "pregunta": "¿Qué significa «Consolidación»?",
-    "respuestaCorrecta": "Reunión de productos para completar un pedido o envío.",
+    "respuestaCorrecta": "Reunión de artículos para completar un pedido o envío.",
     "respuestasIncorrectas": [
-      "Agrupación de mercancías que se manipula como un conjunto.",
-      "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Plataforma que sirve de base para agrupar y manipular mercancías.",
       "Frecuencia con la que un producto sale o se mueve en el almacén.",
-      "Sistema automático para almacenar y recuperar cajas o bandejas."
+      "Selección de las referencias y cantidades necesarias para una orden.",
+      "Traslado de existencias para recuperar disponibilidad en el punto de preparación.",
+      "Separación u organización de pedidos según el flujo de salida."
     ],
-    "pista": "Pensá en este ejemplo: En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
-    "explicacion": "Consolidación: Reunión de productos para completar un pedido o envío. Ejemplo: En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
+    "pista": "Pensá en este ejemplo: Se juntan productos recogidos en sectores diferentes.",
+    "explicacion": "Consolidación: Reunión de artículos para completar un pedido o envío. Ejemplo: Se juntan productos recogidos en sectores diferentes.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
     }
   },
   {
     "id": "def-clase4-6",
     "unidad": "clase4",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
+    "grupo": "sistemas",
+    "ejemplo": "Una caja se recupera del almacén automático para preparar una orden.",
     "titulo": "Miniload",
     "situacion": "",
     "pregunta": "¿Qué significa «Miniload»?",
     "respuestaCorrecta": "Sistema automático para almacenar y recuperar cajas o bandejas.",
     "respuestasIncorrectas": [
-      "Agrupación de mercancías que se manipula como un conjunto.",
-      "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-      "Plataforma que sirve de base para agrupar y manipular mercancías.",
-      "Frecuencia con la que un producto sale o se mueve en el almacén.",
-      "Reunión de productos para completar un pedido o envío."
+      "Sistema de almacenaje presente entre las áreas del caso COFAN.",
+      "Medios que conectan etapas mediante un circuito de traslado.",
+      "Sistema de almacenaje mencionado entre las soluciones combinadas de DECASA.",
+      "Herramienta informática que coordina operaciones e información de almacén."
     ],
-    "pista": "Pensá en este ejemplo: Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
-    "explicacion": "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas. Ejemplo: Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
+    "pista": "Pensá en este ejemplo: Una caja se recupera del almacén automático para preparar una orden.",
+    "explicacion": "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas. Ejemplo: Una caja se recupera del almacén automático para preparar una orden.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
-      "entradaLibro": "clase4_conceptos"
+      "tipo": "Clase 4",
+      "titulo": "Sistemas y coordinación",
+      "entradaLibro": "clase4_sistemas"
+    }
+  },
+  {
+    "id": "def-clase4-7",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "carga",
+    "ejemplo": "Una caja protege artículos agrupados para su manipulación.",
+    "titulo": "Embalaje",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Embalaje»?",
+    "respuestaCorrecta": "Protección que acompaña al producto durante su manejo y distribución.",
+    "respuestasIncorrectas": [
+      "Agrupación de mercancías que se manipula como un conjunto.",
+      "Condición que ayuda a que los productos agrupados se mantengan seguros durante el manejo.",
+      "Plataforma que puede servir de base para agrupar y manipular mercancías.",
+      "Recurso empleado para mover o manejar mercancías y unidades de carga."
+    ],
+    "pista": "Pensá en este ejemplo: Una caja protege artículos agrupados para su manipulación.",
+    "explicacion": "Embalaje: Protección que acompaña al producto durante su manejo y distribución. Ejemplo: Una caja protege artículos agrupados para su manipulación.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
+    }
+  },
+  {
+    "id": "def-clase4-8",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "carga",
+    "ejemplo": "Se verifica que el equipo pueda manejar la unidad prevista.",
+    "titulo": "Equipo de manipulación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Equipo de manipulación»?",
+    "respuestaCorrecta": "Recurso empleado para mover o manejar mercancías y unidades de carga.",
+    "respuestasIncorrectas": [
+      "Agrupación de mercancías que se manipula como un conjunto.",
+      "Condición que ayuda a que los productos agrupados se mantengan seguros durante el manejo.",
+      "Plataforma que puede servir de base para agrupar y manipular mercancías.",
+      "Protección que acompaña al producto durante su manejo y distribución."
+    ],
+    "pista": "Pensá en este ejemplo: Se verifica que el equipo pueda manejar la unidad prevista.",
+    "explicacion": "Equipo de manipulación: Recurso empleado para mover o manejar mercancías y unidades de carga. Ejemplo: Se verifica que el equipo pueda manejar la unidad prevista.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "entradaLibro": "clase4_diseno"
+    }
+  },
+  {
+    "id": "def-clase4-9",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "operacion",
+    "ejemplo": "Se retiran los artículos solicitados por un cliente.",
+    "titulo": "Picking",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking»?",
+    "respuestaCorrecta": "Selección de las referencias y cantidades necesarias para una orden.",
+    "respuestasIncorrectas": [
+      "Frecuencia con la que un producto sale o se mueve en el almacén.",
+      "Reunión de artículos para completar un pedido o envío.",
+      "Traslado de existencias para recuperar disponibilidad en el punto de preparación.",
+      "Separación u organización de pedidos según el flujo de salida."
+    ],
+    "pista": "Pensá en este ejemplo: Se retiran los artículos solicitados por un cliente.",
+    "explicacion": "Picking: Selección de las referencias y cantidades necesarias para una orden. Ejemplo: Se retiran los artículos solicitados por un cliente.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
+    }
+  },
+  {
+    "id": "def-clase4-10",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "operacion",
+    "ejemplo": "Se lleva mercancía al sector de picking que necesita stock.",
+    "titulo": "Reposición",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Reposición»?",
+    "respuestaCorrecta": "Traslado de existencias para recuperar disponibilidad en el punto de preparación.",
+    "respuestasIncorrectas": [
+      "Frecuencia con la que un producto sale o se mueve en el almacén.",
+      "Reunión de artículos para completar un pedido o envío.",
+      "Selección de las referencias y cantidades necesarias para una orden.",
+      "Separación u organización de pedidos según el flujo de salida."
+    ],
+    "pista": "Pensá en este ejemplo: Se lleva mercancía al sector de picking que necesita stock.",
+    "explicacion": "Reposición: Traslado de existencias para recuperar disponibilidad en el punto de preparación. Ejemplo: Se lleva mercancía al sector de picking que necesita stock.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "entradaLibro": "clase4_rotacion"
+    }
+  },
+  {
+    "id": "def-clase4-11",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "operacion",
+    "ejemplo": "Un clasificador organiza pedidos preparados.",
+    "titulo": "Clasificación de pedidos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Clasificación de pedidos»?",
+    "respuestaCorrecta": "Separación u organización de pedidos según el flujo de salida.",
+    "respuestasIncorrectas": [
+      "Frecuencia con la que un producto sale o se mueve en el almacén.",
+      "Reunión de artículos para completar un pedido o envío.",
+      "Selección de las referencias y cantidades necesarias para una orden.",
+      "Traslado de existencias para recuperar disponibilidad en el punto de preparación."
+    ],
+    "pista": "Pensá en este ejemplo: Un clasificador organiza pedidos preparados.",
+    "explicacion": "Clasificación de pedidos: Separación u organización de pedidos según el flujo de salida. Ejemplo: Un clasificador organiza pedidos preparados.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "entradaLibro": "clase4_decasa"
+    }
+  },
+  {
+    "id": "def-clase4-12",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "sistemas",
+    "ejemplo": "El centro combina este sector con picking manual y miniload.",
+    "titulo": "Almacenamiento convencional",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Almacenamiento convencional»?",
+    "respuestaCorrecta": "Sistema de almacenaje presente entre las áreas del caso COFAN.",
+    "respuestasIncorrectas": [
+      "Sistema automático para almacenar y recuperar cajas o bandejas.",
+      "Medios que conectan etapas mediante un circuito de traslado.",
+      "Sistema de almacenaje mencionado entre las soluciones combinadas de DECASA.",
+      "Herramienta informática que coordina operaciones e información de almacén."
+    ],
+    "pista": "Pensá en este ejemplo: El centro combina este sector con picking manual y miniload.",
+    "explicacion": "Almacenamiento convencional: Sistema de almacenaje presente entre las áreas del caso COFAN. Ejemplo: El centro combina este sector con picking manual y miniload.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "entradaLibro": "clase4_cofan"
+    }
+  },
+  {
+    "id": "def-clase4-13",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "sistemas",
+    "ejemplo": "En COFAN conectan puestos de preparación y otras operaciones.",
+    "titulo": "Transportadores",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Transportadores»?",
+    "respuestaCorrecta": "Medios que conectan etapas mediante un circuito de traslado.",
+    "respuestasIncorrectas": [
+      "Sistema automático para almacenar y recuperar cajas o bandejas.",
+      "Sistema de almacenaje presente entre las áreas del caso COFAN.",
+      "Sistema de almacenaje mencionado entre las soluciones combinadas de DECASA.",
+      "Herramienta informática que coordina operaciones e información de almacén."
+    ],
+    "pista": "Pensá en este ejemplo: En COFAN conectan puestos de preparación y otras operaciones.",
+    "explicacion": "Transportadores: Medios que conectan etapas mediante un circuito de traslado. Ejemplo: En COFAN conectan puestos de preparación y otras operaciones.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "entradaLibro": "clase4_cofan"
+    }
+  },
+  {
+    "id": "def-clase4-14",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "sistemas",
+    "ejemplo": "DECASA lo utiliza junto con otros sistemas.",
+    "titulo": "Pallet Shuttle",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Pallet Shuttle»?",
+    "respuestaCorrecta": "Sistema de almacenaje mencionado entre las soluciones combinadas de DECASA.",
+    "respuestasIncorrectas": [
+      "Sistema automático para almacenar y recuperar cajas o bandejas.",
+      "Sistema de almacenaje presente entre las áreas del caso COFAN.",
+      "Medios que conectan etapas mediante un circuito de traslado.",
+      "Herramienta informática que coordina operaciones e información de almacén."
+    ],
+    "pista": "Pensá en este ejemplo: DECASA lo utiliza junto con otros sistemas.",
+    "explicacion": "Pallet Shuttle: Sistema de almacenaje mencionado entre las soluciones combinadas de DECASA. Ejemplo: DECASA lo utiliza junto con otros sistemas.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "entradaLibro": "clase4_decasa"
+    }
+  },
+  {
+    "id": "def-clase4-15",
+    "unidad": "clase4",
+    "tipo": "definicion",
+    "grupo": "sistemas",
+    "ejemplo": "El sistema vincula tareas con ubicaciones e inventario.",
+    "titulo": "Sistema de gestión",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Sistema de gestión»?",
+    "respuestaCorrecta": "Herramienta informática que coordina operaciones e información de almacén.",
+    "respuestasIncorrectas": [
+      "Sistema automático para almacenar y recuperar cajas o bandejas.",
+      "Sistema de almacenaje presente entre las áreas del caso COFAN.",
+      "Medios que conectan etapas mediante un circuito de traslado.",
+      "Sistema de almacenaje mencionado entre las soluciones combinadas de DECASA."
+    ],
+    "pista": "Pensá en este ejemplo: El sistema vincula tareas con ubicaciones e inventario.",
+    "explicacion": "Sistema de gestión: Herramienta informática que coordina operaciones e información de almacén. Ejemplo: El sistema vincula tareas con ubicaciones e inventario.",
+    "referencia": {
+      "tipo": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "entradaLibro": "clase4_decasa"
     }
   },
   {
     "id": "def-clase5-1",
     "unidad": "clase5",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un depósito guarda pallets en posiciones distribuidas en altura.",
+    "grupo": "almacenaje",
+    "ejemplo": "Se asignan posiciones en altura a pallets.",
     "titulo": "Estantería",
     "situacion": "",
     "pregunta": "¿Qué significa «Estantería»?",
-    "respuestaCorrecta": "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
+    "respuestaCorrecta": "Estructura que organiza mercancías en posiciones y niveles.",
     "respuestasIncorrectas": [
-      "Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Cantidad de mercancía o posiciones que una instalación puede alojar.",
-      "Conjunto de movimientos internos de productos durante la operación.",
-      "Espacio de circulación necesario para personas o equipos entre ubicaciones."
+      "Facilidad para alcanzar y recuperar una referencia almacenada.",
+      "Cantidad de mercancía o posiciones que puede alojar una instalación.",
+      "Frecuencia con que una referencia se mueve o renueva."
     ],
-    "pista": "Pensá en este ejemplo: Un depósito guarda pallets en posiciones distribuidas en altura.",
-    "explicacion": "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento. Ejemplo: Un depósito guarda pallets en posiciones distribuidas en altura.",
+    "pista": "Pensá en este ejemplo: Se asignan posiciones en altura a pallets.",
+    "explicacion": "Estantería: Estructura que organiza mercancías en posiciones y niveles. Ejemplo: Se asignan posiciones en altura a pallets.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
     }
   },
   {
     "id": "def-clase5-2",
     "unidad": "clase5",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Una transpaleta traslada un pallet entre dos sectores.",
+    "grupo": "manipuleo",
+    "ejemplo": "Una transpaleta traslada un pallet.",
     "titulo": "Equipo de manipuleo",
     "situacion": "",
     "pregunta": "¿Qué significa «Equipo de manipuleo»?",
-    "respuestaCorrecta": "Equipo utilizado para elevar, mover o posicionar cargas.",
+    "respuestaCorrecta": "Equipo para elevar, transportar o posicionar cargas.",
     "respuestasIncorrectas": [
-      "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Cantidad de mercancía o posiciones que una instalación puede alojar.",
-      "Conjunto de movimientos internos de productos durante la operación.",
-      "Espacio de circulación necesario para personas o equipos entre ubicaciones."
+      "Espacio de circulación y maniobra entre ubicaciones.",
+      "Altura a la que el equipo debe ubicar o recuperar la carga."
     ],
-    "pista": "Pensá en este ejemplo: Una transpaleta traslada un pallet entre dos sectores.",
-    "explicacion": "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas. Ejemplo: Una transpaleta traslada un pallet entre dos sectores.",
+    "pista": "Pensá en este ejemplo: Una transpaleta traslada un pallet.",
+    "explicacion": "Equipo de manipuleo: Equipo para elevar, transportar o posicionar cargas. Ejemplo: Una transpaleta traslada un pallet.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
     }
   },
   {
     "id": "def-clase5-3",
     "unidad": "clase5",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
+    "grupo": "almacenaje",
+    "ejemplo": "Se comprueba si puede retirarse una caja sin mover otras.",
     "titulo": "Accesibilidad",
     "situacion": "",
     "pregunta": "¿Qué significa «Accesibilidad»?",
-    "respuestaCorrecta": "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
+    "respuestaCorrecta": "Facilidad para alcanzar y recuperar una referencia almacenada.",
     "respuestasIncorrectas": [
-      "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Cantidad de mercancía o posiciones que una instalación puede alojar.",
-      "Conjunto de movimientos internos de productos durante la operación.",
-      "Espacio de circulación necesario para personas o equipos entre ubicaciones."
+      "Estructura que organiza mercancías en posiciones y niveles.",
+      "Cantidad de mercancía o posiciones que puede alojar una instalación.",
+      "Frecuencia con que una referencia se mueve o renueva."
     ],
-    "pista": "Pensá en este ejemplo: Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
-    "explicacion": "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada. Ejemplo: Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
+    "pista": "Pensá en este ejemplo: Se comprueba si puede retirarse una caja sin mover otras.",
+    "explicacion": "Accesibilidad: Facilidad para alcanzar y recuperar una referencia almacenada. Ejemplo: Se comprueba si puede retirarse una caja sin mover otras.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
     }
   },
   {
     "id": "def-clase5-4",
     "unidad": "clase5",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "El responsable calcula cuántos pallets caben en las estanterías.",
+    "grupo": "almacenaje",
+    "ejemplo": "Se cuentan las posiciones disponibles para pallets.",
     "titulo": "Capacidad de almacenamiento",
     "situacion": "",
     "pregunta": "¿Qué significa «Capacidad de almacenamiento»?",
-    "respuestaCorrecta": "Cantidad de mercancía o posiciones que una instalación puede alojar.",
+    "respuestaCorrecta": "Cantidad de mercancía o posiciones que puede alojar una instalación.",
     "respuestasIncorrectas": [
-      "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Conjunto de movimientos internos de productos durante la operación.",
-      "Espacio de circulación necesario para personas o equipos entre ubicaciones."
+      "Estructura que organiza mercancías en posiciones y niveles.",
+      "Facilidad para alcanzar y recuperar una referencia almacenada.",
+      "Frecuencia con que una referencia se mueve o renueva."
     ],
-    "pista": "Pensá en este ejemplo: El responsable calcula cuántos pallets caben en las estanterías.",
-    "explicacion": "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar. Ejemplo: El responsable calcula cuántos pallets caben en las estanterías.",
+    "pista": "Pensá en este ejemplo: Se cuentan las posiciones disponibles para pallets.",
+    "explicacion": "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que puede alojar una instalación. Ejemplo: Se cuentan las posiciones disponibles para pallets.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
     }
   },
   {
     "id": "def-clase5-5",
     "unidad": "clase5",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
+    "grupo": "flujo",
+    "ejemplo": "Una carga pasa de recepción a su ubicación.",
     "titulo": "Manejo de materiales",
     "situacion": "",
     "pregunta": "¿Qué significa «Manejo de materiales»?",
-    "respuestaCorrecta": "Conjunto de movimientos internos de productos durante la operación.",
+    "respuestaCorrecta": "Conjunto de movimientos internos de productos.",
     "respuestasIncorrectas": [
-      "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Cantidad de mercancía o posiciones que una instalación puede alojar.",
-      "Espacio de circulación necesario para personas o equipos entre ubicaciones."
+      "Traslado de mercancía para abastecer una ubicación de trabajo.",
+      "Recolección y agrupación de artículos para atender órdenes.",
+      "Etapa de salida de pedidos preparados hacia su distribución."
     ],
-    "pista": "Pensá en este ejemplo: Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
-    "explicacion": "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación. Ejemplo: Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
+    "pista": "Pensá en este ejemplo: Una carga pasa de recepción a su ubicación.",
+    "explicacion": "Manejo de materiales: Conjunto de movimientos internos de productos. Ejemplo: Una carga pasa de recepción a su ubicación.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
     }
   },
   {
     "id": "def-clase5-6",
     "unidad": "clase5",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Se verifica que la máquina pueda maniobrar entre dos estanterías.",
+    "grupo": "manipuleo",
+    "ejemplo": "Se verifica que el equipo pueda girar con su carga.",
     "titulo": "Pasillo de trabajo",
     "situacion": "",
     "pregunta": "¿Qué significa «Pasillo de trabajo»?",
-    "respuestaCorrecta": "Espacio de circulación necesario para personas o equipos entre ubicaciones.",
+    "respuestaCorrecta": "Espacio de circulación y maniobra entre ubicaciones.",
     "respuestasIncorrectas": [
-      "Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-      "Equipo utilizado para elevar, mover o posicionar cargas.",
-      "Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-      "Cantidad de mercancía o posiciones que una instalación puede alojar.",
-      "Conjunto de movimientos internos de productos durante la operación."
+      "Equipo para elevar, transportar o posicionar cargas.",
+      "Altura a la que el equipo debe ubicar o recuperar la carga."
     ],
-    "pista": "Pensá en este ejemplo: Se verifica que la máquina pueda maniobrar entre dos estanterías.",
-    "explicacion": "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones. Ejemplo: Se verifica que la máquina pueda maniobrar entre dos estanterías.",
+    "pista": "Pensá en este ejemplo: Se verifica que el equipo pueda girar con su carga.",
+    "explicacion": "Pasillo de trabajo: Espacio de circulación y maniobra entre ubicaciones. Ejemplo: Se verifica que el equipo pueda girar con su carga.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 5: Almacenaje y manipuleo",
-      "entradaLibro": "clase5_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
+    }
+  },
+  {
+    "id": "def-clase5-7",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "carga",
+    "ejemplo": "Varias cajas se agrupan sobre un pallet.",
+    "titulo": "Unidad de carga",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Unidad de carga»?",
+    "respuestaCorrecta": "Productos dispuestos para ser manipulados como una unidad.",
+    "respuestasIncorrectas": [
+      "Recurso que ayuda a conformar, proteger o estabilizar una unidad.",
+      "Condición por la que los productos agrupados se mantienen seguros al manipularlos.",
+      "Información que permite reconocer una unidad y su contenido."
+    ],
+    "pista": "Pensá en este ejemplo: Varias cajas se agrupan sobre un pallet.",
+    "explicacion": "Unidad de carga: Productos dispuestos para ser manipulados como una unidad. Ejemplo: Varias cajas se agrupan sobre un pallet.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "def-clase5-8",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "carga",
+    "ejemplo": "Un elemento de sujeción mantiene juntas las cajas.",
+    "titulo": "Elemento auxiliar de carga",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Elemento auxiliar de carga»?",
+    "respuestaCorrecta": "Recurso que ayuda a conformar, proteger o estabilizar una unidad.",
+    "respuestasIncorrectas": [
+      "Productos dispuestos para ser manipulados como una unidad.",
+      "Condición por la que los productos agrupados se mantienen seguros al manipularlos.",
+      "Información que permite reconocer una unidad y su contenido."
+    ],
+    "pista": "Pensá en este ejemplo: Un elemento de sujeción mantiene juntas las cajas.",
+    "explicacion": "Elemento auxiliar de carga: Recurso que ayuda a conformar, proteger o estabilizar una unidad. Ejemplo: Un elemento de sujeción mantiene juntas las cajas.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "def-clase5-9",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "carga",
+    "ejemplo": "Las cajas no se desplazan al trasladar el pallet.",
+    "titulo": "Estabilidad de carga",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Estabilidad de carga»?",
+    "respuestaCorrecta": "Condición por la que los productos agrupados se mantienen seguros al manipularlos.",
+    "respuestasIncorrectas": [
+      "Productos dispuestos para ser manipulados como una unidad.",
+      "Recurso que ayuda a conformar, proteger o estabilizar una unidad.",
+      "Información que permite reconocer una unidad y su contenido."
+    ],
+    "pista": "Pensá en este ejemplo: Las cajas no se desplazan al trasladar el pallet.",
+    "explicacion": "Estabilidad de carga: Condición por la que los productos agrupados se mantienen seguros al manipularlos. Ejemplo: Las cajas no se desplazan al trasladar el pallet.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "def-clase5-10",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "almacenaje",
+    "ejemplo": "Se considera la frecuencia de salida al asignar una ubicación.",
+    "titulo": "Rotación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Rotación»?",
+    "respuestaCorrecta": "Frecuencia con que una referencia se mueve o renueva.",
+    "respuestasIncorrectas": [
+      "Estructura que organiza mercancías en posiciones y niveles.",
+      "Facilidad para alcanzar y recuperar una referencia almacenada.",
+      "Cantidad de mercancía o posiciones que puede alojar una instalación."
+    ],
+    "pista": "Pensá en este ejemplo: Se considera la frecuencia de salida al asignar una ubicación.",
+    "explicacion": "Rotación: Frecuencia con que una referencia se mueve o renueva. Ejemplo: Se considera la frecuencia de salida al asignar una ubicación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Estanterías y acceso",
+      "entradaLibro": "clase5_estanterias"
+    }
+  },
+  {
+    "id": "def-clase5-11",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "flujo",
+    "ejemplo": "Se lleva producto a una posición de preparación.",
+    "titulo": "Reposición",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Reposición»?",
+    "respuestaCorrecta": "Traslado de mercancía para abastecer una ubicación de trabajo.",
+    "respuestasIncorrectas": [
+      "Conjunto de movimientos internos de productos.",
+      "Recolección y agrupación de artículos para atender órdenes.",
+      "Etapa de salida de pedidos preparados hacia su distribución."
+    ],
+    "pista": "Pensá en este ejemplo: Se lleva producto a una posición de preparación.",
+    "explicacion": "Reposición: Traslado de mercancía para abastecer una ubicación de trabajo. Ejemplo: Se lleva producto a una posición de preparación.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "def-clase5-12",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "flujo",
+    "ejemplo": "Se reúnen las cajas solicitadas antes del embalaje.",
+    "titulo": "Preparación de pedidos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Preparación de pedidos»?",
+    "respuestaCorrecta": "Recolección y agrupación de artículos para atender órdenes.",
+    "respuestasIncorrectas": [
+      "Conjunto de movimientos internos de productos.",
+      "Traslado de mercancía para abastecer una ubicación de trabajo.",
+      "Etapa de salida de pedidos preparados hacia su distribución."
+    ],
+    "pista": "Pensá en este ejemplo: Se reúnen las cajas solicitadas antes del embalaje.",
+    "explicacion": "Preparación de pedidos: Recolección y agrupación de artículos para atender órdenes. Ejemplo: Se reúnen las cajas solicitadas antes del embalaje.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
+    }
+  },
+  {
+    "id": "def-clase5-13",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "manipuleo",
+    "ejemplo": "Se comprueba el alcance frente a la estantería.",
+    "titulo": "Altura de trabajo",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Altura de trabajo»?",
+    "respuestaCorrecta": "Altura a la que el equipo debe ubicar o recuperar la carga.",
+    "respuestasIncorrectas": [
+      "Equipo para elevar, transportar o posicionar cargas.",
+      "Espacio de circulación y maniobra entre ubicaciones."
+    ],
+    "pista": "Pensá en este ejemplo: Se comprueba el alcance frente a la estantería.",
+    "explicacion": "Altura de trabajo: Altura a la que el equipo debe ubicar o recuperar la carga. Ejemplo: Se comprueba el alcance frente a la estantería.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Equipos y pasillos",
+      "entradaLibro": "clase5_equipos"
+    }
+  },
+  {
+    "id": "def-clase5-14",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "carga",
+    "ejemplo": "Una etiqueta visible distingue un pallet de otro.",
+    "titulo": "Identificación de carga",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Identificación de carga»?",
+    "respuestaCorrecta": "Información que permite reconocer una unidad y su contenido.",
+    "respuestasIncorrectas": [
+      "Productos dispuestos para ser manipulados como una unidad.",
+      "Recurso que ayuda a conformar, proteger o estabilizar una unidad.",
+      "Condición por la que los productos agrupados se mantienen seguros al manipularlos."
+    ],
+    "pista": "Pensá en este ejemplo: Una etiqueta visible distingue un pallet de otro.",
+    "explicacion": "Identificación de carga: Información que permite reconocer una unidad y su contenido. Ejemplo: Una etiqueta visible distingue un pallet de otro.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Unidad de carga y auxiliares",
+      "entradaLibro": "clase5_unidad"
+    }
+  },
+  {
+    "id": "def-clase5-15",
+    "unidad": "clase5",
+    "tipo": "definicion",
+    "grupo": "flujo",
+    "ejemplo": "Los pedidos embalados se envían al sector de salida.",
+    "titulo": "Despacho",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Despacho»?",
+    "respuestaCorrecta": "Etapa de salida de pedidos preparados hacia su distribución.",
+    "respuestasIncorrectas": [
+      "Conjunto de movimientos internos de productos.",
+      "Traslado de mercancía para abastecer una ubicación de trabajo.",
+      "Recolección y agrupación de artículos para atender órdenes."
+    ],
+    "pista": "Pensá en este ejemplo: Los pedidos embalados se envían al sector de salida.",
+    "explicacion": "Despacho: Etapa de salida de pedidos preparados hacia su distribución. Ejemplo: Los pedidos embalados se envían al sector de salida.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Movimientos y coordinación",
+      "entradaLibro": "clase5_flujo"
     }
   },
   {
     "id": "def-clase6-1",
     "unidad": "clase6",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
+    "grupo": "estrategias",
+    "ejemplo": "El preparador recorre los pasillos.",
     "titulo": "Persona a producto",
     "situacion": "",
     "pregunta": "¿Qué significa «Persona a producto»?",
-    "respuestaCorrecta": "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
+    "respuestaCorrecta": "Estrategia en que el operario se desplaza hasta la mercancía.",
     "respuestasIncorrectas": [
-      "Método en que un equipo acerca la mercancía al puesto de preparación.",
-      "Método de preparación que transmite y confirma instrucciones mediante voz.",
-      "Sistema de luces que indica dónde y cuántas unidades retirar.",
-      "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-      "Organización de grupos de pedidos para coordinar su preparación."
+      "Estrategia en que un sistema acerca la mercancía al puesto.",
+      "Recogida y combinación de artículos para formar pedidos."
     ],
-    "pista": "Pensá en este ejemplo: Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
-    "explicacion": "Persona a producto: Método en que el operario se desplaza hasta la mercancía para preparar el pedido. Ejemplo: Una persona recorre los pasillos para retirar artículos de sus ubicaciones.",
+    "pista": "Pensá en este ejemplo: El preparador recorre los pasillos.",
+    "explicacion": "Persona a producto: Estrategia en que el operario se desplaza hasta la mercancía. Ejemplo: El preparador recorre los pasillos.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "entradaLibro": "clase6_conceptos"
     }
   },
@@ -778,24 +1763,21 @@
     "id": "def-clase6-2",
     "unidad": "clase6",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un transportador lleva una caja al puesto donde espera el operario.",
+    "grupo": "estrategias",
+    "ejemplo": "Una caja llega por transportador al operario.",
     "titulo": "Producto a persona",
     "situacion": "",
     "pregunta": "¿Qué significa «Producto a persona»?",
-    "respuestaCorrecta": "Método en que un equipo acerca la mercancía al puesto de preparación.",
+    "respuestaCorrecta": "Estrategia en que un sistema acerca la mercancía al puesto.",
     "respuestasIncorrectas": [
-      "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-      "Método de preparación que transmite y confirma instrucciones mediante voz.",
-      "Sistema de luces que indica dónde y cuántas unidades retirar.",
-      "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-      "Organización de grupos de pedidos para coordinar su preparación."
+      "Estrategia en que el operario se desplaza hasta la mercancía.",
+      "Recogida y combinación de artículos para formar pedidos."
     ],
-    "pista": "Pensá en este ejemplo: Un transportador lleva una caja al puesto donde espera el operario.",
-    "explicacion": "Producto a persona: Método en que un equipo acerca la mercancía al puesto de preparación. Ejemplo: Un transportador lleva una caja al puesto donde espera el operario.",
+    "pista": "Pensá en este ejemplo: Una caja llega por transportador al operario.",
+    "explicacion": "Producto a persona: Estrategia en que un sistema acerca la mercancía al puesto. Ejemplo: Una caja llega por transportador al operario.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "entradaLibro": "clase6_conceptos"
     }
   },
@@ -803,100 +1785,286 @@
     "id": "def-clase6-3",
     "unidad": "clase6",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
+    "grupo": "guias",
+    "ejemplo": "El operario escucha la ubicación y confirma la cantidad.",
     "titulo": "Picking por voz",
     "situacion": "",
     "pregunta": "¿Qué significa «Picking por voz»?",
-    "respuestaCorrecta": "Método de preparación que transmite y confirma instrucciones mediante voz.",
+    "respuestaCorrecta": "Preparación guiada y confirmada mediante instrucciones orales.",
     "respuestasIncorrectas": [
-      "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-      "Método en que un equipo acerca la mercancía al puesto de preparación.",
-      "Sistema de luces que indica dónde y cuántas unidades retirar.",
-      "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-      "Organización de grupos de pedidos para coordinar su preparación."
+      "Guía luminosa que indica dónde y cuánto retirar.",
+      "Guía luminosa que indica dónde y cuánto depositar por pedido."
     ],
-    "pista": "Pensá en este ejemplo: Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
-    "explicacion": "Picking por voz: Método de preparación que transmite y confirma instrucciones mediante voz. Ejemplo: Un operario recibe una ubicación por auriculares y confirma verbalmente la cantidad.",
+    "pista": "Pensá en este ejemplo: El operario escucha la ubicación y confirma la cantidad.",
+    "explicacion": "Picking por voz: Preparación guiada y confirmada mediante instrucciones orales. Ejemplo: El operario escucha la ubicación y confirma la cantidad.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
-      "entradaLibro": "clase6_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
     }
   },
   {
     "id": "def-clase6-4",
     "unidad": "clase6",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Una señal luminosa guía la extracción en un estante.",
+    "grupo": "guias",
+    "ejemplo": "Una luz señala la posición de extracción.",
     "titulo": "Pick to light",
     "situacion": "",
     "pregunta": "¿Qué significa «Pick to light»?",
-    "respuestaCorrecta": "Sistema de luces que indica dónde y cuántas unidades retirar.",
+    "respuestaCorrecta": "Guía luminosa que indica dónde y cuánto retirar.",
     "respuestasIncorrectas": [
-      "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-      "Método en que un equipo acerca la mercancía al puesto de preparación.",
-      "Método de preparación que transmite y confirma instrucciones mediante voz.",
-      "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
-      "Organización de grupos de pedidos para coordinar su preparación."
+      "Preparación guiada y confirmada mediante instrucciones orales.",
+      "Guía luminosa que indica dónde y cuánto depositar por pedido."
     ],
-    "pista": "Pensá en este ejemplo: Una señal luminosa guía la extracción en un estante.",
-    "explicacion": "Pick to light: Sistema de luces que indica dónde y cuántas unidades retirar. Ejemplo: Una señal luminosa guía la extracción en un estante.",
+    "pista": "Pensá en este ejemplo: Una luz señala la posición de extracción.",
+    "explicacion": "Pick to light: Guía luminosa que indica dónde y cuánto retirar. Ejemplo: Una luz señala la posición de extracción.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
-      "entradaLibro": "clase6_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
     }
   },
   {
     "id": "def-clase6-5",
     "unidad": "clase6",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Un indicador señala el contenedor donde colocar artículos para una orden.",
+    "grupo": "guias",
+    "ejemplo": "Una luz identifica el contenedor de una orden.",
     "titulo": "Put to light",
     "situacion": "",
     "pregunta": "¿Qué significa «Put to light»?",
-    "respuestaCorrecta": "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido.",
+    "respuestaCorrecta": "Guía luminosa que indica dónde y cuánto depositar por pedido.",
     "respuestasIncorrectas": [
-      "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-      "Método en que un equipo acerca la mercancía al puesto de preparación.",
-      "Método de preparación que transmite y confirma instrucciones mediante voz.",
-      "Sistema de luces que indica dónde y cuántas unidades retirar.",
-      "Organización de grupos de pedidos para coordinar su preparación."
+      "Preparación guiada y confirmada mediante instrucciones orales.",
+      "Guía luminosa que indica dónde y cuánto retirar."
     ],
-    "pista": "Pensá en este ejemplo: Un indicador señala el contenedor donde colocar artículos para una orden.",
-    "explicacion": "Put to light: Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido. Ejemplo: Un indicador señala el contenedor donde colocar artículos para una orden.",
+    "pista": "Pensá en este ejemplo: Una luz identifica el contenedor de una orden.",
+    "explicacion": "Put to light: Guía luminosa que indica dónde y cuánto depositar por pedido. Ejemplo: Una luz identifica el contenedor de una orden.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
-      "entradaLibro": "clase6_conceptos"
+      "tipo": "Contenidos de la clase",
+      "titulo": "Guías para extraer y distribuir",
+      "entradaLibro": "clase6_tecnologias"
     }
   },
   {
     "id": "def-clase6-6",
     "unidad": "clase6",
     "tipo": "definicion",
-    "grupo": "conceptos",
-    "ejemplo": "Varias órdenes se agrupan en una tanda para coordinar recorridos.",
+    "grupo": "organizacion",
+    "ejemplo": "Se preparan varias órdenes en una tanda.",
     "titulo": "Preparación por olas",
     "situacion": "",
     "pregunta": "¿Qué significa «Preparación por olas»?",
-    "respuestaCorrecta": "Organización de grupos de pedidos para coordinar su preparación.",
+    "respuestaCorrecta": "Organización de pedidos en grupos para coordinar su preparación.",
     "respuestasIncorrectas": [
-      "Método en que el operario se desplaza hasta la mercancía para preparar el pedido.",
-      "Método en que un equipo acerca la mercancía al puesto de preparación.",
-      "Método de preparación que transmite y confirma instrucciones mediante voz.",
-      "Sistema de luces que indica dónde y cuántas unidades retirar.",
-      "Sistema de luces que indica dónde y cuántas unidades depositar para cada pedido."
+      "Abastecimiento de una ubicación de extracción desde reserva.",
+      "Sistema de gestión de almacenes que puede ordenar ubicaciones y recorridos."
     ],
-    "pista": "Pensá en este ejemplo: Varias órdenes se agrupan en una tanda para coordinar recorridos.",
-    "explicacion": "Preparación por olas: Organización de grupos de pedidos para coordinar su preparación. Ejemplo: Varias órdenes se agrupan en una tanda para coordinar recorridos.",
+    "pista": "Pensá en este ejemplo: Se preparan varias órdenes en una tanda.",
+    "explicacion": "Preparación por olas: Organización de pedidos en grupos para coordinar su preparación. Ejemplo: Se preparan varias órdenes en una tanda.",
     "referencia": {
-      "tipo": "Conceptos principales",
-      "titulo": "Clase 6: Preparación de pedidos",
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "def-clase6-7",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "estrategias",
+    "ejemplo": "Se reúnen unidades de varias ubicaciones.",
+    "titulo": "Picking",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking»?",
+    "respuestaCorrecta": "Recogida y combinación de artículos para formar pedidos.",
+    "respuestasIncorrectas": [
+      "Estrategia en que el operario se desplaza hasta la mercancía.",
+      "Estrategia en que un sistema acerca la mercancía al puesto."
+    ],
+    "pista": "Pensá en este ejemplo: Se reúnen unidades de varias ubicaciones.",
+    "explicacion": "Picking: Recogida y combinación de artículos para formar pedidos. Ejemplo: Se reúnen unidades de varias ubicaciones.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Preparación y estrategias",
       "entradaLibro": "clase6_conceptos"
+    }
+  },
+  {
+    "id": "def-clase6-8",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "organizacion",
+    "ejemplo": "Se repone una posición baja antes de que se agote.",
+    "titulo": "Reposición de picking",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Reposición de picking»?",
+    "respuestaCorrecta": "Abastecimiento de una ubicación de extracción desde reserva.",
+    "respuestasIncorrectas": [
+      "Organización de pedidos en grupos para coordinar su preparación.",
+      "Sistema de gestión de almacenes que puede ordenar ubicaciones y recorridos."
+    ],
+    "pista": "Pensá en este ejemplo: Se repone una posición baja antes de que se agote.",
+    "explicacion": "Reposición de picking: Abastecimiento de una ubicación de extracción desde reserva. Ejemplo: Se repone una posición baja antes de que se agote.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "def-clase6-9",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "organizacion",
+    "ejemplo": "El sistema indica una ruta de recolección.",
+    "titulo": "SGA",
+    "situacion": "",
+    "pregunta": "¿Qué significa «SGA»?",
+    "respuestaCorrecta": "Sistema de gestión de almacenes que puede ordenar ubicaciones y recorridos.",
+    "respuestasIncorrectas": [
+      "Organización de pedidos en grupos para coordinar su preparación.",
+      "Abastecimiento de una ubicación de extracción desde reserva."
+    ],
+    "pista": "Pensá en este ejemplo: El sistema indica una ruta de recolección.",
+    "explicacion": "SGA: Sistema de gestión de almacenes que puede ordenar ubicaciones y recorridos. Ejemplo: El sistema indica una ruta de recolección.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Recorridos, información e inversión",
+      "entradaLibro": "clase6_organizacion"
+    }
+  },
+  {
+    "id": "def-clase6-10",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "alturas",
+    "ejemplo": "Se retiran cajas de pallets apoyados en el piso.",
+    "titulo": "Picking a nivel del suelo",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking a nivel del suelo»?",
+    "respuestaCorrecta": "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
+    "respuestasIncorrectas": [
+      "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel.",
+      "Preparación en altura mediante equipos que permiten acceder a la carga."
+    ],
+    "pista": "Pensá en este ejemplo: Se retiran cajas de pallets apoyados en el piso.",
+    "explicacion": "Picking a nivel del suelo: Extracción de unidades desde cargas completas colocadas sobre el suelo. Ejemplo: Se retiran cajas de pallets apoyados en el piso.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "def-clase6-11",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "alturas",
+    "ejemplo": "Se recogen piezas de una estantería baja.",
+    "titulo": "Picking en niveles bajos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking en niveles bajos»?",
+    "respuestaCorrecta": "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel.",
+    "respuestasIncorrectas": [
+      "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
+      "Preparación en altura mediante equipos que permiten acceder a la carga."
+    ],
+    "pista": "Pensá en este ejemplo: Se recogen piezas de una estantería baja.",
+    "explicacion": "Picking en niveles bajos: Extracción en posiciones accesibles a pie o con preparadora de bajo nivel. Ejemplo: Se recogen piezas de una estantería baja.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "def-clase6-12",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "alturas",
+    "ejemplo": "Una máquina eleva al operario hasta una posición.",
+    "titulo": "Picking en niveles altos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Picking en niveles altos»?",
+    "respuestaCorrecta": "Preparación en altura mediante equipos que permiten acceder a la carga.",
+    "respuestasIncorrectas": [
+      "Extracción de unidades desde cargas completas colocadas sobre el suelo.",
+      "Extracción en posiciones accesibles a pie o con preparadora de bajo nivel."
+    ],
+    "pista": "Pensá en este ejemplo: Una máquina eleva al operario hasta una posición.",
+    "explicacion": "Picking en niveles altos: Preparación en altura mediante equipos que permiten acceder a la carga. Ejemplo: Una máquina eleva al operario hasta una posición.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Picking según la altura",
+      "entradaLibro": "clase6_alturas"
+    }
+  },
+  {
+    "id": "def-clase6-13",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "sistemas",
+    "ejemplo": "Una bandeja de piezas llega al operario.",
+    "titulo": "Clasimat",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Clasimat»?",
+    "respuestaCorrecta": "Almacén vertical que acerca bandejas almacenadas en altura al puesto.",
+    "respuestasIncorrectas": [
+      "Carrusel horizontal que desplaza estanterías o contenedores hasta un puesto.",
+      "Sistema con transelevador para almacenar y recuperar cajas o bandejas."
+    ],
+    "pista": "Pensá en este ejemplo: Una bandeja de piezas llega al operario.",
+    "explicacion": "Clasimat: Almacén vertical que acerca bandejas almacenadas en altura al puesto. Ejemplo: Una bandeja de piezas llega al operario.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "def-clase6-14",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "sistemas",
+    "ejemplo": "El carrusel lleva una referencia al preparador.",
+    "titulo": "Spinblock",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Spinblock»?",
+    "respuestaCorrecta": "Carrusel horizontal que desplaza estanterías o contenedores hasta un puesto.",
+    "respuestasIncorrectas": [
+      "Almacén vertical que acerca bandejas almacenadas en altura al puesto.",
+      "Sistema con transelevador para almacenar y recuperar cajas o bandejas."
+    ],
+    "pista": "Pensá en este ejemplo: El carrusel lleva una referencia al preparador.",
+    "explicacion": "Spinblock: Carrusel horizontal que desplaza estanterías o contenedores hasta un puesto. Ejemplo: El carrusel lleva una referencia al preparador.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
+    }
+  },
+  {
+    "id": "def-clase6-15",
+    "unidad": "clase6",
+    "tipo": "definicion",
+    "grupo": "sistemas",
+    "ejemplo": "Una caja recuperada se envía al puesto de picking.",
+    "titulo": "Miniload",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Miniload»?",
+    "respuestaCorrecta": "Sistema con transelevador para almacenar y recuperar cajas o bandejas.",
+    "respuestasIncorrectas": [
+      "Almacén vertical que acerca bandejas almacenadas en altura al puesto.",
+      "Carrusel horizontal que desplaza estanterías o contenedores hasta un puesto."
+    ],
+    "pista": "Pensá en este ejemplo: Una caja recuperada se envía al puesto de picking.",
+    "explicacion": "Miniload: Sistema con transelevador para almacenar y recuperar cajas o bandejas. Ejemplo: Una caja recuperada se envía al puesto de picking.",
+    "referencia": {
+      "tipo": "Contenidos de la clase",
+      "titulo": "Cajas, piezas y automatización",
+      "entradaLibro": "clase6_sistemas"
     }
   },
   {
@@ -920,7 +2088,7 @@
     "explicacion": "Transporte carretero: Modo que utiliza vehículos en carreteras y puede ofrecer entrega puerta a puerta. Ejemplo: Un camión entrega la mercadería directamente en un comercio.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -945,7 +2113,7 @@
     "explicacion": "Transporte ferroviario: Modo que utiliza trenes y depende de la red de vías y terminales. Ejemplo: Una carga consolidada recorre una larga distancia sobre rieles.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -970,7 +2138,7 @@
     "explicacion": "Transporte aéreo: Modo rápido para distancias largas, generalmente con tarifas mayores y restricciones de carga. Ejemplo: Una pieza urgente y de alto valor viaja en avión.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -995,7 +2163,7 @@
     "explicacion": "Transporte acuático: Modo marítimo o fluvial que permite mover grandes volúmenes mediante embarcaciones. Ejemplo: Una carga voluminosa viaja por barco entre puertos.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -1020,7 +2188,7 @@
     "explicacion": "Transporte intermodal: Desplazamiento que combina dos o más modos coordinados. Ejemplo: Un contenedor viaja en camión y continúa por ferrocarril.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
     }
   },
@@ -1045,8 +2213,496 @@
     "explicacion": "Costo variable: Costo que cambia con la actividad o el recorrido realizado. Ejemplo: El consumo de combustible aumenta al realizar más viajes.",
     "referencia": {
       "tipo": "Conceptos principales",
-      "titulo": "Clase 7: Transporte",
+      "titulo": "Conceptos principales de transporte",
       "entradaLibro": "clase7_conceptos"
+    }
+  },
+  {
+    "id": "def-c7-modos-1",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "modos",
+    "ejemplo": "Un camión reparte productos a comercios con acceso vial.",
+    "titulo": "Carretero",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Carretero»?",
+    "respuestaCorrecta": "Modo que circula por carreteras y puede ofrecer entrega puerta a puerta.",
+    "respuestasIncorrectas": [
+      "Modo que utiliza trenes y depende de una red de vías y terminales.",
+      "Modo que utiliza aeronaves y destaca por su rapidez en trayectos largos.",
+      "Modo que utiliza embarcaciones marítimas o fluviales.",
+      "Red especializada para desplazar productos adecuados como determinados líquidos o gases."
+    ],
+    "pista": "Pensá en este ejemplo: Un camión reparte productos a comercios con acceso vial.",
+    "explicacion": "Carretero: Modo que circula por carreteras y puede ofrecer entrega puerta a puerta. Ejemplo: Un camión reparte productos a comercios con acceso vial.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "def-c7-modos-2",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "modos",
+    "ejemplo": "Un tren traslada carga consolidada entre terminales.",
+    "titulo": "Ferroviario",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Ferroviario»?",
+    "respuestaCorrecta": "Modo que utiliza trenes y depende de una red de vías y terminales.",
+    "respuestasIncorrectas": [
+      "Modo que circula por carreteras y puede ofrecer entrega puerta a puerta.",
+      "Modo que utiliza aeronaves y destaca por su rapidez en trayectos largos.",
+      "Modo que utiliza embarcaciones marítimas o fluviales.",
+      "Red especializada para desplazar productos adecuados como determinados líquidos o gases."
+    ],
+    "pista": "Pensá en este ejemplo: Un tren traslada carga consolidada entre terminales.",
+    "explicacion": "Ferroviario: Modo que utiliza trenes y depende de una red de vías y terminales. Ejemplo: Un tren traslada carga consolidada entre terminales.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "def-c7-modos-3",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "modos",
+    "ejemplo": "Una pieza urgente viaja en avión.",
+    "titulo": "Aéreo",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Aéreo»?",
+    "respuestaCorrecta": "Modo que utiliza aeronaves y destaca por su rapidez en trayectos largos.",
+    "respuestasIncorrectas": [
+      "Modo que circula por carreteras y puede ofrecer entrega puerta a puerta.",
+      "Modo que utiliza trenes y depende de una red de vías y terminales.",
+      "Modo que utiliza embarcaciones marítimas o fluviales.",
+      "Red especializada para desplazar productos adecuados como determinados líquidos o gases."
+    ],
+    "pista": "Pensá en este ejemplo: Una pieza urgente viaja en avión.",
+    "explicacion": "Aéreo: Modo que utiliza aeronaves y destaca por su rapidez en trayectos largos. Ejemplo: Una pieza urgente viaja en avión.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "def-c7-modos-4",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "modos",
+    "ejemplo": "Un barco lleva carga voluminosa entre puertos.",
+    "titulo": "Acuático",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Acuático»?",
+    "respuestaCorrecta": "Modo que utiliza embarcaciones marítimas o fluviales.",
+    "respuestasIncorrectas": [
+      "Modo que circula por carreteras y puede ofrecer entrega puerta a puerta.",
+      "Modo que utiliza trenes y depende de una red de vías y terminales.",
+      "Modo que utiliza aeronaves y destaca por su rapidez en trayectos largos.",
+      "Red especializada para desplazar productos adecuados como determinados líquidos o gases."
+    ],
+    "pista": "Pensá en este ejemplo: Un barco lleva carga voluminosa entre puertos.",
+    "explicacion": "Acuático: Modo que utiliza embarcaciones marítimas o fluviales. Ejemplo: Un barco lleva carga voluminosa entre puertos.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "def-c7-modos-5",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "modos",
+    "ejemplo": "Una red de tuberías traslada combustible.",
+    "titulo": "Ductos",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Ductos»?",
+    "respuestaCorrecta": "Red especializada para desplazar productos adecuados como determinados líquidos o gases.",
+    "respuestasIncorrectas": [
+      "Modo que circula por carreteras y puede ofrecer entrega puerta a puerta.",
+      "Modo que utiliza trenes y depende de una red de vías y terminales.",
+      "Modo que utiliza aeronaves y destaca por su rapidez en trayectos largos.",
+      "Modo que utiliza embarcaciones marítimas o fluviales."
+    ],
+    "pista": "Pensá en este ejemplo: Una red de tuberías traslada combustible.",
+    "explicacion": "Ductos: Red especializada para desplazar productos adecuados como determinados líquidos o gases. Ejemplo: Una red de tuberías traslada combustible.",
+    "referencia": {
+      "tipo": "Modos de transporte",
+      "titulo": "Modos de transporte",
+      "entradaLibro": "c7_modos"
+    }
+  },
+  {
+    "id": "def-c7-servicio-1",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "Un recorrido tarda dos días desde el retiro hasta la entrega.",
+    "titulo": "Tiempo de tránsito",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Tiempo de tránsito»?",
+    "respuestaCorrecta": "Duración del desplazamiento de un envío entre origen y destino.",
+    "respuestasIncorrectas": [
+      "Diferencia entre los tiempos que tardan envíos realizados en condiciones comparables.",
+      "Regularidad con que un operador ofrece salidas o entregas.",
+      "Alcance geográfico de los destinos que un servicio puede atender."
+    ],
+    "pista": "Pensá en este ejemplo: Un recorrido tarda dos días desde el retiro hasta la entrega.",
+    "explicacion": "Tiempo de tránsito: Duración del desplazamiento de un envío entre origen y destino. Ejemplo: Un recorrido tarda dos días desde el retiro hasta la entrega.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "def-c7-servicio-2",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "Una ruta suele tardar entre dos y cuatro días.",
+    "titulo": "Variabilidad del tránsito",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Variabilidad del tránsito»?",
+    "respuestaCorrecta": "Diferencia entre los tiempos que tardan envíos realizados en condiciones comparables.",
+    "respuestasIncorrectas": [
+      "Duración del desplazamiento de un envío entre origen y destino.",
+      "Regularidad con que un operador ofrece salidas o entregas.",
+      "Alcance geográfico de los destinos que un servicio puede atender."
+    ],
+    "pista": "Pensá en este ejemplo: Una ruta suele tardar entre dos y cuatro días.",
+    "explicacion": "Variabilidad del tránsito: Diferencia entre los tiempos que tardan envíos realizados en condiciones comparables. Ejemplo: Una ruta suele tardar entre dos y cuatro días.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "def-c7-servicio-3",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "Una terminal despacha una salida diaria.",
+    "titulo": "Frecuencia del servicio",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Frecuencia del servicio»?",
+    "respuestaCorrecta": "Regularidad con que un operador ofrece salidas o entregas.",
+    "respuestasIncorrectas": [
+      "Duración del desplazamiento de un envío entre origen y destino.",
+      "Diferencia entre los tiempos que tardan envíos realizados en condiciones comparables.",
+      "Alcance geográfico de los destinos que un servicio puede atender."
+    ],
+    "pista": "Pensá en este ejemplo: Una terminal despacha una salida diaria.",
+    "explicacion": "Frecuencia del servicio: Regularidad con que un operador ofrece salidas o entregas. Ejemplo: Una terminal despacha una salida diaria.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "def-c7-servicio-4",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "servicio",
+    "ejemplo": "Un operador atiende varias provincias.",
+    "titulo": "Cobertura",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Cobertura»?",
+    "respuestaCorrecta": "Alcance geográfico de los destinos que un servicio puede atender.",
+    "respuestasIncorrectas": [
+      "Duración del desplazamiento de un envío entre origen y destino.",
+      "Diferencia entre los tiempos que tardan envíos realizados en condiciones comparables.",
+      "Regularidad con que un operador ofrece salidas o entregas."
+    ],
+    "pista": "Pensá en este ejemplo: Un operador atiende varias provincias.",
+    "explicacion": "Cobertura: Alcance geográfico de los destinos que un servicio puede atender. Ejemplo: Un operador atiende varias provincias.",
+    "referencia": {
+      "tipo": "Función y decisiones de transporte",
+      "titulo": "Función y decisiones de transporte",
+      "entradaLibro": "c7_funcion"
+    }
+  },
+  {
+    "id": "def-c7-costos-1",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "costos",
+    "ejemplo": "Una instalación se mantiene aun cuando haya menos envíos.",
+    "titulo": "Costo fijo",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Costo fijo»?",
+    "respuestaCorrecta": "Costo que en el corto plazo no cambia directamente con cada envío.",
+    "respuestasIncorrectas": [
+      "Costo que cambia con el nivel de actividad o el recorrido.",
+      "Costo de recursos compartidos por varios servicios.",
+      "Costo vinculado a servicios que se producen necesariamente de manera conjunta."
+    ],
+    "pista": "Pensá en este ejemplo: Una instalación se mantiene aun cuando haya menos envíos.",
+    "explicacion": "Costo fijo: Costo que en el corto plazo no cambia directamente con cada envío. Ejemplo: Una instalación se mantiene aun cuando haya menos envíos.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "def-c7-costos-2",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "costos",
+    "ejemplo": "El combustible consumido aumenta con más kilómetros recorridos.",
+    "titulo": "Costo variable",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Costo variable»?",
+    "respuestaCorrecta": "Costo que cambia con el nivel de actividad o el recorrido.",
+    "respuestasIncorrectas": [
+      "Costo que en el corto plazo no cambia directamente con cada envío.",
+      "Costo de recursos compartidos por varios servicios.",
+      "Costo vinculado a servicios que se producen necesariamente de manera conjunta."
+    ],
+    "pista": "Pensá en este ejemplo: El combustible consumido aumenta con más kilómetros recorridos.",
+    "explicacion": "Costo variable: Costo que cambia con el nivel de actividad o el recorrido. Ejemplo: El combustible consumido aumenta con más kilómetros recorridos.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "def-c7-costos-3",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "costos",
+    "ejemplo": "Una oficina administrativa atiende varias rutas.",
+    "titulo": "Costo común",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Costo común»?",
+    "respuestaCorrecta": "Costo de recursos compartidos por varios servicios.",
+    "respuestasIncorrectas": [
+      "Costo que en el corto plazo no cambia directamente con cada envío.",
+      "Costo que cambia con el nivel de actividad o el recorrido.",
+      "Costo vinculado a servicios que se producen necesariamente de manera conjunta."
+    ],
+    "pista": "Pensá en este ejemplo: Una oficina administrativa atiende varias rutas.",
+    "explicacion": "Costo común: Costo de recursos compartidos por varios servicios. Ejemplo: Una oficina administrativa atiende varias rutas.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "def-c7-costos-4",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "costos",
+    "ejemplo": "La ida de un vehículo puede implicar su retorno.",
+    "titulo": "Costo conjunto",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Costo conjunto»?",
+    "respuestaCorrecta": "Costo vinculado a servicios que se producen necesariamente de manera conjunta.",
+    "respuestasIncorrectas": [
+      "Costo que en el corto plazo no cambia directamente con cada envío.",
+      "Costo que cambia con el nivel de actividad o el recorrido.",
+      "Costo de recursos compartidos por varios servicios."
+    ],
+    "pista": "Pensá en este ejemplo: La ida de un vehículo puede implicar su retorno.",
+    "explicacion": "Costo conjunto: Costo vinculado a servicios que se producen necesariamente de manera conjunta. Ejemplo: La ida de un vehículo puede implicar su retorno.",
+    "referencia": {
+      "tipo": "Costos y tarifas del transporte",
+      "titulo": "Costos y tarifas del transporte",
+      "entradaLibro": "c7_costos"
+    }
+  },
+  {
+    "id": "def-c7-operacion-1",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "operacion",
+    "ejemplo": "Un contenedor viaja primero en camión y luego en tren.",
+    "titulo": "Transporte intermodal",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Transporte intermodal»?",
+    "respuestaCorrecta": "Traslado coordinado que combina dos o más modos de transporte.",
+    "respuestasIncorrectas": [
+      "Agrupación de cargas o envíos para coordinar su movimiento.",
+      "Instalación donde se conectan operaciones o modos de transporte.",
+      "Tramo de entrega que acerca el envío hasta su destino final."
+    ],
+    "pista": "Pensá en este ejemplo: Un contenedor viaja primero en camión y luego en tren.",
+    "explicacion": "Transporte intermodal: Traslado coordinado que combina dos o más modos de transporte. Ejemplo: Un contenedor viaja primero en camión y luego en tren.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "def-c7-operacion-2",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "operacion",
+    "ejemplo": "Un operador reúne envíos pequeños para un tramo común.",
+    "titulo": "Consolidación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Consolidación»?",
+    "respuestaCorrecta": "Agrupación de cargas o envíos para coordinar su movimiento.",
+    "respuestasIncorrectas": [
+      "Traslado coordinado que combina dos o más modos de transporte.",
+      "Instalación donde se conectan operaciones o modos de transporte.",
+      "Tramo de entrega que acerca el envío hasta su destino final."
+    ],
+    "pista": "Pensá en este ejemplo: Un operador reúne envíos pequeños para un tramo común.",
+    "explicacion": "Consolidación: Agrupación de cargas o envíos para coordinar su movimiento. Ejemplo: Un operador reúne envíos pequeños para un tramo común.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "def-c7-operacion-3",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "operacion",
+    "ejemplo": "Una carga pasa del ferrocarril al camión en una instalación.",
+    "titulo": "Terminal de transferencia",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Terminal de transferencia»?",
+    "respuestaCorrecta": "Instalación donde se conectan operaciones o modos de transporte.",
+    "respuestasIncorrectas": [
+      "Traslado coordinado que combina dos o más modos de transporte.",
+      "Agrupación de cargas o envíos para coordinar su movimiento.",
+      "Tramo de entrega que acerca el envío hasta su destino final."
+    ],
+    "pista": "Pensá en este ejemplo: Una carga pasa del ferrocarril al camión en una instalación.",
+    "explicacion": "Terminal de transferencia: Instalación donde se conectan operaciones o modos de transporte. Ejemplo: Una carga pasa del ferrocarril al camión en una instalación.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "def-c7-operacion-4",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "operacion",
+    "ejemplo": "Una furgoneta entrega paquetes a destinatarios en una ciudad.",
+    "titulo": "Distribución de última milla",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Distribución de última milla»?",
+    "respuestaCorrecta": "Tramo de entrega que acerca el envío hasta su destino final.",
+    "respuestasIncorrectas": [
+      "Traslado coordinado que combina dos o más modos de transporte.",
+      "Agrupación de cargas o envíos para coordinar su movimiento.",
+      "Instalación donde se conectan operaciones o modos de transporte."
+    ],
+    "pista": "Pensá en este ejemplo: Una furgoneta entrega paquetes a destinatarios en una ciudad.",
+    "explicacion": "Distribución de última milla: Tramo de entrega que acerca el envío hasta su destino final. Ejemplo: Una furgoneta entrega paquetes a destinatarios en una ciudad.",
+    "referencia": {
+      "tipo": "Servicios combinados y envíos pequeños",
+      "titulo": "Servicios combinados y envíos pequeños",
+      "entradaLibro": "c7_intermodal"
+    }
+  },
+  {
+    "id": "def-c7-documentos-1",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "documentos",
+    "ejemplo": "El transportista recibe mercancía amparada por un documento de transporte.",
+    "titulo": "Conocimiento de embarque",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Conocimiento de embarque»?",
+    "respuestaCorrecta": "Documento que acredita la recepción de una carga y establece condiciones de transporte según su modalidad.",
+    "respuestasIncorrectas": [
+      "Documento que detalla el cobro del servicio de transporte.",
+      "Solicitud para tratar un incumplimiento, pérdida, daño o cobro discutido.",
+      "Conjunto de vehículos operados por la misma empresa que necesita el transporte."
+    ],
+    "pista": "Pensá en este ejemplo: El transportista recibe mercancía amparada por un documento de transporte.",
+    "explicacion": "Conocimiento de embarque: Documento que acredita la recepción de una carga y establece condiciones de transporte según su modalidad. Ejemplo: El transportista recibe mercancía amparada por un documento de transporte.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "def-c7-documentos-2",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "documentos",
+    "ejemplo": "El operador factura el servicio prestado al cliente.",
+    "titulo": "Factura de transporte",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Factura de transporte»?",
+    "respuestaCorrecta": "Documento que detalla el cobro del servicio de transporte.",
+    "respuestasIncorrectas": [
+      "Documento que acredita la recepción de una carga y establece condiciones de transporte según su modalidad.",
+      "Solicitud para tratar un incumplimiento, pérdida, daño o cobro discutido.",
+      "Conjunto de vehículos operados por la misma empresa que necesita el transporte."
+    ],
+    "pista": "Pensá en este ejemplo: El operador factura el servicio prestado al cliente.",
+    "explicacion": "Factura de transporte: Documento que detalla el cobro del servicio de transporte. Ejemplo: El operador factura el servicio prestado al cliente.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "def-c7-documentos-3",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "documentos",
+    "ejemplo": "El cliente reclama por productos dañados durante el traslado.",
+    "titulo": "Reclamación",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Reclamación»?",
+    "respuestaCorrecta": "Solicitud para tratar un incumplimiento, pérdida, daño o cobro discutido.",
+    "respuestasIncorrectas": [
+      "Documento que acredita la recepción de una carga y establece condiciones de transporte según su modalidad.",
+      "Documento que detalla el cobro del servicio de transporte.",
+      "Conjunto de vehículos operados por la misma empresa que necesita el transporte."
+    ],
+    "pista": "Pensá en este ejemplo: El cliente reclama por productos dañados durante el traslado.",
+    "explicacion": "Reclamación: Solicitud para tratar un incumplimiento, pérdida, daño o cobro discutido. Ejemplo: El cliente reclama por productos dañados durante el traslado.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
+    }
+  },
+  {
+    "id": "def-c7-documentos-4",
+    "unidad": "clase7",
+    "tipo": "definicion",
+    "grupo": "documentos",
+    "ejemplo": "Una empresa gestiona sus vehículos, conductores y mantenimiento.",
+    "titulo": "Flota propia",
+    "situacion": "",
+    "pregunta": "¿Qué significa «Flota propia»?",
+    "respuestaCorrecta": "Conjunto de vehículos operados por la misma empresa que necesita el transporte.",
+    "respuestasIncorrectas": [
+      "Documento que acredita la recepción de una carga y establece condiciones de transporte según su modalidad.",
+      "Documento que detalla el cobro del servicio de transporte.",
+      "Solicitud para tratar un incumplimiento, pérdida, daño o cobro discutido."
+    ],
+    "pista": "Pensá en este ejemplo: Una empresa gestiona sus vehículos, conductores y mantenimiento.",
+    "explicacion": "Flota propia: Conjunto de vehículos operados por la misma empresa que necesita el transporte. Ejemplo: Una empresa gestiona sus vehículos, conductores y mantenimiento.",
+    "referencia": {
+      "tipo": "Flota, documentación y transporte internacional",
+      "titulo": "Flota, documentación y transporte internacional",
+      "entradaLibro": "c7_gestion"
     }
   }
 ]

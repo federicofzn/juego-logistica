@@ -2,109 +2,325 @@
   {
     "id": "caso-clase5-1",
     "tipo": "caso",
-    "titulo": "Estantería",
-    "situacion": "Un depósito guarda pallets en posiciones distribuidas en altura.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Estantería",
+    "titulo": "Posiciones en altura",
+    "situacion": "Un depósito necesita ordenar pallets en varios niveles de forma segura.",
+    "pregunta": "¿Qué recurso organiza esas posiciones?",
+    "correcta": "Una estantería dimensionada para las cargas",
     "incorrectas": [
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "Una zona de despacho",
+      "Una etiqueta de producto",
+      "Una ruta de reparto",
+      "Una orden de compra",
+      "Un sistema de clasificación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Estantería: Estructura que organiza mercancías en posiciones y niveles de almacenamiento.",
-    "libro": "clase5_conceptos"
+    "pista": "Pensá en la estructura que sostiene las cargas.",
+    "explicacion": "La estantería organiza posiciones y debe soportar las cargas previstas.",
+    "libro": "clase5_estanterias"
   },
   {
     "id": "caso-clase5-2",
     "tipo": "caso",
-    "titulo": "Equipo de manipuleo",
-    "situacion": "Una transpaleta traslada un pallet entre dos sectores.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Equipo de manipuleo",
+    "titulo": "Traslado entre sectores",
+    "situacion": "Un pallet estable debe moverse desde recepción hasta su ubicación.",
+    "pregunta": "¿Qué recurso cumple directamente ese movimiento?",
+    "correcta": "Un equipo de manipuleo compatible",
     "incorrectas": [
-      "Estantería",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "Una estantería vacía",
+      "Una etiqueta de identificación",
+      "Una lista de referencias",
+      "Un cálculo de capacidad",
+      "Una zona de embalaje"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Equipo de manipuleo: Equipo utilizado para elevar, mover o posicionar cargas.",
-    "libro": "clase5_conceptos"
+    "pista": "Distinguí el recurso móvil de la estructura fija.",
+    "explicacion": "El equipo transporta la unidad y debe ser compatible con carga y recorrido.",
+    "libro": "clase5_equipos"
   },
   {
     "id": "caso-clase5-3",
     "tipo": "caso",
-    "titulo": "Accesibilidad",
-    "situacion": "Se evalúa si un operario puede retirar una caja sin mover otras cargas.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Accesibilidad",
+    "titulo": "Retiro de una referencia",
+    "situacion": "Se evalúa si cada artículo puede retirarse sin desplazar otros.",
+    "pregunta": "¿Qué propiedad se evalúa?",
+    "correcta": "La accesibilidad",
     "incorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "La capacidad total únicamente",
+      "El precio del equipo",
+      "La cantidad de embalajes",
+      "El destino del transporte",
+      "La altura del camión"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Accesibilidad: Facilidad con la que se puede alcanzar y recuperar una referencia almacenada.",
-    "libro": "clase5_conceptos"
+    "pista": "Importa la facilidad de llegar a cada producto.",
+    "explicacion": "La accesibilidad es la facilidad para alcanzar y recuperar una referencia.",
+    "libro": "clase5_estanterias"
   },
   {
     "id": "caso-clase5-4",
     "tipo": "caso",
-    "titulo": "Capacidad de almacenamiento",
-    "situacion": "El responsable calcula cuántos pallets caben en las estanterías.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Capacidad de almacenamiento",
+    "titulo": "Comparación de espacio",
+    "situacion": "Dos diseños ofrecen diferentes cantidades de posiciones para pallets.",
+    "pregunta": "¿Qué dimensión se compara al contar posiciones?",
+    "correcta": "La capacidad de almacenamiento",
     "incorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Manejo de materiales",
-      "Pasillo de trabajo"
+      "La identificación de carga",
+      "La velocidad de clasificación",
+      "El criterio de salida",
+      "La estabilidad del pallet",
+      "La ruta de reparto"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Capacidad de almacenamiento: Cantidad de mercancía o posiciones que una instalación puede alojar.",
-    "libro": "clase5_conceptos"
+    "pista": "La pregunta se refiere a cuánto puede alojarse.",
+    "explicacion": "El número de posiciones expresa capacidad; también deben evaluarse acceso y seguridad.",
+    "libro": "clase5_estanterias"
   },
   {
     "id": "caso-clase5-5",
     "tipo": "caso",
-    "titulo": "Manejo de materiales",
-    "situacion": "Las cargas se trasladan desde recepción hasta almacenamiento y despacho.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Manejo de materiales",
+    "titulo": "Movimientos internos",
+    "situacion": "Una carga pasa por recepción, almacenamiento, reposición y preparación.",
+    "pregunta": "¿Qué actividad comprende esos traslados?",
+    "correcta": "El manejo de materiales",
     "incorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Pasillo de trabajo"
+      "La venta al cliente",
+      "La facturación",
+      "La selección del proveedor",
+      "La publicidad",
+      "La fijación del precio"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Manejo de materiales: Conjunto de movimientos internos de productos durante la operación.",
-    "libro": "clase5_conceptos"
+    "pista": "Considerá el movimiento dentro del depósito.",
+    "explicacion": "El manejo de materiales incluye los traslados internos entre etapas.",
+    "libro": "clase5_flujo"
   },
   {
     "id": "caso-clase5-6",
     "tipo": "caso",
-    "titulo": "Pasillo de trabajo",
-    "situacion": "Se verifica que la máquina pueda maniobrar entre dos estanterías.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
-    "correcta": "Pasillo de trabajo",
+    "titulo": "Maniobra con carga",
+    "situacion": "Una máquina alcanza la altura deseada, pero apenas puede girar entre estanterías.",
+    "pregunta": "¿Qué condición debe reevaluarse?",
+    "correcta": "La compatibilidad entre equipo y pasillo",
     "incorrectas": [
-      "Estantería",
-      "Equipo de manipuleo",
-      "Accesibilidad",
-      "Capacidad de almacenamiento",
-      "Manejo de materiales"
+      "El color de las etiquetas",
+      "La secuencia de facturación",
+      "La cantidad de clientes",
+      "La forma de la factura",
+      "El horario de venta"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Pasillo de trabajo: Espacio de circulación necesario para personas o equipos entre ubicaciones.",
-    "libro": "clase5_conceptos"
+    "pista": "El problema aparece al circular y maniobrar.",
+    "explicacion": "La máquina, la carga y el espacio deben permitir maniobras seguras.",
+    "libro": "clase5_equipos"
+  },
+  {
+    "id": "caso-clase5-7",
+    "tipo": "caso",
+    "titulo": "Cajas inestables",
+    "situacion": "Un pallet agrupa cajas que se desplazan cuando se mueve.",
+    "pregunta": "¿Qué acción atiende el problema?",
+    "correcta": "Estabilizar la unidad con auxiliares compatibles",
+    "incorrectas": [
+      "Aumentar la altura de almacenamiento",
+      "Reducir la identificación visible",
+      "Ubicar más referencias en el pasillo",
+      "Enviar la carga sin control",
+      "Elegir el equipo solo por precio"
+    ],
+    "pista": "El conjunto debe mantenerse unido durante el traslado.",
+    "explicacion": "Los auxiliares ayudan a estabilizar la unidad sin perder compatibilidad con el equipo.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "caso-clase5-8",
+    "tipo": "caso",
+    "titulo": "Etiqueta cubierta",
+    "situacion": "Una sujeción mantiene firmes las cajas, pero tapa su identificación.",
+    "pregunta": "¿Qué ajuste conviene?",
+    "correcta": "Mantener la estabilidad y dejar visible la identificación",
+    "incorrectas": [
+      "Retirar toda identificación",
+      "Agregar carga sin evaluar su peso",
+      "Reducir el ancho del pasillo",
+      "Cambiar el destino",
+      "Almacenar sin registrar la ubicación"
+    ],
+    "pista": "La estabilidad y el reconocimiento deben coexistir.",
+    "explicacion": "La unidad debe seguir identificable además de ser estable y manipulable.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "caso-clase5-9",
+    "tipo": "caso",
+    "titulo": "Más posiciones, menos acceso",
+    "situacion": "Una propuesta aumenta posiciones, pero obliga a desplazar cargas para llegar a artículos frecuentes.",
+    "pregunta": "¿Cómo debe evaluarse?",
+    "correcta": "Comparar capacidad adicional y pérdida de accesibilidad",
+    "incorrectas": [
+      "Aceptar solo por las posiciones",
+      "Descartar la rotación",
+      "Medir solo el costo de etiquetas",
+      "Suponer que todos los pedidos son iguales",
+      "Ignorar el tiempo de recuperación"
+    ],
+    "pista": "No confundas espacio con facilidad de retiro.",
+    "explicacion": "Más posiciones pueden dificultar la recuperación; ambas dimensiones importan.",
+    "libro": "clase5_estanterias"
+  },
+  {
+    "id": "caso-clase5-10",
+    "tipo": "caso",
+    "titulo": "Equipo económico",
+    "situacion": "La oferta más barata no alcanza el nivel donde se guardarán los pallets.",
+    "pregunta": "¿Qué decisión está mejor fundamentada?",
+    "correcta": "Buscar un equipo que alcance la altura y admita la carga",
+    "incorrectas": [
+      "Comprar el más barato igualmente",
+      "Borrar la identificación",
+      "Aumentar el peso",
+      "Elegir por color",
+      "Reducir controles de seguridad"
+    ],
+    "pista": "La altura es una condición funcional.",
+    "explicacion": "El precio no reemplaza la comprobación de altura, carga, pasillos y seguridad.",
+    "libro": "clase5_equipos"
+  },
+  {
+    "id": "caso-clase5-11",
+    "tipo": "caso",
+    "titulo": "Carga sobresaliente",
+    "situacion": "Un equipo circula vacío por el pasillo, pero el pallet sobresale e impide maniobrar con seguridad.",
+    "pregunta": "¿Qué debe contemplar el análisis?",
+    "correcta": "Las dimensiones del equipo junto con su carga",
+    "incorrectas": [
+      "Solo el equipo vacío",
+      "Solo los pedidos diarios",
+      "Solo la altura del edificio",
+      "Solo el precio del pallet",
+      "Solo la ubicación de la oficina"
+    ],
+    "pista": "La carga también ocupa espacio.",
+    "explicacion": "La compatibilidad del pasillo se evalúa con la carga real.",
+    "libro": "clase5_equipos"
+  },
+  {
+    "id": "caso-clase5-12",
+    "tipo": "caso",
+    "titulo": "Recorridos repetidos",
+    "situacion": "Un pallet vuelve dos veces al mismo sector sin que esas vueltas aporten una tarea necesaria.",
+    "pregunta": "¿Qué mejora corresponde estudiar?",
+    "correcta": "Reordenar el flujo para eliminar traslados innecesarios",
+    "incorrectas": [
+      "Agregar una vuelta sin objetivo",
+      "Multiplicar manipulaciones",
+      "Cambiar nombres de referencias",
+      "Retirar información de ubicación",
+      "Elegir posiciones sin revisar recorridos"
+    ],
+    "pista": "Cada movimiento adicional consume recursos.",
+    "explicacion": "Revisar el flujo permite reducir recorridos y manipulaciones evitables.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "caso-clase5-13",
+    "tipo": "caso",
+    "titulo": "Rotación desigual",
+    "situacion": "Un depósito tiene referencias frecuentes y otras poco solicitadas.",
+    "pregunta": "¿Qué información debe intervenir en la asignación?",
+    "correcta": "La rotación y la facilidad de recuperación",
+    "incorrectas": [
+      "Solo el orden alfabético de clientes",
+      "Solo el color de envases",
+      "Solo la fecha de compra de estantería",
+      "Solo la distancia a la oficina",
+      "Solo la cantidad de facturas"
+    ],
+    "pista": "La frecuencia de retiro afecta el acceso necesario.",
+    "explicacion": "La rotación ayuda a elegir ubicaciones coherentes con la demanda.",
+    "libro": "clase5_estanterias"
+  },
+  {
+    "id": "caso-clase5-14",
+    "tipo": "caso",
+    "titulo": "Auxiliar incompatible",
+    "situacion": "Un auxiliar protege el producto, pero impide que el equipo tome la carga adecuadamente.",
+    "pregunta": "¿Qué corresponde revisar?",
+    "correcta": "La compatibilidad del auxiliar, la carga y el equipo",
+    "incorrectas": [
+      "Solo la cantidad de etiquetas",
+      "Solo el destino de reparto",
+      "El precio de venta",
+      "El nombre del proveedor",
+      "La secuencia de facturación"
+    ],
+    "pista": "El conjunto debe poder tomarse y trasladarse.",
+    "explicacion": "La protección no basta si el equipo no puede manipular la unidad correctamente.",
+    "libro": "clase5_unidad"
+  },
+  {
+    "id": "caso-clase5-15",
+    "tipo": "caso",
+    "titulo": "Criterio de salida",
+    "situacion": "Se comparan estanterías para referencias con un criterio de salida definido.",
+    "pregunta": "¿Qué aspecto debe incluirse en la elección?",
+    "correcta": "Si el acceso permite aplicar el criterio de salida",
+    "incorrectas": [
+      "Solo el aspecto visual",
+      "Solo el personal administrativo",
+      "Solo el tamaño de la factura",
+      "Solo el recorrido externo del vendedor",
+      "Solo el número de proveedores"
+    ],
+    "pista": "La disposición condiciona qué carga se puede recuperar.",
+    "explicacion": "El tipo de estantería debe acompañar el criterio de salida y el acceso requerido.",
+    "libro": "clase5_estanterias"
+  },
+  {
+    "id": "caso-clase5-16",
+    "tipo": "caso",
+    "titulo": "Estructura y carga",
+    "situacion": "Se quiere colocar una unidad pesada en una posición cuya capacidad no fue verificada.",
+    "pregunta": "¿Qué se debe hacer primero?",
+    "correcta": "Comprobar que la estructura soporte la carga prevista",
+    "incorrectas": [
+      "Ubicarla y revisar después",
+      "Eliminar su identificación",
+      "Aumentar la velocidad",
+      "Apilar otra carga sin evaluación",
+      "Cambiar solo la ruta de despacho"
+    ],
+    "pista": "La posición debe ser adecuada para el peso.",
+    "explicacion": "La estructura debe soportar la carga prevista para una operación segura.",
+    "libro": "clase5_estanterias"
+  },
+  {
+    "id": "caso-clase5-17",
+    "tipo": "caso",
+    "titulo": "Información desactualizada",
+    "situacion": "El sistema indica una ubicación antigua y el preparador busca en el lugar equivocado.",
+    "pregunta": "¿Qué coordinación debe mejorarse?",
+    "correcta": "La actualización de ubicaciones e inventario",
+    "incorrectas": [
+      "El color de los pasillos",
+      "La cantidad de carteles comerciales",
+      "La forma de la factura",
+      "La altura del vehículo de reparto",
+      "El precio de venta"
+    ],
+    "pista": "El registro debe reflejar dónde está la carga.",
+    "explicacion": "La información actualizada conecta inventario y preparación y evita búsquedas con datos viejos.",
+    "libro": "clase5_flujo"
+  },
+  {
+    "id": "caso-clase5-18",
+    "tipo": "caso",
+    "titulo": "Entrega rápida",
+    "situacion": "Al analizar el caso de Amazon España, un grupo atribuye la rapidez exclusivamente al embalaje.",
+    "pregunta": "¿Qué interpretación refleja mejor el caso?",
+    "correcta": "La rapidez depende de coordinar inventario, preparación, clasificación y despacho",
+    "incorrectas": [
+      "Solo importa el embalaje",
+      "La ubicación no influye",
+      "La información deja de ser necesaria",
+      "Las etapas ocurren sin relación",
+      "El despacho reemplaza la preparación"
+    ],
+    "pista": "Seguí el recorrido completo desde la entrada hasta la entrega.",
+    "explicacion": "El caso presenta etapas conectadas y coordinadas, no una tarea aislada.",
+    "libro": "clase5_flujo"
   }
 ]

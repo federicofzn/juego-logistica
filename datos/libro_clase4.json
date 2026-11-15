@@ -5,26 +5,93 @@
   },
   "entradas": {
     "clase4_conceptos": {
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 4: Unidad de carga",
+      "categoria": "Clase 4",
+      "titulo": "Unidad de carga y manipulación",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "Una unidad de carga agrupa mercancías para manipularlas como un conjunto en almacenamiento, carga, transporte y descarga."
       ],
       "notas": [
-        "Unidad de carga: Agrupación de mercancías que se manipula como un conjunto.",
-        "Estabilidad de la carga: Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-        "Pallet: Plataforma que sirve de base para agrupar y manipular mercancías.",
-        "Rotación: Frecuencia con la que un producto sale o se mueve en el almacén.",
-        "Consolidación: Reunión de productos para completar un pedido o envío.",
-        "Miniload: Sistema automático para almacenar y recuperar cajas o bandejas."
+        "La unidad reúne producto, embalaje y medios para mantener el conjunto estable; debe ser compatible con el equipo que lo manipulará.",
+        "Un pallet es una plataforma que puede servir de base para agrupar mercancías; no es sinónimo de toda la carga.",
+        "Una unidad mal conformada puede provocar daños, demoras y movimientos adicionales."
       ],
       "ejemplos": [
-        "Varias cajas se agrupan de forma estable para moverlas juntas.",
-        "Se asegura un pallet para evitar que las cajas se desplacen.",
-        "Un equipo eleva una plataforma cargada con cajas.",
-        "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
-        "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
-        "Un transelevador lleva cajas almacenadas hasta una zona de preparación."
+        "Varias cajas se agrupan sobre un pallet y se aseguran para trasladarlas juntas."
+      ]
+    },
+    "clase4_diseno": {
+      "categoria": "Clase 4",
+      "titulo": "Producto, estabilidad y equipo",
+      "intro": [
+        "La elección de la unidad de carga y la del sistema de almacenamiento están relacionadas."
+      ],
+      "notas": [
+        "Dimensiones, peso y estabilidad condicionan estanterías, equipos y pasillos.",
+        "El embalaje debe proteger el producto y la conformación de la unidad evitar desplazamientos durante el manejo.",
+        "El modo de acceso también importa: preparar unidades individuales no plantea exactamente la misma necesidad que mover una carga agrupada."
+      ],
+      "ejemplos": [
+        "Antes de elegir una estantería, se revisan las dimensiones de la carga y cómo podrá manipularla el equipo disponible."
+      ]
+    },
+    "clase4_rotacion": {
+      "categoria": "Clase 4",
+      "titulo": "Rotación y preparación",
+      "intro": [
+        "La frecuencia de movimiento de cada referencia y el tipo de pedido ayudan a organizar las zonas de trabajo."
+      ],
+      "notas": [
+        "Rotación es la frecuencia con que un producto sale o se mueve en el almacén.",
+        "El picking reúne las referencias y cantidades solicitadas; la reposición mantiene disponible la mercancía para prepararlas.",
+        "La consolidación reúne los artículos de una misma orden antes de la salida."
+      ],
+      "ejemplos": [
+        "Una orden con artículos de distintas zonas necesita reunirlos antes de embalarla y expedirla."
+      ]
+    },
+    "clase4_decasa": {
+      "categoria": "Clase 4",
+      "titulo": "DECASA: soluciones combinadas",
+      "intro": [
+        "El caso DECASA presenta un centro de distribución de productos de consumo que combina sistemas para distintas necesidades."
+      ],
+      "notas": [
+        "Incluye un almacén automático autoportante, Pallet Shuttle, torres de picking y clasificador de pedidos.",
+        "Un sistema de gestión coordina las operaciones; combinar zonas y equipos permite atender mercancías de distintas dimensiones y demandas.",
+        "La automatización necesita integrarse con ubicaciones, flujos e inventario."
+      ],
+      "ejemplos": [
+        "En lugar de asignar todas las referencias a un único tratamiento, el centro combina sectores de almacenamiento y preparación."
+      ]
+    },
+    "clase4_cofan": {
+      "categoria": "Clase 4",
+      "titulo": "COFAN: pedidos y áreas coordinadas",
+      "intro": [
+        "El centro de COFAN organiza áreas según características y rotación de los productos y atiende pedidos de comercio electrónico."
+      ],
+      "notas": [
+        "El caso incluye almacenamiento convencional, picking manual y un almacén automático miniload.",
+        "Un circuito de transportadores conecta puestos de preparación, embalaje, pesaje y clasificación.",
+        "Muchos pedidos con pocas líneas exigen accesibilidad, reposición y coordinación entre preparación, consolidación y expedición."
+      ],
+      "ejemplos": [
+        "Artículos preparados en diferentes sectores se reúnen para completar una orden antes de su salida."
+      ]
+    },
+    "clase4_sistemas": {
+      "categoria": "Clase 4",
+      "titulo": "Sistemas y coordinación",
+      "intro": [
+        "Los sistemas de almacenaje y preparación responden a necesidades diferentes; su elección debe acompañar el diseño de la operación."
+      ],
+      "notas": [
+        "Un miniload automatiza el almacenamiento y la recuperación de cajas o bandejas.",
+        "Pallet Shuttle, torres de picking, transportadores y clasificación aparecen combinados con otros recursos en los casos estudiados.",
+        "La información y las ubicaciones deben acompañar el movimiento físico: automatizar un sector no elimina la necesidad de control."
+      ],
+      "ejemplos": [
+        "Una caja recuperada por miniload todavía debe integrarse al pedido correcto y seguir el flujo hacia su salida."
       ]
     }
   }

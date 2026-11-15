@@ -1,50 +1,122 @@
 [
   {
     "id": "def-clase4-1",
-    "grupo": "conceptos",
+    "grupo": "carga",
     "termino": "Unidad de carga",
     "definicion": "Agrupación de mercancías que se manipula como un conjunto.",
-    "ejemplo": "Varias cajas se agrupan de forma estable para moverlas juntas.",
+    "ejemplo": "Varias cajas aseguradas se trasladan juntas.",
     "libro": "clase4_conceptos"
   },
   {
     "id": "def-clase4-2",
-    "grupo": "conceptos",
+    "grupo": "carga",
     "termino": "Estabilidad de la carga",
-    "definicion": "Condición por la que los productos agrupados se mantienen seguros durante su manejo.",
-    "ejemplo": "Se asegura un pallet para evitar que las cajas se desplacen.",
-    "libro": "clase4_conceptos"
+    "definicion": "Condición que ayuda a que los productos agrupados se mantengan seguros durante el manejo.",
+    "ejemplo": "Se asegura la carga para evitar desplazamientos.",
+    "libro": "clase4_diseno"
   },
   {
     "id": "def-clase4-3",
-    "grupo": "conceptos",
+    "grupo": "carga",
     "termino": "Pallet",
-    "definicion": "Plataforma que sirve de base para agrupar y manipular mercancías.",
-    "ejemplo": "Un equipo eleva una plataforma cargada con cajas.",
+    "definicion": "Plataforma que puede servir de base para agrupar y manipular mercancías.",
+    "ejemplo": "Una plataforma sostiene cajas para su traslado.",
     "libro": "clase4_conceptos"
   },
   {
     "id": "def-clase4-4",
-    "grupo": "conceptos",
+    "grupo": "operacion",
     "termino": "Rotación",
     "definicion": "Frecuencia con la que un producto sale o se mueve en el almacén.",
-    "ejemplo": "Una referencia se prepara varias veces al día y otra solo ocasionalmente.",
-    "libro": "clase4_conceptos"
+    "ejemplo": "Una referencia solicitada frecuentemente tiene mayor rotación que otra poco pedida.",
+    "libro": "clase4_rotacion"
   },
   {
     "id": "def-clase4-5",
-    "grupo": "conceptos",
+    "grupo": "operacion",
     "termino": "Consolidación",
-    "definicion": "Reunión de productos para completar un pedido o envío.",
-    "ejemplo": "En un sector se juntan artículos recogidos en zonas diferentes para una misma orden.",
-    "libro": "clase4_conceptos"
+    "definicion": "Reunión de artículos para completar un pedido o envío.",
+    "ejemplo": "Se juntan productos recogidos en sectores diferentes.",
+    "libro": "clase4_rotacion"
   },
   {
     "id": "def-clase4-6",
-    "grupo": "conceptos",
+    "grupo": "sistemas",
     "termino": "Miniload",
     "definicion": "Sistema automático para almacenar y recuperar cajas o bandejas.",
-    "ejemplo": "Un transelevador lleva cajas almacenadas hasta una zona de preparación.",
-    "libro": "clase4_conceptos"
+    "ejemplo": "Una caja se recupera del almacén automático para preparar una orden.",
+    "libro": "clase4_sistemas"
+  },
+  {
+    "id": "def-clase4-7",
+    "grupo": "carga",
+    "termino": "Embalaje",
+    "definicion": "Protección que acompaña al producto durante su manejo y distribución.",
+    "ejemplo": "Una caja protege artículos agrupados para su manipulación.",
+    "libro": "clase4_diseno"
+  },
+  {
+    "id": "def-clase4-8",
+    "grupo": "carga",
+    "termino": "Equipo de manipulación",
+    "definicion": "Recurso empleado para mover o manejar mercancías y unidades de carga.",
+    "ejemplo": "Se verifica que el equipo pueda manejar la unidad prevista.",
+    "libro": "clase4_diseno"
+  },
+  {
+    "id": "def-clase4-9",
+    "grupo": "operacion",
+    "termino": "Picking",
+    "definicion": "Selección de las referencias y cantidades necesarias para una orden.",
+    "ejemplo": "Se retiran los artículos solicitados por un cliente.",
+    "libro": "clase4_rotacion"
+  },
+  {
+    "id": "def-clase4-10",
+    "grupo": "operacion",
+    "termino": "Reposición",
+    "definicion": "Traslado de existencias para recuperar disponibilidad en el punto de preparación.",
+    "ejemplo": "Se lleva mercancía al sector de picking que necesita stock.",
+    "libro": "clase4_rotacion"
+  },
+  {
+    "id": "def-clase4-11",
+    "grupo": "operacion",
+    "termino": "Clasificación de pedidos",
+    "definicion": "Separación u organización de pedidos según el flujo de salida.",
+    "ejemplo": "Un clasificador organiza pedidos preparados.",
+    "libro": "clase4_decasa"
+  },
+  {
+    "id": "def-clase4-12",
+    "grupo": "sistemas",
+    "termino": "Almacenamiento convencional",
+    "definicion": "Sistema de almacenaje presente entre las áreas del caso COFAN.",
+    "ejemplo": "El centro combina este sector con picking manual y miniload.",
+    "libro": "clase4_cofan"
+  },
+  {
+    "id": "def-clase4-13",
+    "grupo": "sistemas",
+    "termino": "Transportadores",
+    "definicion": "Medios que conectan etapas mediante un circuito de traslado.",
+    "ejemplo": "En COFAN conectan puestos de preparación y otras operaciones.",
+    "libro": "clase4_cofan"
+  },
+  {
+    "id": "def-clase4-14",
+    "grupo": "sistemas",
+    "termino": "Pallet Shuttle",
+    "definicion": "Sistema de almacenaje mencionado entre las soluciones combinadas de DECASA.",
+    "ejemplo": "DECASA lo utiliza junto con otros sistemas.",
+    "libro": "clase4_decasa"
+  },
+  {
+    "id": "def-clase4-15",
+    "grupo": "sistemas",
+    "termino": "Sistema de gestión",
+    "definicion": "Herramienta informática que coordina operaciones e información de almacén.",
+    "ejemplo": "El sistema vincula tareas con ubicaciones e inventario.",
+    "libro": "clase4_decasa"
   }
 ]

@@ -5,26 +5,78 @@
   },
   "entradas": {
     "clase2_conceptos": {
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 2: Planeamiento y servicio",
+      "categoria": "Sistema",
+      "titulo": "La logística como sistema",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "Un sistema logístico reúne actividades relacionadas que persiguen un resultado común."
       ],
       "notas": [
-        "Enfoque sistémico: Análisis coordinado de actividades relacionadas que influyen unas sobre otras.",
-        "Planeamiento logístico: Definición de cómo abastecer, almacenar y distribuir según demanda, recursos, costos y servicio.",
-        "Servicio al cliente: Condiciones y acciones que atienden las necesidades del cliente antes, durante y después de la compra.",
-        "Disponibilidad: Posibilidad de contar con el producto requerido cuando el cliente lo necesita.",
-        "Entrega completa: Cumplimiento de las cantidades y productos solicitados en una orden.",
-        "Coordinación entre áreas: Intercambio de información para alinear las decisiones de logística con las de otras funciones."
+        "Compras, inventario, almacenamiento, transporte y distribución se afectan mutuamente.",
+        "Pueden analizarse entradas, procesos, salidas, entorno y retroalimentación para comprender el conjunto.",
+        "Reducir un costo aislado no asegura el mejor resultado si provoca faltantes, demoras o costos en otra etapa."
       ],
       "ejemplos": [
-        "La empresa evalúa conjuntamente compras, inventario, transporte y servicio.",
-        "Un equipo calcula capacidad, inventario y distribución antes de una campaña.",
-        "La empresa informa el estado de un pedido y responde ante una demora.",
-        "El artículo solicitado está en stock cuando llega el pedido.",
-        "El cliente recibe todas las unidades y referencias que había comprado.",
-        "Ventas informa una promoción y compras ajusta el abastecimiento."
+        "Un despacho más económico puede generar faltantes si su frecuencia no acompaña la demanda."
+      ]
+    },
+    "clase2_plan": {
+      "categoria": "Planificación",
+      "titulo": "Planeamiento logístico",
+      "intro": [
+        "Planear es decidir cómo abastecer, almacenar y distribuir en función de la demanda y del servicio buscado."
+      ],
+      "notas": [
+        "Se consideran recursos, capacidad, costos, plazos y alternativas de distribución.",
+        "El plan debe revisarse cuando cambian demanda, productos, proveedores, capacidad, costos, mercado o expectativas de servicio.",
+        "Planificar conecta los objetivos de la empresa con decisiones operativas realizables."
+      ],
+      "ejemplos": [
+        "Ante una nueva zona de ventas, el equipo revisa cobertura, transporte y capacidad de entrega."
+      ]
+    },
+    "clase2_areas": {
+      "categoria": "Coordinación",
+      "titulo": "Planes y áreas vinculadas",
+      "intro": [
+        "La planificación requiere información compartida y decisiones compatibles entre funciones."
+      ],
+      "notas": [
+        "Ventas y marketing aportan previsiones, promociones y necesidades de los clientes; compras coordina fuentes y fechas de suministro.",
+        "Producción, inventarios, almacén y transporte informan capacidades y restricciones; finanzas considera recursos y costos.",
+        "El material relaciona pronóstico y plan de ventas con el plan maestro de producción y la planificación de necesidades de materiales (MRP)."
+      ],
+      "ejemplos": [
+        "Una campaña se contrasta con existencias y capacidad antes de fijar compromisos de entrega."
+      ]
+    },
+    "clase2_distribucion": {
+      "categoria": "Distribución",
+      "titulo": "Del pedido a la entrega",
+      "intro": [
+        "El recorrido de distribución debe coordinarse desde la orden y la disponibilidad hasta la entrega."
+      ],
+      "notas": [
+        "El proveedor recibe la orden y programa el despacho según disponibilidad.",
+        "Preparación, carga, transporte y entrega se enlazan: una falla temprana puede afectar el resultado final.",
+        "La información sobre incidencias permite corregir el proceso y comunicar al cliente."
+      ],
+      "ejemplos": [
+        "Si falta una referencia al preparar el pedido, el equipo revisa el abastecimiento y avisa el cambio."
+      ]
+    },
+    "clase2_servicio": {
+      "categoria": "Servicio",
+      "titulo": "Servicio al cliente y ventas",
+      "intro": [
+        "El servicio comprende lo que ocurre antes, durante y después de la compra."
+      ],
+      "notas": [
+        "Disponibilidad, información, plazo, cantidad, producto correcto y estado de entrega son dimensiones diferentes del servicio.",
+        "Una entrega puntual puede estar incompleta; debe evaluarse más de una condición.",
+        "Cumplir lo pactado y responder a problemas favorece confianza y recompra; incumplir puede causar reclamos y pérdida de ventas."
+      ],
+      "ejemplos": [
+        "Un pedido llega a horario pero con unidades faltantes: es puntual, aunque no completo."
       ]
     }
   }

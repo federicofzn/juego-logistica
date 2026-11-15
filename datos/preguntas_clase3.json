@@ -2,109 +2,325 @@
   {
     "id": "caso-clase3-1",
     "tipo": "caso",
-    "titulo": "Recepción",
-    "situacion": "Un operario verifica los artículos que acaban de llegar del proveedor.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Control de ingreso",
+    "situacion": "Llegan cajas del proveedor y antes de guardarlas se contrastan los artículos recibidos.",
+    "pregunta": "¿Qué operación se está realizando?",
     "correcta": "Recepción",
     "incorrectas": [
-      "Ubicación",
-      "Reposición",
       "Picking",
+      "Reposición",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Consolidación",
+      "Ubicación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Recepción: Etapa en la que el depósito recibe y controla la mercancía entrante.",
-    "libro": "clase3_conceptos"
+    "pista": "La mercancía acaba de entrar y todavía no se asignó a una posición.",
+    "explicacion": "La recepción incluye verificar la mercancía que ingresa.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "caso-clase3-2",
     "tipo": "caso",
-    "titulo": "Ubicación",
-    "situacion": "El sistema registra en qué estante se colocó una pieza.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Ubicación registrada",
+    "situacion": "Una pieza ya controlada se coloca en un estante y se anota esa posición.",
+    "pregunta": "¿Qué operación permite volver a encontrarla?",
     "correcta": "Ubicación",
     "incorrectas": [
       "Recepción",
       "Reposición",
       "Picking",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Consolidación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Ubicación: Asignación y registro del lugar donde se guarda una mercancía.",
-    "libro": "clase3_conceptos"
+    "pista": "Buscá la actividad que vincula artículo y lugar.",
+    "explicacion": "La ubicación asigna y registra el lugar físico.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "caso-clase3-3",
     "tipo": "caso",
-    "titulo": "Reposición",
-    "situacion": "Se lleva una caja desde la reserva a un estante de preparación.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Estante vacío",
+    "situacion": "El sector de preparación agotó una referencia, pero hay cajas en reserva.",
+    "pregunta": "¿Qué tarea recupera disponibilidad en el punto de preparación?",
     "correcta": "Reposición",
     "incorrectas": [
       "Recepción",
-      "Ubicación",
-      "Picking",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Consolidación",
+      "Picking",
+      "Control de destino"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Reposición: Traslado de mercancía hacia una ubicación que necesita recuperar existencias.",
-    "libro": "clase3_conceptos"
+    "pista": "La mercancía ya está en el depósito y debe acercarse a donde se prepara.",
+    "explicacion": "La reposición mueve existencias de reserva al punto que las necesita.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "caso-clase3-4",
     "tipo": "caso",
-    "titulo": "Picking",
-    "situacion": "Un operario reúne las referencias y cantidades que solicitó un cliente.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Pedido de repuestos",
+    "situacion": "Un cliente solicita dos referencias y el operario las localiza y retira en las cantidades indicadas.",
+    "pregunta": "¿Qué actividad realiza?",
     "correcta": "Picking",
     "incorrectas": [
       "Recepción",
-      "Ubicación",
       "Reposición",
+      "Ubicación",
       "Expedición",
-      "Sistema de gestión de almacenes"
+      "Inventario"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Picking: Selección de los artículos necesarios para preparar un pedido.",
-    "libro": "clase3_conceptos"
+    "pista": "Se seleccionan artículos para una orden concreta.",
+    "explicacion": "El picking reúne las referencias y cantidades de un pedido.",
+    "libro": "clase3_picking"
   },
   {
     "id": "caso-clase3-5",
     "tipo": "caso",
-    "titulo": "Expedición",
-    "situacion": "Los pedidos terminados esperan en el muelle al vehículo de reparto.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Salida al destino",
+    "situacion": "Una orden completa llega al sector donde se controla su destino y se organiza su carga.",
+    "pregunta": "¿Qué etapa corresponde?",
     "correcta": "Expedición",
     "incorrectas": [
       "Recepción",
       "Ubicación",
       "Reposición",
       "Picking",
-      "Sistema de gestión de almacenes"
+      "Almacenamiento"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Expedición: Etapa en que los pedidos preparados se organizan para su salida.",
-    "libro": "clase3_conceptos"
+    "pista": "La orden ya fue preparada y está por salir.",
+    "explicacion": "Expedición organiza y controla la salida.",
+    "libro": "clase3_operaciones"
   },
   {
     "id": "caso-clase3-6",
     "tipo": "caso",
-    "titulo": "Sistema de gestión de almacenes",
-    "situacion": "Una aplicación indica dónde guardar y localizar cada artículo.",
-    "pregunta": "¿Qué concepto describe mejor esta situación?",
+    "titulo": "Buscar entre referencias",
+    "situacion": "En un depósito con muchas piezas, una aplicación indica el estante y registra el traslado.",
+    "pregunta": "¿Qué recurso cumple esa función?",
     "correcta": "Sistema de gestión de almacenes",
     "incorrectas": [
-      "Recepción",
-      "Ubicación",
-      "Reposición",
-      "Picking",
-      "Expedición"
+      "Flujo en U",
+      "Embalaje",
+      "Muelle de expedición",
+      "Unidad de carga",
+      "Consolidación"
     ],
-    "pista": "Pensá en la función que cumple la actividad o el recurso en el ejemplo.",
-    "explicacion": "Sistema de gestión de almacenes: Herramienta informática que ayuda a controlar ubicaciones y movimientos del depósito.",
+    "pista": "Es una herramienta de información que guía y registra tareas.",
+    "explicacion": "El sistema vincula ubicaciones y movimientos con los artículos.",
+    "libro": "clase3_informacion"
+  },
+  {
+    "id": "caso-clase3-7",
+    "tipo": "caso",
+    "titulo": "Pedido incompleto",
+    "situacion": "Se recogieron artículos de dos sectores para una misma orden, pero todavía están separados.",
+    "pregunta": "¿Qué actividad permite reunirlos antes de embalar?",
+    "correcta": "Consolidación",
+    "incorrectas": [
+      "Recepción",
+      "Reposición",
+      "Clasificación del almacén",
+      "Ubicación inicial",
+      "Control de ingreso"
+    ],
+    "pista": "La tarea une partes de un mismo pedido.",
+    "explicacion": "La consolidación reúne lo recogido para completar la orden.",
+    "libro": "clase3_operaciones"
+  },
+  {
+    "id": "caso-clase3-8",
+    "tipo": "caso",
+    "titulo": "Existencia fantasma",
+    "situacion": "La aplicación muestra una pieza en un estante, pero fue trasladada sin registrar el cambio.",
+    "pregunta": "¿Cuál es la mejora más directa?",
+    "correcta": "Registrar cada traslado y actualizar la ubicación",
+    "incorrectas": [
+      "Eliminar el control de ingresos",
+      "Preparar pedidos sin identificar referencias",
+      "Cambiar el destino de todos los pedidos",
+      "Reducir la cantidad de estantes sin revisar stock",
+      "Confundir reserva con expedición"
+    ],
+    "pista": "El problema está entre el movimiento físico y la información.",
+    "explicacion": "El registro oportuno mantiene coherencia entre ubicación física e inventario.",
+    "libro": "clase3_informacion"
+  },
+  {
+    "id": "caso-clase3-9",
+    "tipo": "caso",
+    "titulo": "Dos referencias parecidas",
+    "situacion": "Se encuentran piezas similares en estantes próximos y el pedido especifica solo una de ellas.",
+    "pregunta": "¿Qué control protege la exactitud?",
+    "correcta": "Comparar la referencia retirada con la solicitada",
+    "incorrectas": [
+      "Retirar cualquiera con aspecto similar",
+      "Verificar únicamente el destino del camión",
+      "Omitir la cantidad si coincide el estante",
+      "Despachar antes de identificar la pieza",
+      "Contar solo cajas en recepción"
+    ],
+    "pista": "La apariencia similar no identifica necesariamente la referencia.",
+    "explicacion": "El picking exige verificar la referencia y la cantidad del pedido.",
+    "libro": "clase3_picking"
+  },
+  {
+    "id": "caso-clase3-10",
+    "tipo": "caso",
+    "titulo": "Mercancía delicada",
+    "situacion": "Una empresa proyecta guardar artículos frágiles y pesados en el mismo depósito.",
+    "pregunta": "¿Qué información debe considerar al diseñarlo?",
+    "correcta": "Peso, dimensiones, conservación y equipos",
+    "incorrectas": [
+      "Solo el color de las etiquetas",
+      "Solo la cantidad de oficinas",
+      "Únicamente el nombre del cliente",
+      "Solo la fecha de apertura",
+      "Únicamente el número de pedidos sin mirar productos"
+    ],
+    "pista": "Pensá en las características físicas y el manejo.",
+    "explicacion": "El diseño depende de las mercancías, condiciones de conservación, equipos y seguridad.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "caso-clase3-11",
+    "tipo": "caso",
+    "titulo": "Rutas cruzadas",
+    "situacion": "Los carros de entrada y de salida se cruzan repetidamente y esperan para pasar.",
+    "pregunta": "¿Qué aspecto conviene revisar?",
+    "correcta": "La disposición de áreas y los flujos internos",
+    "incorrectas": [
+      "Solo el título del almacén",
+      "El nombre de cada proveedor",
+      "Únicamente el formato de la factura",
+      "La rotulación del cliente sin revisar recorridos",
+      "La frecuencia de inventario sin observar el tránsito"
+    ],
+    "pista": "El problema aparece en el recorrido físico.",
+    "explicacion": "Planificar flujos busca reducir cruces y esperas innecesarias.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "caso-clase3-12",
+    "tipo": "caso",
+    "titulo": "Muelles próximos",
+    "situacion": "Recepción y expedición se encuentran cerca una de otra y se estudia un recorrido acorde.",
+    "pregunta": "¿Qué forma de flujo merece evaluarse?",
+    "correcta": "En U",
+    "incorrectas": [
+      "Siempre lineal, sin mirar el edificio",
+      "Solo en T, por la cantidad de productos",
+      "Solo en L, por el tipo de pedido",
+      "Una forma elegida sin observar muelles",
+      "Ningún flujo, porque existen dos muelles"
+    ],
+    "pista": "La entrada y la salida quedan próximas; la elección final depende de la operación.",
+    "explicacion": "Un flujo en U puede evaluarse cuando entrada y salida están próximas.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "caso-clase3-13",
+    "tipo": "caso",
+    "titulo": "Abastecer la fábrica",
+    "situacion": "Una instalación conserva insumos que se entregarán a producción.",
+    "pregunta": "¿Cómo se clasifica según su función?",
+    "correcta": "Almacén de materias primas",
+    "incorrectas": [
+      "De productos terminados",
+      "De distribución al cliente final exclusivamente",
+      "Área de expedición",
+      "Sector de picking",
+      "Sistema de gestión"
+    ],
+    "pista": "Los artículos todavía son insumos para fabricar.",
+    "explicacion": "Un almacén de materias primas guarda insumos para producción.",
     "libro": "clase3_conceptos"
+  },
+  {
+    "id": "caso-clase3-14",
+    "tipo": "caso",
+    "titulo": "Después de fabricar",
+    "situacion": "Los artículos ya elaborados esperan su distribución en una instalación separada.",
+    "pregunta": "¿Qué tipo de almacén describe mejor el caso?",
+    "correcta": "De productos terminados",
+    "incorrectas": [
+      "De materias primas",
+      "De insumos sin procesar",
+      "Área de recepción exclusivamente",
+      "Zona de reposición exclusivamente",
+      "Sistema de picking"
+    ],
+    "pista": "La producción ya terminó.",
+    "explicacion": "El almacén de terminados conserva lo producido antes de distribuirlo.",
+    "libro": "clase3_conceptos"
+  },
+  {
+    "id": "caso-clase3-15",
+    "tipo": "caso",
+    "titulo": "Pedido rápido pero equivocado",
+    "situacion": "Un equipo reduce el tiempo de preparación, aunque entrega referencias incorrectas.",
+    "pregunta": "¿Cómo debe evaluarse el resultado?",
+    "correcta": "Es insuficiente: también debe medirse la exactitud",
+    "incorrectas": [
+      "Es correcto porque solo importa la velocidad",
+      "Es correcto si no se registran errores",
+      "La exactitud se limita a recepción",
+      "La cantidad no importa si el embalaje cierra",
+      "El destino reemplaza la identificación de la referencia"
+    ],
+    "pista": "El servicio depende de que el cliente reciba lo pedido.",
+    "explicacion": "La calidad del picking combina tiempo, referencias, cantidades y condición del pedido.",
+    "libro": "clase3_picking"
+  },
+  {
+    "id": "caso-clase3-16",
+    "tipo": "caso",
+    "titulo": "Diferencia de inventario",
+    "situacion": "El conteo físico no coincide con el registro de una referencia.",
+    "pregunta": "¿Qué investigación es más útil?",
+    "correcta": "Revisar los movimientos y ubicaciones registrados",
+    "incorrectas": [
+      "Cambiar el nombre del producto sin contar",
+      "Dar por correcto el registro sin comprobar",
+      "Eliminar el pedido del cliente",
+      "Modificar el muelle de salida sin revisar stock",
+      "Medir solo el ancho del pasillo"
+    ],
+    "pista": "Buscá la conexión entre existencia física e información.",
+    "explicacion": "Los movimientos y ubicaciones permiten investigar la diferencia.",
+    "libro": "clase3_informacion"
+  },
+  {
+    "id": "caso-clase3-17",
+    "tipo": "caso",
+    "titulo": "Lugar para alta rotación",
+    "situacion": "Se revisa la ubicación de artículos pedidos con frecuencia para reducir desplazamientos.",
+    "pregunta": "¿Qué criterio se está usando?",
+    "correcta": "Rotación y recorridos de preparación",
+    "incorrectas": [
+      "Solo color del embalaje",
+      "Orden alfabético del cliente sin considerar recorridos",
+      "Forma del comprobante",
+      "Fecha de pintura del edificio",
+      "Nombre del transportista"
+    ],
+    "pista": "Importa cuántas veces se necesita acceder al producto.",
+    "explicacion": "La rotación y los recorridos son criterios de diseño del almacén.",
+    "libro": "clase3_diseno"
+  },
+  {
+    "id": "caso-clase3-18",
+    "tipo": "caso",
+    "titulo": "Pedido de varias zonas",
+    "situacion": "El operario retiró todos los artículos correctos, pero aún falta embalarlos y controlar su salida.",
+    "pregunta": "¿Qué secuencia es coherente?",
+    "correcta": "Consolidar o embalar y luego expedir",
+    "incorrectas": [
+      "Expedir y después recibir el pedido",
+      "Reponer el proveedor y eliminar el control",
+      "Ubicar como ingreso y después recibir",
+      "Dar por entregado antes de reunir los artículos",
+      "Registrar una entrada en lugar de preparar la salida"
+    ],
+    "pista": "Después de recoger hay que completar el pedido antes de su salida.",
+    "explicacion": "La consolidación y el embalaje preceden al control de expedición.",
+    "libro": "clase3_operaciones"
   }
 ]

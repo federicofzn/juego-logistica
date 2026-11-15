@@ -5,26 +5,78 @@
   },
   "entradas": {
     "clase1_conceptos": {
-      "categoria": "Conceptos principales",
-      "titulo": "Clase 1: Introducción a la logística",
+      "categoria": "Fundamentos",
+      "titulo": "Logística y cadena de suministro",
       "intro": [
-        "Estos conceptos se basan en los materiales locales de la clase y ayudan a resolver los desafíos."
+        "La logística coordina flujos para satisfacer los requisitos del cliente, desde el origen hasta el consumo."
       ],
       "notas": [
-        "Logística: Planificación, ejecución y control del movimiento y almacenamiento de bienes y la información relacionada.",
-        "Cadena de suministro: Red de organizaciones y procesos que intervienen desde los insumos hasta el cliente final.",
-        "Administración de materiales: Gestión del abastecimiento y movimiento de materiales necesarios para la producción o el servicio.",
-        "Distribución física: Gestión del almacenamiento y movimiento de productos terminados hacia el cliente.",
-        "Logística inversa: Gestión del retorno de productos, envases o materiales desde el cliente hacia otro destino.",
-        "Nivel de servicio: Condiciones de disponibilidad, cumplimiento y respuesta ofrecidas al cliente."
+        "Incluye planificar, ejecutar y controlar movimiento, almacenamiento e información; no se limita al transporte.",
+        "La cadena de suministro abarca además las relaciones y procesos de proveedores, fabricación, distribución, ventas y clientes.",
+        "La logística es parte de esa cadena más amplia y conecta la producción con el mercado."
       ],
       "ejemplos": [
-        "Una empresa coordina inventario, depósito y entregas para atender sus pedidos.",
-        "Un fabricante coordina proveedores, producción, distribuidores y clientes.",
-        "Se coordinan compras, recepción y almacenamiento de materias primas.",
-        "Un depósito prepara productos terminados para enviarlos a los comercios.",
-        "Un comercio organiza la devolución de artículos defectuosos para su reparación.",
-        "Una empresa mide si entrega los pedidos completos y en el plazo prometido."
+        "Una fábrica coordina inventario y transporte; su cadena también incluye proveedores y comercios."
+      ]
+    },
+    "clase1_flujos": {
+      "categoria": "Operaciones",
+      "titulo": "Materiales y distribución física",
+      "intro": [
+        "Dos grandes divisiones permiten analizar distintos momentos del flujo."
+      ],
+      "notas": [
+        "La administración de materiales comprende abastecimiento, recepción, inventario y movimiento de insumos hacia la producción o el servicio.",
+        "La distribución física organiza almacenamiento, preparación y transporte de productos terminados hacia los clientes.",
+        "El almacén recibe y controla mercadería, conserva existencias y prepara y despacha pedidos."
+      ],
+      "ejemplos": [
+        "Una panificadora recibe harina para elaborar y después despacha pan a comercios."
+      ]
+    },
+    "clase1_fases": {
+      "categoria": "Operaciones",
+      "titulo": "Fases y tipos de organización",
+      "intro": [
+        "Las actividades concretas dependen de lo que hace cada organización."
+      ],
+      "notas": [
+        "En una fabricante se distinguen aprovisionamiento, producción y distribución.",
+        "Una comercializadora compra productos terminados y puede almacenarlos y consolidarlos antes de distribuirlos; no necesita fabricarlos.",
+        "Las cadenas de servicios dependen especialmente de las personas y pueden organizarse de modo diferente de las industriales."
+      ],
+      "ejemplos": [
+        "Un distribuidor reúne productos terminados de varios proveedores antes de enviarlos a tiendas."
+      ]
+    },
+    "clase1_inversa": {
+      "categoria": "Retornos",
+      "titulo": "Logística inversa y ambiente",
+      "intro": [
+        "El flujo también puede partir del consumo y dirigirse hacia una recuperación o destino adecuado."
+      ],
+      "notas": [
+        "Una devolución puede llevar a reparación, reutilización, reciclaje, refabricación o eliminación adecuada según el caso.",
+        "Recuperar componentes o envases puede conservar valor y reducir residuos, pero exige organizar y costear el retorno.",
+        "La logística ambiental busca disminuir impactos; la inversa es una vía posible, no una garantía de recuperación en todos los casos."
+      ],
+      "ejemplos": [
+        "Un comercio recibe un equipo averiado y lo deriva a diagnóstico y reparación."
+      ]
+    },
+    "clase1_areas": {
+      "categoria": "Coordinación",
+      "titulo": "Compras, ventas y servicio",
+      "intro": [
+        "Las decisiones comerciales y de abastecimiento deben coordinarse con las capacidades logísticas."
+      ],
+      "notas": [
+        "Compras acuerda proveedores, cantidades y condiciones; logística coordina recepción, transporte, inventario y almacenamiento.",
+        "Ventas y marketing necesitan conocer disponibilidad, cobertura y plazos antes de prometer una entrega.",
+        "Un pedido correcto, completo y en condiciones favorece la satisfacción; faltantes o demoras pueden perjudicar ventas e imagen."
+      ],
+      "ejemplos": [
+        "Antes de una promoción, ventas consulta el stock y compras coordina reposición y fechas con el proveedor."
       ]
     }
   }
