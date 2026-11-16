@@ -2034,19 +2034,12 @@ button.match-item:not(:disabled):hover {
 .app-shell.book-fullscreen .book-panel > .book-entry,
 .app-shell.book-fullscreen .book-panel > .book-unit-heading {
   width: 100%;
-  max-width: 56ch;
+  max-width: 80ch;
   margin-inline: auto;
 }
 
 .app-shell.book-fullscreen .book-panel > .book-unit-heading {
-  max-width: calc(56ch / 1.1);
-}
-
-.app-shell.book-fullscreen .book-entry > .book-figure {
-  position: relative;
-  left: 50%;
-  width: max(100%, min(720px, calc(100vw - 6rem)));
-  transform: translateX(-50%);
+  max-width: calc(80ch / 1.1);
 }
 
 .book-empty {
